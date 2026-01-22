@@ -1,0 +1,15 @@
+{
+  "extends": [
+    // "@tsconfig/bun",
+    "@tsconfig/recommended",
+    "@tsconfig/node24",
+    "@tsconfig/strictest"
+  ],
+  "compilerOptions": {
+    "outDir": "./dist",
+    "sourceMap": false,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
