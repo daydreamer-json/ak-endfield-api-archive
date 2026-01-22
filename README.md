@@ -2,7 +2,7 @@
 
 Monitor changes to responses from various Arknights Endfield APIs and record them in this repository.
 
-Updates are checked hourly and automatically pushed via GitHub Actions.  
+Updates are checked about every 30 minutes and automatically pushed to GitHub Actions.  
 API outputs are stored in the [`output`](/output/) directory.
 
 The APIs currently being monitored are as follows:
