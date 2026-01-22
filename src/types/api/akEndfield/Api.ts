@@ -106,6 +106,94 @@ type LauncherWebAnnouncement = {
   }[];
 };
 
+type AccSrvUserAuthV1TokenByEmail = {
+  data: {
+    token: string;
+    hgId: string; // hypergryph account id
+    email: string; // obfuscated email
+    isLatestUserAgreement: boolean;
+  };
+  msg: string;
+  status: number;
+  type: string;
+};
+
+type AccSrvUserInfoV1Basic = {
+  data: {
+    hgId: string; // hypergryph account id
+    email: string; // obfuscated email
+    realEmail: string; // un-obfuscated email
+    isLatestUserAgreement: boolean;
+    nickName: string;
+    emailSubscription: boolean; // ???
+    extension: { firebaseHashedInfo: string };
+    ageGate: {
+      ageAuthState: number;
+      bindEmail: boolean;
+      parentAuthState: number;
+      regionInfo: Record<
+        | 'de-de'
+        | 'en-us' // Japan
+        | 'es-mx'
+        | 'fr-fr'
+        | 'id-id'
+        | 'it-it'
+        | 'ja-jp' // 日本
+        | 'ko-kr'
+        | 'pt-br'
+        | 'ru-ru'
+        | 'th-th'
+        | 'vi-vn'
+        | 'zh-cn' // 日本
+        | 'zh-tw',
+        string
+      >;
+      regionCode: string; // JP
+    };
+  };
+  msg: string;
+  status: number;
+  type: string;
+};
+
+type AccSrvUserOAuth2V2Grant = {
+  data: {
+    uid: string; // ???
+    code: string; // this is channel token
+  };
+  msg: string; // OK, Login status expired.
+  status: number; // 0=OK, 3=expired
+  type: string;
+};
+
+type U8UserAuthV2ChToken = {
+  data: {
+    token: string;
+    isNew: boolean;
+    uid: string; // number, game overall uid?
+  };
+  msg: string;
+  status: number;
+  type: string;
+};
+
+type U8GameServerV1ServerList = {
+  data: {
+    serverList: {
+      serverId: string; // number
+      serverName: string; // Asia
+      serverDomain: string; // jsonStr [{"host": "beyond-asiapacific.gryphline.com", "port": 30000}]
+      defaultChoose: boolean;
+      roleId: string; // the so-called UID elsewhere
+      level: number; // playerLv
+      extension: string; // jsonStr {"offsetSeconds": -18000, "monthlyCardOffsetSecond": -18000}
+    }[];
+  };
+  msg: string;
+  status: number;
+  type: string;
+};
+
 export type {
   LauncherLatestGame,
   LauncherLatestGameResources,
@@ -115,4 +203,9 @@ export type {
   LauncherWebMainBgImage,
   LauncherWebBanner,
   LauncherWebAnnouncement,
+  AccSrvUserAuthV1TokenByEmail,
+  AccSrvUserInfoV1Basic,
+  AccSrvUserOAuth2V2Grant,
+  U8UserAuthV2ChToken,
+  U8GameServerV1ServerList,
 };

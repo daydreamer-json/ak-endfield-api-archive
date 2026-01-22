@@ -42,6 +42,27 @@ async function parseCommand() {
       },
       wrapHandler(cmds.test),
     )
+    .command(
+      ['authTest [token] [email] [password]'],
+      'Auth test command',
+      (yargs) => {
+        yargs
+          .positional('token', {
+            describe: 'Gryphline account service token',
+            type: 'string',
+          })
+          .positional('email', {
+            describe: 'Gryphline account email address',
+            type: 'string',
+          })
+          .positional('password', {
+            describe: 'Gryphline account password',
+            type: 'string',
+          })
+          .options({});
+      },
+      wrapHandler(cmds.authTest),
+    )
     .options({
       'log-level': {
         desc: 'Set log level (' + TypesLogLevels.LOG_LEVELS_NUM.join(', ') + ')',

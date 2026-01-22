@@ -81,8 +81,8 @@ async function mainCmdHandler() {
   await (async () => {
     logger.debug('Fetching latestGame ...');
     const rsp = await apiUtils.apiAkEndfield.launcher.latestGame(
-      cfg.appCode.osWinRel,
-      cfg.launcherAppCode.osWinRel,
+      cfg.appCode.game.osWinRel,
+      cfg.appCode.launcher.osWinRel,
       cfg.channel.osWinRel,
       cfg.channel.osWinRel,
       cfg.channel.osWinRel,
@@ -103,8 +103,8 @@ async function mainCmdHandler() {
     );
     const prettyRsp = {
       req: {
-        appCode: cfg.appCode.osWinRel,
-        launcherAppCode: cfg.launcherAppCode.osWinRel,
+        appCode: cfg.appCode.game.osWinRel,
+        launcherAppCode: cfg.appCode.launcher.osWinRel,
         channel: cfg.channel.osWinRel,
         subChannel: cfg.channel.osWinRel,
         launcherSubChannel: cfg.channel.osWinRel,
@@ -147,7 +147,7 @@ async function mainCmdHandler() {
     for (const versionInfoEntry of versionInfoList) {
       if (!versionInfoEntry.randStr) throw new Error('version rand_str not found');
       const rsp = await apiUtils.apiAkEndfield.launcher.latestGameResources(
-        cfg.appCode.osWinRel,
+        cfg.appCode.game.osWinRel,
         versionInfoEntry.versionMinor,
         versionInfoEntry.version,
         versionInfoEntry.randStr,
@@ -155,7 +155,7 @@ async function mainCmdHandler() {
       logger.info(`Fetched latestGameRes: v${versionInfoEntry.version}, ${rsp.res_version}`);
       const prettyRsp = {
         req: {
-          appCode: cfg.appCode.osWinRel,
+          appCode: cfg.appCode.game.osWinRel,
           gameVersion: versionInfoEntry.versionMinor,
           version: versionInfoEntry.version,
           randStr: versionInfoEntry.randStr,
@@ -178,7 +178,7 @@ async function mainCmdHandler() {
     const launcherTargetAppList = ['EndField', 'official'] as const;
     for (const launcherTargetAppEntry of launcherTargetAppList) {
       const rsp = await apiUtils.apiAkEndfield.launcher.latestLauncher(
-        cfg.launcherAppCode.osWinRel,
+        cfg.appCode.launcher.osWinRel,
         cfg.channel.osWinRel,
         cfg.channel.osWinRel,
         null,
@@ -187,7 +187,7 @@ async function mainCmdHandler() {
       logger.info(`Fetched latestLauncher: v${rsp.version}, ${launcherTargetAppEntry}`);
       const prettyRsp = {
         req: {
-          appCode: cfg.launcherAppCode.osWinRel,
+          appCode: cfg.appCode.launcher.osWinRel,
           channel: cfg.channel.osWinRel,
           subChannel: cfg.channel.osWinRel,
           targetApp: launcherTargetAppEntry === 'official' ? null : launcherTargetAppEntry,
