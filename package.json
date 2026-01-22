@@ -1,0 +1,52 @@
+{
+  "name": "ak-endfield-api-archive",
+  "version": "0.1.0",
+  "description": "Arknights Endfield game API response archive",
+  "author": "daydreamer-json <atarakima1@icloud.com> (https://github.com/daydreamer-json)",
+  "license": "AGPL-3.0-or-later",
+  "module": "src/main.ts",
+  "type": "module",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daydreamer-json/ak-endfield-api-archive.git"
+  },
+  "scripts": {
+    "format": "bun x biome format --write src && bun x oxfmt",
+    "start": "bun x biome format --write src && bun x oxfmt && bun src/main.ts"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "cli-table3": "^0.6.5",
+    "deepmerge": "^4.3.1",
+    "ky": "^1.14.2",
+    "log4js": "^6.9.1",
+    "luxon": "^3.7.2",
+    "ora": "^9.1.0",
+    "p-queue": "^9.1.0",
+    "qs": "^6.14.1",
+    "semver": "^7.7.3",
+    "uuid": "^13.0.0",
+    "yaml": "^2.8.2",
+    "yargs": "^18.0.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.3.11",
+    "@tsconfig/bun": "^1.0.10",
+    "@tsconfig/node24": "^24.0.4",
+    "@tsconfig/recommended": "^1.0.13",
+    "@tsconfig/strictest": "^2.0.8",
+    "@types/bun": "latest",
+    "@types/luxon": "^3.7.1",
+    "@types/node": "^25.0.9",
+    "@types/qs": "^6.14.0",
+    "@types/semver": "^7.7.1",
+    "@types/uuid": "^11.0.0",
+    "@types/yargs": "^17.0.35",
+    "nodemon": "^3.1.11",
+    "oxfmt": "^0.26.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
