@@ -5,48 +5,29 @@ import apiUtils from '../utils/api.js';
 import argvUtils from '../utils/argv.js';
 import appConfig from '../utils/config.js';
 import logger from '../utils/logger.js';
+import mathUtils from '../utils/math.js';
 
 async function mainCmdHandler() {
   const cfg = appConfig.network.api.akEndfield;
 
-  await (async () => {
-    const channel = appConfig.network.api.akEndfield.channel.osWinRel;
-    logger.debug('apiAkEndfield.launcher.latestGame fetching ...');
-    console.log(
-      await apiUtils.apiAkEndfield.launcher.latestGame(
-        appConfig.network.api.akEndfield.appCode.osWinRel,
-        appConfig.network.api.akEndfield.launcherAppCode.osWinRel,
-        channel,
-        channel,
-        channel,
-        null,
-      ),
-    );
-    logger.debug('apiAkEndfield.launcher.latestLauncher fetching ...');
-    console.log(
-      await apiUtils.apiAkEndfield.launcher.latestLauncher(
-        appConfig.network.api.akEndfield.launcherAppCode.osWinRel,
-        channel,
-        channel,
-        null,
-        null,
-      ),
-    );
-    logger.debug('apiAkEndfield.launcher.web fetching ...');
-    for (const fn of [
-      apiUtils.apiAkEndfield.launcher.web.sidebar,
-      apiUtils.apiAkEndfield.launcher.web.singleEnt,
-      apiUtils.apiAkEndfield.launcher.web.mainBgImage,
-      apiUtils.apiAkEndfield.launcher.web.banner,
-      apiUtils.apiAkEndfield.launcher.web.announcement,
-    ]) {
-      console.dir(await fn(appConfig.network.api.akEndfield.appCode.osWinRel, channel, channel, 'ja-jp'), {
-        depth: null,
-      });
-    }
-  })();
+  // await (async () => {
+  //   const channel = appConfig.network.api.akEndfield.channel.osWinRel;
+  //   logger.debug('apiAkEndfield.launcher.web fetching ...');
+  //   for (const fn of [
+  //     apiUtils.apiAkEndfield.launcher.web.sidebar,
+  //     apiUtils.apiAkEndfield.launcher.web.singleEnt,
+  //     apiUtils.apiAkEndfield.launcher.web.mainBgImage,
+  //     apiUtils.apiAkEndfield.launcher.web.banner,
+  //     apiUtils.apiAkEndfield.launcher.web.announcement,
+  //   ]) {
+  //     console.dir(await fn(appConfig.network.api.akEndfield.appCode.osWinRel, channel, channel, 'ja-jp'), {
+  //       depth: null,
+  //     });
+  //   }
+  // })();
 
   await (async () => {
+    logger.debug('Fetching latestGame ...');
     const rsp = await apiUtils.apiAkEndfield.launcher.latestGame(
       cfg.appCode.osWinRel,
       cfg.launcherAppCode.osWinRel,
@@ -54,6 +35,19 @@ async function mainCmdHandler() {
       cfg.channel.osWinRel,
       cfg.channel.osWinRel,
       null,
+    );
+    logger.info(
+      `Fetched latestGame: v${rsp.version}, ${mathUtils.formatFileSize(
+        parseInt(rsp.pkg.total_size) - mathUtils.arrayTotal(rsp.pkg.packs.map((e) => parseInt(e.package_size))),
+        {
+          decimals: 2,
+          decimalPadding: true,
+          useBinaryUnit: true,
+          useBitUnit: false,
+          unitVisible: true,
+          unit: null,
+        },
+      )}`,
     );
     const prettyRsp = {
       req: {
@@ -98,6 +92,8 @@ async function mainCmdHandler() {
   })();
 
   await (async () => {
+    logger.debug('Fetching latestGameRes ...');
+
     const versionInfoList = (
       (
         await Bun.file(
@@ -134,6 +130,7 @@ async function mainCmdHandler() {
         versionInfoEntry.version,
         versionInfoEntry.randStr,
       );
+      logger.info(`Fetched latestGameRes: v${versionInfoEntry.version}, ${rsp.res_version}`);
       const prettyRsp = {
         req: {
           appCode: cfg.appCode.osWinRel,
@@ -177,6 +174,7 @@ async function mainCmdHandler() {
   })();
 
   await (async () => {
+    logger.debug('Fetching latestLauncher ...');
     const launcherTargetAppList = ['EndField', 'official'] as const;
     for (const launcherTargetAppEntry of launcherTargetAppList) {
       const rsp = await apiUtils.apiAkEndfield.launcher.latestLauncher(
@@ -186,6 +184,7 @@ async function mainCmdHandler() {
         null,
         launcherTargetAppEntry === 'official' ? null : launcherTargetAppEntry,
       );
+      logger.info(`Fetched latestLauncher: v${rsp.version}, ${launcherTargetAppEntry}`);
       const prettyRsp = {
         req: {
           appCode: cfg.launcherAppCode.osWinRel,
