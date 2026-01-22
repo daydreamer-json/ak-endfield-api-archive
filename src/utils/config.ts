@@ -15,8 +15,12 @@ type ConfigType = AllRequired<
     network: {
       api: {
         akEndfield: {
-          appCode: { osWinRel: string };
-          launcherAppCode: { osWinRel: string };
+          appCode: {
+            game: { osWinRel: string };
+            launcher: { osWinRel: string };
+            accountService: { osWinRel: string };
+            u8: { osWinRel: string };
+          };
           channel: { osWinRel: number };
           base: {
             accountService: string;
@@ -55,8 +59,12 @@ const initialConfig: ConfigType = {
   network: {
     api: {
       akEndfield: {
-        appCode: { osWinRel: 'YDUTE5gscDZ229CW' },
-        launcherAppCode: { osWinRel: 'TiaytKBUIEdoEwRT' },
+        appCode: {
+          game: { osWinRel: 'YDUTE5gscDZ229CW' },
+          launcher: { osWinRel: 'TiaytKBUIEdoEwRT' },
+          accountService: { osWinRel: 'd9f6dbb6bbd6bb33' },
+          u8: { osWinRel: '973bd727dd11cbb6ead8' },
+        },
         channel: { osWinRel: 6 },
         base: {
           accountService: 'YXMuZ3J5cGhsaW5lLmNvbQ==',

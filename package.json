@@ -16,6 +16,7 @@
     "start": "bun x biome format --write src && bun x oxfmt && bun src/main.ts"
   },
   "dependencies": {
+    "@types/prompts": "^2.4.9",
     "chalk": "^5.6.2",
     "cli-table3": "^0.6.5",
     "deepmerge": "^4.3.1",
@@ -24,6 +25,7 @@
     "luxon": "^3.7.2",
     "ora": "^9.1.0",
     "p-queue": "^9.1.0",
+    "prompts": "^2.4.2",
     "qs": "^6.14.1",
     "semver": "^7.7.3",
     "uuid": "^13.0.0",
