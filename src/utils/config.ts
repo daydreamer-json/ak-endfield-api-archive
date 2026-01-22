@@ -1,4 +1,3 @@
-import path from 'node:path';
 import deepmerge from 'deepmerge';
 import YAML from 'yaml';
 // import * as TypesGameEntry from '../types/GameEntry.js';
@@ -13,9 +12,6 @@ type AllRequired<T> = Required<{
 
 type ConfigType = AllRequired<
   Freeze<{
-    file: {
-      outputDirPath: string;
-    };
     network: {
       api: {
         akEndfield: {
@@ -56,9 +52,6 @@ type ConfigType = AllRequired<
 >;
 
 const initialConfig: ConfigType = {
-  file: {
-    outputDirPath: path.resolve('output'),
-  },
   network: {
     api: {
       akEndfield: {

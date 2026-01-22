@@ -1,3 +1,4 @@
+import path from 'node:path';
 import yargs from 'yargs';
 import { hideBin } from 'yargs/helpers';
 import cmds from './cmds.js';
@@ -33,7 +34,7 @@ async function parseCommand() {
           'output-dir': {
             alias: ['o'],
             desc: 'Output root directory',
-            default: appConfig.file.outputDirPath,
+            default: path.resolve('output'),
             normalize: true,
             type: 'string',
           },
