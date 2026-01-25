@@ -44,7 +44,7 @@ async function parseCommand() {
     )
     .command(
       ['authTest [token] [email] [password]'],
-      'Auth test command',
+      'Auth and gacha fetch test command',
       (yargs) => {
         yargs
           .positional('token', {
