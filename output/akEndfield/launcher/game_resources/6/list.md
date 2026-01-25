@@ -1,0 +1,7 @@
+# Game Resources
+
+| Res version                          | Initial                                                                                                                 | Main                                                                                                                 | Game version   |
+| ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------- |
+| `initial_5327933-13_main_5327933-13` | [5327933-13](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/Windows/initial/5327933-13_MxibWISDlHu4FYDu/files) | [5327933-13](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/Windows/main/5327933-13_pYX1R4dE1CSyfylE/files) | 1.0.13         |
+| `initial_5340632-14_main_5340632-14` | [5340632-14](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/Windows/initial/5340632-14_dQKNcTzL53b3s9ZH/files) | [5340632-14](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/Windows/main/5340632-14_9p3lPE9qFFEWBOaC/files) | 1.0.13         |
+| `initial_5367902-17_main_5367902-17` | [5367902-17](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/Windows/initial/5367902-17_LrQj49LPFpyDgIej/files) | [5367902-17](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/Windows/main/5367902-17_fLACemodWWueNQYf/files) | 1.0.13, 1.0.14 |
