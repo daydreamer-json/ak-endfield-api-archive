@@ -18,7 +18,7 @@ type ConfigType = AllRequired<
           appCode: {
             game: { osWinRel: string };
             launcher: { osWinRel: string };
-            accountService: { osWinRel: string };
+            accountService: { osWinRel: string; skport: string; binding: string };
             u8: { osWinRel: string };
           };
           channel: { osWinRel: number };
@@ -26,6 +26,8 @@ type ConfigType = AllRequired<
             accountService: string;
             launcher: string;
             u8: string;
+            binding: string;
+            webview: string;
           };
         };
       };
@@ -62,7 +64,7 @@ const initialConfig: ConfigType = {
         appCode: {
           game: { osWinRel: 'YDUTE5gscDZ229CW' },
           launcher: { osWinRel: 'TiaytKBUIEdoEwRT' },
-          accountService: { osWinRel: 'd9f6dbb6bbd6bb33' },
+          accountService: { osWinRel: 'd9f6dbb6bbd6bb33', skport: '6eb76d4e13aa36e6', binding: '3dacefa138426cfe' },
           u8: { osWinRel: '973bd727dd11cbb6ead8' },
         },
         channel: { osWinRel: 6 },
@@ -70,6 +72,8 @@ const initialConfig: ConfigType = {
           accountService: 'YXMuZ3J5cGhsaW5lLmNvbQ==',
           launcher: 'bGF1bmNoZXIuZ3J5cGhsaW5lLmNvbS9hcGk=',
           u8: 'dTguZ3J5cGhsaW5lLmNvbQ==',
+          binding: 'YmluZGluZy1hcGktYWNjb3VudC1wcm9kLmdyeXBobGluZS5jb20=',
+          webview: 'ZWYtd2Vidmlldy5ncnlwaGxpbmUuY29t',
         },
       },
     },

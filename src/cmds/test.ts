@@ -1,5 +1,6 @@
 import path from 'node:path';
 import { DateTime } from 'luxon';
+import PQueue from 'p-queue';
 import semver from 'semver';
 import apiUtils from '../utils/api.js';
 import argvUtils from '../utils/argv.js';
@@ -116,6 +117,76 @@ async function mainCmdHandler() {
   })();
 
   await (async () => {
+    logger.debug('Fetching latestGame (patch) ...');
+    const gameAllJson = await Bun.file(
+      path.join(argvUtils.getArgv()['outputDir'], 'akEndfield', 'launcher', 'game', channelStr, 'all.json'),
+    ).json();
+    const patchAllJson = await Bun.file(
+      path.join(argvUtils.getArgv()['outputDir'], 'akEndfield', 'launcher', 'game', channelStr, 'all_patch.json'),
+    ).json();
+    const versionList = ([...new Set(gameAllJson.map((e: any) => e.rsp.version))] as string[])
+      .sort((a, b) => semver.compare(b, a))
+      .slice(1);
+    let needWrite: boolean = false;
+    const queue = new PQueue({ concurrency: appConfig.threadCount.network });
+    for (const ver of versionList) {
+      queue.add(async () => {
+        const rsp = await apiUtils.apiAkEndfield.launcher.latestGame(
+          cfg.appCode.game.osWinRel,
+          cfg.appCode.launcher.osWinRel,
+          cfg.channel.osWinRel,
+          cfg.channel.osWinRel,
+          cfg.channel.osWinRel,
+          ver,
+        );
+        const prettyRsp = {
+          req: {
+            appCode: cfg.appCode.game.osWinRel,
+            launcherAppCode: cfg.appCode.launcher.osWinRel,
+            channel: cfg.channel.osWinRel,
+            subChannel: cfg.channel.osWinRel,
+            launcherSubChannel: cfg.channel.osWinRel,
+            version: ver,
+          },
+          rsp,
+        };
+        if (rsp.patch === null) return;
+        if (
+          patchAllJson
+            .map((e: any) => JSON.stringify({ req: e.req, rsp: e.rsp }))
+            .includes(JSON.stringify(prettyRsp)) === false
+        ) {
+          logger.debug(
+            `Fetched latestGame (patch): v${rsp.request_version} -> v${rsp.version}, ${mathUtils.formatFileSize(
+              parseInt(rsp.patch.total_size) - parseInt(rsp.patch.package_size),
+              {
+                decimals: 2,
+                decimalPadding: true,
+                unitVisible: true,
+                useBinaryUnit: true,
+                useBitUnit: false,
+                unit: null,
+              },
+            )}`,
+          );
+          patchAllJson.push({
+            updatedAt: DateTime.now().toISO(),
+            ...prettyRsp,
+          });
+          needWrite = true;
+        }
+      });
+    }
+    await queue.onIdle();
+    if (needWrite) {
+      await Bun.write(
+        path.join(argvUtils.getArgv()['outputDir'], 'akEndfield', 'launcher', 'game', channelStr, 'all_patch.json'),
+        JSON.stringify(patchAllJson, null, 2),
+      );
+    }
+  })();
+
+  await (async () => {
     logger.debug('Fetching latestGameRes ...');
 
     const gameAllJsonPath = path.join(
@@ -201,6 +272,147 @@ async function mainCmdHandler() {
         prettyRsp,
       );
     }
+  })();
+
+  await (async () => {
+    //* Markdown generate
+    await (async () => {
+      const gameAllJson = await Bun.file(
+        path.join(argvUtils.getArgv()['outputDir'], 'akEndfield', 'launcher', 'game', channelStr, 'all.json'),
+      ).json();
+      const mdTexts: string[] = [];
+      mdTexts.push(
+        ...[
+          '# Game Packages\n',
+          ...gameAllJson.map(
+            (e: any) =>
+              `- [${e.rsp.version} (${DateTime.fromISO(e.updatedAt, { setZone: true }).setZone('UTC+8').toFormat('yyyy/MM/dd HH:mm:ss')})](#ver-${e.rsp.version}-${Math.ceil(DateTime.fromISO(e.updatedAt).toSeconds())})`,
+          ),
+          '',
+        ],
+        ...gameAllJson.map((e: any) =>
+          [
+            `<h2 id="ver-${e.rsp.version}-${Math.ceil(DateTime.fromISO(e.updatedAt).toSeconds())}">${e.rsp.version} (${DateTime.fromISO(e.updatedAt, { setZone: true }).setZone('UTC+8').toFormat('yyyy/MM/dd HH:mm:ss')})</h2>\n`,
+            `<table>`,
+            `  <tr><td>Unpacked Size</td><td style="text-align: right;"><b>${mathUtils.formatFileSize(
+              e.rsp.pkg.total_size - mathUtils.arrayTotal(e.rsp.pkg.packs.map((f: any) => parseInt(f.package_size))),
+              {
+                decimals: 2,
+                decimalPadding: true,
+                unitVisible: true,
+                useBinaryUnit: true,
+                useBitUnit: false,
+                unit: null,
+              },
+            )}</b></td></tr>`,
+            `  <tr><td>Packed Size</td><td style="text-align: right;"><b>${mathUtils.formatFileSize(mathUtils.arrayTotal(e.rsp.pkg.packs.map((f: any) => parseInt(f.package_size))), { decimals: 2, decimalPadding: true, unitVisible: true, useBinaryUnit: true, useBitUnit: false, unit: null })}</b></td></tr>`,
+            `</table>\n`,
+            `|File|MD5 Checksum|Size|`,
+            `|:--|:--|--:|`,
+            ...e.rsp.pkg.packs.map((f: any) => [
+              `|[${new URL(f.url).pathname.split('/').pop() ?? ''}](${f.url})|\`${f.md5}\`|${mathUtils.formatFileSize(parseInt(f.package_size), { decimals: 2, decimalPadding: true, unitVisible: true, useBinaryUnit: true, useBitUnit: false, unit: null })}|`,
+            ]),
+            '',
+          ].join('\n'),
+        ),
+      );
+      await Bun.write(
+        path.join(argvUtils.getArgv()['outputDir'], 'akEndfield', 'launcher', 'game', channelStr, 'list.md'),
+        mdTexts.join('\n'),
+      );
+    })();
+
+    await (async () => {
+      const gameAllJson = await Bun.file(
+        path.join(argvUtils.getArgv()['outputDir'], 'akEndfield', 'launcher', 'game', channelStr, 'all_patch.json'),
+      ).json();
+      const mdTexts: string[] = [];
+      mdTexts.push(
+        ...[
+          '# Game Patch Packages\n',
+          ...gameAllJson.map(
+            (e: any) =>
+              `- [${e.rsp.request_version} → ${e.rsp.version} (${DateTime.fromISO(e.updatedAt, { setZone: true }).setZone('UTC+8').toFormat('yyyy/MM/dd HH:mm:ss')})](#ver-${e.rsp.request_version}-${e.rsp.version}-${Math.ceil(DateTime.fromISO(e.updatedAt).toSeconds())})`,
+          ),
+          '',
+        ],
+        ...gameAllJson.map((e: any) =>
+          [
+            `<h2 id="ver-${e.rsp.request_version}-${e.rsp.version}-${Math.ceil(DateTime.fromISO(e.updatedAt).toSeconds())}">${e.rsp.request_version} → ${e.rsp.version} (${DateTime.fromISO(e.updatedAt, { setZone: true }).setZone('UTC+8').toFormat('yyyy/MM/dd HH:mm:ss')})</h2>\n`,
+            `<table>`,
+            `  <tr><td>Unpacked Size</td><td style="text-align: right;"><b>${mathUtils.formatFileSize(
+              e.rsp.patch.total_size -
+                mathUtils.arrayTotal(e.rsp.patch.patches.map((f: any) => parseInt(f.package_size))),
+              {
+                decimals: 2,
+                decimalPadding: true,
+                unitVisible: true,
+                useBinaryUnit: true,
+                useBitUnit: false,
+                unit: null,
+              },
+            )}</b></td></tr>`,
+            `  <tr><td>Packed Size</td><td style="text-align: right;"><b>${mathUtils.formatFileSize(mathUtils.arrayTotal(e.rsp.patch.patches.map((f: any) => parseInt(f.package_size))), { decimals: 2, decimalPadding: true, unitVisible: true, useBinaryUnit: true, useBitUnit: false, unit: null })}</b></td></tr>`,
+            `</table>\n`,
+            `|File|MD5 Checksum|Size|`,
+            `|:--|:--|--:|`,
+            ...(e.rsp.patch.url
+              ? [
+                  `|[${new URL(e.rsp.patch.url).pathname.split('/').pop() ?? ''}](${e.rsp.patch.url})|\`${e.rsp.patch.md5}\`|${mathUtils.formatFileSize(parseInt(e.rsp.patch.package_size), { decimals: 2, decimalPadding: true, unitVisible: true, useBinaryUnit: true, useBitUnit: false, unit: null })}|`,
+                ]
+              : []),
+            ...e.rsp.patch.patches.map((f: any) => [
+              `|[${new URL(f.url).pathname.split('/').pop() ?? ''}](${f.url})|\`${f.md5}\`|${mathUtils.formatFileSize(parseInt(f.package_size), { decimals: 2, decimalPadding: true, unitVisible: true, useBinaryUnit: true, useBitUnit: false, unit: null })}|`,
+            ]),
+            '',
+          ].join('\n'),
+        ),
+      );
+      await Bun.write(
+        path.join(argvUtils.getArgv()['outputDir'], 'akEndfield', 'launcher', 'game', channelStr, 'list_patch.md'),
+        mdTexts.join('\n'),
+      );
+    })();
+
+    await (async () => {
+      const gameAllJson = await Bun.file(
+        path.join(argvUtils.getArgv()['outputDir'], 'akEndfield', 'launcher', 'game_resources', channelStr, 'all.json'),
+      ).json();
+      const resVersionSet: {
+        resVersion: string;
+        rsp: { rsp: Awaited<ReturnType<typeof apiUtils.apiAkEndfield.launcher.latestGameResources>> };
+        versions: string[];
+      }[] = (() => {
+        const resVersions: string[] = [...new Set(gameAllJson.map((e: any) => e.rsp.res_version))] as string[];
+        const arr: { resVersion: string; rsp: any; versions: string[] }[] = [];
+        for (const resVersion of resVersions) {
+          arr.push({
+            resVersion,
+            rsp: gameAllJson.find((e: any) => e.rsp.res_version === resVersion),
+            versions: [
+              ...new Set(
+                gameAllJson.filter((e: any) => e.rsp.res_version === resVersion).map((e: any) => e.req.version),
+              ),
+            ] as string[],
+          });
+        }
+        return arr;
+      })();
+      const mdTexts: string[] = [];
+      mdTexts.push(
+        '# Game Resources\n',
+        '|Res version|Initial|Main|Game version|',
+        '|--|--|--|--|',
+        ...resVersionSet.map(
+          (resVerObj) =>
+            `|\`${resVerObj.rsp.rsp.res_version}\`|[${resVerObj.rsp.rsp.resources.find((e) => e.name === 'initial')!.version}](${resVerObj.rsp.rsp.resources.find((e) => e.name === 'initial')!.path})|[${resVerObj.rsp.rsp.resources.find((e) => e.name === 'main')!.version}](${resVerObj.rsp.rsp.resources.find((e) => e.name === 'main')!.path})|${resVerObj.versions.join(', ')}|`,
+        ),
+      );
+      await Bun.write(
+        path.join(argvUtils.getArgv()['outputDir'], 'akEndfield', 'launcher', 'game_resources', channelStr, 'list.md'),
+        mdTexts.join('\n'),
+      );
+    })();
   })();
 }
 
