@@ -269,18 +269,20 @@ export default {
         },
         oauth2: {
           v2: {
-            grant: async (
+            grant: async <T extends 0 | 1 = 0>(
               appCode: string,
               token: string,
-              type: number = 0,
-            ): Promise<TypesApiAkEndfield.AccSrvUserOAuth2V2Grant> => {
+              type: T = 0 as any, // 0 = return grant uid (Gxxxxxxxxx) and code, 1 = return hgId and token
+            ): Promise<
+              T extends 0 ? TypesApiAkEndfield.AccSrvUserOAuth2V2Grant : TypesApiAkEndfield.AccSrvUserOAuth2V2GrantType1
+            > => {
               const rsp = await ky
                 .post(`https://${appConfig.network.api.akEndfield.base.accountService}/user/oauth2/v2/grant`, {
                   ...defaultKySettings,
                   json: { appCode, token, type },
                 })
                 .json();
-              return rsp as TypesApiAkEndfield.AccSrvUserOAuth2V2Grant;
+              return rsp as any;
             },
           },
         },
@@ -294,6 +296,18 @@ export default {
                 })
                 .json();
               return rsp as TypesApiAkEndfield.AccSrvUserInfoV1Basic;
+            },
+            thirdParty: async (
+              appCode: string,
+              token: string,
+            ): Promise<TypesApiAkEndfield.AccSrvUserInfoV1ThirdParty> => {
+              const rsp = await ky
+                .get(`https://${appConfig.network.api.akEndfield.base.accountService}/user/info/v1/third_party`, {
+                  ...defaultKySettings,
+                  searchParams: { appCode, token },
+                })
+                .json();
+              return rsp as TypesApiAkEndfield.AccSrvUserInfoV1ThirdParty;
             },
           },
         },
@@ -328,6 +342,19 @@ export default {
                 .json();
               return rsp as TypesApiAkEndfield.U8UserAuthV2ChToken;
             },
+            grant: async (
+              token: string,
+              platform: number = 2,
+              type: number = 0,
+            ): Promise<TypesApiAkEndfield.U8UserAuthV2Grant> => {
+              const rsp = await ky
+                .post(`https://${appConfig.network.api.akEndfield.base.u8}/u8/user/auth/v2/grant`, {
+                  ...defaultKySettings,
+                  json: { token, type, platform },
+                })
+                .json();
+              return rsp as TypesApiAkEndfield.U8UserAuthV2Grant;
+            },
           },
         },
       },
@@ -345,6 +372,89 @@ export default {
             },
           },
         },
+        role: {
+          v1: {
+            confirmServer: async (
+              token: string,
+              serverId: number,
+            ): Promise<TypesApiAkEndfield.U8GameRoleV1ConfirmServer> => {
+              const rsp = await ky
+                .post(`https://${appConfig.network.api.akEndfield.base.u8}/game/role/v1/confirm_server`, {
+                  ...defaultKySettings,
+                  json: { token, serverId: String(serverId) },
+                })
+                .json();
+              return rsp as TypesApiAkEndfield.U8GameRoleV1ConfirmServer;
+            },
+          },
+        },
+      },
+    },
+    binding: {
+      account: {
+        binding: {
+          v1: {
+            bindingList: async (
+              // appCode: 'arknights' | 'endfield',
+              token: string,
+            ): Promise<TypesApiAkEndfield.BindApiAccBindV1BindList> => {
+              const rsp = await ky
+                .get(`https://${appConfig.network.api.akEndfield.base.binding}/account/binding/v1/binding_list`, {
+                  ...defaultKySettings,
+                  searchParams: { token },
+                })
+                .json();
+              return rsp as TypesApiAkEndfield.BindApiAccBindV1BindList;
+            },
+            u8TokenByUid: async (
+              token: string,
+              uid: string,
+            ): Promise<TypesApiAkEndfield.BindApiAccBindV1U8TokenByUid> => {
+              const rsp = await ky
+                .post(`https://${appConfig.network.api.akEndfield.base.binding}/account/binding/v1/u8_token_by_uid`, {
+                  ...defaultKySettings,
+                  json: { token, uid },
+                })
+                .json();
+              return rsp as TypesApiAkEndfield.BindApiAccBindV1U8TokenByUid;
+            },
+          },
+        },
+      },
+    },
+    webview: {
+      record: {
+        char: async (
+          token: string,
+          serverId: number, // 2 or 3
+          poolType:
+            | 'E_CharacterGachaPoolType_Beginner'
+            | 'E_CharacterGachaPoolType_Standard'
+            | 'E_CharacterGachaPoolType_Special',
+          seqId: string | null,
+          lang: (typeof launcherWebLang)[number] = 'ja-jp',
+        ): Promise<TypesApiAkEndfield.WebViewRecordChar> => {
+          const rsp = await ky
+            .get(`https://${appConfig.network.api.akEndfield.base.webview}/api/record/char`, {
+              ...defaultKySettings,
+              searchParams: { lang, seq_id: seqId ?? undefined, pool_type: poolType, token, server_id: serverId },
+            })
+            .json();
+          return rsp as TypesApiAkEndfield.WebViewRecordChar;
+        },
+      },
+      content: async (
+        serverId: number, // 2 or 3
+        poolId: string,
+        lang: (typeof launcherWebLang)[number] = 'ja-jp',
+      ): Promise<TypesApiAkEndfield.WebViewRecordContent> => {
+        const rsp = await ky
+          .get(`https://${appConfig.network.api.akEndfield.base.webview}/api/content`, {
+            ...defaultKySettings,
+            searchParams: { lang, pool_id: poolId, server_id: serverId },
+          })
+          .json();
+        return rsp as TypesApiAkEndfield.WebViewRecordContent;
       },
     },
   },
