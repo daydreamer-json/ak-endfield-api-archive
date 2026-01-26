@@ -11,6 +11,14 @@ The APIs currently being monitored are as follows:
   - Get latest game resources
   - Get latest launcher
 
+## Download Library
+
+To easily view information about past versions of game packages and other items, please refer to the following page.
+
+- [**Game packages**](/output/akEndfield/launcher/game/6/list.md)
+- [**Game patch packages**](/output/akEndfield/launcher/game/6/list_patch.md)
+- [**Game resources**](/output/akEndfield/launcher/game_resources/6/list.md)
+
 ## Disclaimer
 
 This project has no affiliation with Hypergryph and was created solely for private use, educational, and research purposes.
