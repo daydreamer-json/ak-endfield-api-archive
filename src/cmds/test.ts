@@ -189,6 +189,8 @@ async function mainCmdHandler() {
   await (async () => {
     logger.debug('Fetching latestGameRes ...');
 
+    const platforms = ['Windows', 'Android', 'iOS', 'PlayStation'] as const;
+
     const gameAllJsonPath = path.join(
       argvUtils.getArgv()['outputDir'],
       'akEndfield',
@@ -214,33 +216,38 @@ async function mainCmdHandler() {
         randStr: /_([^/]+)\/.+?$/.exec(e.pkg.file_path)![1],
       }))
       .sort((a, b) => semver.compare(b.version, a.version));
-    let isLatestWrote: boolean = false;
-    for (const versionInfoEntry of versionInfoList) {
-      if (!versionInfoEntry.randStr) throw new Error('version rand_str not found');
-      const rsp = await apiUtils.apiAkEndfield.launcher.latestGameResources(
-        cfg.appCode.game.osWinRel,
-        versionInfoEntry.versionMinor,
-        versionInfoEntry.version,
-        versionInfoEntry.randStr,
-      );
-      logger.info(`Fetched latestGameRes: v${versionInfoEntry.version}, ${rsp.res_version}`);
-      const prettyRsp = {
-        req: {
-          appCode: cfg.appCode.game.osWinRel,
-          gameVersion: versionInfoEntry.versionMinor,
-          version: versionInfoEntry.version,
-          randStr: versionInfoEntry.randStr,
-        },
-        rsp,
-      };
 
-      await saveResult(
-        ['akEndfield', 'launcher', 'game_resources', channelStr],
-        versionInfoEntry.version,
-        prettyRsp,
-        !isLatestWrote,
-      );
-      isLatestWrote = true;
+    for (const platform of platforms) {
+      let isLatestWrote: boolean = false;
+      for (const versionInfoEntry of versionInfoList) {
+        if (!versionInfoEntry.randStr) throw new Error('version rand_str not found');
+        const rsp = await apiUtils.apiAkEndfield.launcher.latestGameResources(
+          cfg.appCode.game.osWinRel,
+          versionInfoEntry.versionMinor,
+          versionInfoEntry.version,
+          versionInfoEntry.randStr,
+          platform,
+        );
+        logger.info(`Fetched latestGameRes: ${platform}, v${versionInfoEntry.version}, ${rsp.res_version}`);
+        const prettyRsp = {
+          req: {
+            appCode: cfg.appCode.game.osWinRel,
+            gameVersion: versionInfoEntry.versionMinor,
+            version: versionInfoEntry.version,
+            randStr: versionInfoEntry.randStr,
+            platform,
+          },
+          rsp,
+        };
+
+        await saveResult(
+          ['akEndfield', 'launcher', 'game_resources', channelStr, platform],
+          versionInfoEntry.version,
+          prettyRsp,
+          !isLatestWrote,
+        );
+        isLatestWrote = true;
+      }
     }
   })();
 
@@ -375,39 +382,62 @@ async function mainCmdHandler() {
     })();
 
     await (async () => {
-      const gameAllJson = await Bun.file(
-        path.join(argvUtils.getArgv()['outputDir'], 'akEndfield', 'launcher', 'game_resources', channelStr, 'all.json'),
-      ).json();
-      const resVersionSet: {
-        resVersion: string;
-        rsp: { rsp: Awaited<ReturnType<typeof apiUtils.apiAkEndfield.launcher.latestGameResources>> };
-        versions: string[];
-      }[] = (() => {
-        const resVersions: string[] = [...new Set(gameAllJson.map((e: any) => e.rsp.res_version))] as string[];
-        const arr: { resVersion: string; rsp: any; versions: string[] }[] = [];
-        for (const resVersion of resVersions) {
-          arr.push({
-            resVersion,
-            rsp: gameAllJson.find((e: any) => e.rsp.res_version === resVersion),
-            versions: [
-              ...new Set(
-                gameAllJson.filter((e: any) => e.rsp.res_version === resVersion).map((e: any) => e.req.version),
-              ),
-            ] as string[],
-          });
-        }
-        return arr;
-      })();
       const mdTexts: string[] = [];
       mdTexts.push(
         '# Game Resources\n',
-        '|Res version|Initial|Main|Game version|',
-        '|--|--|--|--|',
-        ...resVersionSet.map(
-          (resVerObj) =>
-            `|\`${resVerObj.rsp.rsp.res_version}\`|[${resVerObj.rsp.rsp.resources.find((e) => e.name === 'initial')!.version}](${resVerObj.rsp.rsp.resources.find((e) => e.name === 'initial')!.path})|[${resVerObj.rsp.rsp.resources.find((e) => e.name === 'main')!.version}](${resVerObj.rsp.rsp.resources.find((e) => e.name === 'main')!.path})|${resVerObj.versions.join(', ')}|`,
-        ),
+        '- [Windows](#res-Windows)',
+        '- [Android](#res-Android)',
+        '- [iOS](#res-iOS)',
+        '- [PlayStation](#res-PlayStation)\n',
       );
+      // `<h2 id="ver-${e.rsp.version}-${Math.ceil(DateTime.fromISO(e.updatedAt).toSeconds())}">${e.rsp.version} (${DateTime.fromISO(e.updatedAt, { setZone: true }).setZone('UTC+8').toFormat('yyyy/MM/dd HH:mm:ss')})</h2>\n`
+
+      const platforms = ['Windows', 'Android', 'iOS', 'PlayStation'] as const;
+
+      for (const platform of platforms) {
+        const gameAllJson = await Bun.file(
+          path.join(
+            argvUtils.getArgv()['outputDir'],
+            'akEndfield',
+            'launcher',
+            'game_resources',
+            channelStr,
+            platform,
+            'all.json',
+          ),
+        ).json();
+        const resVersionSet: {
+          resVersion: string;
+          rsp: { rsp: Awaited<ReturnType<typeof apiUtils.apiAkEndfield.launcher.latestGameResources>> };
+          versions: string[];
+        }[] = (() => {
+          const resVersions: string[] = [...new Set(gameAllJson.map((e: any) => e.rsp.res_version))] as string[];
+          const arr: { resVersion: string; rsp: any; versions: string[] }[] = [];
+          for (const resVersion of resVersions) {
+            arr.push({
+              resVersion,
+              rsp: gameAllJson.find((e: any) => e.rsp.res_version === resVersion),
+              versions: [
+                ...new Set(
+                  gameAllJson.filter((e: any) => e.rsp.res_version === resVersion).map((e: any) => e.req.version),
+                ),
+              ] as string[],
+            });
+          }
+          return arr;
+        })();
+        mdTexts.push(
+          `<h2 id="res-${platform}">${platform}</h2>\n`,
+          '|Res version|Initial|Main|Game version|',
+          '|--|--|--|--|',
+          ...resVersionSet.map(
+            (resVerObj) =>
+              `|\`${resVerObj.rsp.rsp.res_version}\`|[${resVerObj.rsp.rsp.resources.find((e) => e.name === 'initial')!.version}](${resVerObj.rsp.rsp.resources.find((e) => e.name === 'initial')!.path})|[${resVerObj.rsp.rsp.resources.find((e) => e.name === 'main')!.version}](${resVerObj.rsp.rsp.resources.find((e) => e.name === 'main')!.path})|${resVerObj.versions.sort((a, b) => semver.compare(b, a)).join(', ')}|`,
+          ),
+          '',
+        );
+      }
+
       await Bun.write(
         path.join(argvUtils.getArgv()['outputDir'], 'akEndfield', 'launcher', 'game_resources', channelStr, 'list.md'),
         mdTexts.join('\n'),

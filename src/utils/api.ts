@@ -61,7 +61,7 @@ export default {
         gameVersion: string, // example: 1.0
         version: string,
         randStr: string,
-        platform: 'Windows' = 'Windows',
+        platform: 'Windows' | 'Android' | 'iOS' | 'PlayStation',
       ): Promise<TypesApiAkEndfield.LauncherLatestGameResources> => {
         if (!semver.valid(version)) throw new Error(`Invalid version string (${version})`);
         const rsp = await ky
