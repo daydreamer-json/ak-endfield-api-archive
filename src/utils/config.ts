@@ -17,11 +17,12 @@ type ConfigType = AllRequired<
         akEndfield: {
           appCode: {
             game: { osWinRel: string };
-            launcher: { osWinRel: string };
+            launcher: { osWinRel: string; osWinRelEpic: string };
             accountService: { osWinRel: string; skport: string; binding: string };
             u8: { osWinRel: string };
           };
           channel: { osWinRel: number };
+          subChannel: { osWinRel: number; osWinRelEpic: number };
           base: {
             accountService: string;
             launcher: string;
@@ -63,11 +64,12 @@ const initialConfig: ConfigType = {
       akEndfield: {
         appCode: {
           game: { osWinRel: 'YDUTE5gscDZ229CW' },
-          launcher: { osWinRel: 'TiaytKBUIEdoEwRT' },
+          launcher: { osWinRel: 'TiaytKBUIEdoEwRT', osWinRelEpic: 'BBWoqCzuZ2bZ1Dro' },
           accountService: { osWinRel: 'd9f6dbb6bbd6bb33', skport: '6eb76d4e13aa36e6', binding: '3dacefa138426cfe' },
           u8: { osWinRel: '973bd727dd11cbb6ead8' },
         },
         channel: { osWinRel: 6 },
+        subChannel: { osWinRel: 6, osWinRelEpic: 801 },
         base: {
           accountService: 'YXMuZ3J5cGhsaW5lLmNvbQ==',
           launcher: 'bGF1bmNoZXIuZ3J5cGhsaW5lLmNvbS9hcGk=',
