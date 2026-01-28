@@ -15,8 +15,12 @@ The APIs currently being monitored are as follows:
 
 To easily view information about past versions of game packages and other items, please refer to the following page.
 
-- [**Game packages**](/output/akEndfield/launcher/game/6/list.md) (Windows)
-- [**Game patch packages**](/output/akEndfield/launcher/game/6/list_patch.md) (Windows)
+- **Game packages**
+  - [Windows Official](/output/akEndfield/launcher/game/6/list.md)
+  - [Windows Epic](/output/akEndfield/launcher/game/801/list.md)
+- **Game patch packages**
+  - [Windows Official](/output/akEndfield/launcher/game/6/list_patch.md)
+  - [Windows Epic](/output/akEndfield/launcher/game/801/list_patch.md.md)
 - [**Game resources**](/output/akEndfield/launcher/game_resources/6/list.md) (Windows, Android, iOS, PlayStation)
 
 ## Contributing
