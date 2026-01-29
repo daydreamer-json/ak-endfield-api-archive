@@ -69,7 +69,7 @@ export default {
           channel,
           sub_channel: subChannel,
           version: version ?? undefined,
-          targetApp: targetApp ?? undefined,
+          target_app: targetApp ?? undefined,
         },
       })
       .json();
