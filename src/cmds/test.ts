@@ -2,7 +2,7 @@ import path from 'node:path';
 import { DateTime } from 'luxon';
 import PQueue from 'p-queue';
 import semver from 'semver';
-import apiUtils from '../utils/api.js';
+import apiUtils from '../utils/api/index.js';
 import argvUtils from '../utils/argv.js';
 import appConfig from '../utils/config.js';
 import logger from '../utils/logger.js';
@@ -99,7 +99,7 @@ async function mainCmdHandler() {
   for (const target of gameTargets) {
     await (async () => {
       logger.debug(`Fetching latestGame (${target.name}) ...`);
-      const rsp = await apiUtils.apiAkEndfield.launcher.latestGame(
+      const rsp = await apiUtils.akEndfield.launcher.latestGame(
         cfg.appCode.game.osWinRel,
         target.launcherAppCode,
         cfg.channel.osWinRel,
@@ -170,7 +170,7 @@ async function mainCmdHandler() {
       const queue = new PQueue({ concurrency: appConfig.threadCount.network });
       for (const ver of versionList) {
         queue.add(async () => {
-          const rsp = await apiUtils.apiAkEndfield.launcher.latestGame(
+          const rsp = await apiUtils.akEndfield.launcher.latestGame(
             cfg.appCode.game.osWinRel,
             target.launcherAppCode,
             cfg.channel.osWinRel,
@@ -244,7 +244,7 @@ async function mainCmdHandler() {
 
     const versionInfoList = (
       (await Bun.file(gameAllJsonPath).json()).map((e: any) => e.rsp) as Awaited<
-        ReturnType<typeof apiUtils.apiAkEndfield.launcher.latestGame>
+        ReturnType<typeof apiUtils.akEndfield.launcher.latestGame>
       >[]
     )
       .map((e) => ({
@@ -258,7 +258,7 @@ async function mainCmdHandler() {
       let isLatestWrote: boolean = false;
       for (const versionInfoEntry of versionInfoList) {
         if (!versionInfoEntry.randStr) throw new Error('version rand_str not found');
-        const rsp = await apiUtils.apiAkEndfield.launcher.latestGameResources(
+        const rsp = await apiUtils.akEndfield.launcher.latestGameResources(
           cfg.appCode.game.osWinRel,
           versionInfoEntry.versionMinor,
           versionInfoEntry.version,
@@ -292,7 +292,7 @@ async function mainCmdHandler() {
     logger.debug('Fetching latestLauncher ...');
     const launcherTargetAppList = ['EndField', 'official'] as const;
     for (const launcherTargetAppEntry of launcherTargetAppList) {
-      const rsp = await apiUtils.apiAkEndfield.launcher.latestLauncher(
+      const rsp = await apiUtils.akEndfield.launcher.latestLauncher(
         cfg.appCode.launcher.osWinRel,
         cfg.channel.osWinRel,
         cfg.channel.osWinRel,
@@ -468,7 +468,7 @@ async function mainCmdHandler() {
         ).json();
         const resVersionSet: {
           resVersion: string;
-          rsp: { rsp: Awaited<ReturnType<typeof apiUtils.apiAkEndfield.launcher.latestGameResources>> };
+          rsp: { rsp: Awaited<ReturnType<typeof apiUtils.akEndfield.launcher.latestGameResources>> };
           versions: string[];
         }[] = (() => {
           const resVersions: string[] = [...new Set(gameAllJson.map((e: any) => e.rsp.res_version))] as string[];
