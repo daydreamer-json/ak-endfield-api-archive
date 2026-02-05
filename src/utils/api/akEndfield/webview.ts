@@ -1,6 +1,6 @@
 import ky from 'ky';
-import * as TypesApiAkEndfield from '../../types/api/akEndfield/Api.js';
-import appConfig from '../config.js';
+import * as TypesApiAkEndfield from '../../../types/api/akEndfield/Api.js';
+import appConfig from '../../config.js';
 import defaultSettings from './defaultSettings.js';
 
 export default {

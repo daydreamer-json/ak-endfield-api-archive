@@ -1,7 +1,7 @@
 import ky from 'ky';
 import semver from 'semver';
-import * as TypesApiAkEndfield from '../../types/api/akEndfield/Api.js';
-import appConfig from '../config.js';
+import * as TypesApiAkEndfield from '../../../types/api/akEndfield/Api.js';
+import appConfig from '../../config.js';
 import defaultSettings from './defaultSettings.js';
 
 import launcherWeb from './launcherWeb.js';

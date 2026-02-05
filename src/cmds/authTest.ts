@@ -3,7 +3,7 @@ import CliTable3 from 'cli-table3';
 import { HTTPError } from 'ky';
 import { DateTime } from 'luxon';
 import prompts from 'prompts';
-import apiUtils from '../utils/api.js';
+import apiUtils from '../utils/api/index.js';
 import argvUtils from '../utils/argv.js';
 import appConfig from '../utils/config.js';
 import exitUtils from '../utils/exit.js';
@@ -40,7 +40,7 @@ async function mainCmdHandler() {
   if (needRetrieveToken === false) {
     try {
       logger.debug('Retrieving account service OAuth 2.0 code ...');
-      oauth2TokenPreRsp = await apiUtils.apiAkEndfield.accountService.user.oauth2.v2.grant(
+      oauth2TokenPreRsp = await apiUtils.akEndfield.accountService.user.oauth2.v2.grant(
         cfg.appCode.accountService.osWinRel,
         argvUtils.getArgv()['token'],
       );
@@ -86,7 +86,7 @@ async function mainCmdHandler() {
       }
     })();
     logger.debug('Retrieving account service token ...');
-    const accSrvTokenRsp = await apiUtils.apiAkEndfield.accountService.user.auth.v1.tokenByEmailPassword(
+    const accSrvTokenRsp = await apiUtils.akEndfield.accountService.user.auth.v1.tokenByEmailPassword(
       argvUtils.getArgv()['email'],
       argvUtils.getArgv()['password'],
     );
@@ -96,18 +96,18 @@ async function mainCmdHandler() {
   oauth2TokenPreRsp === null ? logger.debug('Retrieving account service OAuth 2.0 code ...') : undefined;
   const oauth2TokenRsp =
     oauth2TokenPreRsp === null
-      ? await apiUtils.apiAkEndfield.accountService.user.oauth2.v2.grant(
+      ? await apiUtils.akEndfield.accountService.user.oauth2.v2.grant(
           cfg.appCode.accountService.osWinRel,
           argvUtils.getArgv()['token'],
         )
       : oauth2TokenPreRsp;
-  const oauth2TokenBindRsp = await apiUtils.apiAkEndfield.accountService.user.oauth2.v2.grant(
+  const oauth2TokenBindRsp = await apiUtils.akEndfield.accountService.user.oauth2.v2.grant(
     cfg.appCode.accountService.binding,
     argvUtils.getArgv()['token'],
     1,
   );
   logger.debug('Retrieving u8 access token ...');
-  const u8TokenRsp = await apiUtils.apiAkEndfield.u8.user.auth.v2.tokenByChToken(
+  const u8TokenRsp = await apiUtils.akEndfield.u8.user.auth.v2.tokenByChToken(
     cfg.appCode.u8.osWinRel,
     cfg.channel.osWinRel,
     oauth2TokenRsp.data.code,
@@ -119,13 +119,13 @@ async function mainCmdHandler() {
   logger.info('Retrieving user information data ...');
 
   logger.debug('Retrieving user account data ...');
-  const userAccData = await apiUtils.apiAkEndfield.accountService.user.info.v1.basic(
+  const userAccData = await apiUtils.akEndfield.accountService.user.info.v1.basic(
     cfg.appCode.accountService.osWinRel,
     argvUtils.getArgv()['token'],
   );
   logger.debug('Retrieving user game server data ...');
-  const userGameData = await apiUtils.apiAkEndfield.u8.game.server.v1.serverList(u8TokenRsp.data.token);
-  const userGameBindingData = await apiUtils.apiAkEndfield.binding.account.binding.v1.bindingList(
+  const userGameData = await apiUtils.akEndfield.u8.game.server.v1.serverList(u8TokenRsp.data.token);
+  const userGameBindingData = await apiUtils.akEndfield.binding.account.binding.v1.bindingList(
     oauth2TokenBindRsp.data.token,
   );
 
@@ -138,7 +138,7 @@ async function mainCmdHandler() {
     if (!selectedServerAccData) throw new Error('Game account not found');
     const id = selectedServerAccData.serverId;
     logger.debug('Confirming server availability ...');
-    const confirmServerRsp = await apiUtils.apiAkEndfield.u8.game.role.v1.confirmServer(
+    const confirmServerRsp = await apiUtils.akEndfield.u8.game.role.v1.confirmServer(
       u8TokenRsp.data.token,
       parseInt(id),
     );
@@ -157,7 +157,7 @@ async function mainCmdHandler() {
       for (const poolTypeEntry of poolTypeList) {
         let seqId: string | null = null;
         while (true) {
-          const rsp = await apiUtils.apiAkEndfield.webview.record.char(
+          const rsp = await apiUtils.akEndfield.webview.record.char(
             u8TokenRsp.data.token,
             parseInt(selectedServerId),
             poolTypeEntry,
@@ -179,7 +179,7 @@ async function mainCmdHandler() {
     const arr = [];
     const poolIdList = [...new Set(gachaRecordRsp.map((e) => e.poolId))];
     for (const poolId of poolIdList) {
-      const rsp = await apiUtils.apiAkEndfield.webview.content(parseInt(selectedServerId), poolId, 'ja-jp');
+      const rsp = await apiUtils.akEndfield.webview.content(parseInt(selectedServerId), poolId, 'ja-jp');
       arr.push({ poolId, ...rsp.data.pool });
     }
     return arr;
