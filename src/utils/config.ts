@@ -22,7 +22,7 @@ type ConfigType = AllRequired<
             u8: { osWinRel: string };
           };
           channel: { osWinRel: number };
-          subChannel: { osWinRel: number; osWinRelEpic: number };
+          subChannel: { osWinRel: number; osWinRelEpic: number, osWinRelGooglePlay: number };
           base: {
             accountService: string;
             launcher: string;
@@ -69,7 +69,7 @@ const initialConfig: ConfigType = {
           u8: { osWinRel: '973bd727dd11cbb6ead8' },
         },
         channel: { osWinRel: 6 },
-        subChannel: { osWinRel: 6, osWinRelEpic: 801 },
+        subChannel: { osWinRel: 6, osWinRelEpic: 801, osWinRelGooglePlay: 802 },
         base: {
           accountService: 'YXMuZ3J5cGhsaW5lLmNvbQ==',
           launcher: 'bGF1bmNoZXIuZ3J5cGhsaW5lLmNvbS9hcGk=',
