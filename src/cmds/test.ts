@@ -94,6 +94,13 @@ async function mainCmdHandler() {
       launcherSubChannel: cfg.subChannel.osWinRelEpic,
       dirName: String(cfg.subChannel.osWinRelEpic),
     },
+    {
+      name: 'GooglePlay',
+      launcherAppCode: cfg.appCode.launcher.osWinRelEpic,
+      subChannel: cfg.subChannel.osWinRelGooglePlay,
+      launcherSubChannel: cfg.subChannel.osWinRelGooglePlay,
+      dirName: String(cfg.subChannel.osWinRelGooglePlay),
+    },
   ];
 
   for (const target of gameTargets) {
