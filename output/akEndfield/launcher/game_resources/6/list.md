@@ -17,6 +17,7 @@
 | `initial_5439650-20_main_5439650-20` | [5439650-20](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/Windows/initial/5439650-20_2HA0Xw0M0B0XWdBV/files) | [5439650-20](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/Windows/main/5439650-20_PEuAF7OENsVNjc1L/files) | 1.0.14, 1.0.13 |
 | `initial_5501571-22_main_5501571-22` | [5501571-22](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/Windows/initial/5501571-22_Q7pRuhKrzLMDm8oh/files) | [5501571-22](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/Windows/main/5501571-22_qIjpyXuxQcoavj8p/files) | 1.0.14, 1.0.13 |
 | `initial_5533774-23_main_5533774-23` | [5533774-23](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/Windows/initial/5533774-23_HfPeWwM0xN07uz7t/files) | [5533774-23](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/Windows/main/5533774-23_1frcHn6MxMpaqy0A/files) | 1.0.14, 1.0.13 |
+| `initial_5564936-24_main_5564936-24` | [5564936-24](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/Windows/initial/5564936-24_iUp8mLNwpJuWJUHn/files) | [5564936-24](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/Windows/main/5564936-24_686Y6FC4GMP2oCaj/files) | 1.0.14, 1.0.13 |
 
 <h2 id="res-Android">Android</h2>
 
@@ -28,6 +29,7 @@
 | `initial_5439650-20_main_5439650-20` | [5439650-20](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/Android/initial/5439650-20_3OcKZ9VcTOH2GuPb/files) | [5439650-20](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/Android/main/5439650-20_Mz7AYCQvYtfvvtxT/files) | 1.0.14, 1.0.13 |
 | `initial_5501571-22_main_5501571-22` | [5501571-22](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/Android/initial/5501571-22_y8JErFZONbd5NgMm/files) | [5501571-22](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/Android/main/5501571-22_kCH61hMxz9qxE6LZ/files) | 1.0.14, 1.0.13 |
 | `initial_5533774-23_main_5533774-23` | [5533774-23](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/Android/initial/5533774-23_myBoD0AphcuWkQSG/files) | [5533774-23](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/Android/main/5533774-23_ojsfHGijNN4jBclb/files) | 1.0.14, 1.0.13 |
+| `initial_5564936-24_main_5564936-24` | [5564936-24](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/Android/initial/5564936-24_rH6G5hRK29Ry6aor/files) | [5564936-24](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/Android/main/5564936-24_CcIOfoziRV5dSQFw/files) | 1.0.14, 1.0.13 |
 
 <h2 id="res-iOS">iOS</h2>
 
@@ -39,6 +41,7 @@
 | `initial_5439650-22_main_5439650-22` | [5439650-22](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/iOS/initial/5439650-22_bcqmRyDGghTAgEWg/files) | [5439650-22](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/iOS/main/5439650-22_wHqEnDytNnj59tFo/files) | 1.0.14, 1.0.13 |
 | `initial_5501571-24_main_5501571-24` | [5501571-24](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/iOS/initial/5501571-24_i2vewwQoxb5OwoFc/files) | [5501571-24](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/iOS/main/5501571-24_M3WQRMHjqyvSK1no/files) | 1.0.14, 1.0.13 |
 | `initial_5533774-25_main_5533774-25` | [5533774-25](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/iOS/initial/5533774-25_Ls0Gth5anadsNGET/files) | [5533774-25](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/iOS/main/5533774-25_StgrcOWs8YR0yBcG/files) | 1.0.14, 1.0.13 |
+| `initial_5564936-26_main_5564936-26` | [5564936-26](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/iOS/initial/5564936-26_nze8Ha2qs2k8wDxl/files) | [5564936-26](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/iOS/main/5564936-26_4XVGANYYzKmLO6dj/files) | 1.0.14, 1.0.13 |
 
 <h2 id="res-PlayStation">PlayStation</h2>
 
@@ -50,3 +53,4 @@
 | `initial_5439650-110_main_5439650-110` | [5439650-110](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/PlayStation/initial/5439650-110_sY6wlzQhCSAPSPL9/files) | [5439650-110](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/PlayStation/main/5439650-110_K4jlNOruqG9kmIPA/files) | 1.0.14, 1.0.13 |
 | `initial_5501571-112_main_5501571-112` | [5501571-112](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/PlayStation/initial/5501571-112_XSu6oOfpHhMl9GQE/files) | [5501571-112](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/PlayStation/main/5501571-112_WsUsKOu0NECu9sa6/files) | 1.0.14, 1.0.13 |
 | `initial_5533774-113_main_5533774-113` | [5533774-113](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/PlayStation/initial/5533774-113_xuj8V6LQ3jT5n2VS/files) | [5533774-113](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/PlayStation/main/5533774-113_8Foj6iOniTbN76Y2/files) | 1.0.14, 1.0.13 |
+| `initial_5564936-114_main_5564936-114` | [5564936-114](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/PlayStation/initial/5564936-114_PsAJyLAjJXWqAYQU/files) | [5564936-114](https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/PlayStation/main/5564936-114_mOrEyd2ugPu3Oliy/files) | 1.0.14, 1.0.13 |
