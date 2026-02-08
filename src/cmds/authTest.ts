@@ -265,7 +265,7 @@ async function mainCmdHandler() {
         ['Pool ID', 'Pool Name', 'Pulls', '*6', '*5', '*4', 'Pity *6', '*5', 'Latest'].map((e) => chalk.dim(e)),
         ...gachaPoolInfoList.map((e) => [
           e.poolId,
-          e.pool_name,
+          e.pool_name ?? gachaRecordRsp.find((f) => f.poolId === e.poolId)!.poolName,
           ...[
             gachaRecordRsp.filter((f) => f.poolId === e.poolId).length,
             gachaRecordRsp.filter((f) => f.poolId === e.poolId && f.rarity === 6).length,
@@ -311,15 +311,17 @@ async function mainCmdHandler() {
         pityR6++;
         pityR5++;
         if (record.rarity >= 5) {
-          tableSubData.push([
-            gachaPoolInfoEntry.poolId,
-            gachaPoolInfoEntry.pool_name,
-            DateTime.fromMillis(parseInt(record.gachaTs)).toFormat('yyyy/MM/dd hh:mm:ss'),
-            record.rarity === 6 ? pityR6 : pityR5,
-            record.rarity === 6
-              ? chalk.yellow(`*${record.rarity} ${record.charName}`)
-              : chalk.magenta(`*${record.rarity} ${record.charName}`),
-          ]);
+          if (record.rarity === 6) {
+            tableSubData.push([
+              gachaPoolInfoEntry.poolId,
+              gachaPoolInfoEntry.pool_name ?? records[0]!.poolName,
+              DateTime.fromMillis(parseInt(record.gachaTs)).toFormat('yyyy/MM/dd hh:mm:ss'),
+              record.rarity === 6 ? pityR6 : pityR5,
+              record.rarity === 6
+                ? chalk.yellow(`*${record.rarity} ${record.charName}`)
+                : chalk.magenta(`*${record.rarity} ${record.charName}`),
+            ]);
+          }
           if (record.rarity === 6) pityR6 = 0;
           pityR5 = 0;
         }
