@@ -8,6 +8,34 @@ import appConfig from '../utils/config.js';
 import logger from '../utils/logger.js';
 import mathUtils from '../utils/math.js';
 
+const formatBytes = (size: number) =>
+  mathUtils.formatFileSize(size, {
+    decimals: 2,
+    decimalPadding: true,
+    unitVisible: true,
+    useBinaryUnit: true,
+    useBitUnit: false,
+    unit: null,
+  });
+
+type LatestGameResponse = Awaited<ReturnType<typeof apiUtils.akEndfield.launcher.latestGame>>;
+type LatestGameResourcesResponse = Awaited<ReturnType<typeof apiUtils.akEndfield.launcher.latestGameResources>>;
+// type LatestLauncherResponse = Awaited<ReturnType<typeof apiUtils.akEndfield.launcher.latestLauncher>>;
+
+interface StoredData<T> {
+  req: any;
+  rsp: T;
+  updatedAt: string;
+}
+
+interface GameTarget {
+  name: string;
+  launcherAppCode: string;
+  subChannel: number;
+  launcherSubChannel: number;
+  dirName: string;
+}
+
 function getObjectDiff(obj1: any, obj2: any) {
   const diff: any = {};
   const keys = new Set([...Object.keys(obj1 || {}), ...Object.keys(obj2 || {})]);
@@ -28,10 +56,10 @@ function getObjectDiff(obj1: any, obj2: any) {
   return diff;
 }
 
-async function saveResult(
+async function saveResult<T>(
   subPaths: string[],
   version: string,
-  data: { req: any; rsp: any },
+  data: { req: any; rsp: T },
   saveLatest: boolean = true,
 ) {
   const outputDir = argvUtils.getArgv()['outputDir'];
@@ -62,12 +90,12 @@ async function saveResult(
 
   const allFilePath = path.join(filePathBase, 'all.json');
   const allFile = Bun.file(allFilePath);
-  let allData: any[] = [];
+  let allData: StoredData<T>[] = [];
   if (await allFile.exists()) {
     allData = await allFile.json();
   }
 
-  const exists = allData.some((e: any) => JSON.stringify({ req: e.req, rsp: e.rsp }) === dataMinified);
+  const exists = allData.some((e) => JSON.stringify({ req: e.req, rsp: e.rsp }) === dataMinified);
 
   if (!exists) {
     allData.push({ updatedAt: DateTime.now().toISO(), ...data });
@@ -75,24 +103,14 @@ async function saveResult(
   }
 }
 
-async function generateGameListMd(target: { name: string; dirName: string }) {
+async function generateGameListMd(target: GameTarget) {
   const outputDir = argvUtils.getArgv()['outputDir'];
   const gameAllJsonPath = path.join(outputDir, 'akEndfield', 'launcher', 'game', target.dirName, 'all.json');
 
   if (!(await Bun.file(gameAllJsonPath).exists())) return;
 
-  const gameAllJson = await Bun.file(gameAllJsonPath).json();
+  const gameAllJson = (await Bun.file(gameAllJsonPath).json()) as StoredData<LatestGameResponse>[];
   const mdTexts: string[] = [];
-
-  const formatSize = (size: number) =>
-    mathUtils.formatFileSize(size, {
-      decimals: 2,
-      decimalPadding: true,
-      unitVisible: true,
-      useBinaryUnit: true,
-      useBitUnit: false,
-      unit: null,
-    });
 
   mdTexts.push(`# Game Packages (${target.name})\n`);
 
@@ -113,14 +131,14 @@ async function generateGameListMd(target: { name: string; dirName: string }) {
     const dateStr = date.toFormat('yyyy/MM/dd HH:mm:ss');
     const anchorId = `ver-${version}-${Math.ceil(date.toSeconds())}`;
 
-    const packedSize = mathUtils.arrayTotal(e.rsp.pkg.packs.map((f: any) => parseInt(f.package_size)));
+    const packedSize = mathUtils.arrayTotal(e.rsp.pkg.packs.map((f) => parseInt(f.package_size)));
     const unpackedSize = parseInt(e.rsp.pkg.total_size) - packedSize;
 
     mdTexts.push(
       `<h2 id="${anchorId}">${version} (${dateStr})</h2>\n`,
       `<table>`,
-      `  <tr><td>Unpacked Size</td><td style="text-align: right;"><b>${formatSize(unpackedSize)}</b></td></tr>`,
-      `  <tr><td>Packed Size</td><td style="text-align: right;"><b>${formatSize(packedSize)}</b></td></tr>`,
+      `  <tr><td>Unpacked Size</td><td style="text-align: right;"><b>${formatBytes(unpackedSize)}</b></td></tr>`,
+      `  <tr><td>Packed Size</td><td style="text-align: right;"><b>${formatBytes(packedSize)}</b></td></tr>`,
       `</table>\n`,
       `|File|MD5 Checksum|Size|`,
       `|:--|:--|--:|`,
@@ -128,7 +146,7 @@ async function generateGameListMd(target: { name: string; dirName: string }) {
 
     for (const f of e.rsp.pkg.packs) {
       const fileName = new URL(f.url).pathname.split('/').pop() ?? '';
-      mdTexts.push(`|[${fileName}](${f.url})|\`${f.md5}\`|${formatSize(parseInt(f.package_size))}|`);
+      mdTexts.push(`|[${fileName}](${f.url})|\`${f.md5}\`|${formatBytes(parseInt(f.package_size))}|`);
     }
     mdTexts.push('');
   }
@@ -139,29 +157,20 @@ async function generateGameListMd(target: { name: string; dirName: string }) {
   );
 }
 
-async function generatePatchListMd(target: { name: string; dirName: string }) {
+async function generatePatchListMd(target: GameTarget) {
   const outputDir = argvUtils.getArgv()['outputDir'];
   const patchAllJsonPath = path.join(outputDir, 'akEndfield', 'launcher', 'game', target.dirName, 'all_patch.json');
 
   if (!(await Bun.file(patchAllJsonPath).exists())) return;
 
-  const patchAllJson = await Bun.file(patchAllJsonPath).json();
+  const patchAllJson = (await Bun.file(patchAllJsonPath).json()) as StoredData<LatestGameResponse>[];
   const mdTexts: string[] = [];
-
-  const formatSize = (size: number) =>
-    mathUtils.formatFileSize(size, {
-      decimals: 2,
-      decimalPadding: true,
-      unitVisible: true,
-      useBinaryUnit: true,
-      useBitUnit: false,
-      unit: null,
-    });
 
   mdTexts.push(`# Game Patch Packages (${target.name})\n`);
 
   // TOC
   for (const e of patchAllJson) {
+    if (!e.rsp.patch) continue;
     const version = e.rsp.version;
     const reqVersion = e.rsp.request_version;
     const date = DateTime.fromISO(e.updatedAt, { setZone: true }).setZone('UTC+8');
@@ -173,20 +182,22 @@ async function generatePatchListMd(target: { name: string; dirName: string }) {
 
   // Content
   for (const e of patchAllJson) {
+    if (!e.rsp.patch) continue;
+
     const version = e.rsp.version;
     const reqVersion = e.rsp.request_version;
     const date = DateTime.fromISO(e.updatedAt, { setZone: true }).setZone('UTC+8');
     const dateStr = date.toFormat('yyyy/MM/dd HH:mm:ss');
     const anchorId = `ver-${reqVersion}-${version}-${Math.ceil(date.toSeconds())}`;
 
-    const packedSize = mathUtils.arrayTotal(e.rsp.patch.patches.map((f: any) => parseInt(f.package_size)));
+    const packedSize = mathUtils.arrayTotal(e.rsp.patch.patches.map((f) => parseInt(f.package_size)));
     const unpackedSize = parseInt(e.rsp.patch.total_size) - packedSize;
 
     mdTexts.push(
       `<h2 id="${anchorId}">${reqVersion} → ${version} (${dateStr})</h2>\n`,
       `<table>`,
-      `  <tr><td>Unpacked Size</td><td style="text-align: right;"><b>${formatSize(unpackedSize)}</b></td></tr>`,
-      `  <tr><td>Packed Size</td><td style="text-align: right;"><b>${formatSize(packedSize)}</b></td></tr>`,
+      `  <tr><td>Unpacked Size</td><td style="text-align: right;"><b>${formatBytes(unpackedSize)}</b></td></tr>`,
+      `  <tr><td>Packed Size</td><td style="text-align: right;"><b>${formatBytes(packedSize)}</b></td></tr>`,
       `</table>\n`,
       `|File|MD5 Checksum|Size|`,
       `|:--|:--|--:|`,
@@ -195,13 +206,13 @@ async function generatePatchListMd(target: { name: string; dirName: string }) {
     if (e.rsp.patch.url) {
       const fileName = new URL(e.rsp.patch.url).pathname.split('/').pop() ?? '';
       mdTexts.push(
-        `|[${fileName}](${e.rsp.patch.url})|\`${e.rsp.patch.md5}\`|${formatSize(parseInt(e.rsp.patch.package_size))}|`,
+        `|[${fileName}](${e.rsp.patch.url})|\`${e.rsp.patch.md5}\`|${formatBytes(parseInt(e.rsp.patch.package_size))}|`,
       );
     }
 
     for (const f of e.rsp.patch.patches) {
       const fileName = new URL(f.url).pathname.split('/').pop() ?? '';
-      mdTexts.push(`|[${fileName}](${f.url})|\`${f.md5}\`|${formatSize(parseInt(f.package_size))}|`);
+      mdTexts.push(`|[${fileName}](${f.url})|\`${f.md5}\`|${formatBytes(parseInt(f.package_size))}|`);
     }
     mdTexts.push('');
   }
@@ -238,25 +249,22 @@ async function generateResourceListMd(channelStr: string) {
 
     if (!(await Bun.file(resourceAllJsonPath).exists())) continue;
 
-    const gameAllJson = await Bun.file(resourceAllJsonPath).json();
-    const resVersionSet: {
-      resVersion: string;
-      rsp: { rsp: Awaited<ReturnType<typeof apiUtils.akEndfield.launcher.latestGameResources>> };
-      versions: string[];
-    }[] = (() => {
-      const resVersions: string[] = [...new Set(gameAllJson.map((e: any) => e.rsp.res_version))] as string[];
-      const arr: { resVersion: string; rsp: any; versions: string[] }[] = [];
-      for (const resVersion of resVersions) {
-        arr.push({
-          resVersion,
-          rsp: gameAllJson.find((e: any) => e.rsp.res_version === resVersion),
-          versions: [
-            ...new Set(gameAllJson.filter((e: any) => e.rsp.res_version === resVersion).map((e: any) => e.req.version)),
-          ] as string[],
-        });
+    const gameAllJson = (await Bun.file(resourceAllJsonPath).json()) as StoredData<LatestGameResourcesResponse>[];
+    const resVersionMap = new Map<string, { rsp: StoredData<LatestGameResourcesResponse>; versions: Set<string> }>();
+    for (const e of gameAllJson) {
+      const resVer = e.rsp.res_version;
+      if (!resVersionMap.has(resVer)) {
+        resVersionMap.set(resVer, { rsp: e, versions: new Set() });
       }
-      return arr;
-    })();
+      resVersionMap.get(resVer)!.versions.add(e.req.version);
+    }
+
+    const resVersionSet = Array.from(resVersionMap.values()).map((data) => ({
+      resVersion: data.rsp.rsp.res_version,
+      rsp: data.rsp,
+      versions: Array.from(data.versions),
+    }));
+
     mdTexts.push(
       `<h2 id="res-${platform}">${platform}</h2>\n`,
       '|Res version|Initial|Main|Game version|',
@@ -275,7 +283,7 @@ async function generateResourceListMd(channelStr: string) {
   );
 }
 
-async function fetchAndSaveLatestGames(cfg: any, gameTargets: any[]) {
+async function fetchAndSaveLatestGames(cfg: any, gameTargets: GameTarget[]) {
   for (const target of gameTargets) {
     logger.debug(`Fetching latestGame (${target.name}) ...`);
     const rsp = await apiUtils.akEndfield.launcher.latestGame(
@@ -314,7 +322,7 @@ async function fetchAndSaveLatestGames(cfg: any, gameTargets: any[]) {
   }
 }
 
-async function fetchAndSaveLatestGamePatches(cfg: any, gameTargets: any[]) {
+async function fetchAndSaveLatestGamePatches(cfg: any, gameTargets: GameTarget[]) {
   for (const target of gameTargets) {
     logger.debug(`Fetching latestGame (patch) (${target.name}) ...`);
     const gameAllJsonPath = path.join(
@@ -336,13 +344,13 @@ async function fetchAndSaveLatestGamePatches(cfg: any, gameTargets: any[]) {
 
     if (!(await Bun.file(gameAllJsonPath).exists())) continue;
 
-    const gameAllJson = await Bun.file(gameAllJsonPath).json();
-    let patchAllJson: any[] = [];
+    const gameAllJson = (await Bun.file(gameAllJsonPath).json()) as StoredData<LatestGameResponse>[];
+    let patchAllJson: StoredData<LatestGameResponse>[] = [];
     if (await Bun.file(patchAllJsonPath).exists()) {
       patchAllJson = await Bun.file(patchAllJsonPath).json();
     }
 
-    const versionList = ([...new Set(gameAllJson.map((e: any) => e.rsp.version))] as string[])
+    const versionList = ([...new Set(gameAllJson.map((e) => e.rsp.version))] as string[])
       .sort((a, b) => semver.compare(b, a))
       .slice(1);
     let needWrite: boolean = false;
@@ -369,11 +377,8 @@ async function fetchAndSaveLatestGamePatches(cfg: any, gameTargets: any[]) {
           rsp,
         };
         if (rsp.patch === null) return;
-        if (
-          patchAllJson
-            .map((e: any) => JSON.stringify({ req: e.req, rsp: e.rsp }))
-            .includes(JSON.stringify(prettyRsp)) === false
-        ) {
+        const prettyRspStr = JSON.stringify(prettyRsp);
+        if (!patchAllJson.some((e) => JSON.stringify({ req: e.req, rsp: e.rsp }) === prettyRspStr)) {
           logger.debug(
             `Fetched latestGame (patch) (${target.name}): v${rsp.request_version} -> v${rsp.version}, ${mathUtils.formatFileSize(
               parseInt(rsp.patch.total_size) - parseInt(rsp.patch.package_size),
@@ -421,11 +426,8 @@ async function fetchAndSaveLatestGameResources(cfg: any, channelStr: string) {
     return;
   }
 
-  const versionInfoList = (
-    (await Bun.file(gameAllJsonPath).json()).map((e: any) => e.rsp) as Awaited<
-      ReturnType<typeof apiUtils.akEndfield.launcher.latestGame>
-    >[]
-  )
+  const versionInfoList = ((await Bun.file(gameAllJsonPath).json()) as StoredData<LatestGameResponse>[])
+    .map((e) => e.rsp)
     .map((e) => ({
       version: e.version,
       versionMinor: semver.major(e.version) + '.' + semver.minor(e.version),
@@ -501,7 +503,7 @@ async function mainCmdHandler() {
   const cfg = appConfig.network.api.akEndfield;
   const channelStr = String(cfg.channel.osWinRel);
 
-  const gameTargets = [
+  const gameTargets: GameTarget[] = [
     {
       name: 'Official',
       launcherAppCode: cfg.appCode.launcher.osWinRel,
