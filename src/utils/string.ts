@@ -138,6 +138,8 @@ function filterByRegex(
 
 // ==============================
 
+const mdLinkTextGenFn = (text: string, uri: string) => `[${text}](${uri})`;
+
 export default {
   resolveUrl,
   isAbsoluteUrl,
@@ -145,4 +147,5 @@ export default {
   replaceMultiPatterns,
   sanitizeFilename,
   filterByRegex,
+  mdLinkTextGenFn,
 };
