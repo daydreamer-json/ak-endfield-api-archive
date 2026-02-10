@@ -146,7 +146,9 @@ async function generateGameListMd(target: GameTarget) {
 
     for (const f of e.rsp.pkg.packs) {
       const fileName = new URL(f.url).pathname.split('/').pop() ?? '';
-      mdTexts.push(`|[${fileName}](${f.url})|\`${f.md5}\`|${formatBytes(parseInt(f.package_size))}|`);
+      mdTexts.push(
+        '|' + [`[${fileName}](${f.url})`, `\`${f.md5}\``, formatBytes(parseInt(f.package_size))].join('|') + '|',
+      );
     }
     mdTexts.push('');
   }
@@ -206,13 +208,21 @@ async function generatePatchListMd(target: GameTarget) {
     if (e.rsp.patch.url) {
       const fileName = new URL(e.rsp.patch.url).pathname.split('/').pop() ?? '';
       mdTexts.push(
-        `|[${fileName}](${e.rsp.patch.url})|\`${e.rsp.patch.md5}\`|${formatBytes(parseInt(e.rsp.patch.package_size))}|`,
+        '|' +
+          [
+            `[${fileName}](${e.rsp.patch.url})`,
+            `\`${e.rsp.patch.md5}\``,
+            formatBytes(parseInt(e.rsp.patch.package_size)),
+          ].join('|') +
+          '|',
       );
     }
 
     for (const f of e.rsp.patch.patches) {
       const fileName = new URL(f.url).pathname.split('/').pop() ?? '';
-      mdTexts.push(`|[${fileName}](${f.url})|\`${f.md5}\`|${formatBytes(parseInt(f.package_size))}|`);
+      mdTexts.push(
+        '|' + [`[${fileName}](${f.url})`, `\`${f.md5}\``, formatBytes(parseInt(f.package_size))].join('|') + '|',
+      );
     }
     mdTexts.push('');
   }
@@ -267,11 +277,21 @@ async function generateResourceListMd(channelStr: string) {
 
     mdTexts.push(
       `<h2 id="res-${platform}">${platform}</h2>\n`,
-      '|Res version|Initial|Main|Game version|',
+      '|Date|Initial|Main|Kick|Game version|',
       '|--|--|--|--|',
       ...resVersionSet.map(
         (resVerObj) =>
-          `|\`${resVerObj.rsp.rsp.res_version}\`|[${resVerObj.rsp.rsp.resources.find((e) => e.name === 'initial')!.version}](${resVerObj.rsp.rsp.resources.find((e) => e.name === 'initial')!.path})|[${resVerObj.rsp.rsp.resources.find((e) => e.name === 'main')!.version}](${resVerObj.rsp.rsp.resources.find((e) => e.name === 'main')!.path})|${resVerObj.versions.sort((a, b) => semver.compare(b, a)).join(', ')}|`,
+          '|' +
+          [
+            DateTime.fromISO(resVerObj.rsp.updatedAt, { setZone: true })
+              .setZone('UTC+8')
+              .toFormat('yyyy/MM/dd HH:mm:ss'),
+            `[${resVerObj.rsp.rsp.resources.find((e) => e.name === 'initial')!.version}](${resVerObj.rsp.rsp.resources.find((e) => e.name === 'initial')!.path})`,
+            `[${resVerObj.rsp.rsp.resources.find((e) => e.name === 'main')!.version}](${resVerObj.rsp.rsp.resources.find((e) => e.name === 'main')!.path})`,
+            JSON.parse(resVerObj.rsp.rsp.configs).kick_flag === true ? '✅' : '',
+            resVerObj.versions.sort((a, b) => semver.compare(b, a)).join(', '),
+          ].join('|') +
+          '|',
       ),
       '',
     );
@@ -283,7 +303,7 @@ async function generateResourceListMd(channelStr: string) {
   );
 }
 
-async function fetchAndSaveLatestGames(cfg: any, gameTargets: GameTarget[]) {
+async function fetchAndSaveLatestGames(cfg: typeof appConfig.network.api.akEndfield, gameTargets: GameTarget[]) {
   for (const target of gameTargets) {
     logger.debug(`Fetching latestGame (${target.name}) ...`);
     const rsp = await apiUtils.akEndfield.launcher.latestGame(
@@ -322,7 +342,7 @@ async function fetchAndSaveLatestGames(cfg: any, gameTargets: GameTarget[]) {
   }
 }
 
-async function fetchAndSaveLatestGamePatches(cfg: any, gameTargets: GameTarget[]) {
+async function fetchAndSaveLatestGamePatches(cfg: typeof appConfig.network.api.akEndfield, gameTargets: GameTarget[]) {
   for (const target of gameTargets) {
     logger.debug(`Fetching latestGame (patch) (${target.name}) ...`);
     const gameAllJsonPath = path.join(
@@ -407,7 +427,7 @@ async function fetchAndSaveLatestGamePatches(cfg: any, gameTargets: GameTarget[]
   }
 }
 
-async function fetchAndSaveLatestGameResources(cfg: any, channelStr: string) {
+async function fetchAndSaveLatestGameResources(cfg: typeof appConfig.network.api.akEndfield, channelStr: string) {
   logger.debug('Fetching latestGameRes ...');
 
   const platforms = ['Windows', 'Android', 'iOS', 'PlayStation'] as const;
@@ -469,7 +489,7 @@ async function fetchAndSaveLatestGameResources(cfg: any, channelStr: string) {
   }
 }
 
-async function fetchAndSaveLatestLauncher(cfg: any, channelStr: string) {
+async function fetchAndSaveLatestLauncher(cfg: typeof appConfig.network.api.akEndfield, channelStr: string) {
   logger.debug('Fetching latestLauncher ...');
   const launcherTargetAppList = ['EndField', 'official'] as const;
   for (const launcherTargetAppEntry of launcherTargetAppList) {
@@ -519,7 +539,7 @@ async function mainCmdHandler() {
       dirName: String(cfg.subChannel.osWinRelEpic),
     },
     {
-      name: 'GooglePlay',
+      name: 'Google Play',
       launcherAppCode: cfg.appCode.launcher.osWinRelEpic,
       subChannel: cfg.subChannel.osWinRelGooglePlay,
       launcherSubChannel: cfg.subChannel.osWinRelGooglePlay,
@@ -532,14 +552,11 @@ async function mainCmdHandler() {
   await fetchAndSaveLatestGameResources(cfg, channelStr);
   await fetchAndSaveLatestLauncher(cfg, channelStr);
 
-  await (async () => {
-    //* Markdown generate
-    for (const target of gameTargets) {
-      await generateGameListMd(target);
-      await generatePatchListMd(target);
-    }
-    await generateResourceListMd(channelStr);
-  })();
+  for (const target of gameTargets) {
+    await generateGameListMd(target);
+    await generatePatchListMd(target);
+  }
+  await generateResourceListMd(channelStr);
 }
 
 export default mainCmdHandler;
