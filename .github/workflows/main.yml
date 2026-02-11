@@ -20,6 +20,12 @@ jobs:
         uses: oven-sh/setup-bun@v2
       - name: Install dependencies
         run: bun install
+      - name: Create config auth
+        env:
+          CONFIG_AUTH_TXT_CTX: ${{ secrets.CONFIG_AUTH_TXT }}
+        run: |
+          mkdir -p config
+          echo "$CONFIG_AUTH_TXT_CTX" > config/config_auth.txt
       - name: Run script
         uses: nick-fields/retry@v3
         with:

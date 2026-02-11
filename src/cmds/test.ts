@@ -7,6 +7,9 @@ import argvUtils from '../utils/argv.js';
 import appConfig from '../utils/config.js';
 import logger from '../utils/logger.js';
 import mathUtils from '../utils/math.js';
+import webArchiveOrg from '../utils/webArchiveOrg.js';
+
+let waybackCred: { user: string; sig: string } | null = null;
 
 const formatBytes = (size: number) =>
   mathUtils.formatFileSize(size, {
@@ -21,6 +24,7 @@ const formatBytes = (size: number) =>
 type LatestGameResponse = Awaited<ReturnType<typeof apiUtils.akEndfield.launcher.latestGame>>;
 type LatestGameResourcesResponse = Awaited<ReturnType<typeof apiUtils.akEndfield.launcher.latestGameResources>>;
 // type LatestLauncherResponse = Awaited<ReturnType<typeof apiUtils.akEndfield.launcher.latestLauncher>>;
+// type LatestLauncherExeResponse = Awaited<ReturnType<typeof apiUtils.akEndfield.launcher.latestLauncherExe>>;
 
 interface StoredData<T> {
   req: any;
@@ -36,23 +40,42 @@ interface GameTarget {
   dirName: string;
 }
 
-function getObjectDiff(obj1: any, obj2: any) {
+function getObjectDiff(
+  obj1: any,
+  obj2: any,
+  ignoreRules: {
+    path: string[];
+    pattern: RegExp;
+  }[] = [],
+  currentPath: string[] = [],
+) {
   const diff: any = {};
   const keys = new Set([...Object.keys(obj1 || {}), ...Object.keys(obj2 || {})]);
+
   for (const key of keys) {
     const val1 = obj1?.[key];
     const val2 = obj2?.[key];
-    if (JSON.stringify(val1) !== JSON.stringify(val2)) {
-      if (typeof val1 === 'object' && val1 !== null && typeof val2 === 'object' && val2 !== null) {
-        const nestedDiff = getObjectDiff(val1, val2);
-        if (Object.keys(nestedDiff).length > 0) {
-          diff[key] = nestedDiff;
-        }
-      } else {
-        diff[key] = { old: val1, new: val2 };
-      }
+    const fullPath = [...currentPath, key];
+    if (JSON.stringify(val1) === JSON.stringify(val2)) continue;
+
+    const rule = ignoreRules.find(
+      (r) => r.path.length === fullPath.length && r.path.every((p, i) => p === fullPath[i]),
+    );
+
+    if (rule && typeof val1 === 'string' && typeof val2 === 'string') {
+      const normalized1 = val1.replace(rule.pattern, '');
+      const normalized2 = val2.replace(rule.pattern, '');
+      if (normalized1 === normalized2) continue;
+    }
+
+    if (typeof val1 === 'object' && val1 !== null && typeof val2 === 'object' && val2 !== null) {
+      const nestedDiff = getObjectDiff(val1, val2, ignoreRules, fullPath);
+      if (Object.keys(nestedDiff).length > 0) diff[key] = nestedDiff;
+    } else {
+      diff[key] = { old: val1, new: val2 };
     }
   }
+
   return diff;
 }
 
@@ -61,6 +84,7 @@ async function saveResult<T>(
   version: string,
   data: { req: any; rsp: T },
   saveLatest: boolean = true,
+  ignoreRules: Parameters<typeof getObjectDiff>[2] = [],
 ) {
   const outputDir = argvUtils.getArgv()['outputDir'];
   const filePathBase = path.join(outputDir, ...subPaths);
@@ -71,20 +95,20 @@ async function saveResult<T>(
   }
 
   const dataStr = JSON.stringify(data, null, 2);
-  const dataMinified = JSON.stringify(data);
 
   for (const filePath of filesToCheck) {
     const file = Bun.file(filePath);
     const exists = await file.exists();
-    let currentData: any = null;
-    if (exists) {
-      currentData = await file.json();
-    }
-    if (!exists || JSON.stringify(currentData) !== dataMinified) {
-      if (exists) {
-        logger.trace(`Diff detected in ${filePath}:`, JSON.stringify(getObjectDiff(currentData, data), null, 2));
-      }
+
+    if (!exists) {
       await Bun.write(filePath, dataStr);
+    } else {
+      const currentData = await file.json();
+      const diff = getObjectDiff(currentData, data, ignoreRules);
+      if (Object.keys(diff).length > 0) {
+        logger.trace(`Diff detected in ${filePath}:`, JSON.stringify(diff, null, 2));
+        await Bun.write(filePath, dataStr);
+      }
     }
   }
 
@@ -95,7 +119,10 @@ async function saveResult<T>(
     allData = await allFile.json();
   }
 
-  const exists = allData.some((e) => JSON.stringify({ req: e.req, rsp: e.rsp }) === dataMinified);
+  const exists = allData.some((e) => {
+    const diff = getObjectDiff({ req: e.req, rsp: e.rsp }, data, ignoreRules);
+    return Object.keys(diff).length === 0;
+  });
 
   if (!exists) {
     allData.push({ updatedAt: DateTime.now().toISO(), ...data });
@@ -303,6 +330,93 @@ async function generateResourceListMd(channelStr: string) {
   );
 }
 
+async function generateLauncherMd(type: 'zip' | 'exe') {
+  const cfg = appConfig.network.api.akEndfield;
+  const outputDir = argvUtils.getArgv()['outputDir'];
+  const settings = {
+    zip: {
+      subdir: 'launcher',
+      title: 'Launcher Packages (zip)',
+      headers: ['Date', 'Version', 'File', 'MD5 Checksum', 'Unpacked', 'Packed'],
+      align: ['---', '---', '---', '---', '--:', '--:'],
+    },
+    exe: {
+      subdir: 'launcherExe',
+      title: 'Launcher Packages (Installer)',
+      headers: ['Date', 'Version', 'File', 'Size'],
+      align: ['---', '---', '---', '--:'],
+    },
+  }[type];
+
+  const regions = [
+    { id: 'os' as const, apps: ['EndField', 'Official'] as const, channel: cfg.channel.osWinRel },
+    { id: 'cn' as const, apps: ['EndField', 'Arknights', 'Official'] as const, channel: cfg.channel.cnWinRel },
+  ];
+
+  const mdTexts: string[] = [
+    `# ${settings.title}\n`,
+    ...regions.flatMap((r) =>
+      r.apps.map((app) => `- [${r.id.toUpperCase()} ${app}](#launcher-${r.id}-${app.toLowerCase()})`),
+    ),
+    '\n',
+  ];
+
+  const waybackDb = await (async () => {
+    const localJsonPath = path.join(outputDir, 'wayback_machine.json');
+    return (await Bun.file(localJsonPath).json()) as string[];
+  })();
+
+  for (const region of regions) {
+    for (const appName of region.apps) {
+      const jsonPath = path.join(
+        outputDir,
+        'akEndfield',
+        'launcher',
+        settings.subdir,
+        appName,
+        String(region.channel),
+        'all.json',
+      );
+      const jsonData = (await Bun.file(jsonPath).json()) as StoredData<any>[];
+
+      mdTexts.push(
+        `<h2 id="launcher-${region.id}-${appName.toLowerCase()}">${region.id.toUpperCase()} ${appName}</h2>\n`,
+        `|${settings.headers.join('|')}|`,
+        `|${settings.align.join('|')}|`,
+      );
+
+      for (const e of jsonData) {
+        const url = type === 'zip' ? e.rsp.zip_package_url : e.rsp.exe_url;
+        const fileName = new URL(url).pathname.split('/').pop() ?? '';
+        const cleanUrl = new URL(url);
+        cleanUrl.search = '';
+        const waybackUrl = waybackDb.find((f) => f.includes(cleanUrl.toString()));
+        const fileLink = waybackUrl ? `${fileName} [Orig](${url}) / [Mirror](${waybackUrl})` : `[${fileName}](${url})`;
+        const date = DateTime.fromISO(e.updatedAt, { setZone: true }).setZone('UTC+8').toFormat('yyyy/MM/dd HH:mm:ss');
+        const row =
+          type === 'zip'
+            ? [
+                date,
+                e.rsp.version,
+                fileLink,
+                `\`${e.rsp.md5}\``,
+                formatBytes(parseInt(e.rsp.total_size) - parseInt(e.rsp.package_size)),
+                formatBytes(parseInt(e.rsp.package_size)),
+              ]
+            : [date, e.rsp.version, fileLink, formatBytes(parseInt(e.rsp.exe_size))];
+
+        mdTexts.push(`|${row.join('|')}|`);
+      }
+      mdTexts.push('');
+    }
+  }
+  await Bun.write(path.join(outputDir, 'akEndfield', 'launcher', settings.subdir, 'list.md'), mdTexts.join('\n'));
+}
+
+// 実行例
+// await generateLauncherMd('zip');
+// await generateLauncherMd('exe');
+
 async function fetchAndSaveLatestGames(cfg: typeof appConfig.network.api.akEndfield, gameTargets: GameTarget[]) {
   for (const target of gameTargets) {
     logger.debug(`Fetching latestGame (${target.name}) ...`);
@@ -489,37 +603,68 @@ async function fetchAndSaveLatestGameResources(cfg: typeof appConfig.network.api
   }
 }
 
-async function fetchAndSaveLatestLauncher(cfg: typeof appConfig.network.api.akEndfield, channelStr: string) {
+async function fetchAndSaveLatestLauncher(cfg: typeof appConfig.network.api.akEndfield) {
   logger.debug('Fetching latestLauncher ...');
-  const launcherTargetAppList = ['EndField', 'official'] as const;
-  for (const launcherTargetAppEntry of launcherTargetAppList) {
-    const rsp = await apiUtils.akEndfield.launcher.latestLauncher(
-      cfg.appCode.launcher.osWinRel,
-      cfg.channel.osWinRel,
-      cfg.channel.osWinRel,
-      null,
-      launcherTargetAppEntry === 'official' ? null : launcherTargetAppEntry,
-    );
-    logger.info(`Fetched latestLauncher: v${rsp.version}, ${launcherTargetAppEntry}`);
-    const prettyRsp = {
-      req: {
-        appCode: cfg.appCode.launcher.osWinRel,
-        channel: cfg.channel.osWinRel,
-        subChannel: cfg.channel.osWinRel,
-        targetApp: launcherTargetAppEntry === 'official' ? null : launcherTargetAppEntry,
-      },
-      rsp,
-    };
+  const regions = [
+    {
+      id: 'os' as const,
+      apps: ['EndField', 'Official'] as const,
+      code: cfg.appCode.launcher.osWinRel,
+      channel: cfg.channel.osWinRel,
+    },
+    {
+      id: 'cn' as const,
+      apps: ['EndField', 'Arknights', 'Official'] as const,
+      code: cfg.appCode.launcher.cnWinRel,
+      channel: cfg.channel.cnWinRel,
+    },
+  ];
+  const removeQueryStr = (url: string): string => {
+    const urlObj = new URL(url);
+    urlObj.search = '';
+    return urlObj.toString();
+  };
+  const saveToWM = async (url: string): Promise<void> => {
+    if (waybackCred === null) throw new Error('Wayback Machine auth is null');
+    const localJsonPath = path.join(argvUtils.getArgv()['outputDir'], 'wayback_machine.json');
+    const localJson: string[] = await Bun.file(localJsonPath).json();
+    if (!localJson.find((e) => e.includes(removeQueryStr(url)))) {
+      await webArchiveOrg.savePage(url, waybackCred);
+    }
+  };
 
-    await saveResult(
-      ['akEndfield', 'launcher', 'launcher', launcherTargetAppEntry, channelStr],
-      rsp.version,
-      prettyRsp,
-    );
+  for (const { id, apps, code, channel } of regions) {
+    for (const app of apps) {
+      const apiArgs = [code, channel, channel, null] as const;
+      const rsp = await apiUtils.akEndfield.launcher.latestLauncher(...apiArgs, app, id);
+      const prettyRsp = { req: { appCode: code, channel, subChannel: channel, targetApp: app }, rsp };
+      const appLower = app.toLowerCase();
+      const rspExe = await apiUtils.akEndfield.launcher.latestLauncherExe(...apiArgs, appLower, id);
+      const prettyRspExe = { req: { appCode: code, channel, subChannel: channel, ta: appLower }, rsp: rspExe };
+      logger.info(`Fetched latestLauncher: v${rsp.version}, ${id}, ${app}`);
+      const basePath = ['akEndfield', 'launcher'];
+      const channelStr = String(channel);
+      const ignoreRules = [
+        { path: ['rsp', 'zip_package_url'], pattern: /\?auth_key=.*$/ },
+        { path: ['rsp', 'exe_url'], pattern: /\?auth_key=.*$/ },
+      ];
+      if (rsp.zip_package_url.includes('?auth_key')) await saveToWM(rsp.zip_package_url);
+      if (rspExe.exe_url.includes('?auth_key')) await saveToWM(rspExe.exe_url);
+      await saveResult([...basePath, 'launcher', app, channelStr], rsp.version, prettyRsp, true, ignoreRules);
+      await saveResult([...basePath, 'launcherExe', app, channelStr], rspExe.version, prettyRspExe, true, ignoreRules);
+    }
   }
 }
 
 async function mainCmdHandler() {
+  waybackCred = await (async () => {
+    logger.debug('Fetching credentials for Wayback Machine ...');
+    const authTextData = await Bun.file('config/config_auth.txt').json();
+    const result = await webArchiveOrg.login(authTextData[0], authTextData[1]);
+    logger.info('Logged in to Wayback Machine');
+    return result;
+  })();
+
   const cfg = appConfig.network.api.akEndfield;
   const channelStr = String(cfg.channel.osWinRel);
 
@@ -550,13 +695,15 @@ async function mainCmdHandler() {
   await fetchAndSaveLatestGames(cfg, gameTargets);
   await fetchAndSaveLatestGamePatches(cfg, gameTargets);
   await fetchAndSaveLatestGameResources(cfg, channelStr);
-  await fetchAndSaveLatestLauncher(cfg, channelStr);
+  await fetchAndSaveLatestLauncher(cfg);
 
   for (const target of gameTargets) {
     await generateGameListMd(target);
     await generatePatchListMd(target);
   }
   await generateResourceListMd(channelStr);
+  await generateLauncherMd('zip');
+  await generateLauncherMd('exe');
 }
 
 export default mainCmdHandler;

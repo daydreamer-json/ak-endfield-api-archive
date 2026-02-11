@@ -56,6 +56,14 @@ type LauncherLatestLauncher = {
   description: string;
 };
 
+type LauncherLatestLauncherExe = {
+  action: number;
+  version: string; // x.y.z
+  request_version: string; // x.y.z or blank
+  exe_url: string;
+  exe_size: string;
+};
+
 type LauncherWebSidebar = {
   data_version: string;
   sidebars: {
@@ -355,6 +363,7 @@ export type {
   LauncherLatestGame,
   LauncherLatestGameResources,
   LauncherLatestLauncher,
+  LauncherLatestLauncherExe,
   LauncherWebSidebar,
   LauncherWebSingleEnt,
   LauncherWebMainBgImage,
