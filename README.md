@@ -7,9 +7,9 @@ API outputs are stored in the [`output`](/output/) directory.
 
 The APIs currently being monitored are as follows:
 - Launcher
-  - Get latest game
+  - Get latest game (Global)
   - Get latest game resources
-  - Get latest launcher
+  - Get latest launcher (Global, China)
 
 ## Download Library
 
@@ -23,8 +23,14 @@ To easily view information about past versions of game packages and other items,
   - [Windows Official](/output/akEndfield/launcher/game/6/list_patch.md)
   - [Windows Epic](/output/akEndfield/launcher/game/801/list_patch.md.md)
 - [**Game resources**](/output/akEndfield/launcher/game_resources/6/list.md) (Windows, Android, iOS, PlayStation)
+- **Launcher packages**
+  - [Launcher (zip)](/output/akEndfield/launcher/launcher/list.md)
+  - [Launcher (installer)](/output/akEndfield/launcher/launcherExe/list.md)
+
+Some packages requiring `auth_key` are available via the Wayback Machine mirror.
 
 All dates and times specified in Markdown files are in Asia server time (China Standard Time, UTC+8).
+
 
 ## Contributing
 
