@@ -16,16 +16,17 @@ type ConfigType = AllRequired<
       api: {
         akEndfield: {
           appCode: {
-            game: { osWinRel: string };
-            launcher: { osWinRel: string; osWinRelEpic: string };
+            game: { osWinRel: string; cnWinRel: string };
+            launcher: { osWinRel: string; osWinRelEpic: string; cnWinRel: string };
             accountService: { osWinRel: string; skport: string; binding: string };
             u8: { osWinRel: string };
           };
-          channel: { osWinRel: number };
-          subChannel: { osWinRel: number; osWinRelEpic: number, osWinRelGooglePlay: number };
+          channel: { osWinRel: number; cnWinRel: number };
+          subChannel: { osWinRel: number; osWinRelEpic: number; osWinRelGooglePlay: number; cnWinRel: number };
           base: {
             accountService: string;
             launcher: string;
+            launcherCN: string;
             u8: string;
             binding: string;
             webview: string;
@@ -63,16 +64,17 @@ const initialConfig: ConfigType = {
     api: {
       akEndfield: {
         appCode: {
-          game: { osWinRel: 'YDUTE5gscDZ229CW' },
-          launcher: { osWinRel: 'TiaytKBUIEdoEwRT', osWinRelEpic: 'BBWoqCzuZ2bZ1Dro' },
+          game: { osWinRel: 'YDUTE5gscDZ229CW', cnWinRel: '6LL0KJuqHBVz33WK' },
+          launcher: { osWinRel: 'TiaytKBUIEdoEwRT', osWinRelEpic: 'BBWoqCzuZ2bZ1Dro', cnWinRel: 'abYeZZ16BPluCFyT' },
           accountService: { osWinRel: 'd9f6dbb6bbd6bb33', skport: '6eb76d4e13aa36e6', binding: '3dacefa138426cfe' },
           u8: { osWinRel: '973bd727dd11cbb6ead8' },
         },
-        channel: { osWinRel: 6 },
-        subChannel: { osWinRel: 6, osWinRelEpic: 801, osWinRelGooglePlay: 802 },
+        channel: { osWinRel: 6, cnWinRel: 1 },
+        subChannel: { osWinRel: 6, osWinRelEpic: 801, osWinRelGooglePlay: 802, cnWinRel: 1 },
         base: {
           accountService: 'YXMuZ3J5cGhsaW5lLmNvbQ==',
           launcher: 'bGF1bmNoZXIuZ3J5cGhsaW5lLmNvbS9hcGk=',
+          launcherCN: 'bGF1bmNoZXIuaHlwZXJncnlwaC5jb20vYXBp',
           u8: 'dTguZ3J5cGhsaW5lLmNvbQ==',
           binding: 'YmluZGluZy1hcGktYWNjb3VudC1wcm9kLmdyeXBobGluZS5jb20=',
           webview: 'ZWYtd2Vidmlldy5ncnlwaGxpbmUuY29t',

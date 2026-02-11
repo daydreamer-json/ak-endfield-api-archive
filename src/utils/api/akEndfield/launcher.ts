@@ -58,22 +58,54 @@ export default {
     channel: number,
     subChannel: number,
     version: string | null,
-    targetApp: 'EndField' | null,
+    targetApp: 'EndField' | 'Arknights' | 'Official',
+    region: 'os' | 'cn',
   ): Promise<TypesApiAkEndfield.LauncherLatestLauncher> => {
     if (version !== null && !semver.valid(version)) throw new Error(`Invalid version string (${version})`);
+    const domain =
+      region === 'cn'
+        ? appConfig.network.api.akEndfield.base.launcherCN
+        : appConfig.network.api.akEndfield.base.launcher;
     const rsp = await ky
-      .get(`https://${appConfig.network.api.akEndfield.base.launcher}/launcher/get_latest`, {
+      .get(`https://${domain}/launcher/get_latest`, {
         ...defaultSettings.ky,
         searchParams: {
           appcode: appCode,
           channel,
           sub_channel: subChannel,
           version: version ?? undefined,
-          target_app: targetApp ?? undefined,
+          target_app: targetApp,
         },
       })
       .json();
     return rsp as TypesApiAkEndfield.LauncherLatestLauncher;
+  },
+  latestLauncherExe: async (
+    appCode: string,
+    channel: number,
+    subChannel: number,
+    version: string | null,
+    targetApp: 'endfield' | 'official' | string,
+    region: 'os' | 'cn',
+  ): Promise<TypesApiAkEndfield.LauncherLatestLauncherExe> => {
+    if (version !== null && !semver.valid(version)) throw new Error(`Invalid version string (${version})`);
+    const domain =
+      region === 'cn'
+        ? appConfig.network.api.akEndfield.base.launcherCN
+        : appConfig.network.api.akEndfield.base.launcher;
+    const rsp = await ky
+      .get(`https://${domain}/launcher/get_latest_launcher`, {
+        ...defaultSettings.ky,
+        searchParams: {
+          appcode: appCode,
+          channel,
+          sub_channel: subChannel,
+          version: version ?? undefined,
+          ta: targetApp,
+        },
+      })
+      .json();
+    return rsp as TypesApiAkEndfield.LauncherLatestLauncherExe;
   },
   web: launcherWeb,
 };
