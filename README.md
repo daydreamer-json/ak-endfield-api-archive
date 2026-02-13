@@ -1,8 +1,10 @@
-<a href="https://github.com/palmcivet/awesome-arknights-endfield">
-  <img src="https://github.com/palmcivet/awesome-arknights-endfield/blob/main/assets/badge-for-the-badge.svg" alt="Awesome Arknights Endfield badge" />
-</a>
+<h1 align="center">ak-endfield-api-archive</h2>
 
-# ak-endfield-api-archive
+<p align="center">
+  <a href="https://github.com/palmcivet/awesome-arknights-endfield">
+    <img src="https://github.com/palmcivet/awesome-arknights-endfield/blob/main/assets/badge-for-the-badge.svg" alt="Awesome Arknights Endfield badge" />
+  </a>
+</p>
 
 Monitor changes to responses from various Arknights: Endfield APIs and record them in this repository.
 
@@ -34,7 +36,7 @@ To easily view information about past versions of game packages and other items,
   - [Launcher (zip)](/output/akEndfield/launcher/launcher/list.md)
   - [Launcher (installer)](/output/akEndfield/launcher/launcherExe/list.md)
 
-Some packages requiring `auth_key` are available via the Wayback Machine mirror.
+Some packages are available via the GitHub Releases mirror.
 
 All dates and times specified in Markdown files are in Asia server time (China Standard Time, UTC+8).
 
