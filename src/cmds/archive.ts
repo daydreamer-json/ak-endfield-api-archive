@@ -1,15 +1,20 @@
 import path from 'node:path';
+import { Octokit } from '@octokit/rest';
 import { DateTime } from 'luxon';
 import PQueue from 'p-queue';
 import semver from 'semver';
+import YAML from 'yaml';
 import apiUtils from '../utils/api/index.js';
 import argvUtils from '../utils/argv.js';
 import appConfig from '../utils/config.js';
+import githubUtils from '../utils/github.js';
 import logger from '../utils/logger.js';
 import mathUtils from '../utils/math.js';
-import webArchiveOrg from '../utils/webArchiveOrg.js';
+import stringUtils from '../utils/string.js';
 
-let waybackCred: { user: string; sig: string } | null = null;
+let githubAuthCfg: { token: string; owner: string; repo: string; tag: string } | null = null;
+let octoClient: Octokit | null = null;
+let saveToGHMirrorNeedUrls: { url: string; name: string | null }[] = [];
 
 const formatBytes = (size: number) =>
   mathUtils.formatFileSize(size, {
@@ -20,6 +25,15 @@ const formatBytes = (size: number) =>
     useBitUnit: false,
     unit: null,
   });
+
+const diffIgnoreRules = [
+  ['rsp', 'pkg', 'url'],
+  ['rsp', 'pkg', 'packs', '*', 'url'],
+  ['rsp', 'patch', 'url'],
+  ['rsp', 'patch', 'patches', '*', 'url'],
+  ['rsp', 'zip_package_url'],
+  ['rsp', 'exe_url'],
+].map((path) => ({ path, pattern: /[?&]auth_key=[^&]+/g }));
 
 type LatestGameResponse = Awaited<ReturnType<typeof apiUtils.akEndfield.launcher.latestGame>>;
 type LatestGameResourcesResponse = Awaited<ReturnType<typeof apiUtils.akEndfield.launcher.latestGameResources>>;
@@ -34,10 +48,24 @@ interface StoredData<T> {
 
 interface GameTarget {
   name: string;
+  region: 'os' | 'cn';
+  appCode: string;
   launcherAppCode: string;
+  channel: number;
   subChannel: number;
   launcherSubChannel: number;
   dirName: string;
+}
+interface LauncherTarget {
+  id: 'os' | 'cn';
+  apps: ('EndField' | 'Arknights' | 'Official')[];
+  code: string;
+  channel: number;
+}
+
+interface MirrorFileEntry {
+  orig: string;
+  mirror: string;
 }
 
 function getObjectDiff(
@@ -59,7 +87,7 @@ function getObjectDiff(
     if (JSON.stringify(val1) === JSON.stringify(val2)) continue;
 
     const rule = ignoreRules.find(
-      (r) => r.path.length === fullPath.length && r.path.every((p, i) => p === fullPath[i]),
+      (r) => r.path.length === fullPath.length && r.path.every((p, i) => p === '*' || p === fullPath[i]),
     );
 
     if (rule && typeof val1 === 'string' && typeof val2 === 'string') {
@@ -130,6 +158,16 @@ async function saveResult<T>(
   }
 }
 
+async function saveToGHMirror(url: string, name: string | null): Promise<void> {
+  const mirrorFileDb = await (async () => {
+    const localJsonPath = path.join(argvUtils.getArgv()['outputDir'], 'mirror_file_list.json');
+    return (await Bun.file(localJsonPath).json()) as MirrorFileEntry[];
+  })();
+  if (!mirrorFileDb.find((e) => e.orig.includes(stringUtils.removeQueryStr(url)))) {
+    await githubUtils.uploadAsset(octoClient, githubAuthCfg, url, name);
+  }
+}
+
 async function generateGameListMd(target: GameTarget) {
   const outputDir = argvUtils.getArgv()['outputDir'];
   const gameAllJsonPath = path.join(outputDir, 'akEndfield', 'launcher', 'game', target.dirName, 'all.json');
@@ -138,6 +176,11 @@ async function generateGameListMd(target: GameTarget) {
 
   const gameAllJson = (await Bun.file(gameAllJsonPath).json()) as StoredData<LatestGameResponse>[];
   const mdTexts: string[] = [];
+
+  const mirrorFileDb = await (async () => {
+    const localJsonPath = path.join(outputDir, 'mirror_file_list.json');
+    return (await Bun.file(localJsonPath).json()) as MirrorFileEntry[];
+  })();
 
   mdTexts.push(`# Game Packages (${target.name})\n`);
 
@@ -173,9 +216,13 @@ async function generateGameListMd(target: GameTarget) {
 
     for (const f of e.rsp.pkg.packs) {
       const fileName = new URL(f.url).pathname.split('/').pop() ?? '';
-      mdTexts.push(
-        '|' + [`[${fileName}](${f.url})`, `\`${f.md5}\``, formatBytes(parseInt(f.package_size))].join('|') + '|',
-      );
+      const cleanUrl = new URL(f.url);
+      cleanUrl.search = '';
+      const mirrorUrlEntry = mirrorFileDb.find((g) => g.orig.includes(cleanUrl.toString()));
+      const fileLink = mirrorUrlEntry
+        ? `${fileName} [Orig](${f.url}) / [Mirror](${mirrorUrlEntry.mirror})`
+        : `[${fileName}](${f.url})`;
+      mdTexts.push('|' + [fileLink, `\`${f.md5}\``, formatBytes(parseInt(f.package_size))].join('|') + '|');
     }
     mdTexts.push('');
   }
@@ -194,6 +241,11 @@ async function generatePatchListMd(target: GameTarget) {
 
   const patchAllJson = (await Bun.file(patchAllJsonPath).json()) as StoredData<LatestGameResponse>[];
   const mdTexts: string[] = [];
+
+  const mirrorFileDb = await (async () => {
+    const localJsonPath = path.join(outputDir, 'mirror_file_list.json');
+    return (await Bun.file(localJsonPath).json()) as MirrorFileEntry[];
+  })();
 
   mdTexts.push(`# Game Patch Packages (${target.name})\n`);
 
@@ -234,22 +286,26 @@ async function generatePatchListMd(target: GameTarget) {
 
     if (e.rsp.patch.url) {
       const fileName = new URL(e.rsp.patch.url).pathname.split('/').pop() ?? '';
+      const cleanUrl = new URL(e.rsp.patch.url);
+      cleanUrl.search = '';
+      const mirrorUrlEntry = mirrorFileDb.find((f) => f.orig.includes(cleanUrl.toString()));
+      const fileLink = mirrorUrlEntry
+        ? `${fileName} [Orig](${e.rsp.patch.url}) / [Mirror](${mirrorUrlEntry.mirror})`
+        : `[${fileName}](${e.rsp.patch.url})`;
       mdTexts.push(
-        '|' +
-          [
-            `[${fileName}](${e.rsp.patch.url})`,
-            `\`${e.rsp.patch.md5}\``,
-            formatBytes(parseInt(e.rsp.patch.package_size)),
-          ].join('|') +
-          '|',
+        '|' + [fileLink, `\`${e.rsp.patch.md5}\``, formatBytes(parseInt(e.rsp.patch.package_size))].join('|') + '|',
       );
     }
 
     for (const f of e.rsp.patch.patches) {
       const fileName = new URL(f.url).pathname.split('/').pop() ?? '';
-      mdTexts.push(
-        '|' + [`[${fileName}](${f.url})`, `\`${f.md5}\``, formatBytes(parseInt(f.package_size))].join('|') + '|',
-      );
+      const cleanUrl = new URL(f.url);
+      cleanUrl.search = '';
+      const mirrorUrlEntry = mirrorFileDb.find((g) => g.orig.includes(cleanUrl.toString()));
+      const fileLink = mirrorUrlEntry
+        ? `${fileName} [Orig](${f.url}) / [Mirror](${mirrorUrlEntry.mirror})`
+        : `[${fileName}](${f.url})`;
+      mdTexts.push('|' + [fileLink, `\`${f.md5}\``, formatBytes(parseInt(f.package_size))].join('|') + '|');
     }
     mdTexts.push('');
   }
@@ -361,9 +417,9 @@ async function generateLauncherMd(type: 'zip' | 'exe') {
     '\n',
   ];
 
-  const waybackDb = await (async () => {
-    const localJsonPath = path.join(outputDir, 'wayback_machine.json');
-    return (await Bun.file(localJsonPath).json()) as string[];
+  const mirrorFileDb = await (async () => {
+    const localJsonPath = path.join(outputDir, 'mirror_file_list.json');
+    return (await Bun.file(localJsonPath).json()) as MirrorFileEntry[];
   })();
 
   for (const region of regions) {
@@ -390,8 +446,10 @@ async function generateLauncherMd(type: 'zip' | 'exe') {
         const fileName = new URL(url).pathname.split('/').pop() ?? '';
         const cleanUrl = new URL(url);
         cleanUrl.search = '';
-        const waybackUrl = waybackDb.find((f) => f.includes(cleanUrl.toString()));
-        const fileLink = waybackUrl ? `${fileName} [Orig](${url}) / [Mirror](${waybackUrl})` : `[${fileName}](${url})`;
+        const mirrorUrlEntry = mirrorFileDb.find((f) => f.orig.includes(cleanUrl.toString()));
+        const fileLink = mirrorUrlEntry
+          ? `${fileName} [Orig](${url}) / [Mirror](${mirrorUrlEntry.mirror})`
+          : `[${fileName}](${url})`;
         const date = DateTime.fromISO(e.updatedAt, { setZone: true }).setZone('UTC+8').toFormat('yyyy/MM/dd HH:mm:ss');
         const row =
           type === 'zip'
@@ -413,52 +471,54 @@ async function generateLauncherMd(type: 'zip' | 'exe') {
   await Bun.write(path.join(outputDir, 'akEndfield', 'launcher', settings.subdir, 'list.md'), mdTexts.join('\n'));
 }
 
-// 実行例
-// await generateLauncherMd('zip');
-// await generateLauncherMd('exe');
-
-async function fetchAndSaveLatestGames(cfg: typeof appConfig.network.api.akEndfield, gameTargets: GameTarget[]) {
+async function fetchAndSaveLatestGames(gameTargets: GameTarget[]) {
+  logger.debug(`Fetching latestGame ...`);
   for (const target of gameTargets) {
-    logger.debug(`Fetching latestGame (${target.name}) ...`);
     const rsp = await apiUtils.akEndfield.launcher.latestGame(
-      cfg.appCode.game.osWinRel,
+      target.appCode,
       target.launcherAppCode,
-      cfg.channel.osWinRel,
+      target.channel,
       target.subChannel,
       target.launcherSubChannel,
       null,
+      target.region,
     );
     logger.info(
-      `Fetched latestGame (${target.name}): v${rsp.version}, ${mathUtils.formatFileSize(
+      `Fetched latestGame: ${target.region.toUpperCase()}, ${target.name}, v${rsp.version}, ${formatBytes(
         parseInt(rsp.pkg.total_size) - mathUtils.arrayTotal(rsp.pkg.packs.map((e) => parseInt(e.package_size))),
-        {
-          decimals: 2,
-          decimalPadding: true,
-          useBinaryUnit: true,
-          useBitUnit: false,
-          unitVisible: true,
-          unit: null,
-        },
       )}`,
     );
     const prettyRsp = {
       req: {
-        appCode: cfg.appCode.game.osWinRel,
+        appCode: target.appCode,
         launcherAppCode: target.launcherAppCode,
-        channel: cfg.channel.osWinRel,
+        channel: target.channel,
         subChannel: target.subChannel,
         launcherSubChannel: target.launcherSubChannel,
       },
       rsp,
     };
 
-    await saveResult(['akEndfield', 'launcher', 'game', target.dirName], rsp.version, prettyRsp);
+    (() => {
+      const hashPair: { url: string; md5: string }[] = [];
+      if (rsp.pkg.url) hashPair.push({ url: rsp.pkg.url, md5: rsp.pkg.md5 });
+      rsp.pkg.packs.forEach((e) => hashPair.push({ url: e.url, md5: e.md5 }));
+      const unique = [...new Map(hashPair.map((item) => [item.md5, item])).values()];
+      const subChns = appConfig.network.api.akEndfield.subChannel;
+      unique.forEach((e) => {
+        if ([subChns.cnWinRel, subChns.osWinRel].includes(target.subChannel)) {
+          saveToGHMirrorNeedUrls.push({ url: e.url, name: null });
+        }
+      });
+    })();
+
+    await saveResult(['akEndfield', 'launcher', 'game', target.dirName], rsp.version, prettyRsp, true, diffIgnoreRules);
   }
 }
 
-async function fetchAndSaveLatestGamePatches(cfg: typeof appConfig.network.api.akEndfield, gameTargets: GameTarget[]) {
+async function fetchAndSaveLatestGamePatches(gameTargets: GameTarget[]) {
+  logger.debug(`Fetching latestGamePatch ...`);
   for (const target of gameTargets) {
-    logger.debug(`Fetching latestGame (patch) (${target.name}) ...`);
     const gameAllJsonPath = path.join(
       argvUtils.getArgv()['outputDir'],
       'akEndfield',
@@ -492,18 +552,19 @@ async function fetchAndSaveLatestGamePatches(cfg: typeof appConfig.network.api.a
     for (const ver of versionList) {
       queue.add(async () => {
         const rsp = await apiUtils.akEndfield.launcher.latestGame(
-          cfg.appCode.game.osWinRel,
+          target.appCode,
           target.launcherAppCode,
-          cfg.channel.osWinRel,
+          target.channel,
           target.subChannel,
           target.launcherSubChannel,
           ver,
+          target.region,
         );
         const prettyRsp = {
           req: {
-            appCode: cfg.appCode.game.osWinRel,
+            appCode: target.appCode,
             launcherAppCode: target.launcherAppCode,
-            channel: cfg.channel.osWinRel,
+            channel: target.channel,
             subChannel: target.subChannel,
             launcherSubChannel: target.launcherSubChannel,
             version: ver,
@@ -511,19 +572,14 @@ async function fetchAndSaveLatestGamePatches(cfg: typeof appConfig.network.api.a
           rsp,
         };
         if (rsp.patch === null) return;
-        const prettyRspStr = JSON.stringify(prettyRsp);
-        if (!patchAllJson.some((e) => JSON.stringify({ req: e.req, rsp: e.rsp }) === prettyRspStr)) {
+        const exists = patchAllJson.some((e) => {
+          const diff = getObjectDiff({ req: e.req, rsp: e.rsp }, prettyRsp, diffIgnoreRules);
+          return Object.keys(diff).length === 0;
+        });
+        if (!exists) {
           logger.debug(
-            `Fetched latestGame (patch) (${target.name}): v${rsp.request_version} -> v${rsp.version}, ${mathUtils.formatFileSize(
+            `Fetched latestGamePatch: ${target.region.toUpperCase()}, ${target.name}, v${rsp.request_version} -> v${rsp.version}, ${formatBytes(
               parseInt(rsp.patch.total_size) - parseInt(rsp.patch.package_size),
-              {
-                decimals: 2,
-                decimalPadding: true,
-                unitVisible: true,
-                useBinaryUnit: true,
-                useBitUnit: false,
-                unit: null,
-              },
             )}`,
           );
           patchAllJson.push({
@@ -531,6 +587,23 @@ async function fetchAndSaveLatestGamePatches(cfg: typeof appConfig.network.api.a
             ...prettyRsp,
           });
           needWrite = true;
+          (() => {
+            const hashPair: { url: string; md5: string }[] = [];
+            hashPair.push({ url: rsp.patch.url, md5: rsp.patch.md5 });
+            rsp.patch.patches.forEach((e) => hashPair.push({ url: e.url, md5: e.md5 }));
+            const unique = [...new Map(hashPair.map((item) => [item.md5, item])).values()];
+            const subChns = appConfig.network.api.akEndfield.subChannel;
+            unique.forEach((e) => {
+              if ([subChns.cnWinRel, subChns.osWinRel].includes(target.subChannel)) {
+                const urlObj = new URL(e.url);
+                urlObj.search = '';
+                saveToGHMirrorNeedUrls.push({
+                  url: e.url,
+                  name: urlObj.pathname.split('/').filter(Boolean).slice(-3).join('_'),
+                });
+              }
+            });
+          })();
         }
       });
     }
@@ -541,99 +614,78 @@ async function fetchAndSaveLatestGamePatches(cfg: typeof appConfig.network.api.a
   }
 }
 
-async function fetchAndSaveLatestGameResources(cfg: typeof appConfig.network.api.akEndfield, channelStr: string) {
+async function fetchAndSaveLatestGameResources(gameTargets: GameTarget[]) {
   logger.debug('Fetching latestGameRes ...');
-
   const platforms = ['Windows', 'Android', 'iOS', 'PlayStation'] as const;
 
-  const gameAllJsonPath = path.join(
-    argvUtils.getArgv()['outputDir'],
-    'akEndfield',
-    'launcher',
-    'game',
-    channelStr,
-    'all.json',
-  );
+  const sanitizedGameTargets = [
+    ...new Set(gameTargets.map((e) => JSON.stringify({ region: e.region, appCode: e.appCode, channel: e.channel }))),
+  ].map((e) => JSON.parse(e)) as { region: 'os' | 'cn'; appCode: string; channel: number }[];
 
-  if (!(await Bun.file(gameAllJsonPath).exists())) {
-    logger.warn('Skipping latestGameRes: game/all.json not found');
-    return;
-  }
+  const needDlRawFileBase: string[] = [];
 
-  const versionInfoList = ((await Bun.file(gameAllJsonPath).json()) as StoredData<LatestGameResponse>[])
-    .map((e) => e.rsp)
-    .map((e) => ({
-      version: e.version,
-      versionMinor: semver.major(e.version) + '.' + semver.minor(e.version),
-      randStr: /_([^/]+)\/.+?$/.exec(e.pkg.file_path)![1],
-    }))
-    .sort((a, b) => semver.compare(b.version, a.version));
-
-  for (const platform of platforms) {
-    let isLatestWrote: boolean = false;
-    for (const versionInfoEntry of versionInfoList) {
-      if (!versionInfoEntry.randStr) throw new Error('version rand_str not found');
-      const rsp = await apiUtils.akEndfield.launcher.latestGameResources(
-        cfg.appCode.game.osWinRel,
-        versionInfoEntry.versionMinor,
-        versionInfoEntry.version,
-        versionInfoEntry.randStr,
-        platform,
-      );
-      logger.info(`Fetched latestGameRes: ${platform}, v${versionInfoEntry.version}, ${rsp.res_version}`);
-      const prettyRsp = {
-        req: {
-          appCode: cfg.appCode.game.osWinRel,
-          gameVersion: versionInfoEntry.versionMinor,
-          version: versionInfoEntry.version,
-          randStr: versionInfoEntry.randStr,
+  for (const target of sanitizedGameTargets) {
+    const gameAllJsonPath = path.join(
+      argvUtils.getArgv()['outputDir'],
+      'akEndfield',
+      'launcher',
+      'game',
+      String(target.channel),
+      'all.json',
+    );
+    if (!(await Bun.file(gameAllJsonPath).exists())) {
+      logger.warn('Skipping latestGameRes: game/all.json not found');
+      return;
+    }
+    const versionInfoList = ((await Bun.file(gameAllJsonPath).json()) as StoredData<LatestGameResponse>[])
+      .map((e) => e.rsp)
+      .map((e) => ({
+        version: e.version,
+        versionMinor: semver.major(e.version) + '.' + semver.minor(e.version),
+        randStr: /_([^/]+)\/.+?$/.exec(e.pkg.file_path)![1],
+      }))
+      .sort((a, b) => semver.compare(b.version, a.version));
+    for (const platform of platforms) {
+      let isLatestWrote: boolean = false;
+      for (const versionInfoEntry of versionInfoList) {
+        if (!versionInfoEntry.randStr) throw new Error('version rand_str not found. regexp is broken');
+        const rsp = await apiUtils.akEndfield.launcher.latestGameResources(
+          target.appCode,
+          versionInfoEntry.versionMinor,
+          versionInfoEntry.version,
+          versionInfoEntry.randStr,
           platform,
-        },
-        rsp,
-      };
+          target.region,
+        );
+        logger.info(
+          `Fetched latestGameRes: ${target.region.toUpperCase()}, ${platform}, v${versionInfoEntry.version}, ${rsp.res_version}`,
+        );
+        const prettyRsp = {
+          req: {
+            appCode: target.appCode,
+            gameVersion: versionInfoEntry.versionMinor,
+            version: versionInfoEntry.version,
+            randStr: versionInfoEntry.randStr,
+            platform,
+          },
+          rsp,
+        };
 
-      await saveResult(
-        ['akEndfield', 'launcher', 'game_resources', channelStr, platform],
-        versionInfoEntry.version,
-        prettyRsp,
-        !isLatestWrote,
-      );
-      isLatestWrote = true;
+        await saveResult(
+          ['akEndfield', 'launcher', 'game_resources', String(target.channel), platform],
+          versionInfoEntry.version,
+          prettyRsp,
+          !isLatestWrote,
+        );
+        isLatestWrote = true;
+      }
     }
   }
 }
 
-async function fetchAndSaveLatestLauncher(cfg: typeof appConfig.network.api.akEndfield) {
+async function fetchAndSaveLatestLauncher(launcherTargets: LauncherTarget[]) {
   logger.debug('Fetching latestLauncher ...');
-  const regions = [
-    {
-      id: 'os' as const,
-      apps: ['EndField', 'Official'] as const,
-      code: cfg.appCode.launcher.osWinRel,
-      channel: cfg.channel.osWinRel,
-    },
-    {
-      id: 'cn' as const,
-      apps: ['EndField', 'Arknights', 'Official'] as const,
-      code: cfg.appCode.launcher.cnWinRel,
-      channel: cfg.channel.cnWinRel,
-    },
-  ];
-  const removeQueryStr = (url: string): string => {
-    const urlObj = new URL(url);
-    urlObj.search = '';
-    return urlObj.toString();
-  };
-  const saveToWM = async (url: string): Promise<void> => {
-    if (waybackCred === null) throw new Error('Wayback Machine auth is null');
-    const localJsonPath = path.join(argvUtils.getArgv()['outputDir'], 'wayback_machine.json');
-    const localJson: string[] = await Bun.file(localJsonPath).json();
-    if (!localJson.find((e) => e.includes(removeQueryStr(url)))) {
-      await webArchiveOrg.savePage(url, waybackCred);
-    }
-  };
-
-  for (const { id, apps, code, channel } of regions) {
+  for (const { id, apps, code, channel } of launcherTargets) {
     for (const app of apps) {
       const apiArgs = [code, channel, channel, null] as const;
       const rsp = await apiUtils.akEndfield.launcher.latestLauncher(...apiArgs, app, id);
@@ -644,26 +696,32 @@ async function fetchAndSaveLatestLauncher(cfg: typeof appConfig.network.api.akEn
       logger.info(`Fetched latestLauncher: v${rsp.version}, ${id}, ${app}`);
       const basePath = ['akEndfield', 'launcher'];
       const channelStr = String(channel);
-      const ignoreRules = [
-        { path: ['rsp', 'zip_package_url'], pattern: /\?auth_key=.*$/ },
-        { path: ['rsp', 'exe_url'], pattern: /\?auth_key=.*$/ },
-      ];
-      if (rsp.zip_package_url.includes('?auth_key')) await saveToWM(rsp.zip_package_url);
-      if (rspExe.exe_url.includes('?auth_key')) await saveToWM(rspExe.exe_url);
-      await saveResult([...basePath, 'launcher', app, channelStr], rsp.version, prettyRsp, true, ignoreRules);
-      await saveResult([...basePath, 'launcherExe', app, channelStr], rspExe.version, prettyRspExe, true, ignoreRules);
+      saveToGHMirrorNeedUrls.push({ url: rsp.zip_package_url, name: null });
+      saveToGHMirrorNeedUrls.push({ url: rspExe.exe_url, name: null });
+      await saveResult([...basePath, 'launcher', app, channelStr], rsp.version, prettyRsp, true, diffIgnoreRules);
+      await saveResult(
+        [...basePath, 'launcherExe', app, channelStr],
+        rspExe.version,
+        prettyRspExe,
+        true,
+        diffIgnoreRules,
+      );
     }
   }
 }
 
 async function mainCmdHandler() {
-  waybackCred = await (async () => {
-    logger.debug('Fetching credentials for Wayback Machine ...');
-    const authTextData = await Bun.file('config/config_auth.txt').json();
-    const result = await webArchiveOrg.login(authTextData[0], authTextData[1]);
-    logger.info('Logged in to Wayback Machine');
-    return result;
+  githubAuthCfg = await (async () => {
+    if (await Bun.file('config/config_auth.yaml').exists()) {
+      return YAML.parse(await Bun.file('config/config_auth.yaml').text()).github;
+    } else {
+      return null;
+    }
   })();
+  if (githubAuthCfg) {
+    logger.info('Logging in to GitHub using a PAT');
+    octoClient = new Octokit({ auth: githubAuthCfg.token });
+  }
 
   const cfg = appConfig.network.api.akEndfield;
   const channelStr = String(cfg.channel.osWinRel);
@@ -671,31 +729,70 @@ async function mainCmdHandler() {
   const gameTargets: GameTarget[] = [
     {
       name: 'Official',
+      region: 'os',
+      appCode: cfg.appCode.game.osWinRel,
       launcherAppCode: cfg.appCode.launcher.osWinRel,
-      subChannel: cfg.channel.osWinRel,
-      launcherSubChannel: cfg.channel.osWinRel,
+      channel: cfg.channel.osWinRel,
+      subChannel: cfg.subChannel.osWinRel,
+      launcherSubChannel: cfg.subChannel.osWinRel,
       dirName: String(cfg.channel.osWinRel),
     },
     {
       name: 'Epic',
+      region: 'os',
+      appCode: cfg.appCode.game.osWinRel,
       launcherAppCode: cfg.appCode.launcher.osWinRelEpic,
+      channel: cfg.channel.osWinRel,
       subChannel: cfg.subChannel.osWinRelEpic,
       launcherSubChannel: cfg.subChannel.osWinRelEpic,
       dirName: String(cfg.subChannel.osWinRelEpic),
     },
     {
       name: 'Google Play',
-      launcherAppCode: cfg.appCode.launcher.osWinRelEpic,
+      region: 'os',
+      appCode: cfg.appCode.game.osWinRel,
+      launcherAppCode: cfg.appCode.launcher.osWinRelEpic, // why epic
+      channel: cfg.channel.osWinRel,
       subChannel: cfg.subChannel.osWinRelGooglePlay,
       launcherSubChannel: cfg.subChannel.osWinRelGooglePlay,
       dirName: String(cfg.subChannel.osWinRelGooglePlay),
     },
+    {
+      name: 'Official',
+      region: 'cn',
+      appCode: cfg.appCode.game.cnWinRel,
+      launcherAppCode: cfg.appCode.launcher.cnWinRel,
+      channel: cfg.channel.cnWinRel,
+      subChannel: cfg.subChannel.cnWinRel,
+      launcherSubChannel: cfg.subChannel.cnWinRel,
+      dirName: String(cfg.channel.cnWinRel),
+    },
   ];
 
-  await fetchAndSaveLatestGames(cfg, gameTargets);
-  await fetchAndSaveLatestGamePatches(cfg, gameTargets);
-  await fetchAndSaveLatestGameResources(cfg, channelStr);
-  await fetchAndSaveLatestLauncher(cfg);
+  const launcherTargets: LauncherTarget[] = [
+    {
+      id: 'os',
+      apps: ['EndField', 'Official'],
+      code: cfg.appCode.launcher.osWinRel,
+      channel: cfg.channel.osWinRel,
+    },
+    {
+      id: 'cn',
+      apps: ['EndField', 'Arknights', 'Official'],
+      code: cfg.appCode.launcher.cnWinRel,
+      channel: cfg.channel.cnWinRel,
+    },
+  ];
+
+  await fetchAndSaveLatestGames(gameTargets);
+  await fetchAndSaveLatestGamePatches(gameTargets);
+  await fetchAndSaveLatestGameResources(gameTargets);
+  await fetchAndSaveLatestLauncher(launcherTargets);
+
+  // todo: Implement multithreading or separate the steps in GH Actions
+  for (const e of saveToGHMirrorNeedUrls) {
+    await saveToGHMirror(e.url, e.name);
+  }
 
   for (const target of gameTargets) {
     await generateGameListMd(target);

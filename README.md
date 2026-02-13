@@ -1,3 +1,7 @@
+<a href="https://github.com/palmcivet/awesome-arknights-endfield">
+  <img src="https://github.com/palmcivet/awesome-arknights-endfield/blob/main/assets/badge-for-the-badge.svg" alt="Awesome Arknights Endfield badge" />
+</a>
+
 # ak-endfield-api-archive
 
 Monitor changes to responses from various Arknights: Endfield APIs and record them in this repository.
@@ -7,8 +11,8 @@ API outputs are stored in the [`output`](/output/) directory.
 
 The APIs currently being monitored are as follows:
 - Launcher
-  - Get latest game (Global)
-  - Get latest game resources
+  - Get latest game (Global, China)
+  - Get latest game resources (Global, China)
   - Get latest launcher (Global, China)
 
 ## Download Library
@@ -16,12 +20,15 @@ The APIs currently being monitored are as follows:
 To easily view information about past versions of game packages and other items, please refer to the following page.
 
 - **Game packages**
-  - [Windows Official](/output/akEndfield/launcher/game/6/list.md)
-  - [Windows Epic](/output/akEndfield/launcher/game/801/list.md)
-  - [Windows Google Play](/output/akEndfield/launcher/game/802/list.md)
+  - [Windows Global Official](/output/akEndfield/launcher/game/6/list.md)
+  - [Windows Global Epic](/output/akEndfield/launcher/game/801/list.md)
+  - [Windows Global Google Play](/output/akEndfield/launcher/game/802/list.md)
+  - [Windows China Official](/output/akEndfield/launcher/game/1/list.md)
 - **Game patch packages**
-  - [Windows Official](/output/akEndfield/launcher/game/6/list_patch.md)
-  - [Windows Epic](/output/akEndfield/launcher/game/801/list_patch.md.md)
+  - [Windows Global Official](/output/akEndfield/launcher/game/6/list_patch.md)
+  - [Windows Global Epic](/output/akEndfield/launcher/game/801/list_patch.md.md)
+  - [Windows Global Google Play](/output/akEndfield/launcher/game/802/list_patch.md.md)
+  - [Windows China Official](/output/akEndfield/launcher/game/1/list_patch.md)
 - [**Game resources**](/output/akEndfield/launcher/game_resources/6/list.md) (Windows, Android, iOS, PlayStation)
 - **Launcher packages**
   - [Launcher (zip)](/output/akEndfield/launcher/launcher/list.md)
@@ -30,7 +37,6 @@ To easily view information about past versions of game packages and other items,
 Some packages requiring `auth_key` are available via the Wayback Machine mirror.
 
 All dates and times specified in Markdown files are in Asia server time (China Standard Time, UTC+8).
-
 
 ## Contributing
 

@@ -16,6 +16,7 @@
     "start": "bun x biome format --write src && bun x oxfmt && bun src/main.ts"
   },
   "dependencies": {
+    "@octokit/rest": "^22.0.1",
     "chalk": "^5.6.2",
     "cli-table3": "^0.6.5",
     "cookie": "^1.1.1",
