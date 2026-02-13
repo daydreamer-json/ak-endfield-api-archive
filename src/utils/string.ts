@@ -66,6 +66,12 @@ function getBaseUrlWithoutLastSegment(url: string): string {
   return `${u.origin}${dirPath}`;
 }
 
+function removeQueryStr(url: string): string {
+  const urlObj = new URL(url);
+  urlObj.search = '';
+  return urlObj.toString();
+}
+
 // ==============================
 
 function replaceMultiPatterns(replacements: [RegExp, string][], originalString: string): string {
@@ -144,6 +150,7 @@ export default {
   resolveUrl,
   isAbsoluteUrl,
   getBaseUrlWithoutLastSegment,
+  removeQueryStr,
   replaceMultiPatterns,
   sanitizeFilename,
   filterByRegex,

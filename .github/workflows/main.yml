@@ -22,16 +22,16 @@ jobs:
         run: bun install
       - name: Create config auth
         env:
-          CONFIG_AUTH_TXT_CTX: ${{ secrets.CONFIG_AUTH_TXT }}
+          CONFIG_AUTH_YAML_CTX: ${{ secrets.CONFIG_AUTH_YAML }}
         run: |
           mkdir -p config
-          echo "$CONFIG_AUTH_TXT_CTX" > config/config_auth.txt
-      - name: Run script
+          echo "$CONFIG_AUTH_YAML_CTX" > config/config_auth.yaml
+      - name: Run archive script
         uses: nick-fields/retry@v3
         with:
           max_attempts: 5
           timeout_minutes: 10
-          command: bun run src/main.ts test
+          command: bun run src/main.ts archive
       - name: Format output data
         run: bun x oxfmt output
       - name: Git staging, commit, push
