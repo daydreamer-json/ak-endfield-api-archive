@@ -27,8 +27,8 @@ async function parseCommand() {
   const yargsInstance = yargs(hideBin(process.argv));
   await yargsInstance
     .command(
-      ['test'],
-      'Test command',
+      ['archive'],
+      'Archive all APIs',
       (yargs) => {
         yargs.options({
           'output-dir': {
@@ -40,7 +40,7 @@ async function parseCommand() {
           },
         });
       },
-      wrapHandler(cmds.test),
+      wrapHandler(cmds.archive),
     )
     .command(
       ['authTest [token] [email] [password]'],

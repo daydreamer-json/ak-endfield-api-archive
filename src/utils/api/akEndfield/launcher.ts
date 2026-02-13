@@ -14,10 +14,15 @@ export default {
     subChannel: number,
     launcherSubChannel: number,
     version: string | null,
+    region: 'os' | 'cn',
   ): Promise<TypesApiAkEndfield.LauncherLatestGame> => {
     if (version !== null && !semver.valid(version)) throw new Error(`Invalid version string (${version})`);
+    const apiBase =
+      region === 'cn'
+        ? appConfig.network.api.akEndfield.base.launcherCN
+        : appConfig.network.api.akEndfield.base.launcher;
     const rsp = await ky
-      .get(`https://${appConfig.network.api.akEndfield.base.launcher}/game/get_latest`, {
+      .get(`https://${apiBase}/game/get_latest`, {
         ...defaultSettings.ky,
         searchParams: {
           appcode: appCode,
@@ -37,10 +42,15 @@ export default {
     version: string,
     randStr: string,
     platform: 'Windows' | 'Android' | 'iOS' | 'PlayStation',
+    region: 'os' | 'cn',
   ): Promise<TypesApiAkEndfield.LauncherLatestGameResources> => {
     if (!semver.valid(version)) throw new Error(`Invalid version string (${version})`);
+    const apiBase =
+      region === 'cn'
+        ? appConfig.network.api.akEndfield.base.launcherCN
+        : appConfig.network.api.akEndfield.base.launcher;
     const rsp = await ky
-      .get(`https://${appConfig.network.api.akEndfield.base.launcher}/game/get_latest_resources`, {
+      .get(`https://${apiBase}/game/get_latest_resources`, {
         ...defaultSettings.ky,
         searchParams: {
           appcode: appCode,
@@ -62,12 +72,12 @@ export default {
     region: 'os' | 'cn',
   ): Promise<TypesApiAkEndfield.LauncherLatestLauncher> => {
     if (version !== null && !semver.valid(version)) throw new Error(`Invalid version string (${version})`);
-    const domain =
+    const apiBase =
       region === 'cn'
         ? appConfig.network.api.akEndfield.base.launcherCN
         : appConfig.network.api.akEndfield.base.launcher;
     const rsp = await ky
-      .get(`https://${domain}/launcher/get_latest`, {
+      .get(`https://${apiBase}/launcher/get_latest`, {
         ...defaultSettings.ky,
         searchParams: {
           appcode: appCode,
@@ -89,12 +99,12 @@ export default {
     region: 'os' | 'cn',
   ): Promise<TypesApiAkEndfield.LauncherLatestLauncherExe> => {
     if (version !== null && !semver.valid(version)) throw new Error(`Invalid version string (${version})`);
-    const domain =
+    const apiBase =
       region === 'cn'
         ? appConfig.network.api.akEndfield.base.launcherCN
         : appConfig.network.api.akEndfield.base.launcher;
     const rsp = await ky
-      .get(`https://${domain}/launcher/get_latest_launcher`, {
+      .get(`https://${apiBase}/launcher/get_latest_launcher`, {
         ...defaultSettings.ky,
         searchParams: {
           appcode: appCode,
