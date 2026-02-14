@@ -1,5 +1,6 @@
 import path from 'node:path';
 import { Octokit } from '@octokit/rest';
+import ky, { HTTPError } from 'ky';
 import { DateTime } from 'luxon';
 import PQueue from 'p-queue';
 import semver from 'semver';
@@ -37,8 +38,6 @@ const diffIgnoreRules = [
 
 type LatestGameResponse = Awaited<ReturnType<typeof apiUtils.akEndfield.launcher.latestGame>>;
 type LatestGameResourcesResponse = Awaited<ReturnType<typeof apiUtils.akEndfield.launcher.latestGameResources>>;
-// type LatestLauncherResponse = Awaited<ReturnType<typeof apiUtils.akEndfield.launcher.latestLauncher>>;
-// type LatestLauncherExeResponse = Awaited<ReturnType<typeof apiUtils.akEndfield.launcher.latestLauncherExe>>;
 
 interface StoredData<T> {
   req: any;
@@ -678,9 +677,72 @@ async function fetchAndSaveLatestGameResources(gameTargets: GameTarget[]) {
           !isLatestWrote,
         );
         isLatestWrote = true;
+
+        needDlRawFileBase.push(...rsp.resources.map((e) => e.path));
       }
     }
   }
+}
+
+async function fetchAndSaveAllGameResRawData(gameTargets: GameTarget[]) {
+  logger.debug('Fetching raw game resources ...');
+
+  const platforms = ['Windows', 'Android', 'iOS', 'PlayStation'] as const;
+  const sanitizedGameTargets = [
+    ...new Set(gameTargets.map((e) => JSON.stringify({ region: e.region, appCode: e.appCode, channel: e.channel }))),
+  ].map((e) => JSON.parse(e)) as { region: 'os' | 'cn'; appCode: string; channel: number }[];
+  const queue = new PQueue({ concurrency: appConfig.threadCount.network });
+  const needDlRawFileBase: string[] = [];
+  const fileNameList = ['index_initial.json', 'index_main.json', 'pref_initial.json', 'pref_main.json', 'patch.json'];
+
+  for (const target of sanitizedGameTargets) {
+    for (const platform of platforms) {
+      const resAllJsonPath = path.join(
+        argvUtils.getArgv()['outputDir'],
+        'akEndfield',
+        'launcher',
+        'game_resources',
+        String(target.channel),
+        platform,
+        'all.json',
+      );
+      const resAllJson = (await Bun.file(resAllJsonPath).json()) as StoredData<LatestGameResourcesResponse>[];
+      for (const resEntry of resAllJson) {
+        needDlRawFileBase.push(...resEntry.rsp.resources.map((e) => e.path));
+      }
+    }
+  }
+  const wroteFiles: string[] = [];
+  for (const rawFileBaseEntry of [...new Set(needDlRawFileBase)]) {
+    for (const fileNameEntry of fileNameList) {
+      const urlObj = new URL(rawFileBaseEntry + '/' + fileNameEntry);
+      urlObj.search = '';
+      const localFilePath = path.join(
+        argvUtils.getArgv()['outputDir'],
+        'raw',
+        urlObj.hostname,
+        ...urlObj.pathname.split('/').filter(Boolean),
+      );
+      queue.add(async () => {
+        if (!(await Bun.file(localFilePath).exists())) {
+          try {
+            const rsp = await ky
+              .get(urlObj.href, { headers: { 'User-Agent': appConfig.network.userAgent.minimum } })
+              .bytes();
+            await Bun.write(localFilePath, rsp);
+            wroteFiles.push(localFilePath);
+            // logger.trace('Downloaded: ' + urlObj.href);
+          } catch (err) {
+            if (!(err instanceof HTTPError && (err.response.status === 404 || err.response.status === 403))) {
+              throw err;
+            }
+          }
+        }
+      });
+    }
+  }
+  await queue.onIdle();
+  logger.info(`Fetched raw game resources: ${wroteFiles.length} files`);
 }
 
 async function fetchAndSaveLatestLauncher(launcherTargets: LauncherTarget[]) {
@@ -693,7 +755,7 @@ async function fetchAndSaveLatestLauncher(launcherTargets: LauncherTarget[]) {
       const appLower = app.toLowerCase();
       const rspExe = await apiUtils.akEndfield.launcher.latestLauncherExe(...apiArgs, appLower, id);
       const prettyRspExe = { req: { appCode: code, channel, subChannel: channel, ta: appLower }, rsp: rspExe };
-      logger.info(`Fetched latestLauncher: v${rsp.version}, ${id}, ${app}`);
+      logger.info(`Fetched latestLauncher: ${id.toUpperCase()}, v${rsp.version}, ${app}`);
       const basePath = ['akEndfield', 'launcher'];
       const channelStr = String(channel);
       saveToGHMirrorNeedUrls.push({ url: rsp.zip_package_url, name: null });
@@ -787,6 +849,7 @@ async function mainCmdHandler() {
   await fetchAndSaveLatestGames(gameTargets);
   await fetchAndSaveLatestGamePatches(gameTargets);
   await fetchAndSaveLatestGameResources(gameTargets);
+  await fetchAndSaveAllGameResRawData(gameTargets);
   await fetchAndSaveLatestLauncher(launcherTargets);
 
   // todo: Implement multithreading or separate the steps in GH Actions
