@@ -31,7 +31,9 @@ To easily view information about past versions of game packages and other items,
   - [Windows Global Epic](/output/akEndfield/launcher/game/801/list_patch.md.md)
   - [Windows Global Google Play](/output/akEndfield/launcher/game/802/list_patch.md.md)
   - [Windows China Official](/output/akEndfield/launcher/game/1/list_patch.md)
-- [**Game resources**](/output/akEndfield/launcher/game_resources/6/list.md) (Windows, Android, iOS, PlayStation)
+- **Game resources** (Windows, Android, iOS, PlayStation)
+  - [Global](/output/akEndfield/launcher/game_resources/6/list.md)
+  - [China](/output/akEndfield/launcher/game_resources/1/list.md)
 - **Launcher packages**
   - [Launcher (zip)](/output/akEndfield/launcher/launcher/list.md)
   - [Launcher (installer)](/output/akEndfield/launcher/launcherExe/list.md)
