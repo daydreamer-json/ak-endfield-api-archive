@@ -10,11 +10,8 @@ async function uploadAsset(
   targetFileName: string | null,
 ) {
   if (!client || !authCfg) return;
-  const { data: release } = await client.rest.repos.getReleaseByTag({
-    owner: authCfg.owner,
-    repo: authCfg.repo,
-    tag: authCfg.tag,
-  });
+  const release = await getReleaseInfo(client, authCfg);
+  if (!release) throw new Error('GH release not found');
   const releaseId = release.id;
 
   logger.info(`Mirror archive: Downloading ${new URL(url).pathname.split('/').pop()} ...`);
@@ -32,6 +29,20 @@ async function uploadAsset(
   });
 }
 
+async function getReleaseInfo(
+  client: Octokit | null,
+  authCfg: { token: string; owner: string; repo: string; tag: string } | null,
+) {
+  if (!client || !authCfg) return;
+  const { data: release } = await client.rest.repos.getReleaseByTag({
+    owner: authCfg.owner,
+    repo: authCfg.repo,
+    tag: authCfg.tag,
+  });
+  return release;
+}
+
 export default {
   uploadAsset,
+  getReleaseInfo,
 };
