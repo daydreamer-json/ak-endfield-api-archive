@@ -164,6 +164,12 @@ async function saveToGHMirror(url: string, name: string | null): Promise<void> {
   })();
   if (!mirrorFileDb.find((e) => e.orig.includes(stringUtils.removeQueryStr(url)))) {
     await githubUtils.uploadAsset(octoClient, githubAuthCfg, url, name);
+    if (githubAuthCfg) {
+      mirrorFileDb.push({
+        orig: stringUtils.removeQueryStr(url),
+        mirror: `https://github.com/${githubAuthCfg.owner}/${githubAuthCfg.repo}/releases/download/${githubAuthCfg.tag}/${name ?? new URL(url).pathname.split('/').pop() ?? ''}`,
+      });
+    }
   }
 }
 
