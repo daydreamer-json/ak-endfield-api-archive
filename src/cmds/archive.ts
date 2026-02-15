@@ -315,74 +315,63 @@ async function generatePatchListMd(target: GameTarget) {
   );
 }
 
-async function generateResourceListMd(channelStr: string) {
-  const outputDir = argvUtils.getArgv()['outputDir'];
-  const mdTexts: string[] = [];
-  mdTexts.push(
-    '# Game Resources\n',
-    '- [Windows](#res-Windows)',
-    '- [Android](#res-Android)',
-    '- [iOS](#res-iOS)',
-    '- [PlayStation](#res-PlayStation)\n',
-  );
+async function generateResourceListMd(gameTargets: GameTarget[]) {
+  const sanitizedGameTargets = [
+    ...new Set(gameTargets.map((e) => JSON.stringify({ region: e.region, appCode: e.appCode, channel: e.channel }))),
+  ].map((e) => JSON.parse(e)) as { region: 'os' | 'cn'; appCode: string; channel: number }[];
 
   const platforms = ['Windows', 'Android', 'iOS', 'PlayStation'] as const;
+  const outputDir = argvUtils.getArgv()['outputDir'];
 
-  for (const platform of platforms) {
-    const resourceAllJsonPath = path.join(
-      outputDir,
-      'akEndfield',
-      'launcher',
-      'game_resources',
-      channelStr,
-      platform,
-      'all.json',
-    );
+  for (const target of sanitizedGameTargets) {
+    const mdTexts: string[] = [];
+    mdTexts.push('# Game Resources\n', ...platforms.map((e) => `- [${e}](#res-${e})`), '');
 
-    if (!(await Bun.file(resourceAllJsonPath).exists())) continue;
+    const baseFolderPath = path.join(outputDir, 'akEndfield', 'launcher', 'game_resources', String(target.channel));
+    for (const platform of platforms) {
+      const resourceAllJsonPath = path.join(baseFolderPath, platform, 'all.json');
 
-    const gameAllJson = (await Bun.file(resourceAllJsonPath).json()) as StoredData<LatestGameResourcesResponse>[];
-    const resVersionMap = new Map<string, { rsp: StoredData<LatestGameResourcesResponse>; versions: Set<string> }>();
-    for (const e of gameAllJson) {
-      const resVer = e.rsp.res_version;
-      if (!resVersionMap.has(resVer)) {
-        resVersionMap.set(resVer, { rsp: e, versions: new Set() });
+      if (!(await Bun.file(resourceAllJsonPath).exists())) continue;
+
+      const gameAllJson = (await Bun.file(resourceAllJsonPath).json()) as StoredData<LatestGameResourcesResponse>[];
+      const resVersionMap = new Map<string, { rsp: StoredData<LatestGameResourcesResponse>; versions: Set<string> }>();
+      for (const e of gameAllJson) {
+        const resVer = e.rsp.res_version;
+        if (!resVersionMap.has(resVer)) {
+          resVersionMap.set(resVer, { rsp: e, versions: new Set() });
+        }
+        resVersionMap.get(resVer)!.versions.add(e.req.version);
       }
-      resVersionMap.get(resVer)!.versions.add(e.req.version);
+
+      const resVersionSet = Array.from(resVersionMap.values()).map((data) => ({
+        resVersion: data.rsp.rsp.res_version,
+        rsp: data.rsp,
+        versions: Array.from(data.versions),
+      }));
+
+      mdTexts.push(
+        `<h2 id="res-${platform}">${platform}</h2>\n`,
+        '|Date|Initial|Main|Kick|Game version|',
+        '|--|--|--|--|',
+        ...resVersionSet.map(
+          (resVerObj) =>
+            '|' +
+            [
+              DateTime.fromISO(resVerObj.rsp.updatedAt, { setZone: true })
+                .setZone('UTC+8')
+                .toFormat('yyyy/MM/dd HH:mm:ss'),
+              `[${resVerObj.rsp.rsp.resources.find((e) => e.name === 'initial')!.version}](${resVerObj.rsp.rsp.resources.find((e) => e.name === 'initial')!.path})`,
+              `[${resVerObj.rsp.rsp.resources.find((e) => e.name === 'main')!.version}](${resVerObj.rsp.rsp.resources.find((e) => e.name === 'main')!.path})`,
+              JSON.parse(resVerObj.rsp.rsp.configs).kick_flag === true ? '✅' : '',
+              resVerObj.versions.sort((a, b) => semver.compare(b, a)).join(', '),
+            ].join('|') +
+            '|',
+        ),
+        '',
+      );
     }
-
-    const resVersionSet = Array.from(resVersionMap.values()).map((data) => ({
-      resVersion: data.rsp.rsp.res_version,
-      rsp: data.rsp,
-      versions: Array.from(data.versions),
-    }));
-
-    mdTexts.push(
-      `<h2 id="res-${platform}">${platform}</h2>\n`,
-      '|Date|Initial|Main|Kick|Game version|',
-      '|--|--|--|--|',
-      ...resVersionSet.map(
-        (resVerObj) =>
-          '|' +
-          [
-            DateTime.fromISO(resVerObj.rsp.updatedAt, { setZone: true })
-              .setZone('UTC+8')
-              .toFormat('yyyy/MM/dd HH:mm:ss'),
-            `[${resVerObj.rsp.rsp.resources.find((e) => e.name === 'initial')!.version}](${resVerObj.rsp.rsp.resources.find((e) => e.name === 'initial')!.path})`,
-            `[${resVerObj.rsp.rsp.resources.find((e) => e.name === 'main')!.version}](${resVerObj.rsp.rsp.resources.find((e) => e.name === 'main')!.path})`,
-            JSON.parse(resVerObj.rsp.rsp.configs).kick_flag === true ? '✅' : '',
-            resVerObj.versions.sort((a, b) => semver.compare(b, a)).join(', '),
-          ].join('|') +
-          '|',
-      ),
-      '',
-    );
+    await Bun.write(path.join(baseFolderPath, 'list.md'), mdTexts.join('\n'));
   }
-
-  await Bun.write(
-    path.join(outputDir, 'akEndfield', 'launcher', 'game_resources', channelStr, 'list.md'),
-    mdTexts.join('\n'),
-  );
 }
 
 async function generateLauncherMd(type: 'zip' | 'exe') {
@@ -786,7 +775,6 @@ async function mainCmdHandler() {
   }
 
   const cfg = appConfig.network.api.akEndfield;
-  const channelStr = String(cfg.channel.osWinRel);
 
   const gameTargets: GameTarget[] = [
     {
@@ -856,12 +844,18 @@ async function mainCmdHandler() {
   for (const e of saveToGHMirrorNeedUrls) {
     await saveToGHMirror(e.url, e.name);
   }
+  const ghRelInfo = await githubUtils.getReleaseInfo(octoClient, githubAuthCfg);
+  if (ghRelInfo) {
+    logger.info(
+      'GitHub Releases size total: ' + formatBytes(mathUtils.arrayTotal(ghRelInfo.assets.map((e) => e.size))),
+    );
+  }
 
   for (const target of gameTargets) {
     await generateGameListMd(target);
     await generatePatchListMd(target);
   }
-  await generateResourceListMd(channelStr);
+  await generateResourceListMd(gameTargets);
   await generateLauncherMd('zip');
   await generateLauncherMd('exe');
 }
