@@ -158,10 +158,8 @@ async function saveResult<T>(
 }
 
 async function saveToGHMirror(url: string, name: string | null): Promise<void> {
-  const mirrorFileDb = await (async () => {
-    const localJsonPath = path.join(argvUtils.getArgv()['outputDir'], 'mirror_file_list.json');
-    return (await Bun.file(localJsonPath).json()) as MirrorFileEntry[];
-  })();
+  const localJsonPath = path.join(argvUtils.getArgv()['outputDir'], 'mirror_file_list.json');
+  const mirrorFileDb = (await Bun.file(localJsonPath).json()) as MirrorFileEntry[];
   if (!mirrorFileDb.find((e) => e.orig.includes(stringUtils.removeQueryStr(url)))) {
     await githubUtils.uploadAsset(octoClient, githubAuthCfg, url, name);
     if (githubAuthCfg) {
@@ -169,6 +167,7 @@ async function saveToGHMirror(url: string, name: string | null): Promise<void> {
         orig: stringUtils.removeQueryStr(url),
         mirror: `https://github.com/${githubAuthCfg.owner}/${githubAuthCfg.repo}/releases/download/${githubAuthCfg.tag}/${name ?? new URL(url).pathname.split('/').pop() ?? ''}`,
       });
+      await Bun.write(localJsonPath, JSON.stringify(mirrorFileDb));
     }
   }
 }
