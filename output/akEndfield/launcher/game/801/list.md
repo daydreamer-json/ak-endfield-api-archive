@@ -1,4 +1,4 @@
-# Game Packages (Epic)
+# Game Packages (Global, Epic)
 
 - [1.0.14 (2026/01/28 11:50:37)](#ver-1.0.14-1769572238)
 

@@ -1,4 +1,4 @@
-# Game Patch Packages (Google Play)
+# Game Patch Packages (Global, Google Play)
 
 - [1.0.13 → 1.0.14 (2026/01/26 01:33:36)](#ver-1.0.13-1.0.14-1769362417)
 
