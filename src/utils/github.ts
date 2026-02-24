@@ -5,7 +5,12 @@ import logger from './logger.js';
 
 async function uploadAsset(
   client: Octokit | null,
-  authCfg: { token: string; owner: string; repo: string; tag: string } | null,
+  authCfg: {
+    github: {
+      relArchive: { token: string; owner: string; repo: string; tag: string };
+      main: { token: string; owner: string; repo: string };
+    };
+  } | null,
   url: string,
   targetFileName: string | null,
 ) {
@@ -20,8 +25,8 @@ async function uploadAsset(
   const binSize: number = bin.byteLength;
   logger.info(`Mirror archive: Uploading ${new URL(url).pathname.split('/').pop()} ...`);
   await client.rest.repos.uploadReleaseAsset({
-    owner: authCfg.owner,
-    repo: authCfg.repo,
+    owner: authCfg.github.relArchive.owner,
+    repo: authCfg.github.relArchive.repo,
     release_id: releaseId,
     name,
     data: bin as any,
@@ -31,18 +36,42 @@ async function uploadAsset(
 
 async function getReleaseInfo(
   client: Octokit | null,
-  authCfg: { token: string; owner: string; repo: string; tag: string } | null,
+  authCfg: {
+    github: {
+      relArchive: { token: string; owner: string; repo: string; tag: string };
+      main: { token: string; owner: string; repo: string };
+    };
+  } | null,
 ) {
   if (!client || !authCfg) return;
   const { data: release } = await client.rest.repos.getReleaseByTag({
-    owner: authCfg.owner,
-    repo: authCfg.repo,
-    tag: authCfg.tag,
+    owner: authCfg.github.relArchive.owner,
+    repo: authCfg.github.relArchive.repo,
+    tag: authCfg.github.relArchive.tag,
   });
   return release;
+}
+
+async function checkIsActionRunning(
+  authCfg: {
+    github: {
+      relArchive: { token: string; owner: string; repo: string; tag: string };
+      main: { token: string; owner: string; repo: string };
+    };
+  } | null,
+): Promise<boolean> {
+  if (!authCfg) return false;
+  logger.debug('Checking GitHub Actions running status ...');
+  const client = new Octokit({ auth: authCfg.github.main.token });
+  const data = await client.rest.actions.listWorkflowRunsForRepo({
+    owner: authCfg.github.main.owner,
+    repo: authCfg.github.main.repo,
+  });
+  return data.data.workflow_runs.filter((e) => e.status !== 'completed').length > 1;
 }
 
 export default {
   uploadAsset,
   getReleaseInfo,
+  checkIsActionRunning,
 };
