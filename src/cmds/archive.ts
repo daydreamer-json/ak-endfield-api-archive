@@ -843,7 +843,8 @@ async function mainCmdHandler() {
 
   if ((await githubUtils.checkIsActionRunning(githubAuthCfg)) === true) {
     logger.error('Duplicate exec of a GitHub Actions workflow has been detected');
-    throw new Error('Github Actions workflow duplicate exec detected');
+    // throw new Error('Github Actions workflow duplicate exec detected');
+    return;
   }
 
   const cfg = appConfig.network.api.akEndfield;
