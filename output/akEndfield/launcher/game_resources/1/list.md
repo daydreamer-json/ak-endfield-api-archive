@@ -10,6 +10,7 @@
 | Date                | Initial                                                                                                               | Main                                                                                                               | Kick | Game version   |
 | ------------------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ---- | -------------- |
 | 2026/02/14 03:57:08 | [5634417-26](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/Windows/initial/5634417-26_PcY3LI99fa310KEP/files) | [5634417-26](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/Windows/main/5634417-26_YafBKh0mm1uuXdjo/files) |      | 1.0.14, 1.0.13 |
+| 2026/02/24 10:10:21 | [5691762-27](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/Windows/initial/5691762-27_zk2NsbvUC048ci1y/files) | [5691762-27](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/Windows/main/5691762-27_RvldGca6CX1X4CCT/files) |      | 1.0.14, 1.0.13 |
 
 <h2 id="res-Android">Android</h2>
 
@@ -24,15 +25,18 @@
 | 2026/02/05 08:10:17 | [5501571-22](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/Android/initial/5501571-22_zdgxiKJbjVKNSJgG/files) | [5501571-22](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/Android/main/5501571-22_lmEojHq6TN2KPz70/files) | ✅   | 1.0.14, 1.0.13 |
 | 2026/02/12 10:40:18 | [5605008-25](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/Android/initial/5605008-25_HSYyVoFCxp0VXak9/files) | [5605008-25](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/Android/main/5605008-25_K9T1V66KXSXhdPtP/files) | ✅   | 1.0.14, 1.0.13 |
 | 2026/02/14 03:57:09 | [5634417-26](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/Android/initial/5634417-26_dAcUi6QHNuEAkwc6/files) | [5634417-26](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/Android/main/5634417-26_ydNAeXcY5YCyvQ2Y/files) |      | 1.0.14, 1.0.13 |
+| 2026/02/24 10:10:21 | [5691762-27](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/Android/initial/5691762-27_LTobmpB0G7C7rtLW/files) | [5691762-27](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/Android/main/5691762-27_6DveKD6L1Ce78eXc/files) |      | 1.0.14, 1.0.13 |
 
 <h2 id="res-iOS">iOS</h2>
 
 | Date                | Initial                                                                                                           | Main                                                                                                           | Kick | Game version   |
 | ------------------- | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ---- | -------------- |
 | 2026/02/14 03:57:09 | [5634417-28](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/iOS/initial/5634417-28_epR4h2VquVK1Hdo8/files) | [5634417-28](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/iOS/main/5634417-28_4Qbwwn0MsezcnOtE/files) |      | 1.0.14, 1.0.13 |
+| 2026/02/24 10:10:22 | [5691762-29](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/iOS/initial/5691762-29_edlnSdRx34jT1xK6/files) | [5691762-29](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/iOS/main/5691762-29_0KOiE5ZQIul7f59W/files) |      | 1.0.14, 1.0.13 |
 
 <h2 id="res-PlayStation">PlayStation</h2>
 
 | Date                | Initial                                                                                                                     | Main                                                                                                                     | Kick | Game version   |
 | ------------------- | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ---- | -------------- |
 | 2026/02/14 03:57:09 | [5634417-116](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/PlayStation/initial/5634417-116_rhweoXLA5GW1eJOP/files) | [5634417-116](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/PlayStation/main/5634417-116_C1mkSLz8xDdil8VT/files) |      | 1.0.14, 1.0.13 |
+| 2026/02/24 10:10:22 | [5691762-117](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/PlayStation/initial/5691762-117_iUDREMUCgdIgO1bk/files) | [5691762-117](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/PlayStation/main/5691762-117_cLcFD497e0qufni8/files) |      | 1.0.14, 1.0.13 |
