@@ -67,7 +67,7 @@ async function checkIsActionRunning(
     owner: authCfg.github.main.owner,
     repo: authCfg.github.main.repo,
   });
-  return data.data.workflow_runs.filter((e) => e.status !== 'completed').length > 1;
+  return data.data.workflow_runs.filter((e) => e.status === 'in_progress').length > 1;
 }
 
 export default {
