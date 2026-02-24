@@ -228,9 +228,24 @@ async function generateGameListMd(target: GameTarget) {
       const cleanUrl = new URL(f.url);
       cleanUrl.search = '';
       const mirrorUrlEntry = mirrorFileDb.find((g) => g.orig.includes(cleanUrl.toString()));
-      const fileLink = mirrorUrlEntry
-        ? `${fileName} [Orig](${f.url}) / [Mirror](${mirrorUrlEntry.mirror})`
-        : `[${fileName}](${f.url})`;
+      const isFileAvail = {
+        orig: await (async () => {
+          try {
+            await ky.head(f.url, { headers: { 'User-Agent': 'Mozilla/5.0' } });
+            return true;
+          } catch (err) {
+            return false;
+          }
+        })(),
+        mirror: Boolean(mirrorUrlEntry),
+      };
+      const fileLink = (() => {
+        if (isFileAvail.orig && isFileAvail.mirror)
+          return `${fileName} [Orig](${f.url}) / [Mirror](${mirrorUrlEntry!.mirror})`;
+        else if (isFileAvail.mirror) return `[${fileName}](${mirrorUrlEntry!.mirror})`;
+        else if (isFileAvail.orig) return `[${fileName}](${f.url})`;
+        else return fileName;
+      })();
       mdTexts.push('|' + [fileLink, `\`${f.md5}\``, formatBytes(parseInt(f.package_size))].join('|') + '|');
     }
     mdTexts.push('');
@@ -298,9 +313,24 @@ async function generatePatchListMd(target: GameTarget) {
       const cleanUrl = new URL(e.rsp.patch.url);
       cleanUrl.search = '';
       const mirrorUrlEntry = mirrorFileDb.find((f) => f.orig.includes(cleanUrl.toString()));
-      const fileLink = mirrorUrlEntry
-        ? `${fileName} [Orig](${e.rsp.patch.url}) / [Mirror](${mirrorUrlEntry.mirror})`
-        : `[${fileName}](${e.rsp.patch.url})`;
+      const isFileAvail = {
+        orig: await (async () => {
+          try {
+            await ky.head(e.rsp.patch!.url, { headers: { 'User-Agent': 'Mozilla/5.0' } });
+            return true;
+          } catch (err) {
+            return false;
+          }
+        })(),
+        mirror: Boolean(mirrorUrlEntry),
+      };
+      const fileLink = (() => {
+        if (isFileAvail.orig && isFileAvail.mirror)
+          return `${fileName} [Orig](${e.rsp.patch.url}) / [Mirror](${mirrorUrlEntry!.mirror})`;
+        else if (isFileAvail.mirror) return `[${fileName}](${mirrorUrlEntry!.mirror})`;
+        else if (isFileAvail.orig) return `[${fileName}](${e.rsp.patch.url})`;
+        else return fileName;
+      })();
       mdTexts.push(
         '|' + [fileLink, `\`${e.rsp.patch.md5}\``, formatBytes(parseInt(e.rsp.patch.package_size))].join('|') + '|',
       );
@@ -311,9 +341,24 @@ async function generatePatchListMd(target: GameTarget) {
       const cleanUrl = new URL(f.url);
       cleanUrl.search = '';
       const mirrorUrlEntry = mirrorFileDb.find((g) => g.orig.includes(cleanUrl.toString()));
-      const fileLink = mirrorUrlEntry
-        ? `${fileName} [Orig](${f.url}) / [Mirror](${mirrorUrlEntry.mirror})`
-        : `[${fileName}](${f.url})`;
+      const isFileAvail = {
+        orig: await (async () => {
+          try {
+            await ky.head(f.url, { headers: { 'User-Agent': 'Mozilla/5.0' } });
+            return true;
+          } catch (err) {
+            return false;
+          }
+        })(),
+        mirror: Boolean(mirrorUrlEntry),
+      };
+      const fileLink = (() => {
+        if (isFileAvail.orig && isFileAvail.mirror)
+          return `${fileName} [Orig](${f.url}) / [Mirror](${mirrorUrlEntry!.mirror})`;
+        else if (isFileAvail.mirror) return `[${fileName}](${mirrorUrlEntry!.mirror})`;
+        else if (isFileAvail.orig) return `[${fileName}](${f.url})`;
+        else return fileName;
+      })();
       mdTexts.push('|' + [fileLink, `\`${f.md5}\``, formatBytes(parseInt(f.package_size))].join('|') + '|');
     }
     mdTexts.push('');
@@ -887,6 +932,8 @@ async function mainCmdHandler() {
       'GitHub Releases size total: ' + formatBytes(mathUtils.arrayTotal(ghRelInfo.assets.map((e) => e.size))),
     );
   }
+
+  logger.debug('Generating markdown ...');
 
   for (const target of gameTargets) {
     await generateGameListMd(target);
