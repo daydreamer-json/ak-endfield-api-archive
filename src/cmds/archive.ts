@@ -13,7 +13,12 @@ import logger from '../utils/logger.js';
 import mathUtils from '../utils/math.js';
 import stringUtils from '../utils/string.js';
 
-let githubAuthCfg: { token: string; owner: string; repo: string; tag: string } | null = null;
+let githubAuthCfg: {
+  github: {
+    relArchive: { token: string; owner: string; repo: string; tag: string };
+    main: { token: string; owner: string; repo: string };
+  };
+} | null = null;
 let octoClient: Octokit | null = null;
 let saveToGHMirrorNeedUrls: { url: string; name: string | null }[] = [];
 
@@ -165,7 +170,7 @@ async function saveToGHMirror(url: string, name: string | null): Promise<void> {
     if (githubAuthCfg) {
       mirrorFileDb.push({
         orig: stringUtils.removeQueryStr(url),
-        mirror: `https://github.com/${githubAuthCfg.owner}/${githubAuthCfg.repo}/releases/download/${githubAuthCfg.tag}/${name ?? new URL(url).pathname.split('/').pop() ?? ''}`,
+        mirror: `https://github.com/${githubAuthCfg.github.relArchive.owner}/${githubAuthCfg.github.relArchive.repo}/releases/download/${githubAuthCfg.github.relArchive.tag}/${name ?? new URL(url).pathname.split('/').pop() ?? ''}`,
       });
       await Bun.write(localJsonPath, JSON.stringify(mirrorFileDb));
     }
@@ -503,7 +508,7 @@ async function fetchAndSaveLatestGames(gameTargets: GameTarget[]) {
       const unique = [...new Map(hashPair.map((item) => [item.md5, item])).values()];
       const subChns = appConfig.network.api.akEndfield.subChannel;
       unique.forEach((e) => {
-        if ([subChns.cnWinRel, subChns.osWinRel].includes(target.subChannel)) {
+        if ([subChns.cnWinRel, subChns.cnWinRelBilibili, subChns.osWinRel].includes(target.subChannel)) {
           saveToGHMirrorNeedUrls.push({ url: e.url, name: null });
         }
       });
@@ -591,7 +596,7 @@ async function fetchAndSaveLatestGamePatches(gameTargets: GameTarget[]) {
             const unique = [...new Map(hashPair.map((item) => [item.md5, item])).values()];
             const subChns = appConfig.network.api.akEndfield.subChannel;
             unique.forEach((e) => {
-              if ([subChns.cnWinRel, subChns.osWinRel].includes(target.subChannel)) {
+              if ([subChns.cnWinRel, subChns.cnWinRelBilibili, subChns.osWinRel].includes(target.subChannel)) {
                 const urlObj = new URL(e.url);
                 urlObj.search = '';
                 saveToGHMirrorNeedUrls.push({
@@ -781,14 +786,19 @@ async function fetchAndSaveLatestLauncher(launcherTargets: LauncherTarget[]) {
 async function mainCmdHandler() {
   githubAuthCfg = await (async () => {
     if (await Bun.file('config/config_auth.yaml').exists()) {
-      return YAML.parse(await Bun.file('config/config_auth.yaml').text()).github;
+      return YAML.parse(await Bun.file('config/config_auth.yaml').text());
     } else {
       return null;
     }
   })();
   if (githubAuthCfg) {
     logger.info('Logging in to GitHub using a PAT');
-    octoClient = new Octokit({ auth: githubAuthCfg.token });
+    octoClient = new Octokit({ auth: githubAuthCfg.github.relArchive.token });
+  }
+
+  if ((await githubUtils.checkIsActionRunning(githubAuthCfg)) === true) {
+    logger.error('Duplicate exec of a GitHub Actions workflow has been detected');
+    throw new Error('Github Actions workflow duplicate exec detected');
   }
 
   const cfg = appConfig.network.api.akEndfield;
