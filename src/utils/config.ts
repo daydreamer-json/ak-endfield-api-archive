@@ -21,15 +21,23 @@ type ConfigType = AllRequired<
             accountService: { osWinRel: string; skport: string; binding: string };
             u8: { osWinRel: string };
           };
-          channel: { osWinRel: number; cnWinRel: number };
-          subChannel: { osWinRel: number; osWinRelEpic: number; osWinRelGooglePlay: number; cnWinRel: number };
+          channel: { osWinRel: number; cnWinRel: number; cnWinRelBilibili: number };
+          subChannel: {
+            osWinRel: number;
+            osWinRelEpic: number;
+            osWinRelGooglePlay: number;
+            cnWinRel: number;
+            cnWinRelBilibili: number;
+          };
           base: {
             accountService: string;
+            gameHub: string;
             launcher: string;
             launcherCN: string;
             u8: string;
             binding: string;
             webview: string;
+            zonai: string;
           };
         };
       };
@@ -37,6 +45,7 @@ type ConfigType = AllRequired<
         // UA to hide the fact that the access is from this tool
         minimum: string;
         chromeWindows: string;
+        qtHgSdk: string;
         curl: string;
         ios: string;
       };
@@ -69,15 +78,17 @@ const initialConfig: ConfigType = {
           accountService: { osWinRel: 'd9f6dbb6bbd6bb33', skport: '6eb76d4e13aa36e6', binding: '3dacefa138426cfe' },
           u8: { osWinRel: '973bd727dd11cbb6ead8' },
         },
-        channel: { osWinRel: 6, cnWinRel: 1 },
-        subChannel: { osWinRel: 6, osWinRelEpic: 801, osWinRelGooglePlay: 802, cnWinRel: 1 },
+        channel: { osWinRel: 6, cnWinRel: 1, cnWinRelBilibili: 2 },
+        subChannel: { osWinRel: 6, osWinRelEpic: 801, osWinRelGooglePlay: 802, cnWinRel: 1, cnWinRelBilibili: 2 },
         base: {
           accountService: 'YXMuZ3J5cGhsaW5lLmNvbQ==',
+          gameHub: 'Z2FtZS1odWIuZ3J5cGhsaW5lLmNvbQ==',
           launcher: 'bGF1bmNoZXIuZ3J5cGhsaW5lLmNvbS9hcGk=',
           launcherCN: 'bGF1bmNoZXIuaHlwZXJncnlwaC5jb20vYXBp',
           u8: 'dTguZ3J5cGhsaW5lLmNvbQ==',
           binding: 'YmluZGluZy1hcGktYWNjb3VudC1wcm9kLmdyeXBobGluZS5jb20=',
           webview: 'ZWYtd2Vidmlldy5ncnlwaGxpbmUuY29t',
+          zonai: 'em9uYWkuc2twb3J0LmNvbQ==',
         },
       },
     },
@@ -85,6 +96,8 @@ const initialConfig: ConfigType = {
       minimum: 'Mozilla/5.0',
       chromeWindows:
         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36',
+      qtHgSdk:
+        'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.15.8 Chrome/87.0.4280.144 Safari/537.36 PC/WIN/HGSDK HGWebPC/1.30.1',
       curl: 'curl/8.4.0',
       ios: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1',
     },
