@@ -359,6 +359,195 @@ type WebViewRecordContent = {
   msg: string;
 };
 
+type ZonaiWebV1UserAuthGenCredByCode = {
+  code: number; // 0 = ok
+  message: string; // OK
+  timestamp: string; // unixtime
+  data: {
+    cred: string; // base64?
+    userId: string;
+    token: string; // hex;
+  };
+};
+
+type ZonaiWebV1UserCheck = {
+  code: number; // 0 = ok
+  message: string; // OK
+  timestamp: string; // unixtime
+  data: {
+    cred: string;
+    userId: string;
+    token: string;
+  };
+};
+
+type ZonaiWebV1WikiMe = {
+  code: number; // 0 = ok
+  message: string; // OK
+  timestamp: string; // unixtime
+  data: {
+    user: {
+      userId: string;
+      nickname: string;
+      avatarCode: number;
+      avatar: string;
+    };
+    resources: any[];
+  };
+};
+
+type ZonaiWebV2User = {
+  code: number;
+  message: string;
+  timestamp: string;
+  data: {
+    user: {
+      basicUser: {
+        id: string;
+        nickname: string;
+        profile: string;
+        avatarCode: number;
+        avatar: string;
+        gender: number;
+        status: number;
+        operationStatus: number;
+        identity: number;
+        kind: number;
+        moderatorStatus: number;
+        moderatorChangeTime: number;
+        createdAt: string;
+        latestLoginAt: string;
+      };
+      pendant: {
+        id: number;
+        iconUrl: string;
+        title: string;
+        description: string;
+      };
+      background: any;
+    };
+    userRts: {
+      follow: string;
+      fans: string;
+      liked: string;
+    };
+    userSanctionList: any[];
+    userInfoApply: {};
+    moderator: {
+      isModerator: boolean;
+      operations: any[];
+      role: string;
+      since: string;
+      status: number;
+      gameOperations: {};
+    };
+  };
+};
+
+type ZonaiApiV1GamePlayerBinding = {
+  code: number;
+  message: string;
+  timestamp: string;
+  data: {
+    list: {
+      appCode: string;
+      appName: string;
+      bindingList: {
+        uid: string;
+        isOfficial: boolean;
+        isDefault: boolean;
+        channelMasterId: string;
+        channelName: string;
+        nickName: string;
+        isDelete: boolean;
+        gameName: string;
+        gameId: number;
+        roles: {
+          serverId: string;
+          roleId: string;
+          nickname: string;
+          level: number;
+          isDefault: boolean;
+          isBanned: boolean;
+          serverType: string;
+          serverName: string;
+        }[];
+        defaultRole: {
+          serverId: string;
+          roleId: string;
+          nickname: string;
+          level: number;
+          isDefault: boolean;
+          isBanned: boolean;
+          serverType: string;
+          serverName: string;
+        };
+      }[];
+    }[];
+    serverDefaultBinding: {};
+  };
+};
+
+type ZonaiWebV1GameEndfieldAttendance = {
+  code: number;
+  message: string;
+  timestamp: string;
+  data: {
+    currentTs: string;
+    calendar: {
+      awardId: string; // endfield_attendance_1_2
+      available: boolean;
+      done: boolean;
+    }[];
+    first: {
+      awardId: string; // endfield_attendance_1_2
+      available: boolean;
+      done: boolean;
+    }[];
+    resourceInfoMap: Record<
+      string,
+      {
+        id: string; // endfield_attendance_1_2
+        count: number;
+        name: string;
+        icon: string;
+      }
+    >;
+    hasToday: boolean;
+  };
+};
+
+type ZonaiWebV1GameEndfieldAttendanceRecord = {
+  code: number;
+  message: string;
+  timestamp: string;
+  data: {
+    records: {
+      ts: string;
+      awardId: string; // endfield_attendance_1_2
+    }[];
+    resourceInfoMap: Record<
+      string,
+      {
+        id: string; // endfield_attendance_1_2
+        count: number;
+        name: string;
+        icon: string;
+      }
+    >;
+  };
+};
+
+type GameHubGiftCodeRedeem = {
+  code: number; // 0=OK, 11004=ActivityExpired
+  data: {
+    redeemResult?: {
+      recordId: string;
+    };
+  };
+  msg: string; // ''=OK
+};
+
 export type {
   LauncherLatestGame,
   LauncherLatestGameResources,
@@ -383,4 +572,12 @@ export type {
   BindApiGeneralV1AuthAppList,
   WebViewRecordChar,
   WebViewRecordContent,
+  ZonaiWebV1UserAuthGenCredByCode,
+  ZonaiWebV1UserCheck,
+  ZonaiWebV1WikiMe,
+  ZonaiWebV2User,
+  ZonaiApiV1GamePlayerBinding,
+  ZonaiWebV1GameEndfieldAttendance,
+  ZonaiWebV1GameEndfieldAttendanceRecord,
+  GameHubGiftCodeRedeem,
 };

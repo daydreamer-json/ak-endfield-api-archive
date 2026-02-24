@@ -186,7 +186,7 @@ async function generateGameListMd(target: GameTarget) {
     return (await Bun.file(localJsonPath).json()) as MirrorFileEntry[];
   })();
 
-  mdTexts.push(`# Game Packages (${target.name})\n`);
+  mdTexts.push(`# Game Packages (${target.region === 'cn' ? 'China' : 'Global'}, ${target.name})\n`);
 
   // TOC
   for (const e of gameAllJson) {
@@ -251,7 +251,7 @@ async function generatePatchListMd(target: GameTarget) {
     return (await Bun.file(localJsonPath).json()) as MirrorFileEntry[];
   })();
 
-  mdTexts.push(`# Game Patch Packages (${target.name})\n`);
+  mdTexts.push(`# Game Patch Packages (${target.region === 'cn' ? 'China' : 'Global'}, ${target.name})\n`);
 
   // TOC
   for (const e of patchAllJson) {
@@ -322,7 +322,11 @@ async function generatePatchListMd(target: GameTarget) {
 
 async function generateResourceListMd(gameTargets: GameTarget[]) {
   const sanitizedGameTargets = [
-    ...new Set(gameTargets.map((e) => JSON.stringify({ region: e.region, appCode: e.appCode, channel: e.channel }))),
+    ...new Set(
+      gameTargets
+        .filter((e) => [appConfig.network.api.akEndfield.channel.cnWinRelBilibili].includes(e.channel) === false)
+        .map((e) => JSON.stringify({ region: e.region, appCode: e.appCode, channel: e.channel })),
+    ),
   ].map((e) => JSON.parse(e)) as { region: 'os' | 'cn'; appCode: string; channel: number }[];
 
   const platforms = ['Windows', 'Android', 'iOS', 'PlayStation'] as const;
@@ -612,7 +616,11 @@ async function fetchAndSaveLatestGameResources(gameTargets: GameTarget[]) {
   const platforms = ['Windows', 'Android', 'iOS', 'PlayStation'] as const;
 
   const sanitizedGameTargets = [
-    ...new Set(gameTargets.map((e) => JSON.stringify({ region: e.region, appCode: e.appCode, channel: e.channel }))),
+    ...new Set(
+      gameTargets
+        .filter((e) => [appConfig.network.api.akEndfield.channel.cnWinRelBilibili].includes(e.channel) === false)
+        .map((e) => JSON.stringify({ region: e.region, appCode: e.appCode, channel: e.channel })),
+    ),
   ].map((e) => JSON.parse(e)) as { region: 'os' | 'cn'; appCode: string; channel: number }[];
 
   const needDlRawFileBase: string[] = [];
@@ -683,7 +691,11 @@ async function fetchAndSaveAllGameResRawData(gameTargets: GameTarget[]) {
 
   const platforms = ['Windows', 'Android', 'iOS', 'PlayStation'] as const;
   const sanitizedGameTargets = [
-    ...new Set(gameTargets.map((e) => JSON.stringify({ region: e.region, appCode: e.appCode, channel: e.channel }))),
+    ...new Set(
+      gameTargets
+        .filter((e) => [appConfig.network.api.akEndfield.channel.cnWinRelBilibili].includes(e.channel) === false)
+        .map((e) => JSON.stringify({ region: e.region, appCode: e.appCode, channel: e.channel })),
+    ),
   ].map((e) => JSON.parse(e)) as { region: 'os' | 'cn'; appCode: string; channel: number }[];
   const queue = new PQueue({ concurrency: appConfig.threadCount.network });
   const needDlRawFileBase: string[] = [];
@@ -821,6 +833,16 @@ async function mainCmdHandler() {
       subChannel: cfg.subChannel.cnWinRel,
       launcherSubChannel: cfg.subChannel.cnWinRel,
       dirName: String(cfg.channel.cnWinRel),
+    },
+    {
+      name: 'Bilibili',
+      region: 'cn',
+      appCode: cfg.appCode.game.cnWinRel,
+      launcherAppCode: cfg.appCode.launcher.cnWinRel,
+      channel: cfg.channel.cnWinRelBilibili,
+      subChannel: cfg.subChannel.cnWinRelBilibili,
+      launcherSubChannel: cfg.subChannel.cnWinRelBilibili,
+      dirName: String(cfg.channel.cnWinRelBilibili),
     },
   ];
 

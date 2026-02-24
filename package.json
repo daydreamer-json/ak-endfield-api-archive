@@ -12,8 +12,7 @@
     "url": "git+https://github.com/daydreamer-json/ak-endfield-api-archive.git"
   },
   "scripts": {
-    "format": "bun x biome format --write src && bun x oxfmt",
-    "start": "bun x biome format --write src && bun x oxfmt && bun src/main.ts"
+    "start": "bun src/main.ts archive && bun x oxfmt output"
   },
   "dependencies": {
     "@octokit/rest": "^22.0.1",

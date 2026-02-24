@@ -1,4 +1,4 @@
-# Game Packages (Google Play)
+# Game Packages (Global, Google Play)
 
 - [1.0.14 (2026/02/07 06:00:29)](#ver-1.0.14-1770415230)
 

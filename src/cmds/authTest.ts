@@ -19,14 +19,14 @@ async function mainCmdHandler() {
   if (!('token' in argvUtils.getArgv()) || !argvUtils.getArgv()['token']) {
     const tokenUserRsp: string = await (async () => {
       logger.warn('Gryphline account service token has not been specified. Requesting ...');
-      const onCancelFn = () => {
+      const onCancel = () => {
         logger.error('Aborted');
         exitUtils.exit(1, null, false);
       };
       return (
         await prompts(
           { name: 'value', type: 'password', message: 'Enter Gryphline account service token' },
-          { onCancel: onCancelFn },
+          { onCancel },
         )
       ).value;
     })();
@@ -53,8 +53,8 @@ async function mainCmdHandler() {
     }
   }
   if (needRetrieveToken) {
-    await (async () => {
-      const onCancelFn = () => {
+    {
+      const onCancel = () => {
         logger.error('Aborted');
         exitUtils.exit(1, null, false);
       };
@@ -66,7 +66,7 @@ async function mainCmdHandler() {
               ...{ name: 'value', type: 'text', message: 'Enter Gryphline account email' },
               validate: (value) => (Boolean(value) ? true : 'Invalid value'),
             },
-            { onCancel: onCancelFn },
+            { onCancel },
           )
         ).value;
         argvUtils.setArgv({ ...argvUtils.getArgv(), email: emailRsp });
@@ -79,12 +79,12 @@ async function mainCmdHandler() {
               ...{ name: 'value', type: 'password', message: 'Enter Gryphline account password' },
               validate: (value) => (Boolean(value) ? true : 'Invalid value'),
             },
-            { onCancel: onCancelFn },
+            { onCancel },
           )
         ).value;
         argvUtils.setArgv({ ...argvUtils.getArgv(), password: pwdRsp });
       }
-    })();
+    }
     logger.debug('Retrieving account service token ...');
     const accSrvTokenRsp = await apiUtils.akEndfield.accountService.user.auth.v1.tokenByEmailPassword(
       argvUtils.getArgv()['email'],
@@ -101,6 +101,11 @@ async function mainCmdHandler() {
           argvUtils.getArgv()['token'],
         )
       : oauth2TokenPreRsp;
+  const oauth2TokenSkportRsp = await apiUtils.akEndfield.accountService.user.oauth2.v2.grant(
+    cfg.appCode.accountService.skport,
+    argvUtils.getArgv()['token'],
+    0,
+  );
   const oauth2TokenBindRsp = await apiUtils.akEndfield.accountService.user.oauth2.v2.grant(
     cfg.appCode.accountService.binding,
     argvUtils.getArgv()['token'],
@@ -112,8 +117,13 @@ async function mainCmdHandler() {
     cfg.channel.osWinRel,
     oauth2TokenRsp.data.code,
   );
+  logger.debug('Retrieving SKPort credential ...');
+  const skPortCredRsp = await apiUtils.akEndfield.zonai.web.v1.user.auth.generateCredByCode(
+    oauth2TokenSkportRsp.data.code,
+    1,
+  );
   // logger.debug('Retrieving u8 OAuth 2.0 code ...');
-  // const u8OAuth2Rsp = await apiUtils.apiAkEndfield.u8.user.auth.v2.grant(u8TokenRsp.data.token);
+  // const u8OAuth2Rsp = await apiUtils.akEndfield.u8.user.auth.v2.grant(u8TokenRsp.data.token);
   logger.info('Authentication successful!');
 
   logger.info('Retrieving user information data ...');
@@ -128,6 +138,46 @@ async function mainCmdHandler() {
   const userGameBindingData = await apiUtils.akEndfield.binding.account.binding.v1.bindingList(
     oauth2TokenBindRsp.data.token,
   );
+
+  logger.debug('Retrieving SKPort binding data ...');
+  const skPortBindingRsp = await apiUtils.akEndfield.zonai.api.v1.game.player.binding(
+    skPortCredRsp.data.cred,
+    skPortCredRsp.data.token,
+  );
+  const skPortGameRoleStr = (() => {
+    const game = skPortBindingRsp.data.list.find((e) => e.appCode === 'endfield');
+    if (!game) throw new Error('SKPort game id not found for endfield');
+    return `${game.bindingList[0]?.gameId}_${game.bindingList[0]?.defaultRole.roleId}_${game.bindingList[0]?.defaultRole.serverId}`;
+  })();
+
+  logger.debug('Trying SKPort attendance ...');
+  await apiUtils.akEndfield.zonai.web.v1.game.endfield.attendance.record(
+    skPortCredRsp.data.cred,
+    skPortCredRsp.data.token,
+    skPortGameRoleStr,
+  );
+  const attendanceRsp = await apiUtils.akEndfield.zonai.web.v1.game.endfield.attendance.get(
+    skPortCredRsp.data.cred,
+    skPortCredRsp.data.token,
+    skPortGameRoleStr,
+  );
+  logger.debug(
+    'SKPort attendance status: ' + (attendanceRsp.data.hasToday ? chalk.red('Not complete') : chalk.green('Done')),
+  );
+
+  logger.debug('Testing redeem code flow ...');
+  const redeemRsp = await (async () => {
+    const game = skPortBindingRsp.data.list.find((e) => e.appCode === 'endfield');
+    if (!game || !game.bindingList[0]) throw new Error('SKPort game id not found for endfield');
+    return await apiUtils.akEndfield.gameHub.giftcode.redeem(
+      appConfig.network.api.akEndfield.channel.osWinRel,
+      parseInt(game.bindingList[0].defaultRole.serverId),
+      'Windows',
+      'RETURNOFALL',
+      u8TokenRsp.data.token,
+    );
+  })();
+  logger.debug(`Redeem result: ${JSON.stringify(redeemRsp)}`);
 
   logger.debug('Retrieving gacha record ...');
   const selectedServerId = await (async () => {
