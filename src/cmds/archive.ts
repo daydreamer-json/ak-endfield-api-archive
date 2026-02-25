@@ -231,7 +231,11 @@ async function generateGameListMd(target: GameTarget) {
       const isFileAvail = {
         orig: await (async () => {
           try {
-            await ky.head(f.url, { headers: { 'User-Agent': 'Mozilla/5.0' } });
+            await ky.head(f.url, {
+              headers: { 'User-Agent': appConfig.network.userAgent.minimum },
+              timeout: appConfig.network.timeout,
+              retry: { limit: appConfig.network.retryCount },
+            });
             return true;
           } catch (err) {
             return false;
@@ -316,7 +320,11 @@ async function generatePatchListMd(target: GameTarget) {
       const isFileAvail = {
         orig: await (async () => {
           try {
-            await ky.head(e.rsp.patch!.url, { headers: { 'User-Agent': 'Mozilla/5.0' } });
+            await ky.head(e.rsp.patch!.url, {
+              headers: { 'User-Agent': appConfig.network.userAgent.minimum },
+              timeout: appConfig.network.timeout,
+              retry: { limit: appConfig.network.retryCount },
+            });
             return true;
           } catch (err) {
             return false;
@@ -344,7 +352,11 @@ async function generatePatchListMd(target: GameTarget) {
       const isFileAvail = {
         orig: await (async () => {
           try {
-            await ky.head(f.url, { headers: { 'User-Agent': 'Mozilla/5.0' } });
+            await ky.head(f.url, {
+              headers: { 'User-Agent': appConfig.network.userAgent.minimum },
+              timeout: appConfig.network.timeout,
+              retry: { limit: appConfig.network.retryCount },
+            });
             return true;
           } catch (err) {
             return false;
@@ -783,7 +795,11 @@ async function fetchAndSaveAllGameResRawData(gameTargets: GameTarget[]) {
         if (!(await Bun.file(localFilePath).exists())) {
           try {
             const rsp = await ky
-              .get(urlObj.href, { headers: { 'User-Agent': appConfig.network.userAgent.minimum } })
+              .get(urlObj.href, {
+                headers: { 'User-Agent': appConfig.network.userAgent.minimum },
+                timeout: appConfig.network.timeout,
+                retry: { limit: appConfig.network.retryCount },
+              })
               .bytes();
             await Bun.write(localFilePath, rsp);
             wroteFiles.push(localFilePath);
