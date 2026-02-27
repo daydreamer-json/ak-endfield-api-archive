@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "Novecento Sans Wide (Number Only)";
+  font-display: swap;
+  font-weight: 100;
+  font-stretch: expanded;
+  src:
+    url("./wide/novecento_sans_wide_ultralight.woff2") format("woff2"),
+    url("./wide/novecento_sans_wide_ultralight.otf") format("opentype");
+  unicode-range: U+0030-0039;
+  size-adjust: 100%;
+  font-feature-settings: "lnum" 1;
+}
+
+@font-face {
+  font-family: "Novecento Sans Wide (Number Only)";
+  font-display: swap;
+  font-weight: 200;
+  font-stretch: expanded;
+  src:
+    url("./wide/novecento_sans_wide_light.woff2") format("woff2"),
+    url("./wide/novecento_sans_wide_light.otf") format("opentype");
+  unicode-range: U+0030-0039;
+  size-adjust: 100%;
+  font-feature-settings: "lnum" 1;
+}
+
+@font-face {
+  font-family: "Novecento Sans Wide (Number Only)";
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: expanded;
+  src:
+    url("./wide/novecento_sans_wide_book.woff2") format("woff2"),
+    url("./wide/novecento_sans_wide_book.otf") format("opentype");
+  unicode-range: U+0030-0039;
+  size-adjust: 100%;
+  font-feature-settings: "lnum" 1;
+}
+
+@font-face {
+  font-family: "Novecento Sans Wide (Number Only)";
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: expanded;
+  src:
+    url("./wide/novecento_sans_wide_normal.woff2") format("woff2"),
+    url("./wide/novecento_sans_wide_normal.otf") format("opentype");
+  unicode-range: U+0030-0039;
+  size-adjust: 100%;
+  font-feature-settings: "lnum" 1;
+}
+
+@font-face {
+  font-family: "Novecento Sans Wide (Number Only)";
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: expanded;
+  src:
+    url("./wide/novecento_sans_wide_medium.woff2") format("woff2"),
+    url("./wide/novecento_sans_wide_medium.otf") format("opentype");
+  unicode-range: U+0030-0039;
+  size-adjust: 100%;
+  font-feature-settings: "lnum" 1;
+}
+
+@font-face {
+  font-family: "Novecento Sans Wide (Number Only)";
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: expanded;
+  src:
+    url("./wide/novecento_sans_wide_demibold.woff2") format("woff2"),
+    url("./wide/novecento_sans_wide_demibold.otf") format("opentype");
+  unicode-range: U+0030-0039;
+  size-adjust: 100%;
+  font-feature-settings: "lnum" 1;
+}
+
+@font-face {
+  font-family: "Novecento Sans Wide (Number Only)";
+  font-display: swap;
+  font-weight: 800;
+  font-stretch: expanded;
+  src:
+    url("./wide/novecento_sans_wide_bold.woff2") format("woff2"),
+    url("./wide/novecento_sans_wide_bold.otf") format("opentype");
+  unicode-range: U+0030-0039;
+  size-adjust: 100%;
+  font-feature-settings: "lnum" 1;
+}
+
+@font-face {
+  font-family: "Novecento Sans Wide (Number Only)";
+  font-display: swap;
+  font-weight: 900;
+  font-stretch: expanded;
+  src:
+    url("./wide/novecento_sans_wide_ultrabold.woff2") format("woff2"),
+    url("./wide/novecento_sans_wide_ultrabold.otf") format("opentype");
+  unicode-range: U+0030-0039;
+  size-adjust: 100%;
+  font-feature-settings: "lnum" 1;
+}

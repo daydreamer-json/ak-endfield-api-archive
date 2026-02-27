@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arknights: Endfield API Archive</title>
+    <meta name="description" content="" />
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:image:alt" content="" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <!-- <link rel="icon" href="/favicon.ico" sizes="any" />
+      <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+      <link rel="apple-touch-icon" href="icon.png" /> -->
+    <!-- <meta name="theme-color" content="#fafafa" /> -->
+    <style>
+      @import "./assets/css/essentials.css";
+      @import "./assets/css/index.css";
+    </style>
+  </head>
+  <body>
+    <div class="container my-4 px-4" id="mainContainer">
+      <section>
+        <h1 class="text-center">Arknights: Endfield Font Design Test</h1>
+      </section>
+      <section
+        class="text-center"
+        style="
+          font-feature-settings:
+            &quot;calt&quot; 0,
+            &quot;palt&quot; 0;
+        "
+      >
+        <p style="font-size: 5rem; font-weight: 900">武陵<br />四号谷地</p>
+        <p style="font-size: 3rem; font-weight: 900">トリアンゲロス</p>
+        <p
+          style="
+            font-family:
+              &quot;Novecento Sans Wide (Number Only)&quot;,
+              &quot;Noto Sans JP&quot;;
+          "
+        >
+          //リソース整合性を確認中… (77.42％)
+        </p>
+        <p>2560×1440 Fullscreen</p>
+      </section>
+      <section>
+        <p>The quick brown fox jumps over the lazy dog. 1234567890</p>
+        <p>
+          English alphabet: HarmonyOS Sans by Huawei Technologies<br />
+          Number (120% size): Novecento Sans Wide by Synthview Type Design<br />
+          Japanese glyph: Noto Sans JP by Adobe and Google
+        </p>
+      </section>
+      <section>
+        <p>
+          CSS Priority:<br />
+          EN: "Novecento Sans Wide (Number Only)", "HarmonyOS Sans", "Noto Sans
+          SC"<br />JP: "Novecento Sans Wide (Number Only)", "Noto Sans JP"
+        </p>
+      </section>
+      <hr />
+      <section>
+        <button
+          id="debug-log-openBtn"
+          class="btn btn-secondary btn-sm"
+          data-bs-toggle="modal"
+          data-bs-target="#debug-log-modal"
+        >
+          Open Debug Log
+        </button>
+        <p><small>(C) daydreamer-json</small></p>
+      </section>
+    </div>
+    <div class="modal fade" id="debug-log-modal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="debug-log-modal-label">
+              Debug Panel
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <section>
+              <p>Debug Log</p>
+              <pre id="debug-log"><code id="debug-log-inner"></code></pre>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./assets/ts/essentials.ts"></script>
+    <script type="module" src="./assets/ts/index.ts"></script>
+  </body>
+</html>
