@@ -1,0 +1,15 @@
+#debug-log-inner {
+  display: block;
+  white-space: pre-wrap !important;
+}
+
+#debug-log-inner div {
+  padding-left: 15ch;
+  text-indent: -15ch;
+  margin: 0;
+}
+
+.accordion-button {
+  padding: calc(var(--bs-accordion-btn-padding-y) / 1.5)
+    calc(var(--bs-accordion-btn-padding-x) / 1.5);
+}

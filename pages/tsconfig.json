@@ -1,0 +1,15 @@
+{
+  "extends": [
+    // "@tsconfig/bun",
+    "@tsconfig/recommended",
+    "@tsconfig/node24",
+    "@tsconfig/strictest"
+  ],
+  "compilerOptions": {
+    // Environment setup & latest features
+    "lib": ["ESNext", "DOM"]
+    // "target": "ESNext"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}

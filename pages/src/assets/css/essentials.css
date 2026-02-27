@@ -1,0 +1,66 @@
+@import "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+SC:wght@100..900&family=Noto+Sans+TC:wght@100..900&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200";
+@import "../fonts/line_seed/line_seed.css";
+@import "../fonts/iosevka/Iosevka.css";
+/* @import "../fonts/novecento_sans/novecento_sans.css"; */
+@import "../fonts/novecento_sans/novecento_sans_wide_number_only.css";
+/* @import "../fonts/novecento_sans/novecento_sans_normal_number_only.css"; */
+@import "../fonts/harmonyos_sans/harmonyos_sans.css";
+/* @import "../fonts/dseg/dseg.css"; */
+
+:root {
+  /* --ddjson-custom-font-main: 'Malgun Gothic'; */
+  /* --ddjson-custom-font-main:
+    "Inter", "LINE Seed JP (Web)", "Noto Sans JP", "Noto Sans SC", "SF Pro",
+    -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Helvetica Neue", "Helvetica", "Arial", sans-serif, system-ui; */
+  --ddjson-custom-font-main:
+    "Novecento Sans Wide (Number Only)", "HarmonyOS Sans", "Noto Sans JP",
+    "Noto Sans SC", "SF Pro", -apple-system, "BlinkMacSystemFont", "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Helvetica Neue", "Helvetica", "Arial",
+    sans-serif, system-ui;
+  --ddjson-custom-font-mono:
+    "Iosevka Web", "JetBrains Mono", "SF Mono", "Noto Sans JP", "Noto Sans SC",
+    "SFMono-Regular", "Menlo", "Monaco", "Consolas", "Liberation Mono",
+    "Courier New", monospace, sans-serif, system-ui;
+}
+
+html,
+body {
+  font-family: var(--ddjson-custom-font-main);
+  font-feature-settings:
+    "liga" 1,
+    "calt" 1,
+    "palt";
+  word-break: auto-phrase;
+}
+
+.font-monospace {
+  font-family: var(--ddjson-custom-font-mono) !important;
+  font-feature-settings: "palt" 0 !important;
+}
+
+pre,
+code,
+kbd,
+samp,
+tt {
+  font-family: var(--ddjson-custom-font-mono);
+  font-feature-settings: "palt" 0;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    "FILL" 0,
+    "wght" 400,
+    "GRAD" 0,
+    "opsz" 24;
+  font-size: inherit;
+}
+
+.user-drag-none {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

@@ -1,0 +1,39 @@
+{
+  "name": "ak-endfield-api-archive-pages",
+  "source": "src/index.html",
+  "type": "module",
+  "private": true,
+  "targets": {
+    "default": {
+      "distDir": "dist",
+      "sourceMap": false
+    }
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.4",
+    "@parcel/transformer-typescript-tsc": "^2.16.4",
+    "@tsconfig/bun": "^1.0.10",
+    "@tsconfig/node24": "^24.0.4",
+    "@tsconfig/recommended": "^1.0.13",
+    "@tsconfig/strictest": "^2.0.8",
+    "@types/bootstrap": "^5.2.10",
+    "@types/bun": "latest",
+    "@types/luxon": "^3.7.1",
+    "@types/qs": "^6.14.0",
+    "@types/semver": "^7.7.1",
+    "oxfmt": "^0.35.0",
+    "parcel": "^2.16.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1",
+    "ky": "^1.14.3",
+    "luxon": "^3.7.2",
+    "qs": "^6.15.0",
+    "semver": "^7.7.4",
+    "uuid": "^13.0.0"
+  }
+}

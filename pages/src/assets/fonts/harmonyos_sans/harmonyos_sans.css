@@ -1,0 +1,321 @@
+@font-face {
+  font-family: "HarmonyOS Sans";
+  font-display: swap;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  src:
+    url("./normal/harmonyos_sans_thin.woff2") format("woff2"),
+    url("./normal/harmonyos_sans_thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HarmonyOS Sans";
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  src:
+    url("./normal/harmonyos_sans_light.woff2") format("woff2"),
+    url("./normal/harmonyos_sans_light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HarmonyOS Sans";
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  src:
+    url("./normal/harmonyos_sans_regular.woff2") format("woff2"),
+    url("./normal/harmonyos_sans_regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HarmonyOS Sans";
+  font-display: swap;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  src:
+    url("./normal/harmonyos_sans_medium.woff2") format("woff2"),
+    url("./normal/harmonyos_sans_medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HarmonyOS Sans";
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  src:
+    url("./normal/harmonyos_sans_semibold.woff2") format("woff2"),
+    url("./normal/harmonyos_sans_semibold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HarmonyOS Sans";
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  src:
+    url("./normal/harmonyos_sans_bold.woff2") format("woff2"),
+    url("./normal/harmonyos_sans_bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HarmonyOS Sans";
+  font-display: swap;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  src:
+    url("./normal/harmonyos_sans_black.woff2") format("woff2"),
+    url("./normal/harmonyos_sans_black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HarmonyOS Sans";
+  font-display: swap;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: italic;
+  src:
+    url("./italic/harmonyos_sans_italic_thin.woff2") format("woff2"),
+    url("./italic/harmonyos_sans_italic_thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HarmonyOS Sans";
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: italic;
+  src:
+    url("./italic/harmonyos_sans_italic_light.woff2") format("woff2"),
+    url("./italic/harmonyos_sans_italic_light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HarmonyOS Sans";
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: italic;
+  src:
+    url("./italic/harmonyos_sans_italic_regular.woff2") format("woff2"),
+    url("./italic/harmonyos_sans_italic_regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HarmonyOS Sans";
+  font-display: swap;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: italic;
+  src:
+    url("./italic/harmonyos_sans_italic_medium.woff2") format("woff2"),
+    url("./italic/harmonyos_sans_italic_medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HarmonyOS Sans";
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: italic;
+  src:
+    url("./italic/harmonyos_sans_italic_semibold.woff2") format("woff2"),
+    url("./italic/harmonyos_sans_italic_semibold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HarmonyOS Sans";
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: italic;
+  src:
+    url("./italic/harmonyos_sans_italic_bold.woff2") format("woff2"),
+    url("./italic/harmonyos_sans_italic_bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HarmonyOS Sans";
+  font-display: swap;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: italic;
+  src:
+    url("./italic/harmonyos_sans_italic_black.woff2") format("woff2"),
+    url("./italic/harmonyos_sans_italic_black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HarmonyOS Sans";
+  font-display: swap;
+  font-weight: 100;
+  font-stretch: condensed;
+  font-style: normal;
+  src:
+    url("./condensed/harmonyos_sans_condensed_thin.woff2") format("woff2"),
+    url("./condensed/harmonyos_sans_condensed_thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HarmonyOS Sans";
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: condensed;
+  font-style: normal;
+  src:
+    url("./condensed/harmonyos_sans_condensed_light.woff2") format("woff2"),
+    url("./condensed/harmonyos_sans_condensed_light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HarmonyOS Sans";
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: condensed;
+  font-style: normal;
+  src:
+    url("./condensed/harmonyos_sans_condensed_regular.woff2") format("woff2"),
+    url("./condensed/harmonyos_sans_condensed_regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HarmonyOS Sans";
+  font-display: swap;
+  font-weight: 500;
+  font-stretch: condensed;
+  font-style: normal;
+  src:
+    url("./condensed/harmonyos_sans_condensed_medium.woff2") format("woff2"),
+    url("./condensed/harmonyos_sans_condensed_medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HarmonyOS Sans";
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: condensed;
+  font-style: normal;
+  src:
+    url("./condensed/harmonyos_sans_condensed_semibold.woff2") format("woff2"),
+    url("./condensed/harmonyos_sans_condensed_semibold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HarmonyOS Sans";
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: condensed;
+  font-style: normal;
+  src:
+    url("./condensed/harmonyos_sans_condensed_bold.woff2") format("woff2"),
+    url("./condensed/harmonyos_sans_condensed_bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HarmonyOS Sans";
+  font-display: swap;
+  font-weight: 900;
+  font-stretch: condensed;
+  font-style: normal;
+  src:
+    url("./condensed/harmonyos_sans_condensed_black.woff2") format("woff2"),
+    url("./condensed/harmonyos_sans_condensed_black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HarmonyOS Sans";
+  font-display: swap;
+  font-weight: 100;
+  font-stretch: condensed;
+  font-style: italic;
+  src:
+    url("./condensed_italic/harmonyos_sans_condensed_italic_thin.woff2")
+      format("woff2"),
+    url("./condensed_italic/harmonyos_sans_condensed_italic_thin.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "HarmonyOS Sans";
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: condensed;
+  font-style: italic;
+  src:
+    url("./condensed_italic/harmonyos_sans_condensed_italic_light.woff2")
+      format("woff2"),
+    url("./condensed_italic/harmonyos_sans_condensed_italic_light.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "HarmonyOS Sans";
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: condensed;
+  font-style: italic;
+  src:
+    url("./condensed_italic/harmonyos_sans_condensed_italic_regular.woff2")
+      format("woff2"),
+    url("./condensed_italic/harmonyos_sans_condensed_italic_regular.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "HarmonyOS Sans";
+  font-display: swap;
+  font-weight: 500;
+  font-stretch: condensed;
+  font-style: italic;
+  src:
+    url("./condensed_italic/harmonyos_sans_condensed_italic_medium.woff2")
+      format("woff2"),
+    url("./condensed_italic/harmonyos_sans_condensed_italic_medium.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "HarmonyOS Sans";
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: condensed;
+  font-style: italic;
+  src:
+    url("./condensed_italic/harmonyos_sans_condensed_italic_semibold.woff2")
+      format("woff2"),
+    url("./condensed_italic/harmonyos_sans_condensed_italic_semibold.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "HarmonyOS Sans";
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: condensed;
+  font-style: italic;
+  src:
+    url("./condensed_italic/harmonyos_sans_condensed_italic_bold.woff2")
+      format("woff2"),
+    url("./condensed_italic/harmonyos_sans_condensed_italic_bold.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "HarmonyOS Sans";
+  font-display: swap;
+  font-weight: 900;
+  font-stretch: condensed;
+  font-style: italic;
+  src:
+    url("./condensed_italic/harmonyos_sans_condensed_italic_black.woff2")
+      format("woff2"),
+    url("./condensed_italic/harmonyos_sans_condensed_italic_black.ttf")
+      format("truetype");
+}
