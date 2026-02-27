@@ -1,0 +1,631 @@
+/* Version 33.3.3 */
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  src: url("woff2/Iosevka-Thin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 100;
+  font-stretch: expanded;
+  font-style: normal;
+  src: url("woff2/Iosevka-ExtendedThin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: oblique;
+  src: url("woff2/Iosevka-ThinOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web Oblique";
+  font-display: swap;
+  font-weight: 100;
+  font-stretch: normal;
+  src: url("woff2/Iosevka-ThinOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 100;
+  font-stretch: expanded;
+  font-style: oblique;
+  src: url("woff2/Iosevka-ExtendedThinOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web Oblique";
+  font-display: swap;
+  font-weight: 100;
+  font-stretch: expanded;
+  src: url("woff2/Iosevka-ExtendedThinOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: italic;
+  src: url("woff2/Iosevka-ThinItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 100;
+  font-stretch: expanded;
+  font-style: italic;
+  src: url("woff2/Iosevka-ExtendedThinItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 200;
+  font-stretch: normal;
+  font-style: normal;
+  src: url("woff2/Iosevka-ExtraLight.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 200;
+  font-stretch: expanded;
+  font-style: normal;
+  src: url("woff2/Iosevka-ExtendedExtraLight.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 200;
+  font-stretch: normal;
+  font-style: oblique;
+  src: url("woff2/Iosevka-ExtraLightOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web Oblique";
+  font-display: swap;
+  font-weight: 200;
+  font-stretch: normal;
+  src: url("woff2/Iosevka-ExtraLightOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 200;
+  font-stretch: expanded;
+  font-style: oblique;
+  src: url("woff2/Iosevka-ExtendedExtraLightOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web Oblique";
+  font-display: swap;
+  font-weight: 200;
+  font-stretch: expanded;
+  src: url("woff2/Iosevka-ExtendedExtraLightOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 200;
+  font-stretch: normal;
+  font-style: italic;
+  src: url("woff2/Iosevka-ExtraLightItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 200;
+  font-stretch: expanded;
+  font-style: italic;
+  src: url("woff2/Iosevka-ExtendedExtraLightItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  src: url("woff2/Iosevka-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: expanded;
+  font-style: normal;
+  src: url("woff2/Iosevka-ExtendedLight.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: oblique;
+  src: url("woff2/Iosevka-LightOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web Oblique";
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: normal;
+  src: url("woff2/Iosevka-LightOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: expanded;
+  font-style: oblique;
+  src: url("woff2/Iosevka-ExtendedLightOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web Oblique";
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: expanded;
+  src: url("woff2/Iosevka-ExtendedLightOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: italic;
+  src: url("woff2/Iosevka-LightItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: expanded;
+  font-style: italic;
+  src: url("woff2/Iosevka-ExtendedLightItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  src: url("woff2/Iosevka-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: expanded;
+  font-style: normal;
+  src: url("woff2/Iosevka-Extended.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: oblique;
+  src: url("woff2/Iosevka-Oblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web Oblique";
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: normal;
+  src: url("woff2/Iosevka-Oblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: expanded;
+  font-style: oblique;
+  src: url("woff2/Iosevka-ExtendedOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web Oblique";
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: expanded;
+  src: url("woff2/Iosevka-ExtendedOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: italic;
+  src: url("woff2/Iosevka-Italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: expanded;
+  font-style: italic;
+  src: url("woff2/Iosevka-ExtendedItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  src: url("woff2/Iosevka-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 500;
+  font-stretch: expanded;
+  font-style: normal;
+  src: url("woff2/Iosevka-ExtendedMedium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: oblique;
+  src: url("woff2/Iosevka-MediumOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web Oblique";
+  font-display: swap;
+  font-weight: 500;
+  font-stretch: normal;
+  src: url("woff2/Iosevka-MediumOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 500;
+  font-stretch: expanded;
+  font-style: oblique;
+  src: url("woff2/Iosevka-ExtendedMediumOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web Oblique";
+  font-display: swap;
+  font-weight: 500;
+  font-stretch: expanded;
+  src: url("woff2/Iosevka-ExtendedMediumOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: italic;
+  src: url("woff2/Iosevka-MediumItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 500;
+  font-stretch: expanded;
+  font-style: italic;
+  src: url("woff2/Iosevka-ExtendedMediumItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  src: url("woff2/Iosevka-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: expanded;
+  font-style: normal;
+  src: url("woff2/Iosevka-ExtendedSemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: oblique;
+  src: url("woff2/Iosevka-SemiBoldOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web Oblique";
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: normal;
+  src: url("woff2/Iosevka-SemiBoldOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: expanded;
+  font-style: oblique;
+  src: url("woff2/Iosevka-ExtendedSemiBoldOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web Oblique";
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: expanded;
+  src: url("woff2/Iosevka-ExtendedSemiBoldOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: italic;
+  src: url("woff2/Iosevka-SemiBoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: expanded;
+  font-style: italic;
+  src: url("woff2/Iosevka-ExtendedSemiBoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  src: url("woff2/Iosevka-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: expanded;
+  font-style: normal;
+  src: url("woff2/Iosevka-ExtendedBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: oblique;
+  src: url("woff2/Iosevka-BoldOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web Oblique";
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: normal;
+  src: url("woff2/Iosevka-BoldOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: expanded;
+  font-style: oblique;
+  src: url("woff2/Iosevka-ExtendedBoldOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web Oblique";
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: expanded;
+  src: url("woff2/Iosevka-ExtendedBoldOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: italic;
+  src: url("woff2/Iosevka-BoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: expanded;
+  font-style: italic;
+  src: url("woff2/Iosevka-ExtendedBoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  src: url("woff2/Iosevka-ExtraBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 800;
+  font-stretch: expanded;
+  font-style: normal;
+  src: url("woff2/Iosevka-ExtendedExtraBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: oblique;
+  src: url("woff2/Iosevka-ExtraBoldOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web Oblique";
+  font-display: swap;
+  font-weight: 800;
+  font-stretch: normal;
+  src: url("woff2/Iosevka-ExtraBoldOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 800;
+  font-stretch: expanded;
+  font-style: oblique;
+  src: url("woff2/Iosevka-ExtendedExtraBoldOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web Oblique";
+  font-display: swap;
+  font-weight: 800;
+  font-stretch: expanded;
+  src: url("woff2/Iosevka-ExtendedExtraBoldOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: italic;
+  src: url("woff2/Iosevka-ExtraBoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 800;
+  font-stretch: expanded;
+  font-style: italic;
+  src: url("woff2/Iosevka-ExtendedExtraBoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  src: url("woff2/Iosevka-Heavy.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 900;
+  font-stretch: expanded;
+  font-style: normal;
+  src: url("woff2/Iosevka-ExtendedHeavy.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: oblique;
+  src: url("woff2/Iosevka-HeavyOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web Oblique";
+  font-display: swap;
+  font-weight: 900;
+  font-stretch: normal;
+  src: url("woff2/Iosevka-HeavyOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 900;
+  font-stretch: expanded;
+  font-style: oblique;
+  src: url("woff2/Iosevka-ExtendedHeavyOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web Oblique";
+  font-display: swap;
+  font-weight: 900;
+  font-stretch: expanded;
+  src: url("woff2/Iosevka-ExtendedHeavyOblique.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: italic;
+  src: url("woff2/Iosevka-HeavyItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Web";
+  font-display: swap;
+  font-weight: 900;
+  font-stretch: expanded;
+  font-style: italic;
+  src: url("woff2/Iosevka-ExtendedHeavyItalic.woff2") format("woff2");
+}

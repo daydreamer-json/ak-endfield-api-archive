@@ -1,0 +1,320 @@
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 100;
+  font-stretch: normal;
+  src:
+    url("./normal/novecento_sans_ultralight.woff2") format("woff2"),
+    url("./normal/novecento_sans_ultralight.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 200;
+  font-stretch: normal;
+  src:
+    url("./normal/novecento_sans_light.woff2") format("woff2"),
+    url("./normal/novecento_sans_light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: normal;
+  src:
+    url("./normal/novecento_sans_book.woff2") format("woff2"),
+    url("./normal/novecento_sans_book.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: normal;
+  src:
+    url("./normal/novecento_sans_normal.woff2") format("woff2"),
+    url("./normal/novecento_sans_normal.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 500;
+  font-stretch: normal;
+  src:
+    url("./normal/novecento_sans_medium.woff2") format("woff2"),
+    url("./normal/novecento_sans_medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: normal;
+  src:
+    url("./normal/novecento_sans_demibold.woff2") format("woff2"),
+    url("./normal/novecento_sans_demibold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: normal;
+  src:
+    url("./normal/novecento_sans_bold.woff2") format("woff2"),
+    url("./normal/novecento_sans_bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 900;
+  font-stretch: normal;
+  src:
+    url("./normal/novecento_sans_ultrabold.woff2") format("woff2"),
+    url("./normal/novecento_sans_ultrabold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 100;
+  font-stretch: condensed;
+  src:
+    url("./condensed/novecento_sans_condensed_ultralight.woff2") format("woff2"),
+    url("./condensed/novecento_sans_condensed_ultralight.otf")
+      format("opentype");
+}
+
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 200;
+  font-stretch: condensed;
+  src:
+    url("./condensed/novecento_sans_condensed_light.woff2") format("woff2"),
+    url("./condensed/novecento_sans_condensed_light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: condensed;
+  src:
+    url("./condensed/novecento_sans_condensed_book.woff2") format("woff2"),
+    url("./condensed/novecento_sans_condensed_book.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: condensed;
+  src:
+    url("./condensed/novecento_sans_condensed_normal.woff2") format("woff2"),
+    url("./condensed/novecento_sans_condensed_normal.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 500;
+  font-stretch: condensed;
+  src:
+    url("./condensed/novecento_sans_condensed_medium.woff2") format("woff2"),
+    url("./condensed/novecento_sans_condensed_medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: condensed;
+  src:
+    url("./condensed/novecento_sans_condensed_demibold.woff2") format("woff2"),
+    url("./condensed/novecento_sans_condensed_demibold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: condensed;
+  src:
+    url("./condensed/novecento_sans_condensed_bold.woff2") format("woff2"),
+    url("./condensed/novecento_sans_condensed_bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 900;
+  font-stretch: condensed;
+  src:
+    url("./condensed/novecento_sans_condensed_ultrabold.woff2") format("woff2"),
+    url("./condensed/novecento_sans_condensed_ultrabold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 100;
+  font-stretch: semi-condensed;
+  src:
+    url("./narrow/novecento_sans_narrow_ultralight.woff2") format("woff2"),
+    url("./narrow/novecento_sans_narrow_ultralight.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 200;
+  font-stretch: semi-condensed;
+  src:
+    url("./narrow/novecento_sans_narrow_light.woff2") format("woff2"),
+    url("./narrow/novecento_sans_narrow_light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: semi-condensed;
+  src:
+    url("./narrow/novecento_sans_narrow_book.woff2") format("woff2"),
+    url("./narrow/novecento_sans_narrow_book.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: semi-condensed;
+  src:
+    url("./narrow/novecento_sans_narrow_normal.woff2") format("woff2"),
+    url("./narrow/novecento_sans_narrow_normal.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 500;
+  font-stretch: semi-condensed;
+  src:
+    url("./narrow/novecento_sans_narrow_medium.woff2") format("woff2"),
+    url("./narrow/novecento_sans_narrow_medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: semi-condensed;
+  src:
+    url("./narrow/novecento_sans_narrow_demibold.woff2") format("woff2"),
+    url("./narrow/novecento_sans_narrow_demibold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: semi-condensed;
+  src:
+    url("./narrow/novecento_sans_narrow_bold.woff2") format("woff2"),
+    url("./narrow/novecento_sans_narrow_bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 900;
+  font-stretch: semi-condensed;
+  src:
+    url("./narrow/novecento_sans_narrow_ultrabold.woff2") format("woff2"),
+    url("./narrow/novecento_sans_narrow_ultrabold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 100;
+  font-stretch: expanded;
+  src:
+    url("./wide/novecento_sans_wide_ultralight.woff2") format("woff2"),
+    url("./wide/novecento_sans_wide_ultralight.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 200;
+  font-stretch: expanded;
+  src:
+    url("./wide/novecento_sans_wide_light.woff2") format("woff2"),
+    url("./wide/novecento_sans_wide_light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: expanded;
+  src:
+    url("./wide/novecento_sans_wide_book.woff2") format("woff2"),
+    url("./wide/novecento_sans_wide_book.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: expanded;
+  src:
+    url("./wide/novecento_sans_wide_normal.woff2") format("woff2"),
+    url("./wide/novecento_sans_wide_normal.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 500;
+  font-stretch: expanded;
+  src:
+    url("./wide/novecento_sans_wide_medium.woff2") format("woff2"),
+    url("./wide/novecento_sans_wide_medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: expanded;
+  src:
+    url("./wide/novecento_sans_wide_demibold.woff2") format("woff2"),
+    url("./wide/novecento_sans_wide_demibold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: expanded;
+  src:
+    url("./wide/novecento_sans_wide_bold.woff2") format("woff2"),
+    url("./wide/novecento_sans_wide_bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Novecento Sans";
+  font-display: swap;
+  font-weight: 900;
+  font-stretch: expanded;
+  src:
+    url("./wide/novecento_sans_wide_ultrabold.woff2") format("woff2"),
+    url("./wide/novecento_sans_wide_ultrabold.otf") format("opentype");
+}

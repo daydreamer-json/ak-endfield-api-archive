@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arknights: Endfield API Archive</title>
+    <meta
+      name="description"
+      content="Automated Arknights: Endfield game API response archive and download library"
+    />
+    <meta property="og:title" content="Arknights: Endfield API Archive" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:image:alt" content="" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Arknights: Endfield API Archive" />
+    <meta name="twitter:image" content="" />
+    <!-- <link rel="icon" href="/favicon.ico" sizes="any" />
+      <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+      <link rel="apple-touch-icon" href="icon.png" /> -->
+    <!-- <meta name="theme-color" content="#fafafa" /> -->
+    <style>
+      @import "./assets/css/essentials.css";
+      @import "./assets/css/index.css";
+    </style>
+  </head>
+  <body>
+    <div class="container my-4 px-4" id="mainContainer">
+      <section>
+        <h1 class="text-center fw-bold">Arknights: Endfield API Archive</h1>
+        <ul class="nav nav-tabs justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active">Top</a>
+          </li>
+          <li class="nav-item">
+            <a href="./about.html" class="nav-link">About</a>
+          </li>
+        </ul>
+      </section>
+      <section id="content" class="mt-4">
+        <div class="text-center">
+          <div class="spinner-border" role="status"></div>
+          <p>Loading data...</p>
+        </div>
+      </section>
+      <hr />
+      <section>
+        <button
+          id="debug-log-openBtn"
+          class="d-none btn btn-secondary btn-sm"
+          data-bs-toggle="modal"
+          data-bs-target="#debug-log-modal"
+        >
+          Open Debug Log
+        </button>
+        <p class="text-center text-muted">
+          <small>(C) daydreamer-json and contributors</small>
+        </p>
+      </section>
+    </div>
+    <div class="modal fade" id="debug-log-modal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="debug-log-modal-label">
+              Debug Panel
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <section>
+              <p>Debug Log</p>
+              <pre id="debug-log"><code id="debug-log-inner"></code></pre>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./assets/ts/essentials.ts"></script>
+    <script type="module" src="./assets/ts/index.ts"></script>
+  </body>
+</html>
