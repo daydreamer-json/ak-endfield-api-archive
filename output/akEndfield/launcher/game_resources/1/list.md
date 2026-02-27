@@ -12,6 +12,7 @@
 | 2026/02/14 03:57:08 | [5634417-26](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/Windows/initial/5634417-26_PcY3LI99fa310KEP/files) | [5634417-26](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/Windows/main/5634417-26_YafBKh0mm1uuXdjo/files) |      | 1.0.14, 1.0.13 |
 | 2026/02/24 10:10:21 | [5691762-27](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/Windows/initial/5691762-27_zk2NsbvUC048ci1y/files) | [5691762-27](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/Windows/main/5691762-27_RvldGca6CX1X4CCT/files) |      | 1.0.14, 1.0.13 |
 | 2026/02/27 10:20:21 | [5732624-28](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/Windows/initial/5732624-28_RqhYfUY7Gi7koxFe/files) | [5732624-28](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/Windows/main/5732624-28_meTG4X4GULwPDxbg/files) |      | 1.0.14, 1.0.13 |
+| 2026/02/27 22:50:23 | [5746014-30](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/Windows/initial/5746014-30_MPMvzRtmIrrrS52g/files) | [5746014-30](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/Windows/main/5746014-30_GOzcIfLfQpc2cvLH/files) |      | 1.0.14, 1.0.13 |
 
 <h2 id="res-Android">Android</h2>
 
@@ -28,6 +29,7 @@
 | 2026/02/14 03:57:09 | [5634417-26](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/Android/initial/5634417-26_dAcUi6QHNuEAkwc6/files) | [5634417-26](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/Android/main/5634417-26_ydNAeXcY5YCyvQ2Y/files) |      | 1.0.14, 1.0.13 |
 | 2026/02/24 10:10:21 | [5691762-27](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/Android/initial/5691762-27_LTobmpB0G7C7rtLW/files) | [5691762-27](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/Android/main/5691762-27_6DveKD6L1Ce78eXc/files) |      | 1.0.14, 1.0.13 |
 | 2026/02/27 10:20:21 | [5732624-28](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/Android/initial/5732624-28_0XV8v5swDHPO7v4n/files) | [5732624-28](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/Android/main/5732624-28_H7yS4uvr2jW8z8JJ/files) |      | 1.0.14, 1.0.13 |
+| 2026/02/27 22:50:24 | [5746014-30](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/Android/initial/5746014-30_quRFRjApxZPk4CzH/files) | [5746014-30](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/Android/main/5746014-30_j08UX7hMthjlIDeU/files) |      | 1.0.14, 1.0.13 |
 
 <h2 id="res-iOS">iOS</h2>
 
@@ -36,6 +38,7 @@
 | 2026/02/14 03:57:09 | [5634417-28](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/iOS/initial/5634417-28_epR4h2VquVK1Hdo8/files) | [5634417-28](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/iOS/main/5634417-28_4Qbwwn0MsezcnOtE/files) |      | 1.0.14, 1.0.13 |
 | 2026/02/24 10:10:22 | [5691762-29](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/iOS/initial/5691762-29_edlnSdRx34jT1xK6/files) | [5691762-29](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/iOS/main/5691762-29_0KOiE5ZQIul7f59W/files) |      | 1.0.14, 1.0.13 |
 | 2026/02/27 10:20:22 | [5732624-30](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/iOS/initial/5732624-30_BQVFGDczu8EXbojO/files) | [5732624-30](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/iOS/main/5732624-30_czn57GPkVmcElw7n/files) |      | 1.0.14, 1.0.13 |
+| 2026/02/27 22:50:24 | [5746014-31](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/iOS/initial/5746014-31_MpeHrohgJ5gEyUpx/files) | [5746014-31](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/iOS/main/5746014-31_siHesH3zJRZwvtVE/files) |      | 1.0.14, 1.0.13 |
 
 <h2 id="res-PlayStation">PlayStation</h2>
 
@@ -44,3 +47,4 @@
 | 2026/02/14 03:57:09 | [5634417-116](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/PlayStation/initial/5634417-116_rhweoXLA5GW1eJOP/files) | [5634417-116](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/PlayStation/main/5634417-116_C1mkSLz8xDdil8VT/files) |      | 1.0.14, 1.0.13 |
 | 2026/02/24 10:10:22 | [5691762-117](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/PlayStation/initial/5691762-117_iUDREMUCgdIgO1bk/files) | [5691762-117](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/PlayStation/main/5691762-117_cLcFD497e0qufni8/files) |      | 1.0.14, 1.0.13 |
 | 2026/02/27 10:20:22 | [5732624-118](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/PlayStation/initial/5732624-118_1sJGLOMDzIFiaRcj/files) | [5732624-118](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/PlayStation/main/5732624-118_hXfvtBdfDWqN18nn/files) |      | 1.0.14, 1.0.13 |
+| 2026/02/27 22:50:25 | [5746014-120](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/PlayStation/initial/5746014-120_mC8XWnWcVEHaxorP/files) | [5746014-120](https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.0/resource/PlayStation/main/5746014-120_sMOkTUUSzMc9btvG/files) |      | 1.0.14, 1.0.13 |
