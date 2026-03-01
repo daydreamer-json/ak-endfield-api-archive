@@ -407,8 +407,7 @@ async function fetchAndSaveAllGameResRawData(gameTargets: GameTarget[]) {
     ),
   ].map((e) => JSON.parse(e)) as { region: 'os' | 'cn'; appCode: string; channel: number }[];
   const queue = new PQueue({ concurrency: appConfig.threadCount.network });
-  const needDlRawFileBase: string[] = [];
-  const fileNameList = ['index_initial.json', 'index_main.json', 'pref_initial.json', 'pref_main.json', 'patch.json'];
+  const needDlRawFileBase: { name: string; version: string; path: string }[] = [];
 
   for (const target of sanitizedGameTargets) {
     for (const platform of platforms) {
@@ -423,14 +422,19 @@ async function fetchAndSaveAllGameResRawData(gameTargets: GameTarget[]) {
       );
       const resAllJson = (await Bun.file(resAllJsonPath).json()) as StoredData<LatestGameResourcesResponse>[];
       for (const resEntry of resAllJson) {
-        needDlRawFileBase.push(...resEntry.rsp.resources.map((e) => e.path));
+        needDlRawFileBase.push(...resEntry.rsp.resources);
       }
     }
   }
   const wroteFiles: string[] = [];
   for (const rawFileBaseEntry of [...new Set(needDlRawFileBase)]) {
+    const fileNameList = (() => {
+      if (rawFileBaseEntry.name.includes('main')) return ['index_main.json', 'patch.json'];
+      if (rawFileBaseEntry.name.includes('initial')) return ['index_initial.json', 'patch.json'];
+      return ['index_main.json', 'index_initial.json', 'patch.json'];
+    })();
     for (const fileNameEntry of fileNameList) {
-      const urlObj = new URL(rawFileBaseEntry + '/' + fileNameEntry);
+      const urlObj = new URL(rawFileBaseEntry.path + '/' + fileNameEntry);
       urlObj.search = '';
       const localFilePath = path.join(
         argvUtils.getArgv()['outputDir'],
