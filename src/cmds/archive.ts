@@ -70,6 +70,7 @@ interface LauncherTarget {
 interface MirrorFileEntry {
   orig: string;
   mirror: string;
+  origStatus: boolean;
 }
 
 function getObjectDiff(
@@ -171,10 +172,38 @@ async function saveToGHMirror(url: string, name: string | null): Promise<void> {
       mirrorFileDb.push({
         orig: stringUtils.removeQueryStr(url),
         mirror: `https://github.com/${githubAuthCfg.github.relArchive.owner}/${githubAuthCfg.github.relArchive.repo}/releases/download/${githubAuthCfg.github.relArchive.tag}/${name ?? new URL(url).pathname.split('/').pop() ?? ''}`,
+        origStatus: true,
       });
       await Bun.write(localJsonPath, JSON.stringify(mirrorFileDb));
     }
   }
+}
+
+async function checkMirrorFileDbStatus(): Promise<void> {
+  logger.info('Checking the availability of orig for mirrored files ...');
+  const localJsonPath = path.join(argvUtils.getArgv()['outputDir'], 'mirror_file_list.json');
+  const mirrorFileDb = (await Bun.file(localJsonPath).json()) as MirrorFileEntry[];
+  for (const fileEntry of mirrorFileDb) {
+    const rsp = await (async () => {
+      try {
+        await ky.head(fileEntry.orig, {
+          headers: { 'User-Agent': appConfig.network.userAgent.minimum },
+          timeout: appConfig.network.timeout,
+          retry: { limit: appConfig.network.retryCount },
+        });
+        return true;
+      } catch (err) {
+        return false;
+      }
+    })();
+    if (rsp === false && fileEntry.origStatus) {
+      const url = new URL(fileEntry.orig);
+      url.search = '';
+      logger.trace('Orig is inaccessible: ' + url.pathname.split('/').pop());
+    }
+    fileEntry.origStatus = rsp;
+  }
+  await Bun.write(localJsonPath, JSON.stringify(mirrorFileDb));
 }
 
 async function fetchAndSaveLatestGames(gameTargets: GameTarget[]) {
@@ -589,6 +618,8 @@ async function mainCmdHandler() {
   await fetchAndSaveLatestGameResources(gameTargets);
   await fetchAndSaveAllGameResRawData(gameTargets);
   await fetchAndSaveLatestLauncher(launcherTargets);
+
+  await checkMirrorFileDbStatus();
 
   // todo: Implement multithreading or separate the steps in GH Actions
   for (const e of saveToGHMirrorNeedUrls) {

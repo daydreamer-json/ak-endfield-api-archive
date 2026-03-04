@@ -22,6 +22,7 @@ const FILE_SIZE_OPTS = {
 interface MirrorFileEntry {
   orig: string;
   mirror: string;
+  origStatus: boolean;
 }
 
 interface StoredData<T> {
@@ -681,7 +682,9 @@ function generateDownloadLinks(url: string) {
   const mirrorEntry = mirrorFileDb.find((g) => g.orig.includes(cleanUrl.toString()));
 
   const links: string[] = [];
-  links.push(`<a href="${url}" target="_blank">Orig</a>`);
+  if (!mirrorEntry || mirrorEntry.origStatus === true) {
+    links.push(`<a href="${url}" target="_blank">Orig</a>`);
+  }
   if (mirrorEntry) {
     links.push(`<a href="${mirrorEntry.mirror}" target="_blank">Mirror</a>`);
   }
