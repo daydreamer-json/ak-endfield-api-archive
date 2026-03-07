@@ -13,34 +13,7 @@ import logger from '../utils/logger.js';
 import mathUtils from '../utils/math.js';
 import stringUtils from '../utils/string.js';
 
-let githubAuthCfg: {
-  github: {
-    relArchive: { token: string; owner: string; repo: string; tag: string };
-    main: { token: string; owner: string; repo: string };
-  };
-} | null = null;
-let octoClient: Octokit | null = null;
-let saveToGHMirrorNeedUrls: { url: string; name: string | null }[] = [];
-
-const formatBytes = (size: number) =>
-  mathUtils.formatFileSize(size, {
-    decimals: 2,
-    decimalPadding: true,
-    unitVisible: true,
-    useBinaryUnit: true,
-    useBitUnit: false,
-    unit: null,
-  });
-
-const diffIgnoreRules = [
-  ['rsp', 'pkg', 'url'],
-  ['rsp', 'pkg', 'packs', '*', 'url'],
-  ['rsp', 'patch', 'url'],
-  ['rsp', 'patch', 'patches', '*', 'url'],
-  ['rsp', 'zip_package_url'],
-  ['rsp', 'exe_url'],
-].map((path) => ({ path, pattern: /[?&]auth_key=[^&]+/g }));
-
+// Types
 type LatestGameResponse = Awaited<ReturnType<typeof apiUtils.akEndfield.launcher.latestGame>>;
 type LatestGameResourcesResponse = Awaited<ReturnType<typeof apiUtils.akEndfield.launcher.latestGameResources>>;
 
@@ -60,6 +33,7 @@ interface GameTarget {
   launcherSubChannel: number;
   dirName: string;
 }
+
 interface LauncherTarget {
   id: 'os' | 'cn';
   apps: ('EndField' | 'Arknights' | 'Official')[];
@@ -73,13 +47,42 @@ interface MirrorFileEntry {
   origStatus: boolean;
 }
 
+interface AssetToMirror {
+  url: string;
+  name: string | null;
+}
+
+// Global/Shared State
+let githubAuthCfg: any = null;
+let octoClient: Octokit | null = null;
+const assetsToMirror: AssetToMirror[] = [];
+const networkQueue = new PQueue({ concurrency: appConfig.threadCount.network });
+
+// Constants
+const diffIgnoreRules = [
+  ['rsp', 'pkg', 'url'],
+  ['rsp', 'pkg', 'packs', '*', 'url'],
+  ['rsp', 'patch', 'url'],
+  ['rsp', 'patch', 'patches', '*', 'url'],
+  ['rsp', 'zip_package_url'],
+  ['rsp', 'exe_url'],
+].map((path) => ({ path, pattern: /[?&]auth_key=[^&]+/g }));
+
+// Utilities
+const formatBytes = (size: number) =>
+  mathUtils.formatFileSize(size, {
+    decimals: 2,
+    decimalPadding: true,
+    unitVisible: true,
+    useBinaryUnit: true,
+    useBitUnit: false,
+    unit: null,
+  });
+
 function getObjectDiff(
   obj1: any,
   obj2: any,
-  ignoreRules: {
-    path: string[];
-    pattern: RegExp;
-  }[] = [],
+  ignoreRules: { path: string[]; pattern: RegExp }[] = [],
   currentPath: string[] = [],
 ) {
   const diff: any = {};
@@ -108,32 +111,32 @@ function getObjectDiff(
       diff[key] = { old: val1, new: val2 };
     }
   }
-
   return diff;
 }
 
-async function saveResult<T>(
+async function saveResultWithHistory<T>(
   subPaths: string[],
-  version: string,
+  version: string | null,
   data: { req: any; rsp: T },
-  saveLatest: boolean = true,
-  ignoreRules: Parameters<typeof getObjectDiff>[2] = [],
+  options: {
+    saveLatest?: boolean;
+    ignoreRules?: typeof diffIgnoreRules;
+    allFileName?: string;
+  } = {},
 ) {
+  const { saveLatest = true, ignoreRules = [], allFileName = 'all.json' } = options;
   const outputDir = argvUtils.getArgv()['outputDir'];
   const filePathBase = path.join(outputDir, ...subPaths);
-
-  const filesToCheck = [path.join(filePathBase, `v${version}.json`)];
-  if (saveLatest) {
-    filesToCheck.push(path.join(filePathBase, 'latest.json'));
-  }
-
   const dataStr = JSON.stringify(data, null, 2);
+
+  // 1. Save v{version}.json and latest.json if changed
+  const filesToCheck: string[] = [];
+  if (version) filesToCheck.push(path.join(filePathBase, `v${version}.json`));
+  if (saveLatest) filesToCheck.push(path.join(filePathBase, 'latest.json'));
 
   for (const filePath of filesToCheck) {
     const file = Bun.file(filePath);
-    const exists = await file.exists();
-
-    if (!exists) {
+    if (!(await file.exists())) {
       await Bun.write(filePath, dataStr);
     } else {
       const currentData = await file.json();
@@ -145,12 +148,10 @@ async function saveResult<T>(
     }
   }
 
-  const allFilePath = path.join(filePathBase, 'all.json');
+  // 2. Update all.json history
+  const allFilePath = path.join(filePathBase, allFileName);
   const allFile = Bun.file(allFilePath);
-  let allData: StoredData<T>[] = [];
-  if (await allFile.exists()) {
-    allData = await allFile.json();
-  }
+  let allData: StoredData<T>[] = (await allFile.exists()) ? await allFile.json() : [];
 
   const exists = allData.some((e) => {
     const diff = getObjectDiff({ req: e.req, rsp: e.rsp }, data, ignoreRules);
@@ -160,54 +161,18 @@ async function saveResult<T>(
   if (!exists) {
     allData.push({ updatedAt: DateTime.now().toISO(), ...data });
     await Bun.write(allFilePath, JSON.stringify(allData, null, 2));
+    return true; // was updated
   }
+  return false;
 }
 
-async function saveToGHMirror(url: string, name: string | null): Promise<void> {
-  const localJsonPath = path.join(argvUtils.getArgv()['outputDir'], 'mirror_file_list.json');
-  const mirrorFileDb = (await Bun.file(localJsonPath).json()) as MirrorFileEntry[];
-  if (!mirrorFileDb.find((e) => e.orig.includes(stringUtils.removeQueryStr(url)))) {
-    await githubUtils.uploadAsset(octoClient, githubAuthCfg, url, name);
-    if (githubAuthCfg) {
-      mirrorFileDb.push({
-        orig: stringUtils.removeQueryStr(url),
-        mirror: `https://github.com/${githubAuthCfg.github.relArchive.owner}/${githubAuthCfg.github.relArchive.repo}/releases/download/${githubAuthCfg.github.relArchive.tag}/${name ?? new URL(url).pathname.split('/').pop() ?? ''}`,
-        origStatus: true,
-      });
-      await Bun.write(localJsonPath, JSON.stringify(mirrorFileDb));
-    }
-  }
+function queueAssetForMirroring(url: string, name: string | null = null) {
+  assetsToMirror.push({ url, name });
 }
 
-async function checkMirrorFileDbStatus(): Promise<void> {
-  logger.info('Checking the availability of orig for mirrored files ...');
-  const localJsonPath = path.join(argvUtils.getArgv()['outputDir'], 'mirror_file_list.json');
-  const mirrorFileDb = (await Bun.file(localJsonPath).json()) as MirrorFileEntry[];
-  for (const fileEntry of mirrorFileDb) {
-    const rsp = await (async () => {
-      try {
-        await ky.head(fileEntry.orig, {
-          headers: { 'User-Agent': appConfig.network.userAgent.minimum },
-          timeout: appConfig.network.timeout,
-          retry: { limit: appConfig.network.retryCount },
-        });
-        return true;
-      } catch (err) {
-        return false;
-      }
-    })();
-    if (rsp === false && fileEntry.origStatus) {
-      const url = new URL(fileEntry.orig);
-      url.search = '';
-      logger.trace('Orig is inaccessible: ' + url.pathname.split('/').pop());
-    }
-    fileEntry.origStatus = rsp;
-  }
-  await Bun.write(localJsonPath, JSON.stringify(mirrorFileDb));
-}
-
+// Core Fetching Logic
 async function fetchAndSaveLatestGames(gameTargets: GameTarget[]) {
-  logger.debug(`Fetching latestGame ...`);
+  logger.debug('Fetching latestGame ...');
   for (const target of gameTargets) {
     const rsp = await apiUtils.akEndfield.launcher.latestGame(
       target.appCode,
@@ -223,6 +188,7 @@ async function fetchAndSaveLatestGames(gameTargets: GameTarget[]) {
         parseInt(rsp.pkg.total_size) - mathUtils.arrayTotal(rsp.pkg.packs.map((e) => parseInt(e.package_size))),
       )}`,
     );
+
     const prettyRsp = {
       req: {
         appCode: target.appCode,
@@ -234,27 +200,22 @@ async function fetchAndSaveLatestGames(gameTargets: GameTarget[]) {
       rsp,
     };
 
-    (() => {
-      const hashPair: { url: string; md5: string }[] = [];
-      if (rsp.pkg.url) hashPair.push({ url: rsp.pkg.url, md5: rsp.pkg.md5 });
-      rsp.pkg.packs.forEach((e) => hashPair.push({ url: e.url, md5: e.md5 }));
-      const unique = [...new Map(hashPair.map((item) => [item.md5, item])).values()];
-      const subChns = appConfig.network.api.akEndfield.subChannel;
-      unique.forEach((e) => {
-        if ([subChns.cnWinRel, subChns.cnWinRelBilibili, subChns.osWinRel].includes(target.subChannel)) {
-          saveToGHMirrorNeedUrls.push({ url: e.url, name: null });
-        }
-      });
-    })();
+    const subChns = appConfig.network.api.akEndfield.subChannel;
+    if ([subChns.cnWinRel, subChns.cnWinRelBilibili, subChns.osWinRel].includes(target.subChannel)) {
+      if (rsp.pkg.url) queueAssetForMirroring(rsp.pkg.url);
+      rsp.pkg.packs.forEach((e) => queueAssetForMirroring(e.url));
+    }
 
-    await saveResult(['akEndfield', 'launcher', 'game', target.dirName], rsp.version, prettyRsp, true, diffIgnoreRules);
+    await saveResultWithHistory(['akEndfield', 'launcher', 'game', target.dirName], rsp.version, prettyRsp, {
+      ignoreRules: diffIgnoreRules,
+    });
   }
 }
 
 async function fetchAndSaveLatestGamePatches(gameTargets: GameTarget[]) {
-  logger.debug(`Fetching latestGamePatch ...`);
+  logger.debug('Fetching latestGamePatch ...');
   for (const target of gameTargets) {
-    const gameAllJsonPath = path.join(
+    const gameAllPath = path.join(
       argvUtils.getArgv()['outputDir'],
       'akEndfield',
       'launcher',
@@ -262,7 +223,10 @@ async function fetchAndSaveLatestGamePatches(gameTargets: GameTarget[]) {
       target.dirName,
       'all.json',
     );
-    const patchAllJsonPath = path.join(
+    if (!(await Bun.file(gameAllPath).exists())) continue;
+
+    const gameAll = (await Bun.file(gameAllPath).json()) as StoredData<LatestGameResponse>[];
+    const patchAllPath = path.join(
       argvUtils.getArgv()['outputDir'],
       'akEndfield',
       'launcher',
@@ -270,22 +234,15 @@ async function fetchAndSaveLatestGamePatches(gameTargets: GameTarget[]) {
       target.dirName,
       'all_patch.json',
     );
+    let patchAll: StoredData<LatestGameResponse>[] = (await Bun.file(patchAllPath).exists())
+      ? await Bun.file(patchAllPath).json()
+      : [];
 
-    if (!(await Bun.file(gameAllJsonPath).exists())) continue;
+    const versionList = [...new Set(gameAll.map((e) => e.rsp.version))].sort((a, b) => semver.compare(b, a)).slice(1);
+    let needWrite = false;
 
-    const gameAllJson = (await Bun.file(gameAllJsonPath).json()) as StoredData<LatestGameResponse>[];
-    let patchAllJson: StoredData<LatestGameResponse>[] = [];
-    if (await Bun.file(patchAllJsonPath).exists()) {
-      patchAllJson = await Bun.file(patchAllJsonPath).json();
-    }
-
-    const versionList = ([...new Set(gameAllJson.map((e) => e.rsp.version))] as string[])
-      .sort((a, b) => semver.compare(b, a))
-      .slice(1);
-    let needWrite: boolean = false;
-    const queue = new PQueue({ concurrency: appConfig.threadCount.network });
     for (const ver of versionList) {
-      queue.add(async () => {
+      networkQueue.add(async () => {
         const rsp = await apiUtils.akEndfield.launcher.latestGame(
           target.appCode,
           target.launcherAppCode,
@@ -295,6 +252,8 @@ async function fetchAndSaveLatestGamePatches(gameTargets: GameTarget[]) {
           ver,
           target.region,
         );
+        if (!rsp.patch) return;
+
         const prettyRsp = {
           req: {
             appCode: target.appCode,
@@ -306,45 +265,34 @@ async function fetchAndSaveLatestGamePatches(gameTargets: GameTarget[]) {
           },
           rsp,
         };
-        if (rsp.patch === null) return;
-        const exists = patchAllJson.some((e) => {
-          const diff = getObjectDiff({ req: e.req, rsp: e.rsp }, prettyRsp, diffIgnoreRules);
-          return Object.keys(diff).length === 0;
-        });
+
+        const exists = patchAll.some(
+          (e) => Object.keys(getObjectDiff({ req: e.req, rsp: e.rsp }, prettyRsp, diffIgnoreRules)).length === 0,
+        );
+
         if (!exists) {
           logger.debug(
-            `Fetched latestGamePatch: ${target.region.toUpperCase()}, ${target.name}, v${rsp.request_version} -> v${rsp.version}, ${formatBytes(
-              parseInt(rsp.patch.total_size) - parseInt(rsp.patch.package_size),
-            )}`,
+            `Fetched latestGamePatch: ${target.region.toUpperCase()}, ${target.name}, v${rsp.request_version} -> v${rsp.version}, ${formatBytes(parseInt(rsp.patch.total_size) - parseInt(rsp.patch.package_size))}`,
           );
-          patchAllJson.push({
-            updatedAt: DateTime.now().toISO(),
-            ...prettyRsp,
-          });
+          patchAll.push({ updatedAt: DateTime.now().toISO(), ...prettyRsp });
           needWrite = true;
-          (() => {
-            const hashPair: { url: string; md5: string }[] = [];
-            hashPair.push({ url: rsp.patch.url, md5: rsp.patch.md5 });
-            rsp.patch.patches.forEach((e) => hashPair.push({ url: e.url, md5: e.md5 }));
-            const unique = [...new Map(hashPair.map((item) => [item.md5, item])).values()];
-            const subChns = appConfig.network.api.akEndfield.subChannel;
-            unique.forEach((e) => {
-              if ([subChns.cnWinRel, subChns.cnWinRelBilibili, subChns.osWinRel].includes(target.subChannel)) {
-                const urlObj = new URL(e.url);
-                urlObj.search = '';
-                saveToGHMirrorNeedUrls.push({
-                  url: e.url,
-                  name: urlObj.pathname.split('/').filter(Boolean).slice(-3).join('_'),
-                });
-              }
-            });
-          })();
+
+          const subChns = appConfig.network.api.akEndfield.subChannel;
+          if ([subChns.cnWinRel, subChns.cnWinRelBilibili, subChns.osWinRel].includes(target.subChannel)) {
+            queueAssetForMirroring(
+              rsp.patch.url,
+              new URL(rsp.patch.url).pathname.split('/').filter(Boolean).slice(-3).join('_'),
+            );
+            rsp.patch.patches.forEach((e) => queueAssetForMirroring(e.url));
+          }
         }
       });
     }
-    await queue.onIdle();
+
+    await networkQueue.onIdle();
+
     if (needWrite) {
-      await Bun.write(patchAllJsonPath, JSON.stringify(patchAllJson, null, 2));
+      await Bun.write(patchAllPath, JSON.stringify(patchAll, null, 2));
     }
   }
 }
@@ -352,19 +300,17 @@ async function fetchAndSaveLatestGamePatches(gameTargets: GameTarget[]) {
 async function fetchAndSaveLatestGameResources(gameTargets: GameTarget[]) {
   logger.debug('Fetching latestGameRes ...');
   const platforms = ['Windows', 'Android', 'iOS', 'PlayStation'] as const;
+  const subChns = appConfig.network.api.akEndfield.subChannel;
 
-  const sanitizedGameTargets = [
-    ...new Set(
-      gameTargets
-        .filter((e) => [appConfig.network.api.akEndfield.channel.cnWinRelBilibili].includes(e.channel) === false)
-        .map((e) => JSON.stringify({ region: e.region, appCode: e.appCode, channel: e.channel })),
-    ),
-  ].map((e) => JSON.parse(e)) as { region: 'os' | 'cn'; appCode: string; channel: number }[];
+  const filteredTargets = gameTargets.filter(
+    (t) => t.channel !== appConfig.network.api.akEndfield.channel.cnWinRelBilibili,
+  );
+  const uniqueTargets = Array.from(
+    new Set(filteredTargets.map((t) => JSON.stringify({ region: t.region, appCode: t.appCode, channel: t.channel }))),
+  ).map((s) => JSON.parse(s));
 
-  const needDlRawFileBase: string[] = [];
-
-  for (const target of sanitizedGameTargets) {
-    const gameAllJsonPath = path.join(
+  for (const target of uniqueTargets) {
+    const gameAllPath = path.join(
       argvUtils.getArgv()['outputDir'],
       'akEndfield',
       'launcher',
@@ -372,53 +318,53 @@ async function fetchAndSaveLatestGameResources(gameTargets: GameTarget[]) {
       String(target.channel),
       'all.json',
     );
-    if (!(await Bun.file(gameAllJsonPath).exists())) {
-      logger.warn('Skipping latestGameRes: game/all.json not found');
-      return;
-    }
-    const versionInfoList = ((await Bun.file(gameAllJsonPath).json()) as StoredData<LatestGameResponse>[])
+    if (!(await Bun.file(gameAllPath).exists())) continue;
+
+    const versionInfos = ((await Bun.file(gameAllPath).json()) as StoredData<LatestGameResponse>[])
       .map((e) => e.rsp)
-      .map((e) => ({
-        version: e.version,
-        versionMinor: semver.major(e.version) + '.' + semver.minor(e.version),
-        randStr: /_([^/]+)\/.+?$/.exec(e.pkg.file_path)![1],
+      .map((r) => ({
+        version: r.version,
+        versionMinor: `${semver.major(r.version)}.${semver.minor(r.version)}`,
+        randStr: /_([^/]+)\/.+?$/.exec(r.pkg.file_path)?.[1] || '',
       }))
       .sort((a, b) => semver.compare(b.version, a.version));
+
     for (const platform of platforms) {
-      let isLatestWrote: boolean = false;
-      for (const versionInfoEntry of versionInfoList) {
-        if (!versionInfoEntry.randStr) throw new Error('version rand_str not found. regexp is broken');
+      let isLatestWrote = false;
+      for (const vInfo of versionInfos) {
+        if (!vInfo.randStr) throw new Error('version rand_str not found');
         const rsp = await apiUtils.akEndfield.launcher.latestGameResources(
           target.appCode,
-          versionInfoEntry.versionMinor,
-          versionInfoEntry.version,
-          versionInfoEntry.randStr,
+          vInfo.versionMinor,
+          vInfo.version,
+          vInfo.randStr,
           platform,
           target.region,
         );
         logger.info(
-          `Fetched latestGameRes: ${target.region.toUpperCase()}, ${platform}, v${versionInfoEntry.version}, ${rsp.res_version}`,
+          `Fetched latestGameRes: ${target.region.toUpperCase()}, ${platform}, v${vInfo.version}, ${rsp.res_version}`,
         );
+
         const prettyRsp = {
           req: {
             appCode: target.appCode,
-            gameVersion: versionInfoEntry.versionMinor,
-            version: versionInfoEntry.version,
-            randStr: versionInfoEntry.randStr,
+            gameVersion: vInfo.versionMinor,
+            version: vInfo.version,
+            randStr: vInfo.randStr,
             platform,
           },
           rsp,
         };
 
-        await saveResult(
+        await saveResultWithHistory(
           ['akEndfield', 'launcher', 'game_resources', String(target.channel), platform],
-          versionInfoEntry.version,
+          vInfo.version,
           prettyRsp,
-          !isLatestWrote,
+          {
+            saveLatest: !isLatestWrote,
+          },
         );
         isLatestWrote = true;
-
-        needDlRawFileBase.push(...rsp.resources.map((e) => e.path));
       }
     }
   }
@@ -426,21 +372,18 @@ async function fetchAndSaveLatestGameResources(gameTargets: GameTarget[]) {
 
 async function fetchAndSaveAllGameResRawData(gameTargets: GameTarget[]) {
   logger.debug('Fetching raw game resources ...');
-
   const platforms = ['Windows', 'Android', 'iOS', 'PlayStation'] as const;
-  const sanitizedGameTargets = [
-    ...new Set(
-      gameTargets
-        .filter((e) => [appConfig.network.api.akEndfield.channel.cnWinRelBilibili].includes(e.channel) === false)
-        .map((e) => JSON.stringify({ region: e.region, appCode: e.appCode, channel: e.channel })),
-    ),
-  ].map((e) => JSON.parse(e)) as { region: 'os' | 'cn'; appCode: string; channel: number }[];
-  const queue = new PQueue({ concurrency: appConfig.threadCount.network });
-  const needDlRawFileBase: { name: string; version: string; path: string }[] = [];
+  const filteredTargets = gameTargets.filter(
+    (t) => t.channel !== appConfig.network.api.akEndfield.channel.cnWinRelBilibili,
+  );
+  const uniqueTargets = Array.from(
+    new Set(filteredTargets.map((t) => JSON.stringify({ region: t.region, appCode: t.appCode, channel: t.channel }))),
+  ).map((s) => JSON.parse(s));
 
-  for (const target of sanitizedGameTargets) {
+  const needDlRaw: { name: string; version: string; path: string }[] = [];
+  for (const target of uniqueTargets) {
     for (const platform of platforms) {
-      const resAllJsonPath = path.join(
+      const resAllPath = path.join(
         argvUtils.getArgv()['outputDir'],
         'akEndfield',
         'launcher',
@@ -449,30 +392,35 @@ async function fetchAndSaveAllGameResRawData(gameTargets: GameTarget[]) {
         platform,
         'all.json',
       );
-      const resAllJson = (await Bun.file(resAllJsonPath).json()) as StoredData<LatestGameResourcesResponse>[];
-      for (const resEntry of resAllJson) {
-        needDlRawFileBase.push(...resEntry.rsp.resources);
+      if (await Bun.file(resAllPath).exists()) {
+        const resAll = (await Bun.file(resAllPath).json()) as StoredData<LatestGameResourcesResponse>[];
+        resAll.forEach((e) => needDlRaw.push(...e.rsp.resources));
       }
     }
   }
+
+  const uniqueRaw = [...new Map(needDlRaw.map((item) => [item.path, item])).values()];
   const wroteFiles: string[] = [];
-  for (const rawFileBaseEntry of [...new Set(needDlRawFileBase)]) {
-    const fileNameList = (() => {
-      if (rawFileBaseEntry.name.includes('main')) return ['index_main.json', 'patch.json'];
-      if (rawFileBaseEntry.name.includes('initial')) return ['index_initial.json', 'patch.json'];
-      return ['index_main.json', 'index_initial.json', 'patch.json'];
-    })();
-    for (const fileNameEntry of fileNameList) {
-      const urlObj = new URL(rawFileBaseEntry.path + '/' + fileNameEntry);
-      urlObj.search = '';
-      const localFilePath = path.join(
-        argvUtils.getArgv()['outputDir'],
-        'raw',
-        urlObj.hostname,
-        ...urlObj.pathname.split('/').filter(Boolean),
-      );
-      queue.add(async () => {
-        if (!(await Bun.file(localFilePath).exists())) {
+
+  for (const raw of uniqueRaw) {
+    const fileNames = raw.name.includes('main')
+      ? ['index_main.json', 'patch.json']
+      : raw.name.includes('initial')
+        ? ['index_initial.json', 'patch.json']
+        : ['index_main.json', 'index_initial.json', 'patch.json'];
+
+    for (const fName of fileNames) {
+      networkQueue.add(async () => {
+        const urlObj = new URL(`${raw.path}/${fName}`);
+        urlObj.search = '';
+        const localPath = path.join(
+          argvUtils.getArgv()['outputDir'],
+          'raw',
+          urlObj.hostname,
+          ...urlObj.pathname.split('/').filter(Boolean),
+        );
+
+        if (!(await Bun.file(localPath).exists())) {
           try {
             const rsp = await ky
               .get(urlObj.href, {
@@ -481,19 +429,95 @@ async function fetchAndSaveAllGameResRawData(gameTargets: GameTarget[]) {
                 retry: { limit: appConfig.network.retryCount },
               })
               .bytes();
-            await Bun.write(localFilePath, rsp);
-            wroteFiles.push(localFilePath);
-            // logger.trace('Downloaded: ' + urlObj.href);
+            await Bun.write(localPath, rsp);
+            wroteFiles.push(localPath);
           } catch (err) {
-            if (!(err instanceof HTTPError && (err.response.status === 404 || err.response.status === 403))) {
-              throw err;
-            }
+            if (!(err instanceof HTTPError && (err.response.status === 404 || err.response.status === 403))) throw err;
           }
         }
       });
     }
   }
-  await queue.onIdle();
+
+  {
+    const urlSet: Set<string> = new Set();
+    const infileBasePath: string = path.join(argvUtils.getArgv()['outputDir'], 'akEndfield', 'launcher', 'web');
+    for (const target of gameTargets) {
+      for (const lang of apiUtils.akEndfield.defaultSettings.launcherWebLang) {
+        {
+          const data: StoredData<Awaited<ReturnType<typeof apiUtils.akEndfield.launcherWeb.banner>>>[] = await Bun.file(
+            path.join(infileBasePath, String(target.subChannel), 'banner', lang, 'all.json'),
+          ).json();
+          for (const dataEntry of data) {
+            if (!dataEntry.rsp) continue;
+            dataEntry.rsp.banners.forEach((e) => urlSet.add(e.url));
+          }
+        }
+        {
+          const data: StoredData<Awaited<ReturnType<typeof apiUtils.akEndfield.launcherWeb.mainBgImage>>>[] =
+            await Bun.file(
+              path.join(infileBasePath, String(target.subChannel), 'main_bg_image', lang, 'all.json'),
+            ).json();
+          for (const dataEntry of data) {
+            if (!dataEntry.rsp) continue;
+            urlSet.add(dataEntry.rsp.main_bg_image.url);
+            if (dataEntry.rsp.main_bg_image.video_url) urlSet.add(dataEntry.rsp.main_bg_image.video_url);
+          }
+        }
+        {
+          const data: StoredData<Awaited<ReturnType<typeof apiUtils.akEndfield.launcherWeb.sidebar>>>[] =
+            await Bun.file(path.join(infileBasePath, String(target.subChannel), 'sidebar', lang, 'all.json')).json();
+          for (const dataEntry of data) {
+            if (!dataEntry.rsp) continue;
+            dataEntry.rsp.sidebars.forEach((e) => {
+              if (e.pic !== null && e.pic.url) urlSet.add(e.pic.url);
+            });
+          }
+        }
+        {
+          const data: StoredData<Awaited<ReturnType<typeof apiUtils.akEndfield.launcherWeb.singleEnt>>>[] =
+            await Bun.file(path.join(infileBasePath, String(target.subChannel), 'single_ent', lang, 'all.json')).json();
+          for (const dataEntry of data) {
+            if (!dataEntry.rsp) continue;
+            [dataEntry.rsp.single_ent.version_url].forEach((e) => {
+              if (e) urlSet.add(e);
+            });
+          }
+        }
+      }
+    }
+
+    for (const url of [...urlSet]) {
+      networkQueue.add(async () => {
+        const urlObj = new URL(url);
+        urlObj.search = '';
+        const localPath = path.join(
+          argvUtils.getArgv()['outputDir'],
+          'raw',
+          urlObj.hostname,
+          ...urlObj.pathname.split('/').filter(Boolean),
+        );
+
+        if (!(await Bun.file(localPath).exists())) {
+          try {
+            const rsp = await ky
+              .get(urlObj.href, {
+                headers: { 'User-Agent': appConfig.network.userAgent.minimum },
+                timeout: appConfig.network.timeout,
+                retry: { limit: appConfig.network.retryCount },
+              })
+              .bytes();
+            await Bun.write(localPath, rsp);
+            wroteFiles.push(localPath);
+          } catch (err) {
+            if (!(err instanceof HTTPError && (err.response.status === 404 || err.response.status === 403))) throw err;
+          }
+        }
+      });
+    }
+  }
+
+  await networkQueue.onIdle();
   logger.info(`Fetched raw game resources: ${wroteFiles.length} files`);
 }
 
@@ -502,49 +526,139 @@ async function fetchAndSaveLatestLauncher(launcherTargets: LauncherTarget[]) {
   for (const { id, apps, code, channel } of launcherTargets) {
     for (const app of apps) {
       const apiArgs = [code, channel, channel, null] as const;
-      const rsp = await apiUtils.akEndfield.launcher.latestLauncher(...apiArgs, app, id);
-      const prettyRsp = { req: { appCode: code, channel, subChannel: channel, targetApp: app }, rsp };
-      const appLower = app.toLowerCase();
-      const rspExe = await apiUtils.akEndfield.launcher.latestLauncherExe(...apiArgs, appLower, id);
-      const prettyRspExe = { req: { appCode: code, channel, subChannel: channel, ta: appLower }, rsp: rspExe };
+      const [rsp, rspExe] = await Promise.all([
+        apiUtils.akEndfield.launcher.latestLauncher(...apiArgs, app, id),
+        apiUtils.akEndfield.launcher.latestLauncherExe(...apiArgs, app.toLowerCase(), id),
+      ]);
+
       logger.info(`Fetched latestLauncher: ${id.toUpperCase()}, v${rsp.version}, ${app}`);
-      const basePath = ['akEndfield', 'launcher'];
       const channelStr = String(channel);
-      saveToGHMirrorNeedUrls.push({ url: rsp.zip_package_url, name: null });
-      saveToGHMirrorNeedUrls.push({ url: rspExe.exe_url, name: null });
-      await saveResult([...basePath, 'launcher', app, channelStr], rsp.version, prettyRsp, true, diffIgnoreRules);
-      await saveResult(
-        [...basePath, 'launcherExe', app, channelStr],
+      queueAssetForMirroring(rsp.zip_package_url);
+      queueAssetForMirroring(rspExe.exe_url);
+
+      await saveResultWithHistory(
+        ['akEndfield', 'launcher', 'launcher', app, channelStr],
+        rsp.version,
+        {
+          req: { appCode: code, channel, subChannel: channel, targetApp: app },
+          rsp,
+        },
+        { ignoreRules: diffIgnoreRules },
+      );
+
+      await saveResultWithHistory(
+        ['akEndfield', 'launcher', 'launcherExe', app, channelStr],
         rspExe.version,
-        prettyRspExe,
-        true,
-        diffIgnoreRules,
+        {
+          req: { appCode: code, channel, subChannel: channel, ta: app.toLowerCase() },
+          rsp: rspExe,
+        },
+        { ignoreRules: diffIgnoreRules },
       );
     }
   }
 }
 
-async function mainCmdHandler() {
-  githubAuthCfg = await (async () => {
-    if (await Bun.file('config/config_auth.yaml').exists()) {
-      return YAML.parse(await Bun.file('config/config_auth.yaml').text());
-    } else {
-      return null;
+async function fetchAndSaveLatestWebApis(gameTargets: GameTarget[]) {
+  logger.debug('Fetching latestWebApis ...');
+  const langs = apiUtils.akEndfield.defaultSettings.launcherWebLang;
+  const apis = [
+    { name: 'sidebar', method: apiUtils.akEndfield.launcherWeb.sidebar, dir: 'sidebar' },
+    { name: 'singleEnt', method: apiUtils.akEndfield.launcherWeb.singleEnt, dir: 'single_ent' },
+    { name: 'mainBgImage', method: apiUtils.akEndfield.launcherWeb.mainBgImage, dir: 'main_bg_image' },
+    { name: 'banner', method: apiUtils.akEndfield.launcherWeb.banner, dir: 'banner' },
+    { name: 'announcement', method: apiUtils.akEndfield.launcherWeb.announcement, dir: 'announcement' },
+  ] as const;
+
+  for (const target of gameTargets) {
+    for (const lang of langs) {
+      for (const api of apis) {
+        networkQueue.add(async () => {
+          const rsp = await api.method(target.appCode, target.channel, target.subChannel, lang, target.region);
+          if (!rsp) return;
+          const prettyRsp = {
+            req: {
+              appCode: target.appCode,
+              channel: target.channel,
+              subChannel: target.subChannel,
+              lang,
+              region: target.region,
+              platform: 'Windows',
+            },
+            rsp,
+          };
+          await saveResultWithHistory(
+            ['akEndfield', 'launcher', 'web', String(target.subChannel), api.dir, lang],
+            null,
+            prettyRsp,
+            { ignoreRules: diffIgnoreRules },
+          );
+        });
+      }
     }
-  })();
-  if (githubAuthCfg) {
-    logger.info('Logging in to GitHub using a PAT');
+  }
+  await networkQueue.onIdle();
+}
+
+// Mirroring and Cleanup
+async function checkMirrorFileDbStatus() {
+  logger.info('Checking mirrored files availability ...');
+  const dbPath = path.join(argvUtils.getArgv()['outputDir'], 'mirror_file_list.json');
+  const db = (await Bun.file(dbPath).json()) as MirrorFileEntry[];
+
+  for (const entry of db) {
+    networkQueue.add(async () => {
+      try {
+        await ky.head(entry.orig, {
+          headers: { 'User-Agent': appConfig.network.userAgent.minimum },
+          timeout: appConfig.network.timeout,
+          retry: { limit: appConfig.network.retryCount },
+        });
+        entry.origStatus = true;
+      } catch {
+        if (entry.origStatus) logger.trace(`Orig inaccessible: ${entry.orig.split('/').pop()}`);
+        entry.origStatus = false;
+      }
+    });
+  }
+  await networkQueue.onIdle();
+  await Bun.write(dbPath, JSON.stringify(db));
+}
+
+async function processMirrorQueue() {
+  const dbPath = path.join(argvUtils.getArgv()['outputDir'], 'mirror_file_list.json');
+  const db = (await Bun.file(dbPath).json()) as MirrorFileEntry[];
+
+  for (const { url, name } of assetsToMirror) {
+    const origUrl = stringUtils.removeQueryStr(url);
+    if (!db.find((e) => e.orig.includes(origUrl))) {
+      await githubUtils.uploadAsset(octoClient, githubAuthCfg, url, name);
+      if (githubAuthCfg) {
+        db.push({
+          orig: origUrl,
+          mirror: `https://github.com/${githubAuthCfg.github.relArchive.owner}/${githubAuthCfg.github.relArchive.repo}/releases/download/${githubAuthCfg.github.relArchive.tag}/${name ?? new URL(url).pathname.split('/').pop() ?? ''}`,
+          origStatus: true,
+        });
+        await Bun.write(dbPath, JSON.stringify(db));
+      }
+    }
+  }
+}
+
+async function mainCmdHandler() {
+  const authPath = 'config/config_auth.yaml';
+  if (await Bun.file(authPath).exists()) {
+    githubAuthCfg = YAML.parse(await Bun.file(authPath).text());
+    logger.info('Logging in to GitHub');
     octoClient = new Octokit({ auth: githubAuthCfg.github.relArchive.token });
   }
 
-  if ((await githubUtils.checkIsActionRunning(githubAuthCfg)) === true) {
-    logger.error('Duplicate exec of a GitHub Actions workflow has been detected');
-    // throw new Error('Github Actions workflow duplicate exec detected');
+  if (await githubUtils.checkIsActionRunning(githubAuthCfg)) {
+    logger.error('Duplicate execution detected');
     return;
   }
 
   const cfg = appConfig.network.api.akEndfield;
-
   const gameTargets: GameTarget[] = [
     {
       name: 'Official',
@@ -570,7 +684,7 @@ async function mainCmdHandler() {
       name: 'Google Play',
       region: 'os',
       appCode: cfg.appCode.game.osWinRel,
-      launcherAppCode: cfg.appCode.launcher.osWinRelEpic, // why epic
+      launcherAppCode: cfg.appCode.launcher.osWinRelEpic,
       channel: cfg.channel.osWinRel,
       subChannel: cfg.subChannel.osWinRelGooglePlay,
       launcherSubChannel: cfg.subChannel.osWinRelGooglePlay,
@@ -599,12 +713,7 @@ async function mainCmdHandler() {
   ];
 
   const launcherTargets: LauncherTarget[] = [
-    {
-      id: 'os',
-      apps: ['EndField', 'Official'],
-      code: cfg.appCode.launcher.osWinRel,
-      channel: cfg.channel.osWinRel,
-    },
+    { id: 'os', apps: ['EndField', 'Official'], code: cfg.appCode.launcher.osWinRel, channel: cfg.channel.osWinRel },
     {
       id: 'cn',
       apps: ['EndField', 'Arknights', 'Official'],
@@ -618,18 +727,14 @@ async function mainCmdHandler() {
   await fetchAndSaveLatestGameResources(gameTargets);
   await fetchAndSaveAllGameResRawData(gameTargets);
   await fetchAndSaveLatestLauncher(launcherTargets);
+  await fetchAndSaveLatestWebApis(gameTargets);
 
   await checkMirrorFileDbStatus();
+  await processMirrorQueue();
 
-  // todo: Implement multithreading or separate the steps in GH Actions
-  for (const e of saveToGHMirrorNeedUrls) {
-    await saveToGHMirror(e.url, e.name);
-  }
-  const ghRelInfo = await githubUtils.getReleaseInfo(octoClient, githubAuthCfg);
-  if (ghRelInfo) {
-    logger.info(
-      'GitHub Releases size total: ' + formatBytes(mathUtils.arrayTotal(ghRelInfo.assets.map((e) => e.size))),
-    );
+  const relInfo = await githubUtils.getReleaseInfo(octoClient, githubAuthCfg);
+  if (relInfo) {
+    logger.info(`GitHub Releases total size: ${formatBytes(mathUtils.arrayTotal(relInfo.assets.map((a) => a.size)))}`);
   }
 }
 
