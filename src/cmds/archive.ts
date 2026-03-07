@@ -300,7 +300,6 @@ async function fetchAndSaveLatestGamePatches(gameTargets: GameTarget[]) {
 async function fetchAndSaveLatestGameResources(gameTargets: GameTarget[]) {
   logger.debug('Fetching latestGameRes ...');
   const platforms = ['Windows', 'Android', 'iOS', 'PlayStation'] as const;
-  const subChns = appConfig.network.api.akEndfield.subChannel;
 
   const filteredTargets = gameTargets.filter(
     (t) => t.channel !== appConfig.network.api.akEndfield.channel.cnWinRelBilibili,
@@ -698,9 +697,9 @@ async function mainCmdHandler() {
   await fetchAndSaveLatestGames(gameTargets);
   await fetchAndSaveLatestGamePatches(gameTargets);
   await fetchAndSaveLatestGameResources(gameTargets);
-  await fetchAndSaveAllGameResRawData(gameTargets);
-  await fetchAndSaveLatestLauncher(launcherTargets);
   await fetchAndSaveLatestWebApis(gameTargets);
+  await fetchAndSaveLatestLauncher(launcherTargets);
+  await fetchAndSaveAllGameResRawData(gameTargets);
 
   await checkMirrorFileDbStatus();
   await processMirrorQueue();

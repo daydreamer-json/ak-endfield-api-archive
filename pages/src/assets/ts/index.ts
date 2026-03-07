@@ -4,7 +4,7 @@ import { renderLaunchers } from './renderers/launchers.js';
 import { renderOverview } from './renderers/overview.js';
 import { renderPatches } from './renderers/patches.js';
 import { renderResources } from './renderers/resources.js';
-import { renderWeb } from './renderers/web.js';
+import { renderWebPretty } from './renderers/webPretty.js';
 import type { MirrorFileEntry } from './types.js';
 import { BASE_URL } from './utils/constants.js';
 
@@ -33,7 +33,7 @@ async function main() {
       <li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-patch" type="button">Patches</button></li>
       <li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-resources" type="button">Resources</button></li>
       <li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-launcher" type="button">Launcher</button></li>
-      <li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-web" type="button">Web (Raw)</button></li>
+      <li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-web-pretty" type="button">Web</button></li>
     </ul>
     <div class="tab-content p-3 border border-top-0 rounded-bottom" id="mainTabsContent">
       <div class="tab-pane fade show active" id="tab-overview" role="tabpanel"></div>
@@ -41,7 +41,7 @@ async function main() {
       <div class="tab-pane fade" id="tab-patch" role="tabpanel"></div>
       <div class="tab-pane fade" id="tab-resources" role="tabpanel"></div>
       <div class="tab-pane fade" id="tab-launcher" role="tabpanel"></div>
-      <div class="tab-pane fade" id="tab-web" role="tabpanel"></div>
+      <div class="tab-pane fade" id="tab-web-pretty" role="tabpanel"></div>
     </div>
   `;
   contentDiv.innerHTML = tabsHtml;
@@ -52,6 +52,6 @@ async function main() {
     renderPatches(document.getElementById('tab-patch')!, mirrorFileDb),
     renderResources(document.getElementById('tab-resources')!),
     renderLaunchers(document.getElementById('tab-launcher')!, mirrorFileDb),
-    renderWeb(document.getElementById('tab-web')!),
+    renderWebPretty(document.getElementById('tab-web-pretty')!),
   ]);
 }
