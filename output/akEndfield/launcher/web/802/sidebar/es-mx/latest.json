@@ -1,0 +1,85 @@
+{
+  "req": {
+    "appCode": "YDUTE5gscDZ229CW",
+    "channel": 6,
+    "subChannel": 802,
+    "lang": "es-mx",
+    "region": "os",
+    "platform": "Windows"
+  },
+  "rsp": {
+    "data_version": "",
+    "sidebars": [
+      {
+        "display_type": "DisplayType_RESERVE",
+        "media": "X",
+        "pic": null,
+        "sidebar_labels": [],
+        "grid_info": null,
+        "jump_url": "https://x.com/AKEndfieldES",
+        "need_token": false
+      },
+      {
+        "display_type": "DisplayType_RESERVE",
+        "media": "TikTok",
+        "pic": null,
+        "sidebar_labels": [],
+        "grid_info": null,
+        "jump_url": "https://www.tiktok.com/@akendfield_es",
+        "need_token": false
+      },
+      {
+        "display_type": "DisplayType_RESERVE",
+        "media": "Discord",
+        "pic": null,
+        "sidebar_labels": [],
+        "grid_info": null,
+        "jump_url": "https://discord.com/invite/akendfield",
+        "need_token": false
+      },
+      {
+        "display_type": "DisplayType_RESERVE",
+        "media": "Skland_gl",
+        "pic": {
+          "url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/00/56/005624a0194359bcd474bb78bf00dd04.png",
+          "md5": "7841a58945ef62a3cb76fbb4ecbafee8",
+          "description": "Escanea para descargar la aplicación de SKPORT"
+        },
+        "sidebar_labels": [
+          {
+            "content": "Registro diario",
+            "jump_url": "https://game.skport.com/endfield/sign-in?header=0&hg_media=launcher&hg_link_campaign=icon",
+            "need_token": false
+          },
+          {
+            "content": "Herramientas de mapa",
+            "jump_url": "https://game.skport.com/map/endfield?header=0&ctr_orientation=landscape&hg_media=launcher&hg_link_campaign=icon",
+            "need_token": false
+          },
+          {
+            "content": "Guía de estrategia",
+            "jump_url": "https://game.skport.com/tools/endfield/list?header=0&ctr_orientation=landscape&routeId=1&hg_media=launcher&hg_link_campaign=icon",
+            "need_token": false
+          },
+          {
+            "content": "Ir a SKPORT",
+            "jump_url": "https://www.skport.com/?hg_source=official&hg_media=launcher",
+            "need_token": true
+          }
+        ],
+        "grid_info": null,
+        "jump_url": "https://www.skport.com/?hg_source=official&hg_media=launcher",
+        "need_token": true
+      },
+      {
+        "display_type": "DisplayType_RESERVE",
+        "media": "CS_gl",
+        "pic": null,
+        "sidebar_labels": [],
+        "grid_info": null,
+        "jump_url": "https://gryphline.helpshift.com/hc/es-419/4-arknights-endfield/",
+        "need_token": true
+      }
+    ]
+  }
+}

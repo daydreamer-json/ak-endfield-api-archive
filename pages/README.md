@@ -1,15 +1,17 @@
 # pages
 
-To install dependencies:
+A very simple and very lame information display page written in HTML, CSS, and TypeScript
+
+## For dev
+
+Live server:
 
 ```bash
-bun install
+bun x parcel
 ```
 
-To run:
+Build:
 
 ```bash
-bun run index.ts
+bun x parcel build
 ```
-
-This project was created using `bun init` in bun v1.3.9. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
