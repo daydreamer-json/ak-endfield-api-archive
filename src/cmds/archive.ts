@@ -370,8 +370,48 @@ async function fetchAndSaveLatestGameResources(gameTargets: GameTarget[]) {
   }
 }
 
+async function downloadRawFile(url: string) {
+  const urlObj = new URL(url);
+  urlObj.search = '';
+  const localPath = path.join(
+    argvUtils.getArgv()['outputDir'],
+    'raw',
+    urlObj.hostname,
+    ...urlObj.pathname.split('/').filter(Boolean),
+  );
+
+  if (await Bun.file(localPath).exists()) return false;
+
+  try {
+    const data = await ky
+      .get(urlObj.href, {
+        headers: { 'User-Agent': appConfig.network.userAgent.minimum },
+        timeout: appConfig.network.timeout,
+        retry: { limit: appConfig.network.retryCount },
+      })
+      .bytes();
+    await Bun.write(localPath, data);
+    return true;
+  } catch (err) {
+    if (err instanceof HTTPError && (err.response.status === 404 || err.response.status === 403)) return false;
+    throw err;
+  }
+}
+
 async function fetchAndSaveAllGameResRawData(gameTargets: GameTarget[]) {
   logger.debug('Fetching raw game resources ...');
+  const wroteFiles: string[] = [];
+  const outputDir = argvUtils.getArgv()['outputDir'];
+
+  const addToQueue = (url: string) => {
+    networkQueue.add(async () => {
+      if (await downloadRawFile(url)) {
+        wroteFiles.push(url);
+      }
+    });
+  };
+
+  // 1. Gather URLs from game resources
   const platforms = ['Windows', 'Android', 'iOS', 'PlayStation'] as const;
   const filteredTargets = gameTargets.filter(
     (t) => t.channel !== appConfig.network.api.akEndfield.channel.cnWinRelBilibili,
@@ -380,11 +420,11 @@ async function fetchAndSaveAllGameResRawData(gameTargets: GameTarget[]) {
     new Set(filteredTargets.map((t) => JSON.stringify({ region: t.region, appCode: t.appCode, channel: t.channel }))),
   ).map((s) => JSON.parse(s));
 
-  const needDlRaw: { name: string; version: string; path: string }[] = [];
+  const resourceUrls = new Set<string>();
   for (const target of uniqueTargets) {
     for (const platform of platforms) {
       const resAllPath = path.join(
-        argvUtils.getArgv()['outputDir'],
+        outputDir,
         'akEndfield',
         'launcher',
         'game_resources',
@@ -392,139 +432,63 @@ async function fetchAndSaveAllGameResRawData(gameTargets: GameTarget[]) {
         platform,
         'all.json',
       );
-      if (await Bun.file(resAllPath).exists()) {
-        const resAll = (await Bun.file(resAllPath).json()) as StoredData<LatestGameResourcesResponse>[];
-        resAll.forEach((e) => needDlRaw.push(...e.rsp.resources));
-      }
-    }
-  }
+      const file = Bun.file(resAllPath);
+      if (!(await file.exists())) continue;
 
-  const uniqueRaw = [...new Map(needDlRaw.map((item) => [item.path, item])).values()];
-  const wroteFiles: string[] = [];
+      const resAll = (await file.json()) as StoredData<LatestGameResourcesResponse>[];
+      for (const entry of resAll) {
+        for (const res of entry.rsp.resources) {
+          const fileNames = res.name.includes('main')
+            ? ['index_main.json', 'patch.json']
+            : res.name.includes('initial')
+              ? ['index_initial.json', 'patch.json']
+              : ['index_main.json', 'index_initial.json', 'patch.json'];
 
-  for (const raw of uniqueRaw) {
-    const fileNames = raw.name.includes('main')
-      ? ['index_main.json', 'patch.json']
-      : raw.name.includes('initial')
-        ? ['index_initial.json', 'patch.json']
-        : ['index_main.json', 'index_initial.json', 'patch.json'];
-
-    for (const fName of fileNames) {
-      networkQueue.add(async () => {
-        const urlObj = new URL(`${raw.path}/${fName}`);
-        urlObj.search = '';
-        const localPath = path.join(
-          argvUtils.getArgv()['outputDir'],
-          'raw',
-          urlObj.hostname,
-          ...urlObj.pathname.split('/').filter(Boolean),
-        );
-
-        if (!(await Bun.file(localPath).exists())) {
-          try {
-            const rsp = await ky
-              .get(urlObj.href, {
-                headers: { 'User-Agent': appConfig.network.userAgent.minimum },
-                timeout: appConfig.network.timeout,
-                retry: { limit: appConfig.network.retryCount },
-              })
-              .bytes();
-            await Bun.write(localPath, rsp);
-            wroteFiles.push(localPath);
-          } catch (err) {
-            if (!(err instanceof HTTPError && (err.response.status === 404 || err.response.status === 403))) throw err;
-          }
-        }
-      });
-    }
-  }
-
-  {
-    const urlSet: Set<string> = new Set();
-    const infileBasePath: string = path.join(argvUtils.getArgv()['outputDir'], 'akEndfield', 'launcher', 'web');
-    for (const target of gameTargets) {
-      for (const lang of apiUtils.akEndfield.defaultSettings.launcherWebLang) {
-        {
-          const allPath = path.join(infileBasePath, String(target.subChannel), 'banner', lang, 'all.json');
-          if (await Bun.file(allPath).exists()) {
-            const data: StoredData<Awaited<ReturnType<typeof apiUtils.akEndfield.launcherWeb.banner>>>[] =
-              await Bun.file(allPath).json();
-            for (const dataEntry of data) {
-              if (!dataEntry.rsp) continue;
-              dataEntry.rsp.banners.forEach((e) => urlSet.add(e.url));
-            }
-          }
-        }
-        {
-          const allPath = path.join(infileBasePath, String(target.subChannel), 'main_bg_image', lang, 'all.json');
-          if (await Bun.file(allPath).exists()) {
-            const data: StoredData<Awaited<ReturnType<typeof apiUtils.akEndfield.launcherWeb.mainBgImage>>>[] =
-              await Bun.file(allPath).json();
-            for (const dataEntry of data) {
-              if (!dataEntry.rsp) continue;
-              urlSet.add(dataEntry.rsp.main_bg_image.url);
-              if (dataEntry.rsp.main_bg_image.video_url) urlSet.add(dataEntry.rsp.main_bg_image.video_url);
-            }
-          }
-        }
-        {
-          const allPath = path.join(infileBasePath, String(target.subChannel), 'sidebar', lang, 'all.json');
-          if (await Bun.file(allPath).exists()) {
-            const data: StoredData<Awaited<ReturnType<typeof apiUtils.akEndfield.launcherWeb.sidebar>>>[] =
-              await Bun.file(allPath).json();
-            for (const dataEntry of data) {
-              if (!dataEntry.rsp) continue;
-              dataEntry.rsp.sidebars.forEach((e) => {
-                if (e.pic !== null && e.pic.url) urlSet.add(e.pic.url);
-              });
-            }
-          }
-        }
-        {
-          const allPath = path.join(infileBasePath, String(target.subChannel), 'single_ent', lang, 'all.json');
-          if (await Bun.file(allPath).exists()) {
-            const data: StoredData<Awaited<ReturnType<typeof apiUtils.akEndfield.launcherWeb.singleEnt>>>[] =
-              await Bun.file(allPath).json();
-            for (const dataEntry of data) {
-              if (!dataEntry.rsp) continue;
-              [dataEntry.rsp.single_ent.version_url].forEach((e) => {
-                if (e) urlSet.add(e);
-              });
-            }
+          for (const fName of fileNames) {
+            resourceUrls.add(`${res.path}/${fName}`);
           }
         }
       }
     }
+  }
+  for (const url of resourceUrls) addToQueue(url);
 
-    for (const url of [...urlSet]) {
-      networkQueue.add(async () => {
-        const urlObj = new URL(url);
-        urlObj.search = '';
-        const localPath = path.join(
-          argvUtils.getArgv()['outputDir'],
-          'raw',
-          urlObj.hostname,
-          ...urlObj.pathname.split('/').filter(Boolean),
+  // 2. Gather URLs from web APIs
+  const webAssetUrls = new Set<string>();
+  const webLangs = apiUtils.akEndfield.defaultSettings.launcherWebLang;
+  const webConfigs = [
+    { dir: 'banner', getUrls: (rsp: any) => rsp.banners?.map((b: any) => b.url) },
+    { dir: 'main_bg_image', getUrls: (rsp: any) => [rsp.main_bg_image?.url, rsp.main_bg_image?.video_url] },
+    { dir: 'sidebar', getUrls: (rsp: any) => rsp.sidebars?.map((s: any) => s.pic?.url) },
+    { dir: 'single_ent', getUrls: (rsp: any) => [rsp.single_ent?.version_url] },
+  ];
+
+  for (const target of gameTargets) {
+    for (const lang of webLangs) {
+      for (const config of webConfigs) {
+        const allPath = path.join(
+          outputDir,
+          'akEndfield',
+          'launcher',
+          'web',
+          String(target.subChannel),
+          config.dir,
+          lang,
+          'all.json',
         );
+        const file = Bun.file(allPath);
+        if (!(await file.exists())) continue;
 
-        if (!(await Bun.file(localPath).exists())) {
-          try {
-            const rsp = await ky
-              .get(urlObj.href, {
-                headers: { 'User-Agent': appConfig.network.userAgent.minimum },
-                timeout: appConfig.network.timeout,
-                retry: { limit: appConfig.network.retryCount },
-              })
-              .bytes();
-            await Bun.write(localPath, rsp);
-            wroteFiles.push(localPath);
-          } catch (err) {
-            if (!(err instanceof HTTPError && (err.response.status === 404 || err.response.status === 403))) throw err;
-          }
+        const data = (await file.json()) as StoredData<any>[];
+        for (const entry of data) {
+          if (!entry.rsp) continue;
+          const urls = config.getUrls(entry.rsp);
+          for (const url of urls) if (url) webAssetUrls.add(url);
         }
-      });
+      }
     }
   }
+  for (const url of webAssetUrls) addToQueue(url);
 
   await networkQueue.onIdle();
   logger.info(`Fetched raw game resources: ${wroteFiles.length} files`);
