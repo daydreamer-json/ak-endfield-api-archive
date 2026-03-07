@@ -9,10 +9,15 @@ export default {
     channel: number,
     subChannel: number,
     language: (typeof defaultSettings.launcherWebLang)[number],
+    region: 'os' | 'cn',
     platform: 'Windows' = 'Windows',
   ): Promise<TypesApiAkEndfield.LauncherWebSidebar> => {
+    const apiBase =
+      region === 'cn'
+        ? appConfig.network.api.akEndfield.base.launcherCN
+        : appConfig.network.api.akEndfield.base.launcher;
     const rsp = await ky
-      .post(`https://${appConfig.network.api.akEndfield.base.launcher}/proxy/web/batch_proxy`, {
+      .post(`https://${apiBase}/proxy/web/batch_proxy`, {
         ...defaultSettings.ky,
         json: {
           proxy_reqs: [
@@ -38,10 +43,15 @@ export default {
     channel: number,
     subChannel: number,
     language: (typeof defaultSettings.launcherWebLang)[number],
+    region: 'os' | 'cn',
     platform: 'Windows' = 'Windows',
   ): Promise<TypesApiAkEndfield.LauncherWebSingleEnt> => {
+    const apiBase =
+      region === 'cn'
+        ? appConfig.network.api.akEndfield.base.launcherCN
+        : appConfig.network.api.akEndfield.base.launcher;
     const rsp = await ky
-      .post(`https://${appConfig.network.api.akEndfield.base.launcher}/proxy/web/batch_proxy`, {
+      .post(`https://${apiBase}/proxy/web/batch_proxy`, {
         ...defaultSettings.ky,
         json: {
           proxy_reqs: [
@@ -67,10 +77,15 @@ export default {
     channel: number,
     subChannel: number,
     language: (typeof defaultSettings.launcherWebLang)[number],
+    region: 'os' | 'cn',
     platform: 'Windows' = 'Windows',
   ): Promise<TypesApiAkEndfield.LauncherWebMainBgImage> => {
+    const apiBase =
+      region === 'cn'
+        ? appConfig.network.api.akEndfield.base.launcherCN
+        : appConfig.network.api.akEndfield.base.launcher;
     const rsp = await ky
-      .post(`https://${appConfig.network.api.akEndfield.base.launcher}/proxy/web/batch_proxy`, {
+      .post(`https://${apiBase}/proxy/web/batch_proxy`, {
         ...defaultSettings.ky,
         json: {
           proxy_reqs: [
@@ -96,10 +111,15 @@ export default {
     channel: number,
     subChannel: number,
     language: (typeof defaultSettings.launcherWebLang)[number],
+    region: 'os' | 'cn',
     platform: 'Windows' = 'Windows',
   ): Promise<TypesApiAkEndfield.LauncherWebBanner> => {
+    const apiBase =
+      region === 'cn'
+        ? appConfig.network.api.akEndfield.base.launcherCN
+        : appConfig.network.api.akEndfield.base.launcher;
     const rsp = await ky
-      .post(`https://${appConfig.network.api.akEndfield.base.launcher}/proxy/web/batch_proxy`, {
+      .post(`https://${apiBase}/proxy/web/batch_proxy`, {
         ...defaultSettings.ky,
         json: {
           proxy_reqs: [
@@ -125,10 +145,15 @@ export default {
     channel: number,
     subChannel: number,
     language: (typeof defaultSettings.launcherWebLang)[number],
+    region: 'os' | 'cn',
     platform: 'Windows' = 'Windows',
   ): Promise<TypesApiAkEndfield.LauncherWebAnnouncement> => {
+    const apiBase =
+      region === 'cn'
+        ? appConfig.network.api.akEndfield.base.launcherCN
+        : appConfig.network.api.akEndfield.base.launcher;
     const rsp = await ky
-      .post(`https://${appConfig.network.api.akEndfield.base.launcher}/proxy/web/batch_proxy`, {
+      .post(`https://${apiBase}/proxy/web/batch_proxy`, {
         ...defaultSettings.ky,
         json: {
           proxy_reqs: [

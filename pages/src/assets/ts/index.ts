@@ -170,6 +170,16 @@ async function renderOverview(container: HTMLElement) {
       )()}</span><br />
       Latest Version (Global)
     </p>
+    <p class="text-center lh-1">
+      <span class="fw-bold fs-1">${await (
+        async () => {
+          const url = `${BASE_URL}/akEndfield/launcher/game/1/all.json`;
+          const dat = await fetchJson<StoredData<any>[]>(url);
+          return dat.at(-1)?.rsp.version;
+        }
+      )()}</span><br />
+      Latest Version (China)
+    </p>
   `;
 
   const tableWrapper = document.createElement('div');
