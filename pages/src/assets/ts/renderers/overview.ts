@@ -1,3 +1,4 @@
+import { DateTime } from 'luxon';
 import { fetchJson } from '../api.js';
 import type { MirrorFileEntry, StoredData } from '../types.js';
 import { BASE_URL, FILE_SIZE_OPTS, gameTargets, launcherTargets } from '../utils/constants.js';
@@ -34,28 +35,48 @@ export async function renderOverview(container: HTMLElement, mirrorFileDb: Mirro
   const sectionIn = document.createElement('div');
   section.className = 'card mb-3';
   sectionIn.className = 'card-body';
+
+  const [globalPkg, chinaPkg] = await Promise.all([
+    (async () => {
+      const url = `${BASE_URL}/akEndfield/launcher/game/6/all.json`;
+      const dat = await fetchJson<StoredData<any>[]>(url);
+      const latest = dat.at(-1);
+      if (!latest) return { version: '---', date: '---' };
+      return {
+        version: latest.rsp.version,
+        date: DateTime.fromISO(latest.updatedAt).toFormat('yyyy/MM/dd HH:mm:ss'),
+      };
+    })(),
+    (async () => {
+      const url = `${BASE_URL}/akEndfield/launcher/game/1/all.json`;
+      const dat = await fetchJson<StoredData<any>[]>(url);
+      const latest = dat.at(-1);
+      if (!latest) return { version: '---', date: '---' };
+      return {
+        version: latest.rsp.version,
+        date: DateTime.fromISO(latest.updatedAt).toFormat('yyyy/MM/dd HH:mm:ss'),
+      };
+    })(),
+  ]);
+
   sectionIn.innerHTML = `
-    <h3 class="card-title">Latest Game Packages</h3>
-    <p class="text-center lh-1">
-      <span class="fw-bold fs-1">${await (
-        async () => {
-          const url = `${BASE_URL}/akEndfield/launcher/game/6/all.json`;
-          const dat = await fetchJson<StoredData<any>[]>(url);
-          return dat.at(-1)?.rsp.version;
-        }
-      )()}</span><br />
-      Latest Version (Global)
-    </p>
-    <p class="text-center lh-1">
-      <span class="fw-bold fs-1">${await (
-        async () => {
-          const url = `${BASE_URL}/akEndfield/launcher/game/1/all.json`;
-          const dat = await fetchJson<StoredData<any>[]>(url);
-          return dat.at(-1)?.rsp.version;
-        }
-      )()}</span><br />
-      Latest Version (China)
-    </p>
+    <h3 class="card-title mb-4">Latest Game Packages</h3>
+    <div class="row text-center mb-4">
+      <div class="col-md-6 mb-md-0 mb-3">
+        <p class="lh-1 mb-0">
+          <span class="fw-bold fs-1">${globalPkg.version}</span><br />
+          <span class="small opacity-75" style="line-height: 1.5;">${globalPkg.date}</span><br />
+          Latest Version (Global)
+        </p>
+      </div>
+      <div class="col-md-6">
+        <p class="lh-1 mb-0">
+          <span class="fw-bold fs-1">${chinaPkg.version}</span><br />
+          <span class="small opacity-75" style="line-height: 1.5;">${chinaPkg.date}</span><br />
+          Latest Version (China)
+        </p>
+      </div>
+    </div>
   `;
 
   const tableWrapper = document.createElement('div');
@@ -154,6 +175,69 @@ export async function renderOverview(container: HTMLElement, mirrorFileDb: Mirro
         }
       } catch (e) {}
     }
+  }
+
+  // 3. Latest Game Resources (Global)
+  {
+    const resPlatforms = ['Windows', 'Android', 'iOS', 'PlayStation'];
+    const resData = await Promise.all(
+      resPlatforms.map(async (p) => {
+        try {
+          const url = `${BASE_URL}/akEndfield/launcher/game_resources/6/${p}/all.json`;
+          const dat = await fetchJson<StoredData<any>[]>(url);
+          return dat.at(-1);
+        } catch {
+          return undefined;
+        }
+      }),
+    );
+
+    const resSection = document.createElement('div');
+    resSection.className = 'card mb-3';
+    const resSectionIn = document.createElement('div');
+    resSectionIn.className = 'card-body';
+    resSectionIn.innerHTML = `
+    <h3 class="card-title mb-4">Latest Game Resources</h3>
+    <div class="row text-center">
+      ${resPlatforms
+        .map((p, i) => {
+          const item = resData[i];
+          if (!item) {
+            return `
+              <div class="col-md-3 mb-3 mb-md-0">
+                <p class="lh-1 mb-0">
+                  <span class="fw-bold fs-1">---</span><br />
+                  ${p}
+                </p>
+              </div>
+            `;
+          }
+
+          const version = (() => {
+            const initialRes = item.rsp.resources.find((e: any) => e.name === 'initial');
+            const mainRes = item.rsp.resources.find((e: any) => e.name === 'main');
+            if (!initialRes || !mainRes) return '---';
+            if (initialRes.version === mainRes.version) return mainRes.version;
+            return item.rsp.res_version;
+          })();
+
+          const dateStr = DateTime.fromISO(item.updatedAt).toFormat('yyyy/MM/dd HH:mm:ss');
+
+          return `
+            <div class="col-md-3 mb-3 mb-md-0">
+              <p class="lh-1 mb-0">
+                <span class="fw-bold fs-1">${version}</span><br />
+                <span class="small opacity-75" style="line-height: 1.5;">${dateStr}</span><br />
+                ${p}
+              </p>
+            </div>
+          `;
+        })
+        .join('')}
+    </div>
+  `;
+    resSection.appendChild(resSectionIn);
+    container.appendChild(resSection);
   }
 
   const mirrorSection = document.createElement('div');
