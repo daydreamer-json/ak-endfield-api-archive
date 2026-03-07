@@ -34,11 +34,18 @@ jobs:
           command: bun run src/main.ts archive
       - name: Format output data
         run: bun x oxfmt output
-      - name: Git staging, commit, push
-        continue-on-error: true
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output
-          git commit -m '[Auto] API update'
-          git push
+      # - name: Git staging, commit, push
+      #   continue-on-error: true
+      #   run: |
+      #     git config user.name "github-actions[bot]"
+      #     git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      #     git add output
+      #     git commit -m '[Auto] API update'
+      #     git push
+      - name: Git commit and push
+        uses: iarekylew00t/verified-bot-commit@v2
+        with:
+          message: "[Auto] API update"
+          files: |
+            output
+          if-no-commit: info
