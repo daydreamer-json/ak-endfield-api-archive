@@ -16,6 +16,12 @@ The APIs currently being monitored are as follows:
   - Get latest game (Global, China)
   - Get latest game resources (Global, China)
   - Get latest launcher (Global, China)
+  - Get launcher web resources (Global, China)
+    - Announcement
+    - Banner
+    - Main background image
+    - Single Ent.
+    - Sidebar
 - Raw
   - Game resource json (index, patch)
 
