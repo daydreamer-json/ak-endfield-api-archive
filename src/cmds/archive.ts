@@ -445,43 +445,52 @@ async function fetchAndSaveAllGameResRawData(gameTargets: GameTarget[]) {
     for (const target of gameTargets) {
       for (const lang of apiUtils.akEndfield.defaultSettings.launcherWebLang) {
         {
-          const data: StoredData<Awaited<ReturnType<typeof apiUtils.akEndfield.launcherWeb.banner>>>[] = await Bun.file(
-            path.join(infileBasePath, String(target.subChannel), 'banner', lang, 'all.json'),
-          ).json();
-          for (const dataEntry of data) {
-            if (!dataEntry.rsp) continue;
-            dataEntry.rsp.banners.forEach((e) => urlSet.add(e.url));
+          const allPath = path.join(infileBasePath, String(target.subChannel), 'banner', lang, 'all.json');
+          if (await Bun.file(allPath).exists()) {
+            const data: StoredData<Awaited<ReturnType<typeof apiUtils.akEndfield.launcherWeb.banner>>>[] =
+              await Bun.file(allPath).json();
+            for (const dataEntry of data) {
+              if (!dataEntry.rsp) continue;
+              dataEntry.rsp.banners.forEach((e) => urlSet.add(e.url));
+            }
           }
         }
         {
-          const data: StoredData<Awaited<ReturnType<typeof apiUtils.akEndfield.launcherWeb.mainBgImage>>>[] =
-            await Bun.file(
-              path.join(infileBasePath, String(target.subChannel), 'main_bg_image', lang, 'all.json'),
-            ).json();
-          for (const dataEntry of data) {
-            if (!dataEntry.rsp) continue;
-            urlSet.add(dataEntry.rsp.main_bg_image.url);
-            if (dataEntry.rsp.main_bg_image.video_url) urlSet.add(dataEntry.rsp.main_bg_image.video_url);
+          const allPath = path.join(infileBasePath, String(target.subChannel), 'main_bg_image', lang, 'all.json');
+          if (await Bun.file(allPath).exists()) {
+            const data: StoredData<Awaited<ReturnType<typeof apiUtils.akEndfield.launcherWeb.mainBgImage>>>[] =
+              await Bun.file(allPath).json();
+            for (const dataEntry of data) {
+              if (!dataEntry.rsp) continue;
+              urlSet.add(dataEntry.rsp.main_bg_image.url);
+              if (dataEntry.rsp.main_bg_image.video_url) urlSet.add(dataEntry.rsp.main_bg_image.video_url);
+            }
           }
         }
         {
-          const data: StoredData<Awaited<ReturnType<typeof apiUtils.akEndfield.launcherWeb.sidebar>>>[] =
-            await Bun.file(path.join(infileBasePath, String(target.subChannel), 'sidebar', lang, 'all.json')).json();
-          for (const dataEntry of data) {
-            if (!dataEntry.rsp) continue;
-            dataEntry.rsp.sidebars.forEach((e) => {
-              if (e.pic !== null && e.pic.url) urlSet.add(e.pic.url);
-            });
+          const allPath = path.join(infileBasePath, String(target.subChannel), 'sidebar', lang, 'all.json');
+          if (await Bun.file(allPath).exists()) {
+            const data: StoredData<Awaited<ReturnType<typeof apiUtils.akEndfield.launcherWeb.sidebar>>>[] =
+              await Bun.file(allPath).json();
+            for (const dataEntry of data) {
+              if (!dataEntry.rsp) continue;
+              dataEntry.rsp.sidebars.forEach((e) => {
+                if (e.pic !== null && e.pic.url) urlSet.add(e.pic.url);
+              });
+            }
           }
         }
         {
-          const data: StoredData<Awaited<ReturnType<typeof apiUtils.akEndfield.launcherWeb.singleEnt>>>[] =
-            await Bun.file(path.join(infileBasePath, String(target.subChannel), 'single_ent', lang, 'all.json')).json();
-          for (const dataEntry of data) {
-            if (!dataEntry.rsp) continue;
-            [dataEntry.rsp.single_ent.version_url].forEach((e) => {
-              if (e) urlSet.add(e);
-            });
+          const allPath = path.join(infileBasePath, String(target.subChannel), 'single_ent', lang, 'all.json');
+          if (await Bun.file(allPath).exists()) {
+            const data: StoredData<Awaited<ReturnType<typeof apiUtils.akEndfield.launcherWeb.singleEnt>>>[] =
+              await Bun.file(allPath).json();
+            for (const dataEntry of data) {
+              if (!dataEntry.rsp) continue;
+              [dataEntry.rsp.single_ent.version_url].forEach((e) => {
+                if (e) urlSet.add(e);
+              });
+            }
           }
         }
       }
