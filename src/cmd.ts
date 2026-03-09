@@ -43,6 +43,22 @@ async function parseCommand() {
       wrapHandler(cmds.archive),
     )
     .command(
+      ['ghMirrorUpload'],
+      'Upload pending large binary file to GitHub mirror',
+      (yargs) => {
+        yargs.options({
+          'output-dir': {
+            alias: ['o'],
+            desc: 'Output root directory',
+            default: path.resolve('output'),
+            normalize: true,
+            type: 'string',
+          },
+        });
+      },
+      wrapHandler(cmds.ghMirrorUpload),
+    )
+    .command(
       ['authTest [token] [email] [password]'],
       'Auth and gacha fetch test command',
       (yargs) => {
