@@ -4,7 +4,7 @@ permissions:
   checks: write
   contents: write
 on:
-  # Scheduled trigger is disabled by default
+  # Scheduled trigger is disabled by default (use cron-job)
   # Uncommenting the following two lines will enable it
   # schedule:
   #   - cron: '0 16 * * *'
@@ -32,20 +32,27 @@ jobs:
           max_attempts: 5
           timeout_minutes: 10
           command: bun run src/main.ts archive
-      - name: Format output data
+      - name: Format output folder
         run: bun x oxfmt output
-      # - name: Git staging, commit, push
-      #   continue-on-error: true
-      #   run: |
-      #     git config user.name "github-actions[bot]"
-      #     git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-      #     git add output
-      #     git commit -m '[Auto] API update'
-      #     git push
       - name: Git commit and push
         uses: iarekylew00t/verified-bot-commit@v2
         with:
           message: "[Auto] API update"
           files: |
-            output
+            output/akEndfield
+            output/raw
+            output/mirror_file_list.json
+          if-no-commit: info
+      - name: Run GitHub mirror upload
+        run: bun run src/main.ts ghMirrorUpload
+        continue-on-error: true
+      - name: Format output folder
+        run: bun x oxfmt output
+      - name: Git commit and push
+        uses: iarekylew00t/verified-bot-commit@v2
+        with:
+          message: "[Auto] API update"
+          files: |
+            output/mirror_file_list.json
+            output/mirror_file_list_pending.json
           if-no-commit: info

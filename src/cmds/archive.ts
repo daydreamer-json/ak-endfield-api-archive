@@ -1,14 +1,11 @@
 import path from 'node:path';
-import { Octokit } from '@octokit/rest';
 import ky, { HTTPError } from 'ky';
 import { DateTime } from 'luxon';
 import PQueue from 'p-queue';
 import semver from 'semver';
-import YAML from 'yaml';
 import apiUtils from '../utils/api/index.js';
 import argvUtils from '../utils/argv.js';
 import appConfig from '../utils/config.js';
-import githubUtils from '../utils/github.js';
 import logger from '../utils/logger.js';
 import mathUtils from '../utils/math.js';
 import stringUtils from '../utils/string.js';
@@ -21,6 +18,12 @@ interface StoredData<T> {
   req: any;
   rsp: T;
   updatedAt: string;
+}
+
+interface MirrorFileEntry {
+  orig: string;
+  mirror: string;
+  origStatus: boolean;
 }
 
 interface GameTarget {
@@ -41,20 +44,12 @@ interface LauncherTarget {
   channel: number;
 }
 
-interface MirrorFileEntry {
-  orig: string;
-  mirror: string;
-  origStatus: boolean;
-}
-
 interface AssetToMirror {
   url: string;
   name: string | null;
 }
 
 // Global/Shared State
-let githubAuthCfg: any = null;
-let octoClient: Octokit | null = null;
 const assetsToMirror: AssetToMirror[] = [];
 const networkQueue = new PQueue({ concurrency: appConfig.threadCount.network });
 
@@ -572,64 +567,7 @@ async function fetchAndSaveLatestWebApis(gameTargets: GameTarget[]) {
   await networkQueue.onIdle();
 }
 
-// Mirroring and Cleanup
-async function checkMirrorFileDbStatus() {
-  logger.info('Checking mirrored files availability ...');
-  const dbPath = path.join(argvUtils.getArgv()['outputDir'], 'mirror_file_list.json');
-  const db = (await Bun.file(dbPath).json()) as MirrorFileEntry[];
-
-  for (const entry of db) {
-    networkQueue.add(async () => {
-      try {
-        await ky.head(entry.orig, {
-          headers: { 'User-Agent': appConfig.network.userAgent.minimum },
-          timeout: appConfig.network.timeout,
-          retry: { limit: appConfig.network.retryCount },
-        });
-        entry.origStatus = true;
-      } catch {
-        if (entry.origStatus) logger.trace(`Orig inaccessible: ${entry.orig.split('/').pop()}`);
-        entry.origStatus = false;
-      }
-    });
-  }
-  await networkQueue.onIdle();
-  await Bun.write(dbPath, JSON.stringify(db));
-}
-
-async function processMirrorQueue() {
-  const dbPath = path.join(argvUtils.getArgv()['outputDir'], 'mirror_file_list.json');
-  const db = (await Bun.file(dbPath).json()) as MirrorFileEntry[];
-
-  for (const { url, name } of assetsToMirror) {
-    const origUrl = stringUtils.removeQueryStr(url);
-    if (!db.find((e) => e.orig.includes(origUrl))) {
-      await githubUtils.uploadAsset(octoClient, githubAuthCfg, url, name);
-      if (githubAuthCfg) {
-        db.push({
-          orig: origUrl,
-          mirror: `https://github.com/${githubAuthCfg.github.relArchive.owner}/${githubAuthCfg.github.relArchive.repo}/releases/download/${githubAuthCfg.github.relArchive.tag}/${name ?? new URL(url).pathname.split('/').pop() ?? ''}`,
-          origStatus: true,
-        });
-        await Bun.write(dbPath, JSON.stringify(db));
-      }
-    }
-  }
-}
-
 async function mainCmdHandler() {
-  const authPath = 'config/config_auth.yaml';
-  if (await Bun.file(authPath).exists()) {
-    githubAuthCfg = YAML.parse(await Bun.file(authPath).text());
-    logger.info('Logging in to GitHub');
-    octoClient = new Octokit({ auth: githubAuthCfg.github.relArchive.token });
-  }
-
-  if (await githubUtils.checkIsActionRunning(githubAuthCfg)) {
-    logger.error('Duplicate execution detected');
-    return;
-  }
-
   const cfg = appConfig.network.api.akEndfield;
   const gameTargets: GameTarget[] = [
     {
@@ -701,12 +639,35 @@ async function mainCmdHandler() {
   await fetchAndSaveLatestLauncher(launcherTargets);
   await fetchAndSaveAllGameResRawData(gameTargets);
 
-  await checkMirrorFileDbStatus();
-  await processMirrorQueue();
+  // Save pending assets to mirror
+  const outputDir = argvUtils.getArgv()['outputDir'];
+  const pendingPath = path.join(outputDir, 'mirror_file_list_pending.json');
+  const dbPath = path.join(outputDir, 'mirror_file_list.json');
 
-  const relInfo = await githubUtils.getReleaseInfo(octoClient, githubAuthCfg);
-  if (relInfo) {
-    logger.info(`GitHub Releases total size: ${formatBytes(mathUtils.arrayTotal(relInfo.assets.map((a) => a.size)))}`);
+  let pendingData: AssetToMirror[] = [];
+  if (await Bun.file(pendingPath).exists()) {
+    pendingData = await Bun.file(pendingPath).json();
+  }
+  const db: MirrorFileEntry[] = (await Bun.file(dbPath).exists()) ? await Bun.file(dbPath).json() : [];
+  let addedCount = 0;
+
+  const uniqueAssetsToMirror = assetsToMirror.filter(
+    (asset, index, self) => index === self.findIndex((t) => t.url === asset.url),
+  );
+
+  for (const asset of uniqueAssetsToMirror) {
+    const origUrl = stringUtils.removeQueryStr(asset.url);
+    const dbExists = db.some((e) => e.orig.includes(origUrl));
+    const pendingExists = pendingData.some((e) => stringUtils.removeQueryStr(e.url) === origUrl);
+    if (!dbExists && !pendingExists) {
+      pendingData.push(asset);
+      addedCount++;
+    }
+  }
+
+  if (addedCount > 0) {
+    logger.info(`Saved ${addedCount} new assets to mirror pending list`);
+    await Bun.write(pendingPath, JSON.stringify(pendingData, null, 2));
   }
 }
 
