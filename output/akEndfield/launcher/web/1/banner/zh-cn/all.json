@@ -93,5 +93,42 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-03-11T22:42:15.473+00:00",
+    "req": {
+      "appCode": "6LL0KJuqHBVz33WK",
+      "channel": 1,
+      "subChannel": 1,
+      "lang": "zh-cn",
+      "region": "cn",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "banners": [
+        {
+          "url": "https://hg-utils-public.hycdn.cn/hg-utils/prod/eppcsuwqpaueijqk/6LL0KJuqHBVz33WK/4c/2f/4c2f27c5d70199218aec8f4775485ba0.png",
+          "md5": "c648cec230819452c58b56ff2cac95cc",
+          "jump_url": "https://endfield.hypergryph.com/news/5992",
+          "id": "70",
+          "need_token": false
+        },
+        {
+          "url": "https://hg-utils-public.hycdn.cn/hg-utils/prod/eppcsuwqpaueijqk/6LL0KJuqHBVz33WK/16/ce/16ce42a4e7380ddd39f57ec9e9cd559f.png",
+          "md5": "d97bee4cbaf67db56ec4a71d70f79603",
+          "jump_url": "https://endfield.hypergryph.com/news/7225",
+          "id": "67",
+          "need_token": false
+        },
+        {
+          "url": "https://hg-utils-public.hycdn.cn/hg-utils/prod/eppcsuwqpaueijqk/6LL0KJuqHBVz33WK/2f/fd/2ffd3caaf5d8a7b77c4454a325db118b.png",
+          "md5": "6ba877cd98e73faa4cd1289270ac5037",
+          "jump_url": "https://endfield.hypergryph.com/news/4795",
+          "id": "61",
+          "need_token": true
+        }
+      ]
+    }
   }
 ]

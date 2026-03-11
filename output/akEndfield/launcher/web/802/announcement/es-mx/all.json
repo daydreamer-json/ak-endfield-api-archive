@@ -75,5 +75,68 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-03-11T22:42:13.283+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "channel": 6,
+      "subChannel": 802,
+      "lang": "es-mx",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "tabs": [
+        {
+          "tabName": "Noticias",
+          "announcements": [
+            {
+              "content": "Detalles OTL de la [Solicitud de Brotar de nuevo]",
+              "jump_url": "https://endfield.gryphline.com/news/5213",
+              "start_ts": "1773205200000",
+              "id": "358",
+              "need_token": false
+            },
+            {
+              "content": "Detalles de Caza de reclutas certificada [Hija del río]",
+              "jump_url": "https://endfield.gryphline.com/news/1338",
+              "start_ts": "1773203400000",
+              "id": "344",
+              "need_token": false
+            },
+            {
+              "content": "Guía de herramientas del juego de Arknights: Endfield",
+              "jump_url": "https://endfield.gryphline.com/news/0755",
+              "start_ts": "1769050800000",
+              "id": "141",
+              "need_token": false
+            },
+            {
+              "content": "Juego limpio de Arknights: Endfield",
+              "jump_url": "https://endfield.gryphline.com/news/8900",
+              "start_ts": "1768892400000",
+              "id": "97",
+              "need_token": false
+            }
+          ],
+          "tab_id": "63"
+        },
+        {
+          "tabName": "Novedades",
+          "announcements": [
+            {
+              "content": "Arknights: Endfield [Official Release Preview] DEV Comm",
+              "jump_url": "https://endfield.gryphline.com/en-us/news/4499",
+              "start_ts": "1768838400000",
+              "id": "69",
+              "need_token": false
+            }
+          ],
+          "tab_id": "65"
+        }
+      ]
+    }
   }
 ]
