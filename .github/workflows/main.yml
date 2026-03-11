@@ -39,8 +39,8 @@ jobs:
         with:
           message: "[Auto] API update"
           files: |
-            output/akEndfield
-            output/raw
+            output/akEndfield/**
+            output/raw/**
             output/mirror_file_list.json
           if-no-commit: info
       - name: Run GitHub mirror upload
