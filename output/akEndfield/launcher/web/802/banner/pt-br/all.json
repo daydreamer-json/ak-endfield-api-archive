@@ -35,5 +35,49 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-03-11T22:42:13.681+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "channel": 6,
+      "subChannel": 802,
+      "lang": "pt-br",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "banners": [
+        {
+          "url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/29/7a/297aa0a6827b390d540becd0ad59f032.png",
+          "md5": "bef18f833355e60480d5cfb6c8025f78",
+          "jump_url": "https://endfield.gryphline.com/news/1338",
+          "id": "259",
+          "need_token": false
+        },
+        {
+          "url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/61/ad/61ad248fcd4352c430aed12655bf5496.png",
+          "md5": "b0a2742e3f9d5cdcac972267954ce817",
+          "jump_url": "https://game.skport.com/endfield/sign-in?header=0&hg_media=launcher&hg_link_campaign=banner",
+          "id": "240",
+          "need_token": false
+        },
+        {
+          "url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/d4/65/d465e2d336ad91e07a97440322614657.png",
+          "md5": "d80813695f154027fc2e75bd082ac21c",
+          "jump_url": "https://endfield.gryphline.com/news/7029",
+          "id": "52",
+          "need_token": false
+        },
+        {
+          "url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/ad/52/ad52ba60835f388696d6f81f66bf0535.png",
+          "md5": "f55f3db2cdac94deb8b883e60cb43c49",
+          "jump_url": "https://endfield.gryphline.com/en-us/news/4499",
+          "id": "38",
+          "need_token": false
+        }
+      ]
+    }
   }
 ]

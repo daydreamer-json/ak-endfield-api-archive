@@ -75,5 +75,68 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-03-11T22:42:12.571+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "channel": 6,
+      "subChannel": 801,
+      "lang": "fr-fr",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "tabs": [
+        {
+          "tabName": "Avis",
+          "announcements": [
+            {
+              "content": "Détails sur la durée limitée du [tirage de Bourgeonnement nouveau]",
+              "jump_url": "https://endfield.gryphline.com/news/5213",
+              "start_ts": "1773205200000",
+              "id": "361",
+              "need_token": false
+            },
+            {
+              "content": "Détails sur le recrutement certifié [Fille de la rivière]",
+              "jump_url": "https://endfield.gryphline.com/news/1338",
+              "start_ts": "1773203400000",
+              "id": "347",
+              "need_token": false
+            },
+            {
+              "content": "Arknights: Endfield - Guide des Outils de jeu",
+              "jump_url": "https://endfield.gryphline.com/news/0755",
+              "start_ts": "1769050800000",
+              "id": "144",
+              "need_token": false
+            },
+            {
+              "content": "Règles de fair-play d'Arknights: Endfield",
+              "jump_url": "https://endfield.gryphline.com/news/8900",
+              "start_ts": "1768892400000",
+              "id": "100",
+              "need_token": false
+            }
+          ],
+          "tab_id": "69"
+        },
+        {
+          "tabName": "Actualités",
+          "announcements": [
+            {
+              "content": "Arknights: Endfield [Official Release Preview] DEV Comm",
+              "jump_url": "https://endfield.gryphline.com/en-us/news/4499",
+              "start_ts": "1768838400000",
+              "id": "72",
+              "need_token": false
+            }
+          ],
+          "tab_id": "71"
+        }
+      ]
+    }
   }
 ]
