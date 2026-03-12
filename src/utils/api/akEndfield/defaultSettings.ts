@@ -24,4 +24,5 @@ export default {
     'zh-cn',
     'zh-tw',
   ] as const,
+  launcherWebLangCN: ['zh-cn'] as const,
 };

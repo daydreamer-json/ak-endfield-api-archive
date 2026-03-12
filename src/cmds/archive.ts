@@ -531,6 +531,7 @@ async function fetchAndSaveLatestLauncher(launcherTargets: LauncherTarget[]) {
 async function fetchAndSaveLatestWebApis(gameTargets: GameTarget[]) {
   logger.debug('Fetching latestWebApis ...');
   const langs = apiUtils.akEndfield.defaultSettings.launcherWebLang;
+  const langsCN = apiUtils.akEndfield.defaultSettings.launcherWebLangCN;
   const apis = [
     { name: 'sidebar', method: apiUtils.akEndfield.launcherWeb.sidebar, dir: 'sidebar' },
     { name: 'singleEnt', method: apiUtils.akEndfield.launcherWeb.singleEnt, dir: 'single_ent' },
@@ -540,7 +541,7 @@ async function fetchAndSaveLatestWebApis(gameTargets: GameTarget[]) {
   ] as const;
 
   for (const target of gameTargets) {
-    for (const lang of langs) {
+    for (const lang of target.region === 'cn' ? langsCN : langs) {
       for (const api of apis) {
         networkQueue.add(async () => {
           const rsp = await api.method(target.appCode, target.channel, target.subChannel, lang, target.region);
@@ -564,6 +565,50 @@ async function fetchAndSaveLatestWebApis(gameTargets: GameTarget[]) {
           );
         });
       }
+    }
+  }
+  await networkQueue.onIdle();
+}
+
+async function fetchAndSaveLauncherProtocol(gameTargets: GameTarget[]) {
+  logger.debug('Fetching launcherProtocol ...');
+  const langs = apiUtils.akEndfield.defaultSettings.launcherWebLang;
+  const langsCN = apiUtils.akEndfield.defaultSettings.launcherWebLangCN;
+  const filterChannel = [
+    appConfig.network.api.akEndfield.subChannel.cnWinRel,
+    appConfig.network.api.akEndfield.subChannel.osWinRel,
+    appConfig.network.api.akEndfield.subChannel.osWinRelEpic,
+  ];
+  for (const target of gameTargets.filter((e) => filterChannel.includes(e.launcherSubChannel))) {
+    for (const lang of target.region === 'cn' ? langsCN : langs) {
+      networkQueue.add(async () => {
+        const rsp = await apiUtils.akEndfield.launcher.protocol(
+          target.launcherAppCode,
+          target.channel,
+          target.subChannel,
+          lang,
+          target.region,
+          '',
+        );
+        if (!rsp) return;
+        logger.trace(`Found protocol: ${rsp.dataVersion}, ${target.region.toUpperCase()}, ${target.name}, ${lang}`);
+        const prettyRsp = {
+          req: {
+            appCode: target.launcherAppCode,
+            channel: target.channel,
+            subChannel: target.subChannel,
+            language: lang,
+            dataVersion: '',
+          },
+          rsp,
+        };
+        await saveResultWithHistory(
+          ['akEndfield', 'launcher', 'protocol', String(target.subChannel), lang],
+          null,
+          prettyRsp,
+          { ignoreRules: diffIgnoreRules },
+        );
+      });
     }
   }
   await networkQueue.onIdle();
@@ -638,6 +683,7 @@ async function mainCmdHandler() {
   await fetchAndSaveLatestGamePatches(gameTargets);
   await fetchAndSaveLatestGameResources(gameTargets);
   await fetchAndSaveLatestWebApis(gameTargets);
+  await fetchAndSaveLauncherProtocol(gameTargets);
   await fetchAndSaveLatestLauncher(launcherTargets);
   await fetchAndSaveAllGameResRawData(gameTargets);
 
