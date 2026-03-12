@@ -215,5 +215,75 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-03-12T01:20:36.067+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "channel": 6,
+      "subChannel": 6,
+      "lang": "zh-cn",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "tabs": [
+        {
+          "tabName": "公告",
+          "announcements": [
+            {
+              "content": "「新潮起，故渊离」版本更新说明",
+              "jump_url": "https://endfield.gryphline.com/news/8907",
+              "start_ts": "1773277200000",
+              "id": "381",
+              "need_token": false
+            },
+            {
+              "content": "「新芽申领」限时特卖说明",
+              "jump_url": "https://endfield.gryphline.com/news/5213",
+              "start_ts": "1773205200000",
+              "id": "353",
+              "need_token": false
+            },
+            {
+              "content": "「河流的女儿」特许寻访说明",
+              "jump_url": "https://endfield.gryphline.com/news/1338",
+              "start_ts": "1773203400000",
+              "id": "339",
+              "need_token": false
+            },
+            {
+              "content": "《明日方舟：终末地》游戏工具指南",
+              "jump_url": "https://endfield.gryphline.com/news/0755",
+              "start_ts": "1769050800000",
+              "id": "136",
+              "need_token": false
+            },
+            {
+              "content": "《明日方舟：终末地》公平运营声明",
+              "jump_url": "https://endfield.gryphline.com/news/8900",
+              "start_ts": "1768892400000",
+              "id": "92",
+              "need_token": false
+            }
+          ],
+          "tab_id": "51"
+        },
+        {
+          "tabName": "新闻",
+          "announcements": [
+            {
+              "content": "《明日方舟：终末地》「公测前瞻」研发通讯",
+              "jump_url": "https://endfield.gryphline.com/zh-tw/news/4499",
+              "start_ts": "1768838400000",
+              "id": "64",
+              "need_token": false
+            }
+          ],
+          "tab_id": "53"
+        }
+      ]
+    }
   }
 ]

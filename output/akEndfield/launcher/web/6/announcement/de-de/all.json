@@ -215,5 +215,75 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-03-12T01:20:35.051+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "channel": 6,
+      "subChannel": 6,
+      "lang": "de-de",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "tabs": [
+        {
+          "tabName": "Hinweise",
+          "announcements": [
+            {
+              "content": "[Wogen der Flut tragen Tränen zum Quell] – Hinweise zum Versions-Update",
+              "jump_url": "https://endfield.gryphline.com/news/8907",
+              "start_ts": "1773277200000",
+              "id": "388",
+              "need_token": false
+            },
+            {
+              "content": "[„Erneutes Aufblühen“-Ausgabe] Details zu zeitlich begrenztem Angebot",
+              "jump_url": "https://endfield.gryphline.com/news/5213",
+              "start_ts": "1773205200000",
+              "id": "360",
+              "need_token": false
+            },
+            {
+              "content": "Details zu [Tochter des Flusses] Rekrutierung: Priorisiert",
+              "jump_url": "https://endfield.gryphline.com/news/1338",
+              "start_ts": "1773203400000",
+              "id": "346",
+              "need_token": false
+            },
+            {
+              "content": "Arknights: Endfield – Anleitung für Spielwerkzeuge",
+              "jump_url": "https://endfield.gryphline.com/news/0755",
+              "start_ts": "1769050800000",
+              "id": "143",
+              "need_token": false
+            },
+            {
+              "content": "Arknights: Endfield – Erklärung zu Fairness im Spiel",
+              "jump_url": "https://endfield.gryphline.com/news/8900",
+              "start_ts": "1768892400000",
+              "id": "99",
+              "need_token": false
+            }
+          ],
+          "tab_id": "72"
+        },
+        {
+          "tabName": "Neuigkeiten",
+          "announcements": [
+            {
+              "content": "Arknights: Endfield [Official Release Preview] DEV Comm",
+              "jump_url": "https://endfield.gryphline.com/en-us/news/4499",
+              "start_ts": "1768838400000",
+              "id": "71",
+              "need_token": false
+            }
+          ],
+          "tab_id": "74"
+        }
+      ]
+    }
   }
 ]
