@@ -7,6 +7,39 @@ import defaultSettings from './defaultSettings.js';
 import launcherWeb from './launcherWeb.js';
 
 export default {
+  protocol: async (
+    appCode: string,
+    channel: number,
+    subChannel: number,
+    language: (typeof defaultSettings.launcherWebLang)[number],
+    region: 'os' | 'cn',
+    dataVersion: string = '',
+  ): Promise<TypesApiAkEndfield.LauncherProtocol> => {
+    const apiBase =
+      region === 'cn'
+        ? appConfig.network.api.akEndfield.base.launcherCN
+        : appConfig.network.api.akEndfield.base.launcher;
+    const rsp = await ky
+      .post(`https://${apiBase}/proxy/batch_proxy`, {
+        ...defaultSettings.ky,
+        json: {
+          proxy_reqs: [
+            {
+              kind: 'get_protocol',
+              get_protocol_req: {
+                appcode: appCode,
+                channel: String(channel),
+                sub_channel: String(subChannel),
+                language,
+                dataVersion,
+              },
+            },
+          ],
+        },
+      })
+      .json();
+    return (rsp as any).proxy_rsps[0].get_protocol as TypesApiAkEndfield.LauncherProtocol;
+  },
   latestGame: async (
     appCode: string,
     launcherAppCode: string,

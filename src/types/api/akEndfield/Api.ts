@@ -1,3 +1,9 @@
+type LauncherProtocol = {
+  dataVersion: string;
+  protocol: {
+    version: string;
+  };
+};
 type LauncherLatestGame = {
   action: number;
   version: string; // x.y.z
@@ -549,6 +555,7 @@ type GameHubGiftCodeRedeem = {
 };
 
 export type {
+  LauncherProtocol,
   LauncherLatestGame,
   LauncherLatestGameResources,
   LauncherLatestLauncher,
