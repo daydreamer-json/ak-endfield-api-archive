@@ -138,5 +138,82 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-03-12T01:00:47.937+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "channel": 6,
+      "subChannel": 6,
+      "lang": "ru-ru",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "tabs": [
+        {
+          "tabName": "Уведомления",
+          "announcements": [
+            {
+              "content": "Примечания об обновлении версии [Древнее глубоководье пало от бунтарского прилива]",
+              "jump_url": "https://endfield.gryphline.com/news/8907",
+              "start_ts": "1773277200000",
+              "id": "387",
+              "need_token": false
+            },
+            {
+              "content": "Предупреждение о риске сторонних инструментов",
+              "jump_url": "https://endfield.gryphline.com/news/7026",
+              "start_ts": "1773277200000",
+              "id": "373",
+              "need_token": false
+            },
+            {
+              "content": "Сведения о временном предложении [поставки «Молодой побег»]",
+              "jump_url": "https://endfield.gryphline.com/news/5213",
+              "start_ts": "1773205200000",
+              "id": "359",
+              "need_token": false
+            },
+            {
+              "content": "Информация о специальном найме [Дочь рек]",
+              "jump_url": "https://endfield.gryphline.com/news/1338",
+              "start_ts": "1773203400000",
+              "id": "345",
+              "need_token": false
+            },
+            {
+              "content": "Руководство «Игровые инструменты Arknights: Endfield»",
+              "jump_url": "https://endfield.gryphline.com/news/0755",
+              "start_ts": "1769050800000",
+              "id": "142",
+              "need_token": false
+            },
+            {
+              "content": "Заявление о честной игре для «Arknights: Endfield»",
+              "jump_url": "https://endfield.gryphline.com/news/8900",
+              "start_ts": "1768892400000",
+              "id": "98",
+              "need_token": false
+            }
+          ],
+          "tab_id": "75"
+        },
+        {
+          "tabName": "Новости",
+          "announcements": [
+            {
+              "content": "Arknights: Endfield [Official Release Preview] DEV Comm",
+              "jump_url": "https://endfield.gryphline.com/en-us/news/4499",
+              "start_ts": "1768838400000",
+              "id": "70",
+              "need_token": false
+            }
+          ],
+          "tab_id": "77"
+        }
+      ]
+    }
   }
 ]
