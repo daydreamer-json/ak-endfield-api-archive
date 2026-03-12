@@ -48,6 +48,8 @@ jobs:
         continue-on-error: true
       - name: Format output folder
         run: bun x oxfmt output
+      - name: Git pull
+        run: git pull
       - name: Git commit and push
         uses: iarekylew00t/verified-bot-commit@v2
         with:
