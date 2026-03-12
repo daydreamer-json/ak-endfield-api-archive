@@ -336,6 +336,34 @@
     }
   },
   {
+    "updatedAt": "2026-03-11T22:10:27.653+00:00",
+    "req": {
+      "appCode": "6LL0KJuqHBVz33WK",
+      "gameVersion": "1.1",
+      "version": "1.1.9",
+      "randStr": "RfPNtRXLwX2my3ep",
+      "platform": "PlayStation"
+    },
+    "rsp": {
+      "resources": [
+        {
+          "name": "main",
+          "version": "5769412-10",
+          "path": "https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.1/resource/PlayStation/main/5769412-10_to59QeLo8ZBYdTkx/files"
+        },
+        {
+          "name": "initial",
+          "version": "5769412-10",
+          "path": "https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.1/resource/PlayStation/initial/5769412-10_huP73qtVDVFs1twO/files"
+        }
+      ],
+      "configs": "{\"kick_flag\":false}",
+      "res_version": "initial_5769412-10_main_5769412-10",
+      "patch_index_path": "",
+      "domain": "https://beyond.hycdn.cn"
+    }
+  },
+  {
     "updatedAt": "2026-03-11T22:42:10.359+00:00",
     "req": {
       "appCode": "6LL0KJuqHBVz33WK",

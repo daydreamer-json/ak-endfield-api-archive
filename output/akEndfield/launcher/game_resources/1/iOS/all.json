@@ -336,6 +336,34 @@
     }
   },
   {
+    "updatedAt": "2026-03-11T22:10:26.947+00:00",
+    "req": {
+      "appCode": "6LL0KJuqHBVz33WK",
+      "gameVersion": "1.1",
+      "version": "1.1.9",
+      "randStr": "RfPNtRXLwX2my3ep",
+      "platform": "iOS"
+    },
+    "rsp": {
+      "resources": [
+        {
+          "name": "main",
+          "version": "5769412-4",
+          "path": "https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.1/resource/iOS/main/5769412-4_YM8e3i2tiI3AWnTs/files"
+        },
+        {
+          "name": "initial",
+          "version": "5769412-4",
+          "path": "https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.1/resource/iOS/initial/5769412-4_mIcezhraNosIAwFN/files"
+        }
+      ],
+      "configs": "{\"kick_flag\":false}",
+      "res_version": "initial_5769412-4_main_5769412-4",
+      "patch_index_path": "",
+      "domain": "https://beyond.hycdn.cn"
+    }
+  },
+  {
     "updatedAt": "2026-03-11T22:42:09.725+00:00",
     "req": {
       "appCode": "6LL0KJuqHBVz33WK",
