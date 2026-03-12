@@ -336,6 +336,34 @@
     }
   },
   {
+    "updatedAt": "2026-03-11T22:10:25.530+00:00",
+    "req": {
+      "appCode": "6LL0KJuqHBVz33WK",
+      "gameVersion": "1.1",
+      "version": "1.1.9",
+      "randStr": "RfPNtRXLwX2my3ep",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "resources": [
+        {
+          "name": "main",
+          "version": "5769412-7",
+          "path": "https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.1/resource/Windows/main/5769412-7_FBUfW0FZxs28ANeE/files"
+        },
+        {
+          "name": "initial",
+          "version": "5769412-7",
+          "path": "https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.1/resource/Windows/initial/5769412-7_XaIT9EPxXJrpxc0n/files"
+        }
+      ],
+      "configs": "{\"kick_flag\":false}",
+      "res_version": "initial_5769412-7_main_5769412-7",
+      "patch_index_path": "",
+      "domain": "https://beyond.hycdn.cn"
+    }
+  },
+  {
     "updatedAt": "2026-03-11T22:42:08.454+00:00",
     "req": {
       "appCode": "6LL0KJuqHBVz33WK",
