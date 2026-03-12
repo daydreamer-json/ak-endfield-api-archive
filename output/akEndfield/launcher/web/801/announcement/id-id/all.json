@@ -215,5 +215,75 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-03-12T01:20:36.731+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "channel": 6,
+      "subChannel": 801,
+      "lang": "id-id",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "tabs": [
+        {
+          "tabName": "Pemberitahuan",
+          "announcements": [
+            {
+              "content": "Catatan Pembaruan Versi [Perairan Dalam Tua Tiada, Disangkal oleh Ombak Pasang]",
+              "jump_url": "https://endfield.gryphline.com/news/8907",
+              "start_ts": "1773277200000",
+              "id": "391",
+              "need_token": false
+            },
+            {
+              "content": "[Edisi Tunas Baru] Detail OBW",
+              "jump_url": "https://endfield.gryphline.com/news/5213",
+              "start_ts": "1773205200000",
+              "id": "363",
+              "need_token": false
+            },
+            {
+              "content": "Detail Headhunt Khusus [Putri Sungai]",
+              "jump_url": "https://endfield.gryphline.com/news/1338",
+              "start_ts": "1773203400000",
+              "id": "349",
+              "need_token": false
+            },
+            {
+              "content": "Panduan Alat Game untuk Arknights: Endfield",
+              "jump_url": "https://endfield.gryphline.com/news/0755",
+              "start_ts": "1769050800000",
+              "id": "146",
+              "need_token": false
+            },
+            {
+              "content": "Pernyataan Bermain Adil Arknights: Endfield",
+              "jump_url": "https://endfield.gryphline.com/news/8900",
+              "start_ts": "1768892400000",
+              "id": "102",
+              "need_token": false
+            }
+          ],
+          "tab_id": "81"
+        },
+        {
+          "tabName": "Berita",
+          "announcements": [
+            {
+              "content": "Arknights: Endfield [Official Release Preview] DEV Comm",
+              "jump_url": "https://endfield.gryphline.com/en-us/news/4499",
+              "start_ts": "1768838400000",
+              "id": "74",
+              "need_token": false
+            }
+          ],
+          "tab_id": "83"
+        }
+      ]
+    }
   }
 ]
