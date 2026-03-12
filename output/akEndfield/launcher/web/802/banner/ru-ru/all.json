@@ -79,5 +79,56 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-03-12T01:00:50.879+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "channel": 6,
+      "subChannel": 802,
+      "lang": "ru-ru",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "banners": [
+        {
+          "url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/be/57/be57131435106c9f7bd2d9527e764537.png",
+          "md5": "bfca674740b1e0a8b114576784ec2748",
+          "jump_url": "https://endfield.gryphline.com/news/8907",
+          "id": "271",
+          "need_token": false
+        },
+        {
+          "url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/fd/b5/fdb52f28067be4f1683b6c1fc8497bd5.png",
+          "md5": "b1340cc67882da591eb3e7d0b36ffff9",
+          "jump_url": "https://endfield.gryphline.com/news/1338",
+          "id": "256",
+          "need_token": false
+        },
+        {
+          "url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/d8/80/d8806b589e1fadfe57362e54b51897e5.png",
+          "md5": "e05b72e902eb4f1ae7f410fa1fdde63e",
+          "jump_url": "https://game.skport.com/endfield/sign-in?header=0&hg_media=launcher&hg_link_campaign=banner",
+          "id": "237",
+          "need_token": false
+        },
+        {
+          "url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/a0/44/a04468c569fc1bcc7f3b4ed0c0efbc19.png",
+          "md5": "a8758bc23cd51baf03ae9f495d7aedd5",
+          "jump_url": "https://endfield.gryphline.com/news/7029",
+          "id": "49",
+          "need_token": false
+        },
+        {
+          "url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/3f/52/3f52281953f8e275283bea82b0422870.png",
+          "md5": "5a0111ce8e562f240a48bfd759d01cf9",
+          "jump_url": "https://endfield.gryphline.com/en-us/news/4499",
+          "id": "35",
+          "need_token": false
+        }
+      ]
+    }
   }
 ]
