@@ -274,11 +274,13 @@ async function fetchAndSaveLatestGamePatches(gameTargets: GameTarget[]) {
 
           const subChns = appConfig.network.api.akEndfield.subChannel;
           if ([subChns.cnWinRel, subChns.cnWinRelBilibili, subChns.osWinRel].includes(target.subChannel)) {
-            queueAssetForMirroring(
-              rsp.patch.url,
-              new URL(rsp.patch.url).pathname.split('/').filter(Boolean).slice(-3).join('_'),
+            // queueAssetForMirroring(
+            //   rsp.patch.url,
+            //   new URL(rsp.patch.url).pathname.split('/').filter(Boolean).slice(-3).join('_'),
+            // );
+            rsp.patch.patches.forEach((e) =>
+              queueAssetForMirroring(e.url, new URL(e.url).pathname.split('/').filter(Boolean).slice(-4).join('_')),
             );
-            rsp.patch.patches.forEach((e) => queueAssetForMirroring(e.url));
           }
         }
       });
