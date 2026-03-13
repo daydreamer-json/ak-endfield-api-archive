@@ -750,5 +750,116 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-03-13T05:00:43.302+00:00",
+    "req": {
+      "appCode": "6LL0KJuqHBVz33WK",
+      "channel": 1,
+      "subChannel": 1,
+      "lang": "zh-cn",
+      "region": "cn",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "tabs": [
+        {
+          "tabName": "公告",
+          "announcements": [
+            {
+              "content": "「新潮起，故渊离」版本更新说明",
+              "jump_url": "https://endfield.hypergryph.com/news/6003",
+              "start_ts": "1773277200000",
+              "id": "108",
+              "need_token": false
+            },
+            {
+              "content": "「新芽申领」限时特卖说明",
+              "jump_url": "https://endfield.hypergryph.com/news/4784",
+              "start_ts": "1773158400000",
+              "id": "107",
+              "need_token": false
+            },
+            {
+              "content": "「河流的女儿」特许寻访说明",
+              "jump_url": "https://endfield.hypergryph.com/news/5992",
+              "start_ts": "1773158400000",
+              "id": "106",
+              "need_token": false
+            },
+            {
+              "content": "关于使用非官方工具的安全风险提示",
+              "jump_url": "https://endfield.hypergryph.com/news/9345",
+              "start_ts": "1773279000000",
+              "id": "109",
+              "need_token": false
+            },
+            {
+              "content": "使用NVIDIA App优化导致游戏表现异常的问题说明",
+              "jump_url": "https://endfield.hypergryph.com/news/7239",
+              "start_ts": "1770462000000",
+              "id": "85",
+              "need_token": true
+            },
+            {
+              "content": "《明日方舟：终末地》游戏工具指南",
+              "jump_url": "https://endfield.hypergryph.com/news/5906",
+              "start_ts": "1769050800000",
+              "id": "61",
+              "need_token": true
+            },
+            {
+              "content": "关注官方社媒账号领奖励",
+              "jump_url": "https://endfield.hypergryph.com/news/4795",
+              "start_ts": "1769050800000",
+              "id": "62",
+              "need_token": true
+            }
+          ],
+          "tab_id": "32"
+        },
+        {
+          "tabName": "新闻",
+          "announcements": [
+            {
+              "content": "《明日方舟：终末地》「新潮起，故渊离」研发通讯",
+              "jump_url": "https://endfield.hypergryph.com/news/7225",
+              "start_ts": "1772445600000",
+              "id": "98",
+              "need_token": true
+            }
+          ],
+          "tab_id": "33"
+        },
+        {
+          "tabName": "资讯",
+          "announcements": [
+            {
+              "content": "「新潮起，故渊离」创作征集活动",
+              "jump_url": "https://endfield.hypergryph.com/news/0436",
+              "start_ts": "1773378000000",
+              "id": "111",
+              "need_token": false
+            },
+            {
+              "content": "【有奖活动】「新潮起，故渊离」热议中！",
+              "jump_url": "https://www.skland.com/article?id=5648720&hg_media=launcher&hg_link_campaign=announcement",
+              "start_ts": "1773309600000",
+              "id": "110",
+              "need_token": false
+            },
+            {
+              "content": "【有奖活动】秀出你的蚀刻章！",
+              "jump_url": "https://www.skland.com/article?id=5650999&hg_media=launcher&hg_link_campaign=announcement",
+              "start_ts": "1773374400000",
+              "id": "113",
+              "need_token": false
+            }
+          ],
+          "tab_id": "34"
+        }
+      ]
+    }
   }
 ]
