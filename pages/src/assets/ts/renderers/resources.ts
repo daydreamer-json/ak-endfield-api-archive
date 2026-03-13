@@ -42,16 +42,31 @@ export async function renderResources(container: HTMLElement) {
           versions: Array.from(d.versions).sort(semver.rcompare),
         }));
 
+        const sortedSet = resVersionSet.reverse();
         let rows = '';
-        for (const item of resVersionSet.reverse()) {
+        for (let i = 0; i < sortedSet.length; i++) {
+          const item = sortedSet[i]!;
+          const nextItem = sortedSet[i + 1];
           // Newest first
-          const dateStr = DateTime.fromISO(item.rsp.updatedAt).toFormat('yyyy/MM/dd HH:mm:ss');
+          const currentDate = DateTime.fromISO(item.rsp.updatedAt);
+          const dateStr = currentDate.toFormat('yyyy/MM/dd HH:mm:ss');
+
+          const intervalStr = (() => {
+            if (nextItem) {
+              const nextDate = DateTime.fromISO(nextItem.rsp.updatedAt);
+              const diff = currentDate.diff(nextDate);
+              return diff.toFormat('dd:hh:mm:ss');
+            }
+            return '-';
+          })();
+
           const initialRes = item.rsp.rsp.resources.find((e: any) => e.name === 'initial');
           const mainRes = item.rsp.rsp.resources.find((e: any) => e.name === 'main');
           const isKick = JSON.parse(item.rsp.rsp.configs).kick_flag === true;
 
           rows += `<tr>
             <td style="font-feature-settings: 'tnum'">${dateStr}</td>
+            <td style="font-feature-settings: 'tnum'">${intervalStr}</td>
             <td><a href="${initialRes.path}" target="_blank">${initialRes.version}</a></td>
             <td><a href="${mainRes.path}" target="_blank">${mainRes.version}</a></td>
             <td class="text-center">${isKick ? '✅' : ''}</td>
@@ -78,6 +93,7 @@ export async function renderResources(container: HTMLElement) {
                   <thead>
                     <tr>
                       <th>Date</th>
+                      <th>Interval</th>
                       <th>Initial</th>
                       <th>Main</th>
                       <th>Kick</th>
