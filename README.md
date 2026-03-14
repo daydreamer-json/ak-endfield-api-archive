@@ -1,9 +1,11 @@
 <h1 align="center">ak-endfield-api-archive</h2>
 
 <p align="center">
-  <a href="https://github.com/palmcivet/awesome-arknights-endfield">
-    <img src="https://github.com/palmcivet/awesome-arknights-endfield/blob/main/assets/badge-for-the-badge.svg" alt="Awesome Arknights Endfield badge" />
-  </a>
+  <a href="https://github.com/palmcivet/awesome-arknights-endfield"><img src="https://raw.githubusercontent.com/palmcivet/awesome-arknights-endfield/refs/heads/main/assets/badge-for-the-badge.svg" alt="Awesome Arknights Endfield" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/daydreamer-json/ak-endfield-api-archive/actions/workflows/main.yml"><img src="https://github.com/daydreamer-json/ak-endfield-api-archive/actions/workflows/main.yml/badge.svg" alt="GitHub Actions" /></a>
+  <img src="https://api.cron-job.org/jobs/7183534/5f3f37a732a92096/status-0.svg" alt="Cron Job" />
 </p>
 
 Monitor changes to responses from various Arknights: Endfield APIs and record them in this repository.
