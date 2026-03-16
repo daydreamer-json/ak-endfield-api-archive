@@ -397,5 +397,96 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-03-16T13:40:34.973+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "channel": 6,
+      "subChannel": 801,
+      "lang": "en-us",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "tabs": [
+        {
+          "tabName": "Notices",
+          "announcements": [
+            {
+              "content": "Notice Regarding Game Issues Caused by NVIDIA Driver Updates",
+              "jump_url": "https://endfield.gryphline.com/news/3844",
+              "start_ts": "1773590400000",
+              "id": "411",
+              "need_token": false
+            },
+            {
+              "content": "[Old Deep Water Dies, by Rising Tide It is Denied] Version Update Notes",
+              "jump_url": "https://endfield.gryphline.com/news/8907",
+              "start_ts": "1773277200000",
+              "id": "383",
+              "need_token": false
+            },
+            {
+              "content": "[Budding Anew Issue] LTO Details",
+              "jump_url": "https://endfield.gryphline.com/news/5213",
+              "start_ts": "1773205200000",
+              "id": "355",
+              "need_token": false
+            },
+            {
+              "content": "[River's Daughter] Chartered Headhunting Details",
+              "jump_url": "https://endfield.gryphline.com/news/1338",
+              "start_ts": "1773203400000",
+              "id": "341",
+              "need_token": false
+            },
+            {
+              "content": "Arknights: Endfield Game Tools Guide",
+              "jump_url": "https://endfield.gryphline.com/news/0755",
+              "start_ts": "1769050800000",
+              "id": "138",
+              "need_token": false
+            },
+            {
+              "content": "Arknights: Endfield Fair Play Statement",
+              "jump_url": "https://endfield.gryphline.com/news/8900",
+              "start_ts": "1768892400000",
+              "id": "94",
+              "need_token": false
+            },
+            {
+              "content": "Security Risk Warning for Using Unofficial Tools",
+              "jump_url": "https://endfield.gryphline.com/news/7026",
+              "start_ts": "1773277200000",
+              "id": "397",
+              "need_token": false
+            }
+          ],
+          "tab_id": "48"
+        },
+        {
+          "tabName": "News",
+          "announcements": [
+            {
+              "content": "[Old Deep Water Dies, by Rising Tide It is Denied] DEV Comm",
+              "jump_url": "https://endfield.gryphline.com/news/2662",
+              "start_ts": "1772445600000",
+              "id": "321",
+              "need_token": false
+            },
+            {
+              "content": "Arknights: Endfield [Official Release Preview] DEV Comm",
+              "jump_url": "https://endfield.gryphline.com/en-us/news/4499",
+              "start_ts": "1768838400000",
+              "id": "65",
+              "need_token": false
+            }
+          ],
+          "tab_id": "50"
+        }
+      ]
+    }
   }
 ]
