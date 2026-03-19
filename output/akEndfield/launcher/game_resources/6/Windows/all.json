@@ -1006,5 +1006,33 @@
       "patch_index_path": "",
       "domain": "https://beyond.hg-cdn.com"
     }
+  },
+  {
+    "updatedAt": "2026-03-19T02:35:23.077+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "gameVersion": "1.1",
+      "version": "1.1.9",
+      "randStr": "PPTMaQzu2HpbgY7P",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "resources": [
+        {
+          "name": "main",
+          "version": "5998981-12",
+          "path": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.1/resource/Windows/main/5998981-12_pXDPnMZY3orirJOO/files"
+        },
+        {
+          "name": "initial",
+          "version": "5998981-12",
+          "path": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.1/resource/Windows/initial/5998981-12_NiISLZmCatO52cpa/files"
+        }
+      ],
+      "configs": "{\"kick_flag\":false}",
+      "res_version": "initial_5998981-12_main_5998981-12",
+      "patch_index_path": "",
+      "domain": "https://beyond.hg-cdn.com"
+    }
   }
 ]
