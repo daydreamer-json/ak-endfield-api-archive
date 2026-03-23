@@ -1,0 +1,58 @@
+#debug-log-inner {
+  display: block;
+  white-space: pre-wrap !important;
+}
+
+#debug-log-inner div {
+  padding-left: 15ch;
+  text-indent: -15ch;
+  margin: 0;
+}
+
+.accordion-button {
+  padding: calc(var(--bs-accordion-btn-padding-y) / 1.5)
+    calc(var(--bs-accordion-btn-padding-x) / 1.5);
+}
+
+.card {
+  --bs-card-bg: color-mix(in srgb, var(--bs-body-bg), transparent 80%);
+  backdrop-filter: blur(24px);
+}
+
+.table {
+  --bs-table-bg: color-mix(in srgb, var(--bs-body-bg), transparent 50%);
+}
+
+.table-transparent {
+  --bs-table-bg: transparent !important;
+}
+
+.accordion {
+  --bs-accordion-bg: color-mix(in srgb, var(--bs-body-bg), transparent 50%);
+}
+.accordion-button:not(.collapsed) {
+  --bs-accordion-active-bg: color-mix(
+    in srgb,
+    var(--bs-primary-bg-subtle),
+    transparent 25%
+  );
+}
+
+.nav-link {
+  background-color: color-mix(in srgb, var(--bs-body-bg), transparent 80%);
+}
+.nav-tabs .nav-link.active {
+  background-color: color-mix(
+    in srgb,
+    var(--bs-nav-tabs-link-active-bg),
+    transparent 25%
+  );
+}
+
+.list-group {
+  --bs-list-group-bg: color-mix(in srgb, var(--bs-body-bg), transparent 50%);
+}
+
+.form-select {
+  background-color: color-mix(in srgb, var(--bs-body-bg), transparent 50%);
+}
