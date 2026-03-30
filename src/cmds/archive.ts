@@ -5,6 +5,7 @@ import PQueue from 'p-queue';
 import semver from 'semver';
 import apiUtils from '../utils/api/index.js';
 import argvUtils from '../utils/argv.js';
+import cipher from '../utils/cipher.js';
 import appConfig from '../utils/config.js';
 import logger from '../utils/logger.js';
 import mathUtils from '../utils/math.js';
@@ -487,6 +488,26 @@ async function fetchAndSaveAllGameResRawData(gameTargets: GameTarget[]) {
   for (const url of webAssetUrls) addToQueue(url);
 
   await networkQueue.onIdle();
+
+  // res index decryption
+  for (const url of resourceUrls) {
+    const urlObj = new URL(url);
+    urlObj.search = '';
+    if (['index_initial.json', 'index_main.json'].includes(urlObj.pathname.split('/').pop()!) === false) continue;
+    const localPath = path.join(
+      argvUtils.getArgv()['outputDir'],
+      'raw',
+      urlObj.hostname,
+      ...urlObj.pathname.split('/').filter(Boolean),
+    );
+    const localPathDec = localPath.replace(/\.json$/, '_dec.json');
+    if (!(await Bun.file(localPathDec).exists()) && (await Bun.file(localPath).exists())) {
+      const encBytes = new Uint8Array(Buffer.from(await Bun.file(localPath).text(), 'base64'));
+      const decBytes = cipher.decryptResIndex(encBytes, appConfig.cipher.akEndfield.resIndexKey);
+      await Bun.write(localPathDec, decBytes);
+    }
+  }
+
   logger.info(`Fetched raw game resources: ${wroteFiles.length} files`);
 }
 

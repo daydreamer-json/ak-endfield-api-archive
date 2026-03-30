@@ -12,6 +12,11 @@ type AllRequired<T> = Required<{
 
 type ConfigType = AllRequired<
   Freeze<{
+    cipher: {
+      akEndfield: {
+        resIndexKey: string;
+      };
+    };
     network: {
       api: {
         akEndfield: {
@@ -69,6 +74,11 @@ type ConfigType = AllRequired<
 >;
 
 const initialConfig: ConfigType = {
+  cipher: {
+    akEndfield: {
+      resIndexKey: 'Assets/Beyond/DynamicAssets/Gameplay/UI/Fonts/', // via reversing
+    },
+  },
   network: {
     api: {
       akEndfield: {
