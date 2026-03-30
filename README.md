@@ -27,7 +27,7 @@ The APIs currently being monitored are as follows:
 - Raw
   - Game resource json (index, patch)
 
-Currently, raw data is provided as-is without modification. It is also not decrypted.
+Most of the raw data is provided as-is, without any modifications. Some data (`index_*.json`) has been decrypted.
 
 ## Download Library
 

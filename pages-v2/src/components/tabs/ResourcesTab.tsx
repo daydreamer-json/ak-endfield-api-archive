@@ -140,7 +140,7 @@ function processRawData(rawData: StoredData<IApiEndfield.LauncherLatestGameResou
   });
 }
 
-const ResourceLink = ({ basePath, file }: { basePath: string; file: string }) => {
+const ResourceLink = ({ basePath, file, isDecExist }: { basePath: string; file: string; isDecExist: boolean }) => {
   const fullPath = `${basePath}/${file}`;
   return (
     <>
@@ -151,6 +151,17 @@ const ResourceLink = ({ basePath, file }: { basePath: string; file: string }) =>
       <a href={getMirrorUrl(fullPath)} target='_blank' rel='noreferrer'>
         Mirror
       </a>
+      {isDecExist ? (
+        <>
+          {' '}
+          /{' '}
+          <a href={getMirrorUrl(fullPath).replace(/\.json$/, '_dec.json')} target='_blank' rel='noreferrer'>
+            Dec
+          </a>
+        </>
+      ) : (
+        ''
+      )}
     </>
   );
 };
@@ -186,13 +197,13 @@ const ResourceTable = ({ groups }: { groups: ResourceGroup[] }) => (
             <td>{group.versions.join(', ')}</td>
             <td className='text-center'>{group.isKick ? '✅' : ''}</td>
             <td>
-              <ResourceLink basePath={group.initialRes.path} file='index_initial.json' />
+              <ResourceLink basePath={group.initialRes.path} file='index_initial.json' isDecExist={true} />
             </td>
             <td>
-              <ResourceLink basePath={group.mainRes.path} file='index_main.json' />
+              <ResourceLink basePath={group.mainRes.path} file='index_main.json' isDecExist={true} />
             </td>
             <td>
-              <ResourceLink basePath={group.mainRes.path} file='patch.json' />
+              <ResourceLink basePath={group.mainRes.path} file='patch.json' isDecExist={false} />
             </td>
           </tr>
         ))}
