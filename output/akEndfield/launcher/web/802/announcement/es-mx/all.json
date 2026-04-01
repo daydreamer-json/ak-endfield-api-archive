@@ -621,5 +621,103 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-04-01T02:00:44.650+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "channel": 6,
+      "subChannel": 802,
+      "lang": "es-mx",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "tabs": [
+        {
+          "tabName": "Noticias",
+          "announcements": [
+            {
+              "content": "Detalles del evento de celebración [Viaje del orejilarga]",
+              "jump_url": "https://endfield.gryphline.com/news/1337",
+              "start_ts": "1775008800000",
+              "id": "457",
+              "need_token": false
+            },
+            {
+              "content": "Detalles OTL de la [Solicitud de Perla escarlata]",
+              "jump_url": "https://endfield.gryphline.com/news/2660",
+              "start_ts": "1774758600000",
+              "id": "429",
+              "need_token": false
+            },
+            {
+              "content": "Detalles de la caza de reclutas certificada [Perla del lobo]",
+              "jump_url": "https://endfield.gryphline.com/news/3843",
+              "start_ts": "1774756800000",
+              "id": "443",
+              "need_token": false
+            },
+            {
+              "content": "Aviso sobre problemas del juego causados por las actualizaciones de los drivers de NVIDIA",
+              "jump_url": "https://endfield.gryphline.com/news/3844",
+              "start_ts": "1773590400000",
+              "id": "414",
+              "need_token": false
+            },
+            {
+              "content": "Notas sobre la actualización de versión de [Perecen las aguas profundas de antaño, borradas por la marea creciente]",
+              "jump_url": "https://endfield.gryphline.com/news/8907",
+              "start_ts": "1773277200000",
+              "id": "386",
+              "need_token": false
+            },
+            {
+              "content": "Detalles OTL de la [Solicitud de Brotar de nuevo]",
+              "jump_url": "https://endfield.gryphline.com/news/5213",
+              "start_ts": "1773205200000",
+              "id": "358",
+              "need_token": false
+            },
+            {
+              "content": "Guía de herramientas del juego de Arknights: Endfield",
+              "jump_url": "https://endfield.gryphline.com/news/0755",
+              "start_ts": "1769050800000",
+              "id": "141",
+              "need_token": false
+            },
+            {
+              "content": "Juego limpio de Arknights: Endfield",
+              "jump_url": "https://endfield.gryphline.com/news/8900",
+              "start_ts": "1768892400000",
+              "id": "97",
+              "need_token": false
+            },
+            {
+              "content": "Riesgo de seguridad: herramientas no oficiales",
+              "jump_url": "https://endfield.gryphline.com/news/7026",
+              "start_ts": "1773277200000",
+              "id": "400",
+              "need_token": false
+            }
+          ],
+          "tab_id": "63"
+        },
+        {
+          "tabName": "Novedades",
+          "announcements": [
+            {
+              "content": "Arknights: Endfield [Official Release Preview] DEV Comm",
+              "jump_url": "https://endfield.gryphline.com/en-us/news/4499",
+              "start_ts": "1768838400000",
+              "id": "69",
+              "need_token": false
+            }
+          ],
+          "tab_id": "65"
+        }
+      ]
+    }
   }
 ]

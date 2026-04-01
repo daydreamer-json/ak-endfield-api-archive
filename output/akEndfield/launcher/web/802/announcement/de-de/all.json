@@ -621,5 +621,103 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-04-01T02:00:44.514+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "channel": 6,
+      "subChannel": 802,
+      "lang": "de-de",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "tabs": [
+        {
+          "tabName": "Hinweise",
+          "announcements": [
+            {
+              "content": "[Die Reise des Langohrs]-Festtag-Event – Details",
+              "jump_url": "https://endfield.gryphline.com/news/1337",
+              "start_ts": "1775008800000",
+              "id": "459",
+              "need_token": false
+            },
+            {
+              "content": "[Scharlachperle-Ausgabe] – KZO-Details",
+              "jump_url": "https://endfield.gryphline.com/news/2660",
+              "start_ts": "1774758600000",
+              "id": "431",
+              "need_token": false
+            },
+            {
+              "content": "[Wolfsperle] Details zur Rekrutierung: Priorisiert",
+              "jump_url": "https://endfield.gryphline.com/news/3843",
+              "start_ts": "1774756800000",
+              "id": "445",
+              "need_token": false
+            },
+            {
+              "content": "Hinweis zu Problemen im Spiel durch NVIDIA Treiber-Updates",
+              "jump_url": "https://endfield.gryphline.com/news/3844",
+              "start_ts": "1773590400000",
+              "id": "416",
+              "need_token": false
+            },
+            {
+              "content": "[Wogen der Flut tragen Tränen zum Quell] – Hinweise zum Versions-Update",
+              "jump_url": "https://endfield.gryphline.com/news/8907",
+              "start_ts": "1773277200000",
+              "id": "388",
+              "need_token": false
+            },
+            {
+              "content": "[„Erneutes Aufblühen“-Ausgabe] Details zu zeitlich begrenztem Angebot",
+              "jump_url": "https://endfield.gryphline.com/news/5213",
+              "start_ts": "1773205200000",
+              "id": "360",
+              "need_token": false
+            },
+            {
+              "content": "Arknights: Endfield – Anleitung für Spielwerkzeuge",
+              "jump_url": "https://endfield.gryphline.com/news/0755",
+              "start_ts": "1769050800000",
+              "id": "143",
+              "need_token": false
+            },
+            {
+              "content": "Arknights: Endfield – Erklärung zu Fairness im Spiel",
+              "jump_url": "https://endfield.gryphline.com/news/8900",
+              "start_ts": "1768892400000",
+              "id": "99",
+              "need_token": false
+            },
+            {
+              "content": "Sicherheitswarnung bei Verwendung inoffizieller Tools",
+              "jump_url": "https://endfield.gryphline.com/news/7026",
+              "start_ts": "1773277200000",
+              "id": "402",
+              "need_token": false
+            }
+          ],
+          "tab_id": "72"
+        },
+        {
+          "tabName": "Neuigkeiten",
+          "announcements": [
+            {
+              "content": "Arknights: Endfield [Official Release Preview] DEV Comm",
+              "jump_url": "https://endfield.gryphline.com/en-us/news/4499",
+              "start_ts": "1768838400000",
+              "id": "71",
+              "need_token": false
+            }
+          ],
+          "tab_id": "74"
+        }
+      ]
+    }
   }
 ]

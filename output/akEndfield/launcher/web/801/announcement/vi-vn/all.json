@@ -621,5 +621,103 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-04-01T02:00:44.306+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "channel": 6,
+      "subChannel": 801,
+      "lang": "vi-vn",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "tabs": [
+        {
+          "tabName": "Thông Báo",
+          "announcements": [
+            {
+              "content": "Chi Tiết Sự Kiện Ăn Mừng [Hành Trình Của Tai Dài]",
+              "jump_url": "https://endfield.gryphline.com/news/1337",
+              "start_ts": "1775008800000",
+              "id": "464",
+              "need_token": false
+            },
+            {
+              "content": "[Gói Ngọc Trai Đỏ] Chi Tiết Chương Trình Giới Hạn Thời Gian",
+              "jump_url": "https://endfield.gryphline.com/news/2660",
+              "start_ts": "1774758600000",
+              "id": "436",
+              "need_token": false
+            },
+            {
+              "content": "Chi Tiết Chiêu Mộ Đặc Quyền [Ngọc Trai Sói]",
+              "jump_url": "https://endfield.gryphline.com/news/3843",
+              "start_ts": "1774756800000",
+              "id": "450",
+              "need_token": false
+            },
+            {
+              "content": "Thông Báo Về Sự Cố Game Do Cập Nhật Trình Điều Khiển NVIDIA",
+              "jump_url": "https://endfield.gryphline.com/news/3844",
+              "start_ts": "1773590400000",
+              "id": "421",
+              "need_token": false
+            },
+            {
+              "content": "Ghi Chú Cập Nhật Phiên Bản [Sóng Sau Vùi Dập Sóng Trước]",
+              "jump_url": "https://endfield.gryphline.com/news/8907",
+              "start_ts": "1773277200000",
+              "id": "393",
+              "need_token": false
+            },
+            {
+              "content": "Chi tiết LTO [Gói Chồi Non Tái Sinh]",
+              "jump_url": "https://endfield.gryphline.com/news/5213",
+              "start_ts": "1773205200000",
+              "id": "365",
+              "need_token": false
+            },
+            {
+              "content": "Arknights: Endfield - Hướng Dẫn Công Cụ Chơi",
+              "jump_url": "https://endfield.gryphline.com/news/0755",
+              "start_ts": "1769050800000",
+              "id": "148",
+              "need_token": false
+            },
+            {
+              "content": "Tuyên Bố Về Chơi Công Bằng Của Arknights: Endfield",
+              "jump_url": "https://endfield.gryphline.com/news/8900",
+              "start_ts": "1768892400000",
+              "id": "104",
+              "need_token": false
+            },
+            {
+              "content": "Cảnh báo rủi ro bảo mật khi sử dụng công cụ không chính thức",
+              "jump_url": "https://endfield.gryphline.com/news/7026",
+              "start_ts": "1773277200000",
+              "id": "407",
+              "need_token": false
+            }
+          ],
+          "tab_id": "87"
+        },
+        {
+          "tabName": "Tin Tức",
+          "announcements": [
+            {
+              "content": "Arknights: Endfield [Official Release Preview] DEV Comm",
+              "jump_url": "https://endfield.gryphline.com/en-us/news/4499",
+              "start_ts": "1768838400000",
+              "id": "76",
+              "need_token": false
+            }
+          ],
+          "tab_id": "89"
+        }
+      ]
+    }
   }
 ]
