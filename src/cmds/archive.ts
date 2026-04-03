@@ -3,6 +3,7 @@ import ky, { HTTPError } from 'ky';
 import { DateTime } from 'luxon';
 import PQueue from 'p-queue';
 import semver from 'semver';
+import type * as IResEndfield from '../types/api/akEndfield/Res.js';
 import apiUtils from '../utils/api/index.js';
 import argvUtils from '../utils/argv.js';
 import cipher from '../utils/cipher.js';
@@ -27,6 +28,19 @@ interface MirrorFileEntry {
   origStatus: boolean;
 }
 
+interface MirrorFileResEntry {
+  md5: string;
+  mirror: string;
+  chunk: { start: number; length: number } | null;
+}
+
+interface MirrorFileResPatchEntry {
+  md5Old: string;
+  md5New: string;
+  mirror: string;
+  chunk: { start: number; length: number } | null;
+}
+
 interface GameTarget {
   name: string;
   region: 'os' | 'cn';
@@ -48,6 +62,19 @@ interface LauncherTarget {
 interface AssetToMirror {
   url: string;
   name: string | null;
+}
+interface AssetToMirrorRes {
+  md5: string;
+  name: string;
+  size: number;
+  url: string;
+}
+
+interface AssetToMirrorResPatch {
+  md5Old: string;
+  md5New: string;
+  size: number;
+  url: string;
 }
 
 // Global/Shared State
@@ -635,6 +662,86 @@ async function fetchAndSaveLauncherProtocol(gameTargets: GameTarget[]) {
   await networkQueue.onIdle();
 }
 
+async function addAllGameResVFSDataToPending(gameTargets: GameTarget[]) {
+  const outputDir = argvUtils.getArgv()['outputDir'];
+  const platforms = ['Windows', 'Android', 'iOS', 'PlayStation'] as const;
+  const filteredTargets = gameTargets.filter(
+    (t) => t.channel !== appConfig.network.api.akEndfield.channel.cnWinRelBilibili,
+  );
+  const uniqueTargets = [...new Set(filteredTargets.map((t) => t.channel))];
+
+  const dbPath = path.join(outputDir, 'mirror_file_res_list.json.zst');
+  const patchDbPath = path.join(outputDir, 'mirror_file_res_patch_list.json.zst');
+  const pendingDbPath = path.join(outputDir, 'mirror_file_res_list_pending.json');
+  const pendingPatchDbPath = path.join(outputDir, 'mirror_file_res_patch_list_pending.json');
+  if (!(await Bun.file(dbPath).exists())) await Bun.write(dbPath, Bun.zstdCompressSync('[]'));
+  if (!(await Bun.file(patchDbPath).exists())) await Bun.write(patchDbPath, Bun.zstdCompressSync('[]'));
+  if (!(await Bun.file(pendingDbPath).exists())) await Bun.write(pendingDbPath, '[]');
+  if (!(await Bun.file(pendingPatchDbPath).exists())) await Bun.write(pendingPatchDbPath, '[]');
+  const db: MirrorFileResEntry[] = JSON.parse(Bun.zstdDecompressSync(await Bun.file(dbPath).bytes()).toString('utf-8'));
+  const patchDb: MirrorFileResPatchEntry[] = JSON.parse(
+    Bun.zstdDecompressSync(await Bun.file(patchDbPath).bytes()).toString('utf-8'),
+  );
+  const pendingDb: AssetToMirrorRes[] = await Bun.file(pendingDbPath).json();
+  const pendingPatchDb: AssetToMirrorResPatch[] = await Bun.file(pendingPatchDbPath).json();
+
+  for (const channel of uniqueTargets) {
+    for (const platform of platforms) {
+      const apiResAllPath = path.join(
+        outputDir,
+        'akEndfield',
+        'launcher',
+        'game_resources',
+        String(channel),
+        platform,
+        'all.json',
+      );
+      if (!(await Bun.file(apiResAllPath).exists())) continue;
+      const apiResAll = ((await Bun.file(apiResAllPath).json()) as StoredData<LatestGameResourcesResponse>[])
+        .map((e) => e.rsp.resources)
+        .flat();
+      for (const apiResEntry of apiResAll) {
+        const indexJsonPath = path.join(
+          outputDir,
+          'raw',
+          apiResEntry.path.replace('https://', ''),
+          'index_' + apiResEntry.name + '_dec.json',
+        );
+        if (!(await Bun.file(indexJsonPath).exists())) continue;
+        const indexJson: IResEndfield.ResourceIndex = await Bun.file(indexJsonPath).json();
+        for (const resFile of indexJson.files) {
+          if (db.some((e) => e.md5 === resFile.md5)) continue;
+          if (pendingDb.some((e) => e.md5 === resFile.md5)) continue;
+          pendingDb.push({
+            md5: resFile.md5,
+            name: `VFS_${apiResEntry.version}_${resFile.md5}.${path.extname(resFile.name).slice(1)}`,
+            size: resFile.size,
+            url: `${apiResEntry.path}/${resFile.name}`,
+          });
+        }
+
+        const patchJsonPath = path.join(outputDir, 'raw', apiResEntry.path.replace('https://', ''), 'patch.json');
+        if (!(await Bun.file(patchJsonPath).exists())) continue;
+        const patchJson: IResEndfield.ResourcePatch = await Bun.file(patchJsonPath).json();
+        for (const file of patchJson.files) {
+          const md5New = file.md5;
+          for (const patch of file.patch.toReversed()) {
+            const md5Old = patch.base_md5;
+            const size = patch.patch_size;
+            const url = `${apiResEntry.path}/Patch/${patch.patch}`;
+            if (patchDb.some((e) => e.md5Old === md5Old && e.md5New === md5New)) continue;
+            if (pendingPatchDb.some((e) => e.md5Old === md5Old && e.md5New === md5New)) continue;
+            pendingPatchDb.push({ md5Old, md5New, size, url });
+          }
+        }
+      }
+    }
+  }
+
+  await Bun.write(pendingDbPath, JSON.stringify(pendingDb, null, 2));
+  await Bun.write(pendingPatchDbPath, JSON.stringify(pendingPatchDb, null, 2));
+}
+
 async function mainCmdHandler() {
   const cfg = appConfig.network.api.akEndfield;
   const gameTargets: GameTarget[] = [
@@ -700,15 +807,15 @@ async function mainCmdHandler() {
     },
   ];
 
-  await fetchAndSaveLatestGames(gameTargets);
-  await fetchAndSaveLatestGamePatches(gameTargets);
-  await fetchAndSaveLatestGameResources(gameTargets);
-  await fetchAndSaveLatestWebApis(gameTargets);
-  await fetchAndSaveLauncherProtocol(gameTargets);
-  await fetchAndSaveLatestLauncher(launcherTargets);
-  await fetchAndSaveAllGameResRawData(gameTargets);
+  // await fetchAndSaveLatestGames(gameTargets);
+  // await fetchAndSaveLatestGamePatches(gameTargets);
+  // await fetchAndSaveLatestGameResources(gameTargets);
+  // await fetchAndSaveLatestWebApis(gameTargets);
+  // await fetchAndSaveLauncherProtocol(gameTargets);
+  // await fetchAndSaveLatestLauncher(launcherTargets);
+  // await fetchAndSaveAllGameResRawData(gameTargets);
+  await addAllGameResVFSDataToPending(gameTargets);
 
-  // Save pending assets to mirror
   const outputDir = argvUtils.getArgv()['outputDir'];
   const pendingPath = path.join(outputDir, 'mirror_file_list_pending.json');
   const dbPath = path.join(outputDir, 'mirror_file_list.json');
