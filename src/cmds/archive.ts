@@ -807,13 +807,13 @@ async function mainCmdHandler() {
     },
   ];
 
-  // await fetchAndSaveLatestGames(gameTargets);
-  // await fetchAndSaveLatestGamePatches(gameTargets);
-  // await fetchAndSaveLatestGameResources(gameTargets);
-  // await fetchAndSaveLatestWebApis(gameTargets);
-  // await fetchAndSaveLauncherProtocol(gameTargets);
-  // await fetchAndSaveLatestLauncher(launcherTargets);
-  // await fetchAndSaveAllGameResRawData(gameTargets);
+  await fetchAndSaveLatestGames(gameTargets);
+  await fetchAndSaveLatestGamePatches(gameTargets);
+  await fetchAndSaveLatestGameResources(gameTargets);
+  await fetchAndSaveLatestWebApis(gameTargets);
+  await fetchAndSaveLauncherProtocol(gameTargets);
+  await fetchAndSaveLatestLauncher(launcherTargets);
+  await fetchAndSaveAllGameResRawData(gameTargets);
   await addAllGameResVFSDataToPending(gameTargets);
 
   const outputDir = argvUtils.getArgv()['outputDir'];
