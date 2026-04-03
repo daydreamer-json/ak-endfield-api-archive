@@ -20,6 +20,10 @@ jobs:
         uses: oven-sh/setup-bun@v2
       - name: Install dependencies
         run: bun install
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
       - name: Create config auth
         env:
           CONFIG_AUTH_YAML_CTX: ${{ secrets.CONFIG_AUTH_YAML }}
@@ -35,6 +39,8 @@ jobs:
       - name: Format output folder
         run: bun x oxfmt output
       - name: Git commit and push
+        id: commit_1
+        continue-on-error: true
         uses: iarekylew00t/verified-bot-commit@v2
         with:
           message: "[Auto] API update"
@@ -43,6 +49,12 @@ jobs:
             output/raw/**
             output/mirror_file_list.json
           if-no-commit: info
+      - name: Git commit and push (Fallback)
+        if: steps.commit_1.outcome == 'failure'
+        run: |
+          git add output/akEndfield/** output/raw/** output/mirror_file_list.json
+          git commit -m "[Auto] API update" || echo "No changes to commit"
+          git push
       - name: Run GitHub mirror upload
         run: bun run src/main.ts ghMirrorUpload
         continue-on-error: true
@@ -51,6 +63,8 @@ jobs:
       - name: Git pull
         run: git pull
       - name: Git commit and push
+        id: commit_2
+        continue-on-error: true
         uses: iarekylew00t/verified-bot-commit@v2
         with:
           message: "[Auto] API update"
@@ -58,3 +72,9 @@ jobs:
             output/mirror_file_list.json
             output/mirror_file_list_pending.json
           if-no-commit: info
+      - name: Git commit and push (Fallback)
+        if: steps.commit_2.outcome == 'failure'
+        run: |
+          git add output/mirror_file_list.json output/mirror_file_list_pending.json
+          git commit -m "[Auto] API update" || echo "No changes to commit"
+          git push
