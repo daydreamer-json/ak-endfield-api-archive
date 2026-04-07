@@ -47,12 +47,14 @@ jobs:
           files: |
             output/akEndfield/**
             output/raw/**
-            output/mirror_file_list.json
+            output/mirror_file_list_pending.json
+            output/mirror_file_res_list_pending.json
+            output/mirror_file_res_patch_list_pending.json
           if-no-commit: info
       - name: Git commit and push (Fallback)
         if: steps.commit_1.outcome == 'failure'
         run: |
-          git add output/akEndfield/** output/raw/** output/mirror_file_list.json
+          git add output/akEndfield/** output/raw/** output/mirror_file_list_pending.json output/mirror_file_res_list_pending.json output/mirror_file_res_patch_list_pending.json
           git commit -m "[Auto] API update" || echo "No changes to commit"
           git push
       - name: Run GitHub mirror upload
@@ -71,10 +73,14 @@ jobs:
           files: |
             output/mirror_file_list.json
             output/mirror_file_list_pending.json
+            output/mirror_file_res_list.json.zst
+            output/mirror_file_res_list_pending.json
+            output/mirror_file_res_patch_list.json.zst
+            output/mirror_file_res_patch_list_pending.json
           if-no-commit: info
       - name: Git commit and push (Fallback)
         if: steps.commit_2.outcome == 'failure'
         run: |
-          git add output/mirror_file_list.json output/mirror_file_list_pending.json
+          git add output/mirror_file_list.json output/mirror_file_list_pending.json output/mirror_file_res_list.json.zst output/mirror_file_res_list_pending.json output/mirror_file_res_patch_list.json.zst output/mirror_file_res_patch_list_pending.json
           git commit -m "[Auto] API update" || echo "No changes to commit"
           git push
