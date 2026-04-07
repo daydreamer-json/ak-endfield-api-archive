@@ -26,7 +26,7 @@ async function uploadAsset(
     release_id: releaseId,
     name,
     data: bin as any,
-    headers: { 'content-length': binSize },
+    // headers: { 'content-length': binSize },
   });
   return true;
 }
@@ -50,7 +50,7 @@ async function uploadAssetWithBuffer(
     release_id: releaseId,
     name: targetFileName,
     data: buffer as any,
-    headers: { 'content-length': buffer.byteLength },
+    // headers: { 'content-length': buffer.byteLength },
   });
   return true;
 }
