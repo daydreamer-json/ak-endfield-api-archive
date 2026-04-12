@@ -19,6 +19,9 @@ For a historical overview of game packages and other resources, please click the
 
 ## Contents of the Archive
 
+> [!NOTE]
+> Hypergryph is planning to adopt the `v2` format for game package patch updates. I will implement it as soon as the specifications are confirmed.
+
 The following APIs are currently being monitored:
 - Launcher
   - Get latest game (Global, China)
