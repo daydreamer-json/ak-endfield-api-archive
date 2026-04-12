@@ -1062,5 +1062,33 @@
       "patch_index_path": "",
       "domain": "https://beyond.hg-cdn.com"
     }
+  },
+  {
+    "updatedAt": "2026-04-12T02:30:36.384+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "gameVersion": "1.1",
+      "version": "1.1.9",
+      "randStr": "PPTMaQzu2HpbgY7P",
+      "platform": "PlayStation"
+    },
+    "rsp": {
+      "resources": [
+        {
+          "name": "main",
+          "version": "6478171-17",
+          "path": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.1/resource/PlayStation/main/6478171-17_ap49VhmQQfCzh2eT/files"
+        },
+        {
+          "name": "initial",
+          "version": "6478171-17",
+          "path": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.1/resource/PlayStation/initial/6478171-17_73GDgSdP6JyoddoJ/files"
+        }
+      ],
+      "configs": "{\"kick_flag\":true}",
+      "res_version": "initial_6478171-17_main_6478171-17",
+      "patch_index_path": "",
+      "domain": "https://beyond.hg-cdn.com"
+    }
   }
 ]
