@@ -6,9 +6,9 @@
     "@tsconfig/strictest"
   ],
   "compilerOptions": {
-    "outDir": "./dist",
     "sourceMap": false,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "types": ["bun"]
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
