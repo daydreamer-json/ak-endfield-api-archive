@@ -782,5 +782,110 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-04-13T07:00:52.034+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "channel": 6,
+      "subChannel": 802,
+      "lang": "ko-kr",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "tabs": [
+        {
+          "tabName": "공지",
+          "announcements": [
+            {
+              "content": "「봄날의 새벽」 버전 업데이트 점검 안내",
+              "jump_url": "https://endfield.gryphline.com/news/7025",
+              "start_ts": "1776063600000",
+              "id": "484",
+              "need_token": false
+            },
+            {
+              "content": "「적옥 신청」 기간 한정 판매 설명",
+              "jump_url": "https://endfield.gryphline.com/news/2660",
+              "start_ts": "1774758600000",
+              "id": "428",
+              "need_token": false
+            },
+            {
+              "content": "「울프펄」 특별 허가 헤드헌팅 설명",
+              "jump_url": "https://endfield.gryphline.com/news/3843",
+              "start_ts": "1774756800000",
+              "id": "442",
+              "need_token": false
+            },
+            {
+              "content": "NVIDIA 드라이버 업데이트로 인한 비정상적인 게임 문제 안내",
+              "jump_url": "https://endfield.gryphline.com/news/3844",
+              "start_ts": "1773590400000",
+              "id": "413",
+              "need_token": false
+            },
+            {
+              "content": "「몰아치는 새로운 물결, 과거와의 작별」 버전 업데이트 설명",
+              "jump_url": "https://endfield.gryphline.com/news/8907",
+              "start_ts": "1773277200000",
+              "id": "385",
+              "need_token": false
+            },
+            {
+              "content": "「신아 신청」 기간 한정 판매 설명",
+              "jump_url": "https://endfield.gryphline.com/news/5213",
+              "start_ts": "1773205200000",
+              "id": "357",
+              "need_token": false
+            },
+            {
+              "content": "「명일방주: 엔드필드」 게임 도구 가이드",
+              "jump_url": "https://endfield.gryphline.com/news/0755",
+              "start_ts": "1769050800000",
+              "id": "140",
+              "need_token": false
+            },
+            {
+              "content": "<명일방주: 엔드필드> 공정 운영 성명서",
+              "jump_url": "https://endfield.gryphline.com/news/8900",
+              "start_ts": "1768892400000",
+              "id": "96",
+              "need_token": false
+            },
+            {
+              "content": "비공식 도구 사용에 따른 보안 위험성 안내",
+              "jump_url": "https://endfield.gryphline.com/news/7026",
+              "start_ts": "1773277200000",
+              "id": "399",
+              "need_token": false
+            }
+          ],
+          "tab_id": "57"
+        },
+        {
+          "tabName": "뉴스",
+          "announcements": [
+            {
+              "content": "「몰아치는 새로운 물결, 과거와의 작별」 개발자 통신",
+              "jump_url": "https://endfield.gryphline.com/news/2662",
+              "start_ts": "1772445600000",
+              "id": "323",
+              "need_token": false
+            },
+            {
+              "content": "「명일방주: 엔드필드」 「정식 출시 미리보기」 개발자 통신",
+              "jump_url": "https://endfield.gryphline.com/ja-jp/news/4499",
+              "start_ts": "1768838400000",
+              "id": "67",
+              "need_token": false
+            }
+          ],
+          "tab_id": "59"
+        }
+      ]
+    }
   }
 ]
