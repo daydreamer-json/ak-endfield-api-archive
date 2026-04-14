@@ -131,6 +131,10 @@ type LauncherWebAnnouncement = {
   }[];
 };
 
+type LauncherWebUrlConfig = {
+  payment_url: string;
+};
+
 type AccSrvUserAuthV1TokenByEmail = {
   data: {
     token: string;
@@ -565,6 +569,7 @@ export type {
   LauncherWebMainBgImage,
   LauncherWebBanner,
   LauncherWebAnnouncement,
+  LauncherWebUrlConfig,
   AccSrvUserAuthV1TokenByEmail,
   AccSrvUserInfoV1Basic,
   AccSrvUserInfoV1ThirdParty,
