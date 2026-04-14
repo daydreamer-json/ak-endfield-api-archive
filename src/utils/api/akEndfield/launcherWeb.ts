@@ -174,4 +174,38 @@ export default {
       .json();
     return (rsp as any).proxy_rsps[0].get_announcement_rsp as TypesApiAkEndfield.LauncherWebAnnouncement;
   },
+  urlConfig: async (
+    appCode: string,
+    channel: number,
+    subChannel: number,
+    language: (typeof defaultSettings.launcherWebLang)[number],
+    region: 'os' | 'cn',
+    platform: 'Windows' = 'Windows',
+  ): Promise<TypesApiAkEndfield.LauncherWebUrlConfig> => {
+    const apiBase =
+      region === 'cn'
+        ? appConfig.network.api.akEndfield.base.launcherCN
+        : appConfig.network.api.akEndfield.base.launcher;
+    const rsp = await ky
+      .post(`https://${apiBase}/proxy/web/batch_proxy`, {
+        ...defaultSettings.ky,
+        json: {
+          proxy_reqs: [
+            {
+              kind: 'get_url_config',
+              get_url_config_req: {
+                appcode: appCode,
+                channel: String(channel),
+                sub_channel: String(subChannel),
+                language,
+                platform,
+                source: 'launcher',
+              },
+            },
+          ],
+        },
+      })
+      .json();
+    return (rsp as any).proxy_rsps[0].get_url_config_rsp as TypesApiAkEndfield.LauncherWebUrlConfig;
+  },
 };

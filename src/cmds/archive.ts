@@ -586,6 +586,7 @@ async function fetchAndSaveLatestWebApis(gameTargets: GameTarget[]) {
     { name: 'mainBgImage', method: apiUtils.akEndfield.launcherWeb.mainBgImage, dir: 'main_bg_image' },
     { name: 'banner', method: apiUtils.akEndfield.launcherWeb.banner, dir: 'banner' },
     { name: 'announcement', method: apiUtils.akEndfield.launcherWeb.announcement, dir: 'announcement' },
+    { name: 'urlConfig', method: apiUtils.akEndfield.launcherWeb.urlConfig, dir: 'url_config' }
   ] as const;
 
   for (const target of gameTargets) {
