@@ -1090,5 +1090,33 @@
       "patch_index_path": "",
       "domain": "https://beyond.hg-cdn.com"
     }
+  },
+  {
+    "updatedAt": "2026-04-16T22:15:28.961+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "gameVersion": "1.2",
+      "version": "1.2.4",
+      "randStr": "B1VqD4e4dxfpm1a9",
+      "platform": "iOS"
+    },
+    "rsp": {
+      "resources": [
+        {
+          "name": "main",
+          "version": "6628375-8",
+          "path": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.2/resource/iOS/main/6628375-8_HiLggaF7GFqpN0re/files"
+        },
+        {
+          "name": "initial",
+          "version": "6628375-8",
+          "path": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.2/resource/iOS/initial/6628375-8_bMUWF28wfEKmbnrf/files"
+        }
+      ],
+      "configs": "{\"kick_flag\":true}",
+      "res_version": "initial_6628375-8_main_6628375-8",
+      "patch_index_path": "",
+      "domain": "https://beyond.hg-cdn.com"
+    }
   }
 ]
