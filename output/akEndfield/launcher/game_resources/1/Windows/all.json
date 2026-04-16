@@ -642,5 +642,33 @@
       "patch_index_path": "",
       "domain": "https://beyond.hycdn.cn"
     }
+  },
+  {
+    "updatedAt": "2026-04-16T22:15:30.901+00:00",
+    "req": {
+      "appCode": "6LL0KJuqHBVz33WK",
+      "gameVersion": "1.2",
+      "version": "1.2.4",
+      "randStr": "zGLFQ3WQTaGk3ocM",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "resources": [
+        {
+          "name": "main",
+          "version": "6628375-5",
+          "path": "https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.2/resource/Windows/main/6628375-5_D6HDQUFanKcoFczn/files"
+        },
+        {
+          "name": "initial",
+          "version": "6628375-5",
+          "path": "https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.2/resource/Windows/initial/6628375-5_3elac1NTkuT4gPW1/files"
+        }
+      ],
+      "configs": "{\"kick_flag\":true}",
+      "res_version": "initial_6628375-5_main_6628375-5",
+      "patch_index_path": "",
+      "domain": "https://beyond.hycdn.cn"
+    }
   }
 ]
