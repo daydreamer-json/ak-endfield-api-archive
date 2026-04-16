@@ -89,6 +89,7 @@ const diffIgnoreRules = [
   ['rsp', 'patch', 'patches', '*', 'url'],
   ['rsp', 'zip_package_url'],
   ['rsp', 'exe_url'],
+  ['rsp', 'patch', 'v2_patch_info_url'],
 ].map((path) => ({ path, pattern: /[?&]auth_key=[^&]+/g }));
 
 // Utilities
