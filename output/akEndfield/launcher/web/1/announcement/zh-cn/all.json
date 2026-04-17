@@ -3404,5 +3404,102 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-04-17T04:00:54.318+00:00",
+    "req": {
+      "appCode": "6LL0KJuqHBVz33WK",
+      "channel": 1,
+      "subChannel": 1,
+      "lang": "zh-cn",
+      "region": "cn",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "tabs": [
+        {
+          "tabName": "公告",
+          "announcements": [
+            {
+              "content": "「春晓时」版本更新说明",
+              "jump_url": "https://endfield.hypergryph.com/news/9343",
+              "start_ts": "1776387600000",
+              "id": "147",
+              "need_token": false
+            },
+            {
+              "content": "「焕新月卡赠礼」赠礼活动",
+              "jump_url": "https://endfield.hypergryph.com/news/0434",
+              "start_ts": "1776337200000",
+              "id": "146",
+              "need_token": false
+            },
+            {
+              "content": "「行舟申领」限时特卖说明",
+              "jump_url": "https://endfield.hypergryph.com/news/6000",
+              "start_ts": "1776313800000",
+              "id": "139",
+              "need_token": false
+            },
+            {
+              "content": "「春雷动，万物生」特许寻访",
+              "jump_url": "https://endfield.hypergryph.com/news/5999",
+              "start_ts": "1776312000000",
+              "id": "138",
+              "need_token": false
+            },
+            {
+              "content": "NVIDIA 驱动程序新版本可能导致游戏表现异常的问题说明",
+              "jump_url": "https://endfield.hypergryph.com/news/3819",
+              "start_ts": "1773654000000",
+              "id": "118",
+              "need_token": true
+            },
+            {
+              "content": "关于使用非官方工具的安全风险提示",
+              "jump_url": "https://endfield.hypergryph.com/news/9345",
+              "start_ts": "1773279000000",
+              "id": "109",
+              "need_token": false
+            },
+            {
+              "content": "《明日方舟：终末地》游戏工具指南",
+              "jump_url": "https://endfield.hypergryph.com/news/5906",
+              "start_ts": "1769050800000",
+              "id": "61",
+              "need_token": true
+            }
+          ],
+          "tab_id": "32"
+        },
+        {
+          "tabName": "新闻",
+          "announcements": [
+            {
+              "content": "《明日方舟：终末地》「春晓时」核心章节版本研发通讯",
+              "jump_url": "https://endfield.hypergryph.com/news/4781",
+              "start_ts": "1776049200000",
+              "id": "136",
+              "need_token": true
+            }
+          ],
+          "tab_id": "33"
+        },
+        {
+          "tabName": "资讯",
+          "announcements": [
+            {
+              "content": "关注官方社媒账号领奖励",
+              "jump_url": "https://endfield.hypergryph.com/activity/social-media",
+              "start_ts": "1776398400000",
+              "id": "152",
+              "need_token": true
+            }
+          ],
+          "tab_id": "34"
+        }
+      ]
+    }
   }
 ]
