@@ -308,7 +308,7 @@ async function fetchAndSaveLatestGamePatches(gameTargets: GameTarget[]) {
             //   new URL(rsp.patch.url).pathname.split('/').filter(Boolean).slice(-3).join('_'),
             // );
             rsp.patch.patches.forEach((e) =>
-              queueAssetForMirroring(e.url, new URL(e.url).pathname.split('/').filter(Boolean).slice(-4).join('_')),
+              queueAssetForMirroring(e.url, new URL(e.url).pathname.split('/').filter(Boolean).slice(-6).join('_')),
             );
           }
         }
