@@ -321,6 +321,25 @@ async function fetchAndSaveLatestGamePatches(gameTargets: GameTarget[]) {
       await Bun.write(patchAllPath, JSON.stringify(patchAll, null, 2));
     }
   }
+  for (const target of gameTargets) {
+    const patchAllPath = path.join(
+      argvUtils.getArgv()['outputDir'],
+      'akEndfield',
+      'launcher',
+      'game',
+      target.dirName,
+      'all_patch.json',
+    );
+    const patchAll: StoredData<LatestGameResponse>[] = (await Bun.file(patchAllPath).exists())
+      ? await Bun.file(patchAllPath).json()
+      : [];
+    for (const e of patchAll) {
+      if (!e.rsp.patch) continue;
+      const v2PatchInfoUrl = e.rsp.patch.v2_patch_info_url;
+      if (!v2PatchInfoUrl) continue;
+      await downloadRawFile(v2PatchInfoUrl);
+    }
+  }
 }
 
 async function fetchAndSaveLatestGameResources(gameTargets: GameTarget[]) {
@@ -409,7 +428,7 @@ async function downloadRawFile(url: string) {
 
   try {
     const data = await ky
-      .get(urlObj.href, {
+      .get(url, {
         headers: { 'User-Agent': appConfig.network.userAgent.minimum },
         timeout: appConfig.network.timeout,
         retry: { limit: appConfig.network.retryCount },
@@ -587,7 +606,7 @@ async function fetchAndSaveLatestWebApis(gameTargets: GameTarget[]) {
     { name: 'mainBgImage', method: apiUtils.akEndfield.launcherWeb.mainBgImage, dir: 'main_bg_image' },
     { name: 'banner', method: apiUtils.akEndfield.launcherWeb.banner, dir: 'banner' },
     { name: 'announcement', method: apiUtils.akEndfield.launcherWeb.announcement, dir: 'announcement' },
-    { name: 'urlConfig', method: apiUtils.akEndfield.launcherWeb.urlConfig, dir: 'url_config' }
+    { name: 'urlConfig', method: apiUtils.akEndfield.launcherWeb.urlConfig, dir: 'url_config' },
   ] as const;
 
   for (const target of gameTargets) {

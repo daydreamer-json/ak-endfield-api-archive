@@ -34,6 +34,9 @@ type LauncherLatestGame = {
       md5: string;
       package_size: string;
     }[];
+    v2_patch_info_url: string;
+    v2_patch_info_size: string;
+    v2_patch_info_md5: string;
   } | null;
   state: number;
   launcher_action: number;
@@ -559,37 +562,37 @@ type GameHubGiftCodeRedeem = {
 };
 
 export type {
-  LauncherProtocol,
-  LauncherLatestGame,
-  LauncherLatestGameResources,
-  LauncherLatestLauncher,
-  LauncherLatestLauncherExe,
-  LauncherWebSidebar,
-  LauncherWebSingleEnt,
-  LauncherWebMainBgImage,
-  LauncherWebBanner,
-  LauncherWebAnnouncement,
-  LauncherWebUrlConfig,
   AccSrvUserAuthV1TokenByEmail,
   AccSrvUserInfoV1Basic,
   AccSrvUserInfoV1ThirdParty,
   AccSrvUserOAuth2V2Grant,
   AccSrvUserOAuth2V2GrantType1,
-  U8UserAuthV2ChToken,
-  U8UserAuthV2Grant,
-  U8GameServerV1ServerList,
-  U8GameRoleV1ConfirmServer,
   BindApiAccBindV1BindList,
   BindApiAccBindV1U8TokenByUid,
   BindApiGeneralV1AuthAppList,
+  GameHubGiftCodeRedeem,
+  LauncherLatestGame,
+  LauncherLatestGameResources,
+  LauncherLatestLauncher,
+  LauncherLatestLauncherExe,
+  LauncherProtocol,
+  LauncherWebAnnouncement,
+  LauncherWebBanner,
+  LauncherWebMainBgImage,
+  LauncherWebSidebar,
+  LauncherWebSingleEnt,
+  LauncherWebUrlConfig,
+  U8GameRoleV1ConfirmServer,
+  U8GameServerV1ServerList,
+  U8UserAuthV2ChToken,
+  U8UserAuthV2Grant,
   WebViewRecordChar,
   WebViewRecordContent,
+  ZonaiApiV1GamePlayerBinding,
+  ZonaiWebV1GameEndfieldAttendance,
+  ZonaiWebV1GameEndfieldAttendanceRecord,
   ZonaiWebV1UserAuthGenCredByCode,
   ZonaiWebV1UserCheck,
   ZonaiWebV1WikiMe,
   ZonaiWebV2User,
-  ZonaiApiV1GamePlayerBinding,
-  ZonaiWebV1GameEndfieldAttendance,
-  ZonaiWebV1GameEndfieldAttendanceRecord,
-  GameHubGiftCodeRedeem,
 };
