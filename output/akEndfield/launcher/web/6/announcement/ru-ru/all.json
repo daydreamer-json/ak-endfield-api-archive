@@ -1461,5 +1461,110 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-04-30T08:00:58.904+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "channel": 6,
+      "subChannel": 6,
+      "lang": "ru-ru",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "tabs": [
+        {
+          "tabName": "Уведомления",
+          "announcements": [
+            {
+              "content": "Сведения о специальном найме [Гром обновления]",
+              "jump_url": "https://endfield.gryphline.com/news/9579",
+              "start_ts": "1776312000000",
+              "id": "504",
+              "need_token": false
+            },
+            {
+              "content": "Сведения о временном предложении [поставки «Дрейфующий плот»]",
+              "jump_url": "https://endfield.gryphline.com/news/5212",
+              "start_ts": "1776313800000",
+              "id": "518",
+              "need_token": false
+            },
+            {
+              "content": "Событие подношения [Первозданное подношение месячного пропуска]",
+              "jump_url": "https://endfield.gryphline.com/news/4493",
+              "start_ts": "1776337200000",
+              "id": "532",
+              "need_token": false
+            },
+            {
+              "content": "Анонс обновления версии «На заре весны» и техработ",
+              "jump_url": "https://endfield.gryphline.com/news/7025",
+              "start_ts": "1776063600000",
+              "id": "486",
+              "need_token": false
+            },
+            {
+              "content": "Об ошибках в игре после обновления драйверов NVIDIA",
+              "jump_url": "https://endfield.gryphline.com/news/3844",
+              "start_ts": "1773590400000",
+              "id": "415",
+              "need_token": false
+            },
+            {
+              "content": "Сведения о временном предложении [поставки «Молодой побег»]",
+              "jump_url": "https://endfield.gryphline.com/news/5213",
+              "start_ts": "1773205200000",
+              "id": "359",
+              "need_token": false
+            },
+            {
+              "content": "Руководство «Игровые инструменты Arknights: Endfield»",
+              "jump_url": "https://endfield.gryphline.com/news/0755",
+              "start_ts": "1769050800000",
+              "id": "142",
+              "need_token": false
+            },
+            {
+              "content": "Заявление о честной игре для «Arknights: Endfield»",
+              "jump_url": "https://endfield.gryphline.com/news/8900",
+              "start_ts": "1768892400000",
+              "id": "98",
+              "need_token": false
+            },
+            {
+              "content": "Предупреждение о риске сторонних инструментов",
+              "jump_url": "https://endfield.gryphline.com/news/7026",
+              "start_ts": "1773277200000",
+              "id": "401",
+              "need_token": false
+            },
+            {
+              "content": "Сведения о праздничном событии [Вечеринка] – [Сладкая башня]",
+              "jump_url": "https://endfield.gryphline.com/news/8905",
+              "start_ts": "1777536000000",
+              "id": "546",
+              "need_token": false
+            }
+          ],
+          "tab_id": "75"
+        },
+        {
+          "tabName": "Новости",
+          "announcements": [
+            {
+              "content": "Arknights: Endfield [Official Release Preview] DEV Comm",
+              "jump_url": "https://endfield.gryphline.com/en-us/news/4499",
+              "start_ts": "1768838400000",
+              "id": "70",
+              "need_token": false
+            }
+          ],
+          "tab_id": "77"
+        }
+      ]
+    }
   }
 ]
