@@ -3028,5 +3028,105 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-06-04T22:00:56.482+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "channel": 6,
+      "subChannel": 802,
+      "lang": "ru-ru",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "tabs": [
+        {
+          "tabName": "Уведомления",
+          "announcements": [
+            {
+              "content": "Предварительная загрузка и обновление версии «Зарисовки об утраченных реликвиях»",
+              "jump_url": "https://endfield.gryphline.com/news/8904",
+              "start_ts": "1780461000000",
+              "id": "644",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "[Бой без сожалений] — Специальный наем",
+              "jump_url": "https://endfield.gryphline.com/news/0759",
+              "start_ts": "1780459200000",
+              "id": "658",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Сведения о временном предложении [поставки «Алый узел»]",
+              "jump_url": "https://endfield.gryphline.com/news/4492",
+              "start_ts": "1780460100000",
+              "id": "672",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Об ошибках в игре после обновления драйверов NVIDIA",
+              "jump_url": "https://endfield.gryphline.com/news/3844",
+              "start_ts": "1773590400000",
+              "id": "415",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Руководство «Игровые инструменты Arknights: Endfield»",
+              "jump_url": "https://endfield.gryphline.com/news/0755",
+              "start_ts": "1769050800000",
+              "id": "142",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Заявление о честной игре для «Arknights: Endfield»",
+              "jump_url": "https://endfield.gryphline.com/news/8900",
+              "start_ts": "1768892400000",
+              "id": "98",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Предупреждение о риске сторонних инструментов",
+              "jump_url": "https://endfield.gryphline.com/news/7026",
+              "start_ts": "1773277200000",
+              "id": "401",
+              "need_token": false,
+              "pin": 0
+            }
+          ],
+          "tab_id": "75"
+        },
+        {
+          "tabName": "Новости",
+          "announcements": [
+            {
+              "content": "Arknights: Endfield [Official Release Preview] DEV Comm",
+              "jump_url": "https://endfield.gryphline.com/en-us/news/4499",
+              "start_ts": "1768838400000",
+              "id": "70",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Версия Arknights: Endfield — [Зарисовки об утраченных реликвиях] — Dev Comm",
+              "jump_url": "https://endfield.gryphline.com/news/9577",
+              "start_ts": "1779508800000",
+              "id": "616",
+              "need_token": false,
+              "pin": 0
+            }
+          ],
+          "tab_id": "77"
+        }
+      ]
+    }
   }
 ]
