@@ -3486,5 +3486,105 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-06-05T01:01:01.802+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "channel": 6,
+      "subChannel": 6,
+      "lang": "en-us",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "tabs": [
+        {
+          "tabName": "Notices",
+          "announcements": [
+            {
+              "content": "[Sketches of Lost Heirlooms] Version Update Notes",
+              "jump_url": "https://endfield.gryphline.com/news/0758",
+              "start_ts": "1780621200000",
+              "id": "696",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "[Fists of No Regrets] Chartered Headhunting",
+              "jump_url": "https://endfield.gryphline.com/news/0759",
+              "start_ts": "1780459200000",
+              "id": "654",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "[Scarlet Knot Issue] LTO Details",
+              "jump_url": "https://endfield.gryphline.com/news/4492",
+              "start_ts": "1780460100000",
+              "id": "668",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Notice Regarding Game Issues Caused by NVIDIA Driver Updates",
+              "jump_url": "https://endfield.gryphline.com/news/3844",
+              "start_ts": "1773590400000",
+              "id": "411",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Arknights: Endfield Game Tools Guide",
+              "jump_url": "https://endfield.gryphline.com/news/0755",
+              "start_ts": "1769050800000",
+              "id": "138",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Arknights: Endfield Fair Play Statement",
+              "jump_url": "https://endfield.gryphline.com/news/8900",
+              "start_ts": "1768892400000",
+              "id": "94",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Security Risk Warning for Using Unofficial Tools",
+              "jump_url": "https://endfield.gryphline.com/news/7026",
+              "start_ts": "1773277200000",
+              "id": "397",
+              "need_token": false,
+              "pin": 0
+            }
+          ],
+          "tab_id": "48"
+        },
+        {
+          "tabName": "News",
+          "announcements": [
+            {
+              "content": "Arknights: Endfield [Official Release Preview] DEV Comm",
+              "jump_url": "https://endfield.gryphline.com/en-us/news/4499",
+              "start_ts": "1768838400000",
+              "id": "65",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Arknights: Endfield [Sketches of Lost Heirlooms] Version DEV Comm",
+              "jump_url": "https://endfield.gryphline.com/news/9577",
+              "start_ts": "1779508800000",
+              "id": "611",
+              "need_token": false,
+              "pin": 0
+            }
+          ],
+          "tab_id": "50"
+        }
+      ]
+    }
   }
 ]

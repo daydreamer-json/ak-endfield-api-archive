@@ -3128,5 +3128,105 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-06-05T01:01:03.161+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "channel": 6,
+      "subChannel": 801,
+      "lang": "id-id",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "tabs": [
+        {
+          "tabName": "Pemberitahuan",
+          "announcements": [
+            {
+              "content": "Catatan Pembaruan Versi [Sketsa Pusaka yang Hilang]",
+              "jump_url": "https://endfield.gryphline.com/news/0758",
+              "start_ts": "1780621200000",
+              "id": "704",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Headhunt Khusus [Tinju Tanpa Sesal]",
+              "jump_url": "https://endfield.gryphline.com/news/0759",
+              "start_ts": "1780459200000",
+              "id": "662",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Detail OBW [Edisi Simpul Merah]",
+              "jump_url": "https://endfield.gryphline.com/news/4492",
+              "start_ts": "1780460100000",
+              "id": "676",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Pemberitahuan Terkait Masalah Game Akibat Pembaruan Driver NVIDIA",
+              "jump_url": "https://endfield.gryphline.com/news/3844",
+              "start_ts": "1773590400000",
+              "id": "419",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Panduan Alat Game untuk Arknights: Endfield",
+              "jump_url": "https://endfield.gryphline.com/news/0755",
+              "start_ts": "1769050800000",
+              "id": "146",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Pernyataan Bermain Adil Arknights: Endfield",
+              "jump_url": "https://endfield.gryphline.com/news/8900",
+              "start_ts": "1768892400000",
+              "id": "102",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Peringatan Risiko Keamanan Saat Menggunakan Alat Tidak Resmi",
+              "jump_url": "https://endfield.gryphline.com/news/7026",
+              "start_ts": "1773277200000",
+              "id": "405",
+              "need_token": false,
+              "pin": 0
+            }
+          ],
+          "tab_id": "81"
+        },
+        {
+          "tabName": "Berita",
+          "announcements": [
+            {
+              "content": "Arknights: Endfield [Official Release Preview] DEV Comm",
+              "jump_url": "https://endfield.gryphline.com/en-us/news/4499",
+              "start_ts": "1768838400000",
+              "id": "74",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Kom Dev Versi [Sketsa Pusaka yang Hilang] Arknights: Endfield",
+              "jump_url": "https://endfield.gryphline.com/news/9577",
+              "start_ts": "1779508800000",
+              "id": "620",
+              "need_token": false,
+              "pin": 0
+            }
+          ],
+          "tab_id": "83"
+        }
+      ]
+    }
   }
 ]
