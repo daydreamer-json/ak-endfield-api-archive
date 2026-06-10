@@ -163,12 +163,7 @@ async function processGenericResQueue<
     chunkPrefix: string;
     getBigFileName: (asset: TAsset) => string;
     isDuplicate: (asset: TAsset, db: TEntry[]) => boolean;
-    pushToDb: (
-      asset: TAsset,
-      db: TEntry[],
-      mirror: string,
-      chunk: { start: number; length: number } | null,
-    ) => void;
+    pushToDb: (asset: TAsset, db: TEntry[], mirror: string, chunk: { start: number; length: number } | null) => void;
     logPrefix: string;
     downloadLogFn: (asset: TAsset, index: number, total: number, dataLength: number) => string;
     bigFileDownloadLogFn: (asset: TAsset) => string;

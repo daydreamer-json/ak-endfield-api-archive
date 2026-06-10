@@ -1,10 +1,11 @@
-import ky from 'ky';
+import kyFactory from 'ky';
 import * as TypesApiAkEndfield from '../../../types/api/akEndfield/Api.js';
 import appConfig from '../../config.js';
-import defaultSettings from './defaultSettings.js';
 
-export default {
-  user: {
+export default class AccountService {
+  constructor(private ky: typeof kyFactory) {}
+
+  user = {
     auth: {
       v1: {
         tokenByEmailPassword: async (
@@ -12,10 +13,10 @@ export default {
           password: string,
           from: number = 0,
         ): Promise<TypesApiAkEndfield.AccSrvUserAuthV1TokenByEmail> => {
-          const rsp = await ky
+          const rsp = await this.ky
             .post(
               `https://${appConfig.network.api.akEndfield.base.accountService}/user/auth/v1/token_by_email_password`,
-              { ...defaultSettings.ky, json: { email, from, password } },
+              { json: { email, from, password } },
             )
             .json();
           return rsp as TypesApiAkEndfield.AccSrvUserAuthV1TokenByEmail;
@@ -31,9 +32,8 @@ export default {
         ): Promise<
           T extends 0 ? TypesApiAkEndfield.AccSrvUserOAuth2V2Grant : TypesApiAkEndfield.AccSrvUserOAuth2V2GrantType1
         > => {
-          const rsp = await ky
+          const rsp = await this.ky
             .post(`https://${appConfig.network.api.akEndfield.base.accountService}/user/oauth2/v2/grant`, {
-              ...defaultSettings.ky,
               json: { appCode, token, type },
             })
             .json();
@@ -44,18 +44,16 @@ export default {
     info: {
       v1: {
         basic: async (appCode: string, token: string): Promise<TypesApiAkEndfield.AccSrvUserInfoV1Basic> => {
-          const rsp = await ky
+          const rsp = await this.ky
             .get(`https://${appConfig.network.api.akEndfield.base.accountService}/user/info/v1/basic`, {
-              ...defaultSettings.ky,
               searchParams: { appCode, token },
             })
             .json();
           return rsp as TypesApiAkEndfield.AccSrvUserInfoV1Basic;
         },
         thirdParty: async (appCode: string, token: string): Promise<TypesApiAkEndfield.AccSrvUserInfoV1ThirdParty> => {
-          const rsp = await ky
+          const rsp = await this.ky
             .get(`https://${appConfig.network.api.akEndfield.base.accountService}/user/info/v1/third_party`, {
-              ...defaultSettings.ky,
               searchParams: { appCode, token },
             })
             .json();
@@ -63,5 +61,5 @@ export default {
         },
       },
     },
-  },
-};
+  };
+}

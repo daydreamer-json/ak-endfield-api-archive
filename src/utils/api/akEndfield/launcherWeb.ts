@@ -1,10 +1,12 @@
-import ky from 'ky';
+import kyFactory from 'ky';
 import * as TypesApiAkEndfield from '../../../types/api/akEndfield/Api.js';
 import appConfig from '../../config.js';
 import defaultSettings from './defaultSettings.js';
 
-export default {
-  sidebar: async (
+export default class LauncherWeb {
+  constructor(private ky: typeof kyFactory) {}
+
+  sidebar = async (
     appCode: string,
     channel: number,
     subChannel: number,
@@ -16,9 +18,8 @@ export default {
       region === 'cn'
         ? appConfig.network.api.akEndfield.base.launcherCN
         : appConfig.network.api.akEndfield.base.launcher;
-    const rsp = await ky
+    const rsp = await this.ky
       .post(`https://${apiBase}/proxy/web/batch_proxy`, {
-        ...defaultSettings.ky,
         json: {
           proxy_reqs: [
             {
@@ -37,8 +38,9 @@ export default {
       })
       .json();
     return (rsp as any).proxy_rsps[0].get_sidebar_rsp as TypesApiAkEndfield.LauncherWebSidebar;
-  },
-  singleEnt: async (
+  };
+
+  singleEnt = async (
     appCode: string,
     channel: number,
     subChannel: number,
@@ -50,9 +52,8 @@ export default {
       region === 'cn'
         ? appConfig.network.api.akEndfield.base.launcherCN
         : appConfig.network.api.akEndfield.base.launcher;
-    const rsp = await ky
+    const rsp = await this.ky
       .post(`https://${apiBase}/proxy/web/batch_proxy`, {
-        ...defaultSettings.ky,
         json: {
           proxy_reqs: [
             {
@@ -71,8 +72,9 @@ export default {
       })
       .json();
     return (rsp as any).proxy_rsps[0].get_single_ent_rsp as TypesApiAkEndfield.LauncherWebSingleEnt;
-  },
-  mainBgImage: async (
+  };
+
+  mainBgImage = async (
     appCode: string,
     channel: number,
     subChannel: number,
@@ -84,9 +86,8 @@ export default {
       region === 'cn'
         ? appConfig.network.api.akEndfield.base.launcherCN
         : appConfig.network.api.akEndfield.base.launcher;
-    const rsp = await ky
+    const rsp = await this.ky
       .post(`https://${apiBase}/proxy/web/batch_proxy`, {
-        ...defaultSettings.ky,
         json: {
           proxy_reqs: [
             {
@@ -105,8 +106,9 @@ export default {
       })
       .json();
     return (rsp as any).proxy_rsps[0].get_main_bg_image_rsp as TypesApiAkEndfield.LauncherWebMainBgImage;
-  },
-  banner: async (
+  };
+
+  banner = async (
     appCode: string,
     channel: number,
     subChannel: number,
@@ -118,9 +120,8 @@ export default {
       region === 'cn'
         ? appConfig.network.api.akEndfield.base.launcherCN
         : appConfig.network.api.akEndfield.base.launcher;
-    const rsp = await ky
+    const rsp = await this.ky
       .post(`https://${apiBase}/proxy/web/batch_proxy`, {
-        ...defaultSettings.ky,
         json: {
           proxy_reqs: [
             {
@@ -139,8 +140,9 @@ export default {
       })
       .json();
     return (rsp as any).proxy_rsps[0].get_banner_rsp as TypesApiAkEndfield.LauncherWebBanner;
-  },
-  announcement: async (
+  };
+
+  announcement = async (
     appCode: string,
     channel: number,
     subChannel: number,
@@ -152,9 +154,8 @@ export default {
       region === 'cn'
         ? appConfig.network.api.akEndfield.base.launcherCN
         : appConfig.network.api.akEndfield.base.launcher;
-    const rsp = await ky
+    const rsp = await this.ky
       .post(`https://${apiBase}/proxy/web/batch_proxy`, {
-        ...defaultSettings.ky,
         json: {
           proxy_reqs: [
             {
@@ -173,8 +174,9 @@ export default {
       })
       .json();
     return (rsp as any).proxy_rsps[0].get_announcement_rsp as TypesApiAkEndfield.LauncherWebAnnouncement;
-  },
-  urlConfig: async (
+  };
+
+  urlConfig = async (
     appCode: string,
     channel: number,
     subChannel: number,
@@ -186,9 +188,8 @@ export default {
       region === 'cn'
         ? appConfig.network.api.akEndfield.base.launcherCN
         : appConfig.network.api.akEndfield.base.launcher;
-    const rsp = await ky
+    const rsp = await this.ky
       .post(`https://${apiBase}/proxy/web/batch_proxy`, {
-        ...defaultSettings.ky,
         json: {
           proxy_reqs: [
             {
@@ -207,5 +208,5 @@ export default {
       })
       .json();
     return (rsp as any).proxy_rsps[0].get_url_config_rsp as TypesApiAkEndfield.LauncherWebUrlConfig;
-  },
-};
+  };
+}

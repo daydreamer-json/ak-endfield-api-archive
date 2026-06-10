@@ -1,13 +1,21 @@
-import ky from 'ky';
+import kyFactory from 'ky';
 import semver from 'semver';
 import * as TypesApiAkEndfield from '../../../types/api/akEndfield/Api.js';
 import appConfig from '../../config.js';
 import defaultSettings from './defaultSettings.js';
+import LauncherWeb from './launcherWeb.js';
 
-import launcherWeb from './launcherWeb.js';
+export default class Launcher {
+  public web: LauncherWeb;
 
-export default {
-  protocol: async (
+  constructor(
+    private ky: typeof kyFactory,
+    launcherWeb: LauncherWeb,
+  ) {
+    this.web = launcherWeb;
+  }
+
+  protocol = async (
     appCode: string,
     channel: number,
     subChannel: number,
@@ -19,9 +27,8 @@ export default {
       region === 'cn'
         ? appConfig.network.api.akEndfield.base.launcherCN
         : appConfig.network.api.akEndfield.base.launcher;
-    const rsp = await ky
+    const rsp = await this.ky
       .post(`https://${apiBase}/proxy/batch_proxy`, {
-        ...defaultSettings.ky,
         json: {
           proxy_reqs: [
             {
@@ -39,14 +46,17 @@ export default {
       })
       .json();
     return (rsp as any).proxy_rsps[0].get_protocol as TypesApiAkEndfield.LauncherProtocol;
-  },
-  latestGame: async (
+  };
+
+  latestGame = async (
     appCode: string,
     launcherAppCode: string,
     channel: number,
     subChannel: number,
     launcherSubChannel: number,
     version: string | null,
+    diskType: 0 | 1, // 0=fast (ssd), 1=slow (hdd),
+    patchEncrypt: boolean, // ???
     region: 'os' | 'cn',
   ): Promise<TypesApiAkEndfield.LauncherLatestGame> => {
     if (version !== null && !semver.valid(version)) throw new Error(`Invalid version string (${version})`);
@@ -54,9 +64,8 @@ export default {
       region === 'cn'
         ? appConfig.network.api.akEndfield.base.launcherCN
         : appConfig.network.api.akEndfield.base.launcher;
-    const rsp = await ky
+    const rsp = await this.ky
       .get(`https://${apiBase}/game/get_latest`, {
-        ...defaultSettings.ky,
         searchParams: {
           appcode: appCode,
           launcher_appcode: launcherAppCode,
@@ -64,12 +73,15 @@ export default {
           sub_channel: subChannel,
           launcher_sub_channel: launcherSubChannel,
           version: version ?? undefined,
+          disk_type: diskType,
+          patch_encrypt: String(patchEncrypt),
         },
       })
       .json();
     return rsp as TypesApiAkEndfield.LauncherLatestGame;
-  },
-  latestGameResources: async (
+  };
+
+  latestGameResources = async (
     appCode: string,
     gameVersion: string, // example: 1.0
     version: string,
@@ -82,9 +94,8 @@ export default {
       region === 'cn'
         ? appConfig.network.api.akEndfield.base.launcherCN
         : appConfig.network.api.akEndfield.base.launcher;
-    const rsp = await ky
+    const rsp = await this.ky
       .get(`https://${apiBase}/game/get_latest_resources`, {
-        ...defaultSettings.ky,
         searchParams: {
           appcode: appCode,
           game_version: gameVersion,
@@ -95,8 +106,9 @@ export default {
       })
       .json();
     return rsp as TypesApiAkEndfield.LauncherLatestGameResources;
-  },
-  latestLauncher: async (
+  };
+
+  latestLauncher = async (
     appCode: string,
     channel: number,
     subChannel: number,
@@ -109,9 +121,8 @@ export default {
       region === 'cn'
         ? appConfig.network.api.akEndfield.base.launcherCN
         : appConfig.network.api.akEndfield.base.launcher;
-    const rsp = await ky
+    const rsp = await this.ky
       .get(`https://${apiBase}/launcher/get_latest`, {
-        ...defaultSettings.ky,
         searchParams: {
           appcode: appCode,
           channel,
@@ -122,8 +133,9 @@ export default {
       })
       .json();
     return rsp as TypesApiAkEndfield.LauncherLatestLauncher;
-  },
-  latestLauncherExe: async (
+  };
+
+  latestLauncherExe = async (
     appCode: string,
     channel: number,
     subChannel: number,
@@ -136,9 +148,8 @@ export default {
       region === 'cn'
         ? appConfig.network.api.akEndfield.base.launcherCN
         : appConfig.network.api.akEndfield.base.launcher;
-    const rsp = await ky
+    const rsp = await this.ky
       .get(`https://${apiBase}/launcher/get_latest_launcher`, {
-        ...defaultSettings.ky,
         searchParams: {
           appcode: appCode,
           channel,
@@ -149,6 +160,5 @@ export default {
       })
       .json();
     return rsp as TypesApiAkEndfield.LauncherLatestLauncherExe;
-  },
-  web: launcherWeb,
-};
+  };
+}
