@@ -20,6 +20,7 @@ For a historical overview of game packages and other resources, please click the
 ## Contents of the Archive
 
 The following APIs are currently being monitored:
+
 - Launcher
   - Get latest game (Global, China)
   - Get latest game resources (Global, China)
@@ -36,12 +37,17 @@ The following APIs are currently being monitored:
 
 Most raw data is provided "as-is" without modification. Some files (e.g., `index_*.json`) have been decrypted for readability.
 
-The following data is archived in an external repository:
+The following binary data is archived in an external repository:
+
 - Game packages (.zip)
 - Game patch packages (.zip)
 - Game hotfix resources
   - To avoid the overhead of managing numerous small files, these are bundled into larger chunk files.
 - Launcher packages (.exe, .zip)
+
+> [!NOTE]
+> Starting with the `v1.2.4` game update, the `v2` (HDiff+incremental) method has been adopted for game package patch updates. For details, please see [MEMO.md](memo.md).  
+> Update patches using the legacy `v1` (incremental) method are also available (likely for use with slow storage devices such as HDDs), but they have been excluded from the archive for efficiency.
 
 For a full list of externally archived files, please refer to the mirror list JSON in the `output` directory. (Note: `*_pending` files are temporary files used during the archiving process.)
 
