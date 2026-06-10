@@ -46,7 +46,7 @@ The following binary data is archived in an external repository:
 - Launcher packages (.exe, .zip)
 
 > [!NOTE]
-> Starting with the `v1.2.4` game update, the `v2` (HDiff+incremental) method has been adopted for game package patch updates. For details, please see [MEMO.md](memo.md).  
+> Starting with the `v1.2.4` game update, the `v2` (HDiff+incremental) method has been adopted for game package patch updates. For details, please see [MEMO.md](MEMO.md).  
 > Update patches using the legacy `v1` (incremental) method are also available (likely for use with slow storage devices such as HDDs), but they have been excluded from the archive for efficiency.
 
 For a full list of externally archived files, please refer to the mirror list JSON in the `output` directory. (Note: `*_pending` files are temporary files used during the archiving process.)
