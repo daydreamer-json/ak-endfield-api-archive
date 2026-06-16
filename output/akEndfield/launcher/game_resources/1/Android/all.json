@@ -1790,5 +1790,33 @@
       "patch_index_path": "",
       "domain": "https://beyond.hycdn.cn"
     }
+  },
+  {
+    "updatedAt": "2026-06-16T08:11:01.726+00:00",
+    "req": {
+      "appCode": "6LL0KJuqHBVz33WK",
+      "gameVersion": "1.3",
+      "version": "1.3.3",
+      "randStr": "6ybfbf1qjVugAnB8",
+      "platform": "Android"
+    },
+    "rsp": {
+      "resources": [
+        {
+          "name": "main",
+          "version": "7704057-9",
+          "path": "https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.3/resource/Android/main/7704057-9_NtJM9OA90afcrMDD/files"
+        },
+        {
+          "name": "initial",
+          "version": "7704057-9",
+          "path": "https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.3/resource/Android/initial/7704057-9_m2jctIp7NxiAotCn/files"
+        }
+      ],
+      "configs": "{\"kick_flag\":false}",
+      "res_version": "initial_7704057-9_main_7704057-9",
+      "patch_index_path": "",
+      "domain": "https://beyond.hycdn.cn"
+    }
   }
 ]
