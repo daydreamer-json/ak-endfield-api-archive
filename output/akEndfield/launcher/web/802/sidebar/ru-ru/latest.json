@@ -11,7 +11,7 @@
     "data_version": "",
     "sidebars": [
       {
-        "display_type": "DisplayType_RESERVE",
+        "display_type": "DisplayType_DEFAULT",
         "media": "VK",
         "pic": null,
         "sidebar_labels": [],
@@ -20,7 +20,7 @@
         "need_token": false
       },
       {
-        "display_type": "DisplayType_RESERVE",
+        "display_type": "DisplayType_DEFAULT",
         "media": "Telegram",
         "pic": null,
         "sidebar_labels": [],
@@ -29,7 +29,7 @@
         "need_token": false
       },
       {
-        "display_type": "DisplayType_RESERVE",
+        "display_type": "DisplayType_DEFAULT",
         "media": "Discord",
         "pic": null,
         "sidebar_labels": [],
@@ -38,7 +38,7 @@
         "need_token": false
       },
       {
-        "display_type": "DisplayType_RESERVE",
+        "display_type": "DisplayType_LIST",
         "media": "Skland_gl",
         "pic": {
           "url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/4b/60/4b60b0b4b9aa00534560d651a42d8da8.png",
@@ -49,22 +49,26 @@
           {
             "content": "Ежедневный вход",
             "jump_url": "https://game.skport.com/endfield/sign-in?header=0&hg_media=launcher&hg_link_campaign=icon",
-            "need_token": false
+            "need_token": false,
+            "pic_url": ""
           },
           {
             "content": "Инструменты карты",
             "jump_url": "https://game.skport.com/map/endfield?header=0&hg_media=launcher&hg_link_campaign=icon",
-            "need_token": false
+            "need_token": false,
+            "pic_url": ""
           },
           {
             "content": "Руководство по сборке",
             "jump_url": "https://game.skport.com/tools/endfield/list?header=0&ctr_orientation=landscape&routeId=1&hg_media=launcher&hg_link_campaign=icon",
-            "need_token": false
+            "need_token": false,
+            "pic_url": ""
           },
           {
             "content": "Перейти к SKPORT",
             "jump_url": "https://www.skport.com/?hg_source=official&hg_media=launcher",
-            "need_token": true
+            "need_token": true,
+            "pic_url": ""
           }
         ],
         "grid_info": null,
@@ -72,7 +76,7 @@
         "need_token": true
       },
       {
-        "display_type": "DisplayType_RESERVE",
+        "display_type": "DisplayType_DEFAULT",
         "media": "CS_gl",
         "pic": null,
         "sidebar_labels": [],

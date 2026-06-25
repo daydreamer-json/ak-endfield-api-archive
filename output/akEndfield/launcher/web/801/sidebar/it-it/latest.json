@@ -11,7 +11,7 @@
     "data_version": "",
     "sidebars": [
       {
-        "display_type": "DisplayType_RESERVE",
+        "display_type": "DisplayType_DEFAULT",
         "media": "X",
         "pic": null,
         "sidebar_labels": [],
@@ -20,7 +20,7 @@
         "need_token": false
       },
       {
-        "display_type": "DisplayType_RESERVE",
+        "display_type": "DisplayType_DEFAULT",
         "media": "TikTok",
         "pic": null,
         "sidebar_labels": [],
@@ -29,7 +29,7 @@
         "need_token": false
       },
       {
-        "display_type": "DisplayType_RESERVE",
+        "display_type": "DisplayType_DEFAULT",
         "media": "Facebook",
         "pic": null,
         "sidebar_labels": [],
@@ -38,7 +38,7 @@
         "need_token": false
       },
       {
-        "display_type": "DisplayType_RESERVE",
+        "display_type": "DisplayType_DEFAULT",
         "media": "YouTube",
         "pic": null,
         "sidebar_labels": [],
@@ -47,7 +47,7 @@
         "need_token": false
       },
       {
-        "display_type": "DisplayType_RESERVE",
+        "display_type": "DisplayType_DEFAULT",
         "media": "Discord",
         "pic": null,
         "sidebar_labels": [],
@@ -56,7 +56,7 @@
         "need_token": false
       },
       {
-        "display_type": "DisplayType_RESERVE",
+        "display_type": "DisplayType_LIST",
         "media": "Skland_gl",
         "pic": {
           "url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/b0/11/b011a488356bf5966f97d8087c0855f2.png",
@@ -67,22 +67,26 @@
           {
             "content": "Accesso giornaliero",
             "jump_url": "https://game.skport.com/endfield/sign-in?header=0&hg_media=launcher&hg_link_campaign=icon",
-            "need_token": false
+            "need_token": false,
+            "pic_url": ""
           },
           {
             "content": "Strumenti mappa",
             "jump_url": "https://game.skport.com/map/endfield?header=0&hg_media=launcher&hg_link_campaign=icon",
-            "need_token": false
+            "need_token": false,
+            "pic_url": ""
           },
           {
             "content": "Guida sulle build",
             "jump_url": "https://game.skport.com/tools/endfield/list?header=0&ctr_orientation=landscape&routeId=1&hg_media=launcher&hg_link_campaign=icon",
-            "need_token": false
+            "need_token": false,
+            "pic_url": ""
           },
           {
             "content": "Vai alla SKPORT",
             "jump_url": "https://www.skport.com/?hg_source=official&hg_media=launcher",
-            "need_token": true
+            "need_token": true,
+            "pic_url": ""
           }
         ],
         "grid_info": null,
@@ -90,19 +94,21 @@
         "need_token": true
       },
       {
-        "display_type": "DisplayType_RESERVE",
+        "display_type": "DisplayType_LIST",
         "media": "CS_gl",
         "pic": null,
         "sidebar_labels": [
           {
             "content": "CONTATTACI",
             "jump_url": "https://gryphline.helpshift.com/hc/it/4-arknights-endfield/",
-            "need_token": true
+            "need_token": true,
+            "pic_url": ""
           },
           {
             "content": "Centro di ricarica",
             "jump_url": "https://topup.gryphline.com/endfield/?source_from=launcher",
-            "need_token": true
+            "need_token": true,
+            "pic_url": ""
           }
         ],
         "grid_info": null,
