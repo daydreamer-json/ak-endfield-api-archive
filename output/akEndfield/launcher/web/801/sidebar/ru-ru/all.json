@@ -769,5 +769,142 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-07-13T12:25:50.931+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "channel": 6,
+      "subChannel": 801,
+      "lang": "ru-ru",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "sidebars": [
+        {
+          "display_type": "DisplayType_DEFAULT",
+          "media": "VK",
+          "pic": null,
+          "sidebar_labels": [],
+          "grid_info": null,
+          "jump_url": "https://vk.com/akendfieldru",
+          "need_token": false
+        },
+        {
+          "display_type": "DisplayType_DEFAULT",
+          "media": "Telegram",
+          "pic": null,
+          "sidebar_labels": [],
+          "grid_info": null,
+          "jump_url": "https://t.me/AKEndfieldRU",
+          "need_token": false
+        },
+        {
+          "display_type": "DisplayType_DEFAULT",
+          "media": "Discord",
+          "pic": null,
+          "sidebar_labels": [],
+          "grid_info": null,
+          "jump_url": "https://discord.com/invite/akendfield",
+          "need_token": false
+        },
+        {
+          "display_type": "DisplayType_LIST",
+          "media": "Skland_gl",
+          "pic": {
+            "url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/4b/60/4b60b0b4b9aa00534560d651a42d8da8.png",
+            "md5": "b50505ca1ec2e22928aea67ff70e4d7c",
+            "description": "Отсканируйте для загрузки приложения SKPORT"
+          },
+          "sidebar_labels": [
+            {
+              "content": "Ежедневный вход",
+              "jump_url": "https://game.skport.com/endfield/sign-in?header=0&hg_media=launcher&hg_link_campaign=icon",
+              "need_token": false,
+              "pic_url": ""
+            },
+            {
+              "content": "Перейти к SKPORT",
+              "jump_url": "https://www.skport.com/?hg_source=official&hg_media=launcher",
+              "need_token": true,
+              "pic_url": ""
+            }
+          ],
+          "grid_info": null,
+          "jump_url": "https://www.skport.com/?hg_source=official&hg_media=launcher",
+          "need_token": true
+        },
+        {
+          "display_type": "DisplayType_LIST",
+          "media": "CS_gl",
+          "pic": null,
+          "sidebar_labels": [
+            {
+              "content": "КОНТАКТЫ",
+              "jump_url": "https://gryphline.helpshift.com/hc/ru/4-arknights-endfield/",
+              "need_token": true,
+              "pic_url": ""
+            },
+            {
+              "content": "Центр пополнения",
+              "jump_url": "https://topup.gryphline.com/endfield/?source_from=launcher",
+              "need_token": true,
+              "pic_url": ""
+            }
+          ],
+          "grid_info": null,
+          "jump_url": "",
+          "need_token": false
+        },
+        {
+          "display_type": "DisplayType_GRID",
+          "media": "SklandTool",
+          "pic": null,
+          "sidebar_labels": [
+            {
+              "content": "Ежедневный вход",
+              "jump_url": "https://game.skport.com/endfield/sign-in?header=0&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=signin",
+              "need_token": true,
+              "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/92/99/9299309a02f9ea19fd681cfb7d178aa9.png"
+            },
+            {
+              "content": "протокольный терминал",
+              "jump_url": "https://game.skport.com/endfield/game-data?header=0&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=ProtocolTerminal",
+              "need_token": true,
+              "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/f7/5f/f75fa2e85586af19706c5e45eea9a882.png"
+            },
+            {
+              "content": "Подборка команд",
+              "jump_url": "https://game.skport.com/tools/endfield/list?header=0&ctr_orientation=landscape&routeId=0&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=teampick",
+              "need_token": true,
+              "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/5a/4b/5a4b71ff3f892022d9b2011767616986.png"
+            },
+            {
+              "content": "Инструменты карты",
+              "jump_url": "https://game.skport.com/map/endfield?header=0&ctr_orientation=landscape&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=maptool",
+              "need_token": true,
+              "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/5c/65/5c65ddc699e3dfa162bd4f79422baa27.png"
+            },
+            {
+              "content": "WIKI",
+              "jump_url": "https://wiki.skport.com/endfield?/hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=wiki",
+              "need_token": false,
+              "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/d6/20/d6206a02f4eb8655b0ddad5c926fd866.png"
+            },
+            {
+              "content": "Руководство по сборке",
+              "jump_url": "https://game.skport.com/tools/endfield/list?header=0&ctr_orientation=landscape&routeId=1&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=buildguide",
+              "need_token": true,
+              "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/42/e6/42e6b36cfe59d88a3492e1613c3e4db3.png"
+            }
+          ],
+          "grid_info": null,
+          "jump_url": "",
+          "need_token": true
+        }
+      ]
+    }
   }
 ]
