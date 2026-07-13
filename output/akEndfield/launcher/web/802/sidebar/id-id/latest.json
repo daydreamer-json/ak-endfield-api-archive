@@ -71,18 +71,6 @@
             "pic_url": ""
           },
           {
-            "content": "Alat Peta",
-            "jump_url": "https://game.skport.com/map/endfield?header=0&hg_media=launcher&hg_link_campaign=icon",
-            "need_token": false,
-            "pic_url": ""
-          },
-          {
-            "content": "Panduan Build",
-            "jump_url": "https://game.skport.com/tools/endfield/list?header=0&ctr_orientation=landscape&routeId=1&hg_media=launcher&hg_link_campaign=icon",
-            "need_token": false,
-            "pic_url": ""
-          },
-          {
             "content": "Buka SKPORT",
             "jump_url": "https://www.skport.com/?hg_source=official&hg_media=launcher",
             "need_token": true,
@@ -100,6 +88,52 @@
         "sidebar_labels": [],
         "grid_info": null,
         "jump_url": "https://gryphline.helpshift.com/hc/id/4-arknights-endfield/",
+        "need_token": true
+      },
+      {
+        "display_type": "DisplayType_GRID",
+        "media": "SklandTool",
+        "pic": null,
+        "sidebar_labels": [
+          {
+            "content": "Sign in Harian",
+            "jump_url": "https://game.skport.com/endfield/sign-in?header=0&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=signin",
+            "need_token": true,
+            "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/9c/f2/9cf2032c99bda6e0589a3c0807e67ab5.png"
+          },
+          {
+            "content": "Terminal Protokol",
+            "jump_url": "https://game.skport.com/endfield/game-data?header=0&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=ProtocolTerminal",
+            "need_token": true,
+            "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/d9/41/d941fe56132efa14ebfb92c9bb5e676e.png"
+          },
+          {
+            "content": "Panduan Build",
+            "jump_url": "https://game.skport.com/tools/endfield/list?header=0&ctr_orientation=landscape&routeId=1&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=buildguide",
+            "need_token": true,
+            "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/f4/d2/f4d28f7ddd89e91a94a0d70d5dd8f579.png"
+          },
+          {
+            "content": "Pilihan Tim",
+            "jump_url": "https://game.skport.com/tools/endfield/list?header=0&ctr_orientation=landscape&routeId=0&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=teampick",
+            "need_token": true,
+            "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/72/0d/720d6ec6e30c68861cfe772fcd2ebb52.png"
+          },
+          {
+            "content": "Alat Peta",
+            "jump_url": "https://game.skport.com/map/endfield?header=0&ctr_orientation=landscape&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=maptool",
+            "need_token": true,
+            "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/fd/ff/fdff5e78a20b9909ca434bab459bdac4.png"
+          },
+          {
+            "content": "WIKI",
+            "jump_url": "https://wiki.skport.com/endfield?/hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=wiki",
+            "need_token": false,
+            "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/32/f8/32f882bd5664955c2eae049662ae97b0.png"
+          }
+        ],
+        "grid_info": null,
+        "jump_url": "",
         "need_token": true
       }
     ]

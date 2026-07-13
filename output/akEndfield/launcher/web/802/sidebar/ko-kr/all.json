@@ -422,5 +422,147 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-07-13T08:16:01.818+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "channel": 6,
+      "subChannel": 802,
+      "lang": "ko-kr",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "sidebars": [
+        {
+          "display_type": "DisplayType_DEFAULT",
+          "media": "NAVER_GAME",
+          "pic": null,
+          "sidebar_labels": [],
+          "grid_info": null,
+          "jump_url": "https://game.naver.com/lounge/Arknights_Endfield",
+          "need_token": false
+        },
+        {
+          "display_type": "DisplayType_DEFAULT",
+          "media": "X",
+          "pic": null,
+          "sidebar_labels": [],
+          "grid_info": null,
+          "jump_url": "https://x.com/AKEndfieldKR",
+          "need_token": false
+        },
+        {
+          "display_type": "DisplayType_DEFAULT",
+          "media": "Facebook",
+          "pic": null,
+          "sidebar_labels": [],
+          "grid_info": null,
+          "jump_url": "https://www.facebook.com/ArknightsEndfieldKR",
+          "need_token": false
+        },
+        {
+          "display_type": "DisplayType_DEFAULT",
+          "media": "YouTube",
+          "pic": null,
+          "sidebar_labels": [],
+          "grid_info": null,
+          "jump_url": "https://www.youtube.com/channel/UCIf9gYpmmIJV7flBhUhuqYQ",
+          "need_token": false
+        },
+        {
+          "display_type": "DisplayType_DEFAULT",
+          "media": "Discord",
+          "pic": null,
+          "sidebar_labels": [],
+          "grid_info": null,
+          "jump_url": "https://discord.com/invite/akendfield",
+          "need_token": false
+        },
+        {
+          "display_type": "DisplayType_LIST",
+          "media": "Skland_gl",
+          "pic": {
+            "url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/18/d0/18d0b69f5b6f100f5eec0a3a4962727c.png",
+            "md5": "b50505ca1ec2e22928aea67ff70e4d7c",
+            "description": "QR 코드를 스캔하여 SKPORT APP 다운로드"
+          },
+          "sidebar_labels": [
+            {
+              "content": "일일 출석 체크",
+              "jump_url": "https://game.skport.com/endfield/sign-in?header=0&hg_media=launcher&hg_link_campaign=icon",
+              "need_token": false,
+              "pic_url": ""
+            },
+            {
+              "content": "SKPORT 이동",
+              "jump_url": "https://www.skport.com/?hg_source=official&hg_media=launcher",
+              "need_token": true,
+              "pic_url": ""
+            }
+          ],
+          "grid_info": null,
+          "jump_url": "https://www.skport.com/?hg_source=official&hg_media=launcher",
+          "need_token": true
+        },
+        {
+          "display_type": "DisplayType_DEFAULT",
+          "media": "CS_gl",
+          "pic": null,
+          "sidebar_labels": [],
+          "grid_info": null,
+          "jump_url": "https://gryphline.helpshift.com/hc/ko/4-arknights-endfield/",
+          "need_token": true
+        },
+        {
+          "display_type": "DisplayType_GRID",
+          "media": "SklandTool",
+          "pic": null,
+          "sidebar_labels": [
+            {
+              "content": "일일 출석 체크",
+              "jump_url": "https://game.skport.com/endfield/sign-in?header=0&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=signin",
+              "need_token": true,
+              "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/01/50/01504f08309d5191f554c67366b92033.png"
+            },
+            {
+              "content": "프로토콜 단말기",
+              "jump_url": "https://game.skport.com/endfield/game-data?header=0&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=ProtocolTerminal",
+              "need_token": true,
+              "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/a0/8a/a08ac0ce28d79ad6f1691fee115697be.png"
+            },
+            {
+              "content": "추천 육성",
+              "jump_url": "https://game.skport.com/tools/endfield/list?header=0&ctr_orientation=landscape&routeId=1&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=buildguide",
+              "need_token": true,
+              "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/e7/99/e7996a5df80b8fe1c2d64a65b119f7ad.png"
+            },
+            {
+              "content": "추천 팀 편성",
+              "jump_url": "https://game.skport.com/tools/endfield/list?header=0&ctr_orientation=landscape&routeId=0&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=teampick",
+              "need_token": true,
+              "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/bd/34/bd34903bf1111b5cbbd56aec48eaba41.png"
+            },
+            {
+              "content": "지도 도구",
+              "jump_url": "https://game.skport.com/map/endfield?header=0&ctr_orientation=landscape&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=maptool",
+              "need_token": true,
+              "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/2e/b8/2eb83961f2812c5bcfa248a07289dfe1.png"
+            },
+            {
+              "content": "WIKI",
+              "jump_url": "https://wiki.skport.com/endfield?/hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=wiki",
+              "need_token": false,
+              "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/98/1c/981cbdb305fdd890a2fac68b03f92dbd.png"
+            }
+          ],
+          "grid_info": null,
+          "jump_url": "",
+          "need_token": true
+        }
+      ]
+    }
   }
 ]

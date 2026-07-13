@@ -350,5 +350,129 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-07-13T08:16:01.405+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "channel": 6,
+      "subChannel": 802,
+      "lang": "es-mx",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "sidebars": [
+        {
+          "display_type": "DisplayType_DEFAULT",
+          "media": "X",
+          "pic": null,
+          "sidebar_labels": [],
+          "grid_info": null,
+          "jump_url": "https://x.com/AKEndfieldES",
+          "need_token": false
+        },
+        {
+          "display_type": "DisplayType_DEFAULT",
+          "media": "TikTok",
+          "pic": null,
+          "sidebar_labels": [],
+          "grid_info": null,
+          "jump_url": "https://www.tiktok.com/@akendfield_es",
+          "need_token": false
+        },
+        {
+          "display_type": "DisplayType_DEFAULT",
+          "media": "Discord",
+          "pic": null,
+          "sidebar_labels": [],
+          "grid_info": null,
+          "jump_url": "https://discord.com/invite/akendfield",
+          "need_token": false
+        },
+        {
+          "display_type": "DisplayType_LIST",
+          "media": "Skland_gl",
+          "pic": {
+            "url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/00/56/005624a0194359bcd474bb78bf00dd04.png",
+            "md5": "7841a58945ef62a3cb76fbb4ecbafee8",
+            "description": "Escanea para descargar la aplicación de SKPORT"
+          },
+          "sidebar_labels": [
+            {
+              "content": "Registro diario",
+              "jump_url": "https://game.skport.com/endfield/sign-in?header=0&hg_media=launcher&hg_link_campaign=icon",
+              "need_token": false,
+              "pic_url": ""
+            },
+            {
+              "content": "Ir a SKPORT",
+              "jump_url": "https://www.skport.com/?hg_source=official&hg_media=launcher",
+              "need_token": true,
+              "pic_url": ""
+            }
+          ],
+          "grid_info": null,
+          "jump_url": "https://www.skport.com/?hg_source=official&hg_media=launcher",
+          "need_token": true
+        },
+        {
+          "display_type": "DisplayType_DEFAULT",
+          "media": "CS_gl",
+          "pic": null,
+          "sidebar_labels": [],
+          "grid_info": null,
+          "jump_url": "https://gryphline.helpshift.com/hc/es-419/4-arknights-endfield/",
+          "need_token": true
+        },
+        {
+          "display_type": "DisplayType_GRID",
+          "media": "SklandTool",
+          "pic": null,
+          "sidebar_labels": [
+            {
+              "content": "Registro diario",
+              "jump_url": "https://game.skport.com/endfield/sign-in?header=0&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=signin",
+              "need_token": true,
+              "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/9d/16/9d16d95a9f75a7751a34f4e8b84fcd9b.png"
+            },
+            {
+              "content": "Terminal de protocolo",
+              "jump_url": "https://game.skport.com/endfield/game-data?header=0&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=ProtocolTerminal",
+              "need_token": true,
+              "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/fb/a4/fba482d2428d70ace9dcef1afda34526.png"
+            },
+            {
+              "content": "Guía de estrategia",
+              "jump_url": "https://game.skport.com/tools/endfield/list?header=0&ctr_orientation=landscape&routeId=1&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=buildguide",
+              "need_token": true,
+              "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/5d/56/5d56131bd0a87a47bcd0efd9dd239622.png"
+            },
+            {
+              "content": "Selecciones de equipo",
+              "jump_url": "https://game.skport.com/tools/endfield/list?header=0&ctr_orientation=landscape&routeId=0&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=teampick",
+              "need_token": true,
+              "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/1e/a0/1ea07f591dca47e6f7fb6710691f999c.png"
+            },
+            {
+              "content": "Herramientas de mapa",
+              "jump_url": "https://game.skport.com/map/endfield?header=0&ctr_orientation=landscape&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=maptool",
+              "need_token": true,
+              "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/ce/ce/cece87ad8759102ab08e2f6faa9c686e.png"
+            },
+            {
+              "content": "WIKI",
+              "jump_url": "https://wiki.skport.com/endfield?/hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=wiki",
+              "need_token": false,
+              "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/c3/f7/c3f7577f7ab184dcd8dee5728b53b54a.png"
+            }
+          ],
+          "grid_info": null,
+          "jump_url": "",
+          "need_token": true
+        }
+      ]
+    }
   }
 ]

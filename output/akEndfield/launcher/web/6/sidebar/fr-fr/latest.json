@@ -71,18 +71,6 @@
             "pic_url": ""
           },
           {
-            "content": "Outils de carte",
-            "jump_url": "https://game.skport.com/map/endfield?header=0&hg_media=launcher&hg_link_campaign=icon",
-            "need_token": false,
-            "pic_url": ""
-          },
-          {
-            "content": "Guide de build",
-            "jump_url": "https://game.skport.com/tools/endfield/list?header=0&ctr_orientation=landscape&routeId=1&hg_media=launcher&hg_link_campaign=icon",
-            "need_token": false,
-            "pic_url": ""
-          },
-          {
             "content": "Aller à SKPORT",
             "jump_url": "https://www.skport.com/?hg_source=official&hg_media=launcher",
             "need_token": true,
@@ -114,6 +102,52 @@
         "grid_info": null,
         "jump_url": "",
         "need_token": false
+      },
+      {
+        "display_type": "DisplayType_GRID",
+        "media": "SklandTool",
+        "pic": null,
+        "sidebar_labels": [
+          {
+            "content": "Connexion quotidienne",
+            "jump_url": "https://game.skport.com/endfield/sign-in?header=0&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=signin",
+            "need_token": true,
+            "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/d4/e0/d4e0eea5c63ff3695b092842280ff793.png"
+          },
+          {
+            "content": "Terminal du Protocole",
+            "jump_url": "https://game.skport.com/endfield/game-data?header=0&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=ProtocolTerminal",
+            "need_token": true,
+            "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/bf/a6/bfa6071e347821dfbd128625783bb47c.png"
+          },
+          {
+            "content": "Guide de build",
+            "jump_url": "https://game.skport.com/tools/endfield/list?header=0&ctr_orientation=landscape&routeId=1&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=buildguide",
+            "need_token": true,
+            "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/67/d5/67d538c76dd3e1d86dba6fd47cc9f45e.png"
+          },
+          {
+            "content": "Sélections d'équipe",
+            "jump_url": "https://game.skport.com/tools/endfield/list?header=0&ctr_orientation=landscape&routeId=0&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=teampick",
+            "need_token": true,
+            "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/19/a7/19a7dd96b1f145c310b70e43b0fe629b.png"
+          },
+          {
+            "content": "Outils de carte",
+            "jump_url": "https://game.skport.com/map/endfield?header=0&ctr_orientation=landscape&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=maptool",
+            "need_token": true,
+            "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/60/ee/60ee4d553a93a7fbfd3fc55852ae7022.png"
+          },
+          {
+            "content": "WIKI",
+            "jump_url": "https://wiki.skport.com/endfield?/hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=wiki",
+            "need_token": false,
+            "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/2d/1b/2d1b671ad7bcb0c6a901a8d02cd0e2fd.png"
+          }
+        ],
+        "grid_info": null,
+        "jump_url": "",
+        "need_token": true
       }
     ]
   }

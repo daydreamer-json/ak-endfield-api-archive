@@ -111,6 +111,52 @@
         "grid_info": null,
         "jump_url": "",
         "need_token": false
+      },
+      {
+        "display_type": "DisplayType_GRID",
+        "media": "SklandTool",
+        "pic": null,
+        "sidebar_labels": [
+          {
+            "content": "Daily Sign-in",
+            "jump_url": "https://game.skport.com/endfield/sign-in?header=0&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=signin",
+            "need_token": true,
+            "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/dc/5b/dc5b223e36be03899d5ac7d1635575bc.png"
+          },
+          {
+            "content": "Protocol Terminal",
+            "jump_url": "https://game.skport.com/endfield/game-data?header=0&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=ProtocolTerminal",
+            "need_token": true,
+            "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/01/aa/01aae6e2e9a63f0dd1c48deec5c6a485.png"
+          },
+          {
+            "content": "Build Guide",
+            "jump_url": "https://game.skport.com/tools/endfield/list?header=0&ctr_orientation=landscape&routeId=1&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=buildguide",
+            "need_token": true,
+            "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/fe/18/fe182f65e873b9352465716844af49b7.png"
+          },
+          {
+            "content": "Team Picks",
+            "jump_url": "https://game.skport.com/tools/endfield/list?header=0&ctr_orientation=landscape&routeId=0&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=teampick",
+            "need_token": true,
+            "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/14/12/141273fa923f3800cbfcd1a359b91a42.png"
+          },
+          {
+            "content": "Map Tools",
+            "jump_url": "https://game.skport.com/map/endfield?header=0&ctr_orientation=landscape&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=maptool",
+            "need_token": true,
+            "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/32/3e/323e4692899e422701bf0a723a1f4cfb.png"
+          },
+          {
+            "content": "WIKI",
+            "jump_url": "https://wiki.skport.com/endfield?/hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=wiki",
+            "need_token": false,
+            "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/82/3f/823fd9b8f8dffdaf6c33464a484eeea3.png"
+          }
+        ],
+        "grid_info": null,
+        "jump_url": "",
+        "need_token": true
       }
     ]
   }
