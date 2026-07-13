@@ -686,5 +686,151 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-07-13T09:01:27.712+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "channel": 6,
+      "subChannel": 6,
+      "lang": "ja-jp",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "sidebars": [
+        {
+          "display_type": "DisplayType_DEFAULT",
+          "media": "X",
+          "pic": null,
+          "sidebar_labels": [],
+          "grid_info": null,
+          "jump_url": "https://x.com/AKEndfieldJP",
+          "need_token": false
+        },
+        {
+          "display_type": "DisplayType_DEFAULT",
+          "media": "YouTube",
+          "pic": null,
+          "sidebar_labels": [],
+          "grid_info": null,
+          "jump_url": "https://www.youtube.com/channel/UCGVCAOZvDH7_fmuRVxkusFQ",
+          "need_token": false
+        },
+        {
+          "display_type": "DisplayType_DEFAULT",
+          "media": "Discord",
+          "pic": null,
+          "sidebar_labels": [],
+          "grid_info": null,
+          "jump_url": "https://discord.com/invite/akendfield",
+          "need_token": false
+        },
+        {
+          "display_type": "DisplayType_DEFAULT",
+          "media": "TikTok",
+          "pic": null,
+          "sidebar_labels": [],
+          "grid_info": null,
+          "jump_url": "https://www.tiktok.com/@akendfieldjp",
+          "need_token": false
+        },
+        {
+          "display_type": "DisplayType_LIST",
+          "media": "Skland_gl",
+          "pic": {
+            "url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/b0/60/b0602ca3615569a71e4e6b04317672af.png",
+            "md5": "b50505ca1ec2e22928aea67ff70e4d7c",
+            "description": "QRコードからSKPORTアプリをダウンロード"
+          },
+          "sidebar_labels": [
+            {
+              "content": "スタンプラリー",
+              "jump_url": "https://game.skport.com/endfield/sign-in?header=0&hg_media=launcher&hg_link_campaign=icon",
+              "need_token": false,
+              "pic_url": ""
+            },
+            {
+              "content": "SKPORTに移動",
+              "jump_url": "https://www.skport.com/?hg_source=official&hg_media=launcher",
+              "need_token": true,
+              "pic_url": ""
+            }
+          ],
+          "grid_info": null,
+          "jump_url": "https://www.skport.com/?hg_source=official&hg_media=launcher",
+          "need_token": true
+        },
+        {
+          "display_type": "DisplayType_LIST",
+          "media": "CS_gl",
+          "pic": null,
+          "sidebar_labels": [
+            {
+              "content": "お問合せ",
+              "jump_url": "https://gryphline.helpshift.com/hc/ja/4-arknights-endfield/",
+              "need_token": true,
+              "pic_url": ""
+            },
+            {
+              "content": "チャージセンター",
+              "jump_url": "https://topup.gryphline.com/endfield/?source_from=launcher",
+              "need_token": true,
+              "pic_url": ""
+            }
+          ],
+          "grid_info": null,
+          "jump_url": "",
+          "need_token": false
+        },
+        {
+          "display_type": "DisplayType_GRID",
+          "media": "SklandTool",
+          "pic": null,
+          "sidebar_labels": [
+            {
+              "content": "スタンプラリー",
+              "jump_url": "https://game.skport.com/endfield/sign-in?header=0&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=signin",
+              "need_token": true,
+              "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/dc/83/dc8318239255c71b3a64e8fd1ed54a34.png"
+            },
+            {
+              "content": "協約ターミナル",
+              "jump_url": "https://game.skport.com/endfield/game-data?header=0&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=ProtocolTerminal",
+              "need_token": true,
+              "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/4e/21/4e21fb548d349a453047e955a3d94def.png"
+            },
+            {
+              "content": "おすすめ育成",
+              "jump_url": "https://game.skport.com/tools/endfield/list?header=0&ctr_orientation=landscape&routeId=1&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=buildguide",
+              "need_token": true,
+              "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/1f/4a/1f4a89876f76ba149a88c4561cda461a.png"
+            },
+            {
+              "content": "おすすめ編成",
+              "jump_url": "https://game.skport.com/tools/endfield/list?header=0&ctr_orientation=landscape&routeId=0&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=teampick",
+              "need_token": true,
+              "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/f6/f1/f6f10f964cf8571bb7b47987e4f441cf.png"
+            },
+            {
+              "content": "マップツール",
+              "jump_url": "https://game.skport.com/map/endfield?header=0&ctr_orientation=landscape&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=maptool",
+              "need_token": true,
+              "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/5d/57/5d57f6e43f11f4cb9b4684f43e887e2a.png"
+            },
+            {
+              "content": "Wiki",
+              "jump_url": "https://wiki.skport.com/endfield?/hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=wiki",
+              "need_token": false,
+              "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/bc/cf/bccf4eccb268d44bee61d489eedfcb17.png"
+            }
+          ],
+          "grid_info": null,
+          "jump_url": "",
+          "need_token": false
+        }
+      ]
+    }
   }
 ]

@@ -740,5 +740,160 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-07-13T09:01:29.247+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "channel": 6,
+      "subChannel": 801,
+      "lang": "ko-kr",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "sidebars": [
+        {
+          "display_type": "DisplayType_DEFAULT",
+          "media": "NAVER_GAME",
+          "pic": null,
+          "sidebar_labels": [],
+          "grid_info": null,
+          "jump_url": "https://game.naver.com/lounge/Arknights_Endfield",
+          "need_token": false
+        },
+        {
+          "display_type": "DisplayType_DEFAULT",
+          "media": "X",
+          "pic": null,
+          "sidebar_labels": [],
+          "grid_info": null,
+          "jump_url": "https://x.com/AKEndfieldKR",
+          "need_token": false
+        },
+        {
+          "display_type": "DisplayType_DEFAULT",
+          "media": "Facebook",
+          "pic": null,
+          "sidebar_labels": [],
+          "grid_info": null,
+          "jump_url": "https://www.facebook.com/ArknightsEndfieldKR",
+          "need_token": false
+        },
+        {
+          "display_type": "DisplayType_DEFAULT",
+          "media": "YouTube",
+          "pic": null,
+          "sidebar_labels": [],
+          "grid_info": null,
+          "jump_url": "https://www.youtube.com/channel/UCIf9gYpmmIJV7flBhUhuqYQ",
+          "need_token": false
+        },
+        {
+          "display_type": "DisplayType_DEFAULT",
+          "media": "Discord",
+          "pic": null,
+          "sidebar_labels": [],
+          "grid_info": null,
+          "jump_url": "https://discord.com/invite/akendfield",
+          "need_token": false
+        },
+        {
+          "display_type": "DisplayType_LIST",
+          "media": "Skland_gl",
+          "pic": {
+            "url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/18/d0/18d0b69f5b6f100f5eec0a3a4962727c.png",
+            "md5": "b50505ca1ec2e22928aea67ff70e4d7c",
+            "description": "QR 코드를 스캔하여 SKPORT APP 다운로드"
+          },
+          "sidebar_labels": [
+            {
+              "content": "일일 출석 체크",
+              "jump_url": "https://game.skport.com/endfield/sign-in?header=0&hg_media=launcher&hg_link_campaign=icon",
+              "need_token": false,
+              "pic_url": ""
+            },
+            {
+              "content": "SKPORT 이동",
+              "jump_url": "https://www.skport.com/?hg_source=official&hg_media=launcher",
+              "need_token": true,
+              "pic_url": ""
+            }
+          ],
+          "grid_info": null,
+          "jump_url": "https://www.skport.com/?hg_source=official&hg_media=launcher",
+          "need_token": true
+        },
+        {
+          "display_type": "DisplayType_LIST",
+          "media": "CS_gl",
+          "pic": null,
+          "sidebar_labels": [
+            {
+              "content": "고객센터",
+              "jump_url": "https://gryphline.helpshift.com/hc/ko/4-arknights-endfield/",
+              "need_token": true,
+              "pic_url": ""
+            },
+            {
+              "content": "충전센터",
+              "jump_url": "https://topup.gryphline.com/endfield/?source_from=launcher",
+              "need_token": true,
+              "pic_url": ""
+            }
+          ],
+          "grid_info": null,
+          "jump_url": "",
+          "need_token": false
+        },
+        {
+          "display_type": "DisplayType_GRID",
+          "media": "SklandTool",
+          "pic": null,
+          "sidebar_labels": [
+            {
+              "content": "일일 출석 체크",
+              "jump_url": "https://game.skport.com/endfield/sign-in?header=0&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=signin",
+              "need_token": true,
+              "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/93/29/93290b762d49bfe391b93fed34644a53.png"
+            },
+            {
+              "content": "프로토콜 단말기",
+              "jump_url": "https://game.skport.com/endfield/game-data?header=0&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=ProtocolTerminal",
+              "need_token": true,
+              "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/a2/e4/a2e4210905e36fe1c69c2f9ead27d5f0.png"
+            },
+            {
+              "content": "추천 육성",
+              "jump_url": "https://game.skport.com/tools/endfield/list?header=0&ctr_orientation=landscape&routeId=1&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=buildguide",
+              "need_token": true,
+              "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/4e/bb/4ebbbdbf831abd82a8a1e36a35d805d8.png"
+            },
+            {
+              "content": "추천 팀 편성",
+              "jump_url": "https://game.skport.com/tools/endfield/list?header=0&ctr_orientation=landscape&routeId=0&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=teampick",
+              "need_token": true,
+              "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/69/fe/69fe252ea2f85a59af3d333495ccd302.png"
+            },
+            {
+              "content": "지도 도구",
+              "jump_url": "https://game.skport.com/map/endfield?header=0&ctr_orientation=landscape&hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=maptool",
+              "need_token": true,
+              "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/9e/14/9e14e7d57e66e2ba001c667687616f2f.png"
+            },
+            {
+              "content": "WIKI",
+              "jump_url": "https://wiki.skport.com/endfield?/hg_media=launcher&hg_link_campaign=ninesquare&hg_link_name=wiki",
+              "need_token": false,
+              "pic_url": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/fe/6f/fe6f94b5c7a6ddff7febcaf687a7fbef.png"
+            }
+          ],
+          "grid_info": null,
+          "jump_url": "",
+          "need_token": true
+        }
+      ]
+    }
   }
 ]
