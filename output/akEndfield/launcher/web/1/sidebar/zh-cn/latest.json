@@ -18,32 +18,7 @@
           "md5": "5dfe04a8e109f6f6943609245e6e311d",
           "description": "扫码下载官方社区"
         },
-        "sidebar_labels": [
-          {
-            "content": "WIKI",
-            "jump_url": "https://wiki.skland.com/endfield?hg_media=launcher&hg_link_campaign=icon",
-            "need_token": true,
-            "pic_url": ""
-          },
-          {
-            "content": "地图工具",
-            "jump_url": "https://game.skland.com/map/endfield?header=0&hg_media=launcher&hg_link_campaign=icon",
-            "need_token": true,
-            "pic_url": ""
-          },
-          {
-            "content": "养成建议",
-            "jump_url": "https://game.skland.com/tools/endfield/build-guide?header=0&ctr_orientation=landscape&routeId=1&hg_media=launcher&hg_link_campaign=icon",
-            "need_token": true,
-            "pic_url": ""
-          },
-          {
-            "content": "配队推荐",
-            "jump_url": "https://game.skland.com/tools/endfield/rec-team?header=0&ctr_orientation=landscape&routeId=0&hg_media=launcher&hg_link_campaign=icon",
-            "need_token": true,
-            "pic_url": ""
-          }
-        ],
+        "sidebar_labels": [],
         "grid_info": null,
         "jump_url": "https://www.skland.com/game/endfield?cateId=16&hg_media=launcher",
         "need_token": true
@@ -141,6 +116,52 @@
         "grid_info": null,
         "jump_url": "",
         "need_token": true
+      },
+      {
+        "display_type": "DisplayType_GRID",
+        "media": "SklandTool",
+        "pic": null,
+        "sidebar_labels": [
+          {
+            "content": "每日签到",
+            "jump_url": "https://game.skland.com/endfield/sign-in?header=0&hg_media=launcher&hg_link_campaign=icon",
+            "need_token": true,
+            "pic_url": "https://hg-utils-public.hycdn.cn/hg-utils/prod/eppcsuwqpaueijqk/6LL0KJuqHBVz33WK/5d/04/5d04098cdcb28537ca1d375b0d8c28e1.png"
+          },
+          {
+            "content": "协议终端",
+            "jump_url": "https://game.skland.com/endfield/game-data?header=0&hg_media=launcher&hg_link_campaign=icon",
+            "need_token": true,
+            "pic_url": "https://hg-utils-public.hycdn.cn/hg-utils/prod/eppcsuwqpaueijqk/6LL0KJuqHBVz33WK/2b/7c/2b7ca63d145db6f227326e68e2516d7e.png"
+          },
+          {
+            "content": "配队推荐",
+            "jump_url": "https://game.skland.com/tools/endfield/rec-team?header=0&ctr_orientation=landscape&routeId=0&hg_media=launcher&hg_link_campaign=icon",
+            "need_token": true,
+            "pic_url": "https://hg-utils-public.hycdn.cn/hg-utils/prod/eppcsuwqpaueijqk/6LL0KJuqHBVz33WK/12/d3/12d3bf2445a883b4666a7bb162429ae8.png"
+          },
+          {
+            "content": "地图工具",
+            "jump_url": "https://game.skland.com/map/endfield?header=0&hg_media=launcher&hg_link_campaign=icon",
+            "need_token": true,
+            "pic_url": "https://hg-utils-public.hycdn.cn/hg-utils/prod/eppcsuwqpaueijqk/6LL0KJuqHBVz33WK/52/02/5202c837fa6c925ecfd2928d3d0b4676.png"
+          },
+          {
+            "content": "WIKI",
+            "jump_url": "https://wiki.skland.com/endfield?header=0&hg_media=launcher&hg_link_campaign=icon",
+            "need_token": false,
+            "pic_url": "https://hg-utils-public.hycdn.cn/hg-utils/prod/eppcsuwqpaueijqk/6LL0KJuqHBVz33WK/3e/1b/3e1b444baacb09f93ca7093ea71fa1f2.png"
+          },
+          {
+            "content": "养成建议",
+            "jump_url": "https://game.skland.com/tools/endfield/build-guide?header=0&ctr_orientation=landscape&routeId=1&hg_media=launcher&hg_link_campaign=icon",
+            "need_token": true,
+            "pic_url": "https://hg-utils-public.hycdn.cn/hg-utils/prod/eppcsuwqpaueijqk/6LL0KJuqHBVz33WK/22/4e/224ed15d0cf5a690cba85f2ccdd2ebeb.png"
+          }
+        ],
+        "grid_info": null,
+        "jump_url": "",
+        "need_token": false
       }
     ]
   }
