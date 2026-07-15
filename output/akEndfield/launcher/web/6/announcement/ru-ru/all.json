@@ -5032,5 +5032,113 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-07-15T22:01:23.867+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "channel": 6,
+      "subChannel": 6,
+      "lang": "ru-ru",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "tabs": [
+        {
+          "tabName": "Уведомления",
+          "announcements": [
+            {
+              "content": "Специальный наем [Притяжение разлома]",
+              "jump_url": "https://endfield.gryphline.com/news/2656",
+              "start_ts": "1784109600000",
+              "id": "790",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Сведения о временном предложении [поставки «Военный стандарт»]",
+              "jump_url": "https://endfield.gryphline.com/news/6174",
+              "start_ts": "1784111400000",
+              "id": "813",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Предварительная загрузка и обновление версии «Возвращение домой»",
+              "jump_url": "https://endfield.gryphline.com/news/5201",
+              "start_ts": "1784001600000",
+              "id": "776",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Примечания об обновлении версии [Зарисовки об утраченных реликвиях]",
+              "jump_url": "https://endfield.gryphline.com/news/0758",
+              "start_ts": "1780621200000",
+              "id": "700",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Об ошибках в игре после обновления драйверов NVIDIA",
+              "jump_url": "https://endfield.gryphline.com/news/3844",
+              "start_ts": "1773590400000",
+              "id": "415",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Руководство «Игровые инструменты Arknights: Endfield»",
+              "jump_url": "https://endfield.gryphline.com/news/0755",
+              "start_ts": "1769050800000",
+              "id": "142",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Заявление о честной игре для «Arknights: Endfield»",
+              "jump_url": "https://endfield.gryphline.com/news/8900",
+              "start_ts": "1768892400000",
+              "id": "98",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Предупреждение о риске сторонних инструментов",
+              "jump_url": "https://endfield.gryphline.com/news/7026",
+              "start_ts": "1773277200000",
+              "id": "401",
+              "need_token": false,
+              "pin": 0
+            }
+          ],
+          "tab_id": "75"
+        },
+        {
+          "tabName": "Новости",
+          "announcements": [
+            {
+              "content": "Версия Arknights: Endfield с основной главой [Возвращение домой] — Dev Comm",
+              "jump_url": "https://endfield.gryphline.com/news/7017",
+              "start_ts": "1784028600000",
+              "id": "799",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Arknights: Endfield [Official Release Preview] DEV Comm",
+              "jump_url": "https://endfield.gryphline.com/en-us/news/4499",
+              "start_ts": "1768838400000",
+              "id": "70",
+              "need_token": false,
+              "pin": 0
+            }
+          ],
+          "tab_id": "77"
+        }
+      ]
+    }
   }
 ]
