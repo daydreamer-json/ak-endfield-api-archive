@@ -5240,5 +5240,105 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-07-16T01:01:30.318+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "channel": 6,
+      "subChannel": 6,
+      "lang": "es-mx",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "tabs": [
+        {
+          "tabName": "Noticias",
+          "announcements": [
+            {
+              "content": "Caza de reclutas certificada [El norte añora a la vigilante de la grieta]",
+              "jump_url": "https://endfield.gryphline.com/news/2656",
+              "start_ts": "1784109600000",
+              "id": "789",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Detalles OTL de la [Solicitud de Grado militar]",
+              "jump_url": "https://endfield.gryphline.com/news/6174",
+              "start_ts": "1784111400000",
+              "id": "812",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Notas sobre la actualización de versión de [Regreso a casa]",
+              "jump_url": "https://endfield.gryphline.com/news/5200",
+              "start_ts": "1784163600000",
+              "id": "841",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Aviso sobre problemas del juego causados por las actualizaciones de los drivers de NVIDIA",
+              "jump_url": "https://endfield.gryphline.com/news/3844",
+              "start_ts": "1773590400000",
+              "id": "414",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Guía de herramientas del juego de Arknights: Endfield",
+              "jump_url": "https://endfield.gryphline.com/news/0755",
+              "start_ts": "1769050800000",
+              "id": "141",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Juego limpio de Arknights: Endfield",
+              "jump_url": "https://endfield.gryphline.com/news/8900",
+              "start_ts": "1768892400000",
+              "id": "97",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Riesgo de seguridad: herramientas no oficiales",
+              "jump_url": "https://endfield.gryphline.com/news/7026",
+              "start_ts": "1773277200000",
+              "id": "400",
+              "need_token": false,
+              "pin": 0
+            }
+          ],
+          "tab_id": "63"
+        },
+        {
+          "tabName": "Novedades",
+          "announcements": [
+            {
+              "content": "DEV Comm de la versión del capítulo principal de Arknights: Endfield [Regreso a casa]",
+              "jump_url": "https://endfield.gryphline.com/news/7017",
+              "start_ts": "1784028600000",
+              "id": "798",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Arknights: Endfield [Official Release Preview] DEV Comm",
+              "jump_url": "https://endfield.gryphline.com/en-us/news/4499",
+              "start_ts": "1768838400000",
+              "id": "69",
+              "need_token": false,
+              "pin": 0
+            }
+          ],
+          "tab_id": "65"
+        }
+      ]
+    }
   }
 ]

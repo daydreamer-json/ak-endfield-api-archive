@@ -4992,5 +4992,105 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-07-16T01:01:32.052+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "channel": 6,
+      "subChannel": 801,
+      "lang": "fr-fr",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "tabs": [
+        {
+          "tabName": "Avis",
+          "announcements": [
+            {
+              "content": "Recrutement certifié [Face à la faille, regardant vers le nord]",
+              "jump_url": "https://endfield.gryphline.com/news/2656",
+              "start_ts": "1784109600000",
+              "id": "792",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Détails sur la durée limitée du [tirage de type militaire]",
+              "jump_url": "https://endfield.gryphline.com/news/6174",
+              "start_ts": "1784111400000",
+              "id": "815",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Notes de mise à jour de version [Retour]",
+              "jump_url": "https://endfield.gryphline.com/news/5200",
+              "start_ts": "1784163600000",
+              "id": "844",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Avertissement relatif à des problèmes dans le jeu liés aux mises à jour des pilotes NVIDIA",
+              "jump_url": "https://endfield.gryphline.com/news/3844",
+              "start_ts": "1773590400000",
+              "id": "417",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Arknights: Endfield - Guide des Outils de jeu",
+              "jump_url": "https://endfield.gryphline.com/news/0755",
+              "start_ts": "1769050800000",
+              "id": "144",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Règles de fair-play d'Arknights: Endfield",
+              "jump_url": "https://endfield.gryphline.com/news/8900",
+              "start_ts": "1768892400000",
+              "id": "100",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Avertissement sur les risques des outils non officiels",
+              "jump_url": "https://endfield.gryphline.com/news/7026",
+              "start_ts": "1773277200000",
+              "id": "403",
+              "need_token": false,
+              "pin": 0
+            }
+          ],
+          "tab_id": "69"
+        },
+        {
+          "tabName": "Actualités",
+          "announcements": [
+            {
+              "content": "Version du chapitre central d'Arknights: Endfield [Retour] - Com des devs",
+              "jump_url": "https://endfield.gryphline.com/news/7017",
+              "start_ts": "1784028600000",
+              "id": "801",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Arknights: Endfield [Official Release Preview] DEV Comm",
+              "jump_url": "https://endfield.gryphline.com/en-us/news/4499",
+              "start_ts": "1768838400000",
+              "id": "72",
+              "need_token": false,
+              "pin": 0
+            }
+          ],
+          "tab_id": "71"
+        }
+      ]
+    }
   }
 ]
