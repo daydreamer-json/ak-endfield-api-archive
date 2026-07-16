@@ -9,6 +9,7 @@ export const DIFF_IGNORE_RULES = [
   ['rsp', 'zip_package_url'],
   ['rsp', 'exe_url'],
   ['rsp', 'patch', 'v2_patch_info_url'],
+  ['rsp', 'patch', 'v2_verify_files_url'],
 ].map((path) => ({ path, pattern: /[?&]auth_key=[^&]+/g }));
 
 export const getGameTargets = (): GameTarget[] => {
