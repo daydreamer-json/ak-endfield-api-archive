@@ -56,3 +56,12 @@
 .form-select {
   background-color: color-mix(in srgb, var(--bs-body-bg), transparent 50%);
 }
+
+.bulletin-html p {
+  margin: 0.25em 0;
+}
+
+.bulletin-html img {
+  max-width: 100%;
+  height: auto;
+}

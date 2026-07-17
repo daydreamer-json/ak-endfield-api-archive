@@ -3,6 +3,7 @@ import { gameTargets, launcherWebApiLang } from '../../utils/constants';
 
 import AnnouncementSection from './web/AnnouncementSection';
 import BannerSection from './web/BannerSection';
+import BulletinSection from './web/BulletinSection';
 import MainBgImageSection from './web/MainBgImageSection';
 import SidebarSection from './web/SidebarSection';
 import SingleEntSection from './web/SingleEntSection';
@@ -55,6 +56,7 @@ export default function WebTab() {
       </div>
 
       <AnnouncementSection target={target} lang={lang} />
+      <BulletinSection target={target} lang={lang} />
       <BannerSection target={target} lang={lang} />
       <MainBgImageSection target={target} lang={lang} />
       <SingleEntSection target={target} lang={lang} />

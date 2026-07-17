@@ -58,6 +58,46 @@ export interface LauncherWebSingleEnt {
   };
 }
 
+export interface GameHubBulletinItem {
+  cid: string;
+  type: 0 | 1;
+  tab: 'news' | 'updates' | 'events';
+  orderType: number;
+  orderWeight: number;
+  displayType: 'rich_text' | 'picture';
+  startAt: number;
+  focus: number;
+  title: string;
+  header: string;
+  jumpButton: unknown | null;
+  data: { html: string; linkType: number } | { url: string; link: string; linkType: number };
+}
+
+export interface GameHubBulletinAggregate {
+  code: number;
+  data: {
+    topicCid: string;
+    type: 0 | 1;
+    platform: string;
+    server: string;
+    channel: string;
+    subChannel: string;
+    lang: string;
+    key: string;
+    version: string;
+    onlineList: {
+      cid: string;
+      version: number;
+      needRedDot: boolean;
+      needPopup: boolean;
+    }[];
+    popupVersion: number;
+    updatedAt: number;
+    list: GameHubBulletinItem[];
+  };
+  msg: string;
+}
+
 export interface LauncherWebSidebar {
   data_version: string;
   sidebars: {
