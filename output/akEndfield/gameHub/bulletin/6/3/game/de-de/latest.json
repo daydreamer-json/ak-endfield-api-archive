@@ -1,0 +1,659 @@
+{
+  "req": {
+    "channel": 6,
+    "server": 3,
+    "type": 0,
+    "lang": "de-de",
+    "region": "os",
+    "platform": "Windows"
+  },
+  "rsp": {
+    "code": 0,
+    "data": {
+      "topicCid": "0093",
+      "type": 0,
+      "platform": "Windows",
+      "server": "3",
+      "channel": "#DEFAULT",
+      "subChannel": "#DEFAULT",
+      "lang": "de-de",
+      "key": "0:Windows:3:#DEFAULT:#DEFAULT:de-de",
+      "version": "e78bf05c9c2505170514e5d68b3b8a7f",
+      "onlineList": [
+        {
+          "cid": "2118",
+          "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "1371",
+          "version": 1784258898,
+          "needRedDot": false,
+          "needPopup": false
+        },
+        {
+          "cid": "8964",
+          "version": 1784127651,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "0708",
+          "version": 1784107026,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "4622",
+          "version": 1784131098,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "4623",
+          "version": 1784128989,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "3056",
+          "version": 1784099470,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "9873",
+          "version": 1784128517,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "1380",
+          "version": 1784131853,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "5531",
+          "version": 1784171001,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "3057",
+          "version": 1784170879,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "7298",
+          "version": 1784286100,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "6447",
+          "version": 1784286064,
+          "needRedDot": false,
+          "needPopup": false
+        },
+        {
+          "cid": "5532",
+          "version": 1784286035,
+          "needRedDot": false,
+          "needPopup": false
+        },
+        {
+          "cid": "6448",
+          "version": 1784096758,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "8966",
+          "version": 1784133351,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "9872",
+          "version": 1784249331,
+          "needRedDot": false,
+          "needPopup": false
+        },
+        {
+          "cid": "5530",
+          "version": 1784170501,
+          "needRedDot": false,
+          "needPopup": false
+        },
+        {
+          "cid": "8965",
+          "version": 1784101569,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "7290",
+          "version": 1784285860,
+          "needRedDot": false,
+          "needPopup": false
+        },
+        {
+          "cid": "0700",
+          "version": 1784285845,
+          "needRedDot": false,
+          "needPopup": false
+        },
+        {
+          "cid": "8998",
+          "version": 1769005692,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "7299",
+          "version": 1784104707,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "6472",
+          "version": 1769044240,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "6474",
+          "version": 1769005934,
+          "needRedDot": false,
+          "needPopup": false
+        },
+        {
+          "cid": "3080",
+          "version": 1782469292,
+          "needRedDot": false,
+          "needPopup": false
+        },
+        {
+          "cid": "7222",
+          "version": 1782469106,
+          "needRedDot": true,
+          "needPopup": false
+        }
+      ],
+      "popupVersion": 0,
+      "updatedAt": 1784286101,
+      "list": [
+        {
+          "cid": "2118",
+          "type": 0,
+          "tab": "news",
+          "orderType": 0,
+          "orderWeight": 1,
+          "displayType": "picture",
+          "startAt": 1782477900,
+          "focus": 0,
+          "title": "Das Discord-Spielstatistik-Widget ist da!",
+          "header": "Spielstatistik-Widget für Arknights: Endfield – jetzt auf Discord",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260625/036aa7577d30a40600ca4b629c8e57d5.jpg",
+            "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "1371",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1784217600,
+          "focus": 0,
+          "title": "Patchnotizen",
+          "header": "Arknights: Endfield – Patchnotizen",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260717/2ae389c3ecb9e124f0df98269d1165e0.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Hallo Endministrator!</span></p><p><span style=\"color: rgb(0, 0, 0);\">Um ein besseres Spielerlebnis zu gewährleisten, werden wir das Spiel weiterhin optimieren und auftretende Probleme beheben. Dieses Update enthält die folgenden Fehlerbehebungen:</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">▼// Updates &amp; Fehlerbehebungen</span></p><p><span style=\"color: rgb(0, 0, 0);\">■ 16.07.2026 (UTC-5)</span></p><p>▼// Optimierungen &amp; Anpassungen<br>· Abschlussangriff-Animationen der 6★-Operatorin [Arkan] bei bestimmten Aktionen wurden optimiert.</p><p>· Die Kameralogik während der Kämpfe in der Beauftragung [Täglich: Verschwundene Roboter] wurde optimiert.</p><p>· Die grafische Darstellung bestimmter Szenen während der Dialoge der Geschichte in [Wuling - Sperrzone Nord-Wuling] wurde optimiert.</p><p>· Die Anzeigereihenfolge bestimmter Event-Registerkarten im [Eventcenter] wurde optimiert.</p><p>· Szeneneffekte in bestimmten Missionen wurden optimiert.</p><p></p><p>▼// Fehlerbehebungen</p><p>· Es wurde ein Problem behoben, bei dem Spieler unter bestimmten Umständen in der Hauptmission [Kapitel II Prozess VII: So beginnt der Marsch gen Heimat] nicht die Aufgabe [Sprich mit Zhuang Fangyi] durchführen konnten, was den Missionsfortschritt verhinderte.</p><p>· Es wurde ein Problem behoben, bei dem unter bestimmten Umständen [Cuprium-Behälter] nicht zum Sammeln von [Inergen] in der Hauptmission [Kapitel II Prozess VII: So beginnt der Marsch gen Heimat] verwendet werden konnten.</p><p>· Es wurde ein Problem auf Mobilgeräten behoben, bei dem der Fortschritt der Ultimativen Energie der 6★-Operatorin [Arkan] nach dem Einsatz von [Finsternisvertreiber-Arkana] abnormal angezeigt wurde.</p><p>· Es wurde ein Problem behoben, bei dem nicht gesteuerte Operatoren ihre Fähigkeiten nicht einsetzen konnten, während sie in den [Protokoll-Dimensionen] mit dem Licht interagierten.</p><p>· Es wurde ein Problem behoben, bei dem bestimmte „Temporäres Energie-Alluvium“-Herausforderungen in [Wuling - Sperrzone Nord-Wuling] unter bestimmten Umständen nicht durch Verlassen der Herausforderungszone beendet werden konnten.</p><p>· Es wurde ein Problem behoben, bei dem unter bestimmten Umständen im [Kamera]-Modus bestimmte Aktionen dazu führen konnten, dass sich die Operatoren nicht korrekt verhielten.</p><p>· Es wurde ein Problem behoben, bei dem unter bestimmten Umständen die Ausführung bestimmter Aktionen dazu führen konnte, dass das Tutorial-Popup für das [Echos des Krieges]-Gameplay falsch angezeigt wurde.</p><p>· Es wurde ein Problem behoben, bei dem unter bestimmten Umständen die Modelle bestimmter Objekte in einigen Szenen nicht korrekt angezeigt wurden.</p><p>· Es wurde ein Problem behoben, bei dem die Anzeige des roten Punktes unter bestimmten Umständen im [Lager für Wertgegenstände] fehlerhaft war.</p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Die oben genannten Updates und Fehlerbehebungen werden nach einem Neustart des Clients wirksam. Wir entschuldigen uns für alle eventuellen Unannehmlichkeiten.</span></p><p><span style=\"color: rgb(0, 0, 0);\">Vielen Dank für dein anhaltendes Interesse und deine Unterstützung für Arknights: Endfield, Endministrator!</span></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "8964",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1784163600,
+          "focus": 0,
+          "title": "Versionsupdate-Mitteilung",
+          "header": "Versionsupdate-Mitteilung zu [Heimkehr]",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260715/540a3865171b9c9a38c8324977df3b0c.jpg\" data-width=\"1650\" data-height=\"300\"><p>Ob Nebel oder Kluft, du trotzt dem großen Riss nicht alleine.</p><p>Die Vergangenheit ist nah, doch unsere Reise geht weiter. Auf Talos-II machen wir uns gemeinsam auf den Weg.</p><p></p><p>Geschätzter Endministrator,</p><p>willkommen bei der Kernkapitel-Version [Heimkehr]!</p><p></p><p><strong>▼// Hinweise zur Wartung und Details zur Entschädigung</strong></p><p><strong>■ Zeitpunkt von Update und Wartung</strong></p><p>Asia-Server: 16. Juli 2026 um 06:00 Uhr – 16. Juli 2026 um 12:00 Uhr (UTC+8)</p><p>Americas / Europe-Server: 15. Juli 2026 um 17:00 Uhr – 15. Juli 2026 um 23:00 Uhr (UTC-5)</p><p>※ Die Wiedereröffnung des Servers nach der Wartung kann früher oder später als geplant erfolgen. Bitte überprüfe die offizielle Ankündigung für weitere Details.</p><p></p><p><strong>■ Details zur Entschädigung für Wartungsupdate und Fehlerbehebung</strong></p><p>· Entschädigung für Update und Wartung: [Oro-Beryll] ×900</p><p>· Entschädigung für Fehlerbehebung: [Oro-Beryll] ×900</p><p>· Zeitraum der Zustellung: Nach dem Update und der Wartung bis vor dem nächsten Versions-Update und der nächsten Wartung</p><p>· Voraussetzungen: Erstelle vor dem Update einen Charakter.</p><p>· Hinweis: Die Entschädigung für Update und Wartung sowie die Entschädigung für Fehlerbehebungen werden separat per Mail im Spiel verschickt. Die Mails laufen zu Beginn des nächsten Versions-Updates und der nächsten Wartung ab. Bitte fordere sie rechtzeitig ein.</p><p></p><p><strong>■ Hinweise zum Update</strong></p><p>Dieses Update ist obligatorisch. Nach Abschluss des Updates musst du den Spiel-Client erneut herunterladen und installieren. Sobald das Versions-Update und die Wartung beginnen, kannst du den Anweisungen im Spiel folgen, um mit dem Update fortzufahren.</p><p>· iOS: Besuche den App Store und tippe auf [Update].</p><p>· Android: Starte das Spiel und folge den Anweisungen im Pop-up-Fenster, um das Update abzuschließen.</p><p>· PlayStation®5: Wechsle zum Home-Bildschirm, wähle [Arknights: Endfield], drücke die [OPTIONS]-Taste des Controllers, wähle [Nach Update suchen] und bestätige das Update.</p><p>· PC: Starte nach Beenden des Spiels den GRYPHLINK-Launcher neu und klicke auf [Update].</p><p></p><p><strong>※ Nach dem Versionsupdate [Heimkehr] werden einige Inhalte im Laufe der Zeit schrittweise freigeschaltet, während du das Spiel erkundest. Die genauen Details zum Update findest du in der Version im Spiel.</strong></p><p></p><p><strong>▼// Inhalt der neuen Version</strong></p><p><strong>■ Neue Geschichten</strong></p><p><strong>1. Hauptmissionen</strong></p><p>Verfügbar bis [Kapitel Ⅱ Prozess Ⅶ: Hartnäckig verweilt die untergehende Sonne].</p><p><strong>2. Erkundungsmissionen</strong></p><p>[AE-Projekt: Sanierungsstation III], [Außenposten: Wolkensäer-Station], [AE-Projekt: Wolkensäer-Station I], [AE-Projekt: Wolkensäer-Station II], [Rissbruchfüllung und Bodenabdichtung], [Echos des Krieges], [Verderbnisschatten-Wache], [Schätze der Vergangenheit]</p><p><strong>3. Nebenmissionen</strong></p><p>[Wie ein Stern ohne Grenzen], [Rampenlicht des Morgensterns], [Die lange Nacht wird zum Tag], [Kummer singt in Stille], [Namenlose Klingen I], [Namenlose Klingen II], [Namenlose Klingen III], [Ein Zuhause in weiter Ferne]</p><p></p><p><strong>■ Neue Operatoren</strong></p><p>6-Sterne Operatoren [Arkan], [Liino]</p><p></p><p><strong>■ Neue Waffen</strong></p><p>6-Sterne Waffen [Typ 42: Feierliche Phalanx (Tech-Einheit)], [Debüt der blendenden Nacht (Stangenwaffe)], [Weitsicht (Schwert)], [Knotenpunkt (Tech-Einheit)], [Goldenes Zeitalter (Stangenwaffe)]</p><p></p><p><strong>■ Neue Gegner</strong></p><p>[Reißbiest-Verderbnisschatten], [Federbiest-Verderbnisschatten], [Wüstlingsbestie-Verderbnisschatten], [Blitzcrashs Verderbnisschatten], [YSE-Vorhut-Verderbnisschatten], [YSE-Elite-Verderbnisschatten], [YSE-Glefenträger-Verderbnisschatten], [YSE-Hauptmann-Verderbnisschatten], [Alleikhreos, Chiliarch]</p><p></p><p><strong>■ Neue Zone</strong></p><p>[Wuling – Yinglung-Pass], [Wuling – Sperrzone Nord-Wuling]</p><p></p><p><strong>■ Neue Rekrutierungsevents und Ausgaben</strong></p><p><strong>1. Rekrutierung: Priorisiert – [Sehnsucht der Riss-Wächterin nach dem Norden]</strong></p><p>· Verfügbarkeit: Nach dem Versionsupdate zu [Heimkehr] – 9. August 2026 um 11:59 Uhr (Serverzeit)</p><p>· Details zur Rekrutierung: [Sehnsucht der Riss-Wächterin nach dem Norden] Rekrutierung: Priorisiert bietet eine erhöhte Chance auf den 6-Sterne-Operator [Arkan]. Folgende 6-Sterne-Operatoren können unter anderem erscheinen: Arkan / Camille / Mi Fu / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.</p><p>· Während der Rekrutierung: Priorisiert sind zudem [Kampfübungen] zum Testen des 6-Sterne-Operators [Arkan] verfügbar. Schließe die angegebene Phase mit dem voreingestellten Team ab, das den Testoperator enthält, und hole dann auf dem [Eventcenter]-Bildschirm die Belohnungen ab. Außerdem gibt es im [AIK-Quotenaustausch] eine besonders gute Quote für [„Blicke nach Norden zum Riss“-RK-Genehmigung]. Bis zu [„Blicke nach Norden zum Riss“-RK-Genehmigung]×5 können ausgetauscht werden.</p><p></p><p><strong>2. Verfügbarkeit der [Militär-Standards-Ausgabe]</strong></p><p>· Verfügbarkeit: Öffnet nach dem Versionsupdate zu [Heimkehr] und endet nach 3 „[Rekrutierung: Priorisiert]“-Bannern (gezählt ab [Sehnsucht der Riss-Wächterin nach dem Norden])</p><p>· Ausgabe-Details: [Militär-Standards-Ausgabe] bietet eine erhöhte Chance auf die 6-Sterne-Waffe [Typ 42: Feierliche Phalanx (Tech-Einheit)]. · Folgende 6-Sterne-Waffen können unter anderem erscheinen: Typ 42: Feierliche Phalanx (Tech-Einheit) / Ehemalige Eleganz (Großschwert) / Keil (Handfeuerwaffe) / Untadeliger Ruf (Schwert) / JET (Stangenwaffe) / Zünder (Tech-Einheit) / Vergessenheit (Tech-Einheit).</p><p></p><p><strong>3. Rekrutierung: Priorisiert – [Dein Morgenstern begrüßt den Tag]</strong></p><p>· Verfügbarkeit: 9. August 2026 um 12:00 Uhr (Serverzeit) bis vor dem Versionsupdate und den Wartungsarbeiten</p><p>· Details zur Rekrutierung: [Dein Morgenstern begrüßt den Tag] Rekrutierung: Priorisiert bietet eine erhöhte Chance auf den 6-Sterne-Operator [Liino]. Folgende 6-Sterne-Operatoren können unter anderem erscheinen: Liino / Arkan / Camille / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.</p><p>· Während der Rekrutierung: Priorisiert sind zudem [Kampfübungen] zum Testen des 6-Sterne-Operators [Liino] verfügbar. Schließe die angegebene Phase mit dem voreingestellten Team ab, das den Testoperator enthält, und hole dann auf dem [Eventcenter]-Bildschirm die Belohnungen ab. Außerdem gibt es im [AIK-Quotenaustausch] eine besonders gute Quote für [„Blendender Morgenstern“-RK-Genehmigung]. Bis zu [„Blendender Morgenstern“-RK-Genehmigung]×5 können ausgetauscht werden.</p><p></p><p><strong>4. Verfügbarkeit der [Blendend-Ausgabe]</strong></p><p>· Verfügbarkeit: Öffnet am 9. August 2026 um 12:00 Uhr (Serverzeit) und endet nach 3 Bannern für [Rekrutierung: Priorisiert] (gezählt ab [Dein Morgenstern begrüßt den Tag])</p><p>· Ausgabe-Details: [Blendend-Ausgabe] bietet eine erhöhte Chance auf die 6-Sterne-Waffe [Debüt der blendenden Nacht (Stangenwaffe)]. Folgende 6-Sterne-Waffen können unter anderem erscheinen: Debüt der blendenden Nacht (Stangenwaffe) / Zerrütteter Prinz (Großschwert) / Klannibale (Handfeuerwaffe) / Tapferkeit (Stangenwaffe) / JET (Stangenwaffe) / Zünder (Tech-Einheit) / Thermitschneider (Schwert).</p><p></p><p>※ Weitere Einzelheiten zur Rekrutierung und Ausgabe findest du im Spiel.</p><p></p><p><strong>■ Neue Events</strong></p><p><strong>1. Festtag-Event [Tribut der Gesellschaft]</strong></p><p>· Eventzeitraum: Nach dem Versionsupdate zu [Heimkehr] – 9. August 2026 um 12:00 Uhr (Serverzeit)</p><p>· Eventdetails: Logge dich insgesamt an 3 Tagen ein und verdiene üppige Belohnungen, darunter [Oro-Beryll]×3.000, [RK-Genehmigung: Einfach]×5 und 6★-Waffe [Weitsicht (Schwert)].</p><p></p><p><strong>2. Festtag-Event [Verbinden-und-gewinnen: Vermögen]</strong></p><p>· Eventzeitraum: Nach dem Versionsupdate zu [Heimkehr] – 31. Juli 2026 um 04:00 Uhr (Serverzeit)</p><p>· Eventdetails:</p><p>○ Während des Events kannst du 1-mal am Tag in der Eventanzeige Felder freirubbeln und verschiedene Belohnungen je nach freigerubbeltem Stempel erhalten. Du kannst bis zu 14-mal teilnehmen. Jedes Freirubbeln gewährt [Oro-Berylle] und verschiedene Fortschrittsmaterialien.</p><p>○ Während dieses Events wird jeden Tag ein „Täglicher Stempel“ angekündigt. Wenn du einen Stempel freirubbelst, der dem „Täglichen Stempel“ entspricht, verdoppeln sich die Belohnungen dieses Stempels und du kannst auch die Belohnungen der übrigen Stempel erhalten. Wenn du den Stempel „ALL“ freirubbelst, erhältst du den „ALL“-Preis.</p><p>○ Während des Events kannst du bis zu 4 „ALL“-Preise erhalten. Nach dem 14. Mal erhältst du garantiert mindestens [Oro-Beryll]×5.000.</p><p></p><p><strong>3. [Frühe Freischaltung: Wuling für die Hauptmission] Dauerhafte Aktivität</strong></p><p>· Eventzeitraum: Dauerhaft verfügbar nach dem [Heimkehr]-Versions-Update</p><p>· Eventdetails: Sobald du die Hauptmission [Kapitel I, Prozess II: Sanierungsfortschritt] abgeschlossen hast, kannst du über den [Eventcenter]-Bildschirm bereits vorab die Hauptmission [Kapitel II, Prozess I: Ankunft in Wuling] freischalten und annehmen und dich in die Region Wuling begeben. Diese Aktivität hat keinen Einfluss auf den Fortschritt der Hauptmissionen aus Kapitel I. Du kannst jederzeit nach Tal IV zurückkehren, um die Inhalte von Kapitel I weiterzuspielen. Hauptmissionen aus verschiedenen Kapiteln können gleichzeitig aktiv sein.</p><p></p><p><strong>4. Anleitung-Event [Blicke zur Sperrzone Nord]</strong></p><p>· Eventzeitraum: Nach dem [Heimkehr]-Versions-Update – 9. August 2026 um 12:00 Uhr (Serverzeit)</p><p>· Eventdetails: Schließe bestimmte Missionen in den Gebieten [Yinglung-Pass] und [Sperrzone Nord-Wuling] der Region [Wuling] ab, um dir die Belohnungen [Oro-Beryll]×1200 und [Mal der Beharrlichkeit] zu holen.</p><p></p><p><strong>5. [Blicke nach Norden zum Riss] Anmeldung-Event</strong></p><p>· Eventzeitraum: Nach dem [Heimkehr]-Versions-Update – 9. August 2026 um 11:59 Uhr (Serverzeit)</p><p>· Eventdetails: Melde dich insgesamt an 7 Tagen an, um Belohnungen wie [„Blicke nach Norden zum Riss“-RK-Genehmigung] ×5 zu erhalten.</p><p></p><p><strong>6. [Wie ein Stern ohne Grenzen] Erzählung-Event</strong></p><p>· Eventzeitraum: 9. August 2026 um 12:00 Uhr (Serverzeit) bis vor dem Versionsupdate und den Wartungsarbeiten</p><p>· Eventdetails: Schließe die Nebenmission [Wie ein Stern ohne Grenzen] ab, um [Oro-Beryll]×600, [Grundlegender kognitiver Datenträger] und andere Belohnungen zu erhalten.</p><p></p><p><strong>7. [Blendender Morgenstern] Anmeldung-Event</strong></p><p>· Eventzeitraum: 9. August 2026 um 12:00 Uhr (Serverzeit) – Vor dem Versions-Update und der Wartung</p><p>· Eventdetails: Melde dich insgesamt an 7 Tagen an, um Belohnungen wie [„Blendender Morgenstern“-RK-Genehmigung] ×5 zu erhalten.</p><p></p><p><strong>8. Herausforderungsevent [HITZEWUT! MEGA-ARENA!]</strong></p><p>· Eventzeitraum: 30. Juli 2026 um 12:00 Uhr bis 13. August 2026 um 04:00 Uhr (Serverzeit)</p><p>· Eventdetails: Schließe während des Events eine Reihe von Herausforderungsphasen ab, um Belohnungen wie [Oro-Beryll]×1.200, [Profilbildrahmen: Party der Heat Ragers] und [Mal der Beharrlichkeit] zu erhalten.</p><p></p><p><strong>9. Zeitlich begrenztes Event [Verstandsversorgung]</strong></p><p>· Eventzeitraum:</p><p>„Asia“-Server:</p><p>2. August 2026 um 04:00 Uhr bis 9. August 2026 um 04:00 Uhr (Serverzeit)</p><p>26. August 2026 um 04:00 Uhr bis 2. September 2026 um 04:00 Uhr (Serverzeit)</p><p></p><p>„Americas / Europe“-Server:</p><p>2. August 2026 um 04:00 Uhr bis 9. August 2026 um 04:00 Uhr (Serverzeit)</p><p>26. August 2026 um 04:00 Uhr bis 1. September 2026 um 17:00 Uhr (Serverzeit)</p><p>· Eventdetails: Schließe während des Events jeden Tag bestimmte Missionen ab und erhalte Verstandsversorgungs-Belohnungen wie [Verstandsverbrauch-Genehmigung] und [Verstandsverstärker für den Notfall].</p><p></p><p><strong>10. Spiel-und-Spaß-Event [Das Geerdete Reich]</strong></p><p>· Eventzeitraum: 9. August 2026 um 12:00 Uhr (Serverzeit) bis vor dem Versionsupdate und den Wartungsarbeiten</p><p>· Eventdetails: Sammle Aurylensplitter und schließe Reichsaufgaben in [Das Geerdete Reich] ab, um Belohnungen wie [Oro-Beryll]×1.600 und [Mal der Beharrlichkeit] zu erhalten.</p><p></p><p><strong>■ Event- und Gameplay-Updates</strong></p><p><strong>1. Permanenter Herausforderungsmodus [Echos des Krieges]</strong></p><p>· Verfügbarkeit: Permanent nach dem Versionsupdate zu [Heimkehr]</p><p>· Gameplay-Details: [Echos des Krieges] ist ein saisonaler und dauerhaft verfügbarer Spielmodus. Stelle dich verschiedenen Phasen, verdiene Sterne und erhalte die verschiedenen Titel der Saison. [Echos des Krieges] wird von Zeit zu Zeit mit neuen Phasen aktualisiert. Schließe eine Phase auf der Schwierigkeit „Normal“ zum ersten Mal ab, um [Oro-Berylle] zu erhalten. Wenn du Phasen auf höheren Schwierigkeiten abschließt, erhältst du auch Belohnungen wie [Mal der Beharrlichkeit] und [Fortschrittlicher kognitiver Datenträger].</p><p><strong>○ [Saison der Rückberufung]</strong></p><p>· Saisonupdate: Nach dem Versionsupdate zu [Heimkehr] – 9. August 2026 um 11:59 Uhr (Serverzeit)</p><p>· Update-Mitteilung: Die neue Saison [Saison der Rückberufung] ist verfügbar. Diese Saison enthält insgesamt 6 Phasen über 3 Zyklen. Jeder Zyklus besteht aus 3 Phasen. Schließe die Schwierigkeit „Normal“ aller Phasen der [Saison der Rückberufung] ab, um Belohnungen wie [Oro-Beryll]×600 zu erhalten.</p><p><strong>○ [Saison des Deliriums]</strong></p><p>· Saisonupdate: 9. August 2026 um 12:00 Uhr (Serverzeit) bis vor dem Versionsupdate und den Wartungsarbeiten</p><p>· Update-Mitteilung: Die neue Saison [Saison des Deliriums] ist verfügbar. Diese Saison enthält 2 neue Phasen über 3 Zyklen. Jeder Zyklus besteht aus 3 Phasen. Schließe die Schwierigkeit „Normal“ aller neuen Phasen der [Saison des Deliriums] ab, um die Belohnung [Oro-Beryll]×200 zu erhalten.</p><p></p><p><strong>2. [Schattenmonument]-Herausforderung-Gameplay aktualisiert, [Heuler der Klippe]-Phasen verfügbar</strong></p><p>· Verfügbarkeit: 6. August 2026 um 12:00 Uhr (Serverzeit)</p><p>· Update-Details: Dieser [Schattenmonument]-Herausforderungsmodus umfasst die neue Serie [Heuler der Klippe] mit 4 Phasen. Schließe alle Phasenherausforderungen ab, um unter anderem die folgenden Belohnungen zu erhalten: [Mal der Beharrlichkeit], [Fortschrittlicher kognitiver Datenträger], [Waffen-INSP-Set] und [Protoeder].</p><p>Das zeitlich begrenzte Herausforderungsevent [Monumentales Ätzen: Bestialisches Heulen] wird ebenfalls verfügbar sein, sobald der Spielmodus aktualisiert wurde.</p><p>· Eventzeitraum: 6. August 2026 um 12:00 Uhr – 20. August 2026 um 04:00 Uhr (Serverzeit)</p><p>· Eventdetails: Nach der Veröffentlichung der Serie [Heuler der Klippe] beginnt das zeitlich begrenzte Event [Monumentales Ätzen: Bestialisches Heulen]. Schließe während des Events verschiedene [Schattenmonument]-Herausforderungen ab und hole dir Belohnungen wie [Oro-Beryll]×1200 und [Erweiterter-Fortschritt-Auswahlkiste I].</p><p></p><p><strong>3. Dimensionsset-Update [Erforschung kryptischer Nachrichten]</strong></p><p>· Update-Zeit: 19. August 2026 um 12:00 Uhr (Serverzeit)</p><p>· Update-Mitteilung: Dieses Rätsellösen-Event [Erforschung kryptischer Nachrichten] wird das neue Dimensionsset [Kunstvolles Reich der Sechs Kardinäle] einführen. 3 neue Protokoll-Dimensionen stehen am Anfang zur Verfügung. 3 weitere werden am 26. August 2026 um 4:00 Uhr (Serverzeit) verfügbar sein. Schließe die Herausforderungen des Dimensionssets ab, um Belohnungen wie [Oro-Beryll]×1.200 und [Mal der Beharrlichkeit] zu erhalten.</p><p></p><p>※ Bitte verfolge für zusätzliche Informationen zu Events und Gameplay regelmäßig unsere offiziellen Ankündigungen.</p><p></p><p><strong>■ Ankaufszentrum-Update</strong></p><p>· [Protokollpass: Verderbtes Meer] verfügbar. Während des Versionszeitraums von [Heimkehr] kannst du verschiedene Unterstützungsobjekte erwerben, die von den Waffeningenieuren im [Protokollpass] aufgelistet sind. Durch die Aktivierung des saisonalen Protokollpasses wird standardmäßig die Stufe [Grundversorgung] freigeschaltet. Erhöhe die Stufe des Passes, um Belohnungen wie [RK-Genehmigung: Einfach], [Oro-Beryll], [Kiste des Unerwarteten] und [Fortschrittsmaterialien] zu erhalten.</p><p>· In [Ankaufszentrum – Pakete] hinzugefügt: [Heimkehrpack der kuriosen Sammlung], [„Feier der Gefährten“-Paket], [ID-Aktualisierungspaket], [Paket: Protokollfluss], [Paket: Riss-Wächterin-RK] und [Paket: Morgenstern-RK]. Das Kauflimit von [Preiswertes Waffenticket-Paket] wird zurückgesetzt.</p><p></p><p>※ Weitere Pakete und Einzelheiten zu diesen findest du im Spiel unter [Ankaufszentrum – Pakete].</p><p></p><p><strong>■ Kampfsystem</strong></p><p>· Es wurden Einstellungen der visuellen Effekte von Teammitglieder-Fertigkeiten hinzugefügt, mit denen du die Qualität und Deckkraft der Fertigkeitseffekte deiner Teammitglieder anpassen kannst.</p><p>· Es wurden detailliertere Einstellungen für die Priorität bei der Gegnererfassung hinzugefügt, mit denen du die Zielpriorität für Fertigkeitsangriffe, die aktive Zielerfassung und die unterstützte Zielauswahl separat anpassen kannst.</p><p></p><p><strong>■ AIK-Fabrik</strong></p><p>· Die Regionsentwicklungslevelbegrenzung für die Region [Wuling] wurde erhöht. Der neue Außenposten [Xiranfluss-Wolkensäer-Station] wurde zu [Wuling – Yinglung-Pass] hinzugefügt. Die Levelbegrenzung der Umweltüberwachung in [Wuling – Grenzstein] wurde erhöht, und die Levelbegrenzung des Außenpostens [Kardiologische Sanierungsstation] wurde erhöht. Die Levelbegrenzung des Depotknotens in [Wuling – Testzone] wurde erhöht. Der [Vorratneuverteilung (Wuling)] wurden neue tauschbare Waren hinzugefügt.</p><p>· Wuling-AIK wurde um einen gasbezogenen AIK-Modus erweitert, zusammen mit gasbezogenen AIK-Plänen: [Gasextraktion], [Flussrate-Anpassung], [Gasreaktor-Kugel], [Gasverteilung], [Gasreaktion], [Gas-Reinigung], [Flüssigkeit-Gas-Transmutation], [Feststoff-Gas-Transmutation], [Gaslager], [Gasbefüllung und Trennung]. Außerdem wurden die entsprechenden AIK-Anlagen, Simulationen und System-Baupläne hinzugefügt.</p><p>· Fernlagern von Anlagen in der Wildnis wurde hinzugefügt: AIK-Anlagen, die außerhalb des Automationskerns platziert wurden, können alle über die [Lagern]-Taste auf der Karte direkt im regionalen Depot gelagert werden.</p><p>· Die sammelbaren Ressourcen [Inergen] und [Xiragen] wurden hinzugefügt. Verwandte Gasvorkommen werden schrittweise in der Region [Wuling] freigeschaltet, während du bei Hauptmissionen vorankommst.</p><p>· Es wurde eine seltene Pflanzensammelstelle im Gebiet [Wuling – Wuling-Stadt] hinzugefügt.</p><p></p><p><strong>■ System</strong></p><p>· Neue [Talosit-Börse]-Funktion: Du kannst jetzt in [Wuling – Yinglung-Pass] und [Wuling – Sperrzone Nord-Wuling] spezielle Energiekristalle namens Talositen sammeln und diese dann in der [Talosit-Börse] gegen Belohnungen wie [Ausrüstungsvorlagen], [Verzierungen], [Kamera-Posen] und [Schallplatten] eintauschen.</p><p>· Der Spielmodus [Aero-Bergung] wurde hinzugefügt, mit dem du Aero-Bergungen in [Wuling – Yinglung-Pass] und [Wuling – Sperrzone Nord-Wuling] abschließen kannst.</p><p>· Neue [Verwandeln]-Funktion: Sobald du [Kapitel II Prozess I: Ankunft in Wuling] erreicht hast, kannst du diese Funktion im [Herstellung]-Bildschirm nutzen, um bestimmte Materialien höherer Stufe in Materialien niedrigerer Stufe zu verwandeln. Durch den Verbrauch von Verstand lässt sich die Ausbeute der Transmutation weiter steigern.</p><p>· Neue [Geburtstag]-Funktion: Nachdem du deine Geburtstagsdaten eingegeben hast, erhältst du an deinem Geburtstag eine besondere Grußnachricht. Falls beim erstmaligen Eingeben deines Geburtstags der Geburtstag des laufenden Jahres bereits vergangen ist, wird die diesjährige Geburtstagsnachricht rückwirkend versendet. Du kannst außerdem frei entscheiden, ob dein Geburtstag auf deiner Profilseite öffentlich angezeigt werden soll.</p><p>· Neue [ID-Aktualisierungskarte]: Mit diesem Objekt kannst du deinen Namen ändern. Alle sechs Monate steht dir eine ID-Aktualisierungskarte kostenlos zur Verfügung. Falls du weitere Karten benötigst, kannst du diese auch direkt erwerben.</p><p>· [Arsenal-Verteidigungskiste] wurde den Belohnungen des Operator-Test-Events hinzugefügt. Die [Arsenal-Verteidigungskiste] enthält ein spezielles Set vollständig veredelter Ausrüstung der Stufe 60, das gut für den aktuellen Testoperator geeignet ist. Sobald dein Spielfortschritt die Region [Wuling] erreicht, werden alle entsprechenden [Ausrüstungsvorlagen] für dieses Ausrüstungsset automatisch freigeschaltet.</p><p>· Neue Funktion zum Anzeigen von Operator-Illustrationen: Du kannst nun auf dem [Operatoren]-Anzeigebildschirm zu den 2D-Illustrationen deiner Operatoren wechseln.</p><p>· Der [Phonograph MKV-I] wurde im [Empfang] des [OMV Dijiang] hinzugefügt.</p><p>· Es wurde eine [Lösen]-Abfrage für Situationen hinzugefügt, in denen dein Charakter unerwartet feststeckt.</p><p></p><p><strong>■ Sonstiges</strong></p><p>· Es wurden Inhalte wie [Operator-Leitfaden], [Kamera-Pose], [Energie-Alluvium], [Krisenfragment], [NPC], [Gravierte Medaille], [Profil-Design], [Porträt], [Profilbildrahmen], [Filter], [Sticker], [Verbrauchsgegenstand], [Material], [Verstandsmedikamente], [Datenbank-Eintrag], [Hinweisakte], [Verzierung], [Schallplatte] und [Regionale Aurylen-Lieferfrist] hinzugefügt. Sie werden im Laufe des Spiels nach und nach freigeschaltet.</p><p>· Die Ausrüstungssets [AIK-Einsatz] und [Rissforscher] wurden hinzugefügt. Den Ausrüstungssets wurden die neuen Ausrüstungsteile [Hitze], [Ewiges Xiranit] und [LUCHS] hinzugefügt.</p><p>· Das Operator-Beförderungsmaterial [Taloskappe], das Operator-Fertigkeitsmeisterungsmaterial [Blutrotes Speerblatt] und das Waffenoptimierungsmaterial [Protokolith] wurden hinzugefügt.</p><p>· Es wurden Präsentationsanimationen für Waffen hinzugefügt, die du aus bestimmten Quellen erhältst.</p><p>· Dem Bildschirm [Datenbank – Gegenstandsdateien – Produktionskette] wurde eine Zoomfunktion hinzugefügt, ebenso wie eine [Dateien]-Taste auf dem Waffendetails-Bildschirm unter [Datenbank – Waffendateien].</p><p></p><p><strong>▼// Optimierungen &amp; Anpassungen</strong></p><p><strong>■ Missionen</strong></p><p>· Das Modell einiger NPCs, die nach Abschluss der Nebenmission [AE-Projekt: Infra-Station III] erscheinen, wurde optimiert.</p><p></p><p><strong>■ Kampf</strong></p><p>· Das Verhalten eines Teammitglieds, dem gesteuerten Operator auszuweichen, wenn beide Nahkampf-Operatoren sind, wurde optimiert.</p><p>· Das automatische Folgeverhalten von Teammitgliedern wurde optimiert.</p><p>· Das Verhalten sowie die visuellen Effekte der Warnkreise, die beim Wirken von Gegnerfertigkeiten angezeigt werden, wurden optimiert.</p><p>· Die visuelle Anzeige des Verlangsamen-Effekt des Gegners [Klippenheuler] wurde optimiert.</p><p>· Die Soundeffekte der Kombofertigkeiten des 6-Sterne-Operators [Mi Fu] wurden optimiert.</p><p></p><p><strong>■ AIK-Fabrik</strong></p><p>· Optimierung der Inhaltsbalance in [Wuling]: Für den frühen Zugang zu Wuling werden die entsprechenden Systeme und Werte angepasst, um ein reibungsloses Erlebnis bei der Erkundung, im Kampf und beim Spielfortschritt zu gewährleisten. Die meisten Gegner in [Wuling] passen sich an dein Erkundungslevel an. Sobald du [Wuling] betrittst und den Protokoll-Automationskern platzierst, wird eine Reihe von AIK-Anlagen freigeschaltet und dir vorab zur Verfügung gestellt, sodass du diese bereits früh in [Wuling] errichten und nutzen kannst, um Produktionslinien einzurichten. Diese Anlagen sind in Tal IV noch nicht nutzbar und können dort erst verwendet werden, nachdem du die entsprechenden AIK-Technologien im Standard-AIK-Plan erforscht hast.</p><p>· Optimierung bei Leitungsverbindungen: Die Verbindungsdistanz für Leitungen wird nun anhand der Luftlinie berechnet, wobei die Obergrenze von 200 Metern auf 300 Meter erhöht wurde. Sollte eine Teleportation die Leitungsverbindung unterbrechen, erscheint eine Bestätigungsabfrage. Beim Speichern von Bauplänen, die Leitungen enthalten, werden deren Verbindungszustände nun zusammen mit dem Bauplan gespeichert. Wenn sowohl der verbundene Leitungseinlass als auch der Auslass ausgewählt und gemeinsam verschoben, kopiert oder als Bauplan gespeichert werden, bleibt der Verbindungszustand erhalten.</p><p>· Optimierung der Steuerung im Draufsicht-Modus: Wenn du im Draufsicht-Modus aus mehreren überlappenden Zielen auswählst, erscheint nun eine Optionsliste, in der die überlappenden Anlagen zur Auswahl angezeigt werden.</p><p>· Optimierung der Platzierung von Anlagen: Beim Platzieren von Anlagen mit wechselbaren Modi kannst du nun vor der Platzierung den gewünschten Modus auswählen.</p><p>· Optimierung der Anzeige des AIK-Fabrikplans: Wenn die Freischaltbedingungen für eine AIK-Technologie den Abschluss einer vorausgesetzten Mission beinhalten, wird nun neben den Forschungskriterien eine Sprungtaste für die entsprechende Mission angezeigt.</p><p>· Die visuelle Darstellung von Flüssigkeiten in Rohren wurde optimiert: Wenn bestimmte Flüssigkeiten in ein Rohr gelangen, wird eine Animation abgespielt, die den Fluss zum Endpunkt zeigt.</p><p>· Erweiterte fortgeschrittene Ausrüstungsmontagetechniken: Ausrüstung in Goldqualität unterstützt jetzt den Wechsel zwischen verschiedenen Montagetechniken. Zusätzlich zur Standardtechnik kann jedes Ausrüstungsteil auch mit anderen kompatiblen Techniken hergestellt werden. Neu hinzugefügte Montagetechniken sind abwärtskompatibel mit älteren Techniken. Bei Verwendung der neuesten Technik gilt ein erheblicher Rabatt von 99 % auf den Verbrauch von Aktiennoten. Unter [Ausrüstungsmontage – Alle Techniken wechseln] kannst du eine Vorschau der Kompatibilitätsdetails für alle Techniken anzeigen, die Montagetechniken für alle gültigen Ausrüstungsteile massenhaft ändern oder die Techniken für einzelne Ausrüstungsteile individuell anpassen.</p><p>· Die Interaktion und Bedienbarkeit geteilter Seilbahnen wurde verbessert. Nach der Nutzung der geteilten Seilbahn eines anderen Spielers wird diese automatisch gewartet.</p><p></p><p><strong>■ System</strong></p><p>· Bestimmte Missionen in der dauerhaften Aktivität [Rekrutierungstribut für Anfänger] wurden angepasst.</p><p>· Einige der im [Neue Horizonte: Geschenk-EXPO-Display] angezeigten Inhalte wurden angepasst.</p><p>· Optimierung des Kamerasystems: Beim Fotografieren kannst du nun die Operatoren des aktuellen Teams frei bewegen, ihre Positionen und Ausrichtungen anpassen sowie zwischen Autofokus und manuellem Fokus wechseln. Das Kamerasystem umfasst jetzt auch eine Vielzahl auswählbarer Posen. Darüber hinaus wurden zahlreiche neue Sticker hinzugefügt, mit denen du deine Fotos kreativ gestalten kannst.</p><p>· Optimierung des Verzierungssystems: Es wurde ein eigener Verwaltungsbildschirm für Verzierungen hinzugefügt. Verzierungen belegen nun keine Kapazität mehr im Rucksack oder im Depot. Zudem unterstützt die „Schnelllager“-Funktion nun das Lagern aller platzierten Verzierungen des ausgewählten Typs in der aktuellen Region mit nur einem Klick.</p><p>· Einige der Textbeschreibungen in [Details zur Rekrutierung] für [Rekrutierung: Priorisiert] und [Ausgabe-Details] für [Waffenausgabe] wurden optimiert. Nach diesem Versions-Update werden Belohnungsaufzeichnungen für [Rekrutierung: Priorisiert] in der [Rekrutierungshistorie] sowie für [Waffenausgabe] in der [Ausgabehistorie] jeweils 90 Tage lang gespeichert.</p><p>· Optimierung von Missionen und Beschriftungsverfolgung: Wenn du im [Mission]-Bildschirm auf [Verfolgen] klickst und der nächste Schritt darin besteht, eine Nachricht anzuzeigen, gelangst du direkt zum entsprechenden Baker-Bildschirm. Wenn der nächste Schritt darin besteht, zu einem bestimmten Ort zu gelangen, wird die Karte geöffnet und der Zielort hervorgehoben. Außerdem wurde auf der Detailseite der Beschriftungen auf der Karte eine [Teleportieren]-Taste hinzugefügt, mit der du automatisch den dem Zielort nächstgelegenen TP-Punkt auswählen kannst.</p><p>· Die Anzeige der Elemente in Karte [Markierungsabzeichen] wurde optimiert.</p><p>· Die Aktualisierung der Missionsverfolgung wurde optimiert.</p><p>· Die Sortierregeln auf dem Missionsbildschirm wurden optimiert. Missionen mit Beschriftungen werden nun in der folgenden Priorität angezeigt: [Neue Funktion &gt; Neue Zone &gt; Hauptgeschichte &gt; Befristet].</p><p>· Die Anzeige von Informationen auf dem Vorfalluntersuchung-Bildschirm wurde durch Hinweise für den Untersuchungsbereich und Quellenangaben für Kommentare optimiert.</p><p>· Das Storydialog-Erlebnis wurde durch die Ergänzung von Definitionen für Schlüsselbegriffe in Dialogen optimiert.</p><p>· Die standardmäßige Auswahl des gesteuerten Operators nach dem Betreten und Verlassen der [Protokoll-Dimension] wurde optimiert.</p><p>· Das Design der Belohnungsauswahltaste in [Protokoll-Dimensionen] mit auswählbaren Belohnungsoptionen wurde optimiert, um deren Erkennung und Verwendung zu erleichtern. Zudem wurde die standardmäßige Anzeigereihenfolge der Belohnungen für Level 5 der [Protokoll-Dimensionen] mit auswählbaren Belohnungsoptionen angepasst. Seltenere Materialien werden nun standardmäßig als Belohnungsoption A angezeigt, können jedoch jederzeit auf eine andere Belohnungsoption umgestellt werden.</p><p>· Die Anzeige der Dateisymbole in [Archiv – Nexus-Dateien] wurde optimiert.</p><p>· Die Anzeigereihenfolge der Reiter im [Ankaufszentrum – Dijiang-Auswahl] wurde optimiert.</p><p>· Bestimmte Aspekte des [OMV Dijiang] wurden optimiert. Die Ladegeschwindigkeit beim wiederholten Besuch des OMV Dijiang eines Freundes wurde erhöht. Die Dauer des Hinweisaustauschs im Empfang wurde von 24 auf 20 Stunden verkürzt. Außerdem werden auf dem Bildschirm [Hinweisbibliothek] nun Markierungen angezeigt, die zwischen Hinweisen, die du selbst gesammelt hast, und solchen von Freunden zu unterscheiden. Darüber hinaus können Kabinenverbesserungen nun aus der Ferne über den [Kontrollnexus] durchgeführt werden.</p><p>· Bestimmte Datenprüfungen während der Vorladephase wurden zur Verbesserung der Spielstabilität optimiert.</p><p>· Die Anzeige bestimmter Red-Dot-Benachrichtigungen wurde optimiert.</p><p>· Die Anzeige von Tasten wurde auf manchen Bildschirmen optimiert, wenn man mit einem Controller spielt.</p><p>· PlayStation®5 Pro unterstützt jetzt das verbesserte PSSR, wodurch Bildqualität und Schärfe noch weiter gesteigert werden.</p><p>· Die PC-Version unterstützt jetzt die folgenden Einstellungen:</p><p>○ NVIDIA DLSS 4.5 Super Resolution. Wenn aktiviert, erscheinen Bilddetails schärfer und klarer, während auch in komplexen Szenen eine stabile Bildrate beibehalten wird.</p><p>○ Unterstützung für AMD FSR 3 hinzugefügt, einschließlich FSR-3-Super-Resolution-Modus und Frame-Generation-Optionen auf kompatibler Hardware.</p><p>· Die visuelle Darstellung von Operatoren in regnerischen Umgebungen auf PC und PlayStation®5 wurde mit realistischeren Regentropfen-, Nässe- und weiteren Effekten optimiert.</p><p>· Die visuellen Effekte beim Öffnen von versiegelten Protokollkisten wurden optimiert.</p><p></p><p><strong>■ Sonstiges</strong></p><p>· Die Speichernutzung des Spiel-Clients wurde optimiert. Mit diesem Update werden Spielressourcen zusammengeführt und optimiert, die Größe des Clients reduziert und Speicherplatz auf dem Gerät freigegeben.</p><p>· Die Menge an [Pass-EP], die unmittelbar nach dem Freischalten von [Protokoll-Optimierung] im [Protokollpass] gewährt wird, wurde auf 12.500 erhöht. Nach dieser Anpassung beeinflusst die Freischaltreihenfolge von [Originium-Versorgung] und [Protokoll-Optimierung] nicht mehr die Menge an [Pass-EP], die unmittelbar nach dem Freischalten von [Protokoll-Optimierung] gewährt wird.</p><p>· Die Darstellung des Rocks des 6-Sterne-Operators [Mi Fu] in bestimmten Szenen wurde optimiert.</p><p>· Die Anzeigelogik für Belohnungsvorschauen auf der Seite [Betriebshandbuch–Index – Operator-Fortschritt] wurde optimiert.</p><p>· Die Gesamtdarstellung der Ambient-NPCs in allen Szenen wurde optimiert.</p><p>· Die visuellen Effekte bestimmter Waffen-VFX wurden optimiert.</p><p>· Die Darstellung entfernter Bäume in bestimmten Gebieten wurde optimiert.</p><p>· Die Anzeige, visuellen Effekte und Interaktionen auf bestimmten Bildschirmen wurden optimiert.</p><p>· Die Atmosphäre in bestimmten Szenen wurde optimiert.</p><p>· Der Beschreibungstext zur Erlangung bestimmter [Gravierte Medaille] und zur Anwendung von [Umgestalten] wurde optimiert.</p><p>· Die Teilnahme am Rückkehr-Event [Protokoll-Neuverbindung] wurde optimiert.</p><p>· Die Textbeschreibung bestimmter Missionen wurde optimiert.</p><p></p><p><strong>▼// Fehlerbehebungen</strong></p><p><strong>■ Missionen</strong></p><p>· Ein Problem wurde behoben, durch das die Spezialeffekte des NPCs [Geheimnisvolle Illusion] unter bestimmten Umständen während der Nebenmission [Möge Feuer die aschfahle Vergangenheit verzehren] nicht korrekt angezeigt wurden.</p><p>· Ein Problem wurde behoben, durch das Fledermäuse während der Nebenmission [Totentanz] in bestimmten Szenen mit falschen Farben angezeigt wurden.</p><p>· Ein Problem wurde behoben, durch das Tore während der Hauptmission [Kapitel Ⅱ Prozess Ⅲ: Reinheit enthüllt den sturen Stein] in bestimmten Szenen fehlerhaft angezeigt wurden.</p><p>· Ein Problem wurde behoben, durch das bestimmte NPCs oder Operatoren während Missionen unter bestimmten Umständen fehlerhaft angezeigt wurden.</p><p>· Ein Problem wurde behoben, durch das sich Missionsdetails unter bestimmten Umständen nach der Auswahl einer Missionsmarkierung auf der Karte nicht ordnungsgemäß öffnen ließen.</p><p></p><p><strong>■ Kampf</strong></p><p>· Ein Problem wurde behoben, durch das die Flügel des 6-Sterne-Operators [Camille] beim Wechsel vom Übersicht-Bildschirm gelegentlich fehlerhaft angezeigt wurden.</p><p>· Ein Problem wurde behoben, durch das der 5-Sterne-Operator [Alesh] nach dem Freischalten des Potenzials [Extra-Nasse Vergeltung] mit seiner Kampffertigkeit bestimmte Waffenfertigkeitseffekte nicht auslösen konnte.</p><p>· Ein Problem wurde behoben, durch das sich der Bildschirm abnormal drehte, wenn die 5★-Operatorin [Snowshine] als gesteuerter Operator eingestellt war und bestimmte Aktionen ausgeführt wurden.</p><p>· Ein Problem wurde behoben, durch das es gelegentlich zu ungewöhnlichem Kamerawackeln kam, wenn sich der 4-Sterne-Operator [Catcher] im Team befand und einen Abschlussangriff ausführte.</p><p>· Ein Problem wurde behoben, durch das bestimmte Aktionen beim Herausfordern bestimmter Phasen der [Protokoll-Dimension] mit einer gewissen Wahrscheinlichkeit zu abnormalen Spielfortschritten führten.</p><p>· Ein Problem wurde behoben, durch das das Modell des Gegners [Gezeitenwanderer δ] unter bestimmten Umständen beim Treffer abnormal zitterte.</p><p>· Ein Problem wurde behoben, durch das Sturzangriffe der 6-Sterne-Operatorin [Zhuang Fangyi] auf Mobilgeräten kein Vibrationsfeedback auslösten.</p><p></p><p><strong>■ Sprache der Stimmen und Soundeffekte</strong></p><p>· Ein Problem wurde behoben, durch das einige Sprachzeilen der Handlung abgeschnitten wurden, wenn als Spielsprache Englisch eingestellt war.</p><p></p><p><strong>■ Events und Gameplay</strong></p><p>· Ein Problem wurde behoben, durch das in [Prüfung der Schwertkunst] auf dem Ergebnisbildschirm ein falscher Text angezeigt wurde, wenn die Kampfpunkte der letzten Belohnungsprüfung 0 betrugen.</p><p>· Ein Problem wurde behoben, durch das im [Sportwettkampf] der Countdown des Spielmodus verschwand, nachdem während des Spiels auf einen Controller gewechselt wurde.</p><p></p><p><strong>■ System</strong></p><p>· Ein Problem wurde behoben, durch das nach der Verwendung von [Detektoren] und der Auswahl der entsprechenden Markierung beim Wechsel auf einen Controller die Gegenstandsanimation wiederholt abgespielt wurde.</p><p>· Ein Problem wurde behoben, durch das die Funktion [Stummschalten, wenn Fenster inaktiv ist] in den Einstellungen gelegentlich nicht ordnungsgemäß funktionierte.</p><p>· Ein Problem wurde behoben, durch das der Hinweis auf die Zeichenbegrenzung nach bestimmten Aktionen beim Umbenennen eines Teams nicht angezeigt wurde.</p><p>· Ein Problem wurde behoben, durch das Operatoren unter bestimmten Umständen nach Erreichen eines bestimmten Ortes in [Wuling – Tal des Schwertverlieses – Südschluchtwall] in einen fehlerhaften Zustand gerieten.</p><p>· Ein Problem wurde behoben, durch das der Text der Verfolgungstaste bestimmter Kartenmarkierungen beim Spielen mit einem Controller abnormal angezeigt wurde.</p><p>· Ein Problem wurde behoben, durch das die Karte nach bestimmten Aktionen fehlerhaft angezeigt wurde, wenn sie mit einem Controller geöffnet wurde.</p><p>· Ein Problem wurde behoben, durch das bestimmte Tasten in [Baker] beim Spielen mit einem Controller unter bestimmten Umständen nicht reagierten.</p><p>· Ein Problem wurde behoben, durch das sich die Karte auf Mobilgeräten unter bestimmten Aktionen abnormal bewegen ließ, nachdem ein Markierungspunkt ausgewählt wurde.</p><p>· Ein Problem wurde behoben, durch das auf PlayStation®5 Teamnamen die Zeichenbegrenzung überschreiten konnten.</p><p>· Ein Problem wurde behoben, durch das das Öffnen von [Protokollsynchronisierer] auf PlayStation®5 unter bestimmten Umständen mit einer gewissen Wahrscheinlichkeit zu abnormalem Flackern eines Teils der Karte führte.</p><p></p><p><strong>■ Sonstiges</strong></p><p>· Ein Problem wurde behoben, durch das bestimmte Grafikeffekte unter bestimmten Umständen fehlerhaft angezeigt wurden.</p><p>· Ein Problem wurde behoben, durch das bestimmte Leuchteffekte abnormal angezeigt wurden.</p><p>· Ein Problem wurde behoben, durch das bestimmte Symbole abnormal angezeigt wurden.</p><p>· Ein Problem wurde behoben, durch das in [Wuling – Testzone] nach der Extraktion unter bestimmten Umständen das Schmutzwasser in einigen Becken fehlerhaft angezeigt wurde.</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "0708",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1784156400,
+          "focus": 0,
+          "title": "Versionskalender",
+          "header": "Versionskalender zur Version [Heimkehr]",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260715/231b9212bb5dd07bcf58da3efcc79994.jpg\" data-width=\"1920\" data-height=\"2901\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "4622",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1784156400,
+          "focus": 0,
+          "title": "Tribut der Gesellschaft",
+          "header": "[Tribut der Gesellschaft] Feier-Event",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260715/bf355609b9a6086dd9692a6abef4c3a0.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Eventzeitraum</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Nach dem [Heimkehr]-Versions-Update&nbsp;– 9. August 2026 um 12:00&nbsp;Uhr (Serverzeit)</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Teilnahmevoraussetzungen</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Nach Freischaltung des Eventcenters</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Eventdetails</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Logge dich während des Events jeden Tag im Spiel ein, um Anmeldebelohnungen abzuholen.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Logge dich an 3 Tagen ein, um Event-Belohnungen</span><span style=\"color: rgb(31, 35, 41);\"> wie</span><span style=\"color: rgb(0, 0, 0);\"> [Oro-Beryll]×3.000, [RK-Genehmigung: Einfach]×5 und die 6★-Waffe [Weitsicht (Schwert)] zu erhalten.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ Zeitzone des Asia-Servers: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Zeitzone des Americas / Europe-Servers: UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Weitere Eventdetails findest du im [Eventcenter] im Spiel.</span></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "4623",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1784156400,
+          "focus": 0,
+          "title": "Echos des Krieges",
+          "header": "Permanenter Herausforderungsmodus [Echos des Krieges]",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260714/80dd792e5ef0ac445b402ee99ee293e8.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Verfügbarkeit</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Permanent nach dem Versionsupdate zu [Heimkehr]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Teilnahmevoraussetzungen</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Autoritätslevel ≥ 40</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Abschluss der Hauptmission [Kapitel I, Prozess II: Den Weg freimachen]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Gameplay-Details</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· [Echos des Krieges] ist ein saisonaler und dauerhaft verfügbarer Spielmodus. Stelle dich verschiedenen Phasen, verdiene Sterne und erhalte die verschiedenen Saisontitel.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Jede Saison besteht aus mehreren Zyklen, jeder Zyklus aus 3 Phasen und jede Phase hat 3 Schwierigkeitsgrade: „Normal“, „Schwer“ und „Brutal“. Schaffe einen Schwierigkeitsgrad, um die entsprechenden Sterne zu erhalten. Die Gesamtanzahl der Sterne, die in diesen 3 Phasen verdient werden, ergibt die Gesamtbewertung für einen Zyklus.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Schließt du eine Phase auf „Brutal“ ab und erfüllst die Bonusherausforderungsziele, erhältst du einen [Leuchtend]-Schub für deine Bewertung.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Nach dem Ende eines Zyklus wird die Gesamtbewertung für den neuen Zyklus zurückgesetzt. Stell dich den Phasen des neuen Zyklus, um erneut Sterne zu sammeln. Die Gesamtbewertung vergangener Zyklen wird als Teil der [Endbewertung] der Saison berücksichtigt.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Die höchste Gesamtbewertung, die über alle Zyklen der aktuellen Saison erreicht wurde, entspricht der [Endbewertung] der Saison. Die Endbewertung bestimmt auch den Saisontitel, den du erhältst, Endministrator.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Es werden von Zeit zu Zeit neue [Echos des Krieges]-Phasen hinzugefügt und alte Phasen werden ausgetauscht. Schließe eine Phase auf der Schwierigkeit „Normal“ zum ersten Mal ab, um [Oro-Berylle] zu erhalten. Wenn du Phasen auf höheren Schwierigkeiten abschließt, erhältst du auch Belohnungen wie [Mal der Beharrlichkeit] und [Fortschrittlicher kognitiver Datenträger].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Im Bildschirm [Echos des Krieges – Kampfanalyse] siehst du Details deiner Leistung in jedem Zyklus der letzten 6 Saisons. Außerdem kannst du dir im Profilbildschirm deiner Freunde ihre [Endbewertung] der letzten 6 Saisons ansehen.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// [Saison der Rückberufung]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Saison-Verfügbarkeit: Nach dem Versionsupdate zu [Heimkehr] – 9. August 2026 um 11:59 Uhr (Serverzeit)</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ „Asia“-Server-Zeitzone: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ „Americas / Europe“-Server-Zeitzone: UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Saison-Details: Die neue Saison [Saison der Rückberufung] ist verfügbar. Diese Saison enthält 3 Zyklen mit insgesamt 6 neuen Phasen. Jeder Zyklus besteht aus 3 Phasen.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ Mehr zum Event erfährst du im [Eventcenter] im Spiel.</span></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3056",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1784156400,
+          "focus": 0,
+          "title": "Verbinden-und-gewinnen: Vermögen",
+          "header": "[Verbinden-und-gewinnen: Vermögen] Feier-Event",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260715/98c40b68c410c96c4e00f2d6407c82fb.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Eventzeitraum</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Nach dem Versionsupdate [Heimkehr] – 31. Juli 2026 um 04:00 Uhr (Serverzeit)</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Teilnahmevoraussetzungen</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Nach Freischaltung des Eventcenters</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Eventbelohnungen</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Rubble während des Events insgesamt 14-mal, um mindestens [Oro-Beryll] ×5.000 zu erhalten.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Eventdetails</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Während des Events kannst du täglich 1-mal in der Eventanzeige Felder freirubbeln und verschiedene Belohnungen je nach freigerubbeltem Stempel erhalten. Jedes Rubbeln gewährt [Oro-Berylle] und verschiedene Fortschrittsmaterialien. Du kannst bis zu 14-mal teilnehmen und die Rubbelversuche werden täglich um 04:00 Uhr (Serverzeit) zurückgesetzt.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Während des Events wird jeden Tag ein „Täglicher Stempel“ bekannt gegeben. Wenn du einen Stempel freirubbelst, der mit dem „Täglichen Stempel“ übereinstimmt, wird die Belohnung für diesen Stempel verdoppelt und du erhältst außerdem die Belohnungen für alle anderen freigerubbelten Stempel.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Wenn der Stempel „ALL“ freigerubbelt wird, erhältst du den „ALL“-Preis, der [Oro-Beryll] ×800 beinhaltet. Du kannst während des Events bis zu 4 „ALL“-Preise gewinnen.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ Zeitzone des Asia-Servers: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Zeitzone des Americas / Europe-Servers: UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Weitere Eventdetails findest du im [Eventcenter] im Spiel.</span></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "9873",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1784156400,
+          "focus": 0,
+          "title": "Talosit-Börse",
+          "header": "[Talosit]-System jetzt verfügbar",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260715/acc7164038721cfb05fdedafc473a137.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Talosit-Details </strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Talosit ist ein besonderer Energiekristall, den man an verschiedenen Stellen auf Talos-II finden kann. Die Nachfrage zu Forschungszwecken ist groß. Nähere dich dem Talosit und interagiere mit ihm, um es einzusammeln. </span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Talosit-Börse </strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Der [Protokollsynchronisierer] verfügt jetzt über die Funktion [Talosit-Börse], auf der du gesammeltes Talosit gegen [Ausrüstungsvorlagen], [Verzierungen], [Kameraposen] und [Schallplatten] eintauschen kannst. </span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Besondere Hinweise </strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Sobald die Version [Heimkehr] veröffentlicht ist, wird Talosit im [Yinglung-Pass] und in der [Sperrzone Nord-Wuling] erscheinen; weitere Gebiete werden später hinzugefügt. </span></p><p><span style=\"color: rgb(0, 0, 0);\">· Jede Talosit-Sonde kann einen unentdeckten Talosit in deinem aktuellen Gebiet aufspüren. Sobald ein Talosit entdeckt wurde, bleibt er auf der Karte sichtbar. </span></p><p><span style=\"color: rgb(0, 0, 0);\">· Kaufe [Wuling-Talosit-Sonden] mit [Wuling-Aktiennoten], nachdem du das [Wuling – Yinglung-Pass]-Vorratneuverteilungsterminal freigeschaltet hast. </span></p><p><span style=\"color: rgb(0, 0, 0);\">· In zukünftigen Versionsupdates werden weitere eintauschbare Gegenstände der Talosit-Börse hinzugefügt.</span></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "1380",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1784156400,
+          "focus": 0,
+          "title": "Sehnsucht der Riss-Wächterin nach dem Norden",
+          "header": "Sehnsucht der Riss-Wächterin nach dem Norden",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260713/6650ee86578cb5759317e8af5f6421a9.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">Geschätzter Endministrator:</span></p><p><span style=\"color: rgb(31, 35, 41);\">Während [Sehnsucht der Riss-Wächterin nach dem Norden] Rekrutierung: Priorisiert kann die 6★-Operatorin [Arkan] mit erhöhter Wahrscheinlichkeit erhalten werden!</span></p><p><span style=\"color: rgb(31, 35, 41);\">Das zeitlich begrenzte Anmeldungs-Event [Blicke nach Norden zum Riss] erscheint zur gleichen Zeit. Melde dich an mehreren Tagen an und erhalte Belohnungen wie [„Blicke nach Norden zum Riss“-RK-Genehmigung] ×5. Außerdem gibt es im [AIK-Quotenaustausch] einen Rabatt auf [„Blicke nach Norden zum Riss“-RK-Genehmigung]. Das Operator-Prüfung-Event [Kampfübungen] ist während dieses Zeitraums ebenfalls verfügbar.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼// Details zu [Sehnsucht der Riss-Wächterin nach dem Norden] Rekrutierung: Priorisiert</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">· Verfügbarkeit: Nach der [Heimkehr]-Versionsveröffentlichung – 9. August 2026 um 11:59 Uhr (Serverzeit)</span></p><p><span style=\"color: rgb(31, 35, 41);\">· Teilnahmekriterien: Abschluss der Hauptmission [Kapitel I, Prozess I: Die Belagerung durchbrechen]</span></p><p><span style=\"color: rgb(31, 35, 41);\">· [Sehnsucht der Riss-Wächterin nach dem Norden] Rekrutierung: Priorisiert bietet eine erhöhte Chance auf 6★-Operatorin [Arkan].</span></p><p><span style=\"color: rgb(31, 35, 41);\">· Folgende 6★-Operatoren können in [Sehnsucht der Riss-Wächterin nach dem Norden] Rekrutierung: Priorisiert erscheinen (unter anderem): Arkan / Camille / Mi Fu / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.</span></p><p><span style=\"color: rgb(31, 35, 41);\">· In [Sehnsucht der Riss-Wächterin nach dem Norden] Rekrutierung: Priorisiert kannst du [„Blicke nach Norden zum Riss“-RK-Genehmigung], [RK-Genehmigung: Priorisiert] oder [Oro-Beryll] verwenden, um eine Rekrutierung durchzuführen.</span></p><p><span style=\"color: rgb(31, 35, 41);\">※ Der 6★-Operator, der in einem [Rekrutierung: Priorisiert]-Banner mit erhöhter Wahrscheinlichkeit verfügbar ist, wird nach 3 [Rekrutierung: Priorisiert]-Bannern von der Liste der Operatoren entfernt, die in [Rekrutierung: Priorisiert] auftauchen können. Dieser 6★-Operator mit erhöhter Wahrscheinlichkeit wird auch nicht zu [Rekrutierung: Standard] hinzugefügt.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼// Belohnungen für [Rekrutierung: Priorisiert]</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">Führe in [Sehnsucht der Riss-Wächterin nach dem Norden] Rekrutierung: Priorisiert eine bestimmte Anzahl an Rekrutierungsversuchen durch, um entsprechende Belohnungen zu erhalten.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">■ Bonusrekrutierung</span></p><p><span style=\"color: rgb(31, 35, 41);\">· Nach dem Durchführen von 30 Rekrutierungsversuchen erhältst du 10 zusätzliche Bonusrekrutierungsversuche (die als 1 kostenloser 10×-Rekrutierungsversuch zählen). Dies gilt nur während des [Rekrutierung: Priorisiert]-Banners und wird nicht auf andere Rekrutierungsbanner übertragen.</span></p><p><span style=\"color: rgb(31, 35, 41);\">· Die Wahrscheinlichkeit, Operatoren durch Bonusrekrutierung zu erhalten, ist identisch mit der Basis-Droprate dieses [Rekrutierung: Priorisiert]-Banners. Der kostenlose 10×-Rekrutierungsversuch der Bonusrekrutierung garantiert einen 5★-Operator oder besser.</span></p><p><span style=\"color: rgb(31, 35, 41);\">· Dieser kostenlose 10×-Rekrutierungsversuch, der durch Bonusrekrutierung erhalten wird, wird nicht für die Garantie für dieses oder andere [Rekrutierung: Priorisiert]-Banner gewertet. Er wird ebenfalls nicht für die Rekrutierungsversuche gewertet, die insgesamt für [Rekrutierung: Priorisiert]-Belohnungen erforderlich sind.</span></p><p><span style=\"color: rgb(31, 35, 41);\">■ Rekrutierungs-Dossier</span></p><p><span style=\"color: rgb(31, 35, 41);\">· Nachdem du 60 Rekrutierungsversuche durchgeführt hast, erhältst du ein [Rekrutierungs-Dossier]×1.</span></p><p><span style=\"color: rgb(31, 35, 41);\">· Sobald die Voraussetzungen erfüllt sind, wird das [Rekrutierungs-Dossier] automatisch deinen Wertgegenständen hinzugefügt. Mit Beginn des nächsten [Rekrutierung: Priorisiert]-Banners wird dieses [Rekrutierungs-Dossier] automatisch in eine Spezial-RK-Genehmigung×10 des jeweiligen [Rekrutierung: Priorisiert]-Banners umgewandelt. Allerdings läuft die RK-Genehmigung ebenfalls ab, wenn das entsprechende Banner endet.</span></p><p><span style=\"color: rgb(31, 35, 41);\">■ Token-Tribut</span></p><p><span style=\"color: rgb(31, 35, 41);\">· Bei jedem [Rekrutierung: Priorisiert]-Banner gewähren je 240 Rekrutierungsversuche ein zusätzliches [Token des 6★-Operators mit erhöhter Wahrscheinlichkeit im besagten Banner]×1.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼// Details zu Waffentickets</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">Jeder Rekrutierungsversuch von Operatoren gewährt dir außerdem [Waffentickets].</span></p><p><span style=\"color: rgb(31, 35, 41);\">· Für den Erhalt eines 6★-Operators erhältst du [Waffenticket]×2000.</span></p><p><span style=\"color: rgb(31, 35, 41);\">· Für den Erhalt eines 5★-Operators erhältst du [Waffenticket]×200.</span></p><p><span style=\"color: rgb(31, 35, 41);\">· Für den Erhalt eines 4★-Operators erhältst du [Waffenticket]×20.</span></p><p><span style=\"color: rgb(31, 35, 41);\">※ [Waffentickets] können in [Ankaufszentrum – Arsenal-Tauschbörse] ausgegeben werden.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Während [Sehnsucht der Riss-Wächterin nach dem Norden] Rekrutierung: Priorisiert sind auch die folgenden Inhalte verfügbar:</span></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼// Zeitlich begrenztes Anmeldungs-Event [Blicke nach Norden zum Riss]</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">Melde dich insgesamt an 7 Tagen an, um Belohnungen wie [„Blicke nach Norden zum Riss“-RK-Genehmigung] ×5 zu erhalten.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼// [Kampfübungen] Operator-Test-Event</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">[Kampfübungen] sind verfügbar, um die 6★-Operatorin [Arkan] zu testen. Schließe die angegebene Phase mit dem voreingestellten Team ab, das die Testoperatorin enthält, um [Oro-Beryll] ×100, [Arsenal-Verteidigungskiste], [Mal der Beharrlichkeit] und weitere Belohnungen zu erhalten. Die [Arsenal-Verteidigungskiste] enthält ein vollständig veredeltes Ausrüstungsset der Stufe 60, das gut zum aktuellen Testoperator passt.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼// Besonderer Hinweis zu [AIK-Quotenaustausch]</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">Der [Quotenaustausch] bietet zeitlich begrenzte Sonderangebote. Du kannst AIK-Quoten ausgeben, um Gegenstände wie [„Blicke nach Norden zum Riss“-RK-Genehmigung]×5 zu erhalten.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">※ Zeitzone des Asia-Servers: UTC+8</span></p><p><span style=\"color: rgb(31, 35, 41);\">※ Zeitzone des Americas / Europe-Servers: UTC-5</span></p><p><span style=\"color: rgb(31, 35, 41);\">※ Weitere Details zur Rekrutierung findest du im Spiel auf dem Bildschirm [Rekrutierung].</span></p><p><span style=\"color: rgb(31, 35, 41);\">※ Weitere Eventdetails findest du im [Eventcenter] im Spiel.</span></p><p><span style=\"color: rgb(31, 35, 41);\">※ Weitere Informationen zum [AIK-Quotenaustausch] findest du im [Ankaufszentrum] im Spiel.</span></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "5531",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1784156400,
+          "focus": 0,
+          "title": "Heimkehr-\\nPakete",
+          "header": "[Heimkehr] Paketdetails",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260715/7ba0f9b038cdadaa5476582f61d69456.jpg\" data-width=\"1650\" data-height=\"300\"><p>Lieber Endministrator, <br>Während der Version [Heimkehr] bietet das [Ankaufszentrum] eine Vielzahl von Paketen an.<br><br><strong>▼// Limitierte Pakete <br>■ Heimkehrpack der kuriosen Sammlung </strong><br>· Verfügbarkeit: Während der gesamten Version [Heimkehr]<br>· Paketinhalt: [RK-Genehmigung: Priorisiert] ×1, [Sticker: Suppressor] ×1, [Porträt: KonzertPom] ×1 <br>· Hinweis: Nur 1 Kauf erlaubt<br><br><strong>■ </strong><span style=\"color: rgb(0, 0, 0);\"><strong>„Feier der Gefährten“-Paket </strong></span><br>· Verfügbarkeit: Während der gesamten Version [Heimkehr] <br>· Paketinhalt: [RK-Genehmigung: Priorisiert] ×30, [Erweiterter-Fortschritt-Auswahlkiste Ⅰ] ×5, [T-Kreditscheine] ×100.000 <br>· Hinweis: Nur 1 Kauf erlaubt<br><br><strong>■ Paket: Protokollfluss </strong><br>· Verfügbarkeit: Während der gesamten Version [Heimkehr] <br>· Paketinhalt: [RK-Genehmigung: Priorisiert] ×10, [Waffenticket] ×2.000, [Mal der Beharrlichkeit] ×10 <br>· Hinweis: Nur 1 Kauf in der aktuellen Version erlaubt<br><br><strong>■ Paket: Riss-Wächterin-RK </strong><br>· Verfügbarkeit: Nach Veröffentlichung der Version [Heimkehr] – 9. Aug. 2026 um 11:59 Uhr (Serverzeit) <br>· Paketinhalt: [„Blicke nach Norden zum Riss“-RK-Genehmigung] ×10, [T-Kreditscheine] ×80.000 <br>· Hinweis: Nur 1 Kauf erlaubt<br><br><strong>■ Paket: Morgenstern-RK </strong><br>· Verfügbarkeit: 9. Aug. 2026 um 12:00 Uhr (Serverzeit) – Vor dem Versionsupdate und der Wartung <br>· Paketinhalt: [„Blendender Morgenstern“-RK-Genehmigung] ×10, [T-Kreditscheine] ×80.000 <br>· Hinweis: Nur 1 Kauf erlaubt<br><br><strong>■ Preiswertes Waffenticket-Paket </strong><br>· Paketinhalt: [Waffenticket] ×2.000 <br>· Hinweis: Nur 1 Kauf erlaubt. Das Kauflimit wird zurückgesetzt, wenn die [Rekrutierung: Priorisiert] aktualisiert wird.<br><br><strong>■ ID-Aktualisierungspaket </strong><br>· Paketinhalt: [ID-Aktualisierungskarte] ×1 <br>· Hinweis: Kann einmalig kostenlos abgeholt werden. Nach dem Abholen wird das Paket wieder zum ursprünglichen Preis angeboten.<br><br>※ Zeitzone Asia-Server: UTC+8 <br>※ Zeitzone Americas / Europe-Server: UTC-5 <br>※ Einige Pakete können zeitlich begrenzte Gegenstände enthalten. Du kannst die Details zu zeitlich begrenzten Gegenständen unter [Kaufen – Gegenstandsinhalt] überprüfen. Wenn zeitlich begrenzte Gegenstände in einem Paket nach dem Kauf ablaufen, können sie nicht erneut ausgestellt werden. Danke für dein Verständnis und deine Unterstützung. <br>※ Weitere Pakete und Details dazu findest du unter [Ankaufszentrum – Pakete] im Spiel.</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3057",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1784156400,
+          "focus": 0,
+          "title": "Militär-Standards-Ausgabe",
+          "header": "Militär-Standards-Ausgabe",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260715/a7396ed6bc9902a659221123d4e28bf6.jpg\" data-width=\"1650\" data-height=\"300\"><p>Geschätzter Endministrator: <br>Während [Militär-Standards-Ausgabe] verfügbar ist, ist die Chance auf Erhalt der 6★-Waffe [Typ 42: Feierliche Phalanx (Tech-Einheit)] erhöht!<br><br><strong>▼// [Militär-Standards-Ausgabe] </strong><br>· Verfügbarkeit: Öffnet nach dem [Heimkehr]-Versions-Update, endet nach 3 [Rekrutierung: Priorisiert]-Bannern (beginnend mit [Sehnsucht der Riss-Wächterin nach dem Norden]) <br>· Teilnahmekriterien: Abschluss der Hauptmission [Kapitel I Prozess I: Die Belagerung durchbrechen] <br>· [Militär-Standards-Ausgabe] bietet eine erhöhte Chance auf die 6★-Waffe [Typ 42: Feierliche Phalanx (Tech-Einheit)]. <br>· Verfügbare 6★-Waffen in [Militär-Standards-Ausgabe]: Typ 42: Feierliche Phalanx (Tech-Einheit) / Ehemalige Eleganz (Großschwert) / Keil (Handfeuerwaffe) / Untadeliger Ruf (Schwert) / JET (Stangenwaffe) / Zünder (Tech-Einheit) / Vergessenheit (Tech-Einheit).<br><br><strong>▼// [Waffenausgabe]-Belohnungen </strong><br>In jeder [Waffenausgabe] erhältst du für eine bestimmte Anzahl von Ausgaben abwechselnd die spezifische [Waffenangebotskiste] (Waffen-AK) oder [6★-Waffe mit erhöhter Wahrscheinlichkeit] des Banners. Die Gesamtzahl der Ausgaben für diese Waffenausgabe-Belohnungen wird nach Ende des Banners zurückgesetzt und nicht auf andere [Waffenausgabe]-Banner übertragen.<br><br><strong>▼// [Waffenausgabe]-Details </strong><br>· In [Waffenausgabe] kannst du [Waffentickets] ausgeben, um eine Ausgabe zu beantragen. <br>· Bei jeder Ausgabe erhältst du 10 zufällige Waffen aus der Liste der verfügbaren Waffen, darunter mindestens eine 5★-Waffe oder besser.<br><br><strong>▼// [Arsenal-Tauschbörse]-Details </strong><br>In der [Arsenal-Tauschbörse] kann das [Waffenticket] auch zum direkten Kauf von Waffen verwendet werden. Einige käufliche Waffen können von Zeit zu Zeit aktualisiert werden. Informiere dich auf dem Bildschirm [Ankaufszentrum – Arsenal-Tauschbörse] über die tatsächlich verfügbaren Waffen.<br><br>※ Weiterführende Informationen und Regeln der Belohnungsvergabe sind im Spiel unter [Ankaufszentrum - Arsenal-Tauschbörse] verfügbar.</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "7298",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1784260800,
+          "focus": 0,
+          "title": "Tägliche Anmeldung",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260716/4cb821fa3985c4aafdd7c5762300ed3c.png",
+            "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fstatic.skport.com%252Fu-link%252Fdownload.html%253Fschema%253Dskport%25253A%25252F%25252Fweb%25253Furl%25253Dhttps%2525253A%2525252F%2525252Fgame.skport.com%2525252Fendfield%2525252Fsign-in%2525253Fheader%2525253D0%25252526hg_media%2525253Dgame%25252526hg_link_campaign%2525253Dannouncement%25252526hg_link_name%2525253Dsignin",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "6447",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1784199600,
+          "focus": 0,
+          "title": "Diskussion zur neuen Version",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260715/7ccc2dce742618f6d55d00550a545688.png",
+            "link": "https://www.skport.com/article?id=2077308566596882273&hg_media=game&hg_link_campaign=announcement&hg_link_name=homecoming",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "5532",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1784199600,
+          "focus": 0,
+          "title": "[Oro-Berylle] „Die Einheitsleiterin hat heute frei“",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260715/52cebab36f0043f2efd160377b061691.png",
+            "link": "https://discord.gg/U9dAecZmYW?event=1526512796630515732",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "6448",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "rich_text",
+          "startAt": 1784156400,
+          "focus": 0,
+          "title": "Protokollpass \nVerderbtes Meer",
+          "header": "Details zu [Protokollpass: Verderbtes Meer]",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260714/4addc23b6af8c15c4a38f2efe69163fe.jpg\" data-width=\"1650\" data-height=\"300\"><p>Lieber Endministrator, <br>Während der Laufzeit von [Protokollpass: Verderbtes Meer] kannst du über das [Protokollpass]-System auf verschiedene Unterstützungen zugreifen, die die Waffeningenieure bereitstellen. Bei der Veröffentlichung jeder Protokollpass-Saison wird die Stufe [Grundversorgung] automatisch freigeschaltet. Erhöhe dein Passlevel, um Belohnungen wie [RK-Genehmigungen: Einfach], [Oro-Berylle], [Kisten des Unerwarteten] und [Fortschrittsmaterialien] zu erhalten. <br>Die Stufe [Originium-Versorgung] kann mit [Origeometrie] freigeschaltet werden und gewährt [RK-Genehmigung: Einfach], [Sticker: Ewiger Frieden über dem verderbten Meer], [Filter: Farben der Hoffnung] und weitere Belohnungen wie [Waffenvorrat: Verderbtes Meer], [Origeometrie] und [Verstandsverstärker für den Notfall]. <br>Kaufe die Stufe [Protokoll-Optimierung] und erhalte [Profil: Quelle des Leidens], [Profilbildrahmen: Befriedung], [Porträt: Das Zerbrechen der Realität] und Bonusbelohnungen wie [Waffenvorrat: Verderbtes Meer], [Waffenticket] und [Waffenbauplan-Protokoll].<br><br><strong>▼// Verfügbarkeit </strong><br>Während der Version [Heimkehr] <br>※ „Asia“-Server-Zeitzone: UTC+8 <br>※ „Americas / Europe“-Server-Zeitzone: UTC-5<br><br><strong>▼// Teilnahmekriterien </strong><br>Abschluss der Hauptmission [Kapitel I Prozess I: Die Belagerung durchbrechen]<br><br><strong>▼// Details zum Protokollpass </strong><br>· Die Aktivierung des [Protokollpasses] schaltet automatisch die Stufe [Grundversorgung] frei. Du kannst die Stufe [Protokoll-Optimierung] kaufen oder die Stufe [Originium-Versorgung] mit [Origeometrie] freischalten, um dir zusätzliche Belohnungen und einen Pass-EP-Sammelbonus zu sichern. <br>· In jeder Pass-Saison enthalten die Stufen [Originium-Versorgung] und [Protokoll-Optimierung] je einen [Waffenvorrat], mit dem du eine der 6★-Waffen der Saison auswählen und erhalten kannst. [Waffenbauplan-Protokolle] erhöhen das Potenzial von Waffen, die über einen [Waffenvorrat] aus dem Protokollpass erhalten wurden. <br>· Schließe verschiedene Passmissionen ab (manche Missionen sind erst nach der Erfüllung bestimmter Kriterien oder nach einer gewissen Zeit verfügbar) oder erledige [Betriebshandbuch – Tägliche Aufgaben] und hol dir jeden Tag die größtmögliche Anzahl an Aktivitätspunkten, um Pass-EP zu verdienen. Erhöhe dein Passlevel und schalte eine Vielzahl von [Protokollpass]-Belohnungen frei. <br>· Hast du [Originium-Versorgung] oder [Protokoll-Optimierung] freigeschaltet, kannst du auch nach Erreichen des höchsten [Protokollpass]-Levels weiter Pass-EP verdienen. Alle Pass-EP, die du über die Höchstgrenze hinaus verdienst, werden zusammengenommen und für die Freischaltung von [Wiederkehrenden Kisten des Unerwarteten] eingesetzt. Diese Kisten werden bei Erhalt automatisch geöffnet und enthalten eine zufällige [Oro-Beryll]-Belohnung, eine zufällige [Fortschrittsmaterial]-Belohnung und eine zufällige [Verstandsverbrauch-Genehmigung]-Belohnung. <br>· Für das Freischalten der Stufe [Originium-Versorgung] / [Protokoll-Optimierung] des Protokollpasses der Saison erhältst du einen Bonus von je +3 % EP. Die Freischaltung beider Stufen verleiht einen EP-Bonus von +6 %. <br>· Kommt es durch besondere Umstände zu mehreren Käufen von [Protokoll-Optimierung], werden die Belohnungen für diese Stufe nicht kumuliert. Stattdessen wird dir eine auf dem Kaufwert basierende Menge an [Origeometrie] erstattet. <br>· Sobald die [Protokollpass]-Saison endet, werden sämtliche nicht beanspruchten Belohnungen an deinen Posteingang gesendet.<br><br>※ Die ausführlichen Regeln findest du im Spiel unter [Protokollpass] &gt; [Details zum Protokollpass].<br></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "8966",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "rich_text",
+          "startAt": 1784156400,
+          "focus": 0,
+          "title": "Blicke zur Sperrzone Nord",
+          "header": "[Blicke zur Sperrzone Nord] Details zum Anleitung-Event",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260715/beb627d58333f913a4923dd180c487d1.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Eventzeit</strong><br>Nach Veröffentlichung der Version [Heimkehr] – 9. Aug. 2026 um 12:00 Uhr (Serverzeit)<br><br><strong>▼// Eventbelohnungen</strong><br><span style=\"color: rgb(0, 0, 0);\">Schließe während des Events Missionen ab, um [Oro-Berylle] und [Mal der Beharrlichkeit] als Eventbelohnungen zu erhalten.</span></p><p><br><strong>▼// Teilnahmevoraussetzungen</strong><br>Schließe in der Hauptmission [Kapitel II, Prozess VII: Tapfer gegen die feindlichen Winde] [Begib dich zum Yinglung-Pass] ab.<br><strong><br>▼// Eventdetails</strong><br>Besuche während des Events die Gebiete [Yinglung-Pass] und [Sperrzone Nord-Wuling] in der Region Wuling und schließe verschiedene Eventmissionen wie beispielsweise die Freischaltung von TP-Punkten oder das Öffnen von Protokollkisten ab, um jede Menge Belohnungen zu erhalten.<br><br>※ Zeitzone des Asia-Servers: UTC+8 <br>※ Zeitzone des Americas / Europe-Servers: UTC-5 <br>※ Weitere Eventdetails findest du im [Eventcenter] im Spiel.</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "9872",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 5,
+          "displayType": "rich_text",
+          "startAt": 1784248800,
+          "focus": 0,
+          "title": "PC Client Update Notice",
+          "header": "PC Client Update Notice",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260716/629c4b49660a1fb9ab413f1ad09d8119.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Dear Endministrator,</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">To improve client stability and security, we have released a new version of the PC client. This is a required update. Please follow the prompts in the launcher to complete the update before entering the game.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Thank you for your understanding and support!</span></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "5530",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 5,
+          "displayType": "rich_text",
+          "startAt": 1784167200,
+          "focus": 0,
+          "title": "Notice Regarding an Issue with the X Sharing Feature",
+          "header": "Notice Regarding an Issue with the X Sharing Feature",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260716/629c4b49660a1fb9ab413f1ad09d8119.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Dear Endministrator,</span></p><p><span style=\"color: rgb(0, 0, 0);\">The in-game sharing feature for X (formerly Twitter) is currently experiencing an issue, which may prevent you from sharing content via X as intended.</span></p><p><span style=\"color: rgb(0, 0, 0);\">Our team is investigating the issue and working on a fix. The X sharing feature will remain temporarily unavailable until the issue is resolved. Please stay tuned to future official announcements for updates on its restoration.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">If you have any questions, please visit the official Arknights: Endfield website and go to [Account Center – Contact Customer Support] to submit your feedback.</span></p><p><span style=\"color: rgb(0, 0, 0);\">We sincerely apologize for any inconvenience this may cause. Thank you, as always, for your understanding and continued support of Arknights: Endfield!</span></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "8965",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 5,
+          "displayType": "rich_text",
+          "startAt": 1784156400,
+          "focus": 0,
+          "title": "Protokoll-Einladung Die Rückkehr",
+          "header": "[Protokoll-Einladung: Die Rückkehr] Web-Eventdetails",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260715/96d38c4ad20b6e9ee7e4381dcf5c9967.jpg\" data-width=\"1650\" data-height=\"300\"><p>Die Nachricht verbreitet sich wie ein Lauffeuer. Text- und Audiodateien werden in jeden Winkel der Welt versendet. Wenn du deine Reise verlangsamt hast, hör auf den Ruf, der uns dazu auffordert, nach Talos-II zurückzukehren.</p><p></p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://endfield.gryphline.com/activity/relinkcall202607-qyhYCQ0O/index.html?source_from=game\"><strong>Klicke hier, um zum [Protokoll-Einladung: Die Rückkehr]-Web-Event zu gelangen</strong></a></p><p></p><p><strong>▼// Eventzeitraum</strong></p><p>Während der gesamten Version [Heimkehr]</p><p></p><p><strong>▼// Teilnahmevoraussetzungen:</strong></p><p>Nachdem das Eventcenter freigeschaltet wurde</p><p></p><p><strong>▼// Eventdetails</strong></p><p>· Während des Events kannst du deinen exklusiven Einladungscode teilen, um [Wiederkehrende Mitglieder] zum Event einzuladen und [Oro-Beryll]-Belohnungen zu verdienen.</p><p>· Während des Events können [Wiederkehrende Mitglieder] auf der Event-Webseite den Einladungscode eines anderen Spielers eingeben und verknüpfen. Sobald die Verknüpfung hergestellt ist, kann der Code nicht mehr geändert werden. Schließe die Verknüpfung ab, um eine exklusive Belohnung in Form von [Oro-Beryll] zu erhalten.</p><p></p><p><strong>▼// [Wiederkehrende Mitglieder] Teilnahmebedingungen</strong></p><p>Endministratoren, die für das Event [Protokoll-Neuverbindung] teilnahmeberechtigt sind, gelten als [Wiederkehrende Mitglieder].</p><p></p><p>※ Weitere Eventdetails findest du auf der Event-Webseite zu [Protokoll-Einladung: Die Rückkehr].</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "7290",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 5,
+          "displayType": "picture",
+          "startAt": 1784088000,
+          "focus": 0,
+          "title": "Comic [Echoes of the Beginning: Bloom Amid Ruin] Is Live",
+          "header": "Official Comic [Echoes of the Beginning: Bloom Amid Ruin] Is Live",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260714/ac925b3129401d4f6adc5d768117d977.png",
+            "link": "https://endfield.gryphline.com/news/8999",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "0700",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 5,
+          "displayType": "picture",
+          "startAt": 1783940400,
+          "focus": 0,
+          "title": "Arkans Sonderdienst",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260708/161d1bd8805104a5d4fdff206bebb92f.png",
+            "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fact.skport.com%252Fmini-game%252Fspecial-mission%253Fctr_orientation%253Dlandscape%2526header%253D0%2526hg_media%253Dgame%2526hg_link_campaign%253Dannouncement%2526hg_link_name%253DArcanespecialmisson",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "8998",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 5,
+          "displayType": "rich_text",
+          "startAt": 1769011200,
+          "focus": 0,
+          "title": "Erklärung zu Fairness im Spiel",
+          "header": "Arknights: Endfield – Erklärung zu Fairness im Spiel",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260121/4c654b8022af7a3bbad815911960a22d.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Vielen Dank für euer anhaltendes Interesse und die Unterstützung von Arknights: Endfield. Um allen eine ausgewogene und faire Spielumgebung zu bieten und die legitimen Rechte und Interessen aller Spieler zu wahren, möchten wir alle an Folgendes erinnern:</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">1. Die Nutzung von Cheats, Tools von Drittanbietern, nicht autorisierte Käufe über Dittanbieter oder andere unangemessene Methoden, welche die Integrität des Spiels negativ beeinflussen oder gegen die Nutzungsbedingungen des Spiels verstoßen, sind strengstens verboten. Basierend auf Backend-Überwachung und Meldungen von Spielern, werden wir, falls solche Verstöße nachgewiesen werden sollten, entsprechende Konsequenzen basierend auf der Schwere der Verstöße ziehen. Diese Maßnahmen beinhalten unter anderem die Entfernung unrechtmäßig erhaltener Ressourcen, vorübergehende Sperrungen oder auch permanente Sperrungen.</span></p><p><span style=\"color: rgb(0, 0, 0);\">2. Um die legitimen Rechte und Interessen aller Spieler zu wahren, fordern wir euch auf, eure Spielkonten nie zu transferieren, zu teilen oder zu tauschen. Die aus diesen Handlungen resultierende Konsequenzen, einschließlich Kontodiebstahl und Verlust von Eigentum im Spiel, trägt allein der betroffene Spieler.</span></p><p><span style=\"color: rgb(0, 0, 0);\">3. Um ein volles Spielerlebnis zu garantieren, ist es Spielern strengstens untersagt, die Installationsdateien des Spiels zu entpacken, zu modifizieren oder auf sonst irgendeine Weise zu manipulieren oder extrahiertes Material in Umlauf zu bringen.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Eine positive und faire Spielumgebung kann nur dann erhalten werden, wenn alle Spieler daran mitwirken. Wir bitten daher alle darum, fair zu bleiben und sich an die Regeln zu halten. Sollten euch Verstöße auffallen, so meldet sie uns bitte im offiziellen Kundendienst-Center.</span></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "7299",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 6,
+          "displayType": "rich_text",
+          "startAt": 1784156400,
+          "focus": 0,
+          "title": "Protokoll-Neuverbindung",
+          "header": "[Protokoll-Neuverbindung] Details zum Rückkehr-Event",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260715/374e7f7730c4e81ceea54bc520acbc7f.png\" data-width=\"1650\" data-height=\"300\"><p>Geschätzter Endministrator:</p><p>Das [Protokoll-Neuverbindung]-Rückkehr-Event wurde in der Version [Heimkehr] aktualisiert. Bitte schau dir die Details an, Endministrator.</p><p></p><p><strong>▼// Teilnahmevoraussetzungen</strong></p><p>· Autoritätslevel ≥ 3</p><p>· Abschluss der Hauptmission [Kapitel I Prozess I: Talfahrt]</p><p>· Seit ≥ 21 aufeinanderfolgenden Tagen nicht im Spiel angemeldet</p><p>· Teilnahme am letzten [Protokoll-Neuverbindung]-Event liegt ≥ 42 Tage zurück</p><p>· Rückkehr-Status des Endministrators ist für die Dauer des Events [Protokoll-Neuverbindung] aktiv</p><p></p><p><strong>▼// Eventzeitraum</strong></p><p>Nach Abschluss des Versions-Updates [Heimkehr] ist das [Protokoll-Neuverbindung]-Event ab dem Tag seiner Aktivierung bis 04:00 Uhr (Serverzeit) am Tag nach dem 14. Tag der Aktivierung verfügbar.</p><p>※ Beispiel: Wenn du dich zwischen dem 1. Januar 2026 um 04:00 Uhr und dem 2. Januar 2026 um 03:59 Uhr (Serverzeit) einloggst und das [Protokoll-Neuverbindung]-Event aktivierst, bleibt das Event bis zum 15. Januar 2026 um 04:00 Uhr (Serverzeit) verfügbar.</p><p></p><p><strong>▼// Eventdetails</strong></p><p>· Bei Erfüllung der Teilnahmevoraussetzungen erhältst du einmalig die Protokoll-Neuverbindungs-Belohnung, Endministrator.</p><p>· Melde dich während des Events jeden Tag unter [Neuverbindung-Anmeldung] an, um Belohnungen zu erhalten. Die tägliche Anmeldung ist bis zu 7-mal möglich.</p><p>· Schließe während des Events verschiedene [Neuverbindung-Aufgaben] ab, um Eventpunkte und Belohnungen zu erhalten. Wenn du genügend Punkte sammelst, erhältst du zusätzliche Belohnungen.</p><p>· Während des Events sind im Protokollpass [Rückkehrermissionen] verfügbar. Schließe diese Missionen ab, um zusätzliche Protokollpass-EP zu erhalten.</p><p>· Während des Events kannst du außerdem an der [Rückkehrerumfrage] teilnehmen, um Umfragebelohnungen zu erhalten.</p><p>· Endministratoren, die sich seit ≥ 60 aufeinanderfolgenden Tagen nicht mehr im Spiel angemeldet haben, können im [Protokoll-Neuverbindung]-Event noch mehr Belohnungen erhalten.</p><p></p><p>※ Zeitzone des Asia-Servers: UTC+8</p><p>※ Zeitzone des Americas / Europe-Servers: UTC-5</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "6472",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 7,
+          "displayType": "rich_text",
+          "startAt": 1769011200,
+          "focus": 0,
+          "title": "Nutzungsrichtlinie für Funktionen",
+          "header": "Nutzungsrichtlinie für den Automatisierten Industriekomplex und Baupläne",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260121/9818f9b3b3b8c39d53d39a08e1a8772e.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">Um eine angenehme Spielumgebung zu gewährleisten, bitten wir dich, bei der Nutzung von Funktionen in Verbindung mit dem Automatisierten Industriekomplex unsere Nutzungsbedingungen zu befolgen. Bitte veröffentliche keine Beiträge oder beteilige dich an Inhalten, die Folgendes beinhalten:</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">1. Diskriminierung aufgrund von Region, Ethnie, sexueller Orientierung, Religion, politischer Meinung usw.</span></p><p><span style=\"color: rgb(31, 35, 41);\">2. Verleumdung, Beleidigungen oder Verletzung der Rechte anderer</span></p><p><span style=\"color: rgb(31, 35, 41);\">3. Obszönitäten, Gewalt, Glücksspiel oder Hass</span></p><p><span style=\"color: rgb(31, 35, 41);\">4. Alles, was gemäß der Nutzungsbedingungen untersagt oder als unangebracht erachtet wird</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Bei Verstößen gegen die oben genannten Bestimmungen können Strafen verhängt werden, darunter die Entfernung von Artikeln im Automatisierten Industriekomplex, Einschränkungen der Funktionen der AIK-Fabrik und die Sperrung von Accounts. Um Verstöße zu melden, verwende die Schaltfläche [Melden] oder wende dich an den Kundendienst.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Wenn du die Funktion [Bauplan teilen] verwendest, erhältst du einen [Bauplancode], mit dem andere Endministratoren deinen Bauplan ansehen und verwenden können. Beachte bitte Folgendes, bevor du beginnst: Durch das Teilen deines [Bauplancodes] erlaubst du jedem, dein Design anzusehen, zu kopieren oder zu verwenden. Bitte überlege gut, bevor du etwas teilst.</span></p><p></p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user.gryphline.com/en-us/protocol/plain/endfield/game/terms_of_service\">Terms of Service</a></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "6474",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 12,
+          "displayType": "rich_text",
+          "startAt": 1769036400,
+          "focus": 0,
+          "title": "Ätzbereich: Bergung",
+          "header": "[Ätzbereich: Bergung] Gameplay-Details",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260117/4c52fdfeb6647627686f6384062c9811.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Verfügbarkeitszeitraum</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Ab der offiziellen Veröffentlichung</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Erkundungsbelohnungen</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Erreiche während der Verfügbarkeit von [Ätzbereich: Bergung] die angegebenen Einsatzkennzahlen, um Belohnungen zu erhalten, darunter: [Oro-Berylle], [RK-Genehmigung: Einfach] und [Fortschrittsmaterialien].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Teilnahmevoraussetzungen</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Schließe die Hauptmission [Kapitel I Prozess III: Gebäude voller Geheimnisse] ab.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Gameplay-Details</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· [Ätzbereich: Bergung] ist eine permanente Aktivität, bei der du an Bord der Dijiang gehst, um die [Tal-Anomalien] zu betreten und zu erkunden. Nimm während der Erkundung verschiedene Beauftragungen an und schließe sie ab, um Unterstützungs-Tech für Erkundungen freizuschalten, die deine Fähigkeit verbessern, die Tal-Anomalien zu erkunden, und um Belohnungen wie [Oro-Berylle] zu verdienen.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Verdiene Einsatzkennzahlen, indem du bestimmte Beauftragungen abschließt oder [Niederschlagsnoduli] aus den Tal-Anomalien holst. Verdiene genug Einsatzkennzahlen, um Belohnungen zu erhalten.</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Weitere Details findest du im [Ätzbereich: Bergung]-Bildschirm im Spiel unter [Gameplay-Details].</span></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3080",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 19,
+          "displayType": "rich_text",
+          "startAt": 1769036400,
+          "focus": 0,
+          "title": "Anleitung für Spielwerkzeuge",
+          "header": "Arknights: Endfield – Anleitung für Spielwerkzeuge",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260120/d50ae1defbb2967d860cfa96ac913483.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>[Tägliche Anmeldung]</strong></p><p>Mit dem Werkzeug für tägliche Anmeldung kannst du dich täglich anmelden, um Belohnungen wie Oro-Beryll, Fortgeschrittene Kampfaufzeichnungen, Waffen-INSP-Sets, Protoprismen und Talosianische Kreditscheine zu erhalten. Verknüpfe deine Charaktere und erhalte nach den ersten drei täglichen Anmeldungen einen Bonus von 300 Oro-Beryll!</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/endfield/sign-in\">Los</a></p><p></p><p><strong>[WIKI]</strong></p><p>Das WIKI ist ein Werkzeug, dessen Inhalte von einer Gruppe von Endministratoren erstellt und gepflegt werden. Es ist eine praktische und detaillierte Quelle für Informationen zum Spiel.</p><p>Hier findest du grundlegende Informationen zu Operatoren und Gegenständen, Waffendateien und vieles mehr.</p><p>Das WIKI befindet sich derzeit noch in der Entwicklung und wird ständig erweitert. Solltest du auf Probleme oder Fehler stoßen, tippe bitte unten rechts auf der Hauptseite auf [Feedback].</p><p>Die derzeit im WIKI angezeigten Informationen entsprechen dem Stand des Beta-Tests II, aber die tatsächlichen Inhalte im Spiel können davon abweichen.</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wiki.skport.com/endfield\">Los</a></p><p></p><p><strong>[Kartenwerkzeuge]</strong></p><p>Die Kartenwerkzeuge bieten einen umfassenden Überblick über die Ressourcen und Anlagen im Spiel und ermöglichen es, interessante Bereiche zu suchen, zu filtern und zu lokalisieren.</p><p>Sie bieten mehr als nur eine Übersicht über Vorratskisten, Sammelstücke, Gegner und ähnliche wichtige Inhalte: Sobald du dich angemeldet hast, kannst du auch deine eigenen Seilbahnen, Strommasten und andere von dir errichtete Gebäude sehen. Das alles erleichtert dir die Erkundung von Talos-II.</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/map/endfield\">Los</a></p><p></p><p><strong>[Protokollterminal]</strong></p><p>Das Protokollterminal bietet Spielern eine bequeme Möglichkeit, Spieldaten etwa zu Operatoren und der Regionsentwicklung zu suchen. Du erhältst Zugriff auf Verstandswerte, den Fortschritt bei täglichen Aufgaben und viele weitere Echtzeitdaten.</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/endfield/game-data?header=0\">Los</a></p><p></p><p><strong>[Teamauswahl und Operator-Fortschritt]</strong></p><p>Diese Spielwerkzeuge bieten Endministratoren eine Fülle von Informationen, darunter Teamaufstellungen, Vorschläge zu Fähigkeiten und Kampfstrategien. Stöbere in den Aufstellungen anderer begeisterter Spieler von Arknights: Endfield und gib deinen Favoriten ein „Gefällt mir“.</p><p>Wir hoffen, dass dies Endministratoren dabei hilft, schnell ihre perfekten Teams zusammenzustellen, die für jede Herausforderung bereit sind!</p><p><strong>Starte Arknights: Endfield, öffne [Protokollsynchronisierer] und nutze dann die Schaltfläche „Spielwerkzeuge“.</strong></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "7222",
+          "type": 0,
+          "tab": "news",
+          "orderType": 2,
+          "orderWeight": 20,
+          "displayType": "picture",
+          "startAt": 1769040000,
+          "focus": 0,
+          "title": "Offizielle Social-Media-Konten",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260121/5c723787104565cd477b0d3532b6d9b8.jpg",
+            "link": "https://ef-webview.gryphline.com/act/social-media?u8_token={u8_token}&server={server}",
+            "linkType": 2
+          }
+        }
+      ]
+    },
+    "msg": ""
+  }
+}
