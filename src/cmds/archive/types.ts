@@ -1,3 +1,4 @@
+import type { LauncherWebLang } from '../../utils/api/akEndfield/defaultSettings.js';
 import type apiUtils from '../../utils/api/index.js';
 
 export type LatestGameResponse = Awaited<ReturnType<typeof apiUtils.akEndfield.launcher.latestGame>>;
@@ -44,6 +45,13 @@ export interface LauncherTarget {
   apps: ('EndField' | 'Arknights' | 'Official')[];
   code: string;
   channel: number;
+}
+
+export interface BulletinTarget {
+  region: 'os' | 'cn';
+  channel: number;
+  server: number | null;
+  langs: readonly LauncherWebLang[];
 }
 
 export interface AssetToMirror {

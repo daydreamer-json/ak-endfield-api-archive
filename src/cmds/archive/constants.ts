@@ -1,5 +1,6 @@
+import defaultSettings from '../../utils/api/akEndfield/defaultSettings.js';
 import appConfig from '../../utils/config.js';
-import type { GameTarget, LauncherTarget } from './types.js';
+import type { BulletinTarget, GameTarget, LauncherTarget } from './types.js';
 
 export const DIFF_IGNORE_RULES = [
   ['rsp', 'pkg', 'url'],
@@ -77,6 +78,30 @@ export const getLauncherTargets = (): LauncherTarget[] => {
       apps: ['EndField', 'Arknights', 'Official'],
       code: cfg.appCode.launcher.cnWinRel,
       channel: cfg.channel.cnWinRel,
+    },
+  ];
+};
+
+export const getBulletinTargets = (): BulletinTarget[] => {
+  const cfg = appConfig.network.api.akEndfield;
+  return [
+    {
+      region: 'os',
+      channel: cfg.channel.osWinRel,
+      server: cfg.bulletin.server.os,
+      langs: defaultSettings.launcherWebLang,
+    },
+    {
+      region: 'cn',
+      channel: cfg.channel.cnWinRel,
+      server: cfg.bulletin.server.cn,
+      langs: defaultSettings.launcherWebLangCN,
+    },
+    {
+      region: 'cn',
+      channel: cfg.channel.cnWinRelBilibili,
+      server: cfg.bulletin.server.cn,
+      langs: defaultSettings.launcherWebLangCN,
     },
   ];
 };

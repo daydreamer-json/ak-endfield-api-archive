@@ -1,6 +1,6 @@
 import appConfig from '../../config.js';
 
-export default {
+const defaultSettings = {
   ky: {
     headers: {
       'User-Agent': appConfig.network.userAgent.minimum,
@@ -26,3 +26,7 @@ export default {
   ] as const,
   launcherWebLangCN: ['zh-cn'] as const,
 };
+
+export type LauncherWebLang = (typeof defaultSettings.launcherWebLang)[number];
+
+export default defaultSettings;

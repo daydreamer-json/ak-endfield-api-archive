@@ -10,7 +10,7 @@ import appConfig from '../../utils/config.js';
 import logger from '../../utils/logger.js';
 import mathUtils from '../../utils/math.js';
 import stringUtils from '../../utils/string.js';
-import { DIFF_IGNORE_RULES, getGameTargets, getLauncherTargets } from './constants.js';
+import { DIFF_IGNORE_RULES, getBulletinTargets, getGameTargets, getLauncherTargets } from './constants.js';
 import type {
   AssetToMirror,
   AssetToMirrorRes,
@@ -42,6 +42,7 @@ export class Archiver {
     await this.fetchAndSaveLatestGamePatches();
     await this.fetchAndSaveLatestGameResources();
     await this.fetchAndSaveLatestWebApis();
+    await this.fetchAndSaveBulletins();
     await this.fetchAndSaveLauncherProtocol();
     await this.fetchAndSaveLatestLauncher();
     await this.fetchAndSaveAllGameResRawData();
@@ -356,6 +357,46 @@ export class Archiver {
     }
     for (const url of webAssetUrls) addToQueue(url);
 
+    // 3. Gather URLs from bulletins (images embedded in list[].data.html <img>, and picture data.url)
+    const bulletinAssetUrls = new Set<string>();
+    for (const target of getBulletinTargets()) {
+      const serverSeg = target.server === null ? 'DEFAULT' : String(target.server);
+      for (const typeName of ['game', 'gate'] as const) {
+        for (const lang of target.langs) {
+          const allPath = path.join(
+            outputDir,
+            'akEndfield',
+            'gameHub',
+            'bulletin',
+            String(target.channel),
+            serverSeg,
+            typeName,
+            lang,
+            'all.json',
+          );
+          const file = Bun.file(allPath);
+          if (!(await file.exists())) continue;
+
+          const data = (await file.json()) as StoredData<any>[];
+          for (const entry of data) {
+            if (!entry.rsp?.data?.list) continue;
+            for (const item of entry.rsp.data.list) {
+              const itemData = item?.data;
+              if (typeof itemData?.html === 'string') {
+                for (const m of itemData.html.matchAll(/<img[^>]+src=["']([^"']+)["']/gi)) {
+                  bulletinAssetUrls.add(m[1]);
+                }
+              }
+              if (typeof itemData?.url === 'string') bulletinAssetUrls.add(itemData.url);
+            }
+          }
+        }
+      }
+    }
+    for (const url of bulletinAssetUrls) {
+      if (/\.(png|jpe?g|webp|gif|mp4)(\?|$)/i.test(url)) addToQueue(url);
+    }
+
     await this.networkQueue.onIdle();
 
     // res index decryption
@@ -445,6 +486,51 @@ export class Archiver {
             };
             await saveResultWithHistory(
               ['akEndfield', 'launcher', 'web', String(target.subChannel), api.dir, lang],
+              null,
+              prettyRsp,
+              { ignoreRules: DIFF_IGNORE_RULES },
+            );
+          });
+        }
+      }
+    }
+    await this.networkQueue.onIdle();
+  }
+
+  private async fetchAndSaveBulletins() {
+    logger.debug('Fetching bulletins ...');
+    for (const target of getBulletinTargets()) {
+      const serverSeg = target.server === null ? 'DEFAULT' : String(target.server);
+      for (const lang of target.langs) {
+        for (const type of [0, 1] as const) {
+          this.networkQueue.add(async () => {
+            const rsp = await apiUtils.akEndfield.gameHub.bulletin.aggregate(
+              target.channel,
+              type,
+              lang,
+              target.region,
+              target.server,
+            );
+            if (rsp.code !== 0) {
+              logger.trace(
+                `Bulletin non-zero code (${rsp.code}): ${target.region.toUpperCase()}, ch${target.channel}, ${lang}, type${type}`,
+              );
+              return;
+            }
+            const typeName = type === 0 ? 'game' : 'gate';
+            const prettyRsp = {
+              req: {
+                channel: target.channel,
+                server: target.server,
+                type,
+                lang,
+                region: target.region,
+                platform: 'Windows',
+              },
+              rsp,
+            };
+            await saveResultWithHistory(
+              ['akEndfield', 'gameHub', 'bulletin', String(target.channel), serverSeg, typeName, lang],
               null,
               prettyRsp,
               { ignoreRules: DIFF_IGNORE_RULES },

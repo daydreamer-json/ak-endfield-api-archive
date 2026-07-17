@@ -551,6 +551,46 @@ type ZonaiWebV1GameEndfieldAttendanceRecord = {
   };
 };
 
+type GameHubBulletinAggregate = {
+  code: number;
+  data: {
+    topicCid: string;
+    type: 0 | 1;
+    platform: string;
+    server: string;
+    channel: string;
+    subChannel: string;
+    lang: string;
+    key: string;
+    version: string;
+    onlineList: {
+      cid: string;
+      version: number;
+      needRedDot: boolean;
+      needPopup: boolean;
+    }[];
+    popupVersion: number;
+    updatedAt: number;
+    list: {
+      cid: string;
+      type: 0 | 1;
+      tab: 'news' | 'updates' | 'events';
+      orderType: number;
+      orderWeight: number;
+      displayType: 'rich_text' | 'picture';
+      startAt: number;
+      focus: number;
+      title: string;
+      header: string;
+      jumpButton: { [key: string]: unknown } | null;
+      data:
+        | { html: string; linkType: number } // displayType 'rich_text'
+        | { url: string; link: string; linkType: number }; // displayType 'picture'
+    }[];
+  };
+  msg: string; // ''=OK
+};
+
 type GameHubGiftCodeRedeem = {
   code: number; // 0=OK, 11004=ActivityExpired
   data: {
@@ -570,6 +610,7 @@ export type {
   BindApiAccBindV1BindList,
   BindApiAccBindV1U8TokenByUid,
   BindApiGeneralV1AuthAppList,
+  GameHubBulletinAggregate,
   GameHubGiftCodeRedeem,
   LauncherLatestGame,
   LauncherLatestGameResources,

@@ -34,9 +34,14 @@ type ConfigType = AllRequired<
             cnWinRel: number;
             cnWinRelBilibili: number;
           };
+          bulletin: {
+            code: { os: string; cn: string };
+            server: { os: number | null; cn: number | null };
+          };
           base: {
             accountService: string;
             gameHub: string;
+            gameHubCN: string;
             launcher: string;
             launcherCN: string;
             u8: string;
@@ -90,9 +95,14 @@ const initialConfig: ConfigType = {
         },
         channel: { osWinRel: 6, cnWinRel: 1, cnWinRelBilibili: 2 },
         subChannel: { osWinRel: 6, osWinRelEpic: 801, osWinRelGooglePlay: 802, cnWinRel: 1, cnWinRelBilibili: 2 },
+        bulletin: {
+          code: { os: 'endfield_U35PW8', cn: 'endfield_5SD9TN' },
+          server: { os: 3, cn: null }, // CN always falls back to #DEFAULT
+        },
         base: {
           accountService: 'YXMuZ3J5cGhsaW5lLmNvbQ==',
           gameHub: 'Z2FtZS1odWIuZ3J5cGhsaW5lLmNvbQ==',
+          gameHubCN: 'Z2FtZS1odWIuaHlwZXJncnlwaC5jb20=',
           launcher: 'bGF1bmNoZXIuZ3J5cGhsaW5lLmNvbS9hcGk=',
           launcherCN: 'bGF1bmNoZXIuaHlwZXJncnlwaC5jb20vYXBp',
           u8: 'dTguZ3J5cGhsaW5lLmNvbQ==',
