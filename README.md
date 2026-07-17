@@ -31,6 +31,8 @@ The following APIs are currently being monitored:
     - Main background images
     - Single Ent.
     - Sidebar
+- In-game
+  - Bulletins (Global, China)
 - Raw
   - Game resource manifests (index, patch)
   - Launcher image resources
@@ -60,6 +62,7 @@ As I can only test the game on the platforms and operating systems available to 
 ## Thanks
 
 - [Vivi029](https://github.com/Vivi029): Added Windows Google Play Games channel support.
+- [rakuzen25](https://github.com/rakuzen25): Added In-game bulletin archive support.
 
 ## Disclaimer
 
