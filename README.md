@@ -11,7 +11,9 @@
 This repository monitors and records changes to various Arknights: Endfield API responses.
 
 Updates are checked approximately every 5 minutes and automatically pushed via GitHub Actions.  
-API outputs are stored in the [`output`](/output/) directory.
+API outputs are stored in the [`output`](https://github.com/daydreamer-json/ak-endfield-api-archive/tree/archive/output) directory in [`archive`](https://github.com/daydreamer-json/ak-endfield-api-archive/tree/archive) branch.
+
+This `main` branch only manages the scripts used for archiving and the frontend for viewing the archived data.
 
 ## [Download Library](https://ak-endfield-api-archive.daydreamer-json.cc/)
 
@@ -58,6 +60,20 @@ For users in Asia (including China, Japan, Korea): To speed up downloads, use an
 ## Contributing
 
 As I can only test the game on the platforms and operating systems available to me, some data may contain inaccuracies. If you have information—particularly regarding **Chinese regional data** or beta versions—or if you would like to improve the code, please feel free to submit an issue or a pull request.
+
+### Cloning the Repository
+
+When cloning the repository for development, you can significantly reduce the download time by limiting the clone to a single branch:
+
+```sh
+git clone -b main --single-branch https://github.com/daydreamer-json/ak-endfield-api-archive.git
+```
+
+If you want to download the archived artifacts themselves, run the following to perform a shallow clone:
+
+```sh
+git clone -b archive --single-branch --depth 1 https://github.com/daydreamer-json/ak-endfield-api-archive.git
+```
 
 ## Thanks
 
