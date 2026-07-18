@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-cn",
-      "version": "be3dcad594c7d5c31d554fc1efb065ad",
+      "version": "e73ca2c8f5c21ad46736236b3d67db95",
       "onlineList": [
         {
           "cid": "2118",
@@ -83,6 +83,12 @@
         {
           "cid": "3057",
           "version": 1784170879,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "2106",
+          "version": 1784286837,
           "needRedDot": true,
           "needPopup": false
         },
@@ -184,7 +190,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1784346999,
+      "updatedAt": 1784372400,
       "list": [
         {
           "cid": "2118",
@@ -371,6 +377,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260716/0cd9252e3efb26de640d0833fdb81a87.jpg\" data-width=\"1650\" data-height=\"300\"><p>亲爱的管理员：</p><p>「军列申领」开放期间，6星武器【四二式·肃阵（施术单元）】获取概率提升！<br></p><p><strong>▼//「军列申领」</strong></p><p>· 开放时间：「向渊行」版本更新后开启，于3次「特许寻访」后结束（从「临渊望北」起计算）</p><p>· 开放条件：完成主线任务「第一章 - 进程Ⅰ - 基地解围」</p><p>· 「军列申领」中，概率提升的6星武器为【四二式·肃阵（施术单元）】。</p><p>· 「军列申领」中，全部可能出现的6星武器包括：四二式·肃阵（施术单元）/昔日精品（双手剑）/楔子（手铳）/显赫声名（单手剑）/J.E.T.（长柄武器）/爆破单元（施术单元）/遗忘（施术单元）。</p><p></p><p><strong>▼//「武库申领」奖励</strong></p><p>在每个「武库申领」中，累计达到指定申领次数，即可交替获得「武库申领」对应的【补充武库箱】或【概率提升的6星武器】。武库申领奖励计数会在每个「武库申领」关闭时清零，不会继承到其他的「武库申领」中。</p><p></p><p><strong>▼//「武库申领」说明</strong></p><p>· 在「武库申领」中，可使用【武库配额】进行申领。</p><p>· 每申领1次，可随机获得全部可能出现的武器列表中的10件武器，其中必定包含5星或以上武器。</p><p></p><p><strong>▼//「武库交易所」说明</strong></p><p>「武库交易所」中，可使用「武库配额」直接购买武器。部分可购买武器将不定期更新，具体内容请以【采购中心 - 武库交易所】界面显示为准。</p><p></p><p>※ 更多详细说明及奖励规则，请前往游戏内【采购中心 - 武库交易所】查看。</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "2106",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1784372400,
+          "focus": 0,
+          "title": "与诀一起\\n训练萌宠",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260717/fb4da06005879569385ccbf4ce7fd648.jpg",
+            "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fwww.skport.com%252Farticle%253Fid%253D2078032974785886719%2526hg_media%253Dgame%2526hg_link_campaign%253Dannouncement%2526hg_link_name%253DArcane",
             "linkType": 1
           }
         },
