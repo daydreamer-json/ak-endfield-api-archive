@@ -8,61 +8,10 @@
   <img src="https://api.cron-job.org/jobs/7183534/5f3f37a732a92096/status-0.svg" alt="Cron Job" />
 </p>
 
-This repository monitors and records changes to various Arknights: Endfield API responses.
+This `archive` branch stores the actual automatically archived artifacts.
 
-Updates are checked approximately every 5 minutes and automatically pushed via GitHub Actions.  
-API outputs are stored in the [`output`](/output/) directory.
+For full details about this repository, including the archiving scripts, frontend code, and documentation, please refer to the README on the [`main`](https://github.com/daydreamer-json/ak-endfield-api-archive/tree/main) branch.
 
-## [Download Library](https://ak-endfield-api-archive.daydreamer-json.cc/)
-
-For a historical overview of game packages and other resources, please click the link above.
-
-## Contents of the Archive
-
-The following APIs are currently being monitored:
-
-- Launcher
-  - Get latest game (Global, China)
-  - Get latest game resources (Global, China)
-  - Get latest launcher (Global, China)
-  - Get launcher web resources (Global, China)
-    - Announcements
-    - Banners
-    - Main background images
-    - Single Ent.
-    - Sidebar
-- In-game
-  - Bulletins (Global, China)
-- Raw
-  - Game resource manifests (index, patch)
-  - Launcher image resources
-
-Most raw data is provided "as-is" without modification. Some files (e.g., `index_*.json`) have been decrypted for readability.
-
-The following binary data is archived in an external repository:
-
-- Game packages (.zip)
-- Game patch packages (.zip)
-- Game hotfix resources
-  - To avoid the overhead of managing numerous small files, these are bundled into larger chunk files.
-- Launcher packages (.exe, .zip)
-
-> [!NOTE]
-> Starting with the `v1.2.4` game update, the `v2` (HDiff+incremental) method has been adopted for game package patch updates. For details, please see [MEMO.md](MEMO.md).  
-> Update patches using the legacy `v1` (incremental) method are also available (likely for use with slow storage devices such as HDDs), but they have been excluded from the archive for efficiency.
-
-For a full list of externally archived files, please refer to the mirror list JSON in the `output` directory. (Note: `*_pending` files are temporary files used during the archiving process.)
-
-For users in Asia (including China, Japan, Korea): To speed up downloads, use any GitHub proxy service (such as [`gh-proxy.org`](https://gh-proxy.org/), which is cached by Cloudflare).
-
-## Contributing
-
-As I can only test the game on the platforms and operating systems available to me, some data may contain inaccuracies. If you have information—particularly regarding **Chinese regional data** or beta versions—or if you would like to improve the code, please feel free to submit an issue or a pull request.
-
-## Thanks
-
-- [Vivi029](https://github.com/Vivi029): Added Windows Google Play Games channel support.
-- [rakuzen25](https://github.com/rakuzen25): Added In-game bulletin archive support.
 
 ## Disclaimer
 
