@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:#DEFAULT:1:#DEFAULT:zh-cn",
-      "version": "f33088d90d428974578507380f498c02",
+      "version": "72aaca0fbf4f521a74d78704a0f8344f",
       "onlineList": [
         {
           "cid": "6424",
@@ -47,6 +47,12 @@
         {
           "cid": "2195",
           "version": 1782811776,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "3033",
+          "version": 1784265509,
           "needRedDot": true,
           "needPopup": false
         },
@@ -184,7 +190,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1784342964,
+      "updatedAt": 1784354400,
       "list": [
         {
           "cid": "6424",
@@ -270,6 +276,24 @@
           "data": {
             "url": "https://web.hycdn.cn/upload/image/20260630/fd3ba7bbbaaa17f15238d6dbf89802a9.jpg",
             "link": "https://comic.hypergryph.com/talos-ii-historicus/comic/1429",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3033",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "picture",
+          "startAt": 1784354400,
+          "focus": 0,
+          "title": "森空岛向渊行\\n创作者激励活动",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web.hycdn.cn/upload/image/20260717/3068f1534e3d8afe5642838cd49924e2.jpg",
+            "link": "https://bbs.hycdn.cn/u-link/download.html?schema=skland%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fevent.skland.com%252Factivity%252Fendfield_incentive%252Fendfield_incentive-1ngilfqu%253Fheader%253D0%2526hg_media%253Dendfield%2526hg_link_campaign%253Dannouncement",
             "linkType": 1
           }
         },
