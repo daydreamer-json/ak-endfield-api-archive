@@ -1,5 +1,5 @@
 export const BASE_URL =
-  'https://raw.githubusercontent.com/daydreamer-json/ak-endfield-api-archive/refs/heads/main/output';
+  'https://raw.githubusercontent.com/daydreamer-json/ak-endfield-api-archive/refs/heads/archive/output';
 
 export const FILE_SIZE_OPTS = {
   decimals: 2,

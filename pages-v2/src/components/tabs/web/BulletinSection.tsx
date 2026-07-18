@@ -14,7 +14,7 @@ interface Props {
 const getMirrorUrl = (url: string) => {
   try {
     const u = new URL(url);
-    return `https://raw.githubusercontent.com/daydreamer-json/ak-endfield-api-archive/refs/heads/main/output/raw/${u.hostname}${u.pathname}`;
+    return `https://raw.githubusercontent.com/daydreamer-json/ak-endfield-api-archive/refs/heads/archive/output/raw/${u.hostname}${u.pathname}`;
   } catch {
     return url;
   }

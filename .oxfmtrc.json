@@ -1,8 +1,8 @@
 {
   "$schema": "./node_modules/oxfmt/configuration_schema.json",
   "ignorePatterns": [
-    "output/raw/**/index_main.json",
-    "output/raw/**/index_initial.json"
+    "**/output/raw/**/index_main.json",
+    "**/output/raw/**/index_initial.json"
   ],
   "useTabs": false,
   "printWidth": 120,
