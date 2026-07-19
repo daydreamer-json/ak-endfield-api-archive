@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "fr-fr",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:fr-fr",
-      "version": "e73ca2c8f5c21ad46736236b3d67db95",
+      "version": "cbce7f3765797e7c9e14b898141f454c",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "3045",
+          "version": 1784289063,
           "needRedDot": true,
           "needPopup": false
         },
@@ -190,7 +196,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1784372400,
+      "updatedAt": 1784458800,
       "list": [
         {
           "cid": "2118",
@@ -207,6 +213,24 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/09549dbbfd29aa0428b8cd8206878d44.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3045",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "picture",
+          "startAt": 1784458800,
+          "focus": 0,
+          "title": "[Retour chez soi] Envois de plans",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260717/aaa1b5264b96da5136d6cef6f601679c.png",
+            "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fwww.skport.com%252Farticle%253Fid%253D2078041393880107218%2526hg_media%253Dgame%2526hg_link_campaign%253Dannouncement%2526hg_link_name%253Dblueprint",
             "linkType": 1
           }
         },

@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-tw",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-tw",
-      "version": "a2488b0e9f7b6a4282c6bd2b11fe2574",
+      "version": "365648d8c6f95be8d792dbd4d982b713",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "3045",
+          "version": 1784289063,
           "needRedDot": true,
           "needPopup": false
         },
@@ -196,7 +202,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1784372400,
+      "updatedAt": 1784458800,
       "list": [
         {
           "cid": "2118",
@@ -213,6 +219,24 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/db3364dfc91b944a8c5d69861842548e.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3045",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "picture",
+          "startAt": 1784458800,
+          "focus": 0,
+          "title": "向淵行藍圖徵集",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260717/b9c73e9fb288cd4203cf8520344a40a5.png",
+            "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fwww.skport.com%252Farticle%253Fid%253D2078041393880107218%2526hg_media%253Dgame%2526hg_link_campaign%253Dannouncement%2526hg_link_name%253Dblueprint",
             "linkType": 1
           }
         },
