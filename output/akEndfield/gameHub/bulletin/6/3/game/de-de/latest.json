@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "de-de",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:de-de",
-      "version": "3361659ec1d46d118f158a75956bc251",
+      "version": "0c0add4e6a88a8e7234185c3d6b3d842",
       "onlineList": [
         {
           "cid": "2118",
@@ -89,6 +89,12 @@
         {
           "cid": "3057",
           "version": 1784170879,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "8954",
+          "version": 1784538850,
           "needRedDot": true,
           "needPopup": false
         },
@@ -184,7 +190,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1784602146,
+      "updatedAt": 1784606400,
       "list": [
         {
           "cid": "2118",
@@ -389,6 +395,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260715/a7396ed6bc9902a659221123d4e28bf6.jpg\" data-width=\"1650\" data-height=\"300\"><p>Geschätzter Endministrator: <br>Während [Militär-Standards-Ausgabe] verfügbar ist, ist die Chance auf Erhalt der 6★-Waffe [Typ 42: Feierliche Phalanx (Tech-Einheit)] erhöht!<br><br><strong>▼// [Militär-Standards-Ausgabe] </strong><br>· Verfügbarkeit: Öffnet nach dem [Heimkehr]-Versions-Update, endet nach 3 [Rekrutierung: Priorisiert]-Bannern (beginnend mit [Sehnsucht der Riss-Wächterin nach dem Norden]) <br>· Teilnahmekriterien: Abschluss der Hauptmission [Kapitel I Prozess I: Die Belagerung durchbrechen] <br>· [Militär-Standards-Ausgabe] bietet eine erhöhte Chance auf die 6★-Waffe [Typ 42: Feierliche Phalanx (Tech-Einheit)]. <br>· Verfügbare 6★-Waffen in [Militär-Standards-Ausgabe]: Typ 42: Feierliche Phalanx (Tech-Einheit) / Ehemalige Eleganz (Großschwert) / Keil (Handfeuerwaffe) / Untadeliger Ruf (Schwert) / JET (Stangenwaffe) / Zünder (Tech-Einheit) / Vergessenheit (Tech-Einheit).<br><br><strong>▼// [Waffenausgabe]-Belohnungen </strong><br>In jeder [Waffenausgabe] erhältst du für eine bestimmte Anzahl von Ausgaben abwechselnd die spezifische [Waffenangebotskiste] (Waffen-AK) oder [6★-Waffe mit erhöhter Wahrscheinlichkeit] des Banners. Die Gesamtzahl der Ausgaben für diese Waffenausgabe-Belohnungen wird nach Ende des Banners zurückgesetzt und nicht auf andere [Waffenausgabe]-Banner übertragen.<br><br><strong>▼// [Waffenausgabe]-Details </strong><br>· In [Waffenausgabe] kannst du [Waffentickets] ausgeben, um eine Ausgabe zu beantragen. <br>· Bei jeder Ausgabe erhältst du 10 zufällige Waffen aus der Liste der verfügbaren Waffen, darunter mindestens eine 5★-Waffe oder besser.<br><br><strong>▼// [Arsenal-Tauschbörse]-Details </strong><br>In der [Arsenal-Tauschbörse] kann das [Waffenticket] auch zum direkten Kauf von Waffen verwendet werden. Einige käufliche Waffen können von Zeit zu Zeit aktualisiert werden. Informiere dich auf dem Bildschirm [Ankaufszentrum – Arsenal-Tauschbörse] über die tatsächlich verfügbaren Waffen.<br><br>※ Weiterführende Informationen und Regeln der Belohnungsvergabe sind im Spiel unter [Ankaufszentrum - Arsenal-Tauschbörse] verfügbar.</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "8954",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1784606400,
+          "focus": 0,
+          "title": "New Official Merch\\nNow Available",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260720/289604b0521fed8638b9ab28b9f31aa8.png",
+            "link": "https://store.gryphline.com",
             "linkType": 1
           }
         },

@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-tw",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-tw",
-      "version": "4305ea51f7fb2811fab990d4cf400456",
+      "version": "91fb510cb810324aaaaf411607abbfb2",
       "onlineList": [
         {
           "cid": "2118",
@@ -89,6 +89,12 @@
         {
           "cid": "3057",
           "version": 1784170879,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "8954",
+          "version": 1784538850,
           "needRedDot": true,
           "needPopup": false
         },
@@ -196,7 +202,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1784602146,
+      "updatedAt": 1784606400,
       "list": [
         {
           "cid": "2118",
@@ -401,6 +407,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260715/6fc540bede671de3a1f1ca594718252f.jpg\" data-width=\"1650\" data-height=\"300\"><p>親愛的管理員：<br>「軍列申領」開放期間，6星武器【四二式·肅陣（施術單元）】獲得機率提升！<br><br><strong>▼//「軍列申領」</strong><br>· 開放時間：「向淵行」版本更新後開啟，於3次「特許尋訪」後結束（從「臨淵望北」起計算）<br>· 開放條件：完成主線任務「第一章 - 進度I - 基地解圍」<br>· 「軍列申領」中，機率提升的6星武器為【四二式·肅陣（施術單元）】。<br>· 「軍列申領」中，全部可能出現的6星武器包括：四二式·肅陣（施術單元）/昔日精品（雙手劍）/楔子（手銃）/顯赫聲名（單手劍）/J.E.T.（長柄武器）/爆破單元（施術單元）/遺忘（施術單元）。<br><br><strong>▼//「武庫申領」獎勵</strong><br>在每個「武庫申領」中，累計達到指定申領次數，即可交替獲得「武庫申領」對應的【補充武庫箱】或【機率提升的6星武器】。武庫申領獎勵計數會在每個「武庫申領」關閉時歸零，不會繼承到其他的「武庫申領」中。<br><br><strong>▼//「武庫申領」說明</strong><br>· 在「武庫申領」中，可使用【武庫配額】進行申領。<br>· 每申領1次，可隨機獲得全部可能出現的武器列表中的10件武器，其中必定包含5星或以上武器。<br><br><strong>▼//「武庫交易所」說明</strong><br>「武庫交易所」中，可使用「武庫配額」直接購買武器。部分可購買武器將不定期更新，具體內容請以【採購中心 - 武庫交易所】介面顯示為準。<br><br>※ 更多詳細說明及獎勵規則，請前往遊戲內【採購中心 - 武庫交易所】查看。</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "8954",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1784606400,
+          "focus": 0,
+          "title": "官方衍生品\\n新品上架",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260720/548583f57bb7da3d9df1f94724825aa5.png",
+            "link": "https://store.gryphline.com",
             "linkType": 1
           }
         },

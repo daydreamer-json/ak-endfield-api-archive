@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "ja-jp",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ja-jp",
-      "version": "6c038866671bb36c5658986faa9903e8",
+      "version": "062f330696d0e92f9802b21e3d8d6ea9",
       "onlineList": [
         {
           "cid": "2118",
@@ -89,6 +89,12 @@
         {
           "cid": "3057",
           "version": 1784170879,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "8954",
+          "version": 1784538850,
           "needRedDot": true,
           "needPopup": false
         },
@@ -190,7 +196,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1784602146,
+      "updatedAt": 1784606400,
       "list": [
         {
           "cid": "2118",
@@ -395,6 +401,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260715/97f1f42a742c54dfd5420c8216a050e9.jpg\" data-width=\"1650\" data-height=\"300\"><p>親愛なる管理人<br>「戦列・申請」の開催期間中、★6武器【四二式・粛陣（アーツユニット）】の提供割合が上昇します。<br><br><strong>▼//「戦列・申請」</strong><br>· 開催期間：バージョン「向淵行」アップデート後より開始し、「特別スカウト」が3回開催されると終了（「臨淵望北」からカウントする）<br>· 解放条件：メイン任務：第一章：プロセスⅠ「基地救援」を完了<br>· 「戦列・申請」のピックアップ対象★6武器は【四二式・粛陣（アーツユニット）】です。<br>· 「戦列・申請」では、★6武器【四二式・粛陣（アーツユニット）/昔日の逸品（大剣）/楔（拳銃）/輝かしき名声（片手剣）/J.E.T.（長柄武器）/破壊ユニット（アーツユニット）/遺忘（アーツユニット）】が出現します。<br><br><strong>▼//「武庫申請」報酬</strong><br>各「武庫申請」では、指定の回数申請すると、その「武庫申請」の【補充武庫ボックス】または【ピックアップ中の★6武器】を交替で入手できます。武庫申請報酬のカウントはその「武庫申請」が終了した時点でリセットされ、他の「武庫申請」には合算されません。<br><br><strong>▼//「武庫申請」説明</strong><br>· 「武庫申請」では、【武庫配給】を消費して申請できます。<br>· 申請するたびに、申請可能な武器一覧からランダムに10個入手できます。その中に必ず★5以上の武器が含まれます。<br><br><strong>▼//「武庫交換所」説明</strong><br>「武庫交換所」では、「武庫配給」を消費して武器を直接交換できます。一部の交換可能な武器は不定期に更新されます。具体的な内容は、ゲーム内の【購買部 - 武庫交換所】にて実際の画面表示をご確認ください。<br><br>※詳細および報酬は、ゲーム内の【購買部 - 武庫交換所】よりご確認ください。</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "8954",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1784606400,
+          "focus": 0,
+          "title": "New Official Merch\\nNow Available",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260720/289604b0521fed8638b9ab28b9f31aa8.png",
+            "link": "https://store.gryphline.com",
             "linkType": 1
           }
         },

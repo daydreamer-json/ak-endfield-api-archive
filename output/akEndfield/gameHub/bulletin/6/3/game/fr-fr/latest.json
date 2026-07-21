@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "fr-fr",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:fr-fr",
-      "version": "3361659ec1d46d118f158a75956bc251",
+      "version": "0c0add4e6a88a8e7234185c3d6b3d842",
       "onlineList": [
         {
           "cid": "2118",
@@ -89,6 +89,12 @@
         {
           "cid": "3057",
           "version": 1784170879,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "8954",
+          "version": 1784538850,
           "needRedDot": true,
           "needPopup": false
         },
@@ -184,7 +190,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1784602146,
+      "updatedAt": 1784606400,
       "list": [
         {
           "cid": "2118",
@@ -389,6 +395,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260715/036b27ace8c0fb0f3b7e9989dcdd989d.jpg\" data-width=\"1650\" data-height=\"300\"><p>Endministrator,<br>Tant que le [tirage de type militaire] est disponible, les chances d'obtenir l'arme 6★ [Type 42 : phalange solennelle (unité des Arts)] sont augmentées!<br><br><strong>▼// [Tirage de type militaire] </strong><br>· Disponibilité : Ouvre après la mise à jour de la version [Retour], et se termine au bout de 3 bannières de [recrutement certifié] (à partir de [Face à la faille, regardant vers le nord]) <br>· Critères de participation : Terminer la mission principale [Chapitre I - Processus I : Rompre le siège] <br>· Le [tirage de type militaire] propose l'arme 6★ [Type 42 : phalange solennelle (unité des Arts)] à taux SUP. <br>· Les armes 6★ susceptibles d'apparaître dans le [tirage de type militaire] sont les suivantes : Type 42 : phalange solennelle (unité des Arts) / Raffinement ancien (espadon) / Pivot (canon portatif) / Réputation éminente (épée) / JET (arme d'hast) / Unité de détonation (unité des Arts) / Oubli (unité des Arts).<br><br><strong>▼// Récompenses du [tirage de l'arsenal]</strong><br>Dans chaque [tirage de l'arsenal], lancer un nombre défini de tirages offre alternativement un [coffre d'offrande d'armes] (CO d'armes) ou une [arme 6★ à taux SUP] spécifiques à cette bannière. Le nombre total de tirages pour obtenir ces récompenses de tirage de l'arsenal sera réinitialisé à l'issue de la bannière et ne sera pas répercuté sur d'autres bannières de [tirage de l'arsenal].<br><br><strong>▼// Détails sur le [tirage de l'arsenal]</strong><br>· Dans le [tirage de l'arsenal], vous pouvez dépenser des [tickets de l'arsenal] pour lancer un tirage. <br>· Chaque tirage offre 10 armes aléatoires issues de la liste des armes disponibles, incluant au moins une arme 5★ ou plus.<br><br><strong>▼// Détails sur la [boutique de l'arsenal]</strong><br>Dans la [boutique de l'arsenal], vous pouvez également utiliser des [tickets de l'arsenal] pour acheter directement des armes. Certaines armes achetables peuvent être mises à jour de temps à autre. Consultez les informations affichées sur l'écran du [Centre d'acquisition : boutique de l'arsenal] pour connaître les disponibilités actuelles.<br><br>※ Pour plus de détails et de règles concernant les récompenses, visitez le [Centre d'acquisition : boutique de l'arsenal] dans le jeu.</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "8954",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1784606400,
+          "focus": 0,
+          "title": "New Official Merch\\nNow Available",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260720/289604b0521fed8638b9ab28b9f31aa8.png",
+            "link": "https://store.gryphline.com",
             "linkType": 1
           }
         },

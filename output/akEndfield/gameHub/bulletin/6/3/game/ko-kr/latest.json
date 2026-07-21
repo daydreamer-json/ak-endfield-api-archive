@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "ko-kr",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ko-kr",
-      "version": "f6655d4ff85cb6eb2b0cfb1d5e06c40e",
+      "version": "bff5360e3d74d0a91029854fad63263f",
       "onlineList": [
         {
           "cid": "2118",
@@ -95,6 +95,12 @@
         {
           "cid": "3057",
           "version": 1784170879,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "8954",
+          "version": 1784538850,
           "needRedDot": true,
           "needPopup": false
         },
@@ -196,7 +202,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1784602146,
+      "updatedAt": 1784606400,
       "list": [
         {
           "cid": "2118",
@@ -418,6 +424,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260715/28926d12ff41d5316e66c45ee2a94132.jpg\" data-width=\"1650\" data-height=\"300\"><p>안녕하세요, 관리자님!<br>「제대 신청」 개방 기간, 6성 무기 [42식 · 척결(아츠 유닛)]의 획득 확률이 증가합니다!<br><br><strong>▼//「제대 신청」</strong><br>· 개방 기간: 「심연으로」 버전 업데이트 후 개방, 「특별 허가 헤드헌팅」 3회 진행 후 종료(「벼랑 끝, 북쪽을 향한 시선」부터 집계)<br>· 개방 조건: 메인 임무 「1장 - 프로세스 I - 기지 구출」 완료<br>· 「제대 신청」에서 확률 증가한 6성 무기: [42식 · 척결(아츠 유닛)]<br>· 「제대 신청」에서 획득 가능한 6성 무기 목록: 42식 · 척결(아츠 유닛)/과거의 일품(양손검)/쐐기(권총)/위대한 이름(한손검)/J.E.T.(장병기)/폭발 유닛(아츠 유닛)/망각(아츠 유닛)<br><br><strong>▼//「무기고 신청」 보상</strong><br>각 「무기고 신청」에서 누적 신청 횟수가 지정 횟수에 도달하면 「무기고 신청」에서 해당하는 [보충 무기고 상자] 혹은 [확률 증가 6성 무기]를 교대로 획득할 수 있습니다. 각 「무기고 신청」이 종료되면 신청 보상 횟수가 초기화되며, 이는 다른 「무기고 신청」에 계승되지 않습니다.<br><br><strong>▼//「무기고 신청」 설명</strong><br>· 「무기고 신청」에서 [무기고 징표]를 사용하여 무기를 신청할 수 있습니다.<br>· 1회 신청할 때마다 획득 가능한 전체 무기 목록 중 무작위로 무기 10개를 획득하며, 그중 5성 이상의 무기가 반드시 포함됩니다.<br><br><strong>▼//「무기고 거래소」 설명</strong><br>「무기고 거래소」에서 「무기고 징표」를 사용하여 무기를 구매할 수 있습니다. 일부 구매 가능한 무기는 비정기적으로 업데이트되며, 자세한 내용은 [구매 센터 - 무기고 거래소]에서 확인할 수 있습니다.<br><br>※ 더 자세한 설명 및 보상 규칙은 게임 내 [구매 센터 - 무기고 거래소]에서 확인해 주시기 바랍니다.<br>※ 더 자세한 확률 관련 정보는 게임 공식 사이트에서 [공지] - [확률 상세 안내]를 확인해 주시기 바랍니다.</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "8954",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1784606400,
+          "focus": 0,
+          "title": "공식 굿즈 신상품 판매 개시",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260720/7c0816964755a3012562fb0ff007e85f.png",
+            "link": "https://store.gryphline.com/ko",
             "linkType": 1
           }
         },

@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "en-us",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:en-us",
-      "version": "6c038866671bb36c5658986faa9903e8",
+      "version": "062f330696d0e92f9802b21e3d8d6ea9",
       "onlineList": [
         {
           "cid": "2118",
@@ -89,6 +89,12 @@
         {
           "cid": "3057",
           "version": 1784170879,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "8954",
+          "version": 1784538850,
           "needRedDot": true,
           "needPopup": false
         },
@@ -190,7 +196,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1784602146,
+      "updatedAt": 1784606400,
       "list": [
         {
           "cid": "2118",
@@ -395,6 +401,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260715/48ae2b7ee5288ddb767df14528a2e694.jpg\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrator, <br>While [Military Grade Issue] is available, the chance of getting 6★ weapon [Type 42: Solemn Phalanx (Arts Unit)] is increased!<br><br><strong>▼// [Military Grade Issue] </strong><br>· Availability: Opens after [Homecoming] version update; ends after 3 [Chartered Headhunting] banners (starting from [North Yearns the Rift Vigile]) <br>· Participation Criteria: Complete the main mission [Chapter I Process I: Break the Siege] <br>· [Military Grade Issue] features the Rate-UP 6★ weapon [Type 42: Solemn Phalanx (Arts Unit)]. <br>· 6★ weapons that may appear in [Military Grade Issue] include: Type 42: Solemn Phalanx (Arts Unit) / Former Finery (Greatsword) / Wedge (Handcannon) / Eminent Repute (Sword) / JET (Polearm) / Detonation Unit (Arts Unit) / Oblivion (Arts Unit).<br><br><strong>▼// [Arsenal Issue] Rewards </strong><br>In every [Arsenal Issue], performing a set number of issues gives the banner's specific [Arms Offering Crate] (Arms OC) or [Rate-UP 6★ Weapon] in alternating order. The total number of issues for these Arsenal Issue rewards will be reset once the banner ends, and will not carry over to other [Arsenal Issue] banners.<br><br><strong>▼// [Arsenal Issue] Details </strong><br>· In [Arsenal Issue], you can spend [Arsenal Tickets] to apply for an issue. <br>· Each issue gives 10 random weapons from the list of available weapons, including at least one 5★ or better weapon.<br><br><strong>▼// [Arsenal Exchange] Details </strong><br>In [Arsenal Exchange], the [Arsenal Ticket] can also be used to directly purchase weapons. Some purchasable weapons may be updated every now and then. Check the information displayed on the [Acquisition Center - Arsenal Exchange] screen for what is actually available.<br><br>※ For more details and reward rules, visit the in-game [Acquisition Center - Arsenal Exchange].</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "8954",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1784606400,
+          "focus": 0,
+          "title": "New Official Merch\\nNow Available",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260720/289604b0521fed8638b9ab28b9f31aa8.png",
+            "link": "https://store.gryphline.com",
             "linkType": 1
           }
         },
