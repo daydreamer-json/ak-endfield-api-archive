@@ -149,7 +149,7 @@ export class Archiver {
 
               if (!exists) {
                 logger.debug(
-                  `Fetched latestGamePatch: ${target.region.toUpperCase()}, ${target.name}, v${2 - paramDiskType} fmt, v${rsp.request_version} -> v${
+                  `Fetched latestGamePatch: ${target.region.toUpperCase()}, ${target.name}, v${paramDiskType + 2} fmt, v${rsp.request_version} -> v${
                     rsp.version
                   }, ${this.formatBytes(parseInt(rsp.patch.total_size) - parseInt(rsp.patch.package_size))}`,
                 );
@@ -164,11 +164,7 @@ export class Archiver {
                   rsp.patch.patches.forEach((e) =>
                     this.queueAssetForMirroring(
                       e.url,
-                      new URL(e.url).pathname
-                        .split('/')
-                        .filter(Boolean)
-                        .slice(-5 + paramDiskType)
-                        .join('_'),
+                      new URL(e.url).pathname.split('/').filter(Boolean).slice(-5).join('_'),
                     ),
                   );
                 }
@@ -194,6 +190,9 @@ export class Archiver {
       for (const e of patchAll) {
         if (e.rsp.patch?.v2_patch_info_url) {
           await downloadRawFile(e.rsp.patch.v2_patch_info_url);
+        }
+        if (e.rsp.patch?.v2_verify_files_url) {
+          await downloadRawFile(e.rsp.patch.v2_verify_files_url);
         }
       }
     }

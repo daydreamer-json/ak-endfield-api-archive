@@ -50,8 +50,11 @@ The following binary data is archived in an external repository:
 - Launcher packages (.exe, .zip)
 
 > [!NOTE]
-> Starting with the `v1.2.4` game update, the `v2` (HDiff+incremental) method has been adopted for game package patch updates. For details, please see [MEMO.md](MEMO.md).  
-> Update patches using the legacy `v1` (incremental) method are also available (likely for use with slow storage devices such as HDDs), but they have been excluded from the archive for efficiency.
+> Starting with the `v1.2.4` game update, the `v2` (HDiff + incremental) method is used for game package patch updates. For details, please see [MEMO.md](MEMO.md).  
+> Starting with the `v1.4.4` game update, the legacy `v1` method (incremental patching without HDiff) has been replaced by `v3`.  
+> While I have not investigated the specific differences between `v2` and `v3`, the `v2` method results in smaller patch sizes; `v3` is likely intended for use with slower storage media.  
+> To optimize efficiency, update patches not using the `v2` method, as well as packages from the Google Play and Epic channels, are excluded from automatic archiving.  
+> I may manually archive these excluded packages on occasion.
 
 For a full list of externally archived files, please refer to the mirror list JSON in the `output` directory. (Note: `*_pending` files are temporary files used during the archiving process.)
 

@@ -37,6 +37,9 @@ type LauncherLatestGame = {
     v2_patch_info_url: string;
     v2_patch_info_size: string;
     v2_patch_info_md5: string;
+    v2_verify_files_url: string;
+    v2_verify_files_size: string;
+    v2_verify_files_md5: string;
   } | null;
   state: number;
   launcher_action: number;
