@@ -15,6 +15,8 @@ type ConfigType = AllRequired<
     cipher: {
       akEndfield: {
         resIndexKey: string;
+        launcherAesKey: string;
+        launcherAesIv: string;
       };
     };
     network: {
@@ -82,6 +84,8 @@ const initialConfig: ConfigType = {
   cipher: {
     akEndfield: {
       resIndexKey: 'Assets/Beyond/DynamicAssets/Gameplay/UI/Fonts/', // via reversing
+      launcherAesKey: 'c0f30e1ce763bbc21cc355a34303ac50399444bff68c4a22af398c0a166ee143', // via reversing
+      launcherAesIv: '33467861192750649501937264608400', // via reversing
     },
   },
   network: {

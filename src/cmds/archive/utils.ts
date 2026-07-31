@@ -93,7 +93,7 @@ export async function saveResultWithHistory<T>(
   return false;
 }
 
-export async function downloadRawFile(url: string) {
+export async function downloadRawFile(url: string): Promise<{ isWrote: boolean; localPath: string }> {
   const urlObj = new URL(url);
   urlObj.search = '';
   const localPath = path.join(
@@ -103,7 +103,7 @@ export async function downloadRawFile(url: string) {
     ...urlObj.pathname.split('/').filter(Boolean),
   );
 
-  if (await Bun.file(localPath).exists()) return false;
+  if (await Bun.file(localPath).exists()) return { isWrote: false, localPath: localPath };
 
   try {
     const data = await ky
@@ -114,9 +114,10 @@ export async function downloadRawFile(url: string) {
       })
       .bytes();
     await Bun.write(localPath, data);
-    return true;
+    return { isWrote: true, localPath: localPath };
   } catch (err) {
-    if (err instanceof HTTPError && (err.response.status === 404 || err.response.status === 403)) return false;
+    if (err instanceof HTTPError && (err.response.status === 404 || err.response.status === 403))
+      return { isWrote: false, localPath: localPath };
     throw err;
   }
 }

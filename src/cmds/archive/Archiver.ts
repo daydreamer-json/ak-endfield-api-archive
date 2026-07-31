@@ -192,7 +192,16 @@ export class Archiver {
           await downloadRawFile(e.rsp.patch.v2_patch_info_url);
         }
         if (e.rsp.patch?.v2_verify_files_url) {
-          await downloadRawFile(e.rsp.patch.v2_verify_files_url);
+          const dlResult = await downloadRawFile(e.rsp.patch.v2_verify_files_url);
+          const decBytesPath = dlResult.localPath + '_dec.json';
+          if (!(await Bun.file(decBytesPath).exists())) {
+            const decBytes = cipher.decryptLauncherAes(
+              await Bun.file(dlResult.localPath).bytes(),
+              appConfig.cipher.akEndfield.launcherAesKey,
+              appConfig.cipher.akEndfield.launcherAesIv,
+            );
+            await Bun.write(decBytesPath, decBytes);
+          }
         }
       }
     }
@@ -271,7 +280,7 @@ export class Archiver {
 
     const addToQueue = (url: string) => {
       this.networkQueue.add(async () => {
-        if (await downloadRawFile(url)) {
+        if ((await downloadRawFile(url)).isWrote) {
           wroteFiles.push(url);
         }
       });
