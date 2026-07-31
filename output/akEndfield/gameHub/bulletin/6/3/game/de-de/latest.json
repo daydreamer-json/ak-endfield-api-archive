@@ -18,12 +18,18 @@
       "subChannel": "#DEFAULT",
       "lang": "de-de",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:de-de",
-      "version": "f5a353d61a62202cc5612dfcfcc51c39",
+      "version": "8499c7925043dc17543581ef21cca9fb",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
           "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "2105",
+          "version": 1785512081,
+          "needRedDot": false,
           "needPopup": false
         },
         {
@@ -202,7 +208,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1785470400,
+      "updatedAt": 1785512082,
       "list": [
         {
           "cid": "2118",
@@ -219,6 +225,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/036aa7577d30a40600ca4b629c8e57d5.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "2105",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1785463200,
+          "focus": 0,
+          "title": "Hinweis zu bekannten Problemen",
+          "header": "Hinweis zu bekannten Problemen",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260731/b5b6798e173a79eaa6cc6e9daf404e6b.jpg\" data-width=\"1650\" data-height=\"300\"><p>Geschätzter Endministrator,</p><p>um allen ein reibungsloseres Spielerlebnis zu ermöglichen, haben wir eine Liste der derzeit bekannten Probleme zusammengestellt. Wenn du beim Spielen auf eines dieser Probleme stößt, lies bitte die entsprechenden Lösungsvorschläge unten nach.</p><p></p><p>▼// Bekannte Probleme</p><p><span style=\"color: rgb(0, 0, 0);\">◆</span> Es wurde festgestellt, dass in der deutschen Sprachversion die Namen von sechs Etappen im Event „HITZEWUT! MEGA-ARENA!“ derzeit fehlerhaft angezeigt werden. Dieses Problem wird in einer der kleinen Updates behoben.</p><p></p><p>Wenn du auf weitere Probleme stößt, teile uns dies bitte über unseren Kundendienst im Spiel oder andere offizielle Kanäle mit.</p><p>Wir entschuldigen uns aufrichtig für die entstandenen Unannehmlichkeiten. Vielen Dank für dein anhaltendes Interesse und deine Unterstützung von Arknights: Endfield!</p>",
             "linkType": 1
           }
         },
