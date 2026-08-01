@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "es-mx",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:es-mx",
-      "version": "519cf35216d30f58dce644a92310b818",
+      "version": "facff7a42c067488e1a73be4eec0c47a",
       "onlineList": [
         {
           "cid": "2118",
@@ -95,6 +95,12 @@
         {
           "cid": "3057",
           "version": 1784170879,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "4611",
+          "version": 1785491469,
           "needRedDot": true,
           "needPopup": false
         },
@@ -196,7 +202,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1785513540,
+      "updatedAt": 1785556800,
       "list": [
         {
           "cid": "2118",
@@ -418,6 +424,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260715/68107de9ab5c0eb16170c209ce46234b.jpg\" data-width=\"1650\" data-height=\"300\"><p>Hola, Endministrator: <br>Mientras [Solicitud de Grado militar] esté disponible, ¡aumenta la probabilidad de obtener el arma de 6★ [Tipo 42: Falange solemne (Unidad de las Artes)]!<br><br><strong>▼// [Solicitud de Grado militar] </strong><br>· Disponibilidad: comienza después del lanzamiento de la versión [Regreso a casa] y termina después de tres banners de [Caza de reclutas certificada] (a partir de [El norte añora a la vigilante de la grieta]) <br>· Criterio de participación: completa la misión principal [Capítulo I Proceso I: Rompiendo el asedio] <br>· [Solicitud de Grado militar] incluye el arma de 6★ con aumento de probabilidad [Tipo 42: Falange solemne (Unidad de las Artes)]. <br>· Las armas de 6★ que pueden aparecer en la [Solicitud de Grado militar] incluyen: Tipo 42: Falange solemne (Unidad de las Artes) / Antigua fineza (gran espada) / Cuña (cañón de mano) / Alto prestigio (espada) / JET (arma de asta) / Unidad de detonación (Unidad de las Artes) / Olvido (Unidad de las Artes).<br><br><strong>▼// Recompensas de [Solicitud de Arsenal]</strong><br>En cada [Solicitud de Arsenal], al completar un número determinado de solicitudes, se obtendrá la [Caja de ofrenda de armas] (CO de armas) específica del banner o el [arma de 6★ con aumento de probabilidad] en orden alterno. El número total de solicitudes para estas recompensas de la Solicitud de Arsenal se restablecerá una vez que finalice el banner y no se transferirá a otros banners de la [Solicitud de Arsenal].<br><br><strong>▼// Detalles de [Solicitud de Arsenal] </strong><br>· En [Solicitud de Arsenal], puedes gastar [Boletos de Arsenal] para enviar una solicitud. <br>· Cada solicitud otorga 10 armas al azar de la lista de armas disponibles, incluyendo al menos un arma de 5★ o superior.<br><br><strong>▼// Detalles del [Intercambio de Arsenal] </strong><br>En [Intercambio de Arsenal], el [Boleto de Arsenal] también se puede utilizar para comprar armas directamente. Algunas armas a la venta pueden actualizarse de vez en cuando. Consulta la información que se muestra en la pantalla [Centro de adquisición: Intercambio de Arsenal] para saber qué hay disponible.<br><br>※ Visita el [Centro de adquisición: Intercambio de Arsenal] para conocer más detalles y reglas de las recompensas.</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "4611",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1785556800,
+          "focus": 0,
+          "title": "Registro diario",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260731/11f4d5914b6047b23d86ed34cec3875d.png",
+            "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fstatic.skport.com%252Fu-link%252Fdownload.html%253Fschema%253Dskport%25253A%25252F%25252Fweb%25253Furl%25253Dhttps%2525253A%2525252F%2525252Fgame.skport.com%2525252Fendfield%2525252Fsign-in%2525253Fheader%2525253D0%25252526hg_media%2525253Dgame%25252526hg_link_campaign%2525253Dannouncement%25252526hg_link_name%2525253Dsignin",
             "linkType": 1
           }
         },

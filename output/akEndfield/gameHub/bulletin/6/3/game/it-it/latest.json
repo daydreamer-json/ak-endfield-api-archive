@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "it-it",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:it-it",
-      "version": "519cf35216d30f58dce644a92310b818",
+      "version": "facff7a42c067488e1a73be4eec0c47a",
       "onlineList": [
         {
           "cid": "2118",
@@ -95,6 +95,12 @@
         {
           "cid": "3057",
           "version": 1784170879,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "4611",
+          "version": 1785491469,
           "needRedDot": true,
           "needPopup": false
         },
@@ -196,7 +202,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1785513540,
+      "updatedAt": 1785556800,
       "list": [
         {
           "cid": "2118",
@@ -418,6 +424,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260715/9f765e88b30baeef44106bf553d9191d.jpg\" data-width=\"1650\" data-height=\"300\"><p>Ciao, Endministrator! <br>Mentre [Distribuzione grado militare] è disponibile, la possibilità di ottenere un'arma da 6★ [Tipo 42: Falange solenne (unità delle Arti)] è aumentata!</p><p><br><strong>▼// [Distribuzione grado militare] </strong><br>· Disponibilità: inizia dopo l'aggiornamento della versione [Ritorno a casa], termina dopo 3 campagne [caccia ai talenti certificata] (a partire da [Sguardo nostalgico al Nord dall'abisso]). <br>· Criteri di partecipazione: completa la missione principale [Capitolo I - Elaborazione I: Sotto assedio]. <br>· [Distribuzione grado militare] comprende l'arma da 6★ UP [Tipo 42: Falange solenne (unità delle Arti)]. <br>· Tra le armi da 6★ che potrebbero apparire in [Distribuzione grado militare], ci sono: Tipo 42: Falange solenne (unità delle Arti) / Antichi fasti (spadone) / Cuneo (pistola pesante) / Reputazione illustre (spada) / JET (arma ad asta) / Unità di detonazione (unità delle Arti) / Oblio (unità delle Arti).</p><p><br><strong>▼// Ricompense [Distribuzione arsenale] </strong><br>In ogni [Distribuzione arsenale], completare un determinato numero di distribuzioni consente di ottenere, in ordine alternato, la [cassa Offerta armi] (CO armi) o [l'arma da 6★ UP] specifici della campagna. Il numero totale di distribuzioni necessarie per queste ricompense di Distribuzione arsenale viene azzerato alla fine della campagna e non viene trasferito ad altre campagne [Distribuzione arsenale].</p><p><br><strong>▼// Dettagli [Distribuzione arsenale] </strong><br>· In [Distribuzione arsenale], puoi usare [biglietti arsenale] per richiedere una distribuzione. <br>· Ogni Distribuzione fornisce 10 armi casuali dall'elenco delle armi disponibili, di cui almeno un'arma da 5★ o migliore.</p><p><br><strong>▼// Dettagli [Scambio arsenale] </strong><br>In [Scambio arsenale], i [biglietti arsenale] possono essere utilizzati anche per acquistare direttamente armi. Alcune armi acquistabili possono essere aggiornate periodicamente. Consulta la schermata [Centro di acquisizione: Scambio arsenale] per verificare la disponibilità effettiva.<br><br>※ Per maggiori dettagli e per le regole relative alle ricompense, dai un'occhiata al Centro di acquisizione: Scambio arsenale nel gioco.</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "4611",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1785556800,
+          "focus": 0,
+          "title": "Accesso giornaliero",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260731/0f283bd47dae84a66332bdd9fc655098.png",
+            "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fstatic.skport.com%252Fu-link%252Fdownload.html%253Fschema%253Dskport%25253A%25252F%25252Fweb%25253Furl%25253Dhttps%2525253A%2525252F%2525252Fgame.skport.com%2525252Fendfield%2525252Fsign-in%2525253Fheader%2525253D0%25252526hg_media%2525253Dgame%25252526hg_link_campaign%2525253Dannouncement%25252526hg_link_name%2525253Dsignin",
             "linkType": 1
           }
         },
