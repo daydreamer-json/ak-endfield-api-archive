@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "th-th",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:th-th",
-      "version": "4a78ce77262b2c3f4151004c9711c955",
+      "version": "18d9074c3d7eb97d8f416163bcf3786b",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "3044",
+          "version": 1785733701,
           "needRedDot": true,
           "needPopup": false
         },
@@ -202,7 +208,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786028400,
+      "updatedAt": 1786078800,
       "list": [
         {
           "cid": "2118",
@@ -219,6 +225,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/a879da1ef5ae605c73de0eb6b357ae2b.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3044",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1786078800,
+          "focus": 0,
+          "title": "เสียงสะท้อนแห่งสงคราม \\nฤดูกาลแห่งความเพ้อคลั่ง",
+          "header": "เสียงสะท้อนแห่งสงคราม ฤดูกาลแห่งความเพ้อคลั่ง",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260803/ee88fee81cbadb34aac416e14b6a69de.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// เวลาอัปเดตฤดูกาล</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">9 ส.ค. 2026 เวลา 12:00 น. (ตามเวลาเซิร์ฟเวอร์) - ก่อนการอัปเดตและปิดปรับปรุงเวอร์ชัน</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// เงื่อนไขการเข้าร่วม</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· ​​เล​เวล​ของ​เจ้าพนักงาน ≥​40</span></p><p><span style=\"color: rgb(0, 0, 0);\">· ทำภารกิจหลัก [บทที่ 1 องก์ 2: ถางเส้นทาง] เสร็จสิ้น</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// รายละเอียดการอัปเดตฤดูกาล</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">เปิดฤดูกาลใหม่ [ฤดูกาลแห่งความเพ้อคลั่ง] ฤดูกาลนี้มีด่านใหม่ 2 ด่านใน 3 รอบ แต่ละรอบประกอบด้วย 3 ด่าน</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ เขตเวลาเซิร์ฟเวอร์ Asia: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ เขตเวลาเซิร์ฟเวอร์ Americas / Europe: UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ สำหรับรายละเอียดกิจกรรมเพิ่มเติม โปรดตรวจสอบที่ [ศูนย์กิจกรรม] ภายในเกม</span></p>",
             "linkType": 1
           }
         },

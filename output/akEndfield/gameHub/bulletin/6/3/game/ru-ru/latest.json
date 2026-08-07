@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "ru-ru",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ru-ru",
-      "version": "4a78ce77262b2c3f4151004c9711c955",
+      "version": "18d9074c3d7eb97d8f416163bcf3786b",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "3044",
+          "version": 1785733701,
           "needRedDot": true,
           "needPopup": false
         },
@@ -202,7 +208,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786028400,
+      "updatedAt": 1786078800,
       "list": [
         {
           "cid": "2118",
@@ -219,6 +225,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/e01114cfb109463b4430e6dfbd2b3ad4.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3044",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1786078800,
+          "focus": 0,
+          "title": "Эхо войны \\nСезон помешательства",
+          "header": "Эхо войны Сезон помешательства",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260803/70ea9991a78527820c9a0cfec239fa1e.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Расписание обновления сезона</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">С 9 августа 2026 г., 12:00 (по времени сервера) до начала технических работ по обновлению версии</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Условия участия</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Уровень влияния ≥ 40</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Завершите основную миссию: [операция II главы I «Прокладывание пути»]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Сведения об обновлении сезона</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Доступен новый сезон — [Сезон помешательства]. Он состоит из 2 новых этапов в 3 циклах. Каждый цикл содержит 3 этапа.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ Часовой пояс сервера Asia: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Часовой пояс сервера Americas / Europe: UTC–5</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Дополнительные сведения о событии можно получить во внутриигровом [Центре событий].</span></p>",
             "linkType": 1
           }
         },

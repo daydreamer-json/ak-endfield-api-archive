@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "es-mx",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:es-mx",
-      "version": "4a78ce77262b2c3f4151004c9711c955",
+      "version": "18d9074c3d7eb97d8f416163bcf3786b",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "3044",
+          "version": 1785733701,
           "needRedDot": true,
           "needPopup": false
         },
@@ -202,7 +208,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786028400,
+      "updatedAt": 1786078800,
       "list": [
         {
           "cid": "2118",
@@ -219,6 +225,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/96b549b59f288176334b5cd70a8f074f.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3044",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1786078800,
+          "focus": 0,
+          "title": "Ecos de guerra \\nTemporada de delirio",
+          "header": "Ecos de guerra Temporada de delirio",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260803/aaf4180a8bba560ae4f24f44691a0d45.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Hora de actualización de temporada</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Del 9 de agosto de 2026 a las 12:00 (hora del servidor) hasta antes de la actualización de la versión y del mantenimiento</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Requisitos de participación</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Nivel de autoridad ≥ 40</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Completa la misión principal [Capítulo I, Proceso II: Pavimentando el camino]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Detalles de la actualización de temporada</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">La nueva temporada [Temporada de delirio] ya está disponible. Esta temporada incluye 2 nuevas etapas distribuidas en 3 ciclos. Cada ciclo incluye 3 etapas.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ Zona horaria del servidor Asia: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Zona horaria del servidor Americas / Europe: UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Para obtener más detalles sobre el evento, consulta el [Centro de eventos] del juego.</span></p>",
             "linkType": 1
           }
         },

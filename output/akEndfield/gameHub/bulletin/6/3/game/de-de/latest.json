@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "de-de",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:de-de",
-      "version": "4a78ce77262b2c3f4151004c9711c955",
+      "version": "18d9074c3d7eb97d8f416163bcf3786b",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "3044",
+          "version": 1785733701,
           "needRedDot": true,
           "needPopup": false
         },
@@ -202,7 +208,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786028400,
+      "updatedAt": 1786078800,
       "list": [
         {
           "cid": "2118",
@@ -219,6 +225,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/036aa7577d30a40600ca4b629c8e57d5.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3044",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1786078800,
+          "focus": 0,
+          "title": "Echos des Krieges \\nSaison des Deliriums",
+          "header": "Echos des Krieges Saison des Deliriums",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260803/29dad2278c836afeaf34acb89369fc24.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Saison-Update-Zeitpunkt</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">9. August 2026 um 12:00 Uhr (Serverzeit) – Vor dem Versions-Update und der Wartung</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Teilnahmevoraussetzungen</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Autoritätslevel ≥ 40</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Abschluss der Hauptmission [Kapitel I Prozess II: Den Weg freimachen]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Details zum Saison-Update</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Die neue Saison [Saison des Deliriums] ist jetzt verfügbar. Diese Saison umfasst 2 neue Phasen, verteilt auf 3 Zyklen. Jeder Zyklus enthält 3 Phasen.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ Zeitzone des Asia-Servers: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Zeitzone des Americas / Europe-Servers: UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Weitere Eventdetails findest du im [Eventcenter] im Spiel.</span></p>",
             "linkType": 1
           }
         },

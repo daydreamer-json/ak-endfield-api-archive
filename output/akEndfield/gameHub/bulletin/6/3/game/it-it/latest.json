@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "it-it",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:it-it",
-      "version": "4a78ce77262b2c3f4151004c9711c955",
+      "version": "18d9074c3d7eb97d8f416163bcf3786b",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "3044",
+          "version": 1785733701,
           "needRedDot": true,
           "needPopup": false
         },
@@ -202,7 +208,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786028400,
+      "updatedAt": 1786078800,
       "list": [
         {
           "cid": "2118",
@@ -219,6 +225,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/ba783b7e876e53c082345cb164b6801e.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3044",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1786078800,
+          "focus": 0,
+          "title": "Echi di guerra \\nStagione del delirio",
+          "header": "Echi di guerra Stagione del delirio",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260803/90308e2bd8108f610f035cd0cec5afcb.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Data dell'aggiornamento stagionale</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">9 agosto 2026 alle 12:00 (fuso orario del server) - Prima dell'aggiornamento e manutenzione della versione</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Requisiti per partecipare</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Livello di autorità ≥ 40</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Aver completato la missione principale [Capitolo I - Elaborazione II: Aprire la strada]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Dettagli dell'aggiornamento stagionale</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">È disponibile la nuova stagione [Stagione del delirio]. Questa stagione include 2 nuove fasi in 3 cicli. Ogni ciclo include 3 fasi.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ Fuso orario del server Asia: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Fuso orario del server Americas / Europe: UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Per maggiori dettagli, consulta il [Centro eventi] nel gioco.</span></p>",
             "linkType": 1
           }
         },

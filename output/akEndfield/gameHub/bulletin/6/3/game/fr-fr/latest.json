@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "fr-fr",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:fr-fr",
-      "version": "4a78ce77262b2c3f4151004c9711c955",
+      "version": "18d9074c3d7eb97d8f416163bcf3786b",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "3044",
+          "version": 1785733701,
           "needRedDot": true,
           "needPopup": false
         },
@@ -202,7 +208,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786028400,
+      "updatedAt": 1786078800,
       "list": [
         {
           "cid": "2118",
@@ -219,6 +225,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/09549dbbfd29aa0428b8cd8206878d44.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3044",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1786078800,
+          "focus": 0,
+          "title": "Échos guerriers \\nSaison du délire",
+          "header": "Échos guerriers Saison du délire",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260803/67128d675f9bfdac00d8f4a40d61dae0.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Date de mise à jour de la saison</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Du 9 août 2026 à 12 h (heure du serveur), jusqu'à la prochaine mise à jour de version et maintenance</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Conditions de participation</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Niveau d'autorité ≥ 40</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Terminer la mission principale [Chapitre I - Processus II : Ouvrir la voie]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Détails de la mise à jour de la saison</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">La nouvelle saison [Saison du délire] est disponible. Cette saison compte 2 nouveaux niveaux répartis sur 3 cycles. Chaque cycle comporte 3 niveaux.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ Fuseau horaire du serveur Asia : UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Fuseau horaire du serveur Americas / Europe : UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Pour plus de détails à propos de l'événement, consultez le [Centre d'événement] en jeu.</span></p>",
             "linkType": 1
           }
         },

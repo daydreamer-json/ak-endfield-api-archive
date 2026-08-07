@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "vi-vn",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:vi-vn",
-      "version": "4a78ce77262b2c3f4151004c9711c955",
+      "version": "18d9074c3d7eb97d8f416163bcf3786b",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "3044",
+          "version": 1785733701,
           "needRedDot": true,
           "needPopup": false
         },
@@ -202,7 +208,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786028400,
+      "updatedAt": 1786078800,
       "list": [
         {
           "cid": "2118",
@@ -219,6 +225,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/58acc47d463bb73834520fcb3af6f6b2.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3044",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1786078800,
+          "focus": 0,
+          "title": "Tiếng Vọng Nơi Chiến Trận \\nMùa Mê Loạn",
+          "header": "Tiếng Vọng Nơi Chiến Trận Mùa Mê Loạn",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260803/ae6edacf0842bd45121a76663547ebb1.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Thời Gian Cập Nhật Mùa Giải</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">12:00 ngày 09/08/2026 (giờ máy chủ) – Trước khi bảo trì và cập nhật phiên bản</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Điều Kiện Tham Gia</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Cấp Đặc Quyền ≥ 40</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Hoàn thành nhiệm vụ chính [Chương I Tiến trình II: Mở Đường]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Chi Tiết Cập Nhật Mùa Giải</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Mùa giải mới [Mùa Mê Loạn] chính thức mở ra. Mùa giải này mang đến 2 ải mới trải dài trong suốt 3 chu kỳ. Mỗi chu kỳ sẽ bao gồm 3 ải.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ Múi Giờ Máy Chủ Asia: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Múi Giờ Máy Chủ Americas / Europe: UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Mọi thông tin chi tiết khác về sự kiện, hãy kiểm tra tại [Trung Tâm Sự Kiện] trong game.</span></p>",
             "linkType": 1
           }
         },

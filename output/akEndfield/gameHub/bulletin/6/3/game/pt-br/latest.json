@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "pt-br",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:pt-br",
-      "version": "4a78ce77262b2c3f4151004c9711c955",
+      "version": "18d9074c3d7eb97d8f416163bcf3786b",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "3044",
+          "version": 1785733701,
           "needRedDot": true,
           "needPopup": false
         },
@@ -202,7 +208,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786028400,
+      "updatedAt": 1786078800,
       "list": [
         {
           "cid": "2118",
@@ -219,6 +225,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/08c1e5e96710dd77ec02fae110302ddc.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3044",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1786078800,
+          "focus": 0,
+          "title": "Ecos da Guerra \\nTemporada de Delírios",
+          "header": "Ecos da Guerra Temporada de Delírios",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260803/5cc4b720a10cdb03fd5dd5e72e5404cb.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Horário de Atualização da Temporada</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">9 de agosto de 2026, às 12:00 (horário do servidor) – Antes da atualização de versão e manutenção</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Requisitos de Participação</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Nível de Autoridade ≥ 40</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Conclua a missão principal [Capítulo I Processo II: Pavimentando o Caminho]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Detalhes da Atualização da Temporada</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">A nova temporada [Temporada de Delírios] já está disponível e inclui 2 novos estágios em 3 ciclos, sendo que cada ciclo contém 3 estágios.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ Fuso Horário do Servidor Asia: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Fuso Horário do Servidor Americas / Europe: UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Para mais informações sobre o evento, confira o [Centro de Eventos] no jogo.</span></p>",
             "linkType": 1
           }
         },

@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "id-id",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:id-id",
-      "version": "4a78ce77262b2c3f4151004c9711c955",
+      "version": "18d9074c3d7eb97d8f416163bcf3786b",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "3044",
+          "version": 1785733701,
           "needRedDot": true,
           "needPopup": false
         },
@@ -202,7 +208,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786028400,
+      "updatedAt": 1786078800,
       "list": [
         {
           "cid": "2118",
@@ -219,6 +225,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/1ffafe6070ef0c8c1238d60bd5e2633e.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3044",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1786078800,
+          "focus": 0,
+          "title": "Gema Perang \\nMusim Renungan",
+          "header": "Gema Perang Musim Renungan",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260803/fd8039c168bd32714ac9636cfb62db81.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Waktu Pembaruan Musim</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">9 Agustus 2026 pukul 12.00 (waktu server) – Sebelum pembaruan versi dan pemeliharaan</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Persyaratan Partisipasi</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Level Otoritas ≥ 40</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Selesaikan misi utama [Bab I Proses II: Membuka Jalan]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Detail Pembaruan Musim</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Musim baru [Musim Renungan] telah tersedia. Musim ini menampilkan 2 stage baru di seluruh 3 siklus. Tiap siklus mencakup 3 stage.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ Zona Waktu Server Asia: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Zona Waktu Server Americas/Europe: UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Untuk detail event lebih lanjut, kunjungi [Pusat Event] dalam game.</span></p>",
             "linkType": 1
           }
         },

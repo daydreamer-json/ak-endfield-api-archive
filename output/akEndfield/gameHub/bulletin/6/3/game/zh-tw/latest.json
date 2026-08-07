@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-tw",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-tw",
-      "version": "58d802c04b549fcefb1dee8555af6587",
+      "version": "91bbfb4849cb3ada377fc1bf30cdf0db",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "3044",
+          "version": 1785733701,
           "needRedDot": true,
           "needPopup": false
         },
@@ -208,7 +214,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786028400,
+      "updatedAt": 1786078800,
       "list": [
         {
           "cid": "2118",
@@ -225,6 +231,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/db3364dfc91b944a8c5d69861842548e.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3044",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1786078800,
+          "focus": 0,
+          "title": "戰爭迴響\\n譫妄賽季",
+          "header": "「戰爭迴響 - 譫妄賽季」賽季更新說明",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260803/206ca3792538235a359f096cd26e71f6.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//賽季更新時間</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">2026/08/09 12:00（伺服器時間） ~ 版本更新維護前</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//參與條件</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 權限等階≥40級</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 完成主線任務「第一章 - 進度II - 開拓前路」</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//賽季更新說明</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">全新賽季「譫妄賽季」開放，該賽季新增2個關卡，分為3個輪換週期，每個輪換週期包含3個關卡。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ Asia伺服器時區：UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Americas / Europe伺服器時區：UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ 更多活動詳細說明，請前往遊戲內【活動中心】查看。</span></p>",
             "linkType": 1
           }
         },

@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "en-us",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:en-us",
-      "version": "4a78ce77262b2c3f4151004c9711c955",
+      "version": "18d9074c3d7eb97d8f416163bcf3786b",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "3044",
+          "version": 1785733701,
           "needRedDot": true,
           "needPopup": false
         },
@@ -202,7 +208,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786028400,
+      "updatedAt": 1786078800,
       "list": [
         {
           "cid": "2118",
@@ -219,6 +225,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/98f7fa0cee6fe9fb28be78663e29d7ed.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3044",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1786078800,
+          "focus": 0,
+          "title": "Echoes of War \\nSeason of Delirating",
+          "header": "Echoes of War Season of Delirating",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260803/4ac2678bd309638aef33c79b9aedbe05.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Season Update Time</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Aug. 9, 2026 at 12:00 (server time) – Before version update and maintenance</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Participation Requirements</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Authority Level ≥ 40</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Complete the main mission [Chapter I Process II: Paving the Way]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Season Update Details</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">New season [Season of Delirating] is available. This season features 2 new stages across 3 cycles. Each cycle includes 3 stages.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ Asia Server Time Zone: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Americas / Europe Server Time Zone: UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ For more event details, check the in-game [Event Center].</span></p>",
             "linkType": 1
           }
         },
