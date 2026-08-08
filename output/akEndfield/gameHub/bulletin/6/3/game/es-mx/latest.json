@@ -18,12 +18,18 @@
       "subChannel": "#DEFAULT",
       "lang": "es-mx",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:es-mx",
-      "version": "a07b59f336e165984e85ff99b92f0297",
+      "version": "7308af8f220950a8e562708e88f00fbc",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
           "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "7287",
+          "version": 1786190174,
+          "needRedDot": false,
           "needPopup": false
         },
         {
@@ -226,7 +232,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786186800,
+      "updatedAt": 1786201200,
       "list": [
         {
           "cid": "2118",
@@ -243,6 +249,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/96b549b59f288176334b5cd70a8f074f.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "7287",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1786201200,
+          "focus": 1,
+          "title": "Aviso de actualización rápida",
+          "header": "08/08: aviso de actualización rápida",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260512/a01618fb9fb95e150cc89f5840378159.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">Hola, Endministrator:</span></p><p><span style=\"color: rgb(31, 35, 41);\">Se llevará a cabo una actualización rápida de los servidores del 08/08/2026 a las 21:30 al 08/08/2026 a las 21:40 (UTC-5). Durante este tiempo, se cerrará la sesión de todos los Endministrators y no será posible acceder al juego.</span></p><p><span style=\"color: rgb(31, 35, 41);\">¡Agradecemos tu comprensión por cualquier inconveniente que esta actualización pueda ocasionar!</span></p><p></p><p>▼// Detalles de la actualización</p><p>· Recursos actualizados para eventos, incluyendo [Buenos días de parte de su estrella del amanecer] Caza de reclutas certificada, [Solicitud de Deslumbrante] Solicitud de Arsenal, y Evento de narrativa [Como una estrella que atraviesa las fronteras].</p><p></p><p><span style=\"color: rgb(31, 35, 41);\">▼// Actualizar Compensación</span></p><p><span style=\"color: rgb(31, 35, 41);\">· Refuerzo de cordura de emergencia × 1</span></p><p></p><p>Periodo de distribución: 08/08/2026 después de la actualización rápida – Antes de la próxima actualización y mantenimiento de la versión</p><p>Elegibilidad: Todos los Endministrators que se registraron y crearon un personaje antes de la actualización del 08/08/2026 a las 21:30 (UTC-5)</p><p><span style=\"color: rgb(31, 35, 41);\">Nota: Reclamable después de desbloquear la función [Correo]. El correo es válido por 30 días. Asegúrate de reclamarlo a tiempo.</span></p><p><span style=\"color: rgb(31, 35, 41);\">¡Gracias por tu interés continuo y tu apoyo a Arknights: Endfield, Endministrator!</span></p>",
             "linkType": 1
           }
         },
