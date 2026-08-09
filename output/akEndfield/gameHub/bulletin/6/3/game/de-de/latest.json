@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "de-de",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:de-de",
-      "version": "11d3e8c3a55e7ae93c2f221cfb14cc23",
+      "version": "b718e6b2afb0b3e4f212dc9100553098",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "8953",
+          "version": 1786159176,
           "needRedDot": true,
           "needPopup": false
         },
@@ -196,7 +202,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786257275,
+      "updatedAt": 1786273200,
       "list": [
         {
           "cid": "2118",
@@ -213,6 +219,24 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/036aa7577d30a40600ca4b629c8e57d5.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "8953",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "picture",
+          "startAt": 1786273200,
+          "focus": 0,
+          "title": "[Oro-Berylle] Liino-Themen-Event beginnt!",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260807/9135b460b2017a0e2e13051e309fd8c9.png",
+            "link": "https://discord.gg/yw9ZaVSa4K?event=1534756747351425154",
             "linkType": 1
           }
         },
