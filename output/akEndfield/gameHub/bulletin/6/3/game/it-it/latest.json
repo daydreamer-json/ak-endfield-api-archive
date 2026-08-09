@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "it-it",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:it-it",
-      "version": "9f61ac5fac7f2efbefa88b2467e57d26",
+      "version": "2d4ebe0cbadeec5031c658dfb60de291",
       "onlineList": [
         {
           "cid": "2118",
@@ -57,18 +57,6 @@
           "needPopup": false
         },
         {
-          "cid": "4622",
-          "version": 1784131098,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
-          "cid": "4623",
-          "version": 1784128989,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
           "cid": "6438",
           "version": 1786070566,
           "needRedDot": true,
@@ -77,12 +65,6 @@
         {
           "cid": "9873",
           "version": 1784128517,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
-          "cid": "1380",
-          "version": 1784131853,
           "needRedDot": true,
           "needPopup": false
         },
@@ -123,12 +105,6 @@
           "needPopup": false
         },
         {
-          "cid": "3057",
-          "version": 1784170879,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
           "cid": "4611",
           "version": 1785491469,
           "needRedDot": true,
@@ -161,12 +137,6 @@
         {
           "cid": "6448",
           "version": 1784096758,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
-          "cid": "8966",
-          "version": 1784133351,
           "needRedDot": true,
           "needPopup": false
         },
@@ -220,7 +190,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786246251,
+      "updatedAt": 1786248000,
       "list": [
         {
           "cid": "2118",
@@ -327,40 +297,6 @@
           }
         },
         {
-          "cid": "4622",
-          "type": 0,
-          "tab": "events",
-          "orderType": 1,
-          "orderWeight": 1,
-          "displayType": "rich_text",
-          "startAt": 1784156400,
-          "focus": 0,
-          "title": "Tributo di buona compagnia",
-          "header": "Evento celebrazione \"Tributo di buona compagnia\"",
-          "jumpButton": null,
-          "data": {
-            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260715/b38dfeacd57a63462f845206be24ccea.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Periodo dell'evento</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Dopo l'aggiornamento della versione Ritorno a casa – 9 agosto 2026 alle 12:00 (fuso orario del server)</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Requisito per partecipare</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Aver sbloccato il Centro eventi.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Dettagli sull'evento</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Accedi al gioco tutti i giorni durante l'evento per ottenere le ricompense.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Accedi per 3 giorni per guadagnare ricompense dell'evento, tra cui 3.000 Oroberilli, 5 permessi CT base e l'arma Lungimiranza (spada) da 6★.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ Fuso orario del server Asia: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Fuso orario del server Americas / Europe: UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Per maggiori dettagli sull'evento, apri la schermata di gioco Centro eventi.</span></p>",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "4623",
-          "type": 0,
-          "tab": "updates",
-          "orderType": 1,
-          "orderWeight": 1,
-          "displayType": "rich_text",
-          "startAt": 1784156400,
-          "focus": 0,
-          "title": "Echi di guerra",
-          "header": "Dettagli della modalità sfida permanente [Echi di guerra]",
-          "jumpButton": null,
-          "data": {
-            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260714/6a4a568aab12474b7df219a2d7a0fa47.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Disponibilità</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Disponibile in via permanente dopo l'aggiornamento della versione [Ritorno a casa]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Requisiti per partecipare</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Livello di autorità ≥ 40</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Completa la missione principale [Capitolo I - Elaborazione II: Aprire la strada]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Dettagli gameplay</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· [Echi di guerra] è una modalità di gioco stagionale disponibile in via permanente. Affronta varie fasi, ottieni stelle e conquista vari titoli di stagione.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ogni stagione è formata da più cicli. Ogni ciclo include 3 fasi e ogni fase è disponibile in 3 difficoltà: Normale, Difficile e Brutale. Completa una difficoltà per ottenere le stelle corrispondenti. Il numero totale di stelle ottenute nelle 3 fasi rappresenta il Punteggio totale di quel ciclo.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Completare una fase a difficoltà Brutale e soddisfare gli obiettivi di sfida bonus assegna il potenziamento [Splendente] al punteggio</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Alla fine di un ciclo, il Punteggio totale verrà azzerato per il nuovo ciclo. Affronta le fasi del nuovo ciclo per ottenere di nuovo stelle. Il Punteggio totale dei cicli precedenti verrà registrato come parte del [Punteggio finale] della stagione.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Il Punteggio totale più alto ottenuto in tutti i cicli della stagione attuale verrà usato per determinare il [Punteggio finale] della stagione. Endministrator, il Punteggio finale determina anche il relativo titolo di stagione che riceverai.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Nuove fasi di [Echi di guerra] verranno aggiunte di tanto in tanto e le fasi passate verranno sostituite. Completa una fase a difficoltà Normale per la prima volta per riscattare [Oroberilli]. Completare le fasi a difficoltà superiori conferirà anche ricompense come [Simbolo di perseveranza] e [Vettore cognitivo avanzato].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Vai alla schermata [Echi di guerra - Revisiona battaglia] per visualizzare i dettagli delle tue prestazioni in ogni ciclo delle 6 stagioni più recenti. Puoi anche visitare la schermata Profilo degli amici per vedere il loro [Punteggio finale] nelle 6 stagioni più recenti.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// [Stagione del ricordo]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Disponibilità della stagione: dopo l'aggiornamento della versione [Ritorno a casa] - 9 agosto 2026 alle 11:59 (fuso orario del server)</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Fuso orario del server Asia: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Fuso orario del server Americas / Europe: UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Dettagli stagione: è disponibile la nuova stagione [Stagione del ricordo]. Questa stagione include 6 nuove fasi in 3 cicli. Ogni ciclo include 3 fasi.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ Per maggiori dettagli sull'evento, apri la schermata di gioco [Centro eventi].</span></p>",
-            "linkType": 1
-          }
-        },
-        {
           "cid": "6438",
           "type": 0,
           "tab": "events",
@@ -391,23 +327,6 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260715/cd0e77b8f14ff9026c06759bfb4052a1.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Dettagli sulla talosite </strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">La talosite è un cristallo speciale energetico che si può trovare in diverse zone di Talos-II. È molto richiesto per la ricerca scientifica. Avvicinati a una talosite per interagire e raccoglierla. </span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Scambio talosite </strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Il sincronizzatore protocollare ora ha la funzionalità Scambio talosite che permette di scambiare la talosite raccolta con schemi per l'equipaggiamento, oggetti ornamentali, pose fotografiche e vinili. </span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Note speciali </strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Dopo l'uscita della versione Ritorno a casa, la talosite apparirà nel Valico di Yinglung e nell'Area interdetta di Wuling Nord. In futuro apparirà anche in altre aree. </span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ogni sonda di talosite può rilevare una talosite nascosta presente nella tua area attuale. Una volta rilevata, la talosite rimarrà visibile sulla mappa. </span></p><p><span style=\"color: rgb(0, 0, 0);\">· Acquista le sonde di talosite di Wuling con i buoni acquisto di Wuling dopo aver sbloccato il terminale di ridistribuzione scorte di Wuling - Valico di Yinglung. </span></p><p><span style=\"color: rgb(0, 0, 0);\">· Altri oggetti da scambiare verranno aggiunti allo Scambio talosite con gli aggiornamenti delle versioni future.</span></p>",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "1380",
-          "type": 0,
-          "tab": "events",
-          "orderType": 1,
-          "orderWeight": 2,
-          "displayType": "rich_text",
-          "startAt": 1784156400,
-          "focus": 0,
-          "title": "Sguardo nostalgico al Nord dall'abisso",
-          "header": "Sguardo nostalgico al Nord dall'abisso",
-          "jumpButton": null,
-          "data": {
-            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260713/5bc9cc987d34bbf0420b25c3f22417d0.jpg\" data-width=\"1650\" data-height=\"300\"><p>Ciao, Endministrator!</p><p>Durante la caccia ai talenti certificata Sguardo nostalgico al Nord dall'abisso l'operatrice da 6★ Arcana è UP!</p><p>L'evento accesso a tempo limitato Guarda a nord verso la spaccatura sarà disponibile contemporaneamente. Accumula accessi per ottenere ricompense come 5 permessi CT: Guarda a nord verso la spaccatura. Inoltre, puoi effettuare uno scambio scontato per ottenere permessi CT: Guarda a nord verso la spaccatura allo Scambio cedole SIA. È disponibile anche l'evento prova operatore Esercitazioni di combattimento.</p><p></p><p><strong>▼// Dettagli sulla caccia ai talenti certificata Sguardo nostalgico al Nord dall'abisso</strong></p><p>· Disponibilità: dopo l'uscita della versione Ritorno a casa – dal 9 agosto 2026 alle 11:59 (fuso orario del server)</p><p>· Criteri di partecipazione: completa la missione principale Capitolo I - Elaborazione I: Sotto assedio</p><p>· La caccia ai talenti certificata Sguardo nostalgico al Nord dall'abisso comprende l'operatrice da 6★ UP Arcana.</p><p>· Fra gli operatori da 6★ che potrebbero apparire nella caccia ai talenti certificata Sguardo nostalgico al Nord dall'abisso, ci sono: Arcana / Camille / Mi Fu / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.</p><p>· Nella caccia ai talenti certificata Sguardo nostalgico al Nord dall'abisso, puoi utilizzare permesso CT: Guarda a nord verso la spaccatura, permesso CT certificata oppure Oroberilli per eseguire una caccia ai talenti.</p><p>※ Dopo 3 campagne di caccia ai talenti certificata, l'operatore da 6★ UP compreso in una campagna caccia ai talenti certificata verrà rimosso dall'elenco di operatori che possono comparire nella caccia ai talenti certificata. Inoltre, questo operatore da 6★ UP non verrà aggiunto alla caccia ai talenti base.</p><p></p><p><strong>▼// Ricompense della caccia ai talenti certificata</strong></p><p>Nella caccia ai talenti certificata Sguardo nostalgico al Nord dall'abisso, effettua un determinato numero di tentativi di caccia ai talenti per ottenere le ricompense corrispondenti.</p><p></p><p>■ Reclutamento urgente</p><p>· Una volta effettuati 30 tentativi di caccia ai talenti, riceverai 10 tentativi di Reclutamento urgente bonus (che contano come 1 tentativo di caccia ai talenti da 10 utilizzi gratis). Ciò è valido unicamente durante questa campagna di caccia ai talenti certificata e non viene trasferito nelle altre campagne di caccia ai talenti.</p><p>· I tassi di ottenimento di operatori nel Reclutamento urgente sono uguali ai tassi di ottenimento base di questa campagna di caccia ai talenti certificata, e il tentativo di caccia ai talenti da 10 utilizzi gratis del Reclutamento urgente garantisce di ottenere un operatore da almeno 5★.</p><p>· Questo tentativo di caccia ai talenti da 10 utilizzi gratis fornito dal Reclutamento urgente non contribuisce a garantire questa o altre campagne di caccia ai talenti certificata e non viene aggiunto al totale dei tentativi di caccia ai talenti certificata necessari per ottenere ricompense della caccia ai talenti certificata.</p><p>■ Dossier sulla caccia ai talenti</p><p>· Una volta eseguiti 60 tentativi di caccia ai talenti, riceverai un Dossier sulla caccia ai talenti bonus.</p><p>· Una volta soddisfatti i requisiti, il Dossier sulla caccia ai talenti verrà automaticamente inviato alla tua scorta delle risorse chiave. Quando inizierà la prossima campagna di caccia ai talenti certificata, questo Dossier sulla caccia ai talenti verrà automaticamente convertito in 10 permessi CT speciali della suddetta campagna di caccia ai talenti certificata. Tuttavia, i permessi CT scadranno al termine di suddetta campagna.</p><p>■ Tributo gettone</p><p>· In ogni campagna di caccia ai talenti certificata, per ogni 240 tentativi di caccia ai talenti ricevi un gettone dell'operatore da 6★ UP compreso in suddetta campagna bonus.</p><p></p><p><strong>▼// Dettagli sui biglietti arsenale</strong></p><p>Ogni tentativo di ottenere operatori dalla caccia ai talenti fornisce anche biglietti arsenale.</p><p>· Ottenere un operatore da 6★ te ne fornisce 2000.</p><p>· Ottenere un operatore da 5★ te ne fornisce 200.</p><p>· Ottenere un operatore da 4★ te ne fornisce 20.</p><p>※ I biglietti arsenale si possono spendere allo Scambio arsenale del Centro di acquisizione.</p><p></p><p>Durante la caccia ai talenti certificata Sguardo nostalgico al Nord dall'abisso, saranno disponibili anche i seguenti contenuti:</p><p><strong>▼// Evento accesso a tempo limitato Guarda a nord verso la spaccatura</strong></p><p>Accedi per un totale di 7 giorni per ottenere ricompense come 5 permessi CT: Guarda a nord verso la spaccatura.</p><p></p><p><strong>▼// Evento prova operatore Esercitazioni di combattimento</strong></p><p>Saranno disponibili esercitazioni di combattimento per provare l'operatrice da 6★ Arcana. Completa il livello indicato con la squadra predefinita, che include l'operatrice di prova per riscattare 100 Oroberilli, Cassa di difesa dell'arsenale, Simbolo di perseveranza e altre ricompense. La Cassa di difesa dell'arsenale contiene un equipaggiamento sottoposto ad artificio completo di livello 60 adatto all'operatrice di prova attuale.</p><p></p><p><strong>▼// Nota speciale sullo Scambio cedole SIA</strong></p><p>Lo Scambio cedole propone offerte speciali a tempo limitato. Puoi spendere cedole SIA per acquistare oggetti come 5 permessi CT: Guarda a nord verso la spaccatura.</p><p>※ Fuso orario del server Asia: UTC+8</p><p>※ Fuso orario del server Americas / Europe: UTC-5</p><p>※ Per maggiori dettagli sulla caccia ai talenti, dai un'occhiata alla schermata Caccia ai talenti all'interno del gioco.</p><p>※ Per maggiori dettagli sugli eventi, dai un'occhiata alla schermata Centro eventi all'interno del gioco.</p><p>※ Per maggiori dettagli sullo Scambio cedole SIA, dai un'occhiata al Centro di acquisizione all'interno del gioco.</p>",
             "linkType": 1
           }
         },
@@ -514,23 +433,6 @@
           }
         },
         {
-          "cid": "3057",
-          "type": 0,
-          "tab": "events",
-          "orderType": 1,
-          "orderWeight": 3,
-          "displayType": "rich_text",
-          "startAt": 1784156400,
-          "focus": 0,
-          "title": "Distribuzione grado militare",
-          "header": "Distribuzione grado militare",
-          "jumpButton": null,
-          "data": {
-            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260715/9f765e88b30baeef44106bf553d9191d.jpg\" data-width=\"1650\" data-height=\"300\"><p>Ciao, Endministrator! <br>Mentre [Distribuzione grado militare] è disponibile, la possibilità di ottenere un'arma da 6★ [Tipo 42: Falange solenne (unità delle Arti)] è aumentata!</p><p><br><strong>▼// [Distribuzione grado militare] </strong><br>· Disponibilità: inizia dopo l'aggiornamento della versione [Ritorno a casa], termina dopo 3 campagne [caccia ai talenti certificata] (a partire da [Sguardo nostalgico al Nord dall'abisso]). <br>· Criteri di partecipazione: completa la missione principale [Capitolo I - Elaborazione I: Sotto assedio]. <br>· [Distribuzione grado militare] comprende l'arma da 6★ UP [Tipo 42: Falange solenne (unità delle Arti)]. <br>· Tra le armi da 6★ che potrebbero apparire in [Distribuzione grado militare], ci sono: Tipo 42: Falange solenne (unità delle Arti) / Antichi fasti (spadone) / Cuneo (pistola pesante) / Reputazione illustre (spada) / JET (arma ad asta) / Unità di detonazione (unità delle Arti) / Oblio (unità delle Arti).</p><p><br><strong>▼// Ricompense [Distribuzione arsenale] </strong><br>In ogni [Distribuzione arsenale], completare un determinato numero di distribuzioni consente di ottenere, in ordine alternato, la [cassa Offerta armi] (CO armi) o [l'arma da 6★ UP] specifici della campagna. Il numero totale di distribuzioni necessarie per queste ricompense di Distribuzione arsenale viene azzerato alla fine della campagna e non viene trasferito ad altre campagne [Distribuzione arsenale].</p><p><br><strong>▼// Dettagli [Distribuzione arsenale] </strong><br>· In [Distribuzione arsenale], puoi usare [biglietti arsenale] per richiedere una distribuzione. <br>· Ogni Distribuzione fornisce 10 armi casuali dall'elenco delle armi disponibili, di cui almeno un'arma da 5★ o migliore.</p><p><br><strong>▼// Dettagli [Scambio arsenale] </strong><br>In [Scambio arsenale], i [biglietti arsenale] possono essere utilizzati anche per acquistare direttamente armi. Alcune armi acquistabili possono essere aggiornate periodicamente. Consulta la schermata [Centro di acquisizione: Scambio arsenale] per verificare la disponibilità effettiva.<br><br>※ Per maggiori dettagli e per le regole relative alle ricompense, dai un'occhiata al Centro di acquisizione: Scambio arsenale nel gioco.</p>",
-            "linkType": 1
-          }
-        },
-        {
           "cid": "4611",
           "type": 0,
           "tab": "news",
@@ -633,23 +535,6 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260714/5dc04bf73b9059d98abdbf9a2c863cd3.jpg\" data-width=\"1650\" data-height=\"300\"><p>Gentile Endministrator, <br>durante il [Pass protocollare: Mare contaminato], puoi accedere a vari progetti di supporto forniti dagli ingegneri dell'arsenale attraverso il sistema del [Pass protocollare]. All'avvio di ogni stagione del Pass protocollare, il livello [Rifornimento di base] verrà sbloccato automaticamente. Aumentando il livello del Pass, puoi ottenere ricompense come [permessi CT base], [Oroberilli], [casse a sorpresa] e [materiali di sviluppo]. <br>Il livello [Rifornimento di Originium] può essere sbloccato con [Origeometrie] e consente di ricevere [permesso CT base], [Adesivo: Pace eterna sui mari contaminati], [Filtro: sfumature di speranza] e ricompense aggiuntive come [Scorta di armi: Mare contaminato], [Origeometrie] e [potenziamento di Lucidità d'emergenza]. <br>Acquista il livello [Protocollo personalizzato] per ottenere [Profilo: Fonte della sofferenza], [cornice del ritratto: Pacificazione], il [ritratto: Realtà infranta] e altri bonus, tra cui [Scorta di armi: Mare contaminato], [biglietto arsenale] e [schema per armi protocollari].<br><br><strong>▼// Disponibilità </strong><br>Durante la versione [Ritorno a casa] <br>※ Fuso orario del server Asia: UTC+8 <br>※ Fuso orario del server Americas / Europe: UTC-5<br><br><strong>▼// Criteri di partecipazione </strong><br>Completa la missione principale [Capitolo I - Elaborazione I: Sotto assedio]<br><br><strong>▼// Dettagli Pass protocollare </strong><br>· Attivando il [Pass protocollare] sblocchi automaticamente il livello [Rifornimento di base]. Poi puoi acquistare il livello [Protocollo personalizzato] o spendere [Origeometrie] per sbloccare il livello [Rifornimento di Originium] per ottenere ricompense aggiuntive e il bonus ESP Pass. <br>· In ogni stagione del Pass, i livelli [Rifornimento di Originium] e [Protocollo personalizzato] contengono ciascuno una [scorta di armi], che ti consente di scegliere e acquistare una delle armi da 6★ in evidenza della stagione. Gli [schemi per armi protocollari] possono aumentare il potenziale di ogni arma inclusa nei [rifornimenti armi] del Pass protocollare. <br>· Completa varie missioni del Pass (alcune diventano disponibili solo dopo aver soddisfatto determinati requisiti o con il passare del tempo) o porta a termine [manuale operativo - incarichi giornalieri] e riscatta il massimo di punti attività giornalieri per ottenere ESP Pass. Aumentando di livello il Pass, sbloccherai varie ricompense del [Pass protocollare]. <br>· Dopo aver sbloccato [Rifornimento di Originium] o [Protocollo personalizzato], puoi continuare a guadagnare ESP Pass anche dopo aver raggiunto il livello massimo del [Pass protocollare]. L'ESP Pass in eccesso si accumulerà e otterrai [casse a sorpresa cicliche] come ricompensa. Queste casse si aprono automaticamente quando le riscatti e contengono una ricompensa casuale in [Oroberilli], un [materiale di sviluppo] casuale e un [permesso d'uso di Lucidità] casuale. <br>· Sbloccando il livello [Rifornimento di Originium] / [Protocollo personalizzato] del Pass protocollare stagionale otterrai con ciascuno un bonus ESP del +3%. Sbloccandoli entrambi, otterrai un bonus ESP del +6%. <br>· In caso di acquisti multipli di [Protocollo personalizzato] dovuti a circostanze particolari, le relative ricompense non si accumuleranno, ma ti sarà rimborsata una quantità di [Origeometrie] proporzionale al valore dell'acquisto. <br>· Al termine della stagione del [Pass protocollare], le eventuali ricompense di livello non riscattate ti saranno spedite via posta.<br><br>※ Per maggiori dettagli sulle regole, apri il [Pass protocollare] all'interno del gioco e consulta la sezione [Dettagli Pass protocollare].<br></p>",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "8966",
-          "type": 0,
-          "tab": "events",
-          "orderType": 1,
-          "orderWeight": 4,
-          "displayType": "rich_text",
-          "startAt": 1784156400,
-          "focus": 0,
-          "title": "Guarda verso l'Area interdetta a nord",
-          "header": "Guarda verso l'Area interdetta a nord",
-          "jumpButton": null,
-          "data": {
-            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260715/89d1ce4f0ad90beefa175e5e76e162c1.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Durata dell'evento</strong><br>Dall'uscita della versione Ritorno a casa al 9 agosto 2026 alle 12:00 (fuso orario del server)<br><br><strong>▼// Ricompense dell'evento</strong><br><span style=\"color: rgb(0, 0, 0);\">Completa le missioni durante l'evento per ottenere Oroberilli e Simbolo di perseveranza.</span><br><br><strong>▼// Requisiti per partecipare</strong><br>Completa l'obiettivo Vai al Valico di Yinglung nella missione principale Capitolo II Elaborazione VII: Valorosa avanzata tra venti avversi<br><br><strong>▼// Dettagli sull'evento</strong><br>Durante l'evento, visita le zone Valico di Yinglung e Area interdetta di Wuling Nord nella regione di Wuling e completa varie missioni evento, ad esempio sbloccando punti TP e aprendo casse protocollari, per ottenere ricche ricompense.<br><br>※ Fuso orario del server Asia: UTC+8 <br>※ Fuso orario del server Americas / Europe: UTC-5 <br>※ Per maggiori dettagli sull'evento, consulta il Centro eventi nel gioco.</p>",
             "linkType": 1
           }
         },
