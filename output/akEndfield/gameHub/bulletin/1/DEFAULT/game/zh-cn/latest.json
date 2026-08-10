@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:#DEFAULT:1:#DEFAULT:zh-cn",
-      "version": "b8498f1435c573122dedde6fc0aec034",
+      "version": "ab051731bef2e67a7144bbc6ba522aa1",
       "onlineList": [
         {
           "cid": "9856",
@@ -54,6 +54,12 @@
           "cid": "6426",
           "version": 1784714884,
           "needRedDot": false,
+          "needPopup": false
+        },
+        {
+          "cid": "9855",
+          "version": 1786352790,
+          "needRedDot": true,
           "needPopup": false
         },
         {
@@ -190,7 +196,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786248000,
+      "updatedAt": 1786352820,
       "list": [
         {
           "cid": "9856",
@@ -294,6 +300,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web.hycdn.cn/upload/image/20260722/14dada3494474407ae343262e7370d40.png\" data-width=\"1920\" data-height=\"2901\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "9855",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "picture",
+          "startAt": 1786352820,
+          "focus": 0,
+          "title": "梨诺的闪耀一日\\n参与活动赢周边！",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web.hycdn.cn/upload/image/20260810/9032a4a4b3a6354d62975bfc6c5b9d2d.jpg",
+            "link": "https://bbs.hycdn.cn/u-link/download.html?schema=skland%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fact.skland.com%252Fendfield%252Fshining-day%253Fheader%253D0%2526c_c%253DGAME",
             "linkType": 1
           }
         },
