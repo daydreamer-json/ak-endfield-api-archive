@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "ja-jp",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ja-jp",
-      "version": "d60e3c5cac9ff6bef3aa32b1f52693b0",
+      "version": "5715ee3aa65cf00b0c98303469651def",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "6446",
+          "version": 1786336168,
           "needRedDot": true,
           "needPopup": false
         },
@@ -196,7 +202,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786331442,
+      "updatedAt": 1786338000,
       "list": [
         {
           "cid": "2118",
@@ -213,6 +219,24 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/3ebb2824ac6f9a8f92ec5359df3788b2.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "6446",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "picture",
+          "startAt": 1786338000,
+          "focus": 0,
+          "title": "WhatsApp 及び Messenger フォローキャンペーン",
+          "header": "WhatsApp 及び Messenger フォローキャンペーン開催中！",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260808/f275b70ee322ec400805738e4ed171b7.png",
+            "link": "https://endfield.gryphline.com/en-us/news/1329",
             "linkType": 1
           }
         },

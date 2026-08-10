@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "pt-br",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:pt-br",
-      "version": "e4385a4e4078ff43ba7e78d2a0c51b67",
+      "version": "404800a443d4b2b3ce40752cf259bd30",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "6446",
+          "version": 1786336168,
           "needRedDot": true,
           "needPopup": false
         },
@@ -202,7 +208,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786331442,
+      "updatedAt": 1786338000,
       "list": [
         {
           "cid": "2118",
@@ -219,6 +225,24 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/08c1e5e96710dd77ec02fae110302ddc.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "6446",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "picture",
+          "startAt": 1786338000,
+          "focus": 0,
+          "title": "Evento de Inscrição no WhatsApp e Messenger",
+          "header": "Evento de Inscrição no WhatsApp e Messenger já disponível!",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260808/8694cf93a254a8a494a7ffa94398173d.png",
+            "link": "https://endfield.gryphline.com/en-us/news/1329",
             "linkType": 1
           }
         },
