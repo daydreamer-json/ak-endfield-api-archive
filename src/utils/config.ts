@@ -6,81 +6,8 @@ import * as TypesLogLevels from '../types/LogLevels.js';
 type Freeze<T> = Readonly<{
   [P in keyof T]: T[P] extends object ? Freeze<T[P]> : T[P];
 }>;
-type AllRequired<T> = Required<{
-  [P in keyof T]: T[P] extends object ? Freeze<T[P]> : T[P];
-}>;
 
-type ConfigType = AllRequired<
-  Freeze<{
-    cipher: {
-      akEndfield: {
-        resIndexKey: string;
-        launcherAesKey: string;
-        launcherAesIv: string;
-      };
-    };
-    network: {
-      api: {
-        akEndfield: {
-          appCode: {
-            game: { osWinRel: string; cnWinRel: string };
-            launcher: { osWinRel: string; osWinRelEpic: string; cnWinRel: string };
-            accountService: { osWinRel: string; skport: string; binding: string };
-            u8: { osWinRel: string };
-          };
-          channel: { osWinRel: number; cnWinRel: number; cnWinRelBilibili: number };
-          subChannel: {
-            osWinRel: number;
-            osWinRelEpic: number;
-            osWinRelGooglePlay: number;
-            cnWinRel: number;
-            cnWinRelBilibili: number;
-          };
-          bulletin: {
-            code: { os: string; cn: string };
-            server: { os: number | null; cn: number | null };
-          };
-          base: {
-            accountService: string;
-            gameHub: string;
-            gameHubCN: string;
-            launcher: string;
-            launcherCN: string;
-            u8: string;
-            binding: string;
-            webview: string;
-            zonai: string;
-          };
-        };
-      };
-      userAgent: {
-        // UA to hide the fact that the access is from this tool
-        minimum: string;
-        chromeWindows: string;
-        qtHgSdk: string;
-        curl: string;
-        ios: string;
-      };
-      timeout: number; // Network timeout
-      retryCount: number; // Number of retries for access failure
-    };
-    threadCount: {
-      // Upper limit on the number of threads for parallel processing
-      network: number; // network access
-    };
-    cli: {
-      autoExit: boolean; // Whether to exit the tool without waiting for key input when the exit code is 0
-    };
-    logger: {
-      // log4js-node logger settings
-      logLevel: TypesLogLevels.LogLevelNumber;
-      useCustomLayout: boolean;
-      customLayoutPattern: string;
-    };
-  }>
->;
-
-const initialConfig: ConfigType = {
+const initialConfig = {
   cipher: {
     akEndfield: {
       resIndexKey: 'Assets/Beyond/DynamicAssets/Gameplay/UI/Fonts/', // via reversing
@@ -131,11 +58,13 @@ const initialConfig: ConfigType = {
   threadCount: { network: 16 },
   cli: { autoExit: false },
   logger: {
-    logLevel: 0,
+    logLevel: 0 as TypesLogLevels.LogLevelNumber,
     useCustomLayout: true,
     customLayoutPattern: '%[%d{hh:mm:ss.SSS} %-5.0p >%] %m',
   },
 };
+
+type ConfigType = Freeze<typeof initialConfig>;
 
 const deobfuscator = (input: ConfigType): ConfigType => {
   const newConfig = JSON.parse(JSON.stringify(input)) as any;
