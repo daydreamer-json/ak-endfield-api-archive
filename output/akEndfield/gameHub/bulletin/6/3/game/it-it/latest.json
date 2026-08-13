@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "it-it",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:it-it",
-      "version": "389b54e51d31c395951bf1923569edb4",
+      "version": "edce88554d0ea1aa7498182f38c20780",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "4610",
+          "version": 1786440043,
           "needRedDot": true,
           "needPopup": false
         },
@@ -202,7 +208,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786564800,
+      "updatedAt": 1786590000,
       "list": [
         {
           "cid": "2118",
@@ -219,6 +225,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/ba783b7e876e53c082345cb164b6801e.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "4610",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1786590000,
+          "focus": 0,
+          "title": "L'evento traguardo: Lista dei desideri",
+          "header": "L'evento traguardo: Lista dei desideri",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260811/cd9538803b04fbe065574f8f339493f0.png\" data-width=\"1650\" data-height=\"300\"><p>Gentile Endministrator, <br>Per festeggiare l'imminente lancio su Steam di Arknights: Endfield, abbiamo organizzato un evento traguardo speciale: Lista dei desideri! <br>A partire da oggi, aggiungi Arknights: Endfield alla tua lista dei desideri di Steam e aiutaci a raggiungere il traguardo finale per sbloccare una cornice del ritratto commemorativa speciale e altre fantastiche ricompense!<br><br>▼// Periodo dell'evento<br>Dall'inizio dell'evento il 13 agosto 2026 fino al lancio ufficiale di Arknights: Endfield su Steam (la data di lancio esatta verrà annunciata in seguito).<br><br>▼// Ricompense traguardo<br>· Fase 1 (30.000): 8.000 Crediti-T <br>· Fase 2 (100.000): 2 vettori cognitivi elementari <br>· Fase 3 (200.000): 2 set per ispezione armi <br>· Traguardo finale (300.000): 1 cornice del ritratto commemorativa speciale<br><br>Vai su Steam ora e aggiungi Arknights: Endfield alla tua lista dei desideri. Uniamo le forze verso il traguardo finale!<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://store.steampowered.com/app/4732690/\">Vai su Steam ora</a></p>",
             "linkType": 1
           }
         },

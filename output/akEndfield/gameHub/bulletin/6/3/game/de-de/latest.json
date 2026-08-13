@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "de-de",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:de-de",
-      "version": "389b54e51d31c395951bf1923569edb4",
+      "version": "edce88554d0ea1aa7498182f38c20780",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "4610",
+          "version": 1786440043,
           "needRedDot": true,
           "needPopup": false
         },
@@ -202,7 +208,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786564800,
+      "updatedAt": 1786590000,
       "list": [
         {
           "cid": "2118",
@@ -219,6 +225,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/036aa7577d30a40600ca4b629c8e57d5.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "4610",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1786590000,
+          "focus": 0,
+          "title": "Wunschlisten-Meilenstein-Event",
+          "header": "Wunschlisten-Meilenstein-Event",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260811/de1e1f92f5cab77b066bd98f3d844deb.png\" data-width=\"1650\" data-height=\"300\"><p>Geschätzter Endministrator:<br>Um den bevorstehenden Start von Arknights: Endfield auf Steam zu feiern, veranstalten wir ein besonderes Wunschlisten-Meilenstein-Event!<br>Füge ab heute Arknights: Endfield zu deiner Steam-Wunschliste hinzu und hilf uns, den letzten Meilenstein zu erreichen, um einen speziellen Gedenk-Profilbildrahmen und andere aufregende Belohnungen freizuschalten!<br><br>▼// Eventzeitraum<br>Vom Beginn des Events am 13. August 2026 bis zum offiziellen Start von Arknights: Endfield auf Steam (das genaue Startdatum wird später bekannt gegeben).<br><br>▼// Meilenstein-Belohnungen<br>· Phase 1 (30.000): T-Kreditscheine ×8.000<br>· Phase 2 (100.000): Grundlegender kognitiver Datenträger ×2<br>· Phase 3 (200.000): Waffen-INSP-Set ×2<br>· Endziel (300.000): Spezieller Gedenk-Profilbildrahmen ×1<br><br>Geh jetzt auf Steam und füge Arknights: Endfield deiner Steam-Wunschliste hinzu. Lasst uns gemeinsam das Endziel erreichen!<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://store.steampowered.com/app/4732690/\">Geh jetzt auf Steam</a></p>",
             "linkType": 1
           }
         },

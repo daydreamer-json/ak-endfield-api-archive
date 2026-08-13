@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "ja-jp",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ja-jp",
-      "version": "070df7be35d21dd21bdd3e2b9c5b2f2a",
+      "version": "4d4785e15f82726ef15f58b43b7bdb05",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "4610",
+          "version": 1786440043,
           "needRedDot": true,
           "needPopup": false
         },
@@ -196,7 +202,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786564800,
+      "updatedAt": 1786590000,
       "list": [
         {
           "cid": "2118",
@@ -213,6 +219,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/3ebb2824ac6f9a8f92ec5359df3788b2.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "4610",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1786590000,
+          "focus": 0,
+          "title": "ウィッシュリスト\\n登録数マイルストーン\\nキャンペーン",
+          "header": "ウィッシュリスト登録数マイルストーンキャンペーン",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260811/9adb2a4692bf4d4ab6d7b0eee91d292e.png\" data-width=\"1650\" data-height=\"300\"><p>親愛なる管理人<br>『アークナイツ：エンドフィールド』Steam版のリリース決定を記念して、ウィッシュリスト登録数マイルストーンキャンペーンを開催します！<br>本日より、Steamのウィッシュリストに追加して、みんなで最終目標の達成を目指しましょう！最終目標を達成すると、特別記念フレームなどの豪華報酬がもらえます！<br><br>▼//開催期間<br>2026/08/13のキャンペーン開始後～『アークナイツ：エンドフィールド』Steam版の正式リリースまで（正式リリース日は後日お知らせします）<br><br>▼//報酬<br>· 第1段階（30,000）：折金券×8,000<br>· 第2段階（100,000）：初級認識媒体×2<br>· 第3段階（200,000）：武器検査ボックス×2<br>· 最終目標（300,000）：特別記念フレーム×1<br><br>今すぐSteamで『アークナイツ：エンドフィールド』をウィッシュリストに追加して、最終目標の達成を目指しましょう！<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://store.steampowered.com/app/4732690/\">今すぐSteamへ</a></p>",
             "linkType": 1
           }
         },

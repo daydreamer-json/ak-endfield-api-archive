@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "fr-fr",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:fr-fr",
-      "version": "389b54e51d31c395951bf1923569edb4",
+      "version": "edce88554d0ea1aa7498182f38c20780",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "4610",
+          "version": 1786440043,
           "needRedDot": true,
           "needPopup": false
         },
@@ -202,7 +208,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786564800,
+      "updatedAt": 1786590000,
       "list": [
         {
           "cid": "2118",
@@ -219,6 +225,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/09549dbbfd29aa0428b8cd8206878d44.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "4610",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1786590000,
+          "focus": 0,
+          "title": "Événement de jalon Liste de souhaits",
+          "header": "Événement de jalon Liste de souhaits",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260811/83f3c524e8e28122dc03aee0b745730c.png\" data-width=\"1650\" data-height=\"300\"><p>Endministrator, <br>Pour célébrer le lancement imminent d'Arknights: Endfield sur Steam, nous vous avons préparé un événement de jalon spécial, [Liste de souhaits] ! <br>Ajoutez Arknights: Endfield à votre liste de souhaits Steam dès aujourd'hui et aidez-nous à atteindre le dernier jalon pour débloquer un cadre du portrait commémoratif spécial et d'autres récompenses !<br><br>▼// Dates de l'événement<br>Du 13 août 2026 au lancement officiel d'Arknights: Endfield sur Steam (la date exacte sera annoncée ultérieurement).<br><br>▼// Récompenses de jalon<br>· Phase 1 (30 000) : 8 000 crédits T <br>· Phase 2 (100 000) : 2 supports cognitifs de base <br>· Phase 3 (200 000) : 2 ensembles INSP d'arme <br>· Objectif final (300 000) : 1 cadre du portrait commémoratif spécial<br><br>Rendez-vous dès à présent sur Steam et ajoutez Arknights: Endfield à votre liste de souhaits. Ensemble, nous atteindrons l'objectif final !<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://store.steampowered.com/app/4732690/\">Accédez à Steam</a></p>",
             "linkType": 1
           }
         },

@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "pt-br",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:pt-br",
-      "version": "389b54e51d31c395951bf1923569edb4",
+      "version": "edce88554d0ea1aa7498182f38c20780",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "4610",
+          "version": 1786440043,
           "needRedDot": true,
           "needPopup": false
         },
@@ -202,7 +208,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786564800,
+      "updatedAt": 1786590000,
       "list": [
         {
           "cid": "2118",
@@ -219,6 +225,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/08c1e5e96710dd77ec02fae110302ddc.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "4610",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1786590000,
+          "focus": 0,
+          "title": "Evento de Marcos da Lista de Desejos",
+          "header": "Evento de Marcos da Lista de Desejos",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260811/8431baa629233da584e8fa100dd1607d.png\" data-width=\"1650\" data-height=\"300\"><p>Endministrator, <br>Para comemorar o próximo lançamento de Arknights: Endfield no Steam, vamos realizar um evento especial de Marcos da Lista de Desejos! <br>A partir de hoje, adicione Arknights: Endfield à sua Lista de Desejos do Steam e ajude a alcançar a meta final para desbloquear uma moldura de retrato comemorativa especial e outras recompensas incríveis!<br><br>▼// Horário do Evento<br>A partir do início do evento, em 13 de agosto de 2026, até o lançamento oficial de Arknights: Endfield no Steam (a data exata de lançamento será anunciada posteriormente).<br><br>▼// Recompensas por Marco<br>· Fase 1 (30.000): T-Creds×8.000 <br>· Fase 2 (100.000): Portador Cognitivo Elementar×2 <br>· Fase 3 (200.000): Conjunto INSP Armas×2 <br>· Meta Final (300.000): Moldura de Retrato Comemorativa Especial×1<br><br>Acesse o Steam agora mesmo e adicione Arknights: Endfield à sua Lista de Desejos. Vamos alcançar a meta final!<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://store.steampowered.com/app/4732690/\">Acesse o Steam agora</a></p>",
             "linkType": 1
           }
         },

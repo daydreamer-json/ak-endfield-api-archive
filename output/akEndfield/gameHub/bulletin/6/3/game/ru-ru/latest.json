@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "ru-ru",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ru-ru",
-      "version": "389b54e51d31c395951bf1923569edb4",
+      "version": "edce88554d0ea1aa7498182f38c20780",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "4610",
+          "version": 1786440043,
           "needRedDot": true,
           "needPopup": false
         },
@@ -202,7 +208,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786564800,
+      "updatedAt": 1786590000,
       "list": [
         {
           "cid": "2118",
@@ -219,6 +225,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/e01114cfb109463b4430e6dfbd2b3ad4.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "4610",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1786590000,
+          "focus": 0,
+          "title": "Событие этапа «Список желаемого»",
+          "header": "Событие этапа «Список желаемого»",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260811/665a9b39c125a7fc4c8e3a955e5a8200.png\" data-width=\"1650\" data-height=\"300\"><p>Уважаемый Эндминистратор! <br>В честь грядущего запуска Arknights: Endfield в Steam мы проводим особое событие этапа «Список желаемого»! <br>С сегодняшнего дня вы можете добавить Arknights: Endfield в список желаемого в Steam. Сделав это, вы поможете нам достичь конечной цели, а также сможете открыть особую памятную рамку портрета и другие прекрасные награды!<br><br>▼// Расписание события<br>С даты начала события 13 августа 2026 г. и до официального запуска Arknights: Endfield в Steam (мы сообщим точную дату запуска позже).<br><br>▼// Награды этапа<br>· Фаза 1 (30 000): 8000 Т-кредов <br>· Фаза 2 (100 000): 2 базовых когнитивных носителя <br>· Фаза 3 (200 000): 2 тест-набора для оружия <br>· Конечная цель (300 000): 1 особая памятная рамка портрета<br><br>Переходите на платформу Steam и добавьте Arknights: Endfield в список желаемого в Steam уже сейчас. Давайте достигнем конечной цели вместе!<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://store.steampowered.com/app/4732690/\">Переходите в Steam</a></p>",
             "linkType": 1
           }
         },

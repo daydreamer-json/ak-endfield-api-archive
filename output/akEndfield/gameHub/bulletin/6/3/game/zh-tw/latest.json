@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-tw",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-tw",
-      "version": "389b54e51d31c395951bf1923569edb4",
+      "version": "edce88554d0ea1aa7498182f38c20780",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "4610",
+          "version": 1786440043,
           "needRedDot": true,
           "needPopup": false
         },
@@ -202,7 +208,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786564800,
+      "updatedAt": 1786590000,
       "list": [
         {
           "cid": "2118",
@@ -219,6 +225,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/db3364dfc91b944a8c5d69861842548e.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "4610",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1786590000,
+          "focus": 0,
+          "title": "願望清單\\n里程碑活動",
+          "header": "願望清單里程碑活動",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260811/9b8eb3385dc8963ed22edd152d6377bd.png\" data-width=\"1650\" data-height=\"300\"><p>親愛的管理員：<br>為了慶祝《明日方舟：終末地》即將登陸Steam，我們特別推出上線願望清單里程碑活動！<br>即日起，將遊戲加入Steam願望清單，一起向最終目標衝刺，解鎖特殊紀念頭像框等豐厚獎勵！<br><br>▼//活動時間<br>2026/08/13活動開啟後 至 《明日方舟：終末地》Steam 正式上線（實際上線時間將另行公布）。<br><br>▼//里程碑獎勵<br>· 第1階段（30,000）：折金票×8,000<br>· 第2階段（100,000）：初級認知載體×2<br>· 第3階段（200,000）：武器檢查套組×2<br>· 最終目標（300,000）：特殊紀念頭像框×1<br><br>立即前往Steam將《明日方舟：終末地》加入Steam願望清單，向最終目標全力衝刺吧！<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://store.steampowered.com/app/4732690/\">立即前往Steam</a></p>",
             "linkType": 1
           }
         },
