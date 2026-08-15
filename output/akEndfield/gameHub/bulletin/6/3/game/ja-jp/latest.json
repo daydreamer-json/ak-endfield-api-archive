@@ -18,17 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "ja-jp",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ja-jp",
-      "version": "882795742961e159543b467e01cca96a",
+      "version": "a3a3161dd37a32cbe8f186fd472762b4",
       "onlineList": [
         {
-          "cid": "2118",
-          "version": 1782477623,
-          "needRedDot": true,
+          "cid": "9860",
+          "version": 1786811172,
+          "needRedDot": false,
           "needPopup": false
         },
         {
-          "cid": "6437",
-          "version": 1786797359,
+          "cid": "2118",
+          "version": 1782477623,
           "needRedDot": true,
           "needPopup": false
         },
@@ -214,8 +214,25 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786797359,
+      "updatedAt": 1786811186,
       "list": [
+        {
+          "cid": "9860",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 0,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1786810800,
+          "focus": 0,
+          "title": "「根脈奇景」イベントの調整について",
+          "header": "「根脈奇景」イベントの調整について",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260717/ebf7b25b172a1e3495b926db77012d99.png\" data-width=\"1650\" data-height=\"300\"><p>親愛なる管理人：</p><p>このたび、「根脈奇景」イベント段階2の内容更新後、一部ステージのプレイ体験に関してご意見をいただいております。皆さまからお寄せいただいたご意見を踏まえ、2026/08/15 18:30（UTC-5）のアップデート後、通路エリアの探索テンポを見直す調整を行います。</p><p></p><p>▼//改善および調整内容</p><p><span style=\"color: rgb(0, 0, 0);\">· </span>「根脈奇景」イベントの通路エリアについて、探索テンポを見直すとともに、挑戦の制限時間を30分に調整します。</p><p></p><p>▼//メンテナンス補填内容</p><p>今回の調整に伴い、以下の補填をメールにて配布いたします。</p><p>· 赤晶玉×200</p><p></p><p><span style=\"color: rgb(0, 0, 0);\">· 配布日時：2026/08/15アップデート後～次のバージョンアップメンテナンス前</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 配布条件：2026/08/15 18:30（UTC-5）アップデート前までに登録し、ゲームデータを作成済みのすべての管理人。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 注意事項：【メールボックス】機能の解放後にお受け取りいただけます。メールの有効期間は30日間ですので、忘れずにお受け取りください。</span></p><p>引き続き、『アークナイツ：エンドフィールド』をよろしくお願いします。</p>",
+            "linkType": 1
+          }
+        },
         {
           "cid": "2118",
           "type": 0,
@@ -231,23 +248,6 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/3ebb2824ac6f9a8f92ec5359df3788b2.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "6437",
-          "type": 0,
-          "tab": "updates",
-          "orderType": 1,
-          "orderWeight": 1,
-          "displayType": "rich_text",
-          "startAt": 1786797120,
-          "focus": 1,
-          "title": "不具合について",
-          "header": "「根脈奇景」のプレイ体験に関する既知の問題について",
-          "jumpButton": null,
-          "data": {
-            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260312/e09922587d0920442c1ff91390efdd12.png\" data-width=\"1650\" data-height=\"300\"><p>親愛なる管理人</p><p>このたび、「根脈奇景」イベント段階2の内容更新後、一部ステージのプレイ体験に関してご意見をいただいております。</p><p>皆さまからお寄せいただいたご意見を踏まえ、今後、通路エリアの探索テンポを見直すとともに、挑戦の制限時間を大幅に延長する調整を行う予定です。</p><p></p><p>このたびは、上記の問題によりご不便をおかけしておりますことを深くお詫び申し上げます。具体的な調整時期および内容につきましては、今後のお知らせをご確認ください。</p><p>今後とも『アークナイツ：エンドフィールド』をよろしくお願いいたします。</p>",
             "linkType": 1
           }
         },
