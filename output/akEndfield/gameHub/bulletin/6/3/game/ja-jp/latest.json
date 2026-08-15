@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "ja-jp",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ja-jp",
-      "version": "53e262e838a5cbf522d99112eae6253d",
+      "version": "882795742961e159543b467e01cca96a",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "6437",
+          "version": 1786797359,
           "needRedDot": true,
           "needPopup": false
         },
@@ -208,7 +214,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786591776,
+      "updatedAt": 1786797359,
       "list": [
         {
           "cid": "2118",
@@ -225,6 +231,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/3ebb2824ac6f9a8f92ec5359df3788b2.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "6437",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1786797120,
+          "focus": 1,
+          "title": "不具合について",
+          "header": "「根脈奇景」のプレイ体験に関する既知の問題について",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260312/e09922587d0920442c1ff91390efdd12.png\" data-width=\"1650\" data-height=\"300\"><p>親愛なる管理人</p><p>このたび、「根脈奇景」イベント段階2の内容更新後、一部ステージのプレイ体験に関してご意見をいただいております。</p><p>皆さまからお寄せいただいたご意見を踏まえ、今後、通路エリアの探索テンポを見直すとともに、挑戦の制限時間を大幅に延長する調整を行う予定です。</p><p></p><p>このたびは、上記の問題によりご不便をおかけしておりますことを深くお詫び申し上げます。具体的な調整時期および内容につきましては、今後のお知らせをご確認ください。</p><p>今後とも『アークナイツ：エンドフィールド』をよろしくお願いいたします。</p>",
             "linkType": 1
           }
         },

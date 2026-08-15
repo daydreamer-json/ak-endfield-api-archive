@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:#DEFAULT:1:#DEFAULT:zh-cn",
-      "version": "5210853c1c5514e90c9ccb0819f79156",
+      "version": "00fd1783635499384ce61bac2d6db54b",
       "onlineList": [
         {
           "cid": "9856",
@@ -54,6 +54,12 @@
           "cid": "6426",
           "version": 1784714884,
           "needRedDot": false,
+          "needPopup": false
+        },
+        {
+          "cid": "3030",
+          "version": 1786797385,
+          "needRedDot": true,
           "needPopup": false
         },
         {
@@ -196,7 +202,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786590000,
+      "updatedAt": 1786797386,
       "list": [
         {
           "cid": "9856",
@@ -300,6 +306,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web.hycdn.cn/upload/image/20260722/14dada3494474407ae343262e7370d40.png\" data-width=\"1920\" data-height=\"2901\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3030",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1786797000,
+          "focus": 1,
+          "title": "已知问题说明",
+          "header": "「根脉奇境」活动体验已知问题说明",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web.hycdn.cn/upload/image/20260815/6f4ae6db85baee40c80ed1ef09ed8af0.png\" data-width=\"1650\" data-height=\"300\"><p>亲爱的管理员：<br>近期我们关注到管理员反馈的「根脉奇境」活动阶段2内容更新后，部分关卡体验不佳的问题。我们将在后续对通路区域的探索节奏进行优化调整，大幅延长挑战的限制时长。</p><p>因上述内容给管理员带来的不好体验，我们深表歉意。具体调整时间及内容，请关注后续官方公告说明。</p><p>感谢管理员对《明日方舟：终末地》一直以来的关注与支持！</p>",
             "linkType": 1
           }
         },
