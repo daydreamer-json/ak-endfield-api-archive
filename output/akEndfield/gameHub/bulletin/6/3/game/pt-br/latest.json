@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "pt-br",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:pt-br",
-      "version": "222e10e84505b0d5e83c7bd92dc85d4a",
+      "version": "d7df74254f8690042dbc5c94acb25256",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "5528",
+          "version": 1786967541,
           "needRedDot": true,
           "needPopup": false
         },
@@ -208,7 +214,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786892400,
+      "updatedAt": 1787025600,
       "list": [
         {
           "cid": "2118",
@@ -225,6 +231,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/08c1e5e96710dd77ec02fae110302ddc.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "5528",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1787025600,
+          "focus": 0,
+          "title": "Atualização de conjunto espacial\\nExplorador do Enigmático",
+          "header": "Atualização de conjunto espacial Explorador do Enigmático",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260811/c62875289bcf02546ddf776bf7e702bd.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Horário do Evento </strong><br>Serão disponibilizados 3 Espaços do Protocolo no dia 19 de agosto de 2026, às 12:00 (horário do servidor). <br>Serão disponibilizados mais 3 Espaços do Protocolo no dia 26 de agosto de 2026, às 04:00 (horário do servidor). <br>O conjunto espacial ficará disponível permanentemente assim que for desbloqueado.<br><br><strong>▼// Recompensas do Evento</strong> <br>Durante o evento, conclua os desafios do conjunto espacial para ganhar recompensas do evento, que incluem: [Ourubis], [Marca da Perseverança] e [Protoedro].<br><br><strong>▼// Requisitos de Participação</strong> <br>Conclua a missão principal [Capítulo I Processo II: Pavimentando o Caminho]<br><br><strong>▼// Detalhes do Evento</strong> <br>· Este evento de resolução de quebra-cabeças [Explorador do Enigmático] lançará o novo conjunto espacial [Reino Artístico dos Seis Cardeais]. Serão disponibilizados 3 Espaços do Protocolo inicialmente, com mais 3 disponíveis no dia 26 de agosto de 2026, às 04:00 (horário do servidor). <br>· Desafie e vença esses Espaços do Protocolo para resgatar as recompensas de conclusão. <br>· Conclua todos os Espaços do Protocolo no conjunto espacial [Reino Artístico dos Seis Cardeais] para ganhar uma medalha gravada. Conclua todos os objetivos bônus de cada Espaço do Protocolo e abra todos os caixotes de armazenamento para adicionar uma decoração à dita medalha gravada.<br><br>※ Fuso Horário do Servidor Asia: UTC+8 <br>※ Fuso Horário do Servidor Americas / Europe: UTC-5 <br>※ Para mais informações sobre o evento, confira o [Centro de Eventos] no jogo.<br></p>",
             "linkType": 1
           }
         },

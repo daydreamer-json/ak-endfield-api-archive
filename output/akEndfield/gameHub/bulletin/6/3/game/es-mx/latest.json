@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "es-mx",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:es-mx",
-      "version": "222e10e84505b0d5e83c7bd92dc85d4a",
+      "version": "d7df74254f8690042dbc5c94acb25256",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "5528",
+          "version": 1786967541,
           "needRedDot": true,
           "needPopup": false
         },
@@ -208,7 +214,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786892400,
+      "updatedAt": 1787025600,
       "list": [
         {
           "cid": "2118",
@@ -225,6 +231,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/96b549b59f288176334b5cd70a8f074f.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "5528",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1787025600,
+          "focus": 0,
+          "title": "Actualización del conjunto espacial\\nExplorador de lo críptico",
+          "header": "Actualización de Explorador de lo críptico",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260811/ec1152cc1238db0219f52760876708c2.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Periodo del evento </strong><br>3 Espacios de protocolo estarán disponibles el 19 de agosto de 2026 a las 12:00 (hora del servidor). <br>Otros 3 Espacios de protocolo estarán disponibles el 26 de agosto de 2026 a las 04:00 (hora del servidor). <br>El conjunto espacial estará disponible de forma permanente una vez desbloqueado.<br><br><strong>▼// Recompensas del evento</strong> <br>Durante el evento, completa desafíos del conjunto espacial para obtener recompensas del evento, que incluyen: [Oroberilios], [Marca de perseverancia] y [Protoedro].<br><br><strong>▼// Requisitos de participación</strong> <br>Completa la misión principal [Capítulo I Proceso II: Pavimentando el camino].<br><br><strong>▼// Detalles del evento</strong> <br>· Este evento de resolución de acertijos, [Explorador de lo críptico], presentará el nuevo conjunto espacial [El ingenioso reino de los seis cardenales]. Al principio habrá 3 Espacios de protocolo disponibles, y otros 3 estarán disponibles el 26 de agosto de 2026 a las 04:00 (hora del servidor). <br>· Supera los desafíos de estos Espacios de protocolo para reclamar recompensas. <br>· Completa todos los Espacios de protocolo del conjunto espacial [El ingenioso reino de los seis cardenales] para obtener una medalla grabada. Completa todos los objetivos adicionales de cada Espacio de protocolo y abre todas las cajas de almacenamiento para mejorar dicha medalla grabada. <br><br>※ Zona horaria del servidor Asia: UTC+8 <br>※ Zona horaria del servidor Americas / Europe: UTC-5 <br>※ Para más detalles sobre el evento, consulta el [Centro de eventos] del juego.<br></p>",
             "linkType": 1
           }
         },

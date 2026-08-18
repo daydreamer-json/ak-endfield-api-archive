@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "fr-fr",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:fr-fr",
-      "version": "222e10e84505b0d5e83c7bd92dc85d4a",
+      "version": "d7df74254f8690042dbc5c94acb25256",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "5528",
+          "version": 1786967541,
           "needRedDot": true,
           "needPopup": false
         },
@@ -208,7 +214,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786892400,
+      "updatedAt": 1787025600,
       "list": [
         {
           "cid": "2118",
@@ -225,6 +231,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/09549dbbfd29aa0428b8cd8206878d44.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "5528",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1787025600,
+          "focus": 0,
+          "title": "Exploration du mystère\\nMise à jour de l'ensemble spatial",
+          "header": "Exploration du mystère Mise à jour de l'ensemble spatial",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260817/3ad15f493a152f50024b3b756781f4a0.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Dates de l'événement</strong> <br>3 espaces de Protocole seront disponibles le 19 août 2026 à 12 h (heure du serveur). <br>3 autres espaces de Protocole seront disponibles le 26 août 2026 à 4 h (heure du serveur). <br>Une fois débloqué, l'ensemble spatial restera disponible de façon permanente. <br><br><strong>▼// Récompenses d'événement</strong> <br>Pendant l'événement, terminez les défis d'ensemble spatial pour gagner des récompenses d'événement, dont : des [orobéryls], une [Marque de persévérance] et un [Proto-èdre]. <br><br><strong>▼// Conditions de participation</strong> <br>Terminer la mission principale [Chapitre I - Processus II : Ouvrir la voie] <br><br><strong>▼// Détails de l'événement</strong> <br>· Cet événement de résolution d'énigmes [Exploration du mystère] introduira le nouvel ensemble spatial [Royaume artistique des Six Cardinaux]. 3 nouveaux espaces de Protocole seront disponibles pour commencer, et 3 autres seront disponibles le 26 août 2026 à 4 h (heure du serveur). <br>· Relevez le défi et terminez ces espaces de Protocole pour récupérer des récompenses.<br>· Terminez tous les espaces de Protocole de l'ensemble spatial [Royaume artistique des Six Cardinaux] pour obtenir une médaille gravée. Terminez tous les objectifs bonus de chaque espace de Protocole et ouvrez toutes les caisses de stockage pour façonner cette médaille gravée. <br><br>※ Fuseau horaire du serveur Asia : UTC+8 <br>※ Fuseau horaire du serveur Americas / Europe : UTC-5 <br>※ Pour plus de détails sur l'événement, consultez le [Centre d'événement] en jeu.<br></p>",
             "linkType": 1
           }
         },

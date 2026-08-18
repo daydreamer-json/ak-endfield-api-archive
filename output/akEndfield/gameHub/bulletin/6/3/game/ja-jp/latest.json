@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "ja-jp",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ja-jp",
-      "version": "881695a8fa24f50818b1ac1068e8efcc",
+      "version": "e7c1ee2e693d685cfa02e4fede3da54c",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "5528",
+          "version": 1786967541,
           "needRedDot": true,
           "needPopup": false
         },
@@ -202,7 +208,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786892400,
+      "updatedAt": 1787025600,
       "list": [
         {
           "cid": "2118",
@@ -219,6 +225,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/3ebb2824ac6f9a8f92ec5359df3788b2.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "5528",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1787025600,
+          "focus": 0,
+          "title": "密境の探索者\\n空間群の更新",
+          "header": "「密境の探索者 - 六方密境」空間群の更新について",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260811/b7e74cdda0d41a8e62c11260a712bd51.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//開催期間</strong><br>2026/08/19 12:00（サーバー時間）より3つの協約空間が開放<br>2026/08/26 04:00（サーバー時間）より残り3つの協約空間が開放<br>協約空間群は開放後、常設されます。<br><br><strong>▼//イベント報酬</strong><br>開催期間中、空間群のチャレンジをクリアすると、累計で【赤晶玉】【存続の痕跡】【協約角柱セット】などの報酬を受け取ることができます。<br><br><strong>▼//参加条件</strong><br>メイン任務：第一章-プロセスⅡ「前路開拓」を完了<br><br><strong>▼//説明</strong><br>· 今回の「密境の探索者」チャレンジイベントでは、「六方密境」の空間群が開放されます。イベント開始時に3つの協約空間が開放され、2026/08/26 04:00（サーバー時間）に残り3つの協約空間が開放されます。<br>· 協約空間をクリアすると、対応するクリア報酬を受け取ることができます。<br>· 「六方密境」の空間群にある協約空間をすべてクリアすると、対応する勲章を入手できます。また、対象空間群の全協約空間のサブ目標を達成し、資源箱をすべて開けると、勲章に加工が施されます。<br><br>※Asiaサーバーのタイムゾーン：UTC+8<br>※Americas / Europeサーバーのタイムゾーン：UTC-5<br>※イベントの詳細は、ゲーム内の【イベント】よりご確認ください。<br></p>",
             "linkType": 1
           }
         },
