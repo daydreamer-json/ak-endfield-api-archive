@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "ru-ru",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ru-ru",
-      "version": "bd1e027a3433fce67eea2acde4ad3b09",
+      "version": "f609a791603b43c26f647cd9efc0d4e8",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "4619",
+          "version": 1787539061,
           "needRedDot": true,
           "needPopup": false
         },
@@ -202,7 +208,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1787628600,
+      "updatedAt": 1787630400,
       "list": [
         {
           "cid": "2118",
@@ -219,6 +225,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/e01114cfb109463b4430e6dfbd2b3ad4.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "4619",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1787630400,
+          "focus": 0,
+          "title": "Лес, укрытый снегом",
+          "header": "Лес, укрытый снегом",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260819/7a11bc990bb20fe166762be825c8dc92.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Время проведения </strong><br>С 26 августа 2026 г., 12:00 (по времени сервера) до начала технических работ по обновлению версии<br>※ Часовой пояс сервера Asia: (UTC+8) <br>※ Часовой пояс сервера Americas / Europe: (UTC–5) <br><br><strong>▼// Условия участия</strong> <br>Выполните основную миссию [глава I, операция I: «Прорыв осады»] <br><br><strong>▼// Сведения о событии </strong><br>· Входите в игру каждый день, чтобы получать награды за вход. <br>· Отмечайтесь в игре 3 дня и забирайте награды, в том числе 2 [базовых разрешения на наем] и 500 [ороберилов].<br></p>",
             "linkType": 1
           }
         },

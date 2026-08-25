@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "es-mx",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:es-mx",
-      "version": "bd1e027a3433fce67eea2acde4ad3b09",
+      "version": "f609a791603b43c26f647cd9efc0d4e8",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "4619",
+          "version": 1787539061,
           "needRedDot": true,
           "needPopup": false
         },
@@ -202,7 +208,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1787628600,
+      "updatedAt": 1787630400,
       "list": [
         {
           "cid": "2118",
@@ -219,6 +225,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/96b549b59f288176334b5cd70a8f074f.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "4619",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1787630400,
+          "focus": 0,
+          "title": "Un bosque cubierto de nieve",
+          "header": "Un bosque cubierto de nieve",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260819/b8ca1efac7d1e8772583d36b903b33bf.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Periodo del evento </strong><br>26 de agosto de 2026 a las 12:00 (hora del servidor) hasta antes de la actualización de la versión y del mantenimiento<br>※ Zona horaria del servidor Asia: UTC+8 <br>※ Zona horaria del servidor Americas / Europe: UTC-5 <br><br><strong>▼// Requisitos de participación </strong><br>Completa la misión principal [Capítulo I Proceso I: Rompiendo el asedio]. <br><br><strong>▼// Detalles del evento </strong><br>· Inicia sesión todos los días para reclamar las recompensas de inicio de sesión. <br>· Completa el inicio de sesión de 3 días para obtener recompensas, que incluyen [Permiso de C.R. Básica] ×2 y [Oroberilio] ×500.<br></p>",
             "linkType": 1
           }
         },

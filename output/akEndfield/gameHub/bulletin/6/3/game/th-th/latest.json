@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "th-th",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:th-th",
-      "version": "bd1e027a3433fce67eea2acde4ad3b09",
+      "version": "f609a791603b43c26f647cd9efc0d4e8",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "4619",
+          "version": 1787539061,
           "needRedDot": true,
           "needPopup": false
         },
@@ -202,7 +208,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1787628600,
+      "updatedAt": 1787630400,
       "list": [
         {
           "cid": "2118",
@@ -219,6 +225,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/a879da1ef5ae605c73de0eb6b357ae2b.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "4619",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1787630400,
+          "focus": 0,
+          "title": "ป่าที่ปกคลุมด้วยหิมะ",
+          "header": "รายละเอียดกิจกรรมลงชื่อจำกัดเวลา [ป่าที่ปกคลุมด้วยหิมะ]",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260819/9640b1a753bc73ec2ffb530f5fda0038.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// เวลากิจกรรม </strong><br>26 ส.ค. 2026 เวลา 12:00 น. (ตามเวลาเซิร์ฟเวอร์) - ก่อนการอัปเดตและปิดปรับปรุงเวอร์ชัน<br>※ เขตเวลาเซิร์ฟเวอร์ Asia: UTC+8 <br>※ เขตเวลาเซิร์ฟเวอร์ Americas / Europe: UTC-5 <br><br><strong>▼// เงื่อนไขการเข้าร่วม </strong><br>ทำภารกิจหลัก [บทที่ 1 องก์ 1: ฝ่าวงล้อม] ให้สำเร็จ <br><br><strong>▼// รายละเอียดกิจกรรม </strong><br>· เข้าสู่ระบบเกมทุกวันเพื่อรับรางวัลลงชื่อเข้าสู่ระบบ <br>· ลงชื่อให้ครบ 3 วันเพื่อรับรางวัลมากมาย รวมถึง [ใบอนุญาต HH พื้นฐาน]×2 และ [โอโรเบริล]×500</p>",
             "linkType": 1
           }
         },

@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "id-id",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:id-id",
-      "version": "bd1e027a3433fce67eea2acde4ad3b09",
+      "version": "f609a791603b43c26f647cd9efc0d4e8",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "4619",
+          "version": 1787539061,
           "needRedDot": true,
           "needPopup": false
         },
@@ -202,7 +208,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1787628600,
+      "updatedAt": 1787630400,
       "list": [
         {
           "cid": "2118",
@@ -219,6 +225,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/1ffafe6070ef0c8c1238d60bd5e2633e.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "4619",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1787630400,
+          "focus": 0,
+          "title": "Hutan Berselimut Salju",
+          "header": "Hutan Berselimut Salju",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260819/ad1b6aea69cd8e70b45c927a110499b5.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Waktu Event </strong><br>26 Agustus 2026, 12.00 (waktu server) – Sebelum pembaruan versi dan pemeliharaan <br>※ Zona Waktu Server Asia: UTC+8 <br>※ Zona Waktu Server Americas/Europe: UTC-5 <br><br><strong>▼// Syarat Partisipasi </strong><br>Selesaikan misi utama [Bab I Proses I: Tembus Kepungan] <br><br><strong>▼// Detail Event </strong><br>· Login ke dalam game tiap hari untuk mengambil imbalan sign in. <br>· Selesaikan sign in selama 3 hari untuk mendapatkan imbalan, termasuk [Surat Izin HH Biasa] ×2 dan [Oroberyl] ×500.<br></p>",
             "linkType": 1
           }
         },

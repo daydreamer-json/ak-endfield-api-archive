@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-tw",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-tw",
-      "version": "bd1e027a3433fce67eea2acde4ad3b09",
+      "version": "f609a791603b43c26f647cd9efc0d4e8",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "4619",
+          "version": 1787539061,
           "needRedDot": true,
           "needPopup": false
         },
@@ -202,7 +208,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1787628600,
+      "updatedAt": 1787630400,
       "list": [
         {
           "cid": "2118",
@@ -219,6 +225,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/db3364dfc91b944a8c5d69861842548e.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "4619",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1787630400,
+          "focus": 0,
+          "title": "深林覆雪",
+          "header": "「深林覆雪」限時簽到活動說明",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260819/0ee0f94ef2db50d5974d480d718e4e35.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//活動時間</strong><br>2026/08/26 12:00（伺服器時間） ~ 版本更新維護前<br>※ Asia伺服器時區：UTC+8<br>※ Americas / Europe伺服器時區：UTC-5<br><br><strong>▼//參與條件</strong><br>完成主線任務「第一章 - 進度I - 基地解圍」<br><br><strong>▼//活動說明</strong><br>· 每日登入遊戲即可領取簽到獎勵。<br>· 完成3日簽到累計可領取【基礎尋訪憑證】×2和【嵌晶玉】×500等獎勵。<br></p>",
             "linkType": 1
           }
         },
