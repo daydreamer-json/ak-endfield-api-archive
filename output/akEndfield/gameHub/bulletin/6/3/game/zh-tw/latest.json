@@ -18,12 +18,18 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-tw",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-tw",
-      "version": "f609a791603b43c26f647cd9efc0d4e8",
+      "version": "0ed90e0d42c16314597b0f9d12bad4d8",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
           "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "5527",
+          "version": 1787639226,
+          "needRedDot": false,
           "needPopup": false
         },
         {
@@ -208,7 +214,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1787630400,
+      "updatedAt": 1787670000,
       "list": [
         {
           "cid": "2118",
@@ -225,6 +231,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/db3364dfc91b944a8c5d69861842548e.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "5527",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1787670000,
+          "focus": 1,
+          "title": "快速維護更新公告",
+          "header": "08月25日快速維護更新公告",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260808/f593de69a33d3222d82aec1f2ad1b39e.png\" data-width=\"1650\" data-height=\"300\"><p>親愛的管理員：</p><p>伺服器將於2026/08/25 21:30 - 21:40 (UTC-5)進行快速維護更新，更新期間將強制斷線，無法登入遊戲。更新期間造成不便，敬請見諒。</p><p></p><p>▼//更新内容</p><p>· 更新了後續限時簽到活動「深林覆雪」的相關資源。</p><p></p><p>▼//更新補償</p><p>· 緊急理智加強劑 × 1<br></p><p>發放時間：2026/08/25 快速維護更新後 ~ 下個版本更新維護前</p><p>發放條件：2026/08/25 21:30 (UTC-5)更新前已註冊並建立角色的管理員</p><p>發放說明：開啟【信箱】功能後可領取，信件有效期限為30天，請注意及時領取。</p><p>感謝管理員對《明日方舟：終末地》長期以來的關注與支持！</p>",
             "linkType": 1
           }
         },

@@ -18,12 +18,18 @@
       "subChannel": "#DEFAULT",
       "lang": "ru-ru",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ru-ru",
-      "version": "f609a791603b43c26f647cd9efc0d4e8",
+      "version": "0ed90e0d42c16314597b0f9d12bad4d8",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
           "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "5527",
+          "version": 1787639226,
+          "needRedDot": false,
           "needPopup": false
         },
         {
@@ -208,7 +214,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1787630400,
+      "updatedAt": 1787670000,
       "list": [
         {
           "cid": "2118",
@@ -225,6 +231,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/e01114cfb109463b4430e6dfbd2b3ad4.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "5527",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1787670000,
+          "focus": 1,
+          "title": "Быстрое обновление",
+          "header": "25.08: быстрое обновление",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260512/9e1f4d268db821fa11243dee008a5c6c.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">Уважаемый Эндминистратор!</span></p><p><span style=\"color: rgb(31, 35, 41);\">С 21:30 25.08.2026 до 21:40 25.08.2026 (UTC-5) на серверах пройдет быстрое обновление. В это время все Эндминистраторы будут отключены от сервера и вход в игру будет невозможен. Приносим извинения за неудобства и благодарим за понимание!</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">▼// Информация об обновлении</span></p><p>· Обновлены ресурсы для предстоящего события входа [Лес, укрытый снегом].</p><p></p><p><span style=\"color: rgb(31, 35, 41);\">▼// Компенсация за обновление</span></p><p><span style=\"color: rgb(31, 35, 41);\">· Экстренный протектор рассудка×1</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Период рассылки: с 25.08.2026 после срочного обновления и до следующего обновления версии и обслуживания.</span></p><p><span style=\"color: rgb(31, 35, 41);\">Условия получения: все Эндминистраторы, зарегистрировавшиеся и создавшие персонажа до обновления 25.08.2026, 21:30 (UTC-5).</span></p><p><span style=\"color: rgb(31, 35, 41);\">Примечание: можно получить после разблокировки функции почты. Письмо действительно в течение 30 дней. Не забудьте забрать награду вовремя.</span></p><p><span style=\"color: rgb(31, 35, 41);\">Эндминистратор, спасибо за поддержку и участие в жизни Arknights: Endfield!</span></p>",
             "linkType": 1
           }
         },

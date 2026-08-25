@@ -18,12 +18,18 @@
       "subChannel": "#DEFAULT",
       "lang": "ja-jp",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ja-jp",
-      "version": "3b6a2b89c5bc34bc9b973e6a2eca49bc",
+      "version": "b5ea1c36c2269de2d0bd3fea71af7159",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
           "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "5527",
+          "version": 1787639226,
+          "needRedDot": false,
           "needPopup": false
         },
         {
@@ -202,7 +208,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1787630400,
+      "updatedAt": 1787670000,
       "list": [
         {
           "cid": "2118",
@@ -219,6 +225,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/3ebb2824ac6f9a8f92ec5359df3788b2.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "5527",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1787670000,
+          "focus": 1,
+          "title": "データ更新のご案内",
+          "header": "08月25日データ更新のご案内",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260808/3d1d3bb4c0aa89f5ea8832033134d6c7.png\" data-width=\"1650\" data-height=\"300\"><p>親愛なる管理人：</p><p>サーバーは2026年08月25日 21:30 - 21:40（UTC-5）にアップデートを行う予定です。アップデート中は強制的にログアウトされ、ゲームにログインすることができません。皆さまにはご迷惑をおかけいたしますが、ご理解のほどよろしくお願いいたします。<br></p><p>▼//アップデート内容</p><p><span style=\"color: rgb(0, 0, 0);\">· </span>今後開催予定の期間限定「深き森の雪景」スタンプラリーイベントに関連するリソースを更新しました。<br></p><p>▼//メンテナンス補填内容</p><p>· 初級理性回復剤×1<br></p><p>配布日時：2026/08/25 アップデート後～次のバージョンアップメンテナンス</p><p>配布条件：2026/08/25 21:30（UTC-5）メンテナンス前にアカウントおよびキャラクターを作成済み</p><p>注意事項：【メールボックス】機能が解放されてから受け取れます。メールの有効期間は30日間ですので、忘れずにお受け取りください。</p><p>引き続き、『アークナイツ：エンドフィールド』をよろしくお願いします。</p>",
             "linkType": 1
           }
         },

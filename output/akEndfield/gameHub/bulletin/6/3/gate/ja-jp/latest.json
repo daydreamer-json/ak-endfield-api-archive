@@ -18,8 +18,14 @@
       "subChannel": "#DEFAULT",
       "lang": "ja-jp",
       "key": "1:Windows:#DEFAULT:#DEFAULT:#DEFAULT:ja-jp",
-      "version": "29f3cfd3ea622f80abc7799298f58c32",
+      "version": "fce3b4e6c73fdee31fafe4755b6d6e6e",
       "onlineList": [
+        {
+          "cid": "2103",
+          "version": 1787639243,
+          "needRedDot": false,
+          "needPopup": false
+        },
         {
           "cid": "4621",
           "version": 1784163371,
@@ -52,8 +58,25 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1786242600,
+      "updatedAt": 1787670000,
       "list": [
+        {
+          "cid": "2103",
+          "type": 1,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1787670000,
+          "focus": 1,
+          "title": "データ更新のご案内",
+          "header": "08月26日データ更新のご案内",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260808/3d1d3bb4c0aa89f5ea8832033134d6c7.png\" data-width=\"1650\" data-height=\"300\"><p>親愛なる管理人：</p><p>サーバーは2026年08月26日 10:30 - 10:40（UTC+8）にアップデートを行う予定です。アップデート中は強制的にログアウトされ、ゲームにログインすることができません。皆さまにはご迷惑をおかけいたしますが、ご理解のほどよろしくお願いいたします。<br></p><p>▼//アップデート内容</p><p><span style=\"color: rgb(0, 0, 0);\">· 今後開催予定の期間限定「深き森の雪景」スタンプラリーイベントに関連するリソースを更新しました。</span><br></p><p>▼//メンテナンス補填内容</p><p>· 初級理性回復剤×1<br></p><p>配布日時：2026/08/26 アップデート後～次のバージョンアップメンテナンス</p><p>配布条件：2026/08/26 10:30（UTC+8）メンテナンス前にアカウントおよびキャラクターを作成済み</p><p>注意事項：【メールボックス】機能が解放されてから受け取れます。メールの有効期間は30日間ですので、忘れずにお受け取りください。</p><p>引き続き、『アークナイツ：エンドフィールド』をよろしくお願いします。</p>",
+            "linkType": 1
+          }
+        },
         {
           "cid": "4621",
           "type": 1,

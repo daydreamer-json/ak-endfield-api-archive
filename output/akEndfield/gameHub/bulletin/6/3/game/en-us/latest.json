@@ -18,12 +18,18 @@
       "subChannel": "#DEFAULT",
       "lang": "en-us",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:en-us",
-      "version": "f609a791603b43c26f647cd9efc0d4e8",
+      "version": "0ed90e0d42c16314597b0f9d12bad4d8",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
           "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "5527",
+          "version": 1787639226,
+          "needRedDot": false,
           "needPopup": false
         },
         {
@@ -208,7 +214,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1787630400,
+      "updatedAt": 1787670000,
       "list": [
         {
           "cid": "2118",
@@ -225,6 +231,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/98f7fa0cee6fe9fb28be78663e29d7ed.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "5527",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1787670000,
+          "focus": 1,
+          "title": "Quick Update Notice",
+          "header": "08/25 Quick Update Notice",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260808/f9f1fa78d5d555f7616dacc80f89f31e.png\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrator,</p><p>The servers will undergo a quick update from 2026/08/25 21:30 - 21:40 (UTC-5). During this time, all Endministrators will be logged out and unable to access the game.<br></p><p>▼// Update Details</p><p>· Updated resources for the upcoming limited-time sign-in event [A Forest Mantled in Snow].<br></p><p>▼// Update Compensation</p><p>· Emergency Sanity Booster×1<br></p><p>Distribution Period: 2026/08/25 after the quick update - Before the next version update and maintenance</p><p>Eligibility: All Endministrators who registered and created a character before the update on 2026/08/25 21:30 (UTC-5).</p><p>Note: Claimable after unlocking the [Mail] function. The mail is valid for 30 days. Please be sure to claim it in time.</p><p>Thank you for your continued interest and support for Arknights: Endfield, Endministrator!</p>",
             "linkType": 1
           }
         },
