@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "en-us",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:en-us",
-      "version": "d54c6f3642cdab23178b2f9ef3a1ff4d",
+      "version": "bd1e027a3433fce67eea2acde4ad3b09",
       "onlineList": [
         {
           "cid": "2118",
@@ -71,6 +71,12 @@
         {
           "cid": "0708",
           "version": 1786437154,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "3043",
+          "version": 1787540193,
           "needRedDot": true,
           "needPopup": false
         },
@@ -196,7 +202,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1787587140,
+      "updatedAt": 1787628600,
       "list": [
         {
           "cid": "2118",
@@ -351,6 +357,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260723/f280bf03e1cf0f85d9130b05be06d482.jpg\" data-width=\"1920\" data-height=\"2901\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3043",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1787628600,
+          "focus": 0,
+          "title": "Sanity Supply",
+          "header": "[Sanity Supply] Limited-Time Event Details",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260812/fe933ae2b965edf33bfeda9c9610b824.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Event Time </strong><br>※ Asia Server: Aug. 26, 2026 at 04:00 – Sept. 2, 2026 at 04:00 (server time) <br>※ Americas / Europe Server: Aug. 26, 2026 at 04:00 – Sept. 1, 2026 at 17:00 (server time) <br>※ Asia Server Time Zone: UTC+8 <br>※ Americas / Europe Server Time Zone: UTC-5<br><br><strong>▼// Event Rewards </strong><br>During the event, complete specified missions every day to receive: [Emergency Sanity Booster]×4 and [Sanity Usage Permit]×8.<br><br><strong>▼// Participation Requirements </strong><br>Complete the main mission [Chapter I Process II: Paving the Way]<br><br><strong>▼// Event Details </strong><br>· During the event, 3 Sanity Supply missions will be available daily. Complete the missions to earn rewards. <br>· Sanity Supply missions will be refreshed daily at 04:00 (server time). Please remember to claim the rewards promptly.<br><br>※ For more event details, check the in-game [Event Center].<br></p>",
             "linkType": 1
           }
         },

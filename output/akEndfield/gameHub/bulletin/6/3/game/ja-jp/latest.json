@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "ja-jp",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ja-jp",
-      "version": "35827d577a16de9b043f6f0fe737441e",
+      "version": "21e2de5c1e944f4c8caeefda4bee857d",
       "onlineList": [
         {
           "cid": "2118",
@@ -71,6 +71,12 @@
         {
           "cid": "0708",
           "version": 1786437154,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "3043",
+          "version": 1787540193,
           "needRedDot": true,
           "needPopup": false
         },
@@ -190,7 +196,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1787587140,
+      "updatedAt": 1787628600,
       "list": [
         {
           "cid": "2118",
@@ -345,6 +351,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260723/88a2e6250bb54c9fac6538ba77021477.jpg\" data-width=\"1920\" data-height=\"2901\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3043",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1787628600,
+          "focus": 0,
+          "title": "理性補給",
+          "header": "「理性補給」期間限定イベント概要",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260812/0ee36d13162a8cd633144942c4a20d5e.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//開催期間</strong><br>※Asiaサーバー：2026/08/26 04:00～2026/09/02 04:00（サーバー時間）<br>※Americas / Europeサーバー：2026/08/26 04:00～2026/09/01 17:00（サーバー時間）<br>※Asiaサーバータイムゾーン：UTC+8<br>※Americas / Europeサーバータイムゾーン：UTC-5<br><br><strong>▼//イベント報酬</strong><br>イベント期間中、指定されたクエストを完了すると、【初級理性回復剤】×4、【理性消費許可証】×8を入手できます。<br><br><strong>▼//参加条件</strong><br>メイン任務：第一章-プロセスⅡ「前路開拓」を完了<br><br><strong>▼//説明</strong><br>· イベント期間中、毎日3つの理性補給クエストが解放され、完了すると報酬を入手できます。<br>· 理性補給クエストは翌日04:00（サーバー時間）に更新されます。報酬はお早めにお受け取りください。<br><br>※イベントの詳細は、ゲーム内【イベント】よりご確認ください。<br></p>",
             "linkType": 1
           }
         },

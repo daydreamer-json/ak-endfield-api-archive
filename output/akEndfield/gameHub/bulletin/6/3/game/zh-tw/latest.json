@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-tw",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-tw",
-      "version": "d54c6f3642cdab23178b2f9ef3a1ff4d",
+      "version": "bd1e027a3433fce67eea2acde4ad3b09",
       "onlineList": [
         {
           "cid": "2118",
@@ -71,6 +71,12 @@
         {
           "cid": "0708",
           "version": 1786437154,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "3043",
+          "version": 1787540193,
           "needRedDot": true,
           "needPopup": false
         },
@@ -196,7 +202,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1787587140,
+      "updatedAt": 1787628600,
       "list": [
         {
           "cid": "2118",
@@ -351,6 +357,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260723/2bb0833b8c2f4338fcccaab69737324f.jpg\" data-width=\"1920\" data-height=\"2901\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3043",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1787628600,
+          "focus": 0,
+          "title": "理智補給",
+          "header": "「理智補給」限時活動說明",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260812/a9250375a4fc39eda0816dec1e359e34.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//活動時間</strong><br>※Asia伺服器：2026/08/26 04:00 ~ 2026/09/02 04:00（伺服器時間）<br>※Americas / Europe伺服器：2026/08/26 04:00 ~ 2026/09/01 17:00（伺服器時間）<br>※Asia伺服器時區：UTC+8<br>※Americas / Europe伺服器時區：UTC-5<br><br><strong>▼//活動獎勵</strong><br>活動期間，每日完成指定任務，可獲得【緊急理智加強劑】×4、【理智消耗許可】×8。<br><br><strong>▼//參與條件</strong><br>完成主線任務「第一章 - 進度II - 開拓前路」<br><br><strong>▼//活動說明</strong><br>· 活動期間，每日將固定開放3個理智補給任務，完成任務即可獲得獎勵。<br>· 每日的理智補給任務將於次日04:00（伺服器時間）更新，請管理員及時領取獎勵。<br><br>※ 更多活動詳細說明，請前往遊戲內【活動中心】查看。<br></p>",
             "linkType": 1
           }
         },

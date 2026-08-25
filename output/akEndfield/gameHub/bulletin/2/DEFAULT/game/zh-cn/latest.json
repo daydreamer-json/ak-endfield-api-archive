@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:#DEFAULT:2:#DEFAULT:zh-cn",
-      "version": "04d268916ba0c790d5f32ab05a7604b7",
+      "version": "314c668a83b2c59d7916808db3f59fd5",
       "onlineList": [
         {
           "cid": "3031",
@@ -65,6 +65,12 @@
         {
           "cid": "1392",
           "version": 1768982321,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "1365",
+          "version": 1785484190,
           "needRedDot": true,
           "needPopup": false
         },
@@ -160,7 +166,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1787241600,
+      "updatedAt": 1787628600,
       "list": [
         {
           "cid": "3031",
@@ -298,6 +304,23 @@
             "url": "https://web.hycdn.cn/upload/image/20260121/528a5c2a39687aaa0e15ef79c8e879f9.jpg",
             "link": "https://ef-webview.hypergryph.com/act/social-media?u8_token={u8_token}&server={server}",
             "linkType": 2
+          }
+        },
+        {
+          "cid": "1365",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1787628600,
+          "focus": 0,
+          "title": "理智补给",
+          "header": "「理智补给」限时活动说明",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web.hycdn.cn/upload/image/20260730/0e3571030fe668b7d9d8dd1837c192cc.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">▼//活动时间</span></p><p><span style=\"color: rgb(31, 35, 41);\">2026/08/26 04:00 - 2026/09/02 04:00（服务器时间）</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">▼//活动奖励</span></p><p><span style=\"color: rgb(31, 35, 41);\">活动期间，每日完成指定任务，可获得【应急理智加强剂】×4、【理智消耗许可】×8。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">▼//参与条件</span></p><p><span style=\"color: rgb(31, 35, 41);\">完成主线任务「第一章 - 进程Ⅱ - 开拓前路」</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">▼//活动说明</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 活动期间，每日将固定开放3个理智补给任务，完成任务即可获得奖励。</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 每日的理智补给任务将于次日04:00（服务器时间）刷新，请管理员及时领取奖励。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">※ 更多活动详细说明，请前往游戏内【活动中心】查看。</span></p>",
+            "linkType": 1
           }
         },
         {
