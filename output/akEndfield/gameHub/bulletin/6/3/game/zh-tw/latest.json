@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-tw",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-tw",
-      "version": "f609a791603b43c26f647cd9efc0d4e8",
+      "version": "a6b15bb8bef76ab46509f42ac0b0e007",
       "onlineList": [
         {
           "cid": "2118",
@@ -78,6 +78,12 @@
           "cid": "0708",
           "version": 1786437154,
           "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "8952",
+          "version": 1787540430,
+          "needRedDot": false,
           "needPopup": false
         },
         {
@@ -208,7 +214,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1787711400,
+      "updatedAt": 1787715000,
       "list": [
         {
           "cid": "2118",
@@ -380,6 +386,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260723/2bb0833b8c2f4338fcccaab69737324f.jpg\" data-width=\"1920\" data-height=\"2901\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "8952",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1787715000,
+          "focus": 0,
+          "title": "加速任務開啟",
+          "header": "「協議通行證」加速任務開啟提醒",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260813/ef84575f8147882aae94be4be8e3f80f.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">親愛的管理員：</span></p><p><span style=\"color: rgb(31, 35, 41);\">「協議通行證」加速任務現已開啟，完成當期所有加速任務可額外獲得大量通行證經驗。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//開放時間</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">2026/08/26 04:00（伺服器時間） ~ 版本更新維護前</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//開放條件</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">完成主線任務「第一章 - 進度II - 開拓前路」</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//特殊說明</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">若「協議通行證」達到等級上限，仍可繼續獲得通行證經驗。超出等級上限的通行證經驗可累積以獲得【循環驚喜箱】獎勵。【循環驚喜箱】將在獲得時自動開啟，固定包含一份隨機【嵌晶玉】獎勵、一份隨機【培養材料】獎勵和一份隨機【理智消耗許可】獎勵。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">※ Asia伺服器時區：UTC+8</span></p><p><span style=\"color: rgb(31, 35, 41);\">※ Americas / Europe伺服器時區：UTC-5</span></p><p><span style=\"color: rgb(31, 35, 41);\">※ 更多詳細規則，請前往遊戲內【通行證】查看【協議通行證說明】。</span></p>",
             "linkType": 1
           }
         },

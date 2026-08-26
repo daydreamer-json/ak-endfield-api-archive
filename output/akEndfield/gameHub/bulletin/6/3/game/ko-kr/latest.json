@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "ko-kr",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ko-kr",
-      "version": "014b77255927b9ace62daf55178504c5",
+      "version": "3495073436734356e117523005e8ab08",
       "onlineList": [
         {
           "cid": "2118",
@@ -84,6 +84,12 @@
           "cid": "0708",
           "version": 1786437154,
           "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "8952",
+          "version": 1787540430,
+          "needRedDot": false,
           "needPopup": false
         },
         {
@@ -214,7 +220,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1787711400,
+      "updatedAt": 1787715000,
       "list": [
         {
           "cid": "2118",
@@ -403,6 +409,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260723/0d06590326b4a6a46f42e66b29e95b16.jpg\" data-width=\"1920\" data-height=\"2901\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "8952",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1787715000,
+          "focus": 0,
+          "title": "가속 임무 시작",
+          "header": "「프로토콜 통행증」 가속 임무 시작 알림",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260813/f15d7f2df2e03516e82da445df3b74d6.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">안녕하세요, 관리자님!</span></p><p><span style=\"color: rgb(31, 35, 41);\">「프로토콜 통행증」 가속 임무가 개방되었습니다. 이번 시즌의 모든 가속 임무를 완료하면 대량의 통행증 경험치를 추가로 획득하실 수 있습니다.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//개방 시간</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">2026/08/26 04:00(서버 시간) ~ 버전 업데이트 전까지</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//개방 조건</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">메인 임무 「1장 - 프로세스 II - 앞길 개척」 완료</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//특별 안내</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">「프로토콜 통행증」이 레벨 최대치에 도달한 이후에도 통행증 경험치를 계속 획득할 수 있습니다. 레벨 최대치를 초과한 통행증 경험치는 누적되며 [순환 깜짝선물 상자] 보상을 획득하는 데 사용됩니다. [순환 깜짝선물 상자]는 획득 시 자동으로 개방되며, 무작위 [오로베릴] 보상 1개, 무작위 [육성 재료] 보상 1개, 무작위 [이성 소모 허가증] 보상 1개가 고정으로 포함됩니다.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">※ Asia 서버 시간: UTC+8</span></p><p><span style=\"color: rgb(31, 35, 41);\">※ Americas / Europe 서버 시간: UTC-5</span></p><p><span style=\"color: rgb(31, 35, 41);\">※ 더 자세한 규칙 설명은 게임 내 [통행증]에서 [프로토콜 통행증 설명]을 통해 확인해 주시기 바랍니다.</span></p>",
             "linkType": 1
           }
         },

@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:#DEFAULT:2:#DEFAULT:zh-cn",
-      "version": "da54230587e84b35b4d7cc6ebf8a4544",
+      "version": "e85ce95fcd2f4db0f32502fbb03576e1",
       "onlineList": [
         {
           "cid": "9858",
@@ -65,6 +65,12 @@
         {
           "cid": "1392",
           "version": 1768982321,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "9857",
+          "version": 1784882767,
           "needRedDot": true,
           "needPopup": false
         },
@@ -166,7 +172,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1787710200,
+      "updatedAt": 1787715000,
       "list": [
         {
           "cid": "9858",
@@ -303,6 +309,23 @@
             "url": "https://web.hycdn.cn/upload/image/20260121/528a5c2a39687aaa0e15ef79c8e879f9.jpg",
             "link": "https://ef-webview.hypergryph.com/act/social-media?u8_token={u8_token}&server={server}",
             "linkType": 2
+          }
+        },
+        {
+          "cid": "9857",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1787715000,
+          "focus": 0,
+          "title": "提速任务开启",
+          "header": "「协议通行证」提速任务开启提醒",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web.hycdn.cn/upload/image/20260724/35fe495d792b338d74bc792e6a930186.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">亲爱的管理员：</span></p><p><span style=\"color: rgb(31, 35, 41);\">「协议通行证」提速任务现已开启，完成当期所有提速任务可额外获得大量通行证经验。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">▼//开放时间</span></p><p><span style=\"color: rgb(31, 35, 41);\">2026/08/26 04:00（服务器时间） - 版本更新维护前</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">▼//开放条件</span></p><p><span style=\"color: rgb(31, 35, 41);\">完成主线任务「第一章 - 进程Ⅱ - 开拓前路」</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">▼//特殊说明</span></p><p><span style=\"color: rgb(31, 35, 41);\">若「协议通行证」达到等级上限，仍可继续获取通行证经验。超出等级上限的通行证经验可累积以获得【循环惊喜箱】奖励。【循环惊喜箱】将在获取时自动开启，固定包含一份随机【嵌晶玉】奖励、一份随机【培养素材】奖励和一份随机【理智消耗许可】奖励。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">※ 更多详细规则，请前往游戏内【通行证】查看【协议通行证说明】。</span></p>",
+            "linkType": 1
           }
         },
         {

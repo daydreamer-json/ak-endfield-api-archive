@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-cn",
-      "version": "f609a791603b43c26f647cd9efc0d4e8",
+      "version": "a6b15bb8bef76ab46509f42ac0b0e007",
       "onlineList": [
         {
           "cid": "2118",
@@ -78,6 +78,12 @@
           "cid": "0708",
           "version": 1786437154,
           "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "8952",
+          "version": 1787540430,
+          "needRedDot": false,
           "needPopup": false
         },
         {
@@ -208,7 +214,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1787711400,
+      "updatedAt": 1787715000,
       "list": [
         {
           "cid": "2118",
@@ -380,6 +386,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260811/415e7037b98b11763265de525b9efe61.jpg\" data-width=\"1920\" data-height=\"2901\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "8952",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1787715000,
+          "focus": 0,
+          "title": "提速任务开启",
+          "header": "「协议通行证」提速任务开启提醒",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260813/35fe495d792b338d74bc792e6a930186.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">亲爱的管理员：</span></p><p><span style=\"color: rgb(31, 35, 41);\">「协议通行证」提速任务现已开启，完成当期所有提速任务可额外获得大量通行证经验。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//开放时间</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">2026/08/26 04:00（服务器时间） - 版本更新维护前</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//开放条件</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">完成主线任务「第一章 - 进程Ⅱ - 开拓前路」</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//特殊说明</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">若「协议通行证」达到等级上限，仍可继续获取通行证经验。超出等级上限的通行证经验可累积以获得【循环惊喜箱】奖励。【循环惊喜箱】将在获取时自动开启，固定包含一份随机【嵌晶玉】奖励、一份随机【培养素材】奖励和一份随机【理智消耗许可】奖励。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">※ Asia服务器时区: UTC+8</span></p><p><span style=\"color: rgb(31, 35, 41);\">※ Americas / Europe服务器时区: UTC-5</span></p><p><span style=\"color: rgb(31, 35, 41);\">※ 更多详细规则，请前往游戏内【通行证】查看【协议通行证说明】。</span></p>",
             "linkType": 1
           }
         },
