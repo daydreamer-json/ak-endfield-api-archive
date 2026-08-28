@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "es-mx",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:es-mx",
-      "version": "44106845b7854107af971a1e68e92149",
+      "version": "a657ad9c75c82b919c69fdcde719838f",
       "onlineList": [
         {
           "cid": "2118",
@@ -171,6 +171,12 @@
           "needPopup": false
         },
         {
+          "cid": "3041",
+          "version": 1787902601,
+          "needRedDot": false,
+          "needPopup": false
+        },
+        {
           "cid": "5530",
           "version": 1784553971,
           "needRedDot": false,
@@ -220,7 +226,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1787750577,
+      "updatedAt": 1787902602,
       "list": [
         {
           "cid": "2118",
@@ -652,6 +658,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260714/3dbd0d361758d4065b2209ec3be0e796.jpg\" data-width=\"1650\" data-height=\"300\"><p>Hola, Endministrator: <br>Durante el periodo del [Pase de protocolo: Mar contaminado], podrás acceder a varios proyectos de apoyo proporcionados por los Ingenieros de Arsenal mediante el sistema de [Pase de protocolo]. Al inicio de cada temporada del Pase de Protocolo, el nivel [Suministro básico] se desbloqueará de forma predeterminada. Al aumentar de nivel el Pase, podrás obtener recompensas como [Permisos de C.R. Básica], [Oroberilios], [Cajas sorpresa de intercambio] y [Materiales de progresión]. <br>El nivel [Suministro de Originio] puede desbloquearse con [Origeometría] y otorga [Permiso de C.R. Básica], [Calcomanía: Paz eterna sobre mares contaminados], [Filtro: Tonos de esperanza] y recompensas adicionales como [Suministro de armas: Mar contaminado], [Origeometría] y [Refuerzo de Cordura de emergencia]. <br>Compra el nivel [Personalizado por protocolo] para obtener [Perfil: Fuente del sufrimiento], [Marco de retrato: Pacificación], [Retrato: Fragmentación de la realidad], y recompensas adicionales como [Suministro de armas: Mar contaminado], [Boleto de Arsenal] y [Patrón de arma protocolizado].<br><br><strong>▼// Disponibilidad </strong><br>Durante la versión [Regreso a casa] <br>※ Zona horaria del servidor Asia: UTC+8 <br>※ Zona horaria del servidor Americas / Europe: UTC-5<br><br><strong>▼// Criterios de participación </strong><br>Completa la misión principal [Capítulo I Proceso I: Rompiendo el asedio]<br><br><strong>▼// Detalles del Pase de protocolo </strong><br>· Al activar el [Pase de protocolo], se desbloquea el nivel [Suministro básico] de manera predeterminada. Puedes comprar el nivel [Personalizado por protocolo] o gastar [Origeometría] para desbloquear el nivel [Suministro de Originio] y obtener recompensas adicionales y una bonificación de obtención de EXP del Pase. <br>· Para cada temporada del Pase, los niveles [Suministro de Originio] y [Personalizado por protocolo] contienen un [Suministro de armas] cada uno, lo que te permite elegir y adquirir una de las armas de 6★ incluidas en la temporada. Los [Patrones de arma protocolizados] pueden aumentar el potencial de cualquier arma proporcionada por los [Suministros de armas] del Pase de protocolo. <br>· Completa varias misiones del Pase (algunas misiones estarán disponibles tras cumplir ciertos criterios o más adelante), o participa en [Manual operativo - Tareas diarias] y reclama las recompensas por alcanzar el máximo de Puntos de actividad diarios para obtener EXP del Pase. Aumenta de nivel el Pase para desbloquear una variedad de recompensas del [Pase de protocolo]. <br>· Tras desbloquear [Suministro de Originio] o [Personalizado por protocolo], podrás seguir ganando EXP del Pase incluso después de alcanzar el nivel máximo del [Pase de protocolo]. Cualquier EXP del Pase que exceda el límite se acumulará para otorgar [Caja sorpresa cíclica] como recompensa. La caja se abre automáticamente al recibirla y otorga una recompensa de [Oroberilio] al azar, un [Material de progresión] al azar y un [Permiso de uso de Cordura] al azar. <br>· Desbloquear los niveles [Suministro de Originio] o [Personalizado por protocolo] del Pase de protocolo de temporada otorga +3 %/+3 % de bonificación de EXP respectivamente. Desbloquear ambos niveles otorga +6 % de bonificación de EXP. <br>· Para compras excesivas de [Personalizado por protocolo] debido a circunstancias especiales, las recompensas del nivel [Personalizado por protocolo] no se acumularán. En su lugar, se te devolverá una cantidad de [Origeometría] en función del valor de la compra. <br>· Al finalizar la temporada del [Pase de protocolo], las recompensas de nivel del Pase sin reclamar se enviarán a tu Correo.<br><br>※ Para ver las reglas detalladas, abre [Pase de protocolo] en el juego y revisa [Detalles del Pase de protocolo].<br></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3041",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 5,
+          "displayType": "rich_text",
+          "startAt": 1787900400,
+          "focus": 0,
+          "title": "Aviso: Mejora de visualización de precios en ciertas divisas",
+          "header": "Aviso sobre la mejora en la visualización de precios para ciertas divisas",
+          "jumpButton": null,
+          "data": {
+            "html": "<p><span style=\"color: rgb(0, 0, 0);\">Saludos, Endministrator:</span></p><p><span style=\"color: rgb(0, 0, 0);\">Con el fin de mejorar tu experiencia de pago, estamos optimizando la precisión decimal para la visualización de precios en ciertas divisas (CHF, HKD, RUB, THB, MYR). Los precios en algunas divisas se mostrarán con dos decimales en lugar de números enteros o con un solo decimal, lo que hará que la visualización de los montos sea más consistente.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Si tienes alguna otra solicitud, envíanos tus comentarios a través del soporte al cliente dentro del juego o en otros canales oficiales.</span></p><p><span style=\"color: rgb(0, 0, 0);\">¡Gracias de nuevo por tu interés y apoyo continuos hacia Arknights: Endfield, Endministrator!</span></p>",
             "linkType": 1
           }
         },

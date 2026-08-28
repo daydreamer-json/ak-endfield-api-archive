@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "en-us",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:en-us",
-      "version": "44106845b7854107af971a1e68e92149",
+      "version": "a657ad9c75c82b919c69fdcde719838f",
       "onlineList": [
         {
           "cid": "2118",
@@ -171,6 +171,12 @@
           "needPopup": false
         },
         {
+          "cid": "3041",
+          "version": 1787902601,
+          "needRedDot": false,
+          "needPopup": false
+        },
+        {
           "cid": "5530",
           "version": 1784553971,
           "needRedDot": false,
@@ -220,7 +226,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1787750577,
+      "updatedAt": 1787902602,
       "list": [
         {
           "cid": "2118",
@@ -652,6 +658,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260714/c9f48d30c815b1f4326f07e2385c0110.jpg\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrator, <br>During the [Protocol Pass: Blighted Sea] period, you can access various support projects provided by the Arsenal Engineers through the [Protocol Pass] system. Upon the launch of each Protocol Pass season, the [Basic Supply] tier will be unlocked by default. By increasing your Pass Level, you can obtain rewards such as [Basic HH Permits], [Oroberyls], [Exchange Crates-o-Surprise], and [Progression Materials]. <br>The [Originium Supply] tier can be unlocked with [Origeometry] and grants [Basic HH Permit], [Sticker: Eternal Peace Over Blighted Seas], [Filter: Hues of Hope], and additional rewards such as [Weapon Supply: Blighted Sea], [Origeometry], and [Emergency Sanity Booster]. <br>Purchase the [Protocol Customized] tier to get [Profile: Fount of Suffering], [Portrait Frame: Pacification], [Portrait: Shattering of Reality], plus bonus rewards such as [Weapon Supply: Blighted Sea], [Arsenal Ticket], and [Protocolized Weapon Pattern].<br><br><strong>▼// Availability </strong><br>Throughout the [Homecoming] version <br>※ Asia Server Time Zone: UTC+8 <br>※ Americas / Europe Server Time Zone: UTC-5<br><br><strong>▼// Participation Criteria </strong><br>Complete the main mission [Chapter I Process I: Break the Siege]<br><br><strong>▼// Protocol Pass Details </strong><br>· Activating the [Protocol Pass] unlocks the [Basic Supply] tier by default. You can purchase the [Protocol Customized] tier or spend [Origeometry] to unlock the [Originium Supply] tier for additional rewards and Pass EXP Earning Bonus. <br>· For each pass season, the [Originium Supply] and [Protocol Customized] tiers each contain a [Weapon Supply], which allows you to choose and acquire one of the season's featured 6★ weapons. [Protocolized Weapon Patterns] can raise the potential of any weapon provided by Protocol Pass [Weapon Supplies]. <br>· Complete various Pass Missions (some missions will become available after meeting certain criteria or over time), or take part in [Operational Manual - Daily Tasks] and claim the max daily Activity Points rewards to earn Pass EXP. Level up the Pass to unlock a variety of [Protocol Pass] rewards. <br>· After unlocking [Originium Supply] or [Protocol Customized], you can continue earning Pass EXP even after maxing out the [Protocol Pass] level. Any Pass EXP beyond the cap will accumulate to grant [Cycling Crates-o-Surprise] as rewards. The crate opens automatically upon receipt and grants a random [Oroberyl] reward, a random [Progression Material] reward and a random [Sanity Usage Permit] reward. <br>· Unlocking the [Originium Supply] / [Protocol Customized] tier of the seasonal Protocol Pass grants +3% / +3% EXP bonus respectively. Unlocking both tiers grants a +6% EXP bonus. <br>· For excessive purchases of [Protocol Customized] due to special circumstances, rewards from the [Protocol Customized] tier will not stack. Instead, an amount of [Origeometry] based on the value of the purchase will be returned to you. <br>· When the [Protocol Pass] season ends, any unclaimed pass level rewards shall be sent to your Mail.<br><br>※ For detailed rules, open [Protocol Pass] in-game and check the [Protocol Pass Details].<br></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3041",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 5,
+          "displayType": "rich_text",
+          "startAt": 1787900400,
+          "focus": 0,
+          "title": "Notice on Improving Price Display for Certain Currencies",
+          "header": "Notice on Improving Price Display for Certain Currencies",
+          "jumpButton": null,
+          "data": {
+            "html": "<p><span style=\"color: rgb(0, 0, 0);\">Dear Endministrator,</span></p><p><span style=\"color: rgb(0, 0, 0);\">To improve your payment experience, we're optimizing the decimal precision for price display in certain currencies (CHF, HKD, RUB, THB, MYR). Prices in some currencies will be displayed to two decimal places instead of as whole numbers or with one decimal place, making the display of amounts more consistent.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">If you encounter any other issues, please provide feedback through our in-game customer support or other official channels.</span></p><p><span style=\"color: rgb(0, 0, 0);\">Thank you again for your continued interest and support for Arknights: Endfield, Endministrator!</span></p>",
             "linkType": 1
           }
         },

@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "fr-fr",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:fr-fr",
-      "version": "44106845b7854107af971a1e68e92149",
+      "version": "a657ad9c75c82b919c69fdcde719838f",
       "onlineList": [
         {
           "cid": "2118",
@@ -171,6 +171,12 @@
           "needPopup": false
         },
         {
+          "cid": "3041",
+          "version": 1787902601,
+          "needRedDot": false,
+          "needPopup": false
+        },
+        {
           "cid": "5530",
           "version": 1784553971,
           "needRedDot": false,
@@ -220,7 +226,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1787750577,
+      "updatedAt": 1787902602,
       "list": [
         {
           "cid": "2118",
@@ -652,6 +658,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260714/5cac629e2589282b670f5e7900f227ab.jpg\" data-width=\"1650\" data-height=\"300\"><p>Endministrator, <br>Pendant la période du [Pass de Protocole : Marée gangrénée], vous pouvez accéder à divers projets de soutien fournis par les ingénieurs de l'arsenal grâce au système de [Pass de Protocole]. Au lancement de chaque saison de Pass de Protocole, le niveau [Approvisionnement de base] sera débloqué par défaut. En augmentant votre niveau de Pass, vous pouvez gagner des récompenses incluant des [permis REC de base], des [orobéryls], un [échange de caisses-à-surprises] et des [matériaux de progression]. <br>Le niveau [Approvisionnement en originium] peut être débloqué grâce à des [origéométries] et octroie des [permis REC de base], un [Autocollant : paix éternelle sur la Marée gangrénée], un [Filtre : teintes d'espoir] et des récompenses supplémentaires telles qu'un [Approvisionnement en armes : Marée gangrénée], des [origéométries] et un [bonus de lucidité d'urgence]. <br>Achetez le niveau [Protocole personnalisé] pour obtenir un [profil : Source de souffrance], un [cadre du portrait : Pacifié], un [portrait : Réalité brisée], ainsi que des récompenses bonus, comme un [Approvisionnement en armes : Marée gangrénée], des [tickets de l'arsenal] et un [modèle d'arme protocolisée].<br><br><strong>▼// Disponibilité </strong><br>Pendant toute la durée de la version [Retour] <br>※ Fuseau horaire du serveur Asia : UTC+8 <br>※ Fuseau horaire du serveur Americas / Europe : UTC-5<br><br><strong>▼// Critères de participation </strong><br>Terminer la mission principale : [Chapitre I - Processus I : Rompre le siège]<br><br><strong>▼// Détails sur le Pass de Protocole </strong><br>· Activer le [Pass de Protocole] débloque par défaut le niveau [Approvisionnement de base]. Vous pouvez acheter le niveau [Protocole personnalisé] ou dépenser des [origéométries] pour débloquer le niveau [Approvisionnement en originium] afin de gagner des récompenses supplémentaires et un bonus de gain d'EXP de Pass. <br>· Pour chaque saison de Pass, les niveaux [Approvisionnement en originium] et [Protocole personnalisé] contiennent chacun un [approvisionnement en armes], qui vous permet d'obtenir au choix une des armes 6★ mises en avant dans la saison. Les [modèles d'armes protocolisées] peuvent augmenter le potentiel de n'importe quelle arme obtenue grâce aux [approvisionnements en armes] du Pass de Protocole. <br>· Terminez diverses missions de Pass (certaines missions seront disponibles après avoir rempli certains critères ou au fil du temps) ou participez aux [tâches quotidiennes du manuel opérationnel] et obtenez le maximum de récompenses en points d'activité chaque jour pour gagner de l'EXP de Pass. Faites monter le Pass de niveau pour débloquer diverses récompenses du [Pass de Protocole]. <br>· Après avoir débloqué l'[Approvisionnement en originium] ou le [Protocole personnalisé], et même après avoir atteint le niveau maximum du [Pass de Protocole], vous pouvez continuer à gagner de l'EXP de Pass. Toute l'EXP de Pass dépassant la limite s'accumulera pour vous faire gagner un [recyclage de caisses-à-surprises]. La caisse est automatiquement ouverte à réception et octroie des récompenses aléatoires en [orobéryls], en [matériaux de progression] et en [permis d'utilisation de lucidité]. <br>· Débloquer le niveau [Approvisionnement en originium] ou [Protocole personnalisé] du Pass de Protocole saisonnier octroie +3 % d'EXP bonus. Débloquer les deux niveaux octroie +6 % d'EXP bonus. <br>· En cas d'achats surnuméraires du [Protocole personnalisé] en raison de circonstances particulières, les récompenses du niveau [Protocole personnalisé] ne sont pas cumulables. Vous recevrez plutôt le remboursement d'une quantité d'[origéométries] en fonction de la valeur de votre achat. <br>· Lorsque la saison du Pass de Protocole s'achève, les récompenses de niveau de Pass non réclamées vous sont envoyées par courrier.<br><br>※ Pour les règles détaillées, ouvrez le [Pass de Protocole] en jeu et consultez les [Détails sur le Pass de Protocole].<br></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3041",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 5,
+          "displayType": "rich_text",
+          "startAt": 1787900400,
+          "focus": 0,
+          "title": "Avis : amélioration de l'affichage des prix de certaines devises",
+          "header": "Avis concernant l'amélioration de l'affichage des prix pour certaines devises",
+          "jumpButton": null,
+          "data": {
+            "html": "<p><span style=\"color: rgb(0, 0, 0);\">Endministrator,</span></p><p><span style=\"color: rgb(0, 0, 0);\">Afin d'améliorer votre expérience de paiement, nous optimisons la précision décimale de l'affichage des prix pour certaines devises (CHF, HKD, RUB, THB, MYR). Les prix dans certaines devises seront affichés avec deux décimales au lieu de nombres entiers ou avec une seule décimale, ce qui rendra l'affichage des montants plus cohérent.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Si vous rencontrez d'autres problèmes, veuillez nous en faire part via notre service client en jeu ou par d'autres canaux officiels.</span></p><p><span style=\"color: rgb(0, 0, 0);\">Merci encore pour votre intérêt et votre soutien indéfectible à Arknights: Endfield, Endministrator !</span></p>",
             "linkType": 1
           }
         },
