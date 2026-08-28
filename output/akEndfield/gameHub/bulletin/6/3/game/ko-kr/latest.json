@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "ko-kr",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ko-kr",
-      "version": "ef7e82cf62c274cc616a96b6bce8363e",
+      "version": "a696e9b8a5d84f7972c0cdb2cacabe18",
       "onlineList": [
         {
           "cid": "2118",
@@ -177,12 +177,6 @@
           "needPopup": false
         },
         {
-          "cid": "3041",
-          "version": 1787904617,
-          "needRedDot": false,
-          "needPopup": false
-        },
-        {
           "cid": "5530",
           "version": 1784553971,
           "needRedDot": false,
@@ -213,6 +207,12 @@
           "needPopup": false
         },
         {
+          "cid": "3041",
+          "version": 1787906251,
+          "needRedDot": false,
+          "needPopup": false
+        },
+        {
           "cid": "6474",
           "version": 1769005934,
           "needRedDot": false,
@@ -232,7 +232,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1787904618,
+      "updatedAt": 1787906252,
       "list": [
         {
           "cid": "2118",
@@ -685,24 +685,6 @@
           }
         },
         {
-          "cid": "3041",
-          "type": 0,
-          "tab": "updates",
-          "orderType": 1,
-          "orderWeight": 5,
-          "displayType": "rich_text",
-          "startAt": 1787900400,
-          "focus": 0,
-          "extraData": {},
-          "title": "일부 통화 가격 표시 최적화 안내",
-          "header": "일부 통화 가격 표시 최적화 안내",
-          "jumpButton": null,
-          "data": {
-            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260828/f417ca1af498e87f77c112ad02b63dfe.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">안녕하세요, 관리자님!</span></p><p><span style=\"color: rgb(0, 0, 0);\">더 나은 결제 환경을 제공하기 위해 일부 통화(CHF, HKD, RUB, THB, MYR)의 가격 표시 자릿수를 조정할 예정입니다. 기존에 정수 또는 소수점 첫째 자리로 표기되던 금액이 소수점 둘째 자리까지 표시되도록 변경되어, 금액 표시 방식이 더욱 통일됩니다.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">기타 문제가 발생할 경우, 게임 내 고객센터로 문의해 주시기 바랍니다.</span></p><p><span style=\"color: rgb(0, 0, 0);\">「명일방주: 엔드필드」에 지속적인 관심과 성원을 보내주신 관리자님들께 다시 한번 진심으로 감사드립니다!</span></p>",
-            "linkType": 1
-          }
-        },
-        {
           "cid": "5530",
           "type": 0,
           "tab": "updates",
@@ -784,6 +766,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260121/54bce6889b5d1b85821d897618a39923.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">건전한 게임 환경을 위해 통합 공업 시스템 관련 기능을 사용할 때는 \"이용약관\"을 준수해 주시길 바랍니다. 다음과 같은 내용의 게시 및 참여는 금지됩니다.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">1. 지역, 인종, 성적 지향, 종교, 정치 등에 대한 차별적인 내용</span></p><p><span style=\"color: rgb(31, 35, 41);\">2. 타인을 비방하거나 혐오감을 주거나, 타인의 합법적인 권익을 침해하는 내용</span></p><p><span style=\"color: rgb(31, 35, 41);\">3. 음란·성적, 잔혹·폭력, 도박, 증오 등을 포함한 내용</span></p><p><span style=\"color: rgb(31, 35, 41);\">4. 기타 &lt;이용약관&gt;에서 금지되거나 부적절하다고 판단되는 내용</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">위 규정을 위반하는 경우, 상황에 따라 통합 공업 시스템 배치 콘텐츠 초기화, 기능 사용 제한 또는 금지, 계정 정지 등의 조치가 취해질 수 있습니다. 위반 콘텐츠나 행위를 발견하신 경우, [신고 기능] 또는 [고객센터]를 통해 신고할 수 있습니다.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">또한 [설계도 공유] 기능을 사용하면 [설계도 공유 코드]가 생성되며, 직접 만든 [설계도]를 다른 관리자와 공유할 수 있습니다. 이 기능을 사용하기 전, 반드시 아래 사항을 숙지하고 확인해 주시길 바랍니다. [설계도 공유 코드]를 공유하는 순간, 불특정 제3자가 해당 설계도 내용을 열람·복제·사용하는 것을 허용한 것으로 간주됩니다. 공유 여부는 본인의 판단에 따라 신중히 결정해 주시길 바랍니다.</span></p><p></p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user.gryphline.com/ko-kr/protocol/plain/endfield/game/terms_of_service\">이용약관</a></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3041",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 10,
+          "displayType": "rich_text",
+          "startAt": 1787900400,
+          "focus": 0,
+          "extraData": {},
+          "title": "일부 통화 가격 표시 최적화 안내",
+          "header": "일부 통화 가격 표시 최적화 안내",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260828/f417ca1af498e87f77c112ad02b63dfe.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">안녕하세요, 관리자님!</span></p><p><span style=\"color: rgb(0, 0, 0);\">더 나은 결제 환경을 제공하기 위해 일부 통화(CHF, HKD, RUB, THB, MYR)의 가격 표시 자릿수를 조정할 예정입니다. 기존에 정수 또는 소수점 첫째 자리로 표기되던 금액이 소수점 둘째 자리까지 표시되도록 변경되어, 금액 표시 방식이 더욱 통일됩니다.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">기타 문제가 발생할 경우, 게임 내 고객센터로 문의해 주시기 바랍니다.</span></p><p><span style=\"color: rgb(0, 0, 0);\">「명일방주: 엔드필드」에 지속적인 관심과 성원을 보내주신 관리자님들께 다시 한번 진심으로 감사드립니다!</span></p>",
             "linkType": 1
           }
         },

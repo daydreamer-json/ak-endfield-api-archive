@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "ja-jp",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ja-jp",
-      "version": "7512f7d1b6e37cfd09cee756b70d44a3",
+      "version": "517a533132b8eba7ee8c7acfa403b9c1",
       "onlineList": [
         {
           "cid": "2118",
@@ -165,12 +165,6 @@
           "needPopup": false
         },
         {
-          "cid": "3041",
-          "version": 1787904617,
-          "needRedDot": false,
-          "needPopup": false
-        },
-        {
           "cid": "5530",
           "version": 1784553971,
           "needRedDot": false,
@@ -201,6 +195,12 @@
           "needPopup": false
         },
         {
+          "cid": "3041",
+          "version": 1787906251,
+          "needRedDot": false,
+          "needPopup": false
+        },
+        {
           "cid": "6474",
           "version": 1769005934,
           "needRedDot": false,
@@ -220,7 +220,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1787904618,
+      "updatedAt": 1787906252,
       "list": [
         {
           "cid": "2118",
@@ -638,24 +638,6 @@
           }
         },
         {
-          "cid": "3041",
-          "type": 0,
-          "tab": "updates",
-          "orderType": 1,
-          "orderWeight": 5,
-          "displayType": "rich_text",
-          "startAt": 1787900400,
-          "focus": 0,
-          "extraData": {},
-          "title": "一部通貨における価格表示の調整について",
-          "header": "一部通貨における価格表示の調整について",
-          "jumpButton": null,
-          "data": {
-            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260828/d60d81efaa6c732efe84033fa6855aa4.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">親愛なる管理人</span></p><p><span style=\"color: rgb(0, 0, 0);\">より快適に決済をご利用いただけるよう、一部通貨（CHF、HKD、RUB、THB、MYR）について、価格の表示桁数を調整いたします。一部の対象通貨では、これまで整数または小数点以下1桁で表示されていた価格が、小数点以下2桁まで表示されるようになります。これにより、金額表示がより統一されます。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">そのほか、問題がございましたら、ゲーム内の「問い合わせ」等を通じてご連絡ください。</span></p><p><span style=\"color: rgb(0, 0, 0);\">引き続き、『アークナイツ：エンドフィールド』をどうぞよろしくお願いいたします。</span></p>",
-            "linkType": 1
-          }
-        },
-        {
           "cid": "5530",
           "type": 0,
           "tab": "updates",
@@ -737,6 +719,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260121/c627441b9548f22b3ab0d72dd15028e9.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">良好なゲーム環境を維持するため、集成工業システムに関連するコンテンツをご利用の際は、『利用規約』を遵守し、以下の行為はお控えください。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">1. 地域、人種、性的指向、宗教、政治等に関する差別的な内容の投稿または参加</span></p><p><span style=\"color: rgb(31, 35, 41);\">2. 誹謗中傷、不快感を与える、または他者の正当な権利を侵害する内容の投稿または参加</span></p><p><span style=\"color: rgb(31, 35, 41);\">3. わいせつ、残虐、暴力表現や賭博、憎悪を助長する内容の投稿または参加</span></p><p><span style=\"color: rgb(31, 35, 41);\">4. その他、「利用規約」において禁止または不適切とされる内容の投稿または参加</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">上記の内容に違反した場合、当社は状況に応じて、集成工業システム内の設置内容の削除、コンテンツの利用制限または停止、アカウント停止等の対応を行います。違反する内容や行為を発見された場合は、【通報機能】または【カスタマーサービスまでご連絡】にてご報告ください。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">「図面シェア」機能では、「図面のシェアコード」を発行し、作成した「図面」を他の管理人が閲覧・利用できるようになります。「図面のシェアコード」を共有した時点で、不特定の第三者による図面内容の閲覧・複製・利用を許諾したものとみなされます。共有を行うかどうかは、十分にご検討のうえご判断ください。</span></p><p></p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user.gryphline.com/ja-jp/protocol/plain/endfield/game/terms_of_service\">利用規約</a></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3041",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 10,
+          "displayType": "rich_text",
+          "startAt": 1787900400,
+          "focus": 0,
+          "extraData": {},
+          "title": "一部通貨における価格表示の調整について",
+          "header": "一部通貨における価格表示の調整について",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260828/d60d81efaa6c732efe84033fa6855aa4.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">親愛なる管理人</span></p><p><span style=\"color: rgb(0, 0, 0);\">より快適に決済をご利用いただけるよう、一部通貨（CHF、HKD、RUB、THB、MYR）について、価格の表示桁数を調整いたします。一部の対象通貨では、これまで整数または小数点以下1桁で表示されていた価格が、小数点以下2桁まで表示されるようになります。これにより、金額表示がより統一されます。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">そのほか、問題がございましたら、ゲーム内の「問い合わせ」等を通じてご連絡ください。</span></p><p><span style=\"color: rgb(0, 0, 0);\">引き続き、『アークナイツ：エンドフィールド』をどうぞよろしくお願いいたします。</span></p>",
             "linkType": 1
           }
         },

@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "de-de",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:de-de",
-      "version": "846ccda0bc6a9f4ee30bc20db3464a82",
+      "version": "16122b27b992cdb2e6dc0f0d15538226",
       "onlineList": [
         {
           "cid": "2118",
@@ -171,12 +171,6 @@
           "needPopup": false
         },
         {
-          "cid": "3041",
-          "version": 1787904617,
-          "needRedDot": false,
-          "needPopup": false
-        },
-        {
           "cid": "5530",
           "version": 1784553971,
           "needRedDot": false,
@@ -207,6 +201,12 @@
           "needPopup": false
         },
         {
+          "cid": "3041",
+          "version": 1787906251,
+          "needRedDot": false,
+          "needPopup": false
+        },
+        {
           "cid": "6474",
           "version": 1769005934,
           "needRedDot": false,
@@ -226,7 +226,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1787904618,
+      "updatedAt": 1787906252,
       "list": [
         {
           "cid": "2118",
@@ -662,24 +662,6 @@
           }
         },
         {
-          "cid": "3041",
-          "type": 0,
-          "tab": "updates",
-          "orderType": 1,
-          "orderWeight": 5,
-          "displayType": "rich_text",
-          "startAt": 1787900400,
-          "focus": 0,
-          "extraData": {},
-          "title": "Hinweis: Verbesserung der Preisanzeige für bestimmte Währungen",
-          "header": "Hinweis zur Verbesserung der Preisanzeige für bestimmte Währungen",
-          "jumpButton": null,
-          "data": {
-            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260828/0c673cede19a93a6270e4c81ed8aa1c9.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Lieber Endministrator,</span></p><p><span style=\"color: rgb(0, 0, 0);\">um dein Zahlungserlebnis zu verbessern, optimieren wir die Dezimalgenauigkeit der Preisanzeige für bestimmte Währungen (CHF, HKD, RUB, THB, MYR). Die Preise in einigen Währungen werden nun mit zwei Dezimalstellen statt als ganze Zahlen oder mit einer Dezimalstelle angezeigt, wodurch die Darstellung der Beträge einheitlicher wird.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Solltest du auf andere Probleme stoßen, lass uns bitte dein Feedback über unseren Kundendienst im Spiel oder andere offizielle Kanäle zukommen.</span></p><p><span style=\"color: rgb(0, 0, 0);\">Vielen Dank noch einmal für dein anhaltendes Interesse und deine Unterstützung für Arknights: Endfield, Endministrator!</span></p>",
-            "linkType": 1
-          }
-        },
-        {
           "cid": "5530",
           "type": 0,
           "tab": "updates",
@@ -761,6 +743,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260121/9818f9b3b3b8c39d53d39a08e1a8772e.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">Um eine angenehme Spielumgebung zu gewährleisten, bitten wir dich, bei der Nutzung von Funktionen in Verbindung mit dem Automatisierten Industriekomplex unsere Nutzungsbedingungen zu befolgen. Bitte veröffentliche keine Beiträge oder beteilige dich an Inhalten, die Folgendes beinhalten:</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">1. Diskriminierung aufgrund von Region, Ethnie, sexueller Orientierung, Religion, politischer Meinung usw.</span></p><p><span style=\"color: rgb(31, 35, 41);\">2. Verleumdung, Beleidigungen oder Verletzung der Rechte anderer</span></p><p><span style=\"color: rgb(31, 35, 41);\">3. Obszönitäten, Gewalt, Glücksspiel oder Hass</span></p><p><span style=\"color: rgb(31, 35, 41);\">4. Alles, was gemäß der Nutzungsbedingungen untersagt oder als unangebracht erachtet wird</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Bei Verstößen gegen die oben genannten Bestimmungen können Strafen verhängt werden, darunter die Entfernung von Artikeln im Automatisierten Industriekomplex, Einschränkungen der Funktionen der AIK-Fabrik und die Sperrung von Accounts. Um Verstöße zu melden, verwende die Schaltfläche [Melden] oder wende dich an den Kundendienst.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Wenn du die Funktion [Bauplan teilen] verwendest, erhältst du einen [Bauplancode], mit dem andere Endministratoren deinen Bauplan ansehen und verwenden können. Beachte bitte Folgendes, bevor du beginnst: Durch das Teilen deines [Bauplancodes] erlaubst du jedem, dein Design anzusehen, zu kopieren oder zu verwenden. Bitte überlege gut, bevor du etwas teilst.</span></p><p></p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user.gryphline.com/en-us/protocol/plain/endfield/game/terms_of_service\">Terms of Service</a></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3041",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 10,
+          "displayType": "rich_text",
+          "startAt": 1787900400,
+          "focus": 0,
+          "extraData": {},
+          "title": "Hinweis: Verbesserung der Preisanzeige für bestimmte Währungen",
+          "header": "Hinweis zur Verbesserung der Preisanzeige für bestimmte Währungen",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260828/0c673cede19a93a6270e4c81ed8aa1c9.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Lieber Endministrator,</span></p><p><span style=\"color: rgb(0, 0, 0);\">um dein Zahlungserlebnis zu verbessern, optimieren wir die Dezimalgenauigkeit der Preisanzeige für bestimmte Währungen (CHF, HKD, RUB, THB, MYR). Die Preise in einigen Währungen werden nun mit zwei Dezimalstellen statt als ganze Zahlen oder mit einer Dezimalstelle angezeigt, wodurch die Darstellung der Beträge einheitlicher wird.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Solltest du auf andere Probleme stoßen, lass uns bitte dein Feedback über unseren Kundendienst im Spiel oder andere offizielle Kanäle zukommen.</span></p><p><span style=\"color: rgb(0, 0, 0);\">Vielen Dank noch einmal für dein anhaltendes Interesse und deine Unterstützung für Arknights: Endfield, Endministrator!</span></p>",
             "linkType": 1
           }
         },

@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-tw",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-tw",
-      "version": "846ccda0bc6a9f4ee30bc20db3464a82",
+      "version": "16122b27b992cdb2e6dc0f0d15538226",
       "onlineList": [
         {
           "cid": "2118",
@@ -171,12 +171,6 @@
           "needPopup": false
         },
         {
-          "cid": "3041",
-          "version": 1787904617,
-          "needRedDot": false,
-          "needPopup": false
-        },
-        {
           "cid": "5530",
           "version": 1784553971,
           "needRedDot": false,
@@ -207,6 +201,12 @@
           "needPopup": false
         },
         {
+          "cid": "3041",
+          "version": 1787906251,
+          "needRedDot": false,
+          "needPopup": false
+        },
+        {
           "cid": "6474",
           "version": 1769005934,
           "needRedDot": false,
@@ -226,7 +226,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1787904618,
+      "updatedAt": 1787906252,
       "list": [
         {
           "cid": "2118",
@@ -662,24 +662,6 @@
           }
         },
         {
-          "cid": "3041",
-          "type": 0,
-          "tab": "updates",
-          "orderType": 1,
-          "orderWeight": 5,
-          "displayType": "rich_text",
-          "startAt": 1787900400,
-          "focus": 0,
-          "extraData": {},
-          "title": "部分幣種價格展示優化通知",
-          "header": "部分幣種價格展示優化通知",
-          "jumpButton": null,
-          "data": {
-            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260828/341c9eb5e14edb5e2ff5e5356c724190.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">親愛的管理員：</span></p><p><span style=\"color: rgb(0, 0, 0);\">為提升付款體驗，我們將優化部分幣種（CHF、HKD、RUB、THB、MYR）的價格展示精準度。部分幣種將由原先的整數或小數點後一位，調整為支援展示小數點後兩位，金額展示將更加統一。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">如遇到其他問題，還請管理員透過遊戲內客服等方式回報。</span></p><p><span style=\"color: rgb(0, 0, 0);\">再次感謝管理員對《明日方舟：終末地》一直以來的關注與支持！</span></p>",
-            "linkType": 1
-          }
-        },
-        {
           "cid": "5530",
           "type": 0,
           "tab": "updates",
@@ -761,6 +743,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260121/45617d4f6d90f3988f10fafbaa2c7998.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">為了共同營造良好的遊戲環境，在使用集成工業系統相關功能時，請您遵守「服務條款」規範，請勿發布或參與：</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">1. 涉及地域、種族、性向、宗教、政治等方面的歧視內容；</span></p><p><span style=\"color: rgb(31, 35, 41);\">2. 具有誹謗性、令人反感或侵害他人合法權益的內容；</span></p><p><span style=\"color: rgb(31, 35, 41);\">3. 含有淫穢色情、血腥暴力、賭博、仇恨等的內容；</span></p><p><span style=\"color: rgb(31, 35, 41);\">4. 其他《服務條款》中禁止或不適宜的內容。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">若您違反了上述規範的行為，我們將視情況採取清空集成工業系統擺放內容、限制或禁止使用集成工業系統功能、封停帳號等措施。如您發現有違規的內容或行為，可透過【檢舉功能】或【聯絡客服】回報。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">此外，若您使用【藍圖分享】功能，會生成【藍圖分享碼】，將您設計的【藍圖】分享給其他管理員查看與使用。在使用該功能前，請您進一步知悉並確認：您一旦分享您的【藍圖分享碼】，即視為您授權給不特定第三方查看、複製或使用該藍圖內容，請您自行判斷是否分享。</span></p><p></p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user.gryphline.com/zh-tw/protocol/plain/endfield/game/terms_of_service\">服務條款</a></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3041",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 10,
+          "displayType": "rich_text",
+          "startAt": 1787900400,
+          "focus": 0,
+          "extraData": {},
+          "title": "部分幣種價格展示優化通知",
+          "header": "部分幣種價格展示優化通知",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260828/341c9eb5e14edb5e2ff5e5356c724190.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">親愛的管理員：</span></p><p><span style=\"color: rgb(0, 0, 0);\">為提升付款體驗，我們將優化部分幣種（CHF、HKD、RUB、THB、MYR）的價格展示精準度。部分幣種將由原先的整數或小數點後一位，調整為支援展示小數點後兩位，金額展示將更加統一。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">如遇到其他問題，還請管理員透過遊戲內客服等方式回報。</span></p><p><span style=\"color: rgb(0, 0, 0);\">再次感謝管理員對《明日方舟：終末地》一直以來的關注與支持！</span></p>",
             "linkType": 1
           }
         },

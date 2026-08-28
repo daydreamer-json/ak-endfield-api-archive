@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "id-id",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:id-id",
-      "version": "846ccda0bc6a9f4ee30bc20db3464a82",
+      "version": "16122b27b992cdb2e6dc0f0d15538226",
       "onlineList": [
         {
           "cid": "2118",
@@ -171,12 +171,6 @@
           "needPopup": false
         },
         {
-          "cid": "3041",
-          "version": 1787904617,
-          "needRedDot": false,
-          "needPopup": false
-        },
-        {
           "cid": "5530",
           "version": 1784553971,
           "needRedDot": false,
@@ -207,6 +201,12 @@
           "needPopup": false
         },
         {
+          "cid": "3041",
+          "version": 1787906251,
+          "needRedDot": false,
+          "needPopup": false
+        },
+        {
           "cid": "6474",
           "version": 1769005934,
           "needRedDot": false,
@@ -226,7 +226,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1787904618,
+      "updatedAt": 1787906252,
       "list": [
         {
           "cid": "2118",
@@ -662,24 +662,6 @@
           }
         },
         {
-          "cid": "3041",
-          "type": 0,
-          "tab": "updates",
-          "orderType": 1,
-          "orderWeight": 5,
-          "displayType": "rich_text",
-          "startAt": 1787900400,
-          "focus": 0,
-          "extraData": {},
-          "title": "Pemberitahuan Peningkatan Tampilan Harga Mata Uang Tertentu",
-          "header": "Pemberitahuan tentang Peningkatan Tampilan Harga untuk Mata Uang Tertentu",
-          "jumpButton": null,
-          "data": {
-            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260828/7bc4cc956a2e5f918342df7c8953e86c.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Halo, Endministrator,</span></p><p><span style=\"color: rgb(0, 0, 0);\">Untuk meningkatkan pengalaman pembayaranmu, kami mengoptimalkan presisi desimal untuk tampilan harga pada mata uang tertentu (CHF, HKD, RUB, THB, MYR). Harga pada beberapa mata uang akan ditampilkan hingga dua tempat desimal, alih-alih sebagai bilangan bulat atau dengan satu tempat desimal, sehingga tampilan jumlah menjadi lebih konsisten.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Jika kamu mengalami kendala lain, silakan berikan masukan melalui dukungan pelanggan dalam game atau saluran resmi kami lainnya.</span></p><p><span style=\"color: rgb(0, 0, 0);\">Sekali lagi, terima kasih atas minat dan dukunganmu yang tiada habisnya untuk Arknights: Endfield, Endministrator!</span></p>",
-            "linkType": 1
-          }
-        },
-        {
           "cid": "5530",
           "type": 0,
           "tab": "updates",
@@ -761,6 +743,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260121/b3c649dde1972218595a0ffede375f50.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">Guna memastikan lingkungan bermain yang ramah, harap patuhi Ketentuan Layanan kami saat menggunakan fitur-fitur yang berkaitan dengan Area Industri Cerdas. Harap tidak memposting atau menggunakan konten yang mengandung:</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">1. Diskriminasi atas dasar wilayah, ras, orientasi seksual, agama, politik, dsb.</span></p><p><span style=\"color: rgb(31, 35, 41);\">2. Pencemaran nama baik, singgungan, atau pelanggaran terhadap hak orang lain</span></p><p><span style=\"color: rgb(31, 35, 41);\">3. Unsur cabul, kekerasan, perjudian, atau kebencian</span></p><p><span style=\"color: rgb(31, 35, 41);\">4. Segala hal yang dilarang atau dianggap tidak pantas menurut Ketentuan Layanan</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Jika kamu terlibat dalam pelanggaran di atas, kamu mungkin akan dikenai hukuman, termasuk penghapusan item yang ada di Area Industri Cerdas, pembatasan fitur Pabrik AIC, dan penangguhan akun. Untuk melaporkan pelanggaran, gunakan tombol [Laporkan] atau hubungi dukungan pelanggan.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Jika kamu menggunakan fitur [Bagikan Cetak Biru], kamu akan mendapatkan [Kode Cetak Biru] yang bisa digunakan Endministrator lain untuk melihat dan menggunakan [Cetak Birumu]. Sebelum mulai, harap ingat: dengan membagikan [Kode Cetak Biru], kamu mengizinkan siapa saja untuk melihat, menyalin, atau menggunakan desainmu. Harap pertimbangkan matang-matang sebelum membagikannya.</span></p><p></p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user.gryphline.com/en-us/protocol/plain/endfield/game/terms_of_service\">Terms of Service</a></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3041",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 10,
+          "displayType": "rich_text",
+          "startAt": 1787900400,
+          "focus": 0,
+          "extraData": {},
+          "title": "Pemberitahuan Peningkatan Tampilan Harga Mata Uang Tertentu",
+          "header": "Pemberitahuan tentang Peningkatan Tampilan Harga untuk Mata Uang Tertentu",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260828/7bc4cc956a2e5f918342df7c8953e86c.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Halo, Endministrator,</span></p><p><span style=\"color: rgb(0, 0, 0);\">Untuk meningkatkan pengalaman pembayaranmu, kami mengoptimalkan presisi desimal untuk tampilan harga pada mata uang tertentu (CHF, HKD, RUB, THB, MYR). Harga pada beberapa mata uang akan ditampilkan hingga dua tempat desimal, alih-alih sebagai bilangan bulat atau dengan satu tempat desimal, sehingga tampilan jumlah menjadi lebih konsisten.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Jika kamu mengalami kendala lain, silakan berikan masukan melalui dukungan pelanggan dalam game atau saluran resmi kami lainnya.</span></p><p><span style=\"color: rgb(0, 0, 0);\">Sekali lagi, terima kasih atas minat dan dukunganmu yang tiada habisnya untuk Arknights: Endfield, Endministrator!</span></p>",
             "linkType": 1
           }
         },
