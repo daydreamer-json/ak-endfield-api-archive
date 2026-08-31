@@ -18,11 +18,17 @@
       "subChannel": "#DEFAULT",
       "lang": "en-us",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:en-us",
-      "version": "1dfe6a56794660b7bf17f8d099d3ac41",
+      "version": "967c26cb31224eadc8a1be73d579b068",
       "onlineList": [
         {
           "cid": "2118",
           "version": 1782477623,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "6435",
+          "version": 1788142081,
           "needRedDot": true,
           "needPopup": false
         },
@@ -220,7 +226,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1788102000,
+      "updatedAt": 1788148800,
       "list": [
         {
           "cid": "2118",
@@ -237,6 +243,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260625/98f7fa0cee6fe9fb28be78663e29d7ed.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding?u8_token={u8_token}&server={server}",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "6435",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1788148800,
+          "focus": 0,
+          "title": "Pre-Download & Update Notice",
+          "header": "Pre-Download & Update Notice",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260829/aff4c75725d3b19d939ac7c0d0554f85.jpg\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrator,</p><p>The pre-download for the [Dreamscape of Wind and Snow] version of Arknights: Endfield is now available. You can download select game resources for PC and PlayStation®5 in advance to access the game faster once the update and maintenance are complete.</p><p>Additionally, we plan to begin maintenance for the game client update on September 2, 2026 at 06:00 (UTC+8). After maintenance is complete, the game will be updated to the new version [Dreamscape of Wind and Snow].</p><p>This update is mandatory. You will not be able to log into the game during the maintenance period; please plan your gaming schedule accordingly. Once the update is complete, you will need to re-download the game client. Due to the large download size, we recommend that you download the update using a stable Wi-Fi connection.</p><p><br></p><p><strong>▼// Pre-Download Guide</strong></p><p>■ PC</p><p>Open GRYPHLINK. The [Pre-Download] icon will appear to the left of the [Play] button. Click the icon to begin downloading. The pre-download size is approximately 6GB.</p><p><br></p><p>■ PlayStation®5</p><p>Go to the home screen, select [Arknights: Endfield], press the controller's [OPTIONS] button, select [Check for Update] to begin downloading. The pre-download size is approximately 57GB.</p><p><br></p><p>※ You can continue to play the game during the pre-download process.</p><p>※ Mobile pre-download is currently in development and will be introduced in a future update.</p><p><br></p><p><strong>▼// Version Maintenance Time</strong></p><p>Asia Server: September 2, 2026 at 06:00 – September 2, 2026 at 12:00 (UTC+8)</p><p>Americas / Europe Server: September 1, 2026 at 17:00 – September 1, 2026 at 23:00 (UTC-5)</p><p><br></p><p><strong>▼// How to Update</strong></p><p>After maintenance for the version update begins, you can follow the in-game instructions to proceed with the update.</p><p>· PC: After closing the game, restart the GRYPHLINK launcher and click [Update].</p><p>· Android: Enter the game and follow the pop-up prompts to complete the update.</p><p>· iOS: Enter the App Store and tap [Update].</p><p>· PlayStation®5: Go to the home screen, select [Arknights: Endfield], press the controller's [OPTIONS] button, select [Check for Update], and confirm the update.</p><p><br></p><p><strong>▼// Update &amp; Maintenance Compensation</strong></p><p>· Compensation Details: [Oroberyl]×900</p><p>· Distribution Period: After the update and maintenance – Before the next version update and maintenance</p><p>· Eligibility: Create a character before the update</p><p>· Note: Update &amp; Maintenance Compensation will be sent via in-game mail. The mail will expire at the start of the next version update and maintenance, so please claim it in time.</p><p><br></p><p><strong>▼// Update &amp; Maintenance Details</strong></p><p>This update is mandatory. You will not be able to log into the game during the maintenance period; please plan your gaming schedule accordingly. Once the update is complete, you will need to re-download the game client. Due to the large download size, we recommend that you download the update using a stable Wi-Fi connection. If your device has completed or started the pre-download, the amount of data you need to download after maintenance will be reduced based on the resources already downloaded, saving time during this stage of the update. The estimated storage space required for this update is as follows.</p><p>· PC: 6GB (an additional 10GB of free storage is required when extracting files; install on an SSD for better gaming experiences)</p><p>· Android: 3GB (an additional 3GB of free storage is required when extracting files)</p><p>· iOS: 3GB (an additional 3GB of free storage is required when extracting files)</p><p>· PlayStation®5: 57GB (an additional 62GB of free storage is required when extracting files)</p><p><br></p><p>※ Extra storage used during extraction will be freed once the extraction is complete.</p>",
             "linkType": 1
           }
         },
