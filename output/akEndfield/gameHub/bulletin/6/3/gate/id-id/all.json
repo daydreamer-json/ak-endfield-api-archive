@@ -779,5 +779,129 @@
       },
       "msg": ""
     }
+  },
+  {
+    "updatedAt": "2026-09-01T22:18:08.902+00:00",
+    "req": {
+      "channel": 6,
+      "server": 3,
+      "type": 1,
+      "lang": "id-id",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "code": 0,
+      "data": {
+        "topicCid": "0093",
+        "type": 1,
+        "platform": "Windows",
+        "server": "#DEFAULT",
+        "channel": "#DEFAULT",
+        "subChannel": "#DEFAULT",
+        "lang": "id-id",
+        "key": "1:Windows:#DEFAULT:#DEFAULT:#DEFAULT:id-id",
+        "version": "e05724d05a4854c7a97b67c9845e35b8",
+        "onlineList": [
+          {
+            "cid": "6466",
+            "version": 1773282866,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1303",
+            "version": 1770779772,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1314",
+            "version": 1768837310,
+            "needRedDot": true,
+            "needPopup": true
+          },
+          {
+            "cid": "8999",
+            "version": 1768837347,
+            "needRedDot": true,
+            "needPopup": true
+          }
+        ],
+        "popupVersion": 0,
+        "updatedAt": 1788300000,
+        "list": [
+          {
+            "cid": "6466",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1773279000,
+            "focus": 1,
+            "title": "Peringatan Risiko",
+            "header": "Peringatan Risiko",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260311/7bc4cc956a2e5f918342df7c8953e86c.jpg\" data-width=\"1650\" data-height=\"300\"><p>Memberikan izin login akun pada situs atau alat pihak ketiga dapat menimbulkan risiko keamanan, seperti kebocoran informasi akun atau penyalahgunaan data. Untuk memastikan keamanan akun Anda, kami mengingatkan kepada seluruh pemain untuk memperhatikan hal-hal berikut:</p><p>1. Jangan memberikan izin login akun di platform pihak ketiga mana pun dari sumber yang tidak dikenal atau tidak memiliki sertifikat resmi.</p><p>2. Hindari memasukkan informasi akun atau menyelesaikan pemberian izin di halaman yang tidak resmi, karena hal ini dapat menyebabkan risiko seperti kebocoran informasi atau aktivitas login yang tidak wajar.</p><p>3. Pastikan Anda login ke dalam game dan halaman layanan terkait hanya melalui saluran resmi, serta selalu waspada untuk menghindari mengeklik tautan dari sumber yang tidak dikenal.</p><p></p><p>Terima kasih atas pengertian dan kerja sama Anda. Mari kita bekerja sama menjaga lingkungan bermain yang aman dan tertib.</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1303",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1770778800,
+            "focus": 1,
+            "title": "Pengingat Keamanan Akun",
+            "header": "Pengingat Keamanan Akun",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260211/7bc4cc956a2e5f918342df7c8953e86c.jpg\" data-width=\"1650\" data-height=\"300\"><p>Kepada Endministrator,</p><p></p><p>Untuk meningkatkan keamanan Akun Gryphline Anda serta melindungi akun dan aset game Anda lebih lanjut, fitur [Verifikasi Perangkat Keamanan] telah ditambahkan ke sistem akun.</p><p>Pemain dapat mengaktifkan [Verifikasi Login Perangkat Baru] di Pusat Akun. Setelah diaktifkan:</p><p>- Sistem akan menampilkan daftar perangkat yang sebelumnya digunakan untuk masuk ke akun;</p><p>- Anda dapat mengelola perangkat yang sedang login dan menghapus perangkat apa pun;</p><p>- Saat login menggunakan perangkat baru atau perangkat yang telah dihapus, Anda harus memasukkan kode verifikasi yang dikirim ke email yang ditautkan untuk menyelesaikan verifikasi identitas sebelum berhasil login.</p><p></p><p>Cara mengaktifkan:</p><p>PC: Pengaturan → Pusat Akun → Pengaturan Keamanan → Kelola Perangkat</p><p>Ponsel: Pengaturan → Pusat Akun → Kelola Game → Kelola Perangkat</p><p></p><p>Kami menyarankan semua pemain untuk mengaktifkan fitur ini sesegera mungkin untuk meningkatkan keamanan akun.</p><p>Mohon jaga kerahasiaan informasi akun Anda. Jangan login melalui saluran tidak resmi atau membagikan kata sandi Anda ke platform pihak ketiga mana pun (termasuk layanan top-up, jasa joki level, atau layanan jual beli akun) untuk menghindari risiko keamanan.</p><p>Terima kasih atas pengertian dan dukungan Anda.</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1314",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 5,
+            "displayType": "rich_text",
+            "startAt": 1768860000,
+            "focus": 0,
+            "title": "Pernyataan Bermain Adil",
+            "header": "Pernyataan Bermain Adil Arknights: Endfield",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260119/fe727ef3340898e31afdf6c700e28c70.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Terima kasih atas ketertarikan berkelanjutan Anda dan dukungan untuk Arknights: Endfield. Demi mempertahankan lingkungan bermain yang sehat dan adil serta melindungi hak dan kepentingan sah semua pemain, kami ingin mengingatkan semua orang berikut ini:</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">1. Penggunaan cheat, alat pihak ketiga, top-up yang tidak sah, atau metode tidak sah lainnya yang mengganggu integritas game atau melanggar Ketentuan Layanan Game yang dilarang keras. Berdasarkan pengawasan yang dikirimkan kembali dan laporan pemain, jika terkonfirmasi pelanggaran seperti ini, kami akan melakukan tindakan yang sesuai berdasarkan pada beratnya pelanggaran, termasuk tetapi tidak terbatas sampai penghapusan keuntungan tidak sah, penangguhan sementara, atau penghentian akun secara permanen.</span></p><p><span style=\"color: rgb(0, 0, 0);\">2. Untuk melindungi hak dan kepentingan sah dari semua pemain, harap jangan melakukan perpindahan, pembagian, ataupun memperjualkan akun game Anda. Konsekuensi apa pun akibat dari tindakan seperti ini, termasuk pencurian akun atau kerugian aset dalam permainan, akan ditanggung sendiri oleh pemain.</span></p><p><span style=\"color: rgb(0, 0, 0);\">3. Untuk memastikan pengalaman gameplay yang lengkap, pemain dilarang keras melakukan pembongkaran, memodifikasi, ataupun yang bersifat merusak dengan file instalasi game, dan juga menyebarluaskan material terkait yang sudah diekstrak.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Terakhir, menciptakan lingkungan permainan yang positif dan adil memerlukan usaha bersama dari semua pemain. Kami mohon semua orang untuk membantu mempertahankan lingkungan bermain yang adil dan teratur. Jika Anda menjumpai pelanggaran apa pun, silakan melaporkan mereka melalui pusat layanan pelanggan resmi kami.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8999",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 7,
+            "displayType": "rich_text",
+            "startAt": 1768860000,
+            "focus": 0,
+            "title": "Kebijakan Penggunaan Fitur",
+            "header": "Kebijakan Penggunaan Area Industri Cerdas & Cetak Biru",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260119/b3c649dde1972218595a0ffede375f50.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">Guna memastikan lingkungan bermain yang ramah, harap patuhi Ketentuan Layanan kami saat menggunakan fitur-fitur yang berkaitan dengan Area Industri Cerdas. Harap tidak memposting atau menggunakan konten yang mengandung:</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">1. Diskriminasi atas dasar wilayah, ras, orientasi seksual, agama, politik, dsb.</span></p><p><span style=\"color: rgb(31, 35, 41);\">2. Pencemaran nama baik, singgungan, atau pelanggaran terhadap hak orang lain</span></p><p><span style=\"color: rgb(31, 35, 41);\">3. Unsur cabul, kekerasan, perjudian, atau kebencian</span></p><p><span style=\"color: rgb(31, 35, 41);\">4. Segala hal yang dilarang atau dianggap tidak pantas menurut Ketentuan Layanan</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Jika kamu terlibat dalam pelanggaran di atas, kamu mungkin akan dikenai hukuman, termasuk penghapusan item yang ada di Area Industri Cerdas, pembatasan fitur Pabrik AIC, dan penangguhan akun. Untuk melaporkan pelanggaran, gunakan tombol [Laporkan] atau hubungi dukungan pelanggan.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Jika kamu menggunakan fitur [Bagikan Cetak Biru], kamu akan mendapatkan [Kode Cetak Biru] yang bisa digunakan Endministrator lain untuk melihat dan menggunakan [Cetak Birumu]. Sebelum mulai, harap ingat: dengan membagikan [Kode Cetak Biru], kamu mengizinkan siapa saja untuk melihat, menyalin, atau menggunakan desainmu. Harap pertimbangkan matang-matang sebelum membagikannya.</span></p>",
+              "linkType": 1
+            }
+          }
+        ]
+      },
+      "msg": ""
+    }
   }
 ]

@@ -779,5 +779,129 @@
       },
       "msg": ""
     }
+  },
+  {
+    "updatedAt": "2026-09-01T22:18:09.318+00:00",
+    "req": {
+      "channel": 6,
+      "server": 3,
+      "type": 1,
+      "lang": "de-de",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "code": 0,
+      "data": {
+        "topicCid": "0093",
+        "type": 1,
+        "platform": "Windows",
+        "server": "#DEFAULT",
+        "channel": "#DEFAULT",
+        "subChannel": "#DEFAULT",
+        "lang": "de-de",
+        "key": "1:Windows:#DEFAULT:#DEFAULT:#DEFAULT:de-de",
+        "version": "e05724d05a4854c7a97b67c9845e35b8",
+        "onlineList": [
+          {
+            "cid": "6466",
+            "version": 1773282866,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1303",
+            "version": 1770779772,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1314",
+            "version": 1768837310,
+            "needRedDot": true,
+            "needPopup": true
+          },
+          {
+            "cid": "8999",
+            "version": 1768837347,
+            "needRedDot": true,
+            "needPopup": true
+          }
+        ],
+        "popupVersion": 0,
+        "updatedAt": 1788300000,
+        "list": [
+          {
+            "cid": "6466",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1773279000,
+            "focus": 1,
+            "title": "Warnhinweis",
+            "header": "Sicherheitswarnung bei Verwendung inoffizieller Tools",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260311/0c673cede19a93a6270e4c81ed8aa1c9.jpg\" data-width=\"1650\" data-height=\"300\"><p>Das Autorisieren von Konto-Logins auf Websites oder in Tools von Drittanbietern birgt Sicherheitsrisiken wie das Bekanntwerden sensibler Kontoinformationen oder den Missbrauch von Daten. Um die Sicherheit eures Kontos zu gewährleisten, wollen wir alle Spieler an Folgendes erinnern:</p><p>1. Autorisiert keine Konto-Logins auf Plattformen von Drittanbietern unbekannten Ursprungs oder ohne offizielle Zertifizierung.</p><p>2. Vermeidet es, auf nicht offiziellen Seiten Kontoinformationen einzugeben oder Autorisierungen abzuschließen, da dies zu Sicherheitsrisiken wie das Bekanntwerden sensibler Daten oder verdächtige Login-Aktivitäten führen kann.</p><p>3. Stellt sicher, dass ihr euch ausschließlich über verwandte Dienste oder offizielle Kanäle im Spiel einloggt und stets wachsam bleibt, um nicht versehentlich auf Links unbekannten Ursprungs zu klicken.</p><p></p><p>Vielen Dank für eure Mithilfe und euer Verständnis. Gemeinsam können wir für eine sichere und friedliche Spielumgebung sorgen.</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1303",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1770778800,
+            "focus": 1,
+            "title": "Hinweis zur Account-Sicherheit",
+            "header": "Hinweis zur Account-Sicherheit",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260211/0c673cede19a93a6270e4c81ed8aa1c9.jpg\" data-width=\"1650\" data-height=\"300\"><p>Geschätzter Endministrator,</p><p></p><p>um die Sicherheit deines Gryphline-Accounts weiter zu verbessern und deinen Account sowie deine Spieldaten zu schützen, wurde das Accountsystem um die Funktion [Sicherheitsgeräteverifizierung] erweitert.</p><p>Spieler können die [Anmeldeverifizierung für neue Geräte] im Account-Center aktivieren. Nach der Aktivierung</p><p>– zeigt das System eine Liste der Geräte an, die bereits für die Anmeldung mit dem Account verwendet wurden;</p><p>– kannst du deine angemeldeten Geräte verwalten und jedes Gerät entfernen;</p><p>– musst du bei der Anmeldung auf einem entfernten oder einem neuen Gerät einen Verifizierungscode zur Identitätsprüfung eingeben, der an deine verknüpfte E-Mail-Adresse gesendet wird, bevor du dich erfolgreich anmelden kannst.</p><p></p><p>So aktivierst du die Funktion:</p><p>PC: Einstellungen → Account-Center → Sicherheitseinstellungen → Gerät verwalten</p><p>Mobilgerät: Einstellungen → Account-Center → Spiel verwalten → Gerät verwalten</p><p></p><p>Wir empfehlen allen Spielern, diese Funktion so schnell wie möglich zu aktivieren, um die Sicherheit des Accounts zu erhöhen.</p><p>Bitte schütze deine Accountdaten. Melde dich nicht über inoffizielle Kanäle an und gib dein Passwort nicht auf Plattformen von Drittanbietern (einschließlich Shop-, Power-Leveling- oder Kontohandelsdiensten) weiter, um Sicherheitsrisiken zu vermeiden.</p><p>Danke für dein Verständnis und deine Unterstützung.</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1314",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 5,
+            "displayType": "rich_text",
+            "startAt": 1768860000,
+            "focus": 0,
+            "title": "Erklärung zu Fairness im Spiel",
+            "header": "Arknights: Endfield – Erklärung zu Fairness im Spiel",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260119/4c654b8022af7a3bbad815911960a22d.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Vielen Dank für euer anhaltendes Interesse und die Unterstützung von Arknights: Endfield. Um allen eine ausgewogene und faire Spielumgebung zu bieten und die legitimen Rechte und Interessen aller Spieler zu wahren, möchten wir alle an Folgendes erinnern:</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">1. Die Nutzung von Cheats, Tools von Drittanbietern, nicht autorisierte Käufe über Dittanbieter oder andere unangemessene Methoden, welche die Integrität des Spiels negativ beeinflussen oder gegen die Nutzungsbedingungen des Spiels verstoßen, sind strengstens verboten. Basierend auf Backend-Überwachung und Meldungen von Spielern, werden wir, falls solche Verstöße nachgewiesen werden sollten, entsprechende Konsequenzen basierend auf der Schwere der Verstöße ziehen. Diese Maßnahmen beinhalten unter anderem die Entfernung unrechtmäßig erhaltener Ressourcen, vorübergehende Sperrungen oder auch permanente Sperrungen.</span></p><p><span style=\"color: rgb(0, 0, 0);\">2. Um die legitimen Rechte und Interessen aller Spieler zu wahren, fordern wir euch auf, eure Spielkonten nie zu transferieren, zu teilen oder zu tauschen. Die aus diesen Handlungen resultierende Konsequenzen, einschließlich Kontodiebstahl und Verlust von Eigentum im Spiel, trägt allein der betroffene Spieler.</span></p><p><span style=\"color: rgb(0, 0, 0);\">3. Um ein volles Spielerlebnis zu garantieren, ist es Spielern strengstens untersagt, die Installationsdateien des Spiels zu entpacken, zu modifizieren oder auf sonst irgendeine Weise zu manipulieren oder extrahiertes Material in Umlauf zu bringen.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Eine positive und faire Spielumgebung kann nur dann erhalten werden, wenn alle Spieler daran mitwirken. Wir bitten daher alle darum, fair zu bleiben und sich an die Regeln zu halten. Sollten euch Verstöße auffallen, so meldet sie uns bitte im offiziellen Kundendienst-Center.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8999",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 7,
+            "displayType": "rich_text",
+            "startAt": 1768860000,
+            "focus": 0,
+            "title": "Nutzungsrichtlinie für Funktionen",
+            "header": "Nutzungsrichtlinie für Funktionen",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260119/9818f9b3b3b8c39d53d39a08e1a8772e.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">Um eine angenehme Spielumgebung zu gewährleisten, bitten wir dich, bei der Nutzung von Funktionen in Verbindung mit dem Automatisierten Industriekomplex unsere Nutzungsbedingungen zu befolgen. Bitte veröffentliche keine Beiträge oder beteilige dich an Inhalten, die Folgendes beinhalten:</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">1. Diskriminierung aufgrund von Region, Ethnie, sexueller Orientierung, Religion, politischer Meinung usw.</span></p><p><span style=\"color: rgb(31, 35, 41);\">2. Verleumdung, Beleidigungen oder Verletzung der Rechte anderer</span></p><p><span style=\"color: rgb(31, 35, 41);\">3. Obszönitäten, Gewalt, Glücksspiel oder Hass</span></p><p><span style=\"color: rgb(31, 35, 41);\">4. Alles, was gemäß der Nutzungsbedingungen untersagt oder als unangebracht erachtet wird</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Bei Verstößen gegen die oben genannten Bestimmungen können Strafen verhängt werden, darunter die Entfernung von Artikeln im Automatisierten Industriekomplex, Einschränkungen der Funktionen der AIK-Fabrik und die Sperrung von Accounts. Um Verstöße zu melden, verwende die Schaltfläche [Melden] oder wende dich an den Kundendienst.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Wenn du die Funktion [Bauplan teilen] verwendest, erhältst du einen [Bauplancode], mit dem andere Endministratoren deinen Bauplan ansehen und verwenden können. Beachte bitte Folgendes, bevor du beginnst: Durch das Teilen deines [Bauplancodes] erlaubst du jedem, dein Design anzusehen, zu kopieren oder zu verwenden. Bitte überlege gut, bevor du etwas teilst.</span></p>",
+              "linkType": 1
+            }
+          }
+        ]
+      },
+      "msg": ""
+    }
   }
 ]

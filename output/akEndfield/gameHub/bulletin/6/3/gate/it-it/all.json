@@ -779,5 +779,129 @@
       },
       "msg": ""
     }
+  },
+  {
+    "updatedAt": "2026-09-01T22:18:09.097+00:00",
+    "req": {
+      "channel": 6,
+      "server": 3,
+      "type": 1,
+      "lang": "it-it",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "code": 0,
+      "data": {
+        "topicCid": "0093",
+        "type": 1,
+        "platform": "Windows",
+        "server": "#DEFAULT",
+        "channel": "#DEFAULT",
+        "subChannel": "#DEFAULT",
+        "lang": "it-it",
+        "key": "1:Windows:#DEFAULT:#DEFAULT:#DEFAULT:it-it",
+        "version": "e05724d05a4854c7a97b67c9845e35b8",
+        "onlineList": [
+          {
+            "cid": "6466",
+            "version": 1773282866,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1303",
+            "version": 1770779772,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1314",
+            "version": 1768837310,
+            "needRedDot": true,
+            "needPopup": true
+          },
+          {
+            "cid": "8999",
+            "version": 1768837347,
+            "needRedDot": true,
+            "needPopup": true
+          }
+        ],
+        "popupVersion": 0,
+        "updatedAt": 1788300000,
+        "list": [
+          {
+            "cid": "6466",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1773279000,
+            "focus": 1,
+            "title": "Avviso sui rischi",
+            "header": "Avviso: rischio di sicurezza con strumenti non ufficiali",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260311/866314711e16aeb898c9b1c654b8536e.jpg\" data-width=\"1650\" data-height=\"300\"><p>Autorizzare l'accesso al proprio account su siti web o strumenti di terze parti comporta rischi per la sicurezza, come la divulgazione di informazioni dell'account o l'uso improprio dei dati. Per garantire la sicurezza del tuo account, ti ricordiamo di tenere presente quanto segue:</p><p>1. Non autorizzare l'accesso al tuo account su piattaforme di terze parti provenienti da fonti sconosciute o prive di certificazione ufficiale.</p><p>2. Evita di inserire le informazioni del tuo account o di completare procedure di autorizzazione su pagine non ufficiali, poiché ciò potrebbe comportare rischi come la fuga di dati o attività di accesso anomale.</p><p>3. Assicurati di accedere al gioco e alle relative pagine di servizio solo tramite canali ufficiali e fai attenzione a non fare clic su link provenienti da fonti sconosciute.</p><p></p><p>Grazie per la comprensione e la collaborazione. Insieme possiamo dare vita a un ambiente di gioco sicuro e ordinato.</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1303",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1770778800,
+            "focus": 1,
+            "title": "Promemoria sulla sicurezza degli account",
+            "header": "Promemoria sulla sicurezza degli account",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260211/866314711e16aeb898c9b1c654b8536e.jpg\" data-width=\"1650\" data-height=\"300\"><p>Ciao, Endministrator.</p><p></p><p>Per incrementare ulteriormente il livello di sicurezza del tuo account Gryphline e salvaguardare il tuo account e le tue risorse di gioco, abbiamo implementato una funzionalità di verifica del dispositivo di sicurezza.</p><p>I giocatori possono abilitare la verifica di accesso per un nuovo dispositivo tramite il Centro account. Una volta abilitata:</p><p>- Il sistema mostrerà una lista di dispositivi utilizzati in precedenza per connettersi all'account;</p><p>- Potrai gestire i tuoi dispositivi connessi ed eventualmente rimuoverli;</p><p>- Per poter effettuare l'accesso tramite un nuovo dispositivo o un dispositivo precedentemente rimosso, devi inserire un codice di verifica che verrà inviato al tuo indirizzo e-mail associato per completare la verifica della tua identità.</p><p></p><p>Come abilitare la funzionalità:</p><p>PC: Impostazioni → Centro account → Impostazioni di sicurezza → Gestisci dispositivo</p><p>Dispositivi mobili: Impostazioni → Centro account → Gestisci gioco → Gestisci dispositivo</p><p></p><p>Consigliamo a tutti i giocatori di abilitare questa funzionalità il prima possibile per incrementare la sicurezza del proprio account.</p><p>Custodisci gelosamente le informazioni relative al tuo account. Per scongiurare rischi relativi alla sicurezza, non effettuare l'accesso tramite canali non ufficiali e non condividere la tua password con nessuna piattaforma di terze parti (comprese quelle per ricaricare, per aumentare rapidamente di livello o per scambiare account).</p><p>Grazie per la comprensione e il supporto.</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1314",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 5,
+            "displayType": "rich_text",
+            "startAt": 1768860000,
+            "focus": 0,
+            "title": "Impegno al fair play",
+            "header": "Impegno al fair play in Arknights: Endfield",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260119/ec96298f499eda152054d42e64770d89.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Grazie per l'interesse e il supporto costanti che hai dimostrato nei confronti di Arknights: Endfield. Per mantenere un ambiente di gioco equo e sicuro e per salvaguardare i diritti di tutti i giocatori, ci teniamo a ricordare quanto segue:</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">1. È severamente proibito l'utilizzo di cheat, strumenti di terzi, ricariche non autorizzate o qualsiasi altro espediente illecito che possa minacciare l'integrità del gioco o contravvenire a quanto sancito dai Termini e Condizioni del Gioco. Qualora suddette violazioni venissero confermate tramite il monitoraggio del nostro team o segnalazioni dei giocatori, prenderemo opportuni provvedimenti commisurati alla gravità dell'infrazione. Tali misure includono la rimozione dei vantaggi ottenuti in maniera illecita, la sospensione temporanea o permanente dell'account e altro ancora.</span></p><p><span style=\"color: rgb(0, 0, 0);\">2. Per salvaguardare i diritti dei giocatori, ti invitiamo a non trasferire, condividere né scambiare il tuo account di gioco. La responsabilità di qualsiasi conseguenza risultante da suddette azioni, ad esempio il furto dell'account o la perdita delle risorse di gioco, verrà attribuita al giocatore.</span></p><p><span style=\"color: rgb(0, 0, 0);\">3. Per garantire un'esperienza di gioco completa, ai giocatori è severamente proibito estrarre, modificare o manomettere i file di installazione del gioco, nonché distribuire materiali associati al gioco stesso.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Infine, ci teniamo a sottolineare che la creazione di un ambiente di gioco positivo ed equo richiede uno sforzo collettivo da parte di tutti i giocatori. Ti chiediamo quindi di agire sempre in maniera corretta. Qualora dovessi essere testimone di infrazioni di qualunque tipo, ti invitiamo a segnalarle al nostro servizio ufficiale di assistenza clienti.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8999",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 7,
+            "displayType": "rich_text",
+            "startAt": 1768860000,
+            "focus": 0,
+            "title": "Regole sull'utilizzo delle funzionalità",
+            "header": "Regole sull'utilizzo delle funzionalità",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260119/c36a2ed1b3e4387b785324950727715e.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">Per garantire un ambiente di gioco amichevole, segui i Termini e Condizioni mentre utilizzi le funzionalità del sistema industriale automatizzato. Ti preghiamo di non postare o pubblicare contenuti contenenti:</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">1. Discriminazioni basate su regione, razza, orientamento sessuale, religione, politica, ecc.</span></p><p><span style=\"color: rgb(31, 35, 41);\">2. Diffamazioni, offese oppure violazioni dei diritti altrui</span></p><p><span style=\"color: rgb(31, 35, 41);\">3. Oscenità, violenza, gioco d'azzardo oppure odio</span></p><p><span style=\"color: rgb(31, 35, 41);\">4. Ciò che è proibito o ritenuto inappropriato nei Termini e Condizioni</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Se commetti una delle violazioni di cui sopra potresti subire delle sanzioni, tra cui la rimozione degli oggetti inseriti nel sistema industriale automatizzato, restrizioni alle funzionalità della fabbrica del SIA e la sospensione dell'account. Per segnalare le violazioni, usa il pulsante [Segnala] oppure contatta l'assistenza clienti.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Se usi la funzionalità [Condividi progetto], riceverai un [codice del progetto] per permettere ad altri Endministrator di visualizzare e utilizzare il tuo [progetto]. Prima di iniziare, ricorda che condividendo il tuo [codice del progetto] autorizzi tutti a visualizzare, copiare o utilizzare il tuo progetto. Rifletti attentamente prima di effettuare la condivisione.</span></p>",
+              "linkType": 1
+            }
+          }
+        ]
+      },
+      "msg": ""
+    }
   }
 ]

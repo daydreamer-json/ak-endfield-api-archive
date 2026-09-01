@@ -779,5 +779,129 @@
       },
       "msg": ""
     }
+  },
+  {
+    "updatedAt": "2026-09-01T22:18:08.520+00:00",
+    "req": {
+      "channel": 6,
+      "server": 3,
+      "type": 1,
+      "lang": "ja-jp",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "code": 0,
+      "data": {
+        "topicCid": "0093",
+        "type": 1,
+        "platform": "Windows",
+        "server": "#DEFAULT",
+        "channel": "#DEFAULT",
+        "subChannel": "#DEFAULT",
+        "lang": "ja-jp",
+        "key": "1:Windows:#DEFAULT:#DEFAULT:#DEFAULT:ja-jp",
+        "version": "e05724d05a4854c7a97b67c9845e35b8",
+        "onlineList": [
+          {
+            "cid": "6466",
+            "version": 1773282866,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1303",
+            "version": 1770779772,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1314",
+            "version": 1768837310,
+            "needRedDot": true,
+            "needPopup": true
+          },
+          {
+            "cid": "8999",
+            "version": 1768837347,
+            "needRedDot": true,
+            "needPopup": true
+          }
+        ],
+        "popupVersion": 0,
+        "updatedAt": 1788300000,
+        "list": [
+          {
+            "cid": "6466",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1773279000,
+            "focus": 1,
+            "title": "セキュリティに関するご注意",
+            "header": "非公式ツール利用に関する注意喚起",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260311/d60d81efaa6c732efe84033fa6855aa4.jpg\" data-width=\"1650\" data-height=\"300\"><p>第三者が提供するウェブサイトやツールでアカウント認証によるログインを行うと、アカウント情報の漏えいや不正利用などのリスクが発生する可能性があります。アカウントの安全を守るため、以下の点にご注意ください。</p><p>1. 出所不明または公式に認証されていない第三者サービスで、アカウント認証によるログインを行わないでください。</p><p>2. 非公式ページでアカウント情報を入力したり、認証操作を行ったりしないようご注意ください。</p><p>3. ゲームおよび関連サービスへのログインは、必ず公式のウェブサイトをご利用ください。また、不審なリンクを開かないようご注意ください。</p><p></p><p>ご理解とご協力のほどよろしくお願いいたします。安全で健全なゲーム環境の維持にご協力ください。</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1303",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1770778800,
+            "focus": 1,
+            "title": "アカウントセキュリティ通知",
+            "header": "Gryphlineアカウントのデバイス認証機能の追加について",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260211/d60d81efaa6c732efe84033fa6855aa4.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">親愛なる管理人</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">アカウントおよびゲーム資産の安全性をさらに高めるため、アカウントシステムに【デバイス認証】機能を追加しました。</span></p><p><span style=\"color: rgb(0, 0, 0);\">アカウントセンターにて【新しいデバイスのログイン認証】を有効にできます。実装内容の詳細は以下の通りです。</span></p><p><span style=\"color: rgb(0, 0, 0);\">- アカウントでログインしたデバイスを一覧で確認できます。</span></p><p><span style=\"color: rgb(0, 0, 0);\">- ログイン済みデバイスの管理が可能となり、デバイスの削除を行うことができます。</span></p><p><span style=\"color: rgb(0, 0, 0);\">- 新しいデバイスまたは削除済みのデバイスからログインする場合、連携済みのメールアドレスに送信される認証コードによる本人確認が必要となります。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">機能有効化の手順</span></p><p><span style=\"color: rgb(0, 0, 0);\">PC端末：設定 → アカウント → セキュリティ設定 → デバイス管理</span></p><p><span style=\"color: rgb(0, 0, 0);\">モバイル端末：設定 → アカウント → ゲーム管理 → デバイス管理</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">本機能を有効にすることで、アカウントのセキュリティをより強化できます。</span></p><p><span style=\"color: rgb(0, 0, 0);\">アカウントの情報は適切に管理し、非公式サービス（チャージ代行、育成代行、アカウント売買などの第三者サービス）を通じてログイン情報やパスワードを共有しないようご注意ください。</span></p><p><span style=\"color: rgb(0, 0, 0);\">ご理解とご協力の程よろしくお願いいたします。</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1314",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 5,
+            "displayType": "rich_text",
+            "startAt": 1768860000,
+            "focus": 0,
+            "title": "公平性に関する\\n注意事項",
+            "header": "運営上の公平性に関する注意事項",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260119/48f7e0aef5efbc85d9b0b5e66f09e8cf.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">『アークナイツ：エンドフィールド』にご注目、ご支援いただきありがとうございます。環境に配慮した公平なゲーム環境を保ち、プレイヤーの皆様の合法的な権益を保障するため、ここに改めてお知らせいたします：</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">1.ゲーム中のチートプログラム及びサードパーティー製ツールの使用、非正規ルートでのチャージを禁じます。不正な方法でゲームの公平性を損ない、ゲーム利用規約に違反する行為をしないでください。バックグラウンドでの監視及びプレイヤーからの通報により上記の行為が発覚した場合、規約違反の状況に応じて違反行為による利益の没収、ゲームアカウントの凍結及び停止など、各種の措置を講じます。</span></p><p><span style=\"color: rgb(0, 0, 0);\">2. プレイヤーの皆様の合法的な権益を守るため、ゲームアカウントの譲渡、共有、取引はしないでください。上記の行為によりアカウントが盗難に遭ったり、アカウント内の権益が損なわれた場合、結果はプレイヤー自身が負うものとします。</span></p><p><span style=\"color: rgb(0, 0, 0);\">3.完全なゲームをお楽しみいただくため、インストールパッケージの解析、改造及び解析素材の配布はしないでください。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">最後に、良好なゲーム環境を作っていくためには、皆様と共に努力を重ねていく必要があります。そのため、ゲームの秩序維持にご協力いただき、規約違反行為を発見した場合は公式カスタマーサービスへ通報してください。</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8999",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 7,
+            "displayType": "rich_text",
+            "startAt": 1768860000,
+            "focus": 0,
+            "title": "機能の使用方法",
+            "header": "集成工業システムおよび図面の利用に関する説明",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260119/c627441b9548f22b3ab0d72dd15028e9.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">良好なゲーム環境を維持するため、集成工業システムに関連するコンテンツをご利用の際は、『利用規約』を遵守し、以下の行為はお控えください。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">1. 地域、人種、性的指向、宗教、政治等に関する差別的な内容の投稿または参加</span></p><p><span style=\"color: rgb(31, 35, 41);\">2. 誹謗中傷、不快感を与える、または他者の正当な権利を侵害する内容の投稿または参加</span></p><p><span style=\"color: rgb(31, 35, 41);\">3. わいせつ、残虐、暴力表現や賭博、憎悪を助長する内容の投稿または参加</span></p><p><span style=\"color: rgb(31, 35, 41);\">4. その他、「利用規約」において禁止または不適切とされる内容の投稿または参加</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">上記の内容に違反した場合、当社は状況に応じて、集成工業システム内の設置内容の削除、コンテンツの利用制限または停止、アカウント停止等の対応を行います。違反する内容や行為を発見された場合は、【通報機能】または【カスタマーサービスまでご連絡】にてご報告ください。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">「図面シェア」機能では、「図面のシェアコード」を発行し、作成した「図面」を他の管理人が閲覧・利用できるようになります。「図面のシェアコード」を共有した時点で、不特定の第三者による図面内容の閲覧・複製・利用を許諾したものとみなされます。共有を行うかどうかは、十分にご検討のうえご判断ください。</span></p>",
+              "linkType": 1
+            }
+          }
+        ]
+      },
+      "msg": ""
+    }
   }
 ]

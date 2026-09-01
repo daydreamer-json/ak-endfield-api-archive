@@ -779,5 +779,129 @@
       },
       "msg": ""
     }
+  },
+  {
+    "updatedAt": "2026-09-01T22:18:09.101+00:00",
+    "req": {
+      "channel": 6,
+      "server": 3,
+      "type": 1,
+      "lang": "en-us",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "code": 0,
+      "data": {
+        "topicCid": "0093",
+        "type": 1,
+        "platform": "Windows",
+        "server": "#DEFAULT",
+        "channel": "#DEFAULT",
+        "subChannel": "#DEFAULT",
+        "lang": "en-us",
+        "key": "1:Windows:#DEFAULT:#DEFAULT:#DEFAULT:en-us",
+        "version": "e05724d05a4854c7a97b67c9845e35b8",
+        "onlineList": [
+          {
+            "cid": "6466",
+            "version": 1773282866,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1303",
+            "version": 1770779772,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1314",
+            "version": 1768837310,
+            "needRedDot": true,
+            "needPopup": true
+          },
+          {
+            "cid": "8999",
+            "version": 1768837347,
+            "needRedDot": true,
+            "needPopup": true
+          }
+        ],
+        "popupVersion": 0,
+        "updatedAt": 1788300000,
+        "list": [
+          {
+            "cid": "6466",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1773279000,
+            "focus": 1,
+            "title": "Risk Warning",
+            "header": "Security Risk Warning for Using Unofficial Tools",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260311/629c4b49660a1fb9ab413f1ad09d8119.jpg\" data-width=\"1650\" data-height=\"300\"><p>Authorizing account login on third-party websites or tools carries security risks, such as the leakage of account information or misuse of data. To ensure your account security, we remind all players to note the following:</p><p>1. Do not authorize account login on any third-party platforms from unknown sources or lacking official certification.</p><p>2. Avoid entering account information or completing authorization on unofficial pages, as this may lead to risks such as information leakage or abnormal login activity.</p><p>3. Be sure to log in to the game and related service pages only through official channels, and exercise caution to avoid clicking links from unknown sources.</p><p></p><p>Thank you for your understanding and cooperation. Let's work together to maintain a safe and orderly gaming environment.</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1303",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1770778800,
+            "focus": 1,
+            "title": "Account Security Reminder",
+            "header": "Gryphline Account Security Device Verification Is Now Live",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260211/629c4b49660a1fb9ab413f1ad09d8119.jpg\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrator, <br><br>To further enhance the security of your Gryphline Account and safeguard your account and game assets, a [Security Device Verification] feature has been added to the account system. <br>Players can enable [New Device Login Verification] in the Account Center. Once enabled: <br>- The system will display a list of devices previously used to log in to the account; <br>- You can manage your logged-in devices and remove any device; <br>- When logging in on a removed or a new device, you must enter a verification code sent to your linked email to complete identity verification before you can successfully log in. <br><br>How to enable: <br>PC: Settings → Account Center → Security Settings → Manage Device <br>Mobile: Settings → Account Center → Manage Game → Manage Device <br><br>We recommend all players enable this feature as soon as possible to enhance account security. <br>Please safeguard your account information. Do not log in through unofficial channels or share your password on any third-party platform (including top-up, power-leveling, or account trading services) to avoid security risks. <br>Thank you for your understanding and support.</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1314",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 5,
+            "displayType": "rich_text",
+            "startAt": 1768860000,
+            "focus": 0,
+            "title": "Fair Play Statement",
+            "header": "Arknights: Endfield Fair Play Statement",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260119/5d0e1d77e0f3fc0f4357a5e926e0276f.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Thank you for your continued interest and support for Arknights: Endfield. To maintain a healthy and fair gaming environment and protect the legitimate rights and interests of all players, we would like to remind everyone of the following:</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">1. The use of cheats, third-party tools, unauthorized top-ups, or any other improper methods that disrupt the game's integrity or violate the Game Terms of Service is strictly prohibited. Based on backend monitoring and player reports, if such violations are confirmed, we will take appropriate action depending on the severity of the offense, including but not limited to the removal of illicit gains, temporary suspension, or permanent account bans.</span></p><p><span style=\"color: rgb(0, 0, 0);\">2. To protect the legitimate rights and interests of all players, please do not transfer, share, or trade your game account. Any consequences resulting from such actions, including account theft or loss of in-game assets, shall be borne by the player.</span></p><p><span style=\"color: rgb(0, 0, 0);\">3. To ensure a complete gameplay experience, players are strictly prohibited from unpacking, modifying, or tampering with the game installation files, as well as distributing related extracted materials.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Finally, creating a positive and fair gaming environment requires the collective efforts of all players. We kindly ask everyone to help maintain a fair and orderly gaming environment. If you come across any violations, please feel free to report them through our official customer service center.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8999",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 7,
+            "displayType": "rich_text",
+            "startAt": 1768860000,
+            "focus": 0,
+            "title": "Feature Usage Policy",
+            "header": "Automated Industry Complex & Blueprint Usage Policy",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260119/4f7b6292b5e17ec8c71ddbaa01e07e0f.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">To ensure a friendly gaming environment, please follow our Terms of Service when using features related to the Automated Industry Complex. Please do not post or engage in content that involves:</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">1. Discrimination based on region, race, sexual orientation, religion, politics, etc.</span></p><p><span style=\"color: rgb(31, 35, 41);\">2. Defamation, offense, or infringement of others' rights</span></p><p><span style=\"color: rgb(31, 35, 41);\">3. Obscenity, violence, gambling, or hate</span></p><p><span style=\"color: rgb(31, 35, 41);\">4. Anything prohibited or deemed inappropriate by the Terms of Service</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">If you engage in any of the above violations, penalties may be applied, including removal of items placed in the Automated Industry Complex, restrictions on AIC Factory features, and account suspension. To report violations, use the [Report] button or contact customer support.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">If you use the [Share Blueprint] feature, you will get a [Blueprint Code] that lets other Endministrators view and use your [Blueprint]. Before getting started, please note: by sharing your [Blueprint Code], you're allowing anyone to view, copy, or use your design. Please consider carefully before sharing.</span></p>",
+              "linkType": 1
+            }
+          }
+        ]
+      },
+      "msg": ""
+    }
   }
 ]

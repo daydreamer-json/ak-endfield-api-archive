@@ -779,5 +779,129 @@
       },
       "msg": ""
     }
+  },
+  {
+    "updatedAt": "2026-09-01T22:18:08.544+00:00",
+    "req": {
+      "channel": 6,
+      "server": 3,
+      "type": 1,
+      "lang": "fr-fr",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "code": 0,
+      "data": {
+        "topicCid": "0093",
+        "type": 1,
+        "platform": "Windows",
+        "server": "#DEFAULT",
+        "channel": "#DEFAULT",
+        "subChannel": "#DEFAULT",
+        "lang": "fr-fr",
+        "key": "1:Windows:#DEFAULT:#DEFAULT:#DEFAULT:fr-fr",
+        "version": "e05724d05a4854c7a97b67c9845e35b8",
+        "onlineList": [
+          {
+            "cid": "6466",
+            "version": 1773282866,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1303",
+            "version": 1770779772,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1314",
+            "version": 1768837310,
+            "needRedDot": true,
+            "needPopup": true
+          },
+          {
+            "cid": "8999",
+            "version": 1768837347,
+            "needRedDot": true,
+            "needPopup": true
+          }
+        ],
+        "popupVersion": 0,
+        "updatedAt": 1788300000,
+        "list": [
+          {
+            "cid": "6466",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1773279000,
+            "focus": 1,
+            "title": "Avertissement sur les risques",
+            "header": "Avertissement sur les risques des outils non officiels",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260311/436edd4bbd63e980f95a30b7efbb4249.jpg\" data-width=\"1650\" data-height=\"300\"><p>Autoriser la connexion de votre compte à des sites ou des outils tiers présente des risques de sécurité, tels que la fuite des informations de votre compte ou une utilisation abusive de vos données. Afin de garantir la sécurité de votre compte, nous demandons à tous les joueurs de bien vouloir tenir compte des conseils suivants&nbsp;:</p><p>1. N'autorisez pas la connexion de votre compte à des plateformes tierces dont l'origine est inconnue ou qui ne présentent pas de certification officielle.</p><p>2. Évitez de saisir vos informations de compte ou de donner votre autorisation sur des pages non officielles, car cela pourrait entraîner des risques, notamment une fuite d'informations ou des anomalies dans votre activité de connexion.</p><p>3. Assurez-vous de ne vous connecter au jeu et aux pages des services associés qu'à partir de nos canaux officiels, et faites preuve de prudence&nbsp;: ne cliquez pas sur des liens provenant de sources inconnues.</p><p></p><p>Merci pour votre compréhension et votre coopération. Agissons ensemble pour garantir un environnement de jeu sécurisé et ordonné.</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1303",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1770778800,
+            "focus": 1,
+            "title": "Rappel sur la sécurité du compte",
+            "header": "Rappel sur la sécurité du compte",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260211/436edd4bbd63e980f95a30b7efbb4249.jpg\" data-width=\"1650\" data-height=\"300\"><p>Endministrator,</p><p></p><p>Pour améliorer davantage la sécurité de votre compte Gryphline et protéger votre compte et vos données de jeu, une fonctionnalité de [Vérification d'appareils] a été ajoutée au système des comptes.</p><p>Vous pouvez désormais activer la [Vérification de connexion sur un nouvel appareil] dans le centre de compte. Une fois cette fonction activée&nbsp;:</p><p>- Le système affichera la liste des appareils déjà utilisés pour une connexion à votre compte&nbsp;;</p><p>- Vous pourrez gérer vos appareils connectés et supprimer certains appareils&nbsp;;</p><p>- Lorsque vous vous connecterez sur un appareil supprimé ou un nouvel appareil, vous devrez saisir un code de vérification, envoyé sur votre adresse e-mail associée, afin de finaliser la vérification complète d'identité vous permettant de vous connecter.</p><p></p><p>Comment l'activer&nbsp;:</p><p>Sur PC&nbsp;: Paramètres → Centre de compte → Paramètres de sécurité → Gérer l'appareil</p><p>Sur mobile&nbsp;: Paramètres → Centre de compte → Gérer le jeu → Gérer l'appareil</p><p></p><p>Nous recommandons à tous les joueurs d'activer cette fonctionnalité dès que possible afin d'améliorer la sécurité de leur compte.</p><p>Veuillez bien préserver les données de votre compte. Afin d'éviter tout problème de sécurité, ne vous connectez pas via des canaux non officiels, et ne partagez pas votre mot de passe sur une plateforme tierce (notamment pour des services de recharge, de power leveling ou de vente de comptes).</p><p>Merci pour votre compréhension et votre soutien.</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1314",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 5,
+            "displayType": "rich_text",
+            "startAt": 1768860000,
+            "focus": 0,
+            "title": "Règles de fair-play",
+            "header": "Règles de fair-play d'Arknights: Endfield",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260119/0124ec05493701714ff2280c237f4020.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Merci pour votre intérêt et votre soutien permanent à Arknights: Endfield. En vue de maintenir un environnement de jeu sain et équitable, et de protéger les droits et intérêts légitimes de tous les joueurs, nous souhaitons rappeler à tous les joueurs les points suivants :</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">1. L'utilisation de codes de triche, d'outils tiers, de recharges non autorisées ou de toute autre méthode inappropriée perturbant l'intégrité du jeu ou enfreignant les Conditions d'utilisation du jeu est strictement interdite. Selon les rapports de surveillance interne et les signalements des joueurs, dans le cas où de telles violations sont confirmées, nous prendrons les mesures qui s'imposent en fonction de la gravité de l'infraction. Cela inclut, mais sans s'y limiter, le retrait des gains illicites, la suspension temporaire ou le bannissement définitif du compte.</span></p><p><span style=\"color: rgb(0, 0, 0);\">2. Afin de préserver les droits et intérêts légitimes de tous les joueurs, veuillez ne pas transférer, partager ou monnayer votre compte de jeu. Les conséquences résultant de tels actes, notamment le vol de compte ou la perte d'éléments dans le jeu, relèvent de l'entière responsabilité du joueur.</span></p><p><span style=\"color: rgb(0, 0, 0);\">3. Afin de garantir une expérience de jeu complète, les joueurs ne sont pas autorisés à décompresser, modifier ou altérer les fichiers d'installation du jeu, et ils ne doivent pas distribuer d'éléments ainsi extraits.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Enfin, pour créer un environnement de jeu positif et juste, il faut que tous les joueurs produisent un effort collectif. Nous demandons à chacun et chacune de contribuer à entretenir un cadre de jeu juste et pacifique. Si vous vous rendez compte de violations de ces règles, veuillez les signaler via notre centre de service client officiel.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8999",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 7,
+            "displayType": "rich_text",
+            "startAt": 1768860000,
+            "focus": 0,
+            "title": "Politique d'utilisation des fonctionnalités",
+            "header": "Politique d'utilisation des fonctionnalités",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260119/f756424cf9fdd4694161abeb41eed35c.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">Afin de garantir un environnement de jeu convivial, veuillez respecter nos Conditions d'Utilisation lorsque vous utilisez les fonctionnalités liées au Groupe industriel automatisé. Veuillez ne pas publier ou diffuser de contenu comportant :</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">1. Toute forme de discrimination fondée sur la région, l'ethnie, l'orientation sexuelle, la religion, les opinions politiques, etc.</span></p><p><span style=\"color: rgb(31, 35, 41);\">2. Toute forme de diffamation, d'insulte ou de violation des droits d'autrui</span></p><p><span style=\"color: rgb(31, 35, 41);\">3. Toute forme d'obscénité, de violence, de jeu d'argent ou de haine</span></p><p><span style=\"color: rgb(31, 35, 41);\">4. Tout élément interdit ou jugé inapproprié par les Conditions d'Utilisation.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Si vous commettez l'une des infractions susmentionnées, des sanctions peuvent être appliquées, notamment la suppression des éléments placés dans le Groupe industriel automatisé, la restriction de certaines fonctionnalités de l'Usine GIA et la suspension de votre compte. Pour signaler une infraction, utilisez le bouton [Signaler] ou contactez le support client.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Si vous utilisez la fonctionnalité [Partager un plan], vous obtiendrez un [Code de plan] qui permettra aux autres Endministrators de voir et d'utiliser votre [Plan]. Avant de commencer, veuillez noter qu'en partageant votre [Code de plan], vous acceptez que tout le monde puisse consulter, copier ou utiliser votre conception. Réfléchissez bien avant de le partager.</span></p>",
+              "linkType": 1
+            }
+          }
+        ]
+      },
+      "msg": ""
+    }
   }
 ]

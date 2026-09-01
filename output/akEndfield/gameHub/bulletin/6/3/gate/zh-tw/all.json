@@ -779,5 +779,129 @@
       },
       "msg": ""
     }
+  },
+  {
+    "updatedAt": "2026-09-01T22:18:11.105+00:00",
+    "req": {
+      "channel": 6,
+      "server": 3,
+      "type": 1,
+      "lang": "zh-tw",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "code": 0,
+      "data": {
+        "topicCid": "0093",
+        "type": 1,
+        "platform": "Windows",
+        "server": "#DEFAULT",
+        "channel": "#DEFAULT",
+        "subChannel": "#DEFAULT",
+        "lang": "zh-tw",
+        "key": "1:Windows:#DEFAULT:#DEFAULT:#DEFAULT:zh-tw",
+        "version": "e05724d05a4854c7a97b67c9845e35b8",
+        "onlineList": [
+          {
+            "cid": "6466",
+            "version": 1773282866,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1303",
+            "version": 1770779772,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1314",
+            "version": 1768837310,
+            "needRedDot": true,
+            "needPopup": true
+          },
+          {
+            "cid": "8999",
+            "version": 1768837347,
+            "needRedDot": true,
+            "needPopup": true
+          }
+        ],
+        "popupVersion": 0,
+        "updatedAt": 1788300000,
+        "list": [
+          {
+            "cid": "6466",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1773279000,
+            "focus": 1,
+            "title": "風險提示",
+            "header": "關於使用非官方工具的安全風險提示",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260311/341c9eb5e14edb5e2ff5e5356c724190.jpg\" data-width=\"1650\" data-height=\"300\"><p>在第三方網頁或工具中授權帳號登入可能有帳號資訊洩漏或資料被不當使用的安全風險。在此提醒各位玩家，為保障您的帳號安全，請注意：</p><p>1. 請勿在任何來源不明或未經官方認證的第三方平台授權帳號登入；</p><p>2. 避免在非官方頁面輸入帳號訊息或執行授權操作，否則可能導致資料洩漏、異常登入等風險；</p><p>3. 請務必透過官方管道登入遊戲及相關服務頁面，謹慎識別並避免點擊來源不明的連結。</p><p></p><p>感謝各位玩家的理解與配合，讓我們共同守護安全、良好的遊戲環境。</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1303",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1770778800,
+            "focus": 1,
+            "title": "帳號安全提醒",
+            "header": "通行證帳號安全裝置驗證功能上線",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260211/341c9eb5e14edb5e2ff5e5356c724190.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">親愛的管理員</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">為進一步提升通行證帳號安全性，保障您的帳號及遊戲資產安全，帳號系統已新增【安全裝置驗證】功能。</span></p><p><span style=\"color: rgb(0, 0, 0);\">玩家可在帳戶中心開啟【新裝置登入身分驗證】。功能開啟後：</span></p><p><span style=\"color: rgb(0, 0, 0);\">- 系統將展示該帳號曾登入過的裝置清單；</span></p><p><span style=\"color: rgb(0, 0, 0);\">- 您可管理已登入的裝置，並可移除裝置；</span></p><p><span style=\"color: rgb(0, 0, 0);\">- 當帳號在已移除的裝置或新的裝置上登入時，必須透過已綁定的電子信箱收取驗證碼並完成身分驗證後，方可成功登入。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">功能開啟方式：</span></p><p><span style=\"color: rgb(0, 0, 0);\">PC：設定 → 帳戶中心 → 安全設定 → 裝置管理</span></p><p><span style=\"color: rgb(0, 0, 0);\">行動裝置：設定 → 帳戶中心 → 遊戲管理 → 裝置管理</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">建議各位玩家及時開啟該功能，提升帳號安全等級。</span></p><p><span style=\"color: rgb(0, 0, 0);\">請妥善保管您的帳號資料，切勿在非官方管道登入或洩漏帳號密碼（包括代儲、代練、帳號交易等第三方平台），謹防帳號風險。</span></p><p><span style=\"color: rgb(0, 0, 0);\">感謝您的理解與支持。</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1314",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 5,
+            "displayType": "rich_text",
+            "startAt": 1768860000,
+            "focus": 0,
+            "title": "公平營運聲明",
+            "header": "《明日方舟：終末地》公平營運聲明",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260119/5752e1f617665d16ad80e9787a7da43d.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">感謝您對《明日方舟：終末地》的關注與支持。為維護健康、公平的遊戲環境，並保障各位玩家的合法權益，特此提醒各位玩家：</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">1.請勿於遊戲中使用外掛程式、第三方工具，或透過非正規管道儲值，亦不得以任何不正當方式破壞遊戲公平性或違反遊戲使用者協議。經系統監控或玩家檢舉查證上述行為屬實後，將依實際違規情節，採取扣除不當收益、凍結或永久封禁遊戲帳號等一項或多項處置措施。</span></p><p><span style=\"color: rgb(0, 0, 0);\">2.為保障各位玩家合法權益，請勿進行遊戲帳號的轉讓、共用或交易行為。若因上述行為導致帳號遭盜用，或帳號內相關權益受損，相關後果將由玩家自行承擔。</span></p><p><span style=\"color: rgb(0, 0, 0);\">3.為確保玩家能享有完整且穩定的遊戲體驗，請勿擅自解析、修改遊戲安裝檔及散布任何相關解析內容。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">最後，良好的遊戲環境有賴所有玩家共同維護。敬請各位玩家配合遵守遊戲規範，如發現任何違規行為，歡迎透過官方客服管道進行檢舉。</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8999",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 7,
+            "displayType": "rich_text",
+            "startAt": 1768860000,
+            "focus": 0,
+            "title": "功能使用聲明",
+            "header": "集成工業系統及藍圖功能使用聲明",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260119/45617d4f6d90f3988f10fafbaa2c7998.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">為了共同營造良好的遊戲環境，在使用集成工業系統相關功能時，請您遵守「服務條款」規範，請勿發布或參與：</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">1. 涉及地域、種族、性向、宗教、政治等方面的歧視內容；</span></p><p><span style=\"color: rgb(31, 35, 41);\">2. 具有誹謗性、令人反感或侵害他人合法權益的內容；</span></p><p><span style=\"color: rgb(31, 35, 41);\">3. 含有淫穢色情、血腥暴力、賭博、仇恨等的內容；</span></p><p><span style=\"color: rgb(31, 35, 41);\">4. 其他《服務條款》中禁止或不適宜的內容。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">若您違反了上述規範的行為，我們將視情況採取清空集成工業系統擺放內容、限制或禁止使用集成工業系統功能、封停帳號等措施。如您發現有違規的內容或行為，可透過【檢舉功能】或【聯絡客服】回報。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">此外，若您使用【藍圖分享】功能，會生成【藍圖分享碼】，將您設計的【藍圖】分享給其他管理員查看與使用。在使用該功能前，請您進一步知悉並確認：您一旦分享您的【藍圖分享碼】，即視為您授權給不特定第三方查看、複製或使用該藍圖內容，請您自行判斷是否分享。</span></p>",
+              "linkType": 1
+            }
+          }
+        ]
+      },
+      "msg": ""
+    }
   }
 ]

@@ -252,5 +252,38 @@
       },
       "video_single_ent": null
     }
+  },
+  {
+    "updatedAt": "2026-09-01T22:18:07.936+00:00",
+    "req": {
+      "appCode": "6LL0KJuqHBVz33WK",
+      "channel": 2,
+      "subChannel": 2,
+      "lang": "zh-cn",
+      "region": "cn",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "single_ent": {
+        "version_url": "",
+        "version_md5": "",
+        "jump_url": "",
+        "button_url": "",
+        "button_md5": "",
+        "button_hover_url": "",
+        "button_hover_md5": "",
+        "need_token": true
+      },
+      "video_single_ent": {
+        "version_url": "",
+        "version_md5": "",
+        "jump_url": "",
+        "button_url": "",
+        "button_md5": "",
+        "button_hover_url": "",
+        "button_hover_md5": "",
+        "need_token": false
+      }
+    }
   }
 ]

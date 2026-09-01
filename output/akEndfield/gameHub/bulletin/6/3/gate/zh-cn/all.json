@@ -779,5 +779,129 @@
       },
       "msg": ""
     }
+  },
+  {
+    "updatedAt": "2026-09-01T22:18:10.575+00:00",
+    "req": {
+      "channel": 6,
+      "server": 3,
+      "type": 1,
+      "lang": "zh-cn",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "code": 0,
+      "data": {
+        "topicCid": "0093",
+        "type": 1,
+        "platform": "Windows",
+        "server": "#DEFAULT",
+        "channel": "#DEFAULT",
+        "subChannel": "#DEFAULT",
+        "lang": "zh-cn",
+        "key": "1:Windows:#DEFAULT:#DEFAULT:#DEFAULT:zh-cn",
+        "version": "e05724d05a4854c7a97b67c9845e35b8",
+        "onlineList": [
+          {
+            "cid": "6466",
+            "version": 1773282866,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1303",
+            "version": 1770779772,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1314",
+            "version": 1768837310,
+            "needRedDot": true,
+            "needPopup": true
+          },
+          {
+            "cid": "8999",
+            "version": 1768837347,
+            "needRedDot": true,
+            "needPopup": true
+          }
+        ],
+        "popupVersion": 0,
+        "updatedAt": 1788300000,
+        "list": [
+          {
+            "cid": "6466",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1773279000,
+            "focus": 1,
+            "title": "风险提示",
+            "header": "关于使用非官方工具的安全风险提示",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260311/88e4259d926e10e3c8c0677bbf57e51c.jpg\" data-width=\"1650\" data-height=\"300\"><p>在第三方网页或工具中进行账号授权登录的操作存在账号信息泄露或数据被不当使用的安全风险。在此提醒各位玩家，为保障您的账号安全，请注意：</p><p>1、请勿在任何来源不明或未经官方认证的第三方平台进行账号授权登录；</p><p>2、避免在非官方页面输入账号信息或执行授权操作，否则可能导致信息泄露、异常登录等风险；</p><p>3、请务必通过官方渠道登录游戏及相关服务页面，谨慎识别并避免点击来源不明的链接。</p><p></p><p>感谢各位玩家的理解与配合，让我们共同维护安全、有序的游戏环境。</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1303",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1770778800,
+            "focus": 1,
+            "title": "账号安全提醒",
+            "header": "通行证账号安全设备验证功能上线",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260211/88e4259d926e10e3c8c0677bbf57e51c.jpg\" data-width=\"1650\" data-height=\"300\"><p>亲爱的管理员<br><br>为进一步提升通行证账号安全性，保障您的账号及游戏资产安全，账号系统已新增【安全设备验证】功能。<br>玩家可在用户中心开启【新设备登录身份验证】。功能开启后：<br>- 系统将展示该账号曾登录过的设备列表；<br>- 您可管理已登录的设备，并可移除设备；<br>- 当账号在已移除的设备或新的设备上登录时，必须通过已绑定的邮箱接收验证码并完成身份验证后，方可成功登录。<br><br>功能开启路径：<br>PC端： 设置 → 用户中心 → 安全设置 → 设备管理<br>移动端： 设置 → 用户中心 → 游戏管理 → 设备管理<br><br>建议各位玩家及时开启该功能，提升账号安全等级。<br>请妥善保管您的账号信息，切勿在非官方渠道登录或泄露账号密码（包括代充、代练、账号交易等第三方平台），谨防账号风险。<br>感谢您的理解与支持。</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1314",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 5,
+            "displayType": "rich_text",
+            "startAt": 1768860000,
+            "focus": 0,
+            "title": "公平运营声明",
+            "header": "《明日方舟：终末地》公平运营声明",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260119/1651259ae841fbf5def82e3fa4c81f21.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">感谢您对《明日方舟：终末地》的关注与支持。为维护绿色、公平的游戏环境，保障各位玩家的合法权益，在此特意提醒各位玩家：</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">1. 禁止游戏中使用外挂、第三方工具、非正规途径充值，不得以任何不正当方式破坏游戏公平性、违反游戏用户协议。根据后台监控和玩家举报，如发现以上行为，我们将根据具体违规情节采取扣除违规收益、冻结和封停游戏账号等一项或多项措施。</span></p><p><span style=\"color: rgb(0, 0, 0);\">2. 为维护各位玩家的合法权益，请勿转让、共享、交易游戏账号；若因上述行为导致账号被盗或账号内权益受损等情况，相关后果由玩家自行承担。</span></p><p><span style=\"color: rgb(0, 0, 0);\">3. 为保证玩家完整的游戏体验，请勿解析、修改安装包及传播相关解析素材。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">最后，为打造良好的游戏环境，也需要各位玩家的共同努力。为此，请各位玩家配合维护游戏秩序，如发现违规行为，欢迎通过官方客服进行举报。</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8999",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 7,
+            "displayType": "rich_text",
+            "startAt": 1768860000,
+            "focus": 0,
+            "title": "功能使用说明",
+            "header": "集成工业系统及蓝图功能使用声明",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260119/a5600478deae74d1cb13f922961e65bc.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">为共同营造良好的游戏氛围，在使用集成工业系统相关功能时，请您遵守鹰角网络游戏使用许可及服务协议（简称“《用户协议》”），请勿发布及/或参与：</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">1.涉及地域、种族、性向、宗教、政治等方面的歧视内容；</span></p><p><span style=\"color: rgb(31, 35, 41);\">2.具有诽谤性、令人反感或侵害他人合法权益的内容；</span></p><p><span style=\"color: rgb(31, 35, 41);\">3.含有淫秽色情、血腥暴力、赌博、仇恨等的内容；</span></p><p><span style=\"color: rgb(31, 35, 41);\">4.其他《用户协议》中禁止或不适宜的内容。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">若您实施了违反上述规范的行为，我们将视情况采取清空集成工业系统摆放内容、限制或禁止使用集成工业系统功能、封停账号等措施。如您发现违规内容或行为，可通过【举报功能】或【联系客服】进行反馈。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">此外，若您使用【蓝图分享】功能，会生成【蓝图分享码】，将您设计的【蓝图】分享给其他管理员查看与使用。在使用该功能前，请您进一步知悉并确认：您一旦分享您的【蓝图分享码】，即视为您授权不特定第三方查看、复制或使用该蓝图内容，请您自行判断是否分享。</span></p>",
+              "linkType": 1
+            }
+          }
+        ]
+      },
+      "msg": ""
+    }
   }
 ]

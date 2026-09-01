@@ -779,5 +779,129 @@
       },
       "msg": ""
     }
+  },
+  {
+    "updatedAt": "2026-09-01T22:18:10.002+00:00",
+    "req": {
+      "channel": 6,
+      "server": 3,
+      "type": 1,
+      "lang": "pt-br",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "code": 0,
+      "data": {
+        "topicCid": "0093",
+        "type": 1,
+        "platform": "Windows",
+        "server": "#DEFAULT",
+        "channel": "#DEFAULT",
+        "subChannel": "#DEFAULT",
+        "lang": "pt-br",
+        "key": "1:Windows:#DEFAULT:#DEFAULT:#DEFAULT:pt-br",
+        "version": "e05724d05a4854c7a97b67c9845e35b8",
+        "onlineList": [
+          {
+            "cid": "6466",
+            "version": 1773282866,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1303",
+            "version": 1770779772,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1314",
+            "version": 1768837310,
+            "needRedDot": true,
+            "needPopup": true
+          },
+          {
+            "cid": "8999",
+            "version": 1768837347,
+            "needRedDot": true,
+            "needPopup": true
+          }
+        ],
+        "popupVersion": 0,
+        "updatedAt": 1788300000,
+        "list": [
+          {
+            "cid": "6466",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1773279000,
+            "focus": 1,
+            "title": "Alerta de Risco",
+            "header": "Alerta de Risco",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260311/33cc75aaa9198f687fb0d6ee4191426b.jpg\" data-width=\"1650\" data-height=\"300\"><p>Autorizar o login da conta em sites ou ferramentas de terceiros traz riscos de segurança, como o vazamento de informações da conta ou o uso indevido de dados. Para garantir a segurança da sua conta, lembramos a todos os jogadores que observem o seguinte:</p><p>1. Não autorize o login da conta em plataformas de terceiros de origem desconhecida ou que não possuam certificação oficial.</p><p>2. Evite inserir informações da conta ou concluir a autorização em páginas não oficiais, pois isso pode levar a riscos como vazamento de informações ou atividade anormal de login.</p><p>3. Certifique-se de fazer login no jogo e nas páginas de serviços relacionadas apenas por meio de canais oficiais e tenha muito cuidado ao clicar em links de fontes desconhecidas.</p><p></p><p>Agradecemos a sua compreensão e colaboração. Vamos trabalhar juntos para criar um ambiente de jogo seguro e harmonioso.</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1303",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1770778800,
+            "focus": 1,
+            "title": "Lembrete de Segurança de Conta",
+            "header": "Lembrete de Segurança de Conta",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260211/33cc75aaa9198f687fb0d6ee4191426b.jpg\" data-width=\"1650\" data-height=\"300\"><p>Endministrator,</p><p></p><p>Para melhorar ainda mais a segurança da sua Conta Gryphline e proteger seus recursos de conta e de jogo, adicionamos um recurso de [Verificação de Segurança de Dispositivo] ao sistema de contas.</p><p>Os jogadores podem habilitar a [Verificação de Login em Dispositivo Novo] na Central de Contas. Com ela habilitada:</p><p>- O sistema exibirá uma lista dos dispositivos já usados para fazer login na conta;</p><p>- Você pode gerenciar os dispositivos nos quais foram feitos login e remover qualquer um deles;</p><p>- Antes de fazer login em um dispositivo novo ou já removido, você terá de inserir um código de verificação enviado ao e-mail vinculado para concluir a verificação de identidade.</p><p></p><p>Como habilitar:</p><p>PC: Configurações → Central de Contas → Configurações de segurança → Gerenciar dispositivo</p><p>Dispositivo móvel: Configurações → Central de Contas → Gerenciar jogo → Gerenciar dispositivo</p><p></p><p>Recomendamos que todos os jogadores habilitem esse recurso assim que possível para melhorar a segurança da conta.</p><p>Proteja as informações de sua conta. Não faça login por meio de canais não oficiais, nem compartilhe sua senha em nenhuma plataforma de terceiros (incluindo serviços de recarga, aumento de poder ou troca/comércio de contas) para evitar riscos de segurança.</p><p>Agradecemos sua compreensão e apoio.</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1314",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 5,
+            "displayType": "rich_text",
+            "startAt": 1768860000,
+            "focus": 0,
+            "title": "Declaração de Fair Play",
+            "header": "Declaração de Fair Play de Arknights: Endfield",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260119/68cd931cf07ec8c99d73e91d84cacafa.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Agradecemos seu apoio e interesse em Arknights: Endfield. Para manter um ambiente de jogo justo e saudável, bem como proteger os direitos e interesses legítimos de todos os jogadores, gostaríamos de lembrar a todos do seguinte:</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">1. O uso de trapaças, ferramentas de terceiros, recargas não autorizadas ou qualquer outro método inadequado que prejudique a integridade do jogo ou viole os Termos do Serviço do Jogo são estritamente proibidos. Com base em monitoramento de back-end e relatos de jogadores, se alguma violação desse tipo for confirmada, tomaremos as medidas adequadas dependendo da gravidade da infração, incluindo, entre outros, remoção dos ganhos ilícitos, suspensão temporária ou banimento permanente da conta.</span></p><p><span style=\"color: rgb(0, 0, 0);\">2. Para proteger os direitos e interesses legítimos de todos os jogadores, é proibido transferir, compartilhar ou comercializar sua conta do jogo. Quaisquer consequências resultantes de tais ações, incluindo roubo de conta ou perda de ativos no jogo, serão de responsabilidade do jogador.</span></p><p><span style=\"color: rgb(0, 0, 0);\">3. Para garantir uma experiência de jogo completa, é proibido aos jogadores descompactar, modificar ou alterar os arquivos de instalação do jogo, bem como distribuir materiais extraídos relacionados.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Por fim, a criação de um ambiente de jogo justo e positivo exige os esforços coletivos de todos os jogadores. Sendo assim, pedimos para que todos mantenham um ambiente de jogo justo e harmonioso. Se você encontrar alguma violação, fique à vontade para denunciá-la por meio da nossa central oficial de atendimento ao cliente.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8999",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 7,
+            "displayType": "rich_text",
+            "startAt": 1768860000,
+            "focus": 0,
+            "title": "Política de Uso de Recursos",
+            "header": "Política de Uso de Recursos",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260119/720f97503c58bc33ee309765aeb64f0e.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">Para garantir um ambiente de jogo amigável, siga nossos Termos do Serviço ao usar recursos relacionados ao Complexo Industrial Automatizado. Não poste ou se envolva em conteúdo que envolva:</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">1. Discriminação com base em região, raça, orientação sexual, religião, política, etc.</span></p><p><span style=\"color: rgb(31, 35, 41);\">2. Difamação, ofensa ou violação dos direitos de terceiros</span></p><p><span style=\"color: rgb(31, 35, 41);\">3. Obscenidade, violência, jogo de azar ou ódio</span></p><p><span style=\"color: rgb(31, 35, 41);\">4. Qualquer coisa proibida ou considerada inadequada pelos Termos do Serviço</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Se você cometer qualquer uma das violações acima, penalidades poderão ser aplicadas, incluindo a remoção de itens colocados no Complexo Industrial Automatizado, restrições nos recursos da Fábrica do CIA e suspensão da conta. Para denunciar violações, use o botão [Denunciar] ou fale com o suporte ao cliente.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Se você usar o recurso [Compartilhar plantas], receberá um [Código de planta] que permite que outros Endministrators visualizem e usem sua [Planta]. Antes de começar, observe: ao compartilhar seu [Código de planta], você permite que qualquer pessoa visualize, copie ou use seu design. Pense bem antes de compartilhar.</span></p>",
+              "linkType": 1
+            }
+          }
+        ]
+      },
+      "msg": ""
+    }
   }
 ]

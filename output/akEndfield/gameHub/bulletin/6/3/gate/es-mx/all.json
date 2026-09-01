@@ -779,5 +779,129 @@
       },
       "msg": ""
     }
+  },
+  {
+    "updatedAt": "2026-09-01T22:18:08.767+00:00",
+    "req": {
+      "channel": 6,
+      "server": 3,
+      "type": 1,
+      "lang": "es-mx",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "code": 0,
+      "data": {
+        "topicCid": "0093",
+        "type": 1,
+        "platform": "Windows",
+        "server": "#DEFAULT",
+        "channel": "#DEFAULT",
+        "subChannel": "#DEFAULT",
+        "lang": "es-mx",
+        "key": "1:Windows:#DEFAULT:#DEFAULT:#DEFAULT:es-mx",
+        "version": "e05724d05a4854c7a97b67c9845e35b8",
+        "onlineList": [
+          {
+            "cid": "6466",
+            "version": 1773282866,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1303",
+            "version": 1770779772,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1314",
+            "version": 1768837310,
+            "needRedDot": true,
+            "needPopup": true
+          },
+          {
+            "cid": "8999",
+            "version": 1768837347,
+            "needRedDot": true,
+            "needPopup": true
+          }
+        ],
+        "popupVersion": 0,
+        "updatedAt": 1788300000,
+        "list": [
+          {
+            "cid": "6466",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1773279000,
+            "focus": 1,
+            "title": "Advertencia de riesgo",
+            "header": "Riesgo de seguridad: herramientas no oficiales",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260311/ac77fd21752dd45072e9850b544a1765.jpg\" data-width=\"1650\" data-height=\"300\"><p>Autorizar el inicio de sesión de una cuenta en sitios web o herramientas de terceros conlleva riesgos de seguridad, como la divulgación de información de la cuenta o el uso indebido de datos. Para garantizar la seguridad de las cuentas, les pedimos a todos los jugadores que tengan en cuenta lo siguiente:</p><p>1. No autoricen inicios de sesión de su cuenta en plataformas de terceros de fuentes desconocidas o que carezcan de certificación oficial.</p><p>2. No ingresen información de la cuenta ni completen autorizaciones en páginas no oficiales, ya que esto puede generar riesgos, como la divulgación de información o actividades de inicio de sesión anormales.</p><p>3. Asegúrense de iniciar sesión en el juego y en las páginas de los servicios relacionados únicamente a través de los canales oficiales, y tengan mucho cuidado con los enlaces de fuentes desconocidas.</p><p></p><p>Gracias por su comprensión y cooperación. Juntos podremos mantener un entorno de juego seguro y ordenado.</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1303",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1770778800,
+            "focus": 1,
+            "title": "Recordatorio de seguridad de la cuenta",
+            "header": "Recordatorio de seguridad de la cuenta",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260211/ac77fd21752dd45072e9850b544a1765.jpg\" data-width=\"1650\" data-height=\"300\"><p>Hola, Endministrator:</p><p></p><p>Para mejorar aún más la seguridad de tu cuenta Gryphline y proteger tu cuenta y los activos del juego, se ha añadido una función [Verificación de seguridad del dispositivo] al sistema de cuentas.</p><p>Puedes habilitar la [Verificación de inicio de sesión en un dispositivo nuevo] en el Centro de cuentas. Una vez habilitada la función:</p><p>- El sistema mostrará una lista de dispositivos que se usaron para iniciar sesión en la cuenta.</p><p>- Puedes administrar tus dispositivos conectados y eliminar cualquier dispositivo.</p><p>- Cuando inicies sesión en un dispositivo nuevo o eliminado, debes introducir un código de verificación que se enviará a tu correo electrónico vinculado para completar la verificación de identidad antes de poder iniciar sesión correctamente.</p><p></p><p>Cómo habilitar la función:</p><p>PC: Configuración → Centro de cuentas → Configuración de seguridad → Administrar dispositivo</p><p>Dispositivo móvil: Configuración → Centro de cuentas → Administrar juego → Administrar dispositivo</p><p></p><p>Recomendamos que todos los jugadores habiliten esta función lo antes posible para mejorar la seguridad de la cuenta.</p><p>Protege la información de tu cuenta. No inicies sesión a través de canales no oficiales ni compartas tu contraseña en ninguna plataforma de terceros (incluyendo los servicios de recarga, de subida de nivel o de compraventa de cuentas) para evitar riesgos de seguridad.</p><p>Gracias por tu comprensión y apoyo.</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1314",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 5,
+            "displayType": "rich_text",
+            "startAt": 1768860000,
+            "focus": 0,
+            "title": "Declaración de juego limpio",
+            "header": "Juego limpio de Arknights: Endfield",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260119/c2c269323b02bf88b650e34b5a574413.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Gracias por tu interés y apoyo cotinuos a Arknights: Endfield. Para generar y mantener un entorno de juego limpio y saludable, y para proteger los derechos e intereses legítimos de todos los jugadores, queremos recordarles a todos lo siguiente:</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">1. Está estrictamente prohibido el uso de trampas, herramientas de terceros, recargas no autorizadas o cualquier otro método indebido que afecte la integridad del juego o infrinja los Términos del Servicio del Juego. Si se confirman dichas infracciones, con base en monitoreo backend y denuncias de jugadores, realizaremos las acciones adecuadas según la gravedad de la infracción, incluyendo, pero sin limitación, la quita de ganancias ilícitas, la suspensión temporal de cuentas o la expulsión permanente de estas.</span></p><p><span style=\"color: rgb(0, 0, 0);\">2. Para proteger los derechos e intereses legítimos de todos los jugadores, no transfieras, compartas o intercambies tu cuenta de juego. Cualquier consecuencia resultante de dichas acciones, incluyendo el robo de la cuenta o la pérdida de recursos en el juego, correrá a cargo del jugador.</span></p><p><span style=\"color: rgb(0, 0, 0);\">3. Para garantizar una experiencia de juego completa, se prohíbe descomprimir, modificar o manipular los archivos de instalación del juego y distribuir los materiales relacionados que se extraigan.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Para finalizar, la creación de un entorno de juego limpio y positivo requiere del esfuerzo colectivo de todos los jugadores. Solicitamos encarecidamente que todos ayuden a mantener un entorno de juego limpio y ordenado. Si encuentras una infracción de cualquier tipo, denúnciala a través de nuestro centro de atención al cliente oficial.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8999",
+            "type": 1,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 7,
+            "displayType": "rich_text",
+            "startAt": 1768860000,
+            "focus": 0,
+            "title": "Política de uso de funciones",
+            "header": "Detalles del Complejo Industrial Automatizado y los planos",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260119/64ba945f98886832f800a5752acf9a4b.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">A fin de asegurar un entorno de juego amistoso, cumple con nuestros Términos del Servicio al usar funciones relacionadas con el Complejo Industrial Automatizado. No publiques contenido ni participes en contenido que involucre los siguientes aspectos:</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">1. Discriminación por región, raza, orientación sexual, religión, política, etc.</span></p><p><span style=\"color: rgb(31, 35, 41);\">2. Difamación, ofensas o violación de los derechos de otros.</span></p><p><span style=\"color: rgb(31, 35, 41);\">3. Obscenidad, violencia, apuestas o incitación al odio.</span></p><p><span style=\"color: rgb(31, 35, 41);\">4. Cualquier contenido prohibido o considerado inapropiado según los Términos del Servicio.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Si incurres en alguna de las infracciones mencionadas, se te podrían aplicar sanciones, como la eliminación de objetos colocados en el Complejo Industrial Automatizado, restricciones en las funciones de la Fábrica del CAI y la suspensión de la cuenta. Para denunciar una infracción, usa el botón [Reportar] o contacta a soporte al cliente.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Si usas la función [Compartir plano], obtendrás un [Código de plano] que permitirá a otros Endministrators ver y usar tu [Plano]. Antes de empezar, ten en cuenta que, al compartir tu [Código de plano], permites que cualquiera vea, copie o use tu diseño. Piénsalo bien antes de compartirlo.</span></p>",
+              "linkType": 1
+            }
+          }
+        ]
+      },
+      "msg": ""
+    }
   }
 ]
