@@ -18,8 +18,14 @@
       "subChannel": "#DEFAULT",
       "lang": "id-id",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:id-id",
-      "version": "958bed51418dd02a2c3f40a225f640ca",
+      "version": "b4cc697f539ba4a6f1dc86107a6de21c",
       "onlineList": [
+        {
+          "cid": "0793",
+          "version": 1788255725,
+          "needRedDot": true,
+          "needPopup": false
+        },
         {
           "cid": "6435",
           "version": 1788142081,
@@ -190,8 +196,26 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1788213600,
+      "updatedAt": 1788256800,
       "list": [
+        {
+          "cid": "0793",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "picture",
+          "startAt": 1788256800,
+          "focus": 0,
+          "title": "Pembaruan Widget Stat Game Discord",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260831/23988e827cedeab877084146ca80e5d7.png",
+            "link": "https://endfield.gryphline.com/special/discord-binding",
+            "linkType": 1
+          }
+        },
         {
           "cid": "6435",
           "type": 0,
