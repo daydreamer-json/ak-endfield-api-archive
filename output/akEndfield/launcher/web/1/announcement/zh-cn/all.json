@@ -17059,5 +17059,111 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-09-01T22:33:39.917+00:00",
+    "req": {
+      "appCode": "6LL0KJuqHBVz33WK",
+      "channel": 1,
+      "subChannel": 1,
+      "lang": "zh-cn",
+      "region": "cn",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "tabs": [
+        {
+          "tabName": "公告",
+          "announcements": [
+            {
+              "content": "「冬猎」特许寻访说明",
+              "jump_url": "https://endfield.hypergryph.com/news/6097",
+              "start_ts": "1788235200000",
+              "id": "280",
+              "need_token": true,
+              "pin": 0
+            },
+            {
+              "content": "「幽寒申领」限时特卖说明",
+              "jump_url": "https://endfield.hypergryph.com/news/5989",
+              "start_ts": "1788237001000",
+              "id": "281",
+              "need_token": true,
+              "pin": 0
+            },
+            {
+              "content": "《云·终末地》安卓＆iOS端不限量测试已开启",
+              "jump_url": "https://endfield.hypergryph.com/cloud",
+              "start_ts": "1784274300000",
+              "id": "244",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "鹰角启动器游戏实时数据面板已上线！",
+              "jump_url": "https://endfield.hypergryph.com/news/6091",
+              "start_ts": "1783656000000",
+              "id": "225",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "NVIDIA 驱动程序新版本可能导致游戏表现异常的问题说明",
+              "jump_url": "https://endfield.hypergryph.com/news/3819",
+              "start_ts": "1773654000000",
+              "id": "118",
+              "need_token": true,
+              "pin": 0
+            },
+            {
+              "content": "关于使用非官方工具的安全风险提示",
+              "jump_url": "https://endfield.hypergryph.com/news/9345",
+              "start_ts": "1773279000000",
+              "id": "109",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "《明日方舟：终末地》游戏工具指南",
+              "jump_url": "https://endfield.hypergryph.com/news/5906",
+              "start_ts": "1769050800000",
+              "id": "61",
+              "need_token": true,
+              "pin": 0
+            }
+          ],
+          "tab_id": "32"
+        },
+        {
+          "tabName": "新闻",
+          "announcements": [
+            {
+              "content": "「雪凇幽梦」版本研发通讯",
+              "jump_url": "https://endfield.hypergryph.com/news/4776",
+              "start_ts": "1787392800000",
+              "id": "278",
+              "need_token": true,
+              "pin": 0
+            }
+          ],
+          "tab_id": "33"
+        },
+        {
+          "tabName": "资讯",
+          "announcements": [
+            {
+              "content": "关注官方社媒账号领奖励",
+              "jump_url": "https://endfield.hypergryph.com/activity/social-media",
+              "start_ts": "1776398400000",
+              "id": "152",
+              "need_token": true,
+              "pin": 0
+            }
+          ],
+          "tab_id": "34"
+        }
+      ]
+    }
   }
 ]
