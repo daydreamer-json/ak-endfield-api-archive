@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-cn",
-      "version": "034a9bed3573c460a03b3693f90dbdee",
+      "version": "488c577908dbaf07881ecc6b47abf2c2",
       "onlineList": [
         {
           "cid": "6434",
@@ -77,6 +77,12 @@
         {
           "cid": "8950",
           "version": 1788228586,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "3040",
+          "version": 1788307422,
           "needRedDot": true,
           "needPopup": false
         },
@@ -148,7 +154,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1788321600,
+      "updatedAt": 1788345000,
       "list": [
         {
           "cid": "6434",
@@ -319,6 +325,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260831/bf324cb3c9bbf44a0668404ab7d2a6dd.jpg\" data-width=\"1650\" data-height=\"300\"><p>亲爱的管理员：</p><p>「幽寒申领」开放期间，6星武器【寒夜幽影（施术单元）】获取概率提升！</p><p><br></p><p><strong>▼//「幽寒申领」</strong></p><p>· 开放时间：「雪凇幽梦」版本更新后开启，于3次「特许寻访」后结束（从「冬猎」起计算）</p><p>· 开放条件：完成主线任务「第一章 - 进程Ⅰ - 基地解围」</p><p>· 「幽寒申领」中，概率提升的6星武器为【寒夜幽影（施术单元）】。</p><p>· 「幽寒申领」中，全部可能出现的6星武器包括：寒夜幽影（施术单元）/典范（双手剑）/同类相食（手铳）/骁勇（长柄武器）/遗忘（施术单元）/爆破单元（施术单元）/扶摇（单手剑）。</p><p><br></p><p><strong>▼//「武库申领」奖励</strong></p><p>在每个「武库申领」中，累计达到指定申领次数，即可交替获得「武库申领」对应的【补充武库箱】或【概率提升的6星武器】。武库申领奖励计数会在每个「武库申领」关闭时清零，不会继承到其他的「武库申领」中。</p><p><br></p><p><strong>▼//「武库申领」说明</strong></p><p>· 在「武库申领」中，可使用【武库配额】进行申领。</p><p>· 每申领1次，可随机获得全部可能出现的武器列表中的10件武器，其中必定包含5星或以上武器。</p><p><br></p><p><strong>▼//「武库交易所」说明</strong></p><p>「武库交易所」中，可使用「武库配额」直接购买武器。部分可购买武器将不定期更新，具体内容请以【采购中心 - 武库交易所】界面显示为准。</p><p><br></p><p>※ 更多详细说明及奖励规则，请前往游戏内【采购中心 - 武库交易所】查看。</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3040",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1788345000,
+          "focus": 0,
+          "title": "【嵌晶玉奖励】\\n提弗洛斯\\n主题活动开启",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260901/48d0c85b60882f3f33a3b6d6b2f87a4d.png",
+            "link": "https://discord.gg/amQspUDEa?event=1543899529894559764",
             "linkType": 1
           }
         },

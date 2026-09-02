@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "ja-jp",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ja-jp",
-      "version": "034a9bed3573c460a03b3693f90dbdee",
+      "version": "488c577908dbaf07881ecc6b47abf2c2",
       "onlineList": [
         {
           "cid": "6434",
@@ -77,6 +77,12 @@
         {
           "cid": "8950",
           "version": 1788228586,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "3040",
+          "version": 1788307422,
           "needRedDot": true,
           "needPopup": false
         },
@@ -148,7 +154,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1788321600,
+      "updatedAt": 1788345000,
       "list": [
         {
           "cid": "6434",
@@ -319,6 +325,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260831/f5f6c77bf311e37607f7a15af9d9ff92.jpg\" data-width=\"1650\" data-height=\"300\"><p>親愛なる管理人</p><p>「極寒・申請」の開催期間中、★6武器【寒夜の影（アーツユニット）】の提供割合が上昇します！</p><p><br></p><p><strong>▼//「極寒・申請」</strong></p><p>· 開催期間：「雪氷の幽夢」バージョンアップデート後より開始し、「特別スカウト」が3回開催されると終了（「冬狩」からカウントする）</p><p>· 解放条件：メイン任務第一章プロセスⅠ「基地救援」を完了</p><p>· 「極寒・申請」のピックアップ対象★6武器は【寒夜の影（アーツユニット）】です。</p><p>· 「極寒・申請」では、★6武器【寒夜の影（アーツユニット）/鑑（大剣）/同類共食（拳銃）/勇猛（長柄武器）/遺忘（アーツユニット）/破壊ユニット（アーツユニット）/フーヤオ（片手剣）】が出現します。</p><p><br></p><p><strong>▼//「武庫申請」報酬</strong></p><p>各「武庫申請」では、指定の回数申請すると、その「武庫申請」の【補充武庫ボックス】または【ピックアップ中の★6武器】を交互に入手できます。武庫申請報酬のカウントはその「武庫申請」が終了した時点でリセットされ、他の「武庫申請」には合算されません。</p><p><br></p><p><strong>▼//「武庫申請」の説明</strong></p><p>· 「武庫申請」では、【武庫配給】を消費して申請できます。</p><p>· 申請するたびに、申請可能な武器一覧からランダムに10個入手できます。その中に必ず★5以上の武器が含まれます。</p><p><br></p><p><strong>▼//「武庫交換所」の説明</strong></p><p>「武庫交換所」では、「武庫配給」を消費して武器を直接交換できます。一部の交換可能な武器は不定期に更新されます。具体的な内容は、ゲーム内の【購買部 - 武庫交換所】にて実際の画面表示をご確認ください。</p><p><br></p><p>※詳細および報酬は、ゲーム内の【購買部 - 武庫交換所】よりご確認ください。</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3040",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1788345000,
+          "focus": 0,
+          "title": "【赤晶玉報酬】\\nティフォロス\\nテーマキャンペーン開催",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260901/03a9311ec3a048a24b9e8bbc8365a362.png",
+            "link": "https://discord.gg/amQspUDEa?event=1543899529894559764",
             "linkType": 1
           }
         },
