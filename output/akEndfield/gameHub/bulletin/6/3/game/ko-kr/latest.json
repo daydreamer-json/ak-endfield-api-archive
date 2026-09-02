@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "ko-kr",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ko-kr",
-      "version": "34f722684c1b8c15992ad8b2eda52fdc",
+      "version": "ee89e482d56885383b9ba697d2d9cc8f",
       "onlineList": [
         {
           "cid": "1307",
@@ -87,6 +87,12 @@
           "needPopup": false
         },
         {
+          "cid": "8959",
+          "version": 1788306475,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "1376",
           "version": 1788265802,
           "needRedDot": true,
@@ -96,6 +102,12 @@
           "cid": "5526",
           "version": 1788146549,
           "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "0792",
+          "version": 1788315856,
+          "needRedDot": false,
           "needPopup": false
         },
         {
@@ -142,7 +154,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1788318611,
+      "updatedAt": 1788321600,
       "list": [
         {
           "cid": "1307",
@@ -335,6 +347,24 @@
           }
         },
         {
+          "cid": "8959",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1788321600,
+          "focus": 0,
+          "title": "일일 출석 체크",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260901/01080dfcdeaaa0bd1baabf97ce673582.png",
+            "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fstatic.skport.com%252Fu-link%252Fdownload.html%253Fschema%253Dskport%25253A%25252F%25252Fweb%25253Furl%25253Dhttps%2525253A%2525252F%2525252Fgame.skport.com%2525252Fendfield%2525252Fsign-in%2525253Fheader%2525253D0%25252526hg_media%2525253Dgame%25252526hg_link_campaign%2525253Dannouncement%25252526hg_link_name%2525253Dsignin",
+            "linkType": 1
+          }
+        },
+        {
           "cid": "1376",
           "type": 0,
           "tab": "events",
@@ -365,6 +395,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260828/57c97e2d21befd88f8581fc5153c3cc3.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//시즌 기간</strong><br>「눈꽃 속에 피어난 고요한 꿈」 버전 업데이트 후 ~ 2026/09/24 11:59 (서버 시간)<br><br><strong>▼//참여 조건</strong><br>· 권한 등급 ≥ 40레벨<br>· 메인 임무 「1장 - 프로세스 II - 앞길 개척」 완료<br><br><strong>▼//시즌 업데이트 설명</strong><br>신규 시즌 「허상의 회상」이 개방되며, 신규 스테이지 3개가 추가됩니다. 이번 시즌은 3개의 순환 주기로 구성되며, 각 순환 주기마다 3개의 스테이지가 포함됩니다.<br><br>※ Asia 서버 시간: UTC+8<br>※ Americas / Europe 서버 시간: UTC-5<br>※ 이벤트와 관련된 더 자세한 설명은 게임 내 [이벤트 센터]에서 확인해 주시기 바랍니다.<br></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "0792",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 5,
+          "displayType": "picture",
+          "startAt": 1788321600,
+          "focus": 1,
+          "title": "공식 충전 사이트 오픈",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260831/659d4780d22841bacedf35924ddf81f5.png",
+            "link": "https://topup.gryphline.com/endfield?u8_token={u8_token}&server={server}",
             "linkType": 1
           }
         },

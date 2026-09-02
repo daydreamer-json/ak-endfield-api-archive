@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-cn",
-      "version": "dbff9db44323dac80988775023b04ada",
+      "version": "034a9bed3573c460a03b3693f90dbdee",
       "onlineList": [
         {
           "cid": "6434",
@@ -81,6 +81,12 @@
           "needPopup": false
         },
         {
+          "cid": "8959",
+          "version": 1788306475,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "1376",
           "version": 1788265802,
           "needRedDot": true,
@@ -90,6 +96,12 @@
           "cid": "5526",
           "version": 1788146549,
           "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "0792",
+          "version": 1788315856,
+          "needRedDot": false,
           "needPopup": false
         },
         {
@@ -136,7 +148,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1788315656,
+      "updatedAt": 1788321600,
       "list": [
         {
           "cid": "6434",
@@ -311,6 +323,24 @@
           }
         },
         {
+          "cid": "8959",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1788321600,
+          "focus": 0,
+          "title": "每日签到",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260901/ff1b4b69e0ba62d179cb39f526c974a0.png",
+            "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fstatic.skport.com%252Fu-link%252Fdownload.html%253Fschema%253Dskport%25253A%25252F%25252Fweb%25253Furl%25253Dhttps%2525253A%2525252F%2525252Fgame.skport.com%2525252Fendfield%2525252Fsign-in%2525253Fheader%2525253D0%25252526hg_media%2525253Dgame%25252526hg_link_campaign%2525253Dannouncement%25252526hg_link_name%2525253Dsignin",
+            "linkType": 1
+          }
+        },
+        {
           "cid": "1376",
           "type": 0,
           "tab": "events",
@@ -341,6 +371,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260828/0de2ee274f1cad303297fc42ff5d7da2.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//赛季时间</strong><br>「雪凇幽梦」版本更新后 - 2026/09/24 11:59（服务器时间）<br><br><strong>▼//参与条件</strong><br>· 权限等阶≥40级<br>· 完成主线任务「第一章 - 进程Ⅱ - 开拓前路」<br><br><strong>▼//赛季更新说明</strong><br>全新赛季「虚像赛季」开放，新增3个全新关卡。本赛季分为3个轮换周期，每个轮换周期包含3个关卡。<br><br>※Asia服务器时区: UTC+8<br>※Americas / Europe服务器时区: UTC-5<br>※ 更多详细说明，请前往游戏内【活动中心】查看。<br></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "0792",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 5,
+          "displayType": "picture",
+          "startAt": 1788321600,
+          "focus": 1,
+          "title": "官方充值网站现已上线",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260831/7f231490fee9ed5b5738751e6a2c76b9.jpg",
+            "link": "https://topup.gryphline.com/endfield?u8_token={u8_token}&server={server}",
             "linkType": 1
           }
         },

@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "th-th",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:th-th",
-      "version": "dbff9db44323dac80988775023b04ada",
+      "version": "034a9bed3573c460a03b3693f90dbdee",
       "onlineList": [
         {
           "cid": "6434",
@@ -81,6 +81,12 @@
           "needPopup": false
         },
         {
+          "cid": "8959",
+          "version": 1788306475,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "1376",
           "version": 1788265802,
           "needRedDot": true,
@@ -90,6 +96,12 @@
           "cid": "5526",
           "version": 1788146549,
           "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "0792",
+          "version": 1788315856,
+          "needRedDot": false,
           "needPopup": false
         },
         {
@@ -136,7 +148,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1788315656,
+      "updatedAt": 1788321600,
       "list": [
         {
           "cid": "6434",
@@ -311,6 +323,24 @@
           }
         },
         {
+          "cid": "8959",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1788321600,
+          "focus": 0,
+          "title": "ลงชื่อรายวัน",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260901/38c71b575e1f43a373d84f13497220f0.png",
+            "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fstatic.skport.com%252Fu-link%252Fdownload.html%253Fschema%253Dskport%25253A%25252F%25252Fweb%25253Furl%25253Dhttps%2525253A%2525252F%2525252Fgame.skport.com%2525252Fendfield%2525252Fsign-in%2525253Fheader%2525253D0%25252526hg_media%2525253Dgame%25252526hg_link_campaign%2525253Dannouncement%25252526hg_link_name%2525253Dsignin",
+            "linkType": 1
+          }
+        },
+        {
           "cid": "1376",
           "type": 0,
           "tab": "events",
@@ -341,6 +371,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260828/ee88fee81cbadb34aac416e14b6a69de.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// เวลาเปิดฤดูกาล</strong><br>หลังจากการอัปเดตเวอร์ชัน [ห้วงภวังค์แห่งสายลมและหิมะ] - 24 ก.ย. 2026 เวลา 11:59 น. (ตามเวลาเซิร์ฟเวอร์)<br><br><strong>▼// เงื่อนไขการเข้าร่วม</strong><br>· ​​เล​เวล​ของ​เจ้าพนักงาน ≥​40<br>· ทำภารกิจหลัก [บทที่ 1 องก์ 2: ถางเส้นทาง] เสร็จสิ้น<br><br><strong>▼// รายละเอียดการอัปเดตฤดูกาล</strong><br>เปิดฤดูกาลใหม่ [ฤดูกาลแห่งภาพเสมือน] พร้อมเพิ่ม 3 ด่านใหม่ ฤดูกาลนี้มี 3 รอบ แต่ละรอบประกอบด้วย 3 ด่าน<br><br>※ เขตเวลาเซิร์ฟเวอร์ Asia: UTC+8<br>※ เขตเวลาเซิร์ฟเวอร์ Americas / Europe: UTC-5<br>※ สำหรับรายละเอียดกิจกรรมเพิ่มเติม โปรดตรวจสอบที่ [ศูนย์กิจกรรม] ภายในเกม<br></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "0792",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 5,
+          "displayType": "picture",
+          "startAt": 1788321600,
+          "focus": 1,
+          "title": "เว็บไซต์เติมเงินทางการเปิดให้บริการแล้ว",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260831/0c556759033afffca2878b48638f8b6f.png",
+            "link": "https://topup.gryphline.com/endfield?u8_token={u8_token}&server={server}",
             "linkType": 1
           }
         },

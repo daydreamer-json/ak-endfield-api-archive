@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "fr-fr",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:fr-fr",
-      "version": "dbff9db44323dac80988775023b04ada",
+      "version": "034a9bed3573c460a03b3693f90dbdee",
       "onlineList": [
         {
           "cid": "6434",
@@ -81,6 +81,12 @@
           "needPopup": false
         },
         {
+          "cid": "8959",
+          "version": 1788306475,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "1376",
           "version": 1788265802,
           "needRedDot": true,
@@ -90,6 +96,12 @@
           "cid": "5526",
           "version": 1788146549,
           "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "0792",
+          "version": 1788315856,
+          "needRedDot": false,
           "needPopup": false
         },
         {
@@ -136,7 +148,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1788315656,
+      "updatedAt": 1788321600,
       "list": [
         {
           "cid": "6434",
@@ -311,6 +323,24 @@
           }
         },
         {
+          "cid": "8959",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1788321600,
+          "focus": 0,
+          "title": "Connexion quotidienne",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260901/fe7598d4bd63a733dae43c3dbb869b12.png",
+            "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fstatic.skport.com%252Fu-link%252Fdownload.html%253Fschema%253Dskport%25253A%25252F%25252Fweb%25253Furl%25253Dhttps%2525253A%2525252F%2525252Fgame.skport.com%2525252Fendfield%2525252Fsign-in%2525253Fheader%2525253D0%25252526hg_media%2525253Dgame%25252526hg_link_campaign%2525253Dannouncement%25252526hg_link_name%2525253Dsignin",
+            "linkType": 1
+          }
+        },
+        {
           "cid": "1376",
           "type": 0,
           "tab": "events",
@@ -341,6 +371,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260828/67128d675f9bfdac00d8f4a40d61dae0.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Disponibilité de la saison</strong><br>À partir de la mise à jour de la version [Monde onirique de neige et de vent], jusqu'au 24 septembre 2026 à 11 h 59 (heure du serveur)<br><br><strong>▼// Conditions de participation</strong><br>· Niveau d'autorité ≥ 40<br>· Terminer la mission principale [Chapitre I - Processus II : Ouvrir la voie]<br><br><strong>▼// Détails de la mise à jour de la saison</strong><br>La nouvelle saison [Saison de la virtualité] est disponible, avec 3 nouveaux niveaux. Cette saison compte 3 cycles, comportant chacun 3 niveaux.<br><br>※ Fuseau horaire du serveur Asia : UTC+8<br>※ Fuseau horaire du serveur Americas / Europe : UTC-5<br>※ Pour plus de détails à propos de l'événement, consultez le [Centre d'événement] en jeu.<br></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "0792",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 5,
+          "displayType": "picture",
+          "startAt": 1788321600,
+          "focus": 1,
+          "title": "Site officiel de recharge disponible",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260831/de85d14fc2d34429ddcc27461fd66938.png",
+            "link": "https://topup.gryphline.com/endfield?u8_token={u8_token}&server={server}",
             "linkType": 1
           }
         },

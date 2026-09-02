@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "en-us",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:en-us",
-      "version": "dbff9db44323dac80988775023b04ada",
+      "version": "034a9bed3573c460a03b3693f90dbdee",
       "onlineList": [
         {
           "cid": "6434",
@@ -81,6 +81,12 @@
           "needPopup": false
         },
         {
+          "cid": "8959",
+          "version": 1788306475,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "1376",
           "version": 1788265802,
           "needRedDot": true,
@@ -90,6 +96,12 @@
           "cid": "5526",
           "version": 1788146549,
           "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "0792",
+          "version": 1788315856,
+          "needRedDot": false,
           "needPopup": false
         },
         {
@@ -136,7 +148,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1788315656,
+      "updatedAt": 1788321600,
       "list": [
         {
           "cid": "6434",
@@ -311,6 +323,24 @@
           }
         },
         {
+          "cid": "8959",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1788321600,
+          "focus": 0,
+          "title": "Daily Sign-in",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260901/61b40c5ebfe7448f6f7d4e875d941a2e.png",
+            "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fstatic.skport.com%252Fu-link%252Fdownload.html%253Fschema%253Dskport%25253A%25252F%25252Fweb%25253Furl%25253Dhttps%2525253A%2525252F%2525252Fgame.skport.com%2525252Fendfield%2525252Fsign-in%2525253Fheader%2525253D0%25252526hg_media%2525253Dgame%25252526hg_link_campaign%2525253Dannouncement%25252526hg_link_name%2525253Dsignin",
+            "linkType": 1
+          }
+        },
+        {
           "cid": "1376",
           "type": 0,
           "tab": "events",
@@ -341,6 +371,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260828/4ac2678bd309638aef33c79b9aedbe05.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Season Availability </strong><br>After [Dreamscape of Wind and Snow] version update – Sept. 24, 2026 at 11:59 (server time)<br><br><strong>▼// Participation Requirements </strong><br>· Authority Level ≥ 40 <br>· Complete the main mission [Chapter I Process II: Paving the Way]<br><br><strong>▼// Season Update Details</strong> <br>New season [Season of Virtuality] is available with 3 newly added stages. This season features 3 cycles, each including 3 stages.<br><br>※ Asia Server Time Zone: UTC+8 <br>※ Americas / Europe Server Time Zone: UTC-5 <br>※ For more event details, check the in-game [Event Center].<br></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "0792",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 5,
+          "displayType": "picture",
+          "startAt": 1788321600,
+          "focus": 1,
+          "title": "Official Top-Up Website Now Live",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260831/1298dd99e5b2052b57ea0ad7062f3620.png",
+            "link": "https://topup.gryphline.com/endfield?u8_token={u8_token}&server={server}",
             "linkType": 1
           }
         },
