@@ -47,23 +47,7 @@ jobs:
             - name: Format output folder
               run: bun x oxfmt data/output
 
-            - name: Git commit and push
-              id: commit_1
-              continue-on-error: true
-              uses: iarekylew00t/verified-bot-commit@v2
-              with:
-                  ref: refs/heads/archive
-                  workspace: ${{ github.workspace }}/data
-                  message: "[Auto] API update"
-                  files: |
-                      output/akEndfield/**
-                      output/raw/**
-                      output/mirror_file_list_pending.json
-                      output/mirror_file_res_list_pending.json
-                      output/mirror_file_res_patch_list_pending.json
-
             - name: Git commit and push (Fallback)
-              if: steps.commit_1.outcome == 'failure'
               working-directory: data
               run: |
                   git add output/akEndfield/ output/raw/ output/mirror_file_list_pending.json output/mirror_file_res_list_pending.json output/mirror_file_res_patch_list_pending.json
@@ -81,24 +65,7 @@ jobs:
               working-directory: data
               run: git pull origin archive
 
-            - name: Git commit and push
-              id: commit_2
-              continue-on-error: true
-              uses: iarekylew00t/verified-bot-commit@v2
-              with:
-                  ref: refs/heads/archive
-                  workspace: ${{ github.workspace }}/data
-                  message: "[Auto] API update"
-                  files: |
-                      output/mirror_file_list.json
-                      output/mirror_file_list_pending.json
-                      output/mirror_file_res_list.json.zst
-                      output/mirror_file_res_list_pending.json
-                      output/mirror_file_res_patch_list.json.zst
-                      output/mirror_file_res_patch_list_pending.json
-
             - name: Git commit and push (Fallback)
-              if: steps.commit_2.outcome == 'failure'
               working-directory: data
               run: |
                   git add output/mirror_file_list.json output/mirror_file_list_pending.json output/mirror_file_res_list.json.zst output/mirror_file_res_list_pending.json output/mirror_file_res_patch_list.json.zst output/mirror_file_res_patch_list_pending.json
