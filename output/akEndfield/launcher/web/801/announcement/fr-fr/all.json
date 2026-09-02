@@ -7904,5 +7904,105 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-09-02T01:04:07.318+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "channel": 6,
+      "subChannel": 801,
+      "lang": "fr-fr",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "tabs": [
+        {
+          "tabName": "Avis",
+          "announcements": [
+            {
+              "content": "[Chasse hivernale] Recrutement certifié",
+              "jump_url": "https://endfield.gryphline.com/news/6172",
+              "start_ts": "1788235200000",
+              "id": "990",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Détails sur la durée limitée du [tirage du froid mordant]",
+              "jump_url": "https://endfield.gryphline.com/news/4480",
+              "start_ts": "1788237000000",
+              "id": "1004",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "[Monde onirique de neige et de vent] Notes de mise à jour de version",
+              "jump_url": "https://endfield.gryphline.com/news/5208",
+              "start_ts": "1788310800000",
+              "id": "1046",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Avertissement relatif à des problèmes dans le jeu liés aux mises à jour des pilotes NVIDIA",
+              "jump_url": "https://endfield.gryphline.com/news/3844",
+              "start_ts": "1773590400000",
+              "id": "417",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Arknights: Endfield - Guide des Outils de jeu",
+              "jump_url": "https://endfield.gryphline.com/news/0755",
+              "start_ts": "1769050800000",
+              "id": "144",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Règles de fair-play d'Arknights: Endfield",
+              "jump_url": "https://endfield.gryphline.com/news/8900",
+              "start_ts": "1768892400000",
+              "id": "100",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Avertissement sur les risques des outils non officiels",
+              "jump_url": "https://endfield.gryphline.com/news/7026",
+              "start_ts": "1773277200000",
+              "id": "403",
+              "need_token": false,
+              "pin": 0
+            }
+          ],
+          "tab_id": "69"
+        },
+        {
+          "tabName": "Actualités",
+          "announcements": [
+            {
+              "content": "Version [Monde onirique de neige et de vent] d'Arknights: Endfield - Com des devs",
+              "jump_url": "https://endfield.gryphline.com/news/4481",
+              "start_ts": "1787743800000",
+              "id": "949",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Mises à jour du widget de statistiques de jeu Discord",
+              "jump_url": "https://endfield.gryphline.com/special/discord-binding",
+              "start_ts": "1788256800000",
+              "id": "1018",
+              "need_token": false,
+              "pin": 0
+            }
+          ],
+          "tab_id": "71"
+        }
+      ]
+    }
   }
 ]
