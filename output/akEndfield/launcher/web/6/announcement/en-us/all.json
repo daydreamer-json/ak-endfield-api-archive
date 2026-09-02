@@ -8786,5 +8786,119 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-09-02T11:04:08.931+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "channel": 6,
+      "subChannel": 6,
+      "lang": "en-us",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "tabs": [
+        {
+          "tabName": "Notices",
+          "announcements": [
+            {
+              "content": "[Winter Hunt] Chartered Headhunting",
+              "jump_url": "https://endfield.gryphline.com/news/6172",
+              "start_ts": "1788235200000",
+              "id": "984",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "[Deep Cold Issue] LTO Details",
+              "jump_url": "https://endfield.gryphline.com/news/4480",
+              "start_ts": "1788237000000",
+              "id": "998",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "[Dreamscape of Wind and Snow] Version Update Notes",
+              "jump_url": "https://endfield.gryphline.com/news/5208",
+              "start_ts": "1788310800000",
+              "id": "1040",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Notice Regarding Game Issues Caused by NVIDIA Driver Updates",
+              "jump_url": "https://endfield.gryphline.com/news/3844",
+              "start_ts": "1773590400000",
+              "id": "411",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Arknights: Endfield Game Tools Guide",
+              "jump_url": "https://endfield.gryphline.com/news/0755",
+              "start_ts": "1769050800000",
+              "id": "138",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Arknights: Endfield Fair Play Statement",
+              "jump_url": "https://endfield.gryphline.com/news/8900",
+              "start_ts": "1768892400000",
+              "id": "94",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Security Risk Warning for Using Unofficial Tools",
+              "jump_url": "https://endfield.gryphline.com/news/7026",
+              "start_ts": "1773277200000",
+              "id": "397",
+              "need_token": false,
+              "pin": 0
+            }
+          ],
+          "tab_id": "48"
+        },
+        {
+          "tabName": "Events",
+          "announcements": [
+            {
+              "content": "New Version Discussion",
+              "jump_url": "https://www.skport.com/article?id=2093178817402799422&hg_media=launcher&hg_link_campaign=banner&hg_link_name=DreamscapeofWind",
+              "start_ts": "1788346800000",
+              "id": "1026",
+              "need_token": false,
+              "pin": 0
+            }
+          ],
+          "tab_id": "49"
+        },
+        {
+          "tabName": "News",
+          "announcements": [
+            {
+              "content": "Arknights: Endfield [Dreamscape of Wind and Snow] Version DEV Comm",
+              "jump_url": "https://endfield.gryphline.com/news/4481",
+              "start_ts": "1787392800000",
+              "id": "943",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Discord Game Stats Widget Updates",
+              "jump_url": "https://endfield.gryphline.com/special/discord-binding",
+              "start_ts": "1788256800000",
+              "id": "1012",
+              "need_token": false,
+              "pin": 0
+            }
+          ],
+          "tab_id": "50"
+        }
+      ]
+    }
   }
 ]

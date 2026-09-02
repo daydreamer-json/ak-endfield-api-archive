@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-tw",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-tw",
-      "version": "488c577908dbaf07881ecc6b47abf2c2",
+      "version": "c1a600fa714a6aee1c1d433320658493",
       "onlineList": [
         {
           "cid": "6434",
@@ -77,6 +77,12 @@
         {
           "cid": "8950",
           "version": 1788228586,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "7283",
+          "version": 1788317266,
           "needRedDot": true,
           "needPopup": false
         },
@@ -154,7 +160,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1788345000,
+      "updatedAt": 1788346800,
       "list": [
         {
           "cid": "6434",
@@ -325,6 +331,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260831/3c1c7ffda45a64f7604cf89b61bcddb5.jpg\" data-width=\"1650\" data-height=\"300\"><p>親愛的管理員：</p><p>「幽寒申領」開放期間，6星武器【寒夜幽影（施術單元）】獲得機率提升！</p><p><br></p><p><strong>▼//「幽寒申領」</strong></p><p>· 開放時間：「雪淞幽夢」版本更新後開啟，於3次「特許尋訪」後結束（從「冬獵」起計算）</p><p>· 開放條件：完成主線任務「第一章 - 進度I - 基地解圍」</p><p>· 「幽寒申領」中，機率提升的6星武器為【寒夜幽影（施術單元）】。</p><p>· 「幽寒申領」中，全部可能出現的6星武器包括：寒夜幽影（施術單元）/典範（雙手劍）/同類相食（手銃）/驍勇（長柄武器）/遺忘（施術單元）/爆破單元（施術單元）/扶搖（單手劍）。</p><p><br></p><p><strong>▼//「武庫申領」獎勵</strong></p><p>在每個「武庫申領」中，累計達到指定申領次數，即可交替獲得「武庫申領」對應的【補充武庫箱】或【機率提升的6星武器】。武庫申領獎勵計數會在每個「武庫申領」關閉時歸零，不會繼承到其他的「武庫申領」中。</p><p><br></p><p><strong>▼//「武庫申領」說明</strong></p><p>· 在「武庫申領」中，可使用【武庫配額】進行申領。</p><p>· 每申領1次，可隨機獲得全部可能出現的武器列表中的10件武器，其中必定包含5星或以上武器。</p><p><br></p><p><strong>▼//「武庫交易所」說明</strong></p><p>「武庫交易所」中，可使用「武庫配額」直接購買武器。部分可購買武器將不定期更新，實際內容請以【採購中心 - 武庫交易所】介面顯示為準。</p><p><br></p><p>※ 更多詳細說明及獎勵規則，請前往遊戲內【採購中心 - 武庫交易所】查看。</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "7283",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1788346800,
+          "focus": 0,
+          "title": "新版本討論",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260902/6c8004623ef6fbaaf43980701afaf73f.png",
+            "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fwww.skport.com%252Farticle%253Fid%253D2093178817402799422%2526hg_media%253Dgame%2526hg_link_campaign%253Dannouncement%2526hg_link_name%253DDreamscapeofWind",
             "linkType": 1
           }
         },
