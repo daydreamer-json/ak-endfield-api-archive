@@ -18,8 +18,14 @@
       "subChannel": "#DEFAULT",
       "lang": "ja-jp",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ja-jp",
-      "version": "c1a600fa714a6aee1c1d433320658493",
+      "version": "97adcd8a8bb91a14b288713ee5f1f15c",
       "onlineList": [
+        {
+          "cid": "4617",
+          "version": 1788354243,
+          "needRedDot": false,
+          "needPopup": false
+        },
         {
           "cid": "6434",
           "version": 1788263826,
@@ -160,8 +166,26 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1788346800,
+      "updatedAt": 1788354244,
       "list": [
+        {
+          "cid": "4617",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1788354000,
+          "focus": 0,
+          "extraData": {},
+          "title": "不具合について",
+          "header": "不具合について",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260312/e09922587d0920442c1ff91390efdd12.png\" data-width=\"1650\" data-height=\"300\"><p>親愛なる管理人<br><br>いつも『エンドフィールド』をご愛顧いただき、誠にありがとうございます。<br></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//既知の不具合</strong></span></p><p>· 「極寒・申請」内の武庫贈礼「補充武庫ボックス・極寒」に設定異常があることを確認しました。現在緊急対応中であり、具体的な対応方針は追ってお知らせいたします。</p><p>· 特定の状況下で、サブ任務「霧に覆われた森」において敵のシールドを破壊できず、任務を正常に進行できなくなる不具合を確認</p><p>· 特定の状況下で、★6オペレーター【ティフォロス】の矢のエフェクトの持続時間が正常でない不具合を確認</p><p>· 特定の状況下で、★6オペレーター【ティフォロス】の戦技「風裂く一矢」の簡易説明と詳細説明でダメージ倍率の表示が一致しない不具合を確認</p><p>· 「倉庫搬出口」のスイッチが表示されない不具合を確認</p><p>· 地域建設レベル一覧画面において、【雪松林】の一部情報設定に異常がある不具合を確認</p><p>· 特定の状況下で、【管理人】が「帝江号」内で戦技を発動できる不具合を確認</p><p>· ゲーム内の一部の言語における説明テキストに不具合があることを確認</p><p></p><p><span style=\"color: rgb(31, 35, 41);\">その他の問題が発生した場合は、ゲーム内の「お問い合わせ」等を通じてご報告ください。</span></p><p><span style=\"color: rgb(31, 35, 41);\">この度はご不便をおかけしておりますことを深くお詫び申し上げます。引き続き、『アークナイツ：エンドフィールド』をよろしくお願いいたします。</span></p>",
+            "linkType": 1
+          }
+        },
         {
           "cid": "6434",
           "type": 0,

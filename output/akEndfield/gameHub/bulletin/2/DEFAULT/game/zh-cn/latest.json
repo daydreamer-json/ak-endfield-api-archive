@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:#DEFAULT:2:#DEFAULT:zh-cn",
-      "version": "e2eb0e55e10700e5b2db1942e82180bf",
+      "version": "41dfa2fa05ee77b623346e4bc1703dbc",
       "onlineList": [
         {
           "cid": "3029",
@@ -29,6 +29,12 @@
         {
           "cid": "3020",
           "version": 1787996702,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "7261",
+          "version": 1788351838,
           "needRedDot": true,
           "needPopup": false
         },
@@ -118,7 +124,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1788310800,
+      "updatedAt": 1788354000,
       "list": [
         {
           "cid": "3029",
@@ -151,6 +157,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web.hycdn.cn/upload/image/20260827/f8d12182b8a28424d2caffa38a44aa70.png\" data-width=\"1920\" data-height=\"2967\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "7261",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1788354000,
+          "focus": 1,
+          "title": "已知问题说明",
+          "header": "「雪凇幽梦」版本已知问题说明",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web.hycdn.cn/upload/image/20260122/6f4ae6db85baee40c80ed1ef09ed8af0.png\" data-width=\"1650\" data-height=\"300\"><p>亲爱的管理员：</p><p>为了帮助各位管理员更顺利地体验游戏内容，现将已知问题进行汇总。在游戏过程中，如管理员遇到相同问题，请您参考对应的解决方式进行处理。</p><p></p><p><strong>▼//游戏已知问题</strong></p><p>· 已知「幽寒申领」中的武库赠礼「补充武库箱·幽寒」道具存在配置异常。目前我们正在紧急修复，具体处理方案将在后续公告中另行通知。</p><p>· 已知特定情况下，支线任务「迷雾藏起松林」中，敌人护盾无法击破导致无法正常推进任务进程的问题。</p><p>· 已知特定情况下，6星干员【提弗洛斯】箭矢特效持续时间异常的问题。</p><p>· 已知特定情况下，6星干员【提弗洛斯】的战技「风矢穿林」简述与详情中伤害倍率显示不一致的问题。</p><p>· 已知「仓库取货口」开关不显示的问题。</p><p>· 已知地区建设总览界面中，【雪松林】部分信息配置异常的问题。</p><p>· 已知特定情况下，【管理员】可在「帝江号」释放战技的问题。</p><p></p><p>上述已知问题我们已定位并将尽快修复，期间带来的不便我们深表歉意。如遇到其他问题，还请管理员通过游戏内客服等方式提供反馈。再次感谢管理员对《明日方舟：终末地》一直以来的关注与支持！</p>",
             "linkType": 1
           }
         },
