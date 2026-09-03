@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "en-us",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:en-us",
-      "version": "df398c333a67793f89839f021673690b",
+      "version": "58b7b67de406dd8d401b9aeb0097b4f7",
       "onlineList": [
         {
           "cid": "6433",
@@ -35,12 +35,6 @@
         {
           "cid": "2102",
           "version": 1788243146,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
-          "cid": "0793",
-          "version": 1788255725,
           "needRedDot": true,
           "needPopup": false
         },
@@ -123,6 +117,12 @@
           "needPopup": false
         },
         {
+          "cid": "0793",
+          "version": 1788451867,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "0792",
           "version": 1788315856,
           "needRedDot": false,
@@ -172,7 +172,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1788433200,
+      "updatedAt": 1788451868,
       "list": [
         {
           "cid": "6433",
@@ -223,24 +223,6 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260901/4f42532261b2c1ea643cd8a157e558ac.jpg\" data-width=\"1920\" data-height=\"2967\"><p></p>",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "0793",
-          "type": 0,
-          "tab": "news",
-          "orderType": 1,
-          "orderWeight": 1,
-          "displayType": "picture",
-          "startAt": 1788256800,
-          "focus": 0,
-          "title": "Discord Game Stats Widget Updates",
-          "header": "",
-          "jumpButton": null,
-          "data": {
-            "url": "https://web-static.hg-cdn.com/upload/image/20260831/b17dbdecf2f3006cf939c0bf115c6a91.png",
-            "link": "https://endfield.gryphline.com/special/discord-binding",
             "linkType": 1
           }
         },
@@ -467,6 +449,25 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260828/4ac2678bd309638aef33c79b9aedbe05.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Season Availability </strong><br>After [Dreamscape of Wind and Snow] version update – Sept. 24, 2026 at 11:59 (server time)<br><br><strong>▼// Participation Requirements </strong><br>· Authority Level ≥ 40 <br>· Complete the main mission [Chapter I Process II: Paving the Way]<br><br><strong>▼// Season Update Details</strong> <br>New season [Season of Virtuality] is available with 3 newly added stages. This season features 3 cycles, each including 3 stages.<br><br>※ Asia Server Time Zone: UTC+8 <br>※ Americas / Europe Server Time Zone: UTC-5 <br>※ For more event details, check the in-game [Event Center].<br></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "0793",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1788256800,
+          "focus": 0,
+          "extraData": {},
+          "title": "Discord Game Stats Widget Updates",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260831/b17dbdecf2f3006cf939c0bf115c6a91.png",
+            "link": "https://endfield.gryphline.com/special/discord-binding",
             "linkType": 1
           }
         },

@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "de-de",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:de-de",
-      "version": "df398c333a67793f89839f021673690b",
+      "version": "58b7b67de406dd8d401b9aeb0097b4f7",
       "onlineList": [
         {
           "cid": "6433",
@@ -35,12 +35,6 @@
         {
           "cid": "2102",
           "version": 1788243146,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
-          "cid": "0793",
-          "version": 1788255725,
           "needRedDot": true,
           "needPopup": false
         },
@@ -123,6 +117,12 @@
           "needPopup": false
         },
         {
+          "cid": "0793",
+          "version": 1788451867,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "0792",
           "version": 1788315856,
           "needRedDot": false,
@@ -172,7 +172,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1788433200,
+      "updatedAt": 1788451868,
       "list": [
         {
           "cid": "6433",
@@ -223,24 +223,6 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260901/a15acecb253444ee58cb4e47e44d2bf9.jpg\" data-width=\"1920\" data-height=\"2967\"><p></p>",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "0793",
-          "type": 0,
-          "tab": "news",
-          "orderType": 1,
-          "orderWeight": 1,
-          "displayType": "picture",
-          "startAt": 1788256800,
-          "focus": 0,
-          "title": "Updates für das Discord-Spielstatistik-Widget",
-          "header": "",
-          "jumpButton": null,
-          "data": {
-            "url": "https://web-static.hg-cdn.com/upload/image/20260831/fc7583e5dfdaa8ee5dd30002c9e1e718.png",
-            "link": "https://endfield.gryphline.com/special/discord-binding",
             "linkType": 1
           }
         },
@@ -467,6 +449,25 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260828/29dad2278c836afeaf34acb89369fc24.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Saison-Verfügbarkeit</strong><br>Nach dem [Traumlandschaft aus Wind und Schnee]-Versions-Update – 24. September 2026 um 11:59 Uhr (Serverzeit)<br><br><strong>▼// Teilnahmevoraussetzungen</strong><br>· Autoritätslevel ≥ 40<br>· Abschluss der Hauptmission [Kapitel I, Prozess II: Den Weg freimachen]<br><br><strong>▼// Details zum Saison-Update</strong><br>Die neue Saison [Saison der Virtualität] ist jetzt mit 3 neu hinzugefügten Phasen verfügbar. Diese Saison umfasst 3 Zyklen mit je 3 Phasen.<br><br>※ Zeitzone des Asia-Servers: UTC+8<br>※ Zeitzone des Americas / Europe-Servers: UTC-5<br>※ Weitere Eventdetails findest du im [Eventcenter] im Spiel.<br></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "0793",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1788256800,
+          "focus": 0,
+          "extraData": {},
+          "title": "Updates für das Discord-Spielstatistik-Widget",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260831/fc7583e5dfdaa8ee5dd30002c9e1e718.png",
+            "link": "https://endfield.gryphline.com/special/discord-binding",
             "linkType": 1
           }
         },

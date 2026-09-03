@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-tw",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-tw",
-      "version": "df398c333a67793f89839f021673690b",
+      "version": "58b7b67de406dd8d401b9aeb0097b4f7",
       "onlineList": [
         {
           "cid": "6433",
@@ -35,12 +35,6 @@
         {
           "cid": "2102",
           "version": 1788243146,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
-          "cid": "0793",
-          "version": 1788255725,
           "needRedDot": true,
           "needPopup": false
         },
@@ -123,6 +117,12 @@
           "needPopup": false
         },
         {
+          "cid": "0793",
+          "version": 1788451867,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "0792",
           "version": 1788315856,
           "needRedDot": false,
@@ -172,7 +172,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1788433200,
+      "updatedAt": 1788451868,
       "list": [
         {
           "cid": "6433",
@@ -223,24 +223,6 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260901/4a501b681b97c942bf7b812830da8be4.jpg\" data-width=\"1920\" data-height=\"2967\"><p></p>",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "0793",
-          "type": 0,
-          "tab": "news",
-          "orderType": 1,
-          "orderWeight": 1,
-          "displayType": "picture",
-          "startAt": 1788256800,
-          "focus": 0,
-          "title": "Discord遊戲統計小工具更新",
-          "header": "",
-          "jumpButton": null,
-          "data": {
-            "url": "https://web-static.hg-cdn.com/upload/image/20260831/bb79ac186cd422d89df266a697a1598d.png",
-            "link": "https://endfield.gryphline.com/special/discord-binding",
             "linkType": 1
           }
         },
@@ -467,6 +449,25 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260828/206ca3792538235a359f096cd26e71f6.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//賽季時間</strong><br>「雪淞幽夢」版本更新後 ~ 2026/09/24 11:59（伺服器時間）<br><br><strong>▼//參與條件</strong><br>· 權限等階≥40級<br>· 完成主線任務「第一章 - 進度II - 開拓前路」<br><br><strong>▼//賽季更新說明</strong><br>全新賽季「虛像賽季」開放，新增3個全新關卡。本賽季分為3個輪換週期，每個輪換週期包含3個關卡。<br><br>※ Asia伺服器時區：UTC+8<br>※ Americas / Europe伺服器時區：UTC-5<br>※ 更多詳細說明，請前往遊戲內【活動中心】查看。<br></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "0793",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1788256800,
+          "focus": 0,
+          "extraData": {},
+          "title": "Discord遊戲統計小工具更新",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260831/bb79ac186cd422d89df266a697a1598d.png",
+            "link": "https://endfield.gryphline.com/special/discord-binding",
             "linkType": 1
           }
         },

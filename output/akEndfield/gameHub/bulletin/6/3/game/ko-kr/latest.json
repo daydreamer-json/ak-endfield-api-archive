@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "ko-kr",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ko-kr",
-      "version": "f0d3b0193866c3e6712527ebc6055dce",
+      "version": "d68801793bd77bb7c020f7e59d238861",
       "onlineList": [
         {
           "cid": "1307",
@@ -41,12 +41,6 @@
         {
           "cid": "2102",
           "version": 1788243146,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
-          "cid": "0793",
-          "version": 1788255725,
           "needRedDot": true,
           "needPopup": false
         },
@@ -129,6 +123,12 @@
           "needPopup": false
         },
         {
+          "cid": "0793",
+          "version": 1788451867,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "0792",
           "version": 1788315856,
           "needRedDot": false,
@@ -178,7 +178,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1788433200,
+      "updatedAt": 1788451868,
       "list": [
         {
           "cid": "1307",
@@ -247,24 +247,6 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260901/e5c4971a436316e0f19d13209a29ef64.jpg\" data-width=\"1920\" data-height=\"2967\"><p></p>",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "0793",
-          "type": 0,
-          "tab": "news",
-          "orderType": 1,
-          "orderWeight": 1,
-          "displayType": "picture",
-          "startAt": 1788256800,
-          "focus": 0,
-          "title": "Discord 게임 통계 위젯 업데이트",
-          "header": "",
-          "jumpButton": null,
-          "data": {
-            "url": "https://web-static.hg-cdn.com/upload/image/20260831/3868c9232877c3d218b1a399d59375d3.png",
-            "link": "https://endfield.gryphline.com/special/discord-binding",
             "linkType": 1
           }
         },
@@ -491,6 +473,25 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260828/57c97e2d21befd88f8581fc5153c3cc3.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//시즌 기간</strong><br>「눈꽃 속에 피어난 고요한 꿈」 버전 업데이트 후 ~ 2026/09/24 11:59 (서버 시간)<br><br><strong>▼//참여 조건</strong><br>· 권한 등급 ≥ 40레벨<br>· 메인 임무 「1장 - 프로세스 II - 앞길 개척」 완료<br><br><strong>▼//시즌 업데이트 설명</strong><br>신규 시즌 「허상의 회상」이 개방되며, 신규 스테이지 3개가 추가됩니다. 이번 시즌은 3개의 순환 주기로 구성되며, 각 순환 주기마다 3개의 스테이지가 포함됩니다.<br><br>※ Asia 서버 시간: UTC+8<br>※ Americas / Europe 서버 시간: UTC-5<br>※ 이벤트와 관련된 더 자세한 설명은 게임 내 [이벤트 센터]에서 확인해 주시기 바랍니다.<br></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "0793",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1788256800,
+          "focus": 0,
+          "extraData": {},
+          "title": "Discord 게임 통계 위젯 업데이트",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260831/3868c9232877c3d218b1a399d59375d3.png",
+            "link": "https://endfield.gryphline.com/special/discord-binding",
             "linkType": 1
           }
         },

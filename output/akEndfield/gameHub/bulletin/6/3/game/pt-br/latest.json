@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "pt-br",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:pt-br",
-      "version": "df398c333a67793f89839f021673690b",
+      "version": "58b7b67de406dd8d401b9aeb0097b4f7",
       "onlineList": [
         {
           "cid": "6433",
@@ -35,12 +35,6 @@
         {
           "cid": "2102",
           "version": 1788243146,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
-          "cid": "0793",
-          "version": 1788255725,
           "needRedDot": true,
           "needPopup": false
         },
@@ -123,6 +117,12 @@
           "needPopup": false
         },
         {
+          "cid": "0793",
+          "version": 1788451867,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "0792",
           "version": 1788315856,
           "needRedDot": false,
@@ -172,7 +172,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1788433200,
+      "updatedAt": 1788451868,
       "list": [
         {
           "cid": "6433",
@@ -223,24 +223,6 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260901/e9f9396ca5ac2a99b3c502dffab242b1.jpg\" data-width=\"1920\" data-height=\"2967\"><p></p>",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "0793",
-          "type": 0,
-          "tab": "news",
-          "orderType": 1,
-          "orderWeight": 1,
-          "displayType": "picture",
-          "startAt": 1788256800,
-          "focus": 0,
-          "title": "Atualizações do widget de estatísticas de jogo do Discord",
-          "header": "",
-          "jumpButton": null,
-          "data": {
-            "url": "https://web-static.hg-cdn.com/upload/image/20260831/90b28995307b2dbdffcff6eb197bb387.png",
-            "link": "https://endfield.gryphline.com/special/discord-binding",
             "linkType": 1
           }
         },
@@ -467,6 +449,25 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260828/5cc4b720a10cdb03fd5dd5e72e5404cb.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Disponibilidade da Atualização</strong><br>Após a atualização de versão [Sonho de Vento e Neve], em 24 de setembro de 2026, às 11:59 (horário do servidor)<br><br><strong>▼// Requisitos de Participação</strong><br>· Nível de Autoridade ≥ 40<br>· Conclua a missão principal [Capítulo I Processo II: Pavimentando o Caminho]<br><br><strong>▼// Detalhes da Atualização da Temporada</strong><br>A nova temporada [Temporada da Virtualidade] já está disponível e inclui 3 novos estágios em 3 ciclos, sendo que cada ciclo contém 3 estágios.<br><br>※ Fuso Horário do Servidor Asia: UTC+8<br>※ Fuso Horário do Servidor Americas / Europe: UTC-5<br>※ Para mais informações sobre o evento, confira o [Centro de Eventos] no jogo.<br></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "0793",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1788256800,
+          "focus": 0,
+          "extraData": {},
+          "title": "Atualizações do widget de estatísticas de jogo do Discord",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260831/90b28995307b2dbdffcff6eb197bb387.png",
+            "link": "https://endfield.gryphline.com/special/discord-binding",
             "linkType": 1
           }
         },

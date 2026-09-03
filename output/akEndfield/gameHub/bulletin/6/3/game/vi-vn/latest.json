@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "vi-vn",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:vi-vn",
-      "version": "df398c333a67793f89839f021673690b",
+      "version": "58b7b67de406dd8d401b9aeb0097b4f7",
       "onlineList": [
         {
           "cid": "6433",
@@ -35,12 +35,6 @@
         {
           "cid": "2102",
           "version": 1788243146,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
-          "cid": "0793",
-          "version": 1788255725,
           "needRedDot": true,
           "needPopup": false
         },
@@ -123,6 +117,12 @@
           "needPopup": false
         },
         {
+          "cid": "0793",
+          "version": 1788451867,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "0792",
           "version": 1788315856,
           "needRedDot": false,
@@ -172,7 +172,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1788433200,
+      "updatedAt": 1788451868,
       "list": [
         {
           "cid": "6433",
@@ -223,24 +223,6 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260901/c2c1319ff7ad9b118134da81d0d1bc42.jpg\" data-width=\"1920\" data-height=\"2967\"><p></p>",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "0793",
-          "type": 0,
-          "tab": "news",
-          "orderType": 1,
-          "orderWeight": 1,
-          "displayType": "picture",
-          "startAt": 1788256800,
-          "focus": 0,
-          "title": "Cập Nhật Tiện Ích Chỉ Số Game Discord",
-          "header": "",
-          "jumpButton": null,
-          "data": {
-            "url": "https://web-static.hg-cdn.com/upload/image/20260831/a35f5b3735b3e6ab16be1df7b073b8e0.png",
-            "link": "https://endfield.gryphline.com/special/discord-binding",
             "linkType": 1
           }
         },
@@ -467,6 +449,25 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260828/ae6edacf0842bd45121a76663547ebb1.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Thời Gian Mở Mùa</strong><br>Sau khi cập nhật phiên bản [Phong Tuyết Mộng Cảnh] – 11:59 ngày 24/09/2026 (giờ máy chủ)<br><br><strong>▼// Điều Kiện Tham Gia</strong><br>· Cấp Đặc Quyền ≥ 40<br>· Hoàn thành nhiệm vụ chính [Chương I Tiến Trình II: Mở Đường]<br><br><strong>▼// Chi Tiết Cập Nhật Mùa</strong><br>Mùa mới [Mùa Hư Ảo] chính thức ra mắt, bổ sung 3 ải mới. Mùa này bao gồm 3 đợt, mỗi đợt có 3 ải.<br><br>※ Múi giờ máy chủ Asia: UTC+8<br>※ Múi giờ máy chủ Americas / Europe: UTC-5<br>※ Để biết thêm chi tiết sự kiện, vui lòng kiểm tra tại [Trung Tâm Sự Kiện] trong game.<br></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "0793",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1788256800,
+          "focus": 0,
+          "extraData": {},
+          "title": "Cập Nhật Tiện Ích Chỉ Số Game Discord",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260831/a35f5b3735b3e6ab16be1df7b073b8e0.png",
+            "link": "https://endfield.gryphline.com/special/discord-binding",
             "linkType": 1
           }
         },

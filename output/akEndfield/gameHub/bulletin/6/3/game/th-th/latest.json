@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "th-th",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:th-th",
-      "version": "df398c333a67793f89839f021673690b",
+      "version": "58b7b67de406dd8d401b9aeb0097b4f7",
       "onlineList": [
         {
           "cid": "6433",
@@ -35,12 +35,6 @@
         {
           "cid": "2102",
           "version": 1788243146,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
-          "cid": "0793",
-          "version": 1788255725,
           "needRedDot": true,
           "needPopup": false
         },
@@ -123,6 +117,12 @@
           "needPopup": false
         },
         {
+          "cid": "0793",
+          "version": 1788451867,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "0792",
           "version": 1788315856,
           "needRedDot": false,
@@ -172,7 +172,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1788433200,
+      "updatedAt": 1788451868,
       "list": [
         {
           "cid": "6433",
@@ -223,24 +223,6 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260901/1f82420cae968e2ec521a91723b3e54a.jpg\" data-width=\"1920\" data-height=\"2967\"><p></p>",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "0793",
-          "type": 0,
-          "tab": "news",
-          "orderType": 1,
-          "orderWeight": 1,
-          "displayType": "picture",
-          "startAt": 1788256800,
-          "focus": 0,
-          "title": "อัปเดตวิดเจ็ตสถิติเกม Discord",
-          "header": "",
-          "jumpButton": null,
-          "data": {
-            "url": "https://web-static.hg-cdn.com/upload/image/20260831/3430bbaa12efdeafdc931210a643c58a.png",
-            "link": "https://endfield.gryphline.com/special/discord-binding",
             "linkType": 1
           }
         },
@@ -467,6 +449,25 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260828/ee88fee81cbadb34aac416e14b6a69de.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// เวลาเปิดฤดูกาล</strong><br>หลังจากการอัปเดตเวอร์ชัน [ห้วงภวังค์แห่งสายลมและหิมะ] - 24 ก.ย. 2026 เวลา 11:59 น. (ตามเวลาเซิร์ฟเวอร์)<br><br><strong>▼// เงื่อนไขการเข้าร่วม</strong><br>· ​​เล​เวล​ของ​เจ้าพนักงาน ≥​40<br>· ทำภารกิจหลัก [บทที่ 1 องก์ 2: ถางเส้นทาง] เสร็จสิ้น<br><br><strong>▼// รายละเอียดการอัปเดตฤดูกาล</strong><br>เปิดฤดูกาลใหม่ [ฤดูกาลแห่งภาพเสมือน] พร้อมเพิ่ม 3 ด่านใหม่ ฤดูกาลนี้มี 3 รอบ แต่ละรอบประกอบด้วย 3 ด่าน<br><br>※ เขตเวลาเซิร์ฟเวอร์ Asia: UTC+8<br>※ เขตเวลาเซิร์ฟเวอร์ Americas / Europe: UTC-5<br>※ สำหรับรายละเอียดกิจกรรมเพิ่มเติม โปรดตรวจสอบที่ [ศูนย์กิจกรรม] ภายในเกม<br></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "0793",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1788256800,
+          "focus": 0,
+          "extraData": {},
+          "title": "อัปเดตวิดเจ็ตสถิติเกม Discord",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260831/3430bbaa12efdeafdc931210a643c58a.png",
+            "link": "https://endfield.gryphline.com/special/discord-binding",
             "linkType": 1
           }
         },

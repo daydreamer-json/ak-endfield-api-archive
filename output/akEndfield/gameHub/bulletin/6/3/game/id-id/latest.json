@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "id-id",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:id-id",
-      "version": "df398c333a67793f89839f021673690b",
+      "version": "58b7b67de406dd8d401b9aeb0097b4f7",
       "onlineList": [
         {
           "cid": "6433",
@@ -35,12 +35,6 @@
         {
           "cid": "2102",
           "version": 1788243146,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
-          "cid": "0793",
-          "version": 1788255725,
           "needRedDot": true,
           "needPopup": false
         },
@@ -123,6 +117,12 @@
           "needPopup": false
         },
         {
+          "cid": "0793",
+          "version": 1788451867,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "0792",
           "version": 1788315856,
           "needRedDot": false,
@@ -172,7 +172,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1788433200,
+      "updatedAt": 1788451868,
       "list": [
         {
           "cid": "6433",
@@ -223,24 +223,6 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260901/253d61cafd2f5bae8619519182d70831.jpg\" data-width=\"1920\" data-height=\"2967\"><p></p>",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "0793",
-          "type": 0,
-          "tab": "news",
-          "orderType": 1,
-          "orderWeight": 1,
-          "displayType": "picture",
-          "startAt": 1788256800,
-          "focus": 0,
-          "title": "Pembaruan Widget Stat Game Discord",
-          "header": "",
-          "jumpButton": null,
-          "data": {
-            "url": "https://web-static.hg-cdn.com/upload/image/20260831/23988e827cedeab877084146ca80e5d7.png",
-            "link": "https://endfield.gryphline.com/special/discord-binding",
             "linkType": 1
           }
         },
@@ -467,6 +449,25 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260828/fd8039c168bd32714ac9636cfb62db81.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Ketersediaan Musim</strong><br>Setelah pembaruan versi [Dimensi Mimpi Angin dan Salju] – 24 September 2026 pukul 11.59 (waktu server)<br><br><strong>▼// Persyaratan Partisipasi</strong><br>· Level Otoritas ≥ 40<br>· Selesaikan misi utama [Bab I Proses II: Membuka Jalan]<br><br><strong>▼// Detail Pembaruan Musim</strong><br>Musim baru [Musim Virtualitas] telah tersedia dengan 3 stage yang baru ditambahkan. Musim ini menampilkan 3 siklus, yang masing-masing mencakup 3 stage.<br><br>※ Zona Waktu Server Asia: UTC+8<br>※ Zona Waktu Server Americas/Europe: UTC-5<br>※ Untuk detail event lebih lanjut, kunjungi [Pusat Event] dalam game.<br></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "0793",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1788256800,
+          "focus": 0,
+          "extraData": {},
+          "title": "Pembaruan Widget Stat Game Discord",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260831/23988e827cedeab877084146ca80e5d7.png",
+            "link": "https://endfield.gryphline.com/special/discord-binding",
             "linkType": 1
           }
         },
