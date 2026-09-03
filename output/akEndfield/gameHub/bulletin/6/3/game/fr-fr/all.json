@@ -70074,5 +70074,622 @@
       },
       "msg": ""
     }
+  },
+  {
+    "updatedAt": "2026-09-03T11:04:01.076+00:00",
+    "req": {
+      "channel": 6,
+      "server": 3,
+      "type": 0,
+      "lang": "fr-fr",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "code": 0,
+      "data": {
+        "topicCid": "0093",
+        "type": 0,
+        "platform": "Windows",
+        "server": "3",
+        "channel": "#DEFAULT",
+        "subChannel": "#DEFAULT",
+        "lang": "fr-fr",
+        "key": "0:Windows:3:#DEFAULT:#DEFAULT:fr-fr",
+        "version": "df398c333a67793f89839f021673690b",
+        "onlineList": [
+          {
+            "cid": "6433",
+            "version": 1788407699,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "6434",
+            "version": 1788263826,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "2102",
+            "version": 1788243146,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "0793",
+            "version": 1788255725,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1378",
+            "version": 1787648503,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "4610",
+            "version": 1786440043,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6446",
+            "version": 1786336168,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "9869",
+            "version": 1788173023,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1377",
+            "version": 1788263668,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "7284",
+            "version": 1788228578,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "8950",
+            "version": 1788228586,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "7282",
+            "version": 1788428981,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "7283",
+            "version": 1788317266,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "3040",
+            "version": 1788307422,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "8959",
+            "version": 1788306475,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1376",
+            "version": 1788265802,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "5526",
+            "version": 1788146549,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "0792",
+            "version": 1788315856,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "2101",
+            "version": 1788265810,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "8998",
+            "version": 1769005692,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6472",
+            "version": 1769044240,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "3041",
+            "version": 1787906251,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "6474",
+            "version": 1769005934,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "3080",
+            "version": 1782469292,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "7222",
+            "version": 1782469106,
+            "needRedDot": true,
+            "needPopup": false
+          }
+        ],
+        "popupVersion": 0,
+        "updatedAt": 1788433200,
+        "list": [
+          {
+            "cid": "6433",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1788404400,
+            "focus": 0,
+            "extraData": {},
+            "title": "Notes de patch",
+            "header": "Notes de patch d'Arknights: Endfield",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260903/3879800fdd1d9f22d7a49888d1218ac2.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Endministrator,</span></p><p><span style=\"color: rgb(0, 0, 0);\">Afin de vous garantir la meilleure expérience possible, nous continuerons à optimiser le jeu et à corriger les problèmes au fur et à mesure qu'ils se présenteront. Cette mise à jour inclut les correctifs suivants :</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">▼// Mises à jour et correctifs</span></p><p>■ 02.09.2026 (UTC-5)</p><p>· Correction d'un problème à cause duquel, dans certaines circonstances, les boucliers ennemis ne pouvaient pas être détruits dans la mission annexe [Une forêt enveloppée de brume], ce qui entravait la progression de la mission.</p><p>· Correction d'un problème à cause duquel, dans certaines circonstances, les effets spéciaux de la flèche de l'opératrice 6★ [Typhoeus] persistaient pendant une durée anormale.</p><p>· Correction d'un problème à cause duquel, dans certaines circonstances, le multiplicateur de DÉG affiché dans la description courte de la compétence de combat [Flèches perforantes sylvestres] de l'opératrice 6★ [Typhoeus] ne correspondait pas à celui affiché dans la description détaillée.</p><p>· Correction d'un problème d'affichage de l'interrupteur du [déchargeur d'entrepôt].</p><p>· Correction d'un problème de configuration de certaines informations concernant la [Forêt enneigée] dans l'interface d'aperçu du niveau de développement régional.</p><p>· Correction d'un problème à cause duquel, dans certaines circonstances, l'[Endministrator] pouvait lancer sa compétence de combat à bord du Dijiang.</p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Les mises à jour et correctifs ci-dessus prendront effet après le redémarrage du client. Nous nous excusons sincèrement pour la gêne occasionnée.</span></p><p><span style=\"color: rgb(0, 0, 0);\">Merci pour votre intérêt et votre soutien indéfectible à Arknights: Endfield, Endministrator !</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6434",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1788310800,
+            "focus": 0,
+            "title": "Notes de mise à jour de version",
+            "header": "Notes de mise à jour de version",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260901/4ee04146ef29a43fa0dcfd740f4dc982.jpg\" data-width=\"1650\" data-height=\"300\"><p>Au-delà de la neige et de la brume, dans les bois obscurs et un rêve infini.</p><p></p><p>Endministrator,</p><p>Bienvenue dans la nouvelle version [Monde onirique de neige et de vent] !</p><p></p><p><strong>▼// Détails de mise à jour, de maintenance et de compensation</strong></p><p><strong>■ Date de mise à jour et de maintenance</strong></p><p>Serveur Asia : 2 septembre 2026 à 6 h – 2 septembre 2026 à 12 h (UTC+8)</p><p>Serveur Americas / Europe : 1er septembre 2026 à 17 h – 1er septembre 2026 à 23 h (UTC-5)</p><p>※ L'heure de réouverture du serveur suite à la maintenance pourrait survenir plus tôt ou plus tard que prévu. Veuillez consulter les annonces officielles pour en savoir plus.</p><p></p><p><strong>■ Détails de la compensation de mise à jour, de maintenance et de correction des bugs</strong></p><p>· Compensation de mise à jour et de maintenance : 900 [orobéryls]</p><p>· Compensation de correction des bugs : 900 [orobéryls]</p><p>· Période d'envoi : après la mise à jour et la maintenance, et avant la prochaine maintenance et mise à jour de version</p><p>· Éligibilité : avoir créé un personnage avant la mise à jour</p><p>· Remarque : La compensation de mise à jour et de maintenance ainsi que la compensation de correction des bugs seront transmises en deux messages différents en jeu après le déblocage de la fonctionnalité [Courrier]. Ces courriers expireront lors de la prochaine mise à jour de version et maintenance, alors n'oubliez pas de les récupérer à temps.</p><p></p><p><strong>■ Notes de mise à jour</strong></p><p>Cette mise à jour est obligatoire. Une fois la mise à jour terminée, vous devrez retélécharger et réinstaller le client du jeu. Au moment du lancement de la mise à jour de version et maintenance, suivez les instructions en jeu pour procéder à la mise à jour.</p><p>· iOS : Ouvrez l'App Store et appuyez sur [Mettre à jour].</p><p>· Android : Ouvrez le jeu et suivez les invites de commandes pour procéder à la mise à jour.</p><p>· PlayStation®5 : Rendez-vous sur l'écran d'accueil, sélectionnez [Arknights: Endfield], appuyez sur la touche d'[options] de la manette, sélectionnez [Vérifier les mises à jour] et confirmez la mise à jour.</p><p>· PC : Après avoir quitté le jeu, redémarrez le lanceur GRYPHLINK et cliquez sur [Mettre à jour].</p><p></p><p><strong>※ Après la mise à jour de la version [Monde onirique de neige et de vent], du contenu se débloquera progressivement, au fur et à mesure de la progression de votre exploration. Veuillez consulter la version en jeu pour connaître les détails de la mise à jour.</strong></p><p></p><p><strong>▼// Contenu de la nouvelle version</strong></p><p><strong>■ Nouvelles histoires</strong></p><p>1. Missions d'exploration</p><p>[Projet DAP : Station du séminimbus III], [Pas de tir du pied des falaises], [La cloche du souvenir]</p><p>2. Missions annexes</p><p>[Rêve d'hiver brumeux au creux des bois], [L'entreprise d'une vie], [Illumination du destin]</p><p></p><p><strong>■ Nouvelles opératrices</strong></p><p>Opératrice 6★ [Typhoeus], opératrice 5★ [Purrchena]</p><p></p><p><strong>■ Nouvelles armes</strong></p><p>Armes 6★ [Ombre du crépuscule glacé (unité des Arts)] et [Fin de la souffrance (unité des Arts)], arme 5★ [L'heure du dessert (épée)]</p><p></p><p><strong>■ Nouveaux ennemis</strong></p><p>[Limace sylvaine], [Vagabond sylvain], [Rage de Gloomwald]</p><p></p><p><strong>■ Nouvelles zones</strong></p><p>[Wuling - Forêt enneigée] [Wuling - Suiming]</p><p></p><p><strong>■ Nouveaux événements de recrutement et tirages</strong></p><p><strong>1. Recrutement certifié [Chasse hivernale]</strong></p><p>· Disponibilité : À partir de la mise à jour de la version [Monde onirique de neige et de vent], jusqu'au 30 septembre 2026 à 11 h 59 (heure du serveur)</p><p>· Détails sur le recrutement : Le recrutement certifié [Chasse hivernale] propose l'opératrice 6★ [Typhoeus] à taux SUP. Les opérateurs 6★ susceptibles d'apparaître dans le recrutement certifié [Chasse hivernale] sont les suivants : Typhoeus / Liino / Arcane / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.</p><p>· Dans le cadre du recrutement certifié [Chasse hivernale], des [exercices de combat] seront également disponibles pour tester l'opératrice 6★ [Typhoeus]. Terminez le niveau indiqué avec l'équipe prédéfinie incluant l'opératrice d'essai et rendez-vous sur l'écran du [centre d'événement] pour obtenir 100 [orobéryls], une [caisse de défense de l'arsenal], une [Marque de persévérance] et d'autres récompenses. La [caisse de défense de l'arsenal] contient un ensemble d'équipement de niveau 60 renforcé au maximum adapté à l'opératrice d'essai. Vous pouvez également obtenir des [permis REC Pointe de fer empennée] à prix réduit dans l'[échange de quota du GIA]. Il est possible d'échanger jusqu'à 5 [permis REC Pointe de fer empennée].</p><p></p><p><strong>2. Tirage de l'arsenal [Tirage du froid mordant] ouvert</strong></p><p>· Disponibilité : Ouvre après la mise à jour de la version [Monde onirique de neige et de vent], et se termine au bout de 3 bannières de [recrutement certifié] (à partir de [Chasse hivernale])</p><p>· Détails sur le tirage : Le tirage de l'arsenal [Tirage du froid mordant] propose l'arme 6★ [Ombre du crépuscule glacé (unité des Arts)] à taux SUP. Les armes 6★ susceptibles d'apparaître dans le tirage de l'arsenal [Tirage du froid mordant] sont les suivantes : Ombre du crépuscule glacé (unité des Arts) / Exemplaire (espadon) / Clannibale (canon portatif) / Vaillance (arme d'hast) / Oubli (unité des Arts) / Unité de détonation (unité des Arts) / Ascension rapide (épée).</p><p></p><p><strong>3. Recrutement de réusinage n° 1 [Spectre resplendissant]</strong></p><p>· Disponibilité : Du 24 septembre 2026 à 12 h (heure du serveur), jusqu'à la prochaine mise à jour de version et maintenance</p><p>· Détails sur le recrutement : Le recrutement de réusinage [Spectre resplendissant] propose l'opératrice 6★ [Yvonne] à taux SUP. Les opérateurs 6★ susceptibles d'apparaître dans le recrutement de réusinage [Spectre resplendissant] sont les suivants : Yvonne / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.</p><p>※ [Spectre resplendissant] appartient au nouveau type de recrutement, le [Recrutement de réusinage], et ses règles diffèrent des autres bannières de recrutement.</p><p></p><p><strong>4. Tirage de réusinage n° 1 [Tirage de graffeuse] ouvert</strong></p><p>· Disponibilité : Du 24 septembre 2026 à 12 h (heure du serveur), jusqu'à la prochaine mise à jour de version et maintenance</p><p>· Détails sur le tirage : Le tirage de réusinage [Tirage de graffeuse] propose l'arme 6★ [Tyran de l'art (canon portatif)] à taux SUP. Les armes 6★ susceptibles d'apparaître dans le tirage de réusinage [Tirage de graffeuse] sont les suivantes : Tyran de l'art (canon portatif) / Pivot (canon portatif) / Ascension rapide (épée) / Nova des nuits blanches (épée) / JET (arme d'hast) / Vertus chevaleresques (unité des Arts) / Prince déchiré (espadon).</p><p>※ Le [Tirage de graffeuse] appartient au nouveau type de tirage, le [Tirage de réusinage], et ses règles diffèrent des autres bannières de tirage de l'arsenal.</p><p></p><p>※ Pour plus d'informations sur les recrutements et les tirages, veuillez vous référer au jeu.</p><p></p><p><strong>■ Nouveaux événements</strong></p><p><strong>1. Événement narratif de Typhoeus [Rêve d'hiver brumeux au creux des bois]</strong></p><p>· Dates de l'événement : Pendant toute la durée de la version [Monde onirique de neige et de vent]</p><p>· Détails de l'événement : Terminez la mission annexe [Rêve d'hiver brumeux au creux des bois] pour obtenir 600 [orobéryls], un [support cognitif de base] et d'autres récompenses.</p><p>※ Une fois la page de l'événement narratif supprimée, vous pourrez continuer à jouer à cette mission annexe sur l'écran [Missions] et gagner les récompenses si vous remplissez les conditions de participation.</p><p></p><p><strong>2. Événement de guide [Neige sur les bois profonds]</strong></p><p>· Dates de l'événement : À partir de la mise à jour de la version [Monde onirique de neige et de vent], jusqu'au 30 septembre 2026 à 12 h (heure du serveur)</p><p>· Détails de l'événement : Terminez les missions indiquées dans la zone de la [Forêt enneigée] de la région de [Wuling] pour obtenir des récompenses, telles que 1 200 [orobéryls] et une [Marque de persévérance].</p><p></p><p><strong>3. Événement de défi [Épreuve de l'arc]</strong></p><p>· Dates de l'événement : Du 9 septembre 2026 à 12 h (heure du serveur) jusqu'à la prochaine mise à jour de version et maintenance</p><p>· Détails de l'événement : Pendant l'événement, terminez les simulations du [Pas de tir à l'arc de Typhoeus] et les missions d'épreuve liées à l'événement pour obtenir des récompenses telles que [Orobéryls] ×1200, [Support cognitif de niveau avancé], [Marque de persévérance] et [Caisse de sélection de progression avancée I].</p><p>※ À la fin de l'événement de défi [Épreuve de l'arc], il ne sera plus possible de terminer les missions d'épreuve ni d'obtenir les récompenses correspondantes, mais le [Pas de tir à l'arc de Typhoeus] restera accessible et vous pourrez toujours obtenir les récompenses de première réussite des simulations.</p><p></p><p><strong>4. Événement de production du GIA [Soutien du GIA : Attaque de Choupi Lung]</strong></p><p>· Dates de l'événement : Du 16 septembre 2026 à 12 h au 30 septembre 2026 à 16 h (heure du serveur)</p><p>· Ouverture de la boutique de marchandises : du 16 septembre 2026 à 12 h au 7 octobre 2026 à 4 h (heure du serveur)</p><p>· Détails de l'événement : Au cours de l'événement, terminez les missions indiquées pour débloquer des formules de marchandises de soutien et accéder à la boutique de marchandises. Produisez des marchandises de soutien et livrez-les à l'avant-poste pour obtenir des [certificats de fruits d'altruisme] bonus, échangeables à la boutique de marchandises contre d'autres articles. Les récompenses d'événement échangeables incluent 1 600 [orobéryls], un [portrait : Attaque de Choupi Lung], une [Marque de persévérance], une [caisse de sélection de progression avancée I] et un [support cognitif de niveau avancé].</p><p></p><p><strong>5. Événement à durée limitée [Approvisionnement en lucidité]</strong></p><p>■ Dates de l'événement :</p><p>Serveur Asia :</p><p>Du 17 septembre 2026 à 4 h au 24 septembre 2026 à 4 h (heure du serveur)</p><p>Du 8 octobre 2026 à 4 h au 15 octobre 2026 à 4 h (heure du serveur)</p><p>Serveur Americas / Europe :</p><p>Du 17 septembre 2026 à 4 h au 24 septembre 2026 à 4 h (heure du serveur)</p><p>Du 8 octobre 2026 à 4 h au 14 octobre 2026 à 17 h (heure du serveur)</p><p>■ Détails de l'événement : Pendant l'événement, terminez chaque jour les missions indiquées pour obtenir des récompenses d'approvisionnement en lucidité : un [permis d'utilisation de lucidité] et un [bonus de lucidité d'urgence].</p><p></p><p><strong>6. Événement cadeau [Grande Feli ronronneuse ! GROAR !]</strong></p><p>· Dates de l'événement : Du 24 septembre 2026 à 12 h (heure du serveur), jusqu'à la prochaine mise à jour de version et maintenance</p><p>· Détails de l'événement : Pendant l'événement, connectez-vous au jeu et participez à divers modes de jeu pour récupérer la nouvelle opératrice 5★ [Purrchena], 5 [jetons de Purrchena] et la nouvelle arme 5★ [L'heure du dessert (épée)] ×6.</p><p></p><p><strong>7. Événement de guide [L'écho de la cloche d'une vieille ville]</strong></p><p>· Dates de l'événement : Du 24 septembre 2026 à 12 h (heure du serveur), jusqu'à la prochaine mise à jour de version et maintenance</p><p>· Détails de l'événement : Terminez les missions indiquées dans la zone de [Suiming] de la région de [Wuling] pour obtenir des récompenses, telles que 1 200 [orobéryls] et une [Marque de persévérance].</p><p></p><p><strong>8. Connexion à durée limitée [Les flux d'arête de l'automne]</strong></p><p>· Dates de l'événement : Du 1 octobre 2026 à 12 h (heure du serveur), jusqu'à la prochaine mise à jour de version et maintenance</p><p>· Détails de l'événement : Pendant l'événement, connectez-vous pendant 7 jours au total pour gagner des récompenses incluant 1 500 [orobéryls], un [portrait : En avant, courez] et une [boisson énergisante « Choupi Lung roulant »].</p><p></p><p><strong>9. Événement de jeux et divertissements [Course d'obstacles des joggeurs]</strong></p><p>· Dates de l'événement : Du 1 octobre 2026 à 12 h (heure du serveur), jusqu'à la prochaine mise à jour de version et maintenance</p><p>· Détails de l'événement : Pendant l'événement, terminez la course avec 3★, collectez des ballons et atteignez les jalons du joggeur correspondants pour gagner des récompenses incluant 1 200 [orobéryls], un [cadre du portrait : As de la course] et une [boisson énergisante « Choupi Lung roulant »].</p><p></p><p><strong>10. Événement de jeux et divertissements [OrbiPom ! FUSION !]</strong></p><p>· Dates de l'événement : Du 1 octobre 2026 à 12 h (heure du serveur), jusqu'à la prochaine mise à jour de version et maintenance</p><p>· Détails de l'événement : Pendant l'événement, rendez-vous sur l'événement en ligne et fusionnez des OrbiPoms pour gagner des points. Terminez les missions indiquées pour gagner 300 [orobéryls] et des [crédits T].</p><p></p><p><strong>■ Mises à jour d'événement et de mode de jeu</strong></p><p><strong>1. Mise à jour du mode de défi permanent [Échos guerriers]</strong></p><p><strong>○[Saison de la virtualité]</strong></p><p>· Mise à jour de la saison : À partir de la mise à jour de la version [Monde onirique de neige et de vent], jusqu'au 24 septembre 2026 à 11 h 59 (heure du serveur)</p><p>· Notes de mise à jour : La nouvelle saison [Saison de la virtualité] est disponible. Cette saison compte 3 cycles incluant chacun 3 niveaux. La [Saison de la virtualité] ajoute 3 nouveaux niveaux. Terminez tous les nouveaux niveaux en difficulté Normal pour obtenir des récompenses, telles que 300 [orobéryls].</p><p><strong>○[Saison de l'illusion]</strong></p><p>· Mise à jour de la saison : Du 24 septembre 2026 à 12 h (heure du serveur), jusqu'à la prochaine mise à jour de version et maintenance</p><p>· Notes de mise à jour : La nouvelle saison [Saison de l'illusion] est disponible. Cette saison compte 3 cycles incluant chacun 3 niveaux. La [Saison de l'illusion] ajoute 3 nouveaux niveaux. Terminez tous les nouveaux niveaux en difficulté Normal pour obtenir des récompenses, telles que 300 [orobéryls].</p><p></p><p><strong>2. Le mode de jeu de défi [Monument de l'ombre] a été mis à jour, les niveaux [Marque des ténèbres] sont disponibles.</strong></p><p>· Disponibilité : à partir du 5 octobre 2026 à 12 h (heure du serveur)</p><p>· Détails de la mise à jour : Le mode de défi [Monument de l'ombre] propose une nouvelle série de 4 niveaux, [Marque des ténèbres]. Terminez les défis de chaque niveau pour gagner des récompenses incluant une [Marque de persévérance], un [support cognitif de niveau avancé], un [ensemble INSP d'arme] et un [Proto-èdre].</p><p>L'événement de défi à durée limitée [Gravure monumentale : marque d'ombre] sera disponible en même temps que le mode de jeu.</p><p>· Dates de l'événement : du 5 octobre 2026 à 12 h, jusqu'au 19 octobre 2026 à 4 h (heure du serveur)</p><p>· Détails de l'événement : l'événement à durée limitée [Gravure monumentale : marque d'ombre] commencera dès que la série [Marque des ténèbres] sera disponible. Pendant l'événement, relevez divers défis de [Monument de l'ombre] pour obtenir des récompenses, telles que 1 200 [orobéryls] et une [caisse de sélection de progression avancée Ⅰ].</p><p></p><p>※ Pour plus d'informations sur l'événement et le mode de jeu, restez à l'affût de nos annonces officielles.</p><p></p><p><strong>■ Mise à jour du centre d'acquisition</strong></p><p>· Le [Pass de Protocole : Gloomwald] est disponible. Pendant toute la durée de la version [Monde onirique de neige et de vent], vous pouvez obtenir différents objets de soutien listés par les ingénieurs de l'arsenal dans le [Pass de Protocole]. Activer chaque Pass de Protocole saisonnier vous permet de débloquer le niveau [Approvisionnement de base] par défaut. Augmentez votre niveau de Pass pour gagner des récompenses incluant des [permis REC de base], des [orobéryls], un [échange de caisse-à-surprises] et des [matériaux de progression].</p><p>· Ajouts au [Centre d'acquisition - Lots] : [Lot de flux du Protocole] et [Lot de REC Chasse hivernale]. Les limites d'achat du [pack de tickets de l'arsenal - éco] sont réinitialisées.</p><p></p><p>※ Pour en savoir plus sur les lots, rendez-vous au [Centre d'acquisition : lots] en jeu.</p><p></p><p><strong>■ Usine du GIA</strong></p><p>· Augmentation de la limite de niveau de développement régional pour [Wuling] ; augmentation de la limite de niveau de l'avant-poste [Station du séminimbus à Xiranflux] à [Wuling - Col de Yinglung].</p><p>· Nouvelle fonctionnalité [Continuer à placer] : Au moment de placer des installations, des décorations ou des parcelles, vous pourrez activer ou désactiver la fonctionnalité [Continuer à placer]. Si vous l'avez activée, tant que vous avez les objets correspondants dans votre sac à dos, vous pouvez continuer à les placer sans quitter le mode Construction.</p><p></p><p><strong>■ Système</strong></p><p>· Nouvelle fonctionnalité [Aperçu de la progression] : Dans [Opérateurs - Aperçu de la progression], vous pourrez afficher tous les opérateurs et les armes en votre possession, ceux que vous ne possédez pas encore, et ceux à venir, le tout à un seul endroit. Vous pourrez également afficher les matériaux nécessaires pour faire progresser les opérateurs et les armes en fonction des différents objectifs, ainsi que les quantités de matériaux que vous possédez actuellement. Pour les opérateurs à venir, vous pouvez également afficher un aperçu des essences correspondant parfaitement à leurs armes recommandées et les ajouter directement à votre liste de souhaits d'essence.</p><p>· Mise à jour des objets échangeables dans l'[échange de talosite], accompagnée de nouveaux objets tels que des [dispositifs personnels], des [décorations], des [poses d'appareil photo], des [vinyles], et bien plus encore.</p><p>· Ajout d'une fonctionnalité [Masquer l'IU]. Pendant les dialogues de l'histoire, les indicateurs de boutons et le texte des dialogues peuvent être masqués, et cette fonctionnalité peut être activée en même temps que la Lecture auto.</p><p>· Ajout de rappels pour certains modes auxquels vous n'avez pas participé depuis longtemps, afin de revoir rapidement les règles du mode correspondant.</p><p>· Ajout de l'affichage du temps du défi sur l'écran de résultats de défi : Certains écrans de résultats de défi affichent désormais votre temps d'achèvement.</p><p>· Ajout d'indicateurs système relatifs aux récompenses [Honorer] déjà obtenues sur l'écran de sélection du niveau d'[Échos guerriers].</p><p></p><p><strong>■ Autres</strong></p><p>· Ajout de contenu, incluant : [guide des opérateurs], [alluvion d'énergie], [Fragment de crise], [PNJ], [médaille gravée], [thème du profil], [portrait], [cadre du portrait], [filtre], [autocollant], [consommables], [matériaux], [pilules de lucidité], [entrée de la base de données], [dossier d'indices], [décoration], [vinyles], [poses d'appareil photo], [phase d'envoi régional d'aurylène] et bien plus encore. Ces éléments seront débloqués au fur et à mesure de votre progression.</p><p>· Ajout du nouvel ensemble [rempart profond]. De nouvelles pièces d'équipement ont été ajoutées aux ensembles [terrain du GIA], [raz-de-marée] et [xiranite éternelle].</p><p></p><p><strong>▼// Optimisations et ajustements</strong></p><p><strong>■ Missions</strong></p><p>· Optimisation du guidage vers le lieu de la mission d'exploration [Photo : cœur de feranmouth].</p><p></p><p><strong>■ Événements et modes de jeu</strong></p><p>· Optimisation de la formulation de certains indicateurs système dans l'[Épreuve de spadamancie].</p><p></p><p><strong>■ Usine du GIA</strong></p><p>· Optimisation de sélection d'ensemble : Au moment d'utiliser la sélection d'ensemble pour créer des plans en mode de sélection groupée, si le nombre d'installations sélectionnées dépasse la limite de sauvegarde du plan, l'écran affichera en temps réel le nombre actuel d'installations sélectionnées et le nombre maximum d'installations pouvant être enregistrées dans le plan.</p><p></p><p><strong>■ Langues et effets sonores</strong></p><p>· Optimisation des voix de certaines actions des opératrices 6★ [Arcane] et [Liino].</p><p>· Optimisation de certaines répliques dans les archives de l'opératrice 4★ [Estella].</p><p></p><p><strong>■ Système</strong></p><p>· Ajustement de la description et du champ d'utilisation du [permis REC certifié]. La description est désormais : « Un certificat interne des Industries Endfield. Utilisez-le pour lancer 1 recrutement dans le [Recrutement certifié] ou le [Recrutement de réusinage]. » Le [permis REC certifié] peut désormais être utilisé dans le [Recrutement certifié] et le [Recrutement de réusinage].</p><p>· Ajustement de l'affichage du thème du profil : La zone d'affichage de l'arrière-plan du profil dans la liste d'amis a été étendue, ce qui permet d'afficher les thèmes du profil plus en détail.</p><p>· Optimisation de la gestion des indices de la salle de réception : Ajout d'une nouvelle fonctionnalité [Ajout rapide]. Lorsqu'il y a des indices pouvant être placés dans la salle de réception, un bouton [Ajout rapide] s'affiche ; un appui permet de placer automatiquement tous les indices disponibles qui peuvent l'être. Ajout de la fonctionnalité [Donner tous les doublons], qui permet en un clic d'offrir les indices en double à vos amis, si vous possédez plus de 2 indices identiques dans votre registre des indices locaux.</p><p>· Optimisation des cadeaux aux opérateurs : Si la confiance d'un opérateur est déjà au maximum, vous pouvez quand même continuer à lui offrir des cadeaux pour terminer les tâches de cadeaux.</p><p>· Optimisation de l'expérience d'affichage des médailles gravées : Lorsque vous consultez les médailles gravées dans [Chemin de la gloire - Album de médailles] ou [Chemin de la gloire - Modifier - Ajouter les médailles gravées obtenues], les onglets de catégorie changent désormais automatiquement en faisant défiler la liste des médailles gravées.</p><p>· Renforcement des effets visuels de texture sous la neige : les détails de texture des personnages, de certaines installations de l'usine du GIA et des décorations dans la neige seront plus riches, rendant l'adhérence des flocons de neige et l'accumulation de neige plus réalistes et renforçant encore l'immersion dans les scènes de glace et de neige.</p><p>· Optimisation de l'expérience lors du retour du mode manette au mode clavier et souris dans certaines circonstances.</p><p></p><p><strong>■ Autres</strong></p><p>· Optimisation de l'expérience de certains niveaux : Après être entré dans l'écran de sélection de la difficulté d'[Échos guerriers], vous pouvez changer de niveau directement, sans avoir à revenir à l'écran de sélection du niveau. Après avoir terminé un niveau d'[Échos guerriers] ou de [Monument de l'ombre], le retour à l'écran de sélection du niveau ne déclenche plus d'écran de chargement, rendant les opérations plus fluides.</p><p>· Optimisation de la logique de sélection de la difficulté lors du retour à la liste des niveaux après en avoir terminé un.</p><p>· Optimisation de l'apparence de certains personnages sous la pluie.</p><p>· Optimisation de l'affichage, des effets visuels et des interactions sur certains écrans.</p><p>· Optimisation de la description de l'effet de taux de coups critiques accru octroyé par la compétence de combat de l'opératrice 6★ [Rossi]. L'effet réel reste inchangé.</p><p>· Optimisation de la description de l'effet de Lenteur octroyé par la compétence de combat de l'opératrice 4★ [Fluorite]. L'effet réel reste inchangé.</p><p>· Optimisation des descriptions des effets de réaction et explosion des Arts accrues, de DÉG cryogéniques et électriques accrus, de DÉG thermiques et naturels accrus, de DÉG des Arts accrus et de bonus de tous les DÉG de compétence. Les effets réels restent inchangés.</p><p>· Optimisation des descriptions de l'effet de Déséquilibre octroyé par les compétences, les talents ou le potentiel de certains opérateurs. Les effets réels restent inchangés.</p><p>· Optimisation du texte dans certains fichiers d'opérateurs.</p><p>· Optimisation de la description de certains effets de compétence d'arme pour les armes 6★ [Type 42 : phalange solennelle], [Point de jonction], [Symbole du devoir], [Bénédiction carmin], [Accessoire amaranthe], [L'appel du brigand], [JET], [Pivot], [Porte-montagne] et [Khravengger], ainsi que pour les armes 5★ [OBJ Lourd fardeau] et [Cherche-Lung sombre]. Les effets réels restent inchangés.</p><p>· Optimisation du texte de guidage pour certaines missions.</p><p>· Optimisation de certains textes de l'histoire.</p><p>· Optimisation des descriptions de certaines missions et du texte de l'interface dans le Pass de Protocole.</p><p>· Optimisation de certaines descriptions d'événements.</p><p>· Optimisation de certaines descriptions d'acquisition et de façonnage des médailles gravées.</p><p>· Optimisation des noms et des descriptions de certains objets, d'après leur fonctionnement en jeu.</p><p>· Optimisation de certaines invites de l'IU.</p><p>· Optimisation de certains noms de chansons dans le phonographe.</p><p>· Optimisation du texte de guidage pour certaines fonctionnalités.</p><p></p><p><strong>▼// Corrections de bugs</strong></p><p><strong>■ Missions</strong></p><p>· Correction d'un problème à cause duquel, dans certaines circonstances, le passage à un opérateur d'essai ne fonctionnait pas dans les missions d'Histoire des opérateurs.</p><p>· Correction d'un problème à cause duquel, dans certaines circonstances, suivre une mission qui nécessitait d'ouvrir [Baker] ne redirigeait pas vers l'interface de [Baker].</p><p>· Correction d'un problème à cause duquel, dans certaines circonstances au cours de certains déroulements de mission, vos propres opérateurs intégrés à une équipe d'essai redevenaient anormalement des opérateurs d'essai.</p><p></p><p><strong>■ Combat</strong></p><p>· Correction d'un problème à cause duquel, dans certaines circonstances, certaines commandes pouvaient provoquer une restitution de PC et des dégâts anormaux après avoir utilisé la [compétence de combat] de l'opératrice 6★ [Arcane] sous sa forme [Arcane de matrice : INT].</p><p>· Correction d'un problème à cause duquel l'opératrice 6★ [Liino] interrompait un nombre anormal de fois l'état de charge de l'ennemi lors de la première touche de sa [compétence de combat].</p><p>· Correction d'un problème à cause duquel, dans certaines circonstances, certaines commandes pouvaient empêcher le déclenchement des compétences de combo.</p><p>· Correction d'un problème à cause duquel, après la mise à jour de la version [Retour], porter des objets tactiques restaurant de l'énergie d'ultime en entrant dans certains niveaux pouvait, dans certaines circonstances, consommer anormalement ces objets tactiques.</p><p></p><p><strong>■ Événements et modes de jeu</strong></p><p>· Correction d'un problème à cause duquel, dans certaines circonstances, jouer avec une manette pouvait entraîner des erreurs d'affichage des icônes dans l'interface de [Crise X].</p><p>· Correction d'un problème à cause duquel, dans certaines circonstances, certains effets visuels ne s'affichaient pas dans l'[Épreuve de spadamancie].</p><p></p><p><strong>■ Langues et effets sonores</strong></p><p>· Correction d'un problème à cause duquel, dans certaines circonstances, certains effets sonores persistaient après les ruées des opérateurs 6★ [Arcane] et [Camille].</p><p></p><p><strong>■ Système</strong></p><p>· Correction d'un problème à cause duquel, dans certaines circonstances, faire glisser des personnages dans la fonctionnalité [Photo] empêchait de progresser dans certains niveaux.</p><p>· Correction d'un problème à cause duquel, dans certaines circonstances, [Carte - Suivi d'une autre carte...] n'affichait pas les noms des libellés personnalisés.</p><p></p><p><strong>■ Autres</strong></p><p>· Correction d'un problème à cause duquel, dans certaines circonstances, des zones de l'écran clignotaient de manière anormale dans certaines régions de [Wuling - Pierre de marquage - Îlot du lac].</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "2102",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1788303600,
+            "focus": 0,
+            "title": "Calendrier de la version",
+            "header": "Calendrier de la version",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260901/08c0af30b25461010cae9806f558da8f.jpg\" data-width=\"1920\" data-height=\"2967\"><p></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "0793",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "picture",
+            "startAt": 1788256800,
+            "focus": 0,
+            "title": "Mises à jour du widget de statistiques de jeu Discord",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260831/e9d01a259657303936384b076784f00f.png",
+              "link": "https://endfield.gryphline.com/special/discord-binding",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1378",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1787716800,
+            "focus": 0,
+            "title": "Recrutement du test Steam ouvert !",
+            "header": "Recrutement du test Steam ouvert !",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260824/2f004dc2882a3b1ac64325492de2fa78.png\" data-width=\"1650\" data-height=\"300\"><p>Endministrator, <br>Nous allons organiser le [Test des pionniers] à durée limitée avant le lancement officiel d'Arknights: Endfield sur Steam. Nous vous invitons donc à y participer pour en avoir un premier aperçu !<br><br>▼// Période de recrutement :<br>du 26 août 2026 à 12 h 00 au 10 septembre 2026 à 13 h 00 (UTC+8)<br><br>▼// Récompenses de participation : Connectez-vous pendant 5 jours à la version Steam au cours de la période de test pour les récupérer (les récompenses vous seront envoyées après le lancement officiel du jeu sur Steam) <br>· 180 orobéryls <br>· 16 000 crédits T <br>· 15 supports cognitifs de base<br><br>▼// Comment s'inscrire : <br>· Cliquez sur le lien et répondez au questionnaire pour vous inscrire : <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://hgto.cc/n/e0zKE5\">https://hgto.cc/n/e0zKE5</a> <br>· Vous souhaitez connaître les résultats du recrutement et suivre le déroulement du test ? Rendez-vous sur notre Discord officiel en un clic : <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://discord.gg/akendfield\">https://discord.gg/akendfield</a></p><p></p><p>▼// Configuration requise</p><p>· Recommandée : Intel Core i7-10700K ou équivalent ou supérieur, 16 Go de RAM ou plus, NVIDIA GeForce RTX 2060 ou équivalent ou supérieur.</p><p>· Minimale : Intel Core i5-9400F ou équivalent, 16 Go de RAM, NVIDIA GeForce GTX 1060 ou équivalent.</p><p>· Système d'exploitation : Windows 10 64 bits ou Windows 11 64 bits, DirectX 11.1 ou version ultérieure.</p><p>· Stockage : 50 Go d'espace libre ou plus, et 40 Go supplémentaires requis lors de l'extraction des fichiers. L'installation du jeu sur un SSD est recommandée.</p><p></p><p>▼// Attention</p><p>1. Il s'agit d'un test à accès limité avec les achats en jeu activés et sans effacement des données, ouvert uniquement aux Endministrators disposant d'un accès au test. Nous sélectionnerons une partie des Endministrators ayant rempli le questionnaire d'inscription pour participer à ce test. Le nombre de places étant limité, la soumission du questionnaire d'inscription ne garantit pas l'accès au test. Si vous faites partie des joueurs sélectionnés, vous recevrez un e-mail officiel contenant plus de détails sur le test. Dans le cas contraire, aucune notification ne sera envoyée.</p><p>2. Pendant le test, la version Steam fonctionnera sur les serveurs en direct, et le contenu du jeu, les données du compte ainsi que la progression en jeu seront synchronisés sur toutes les plateformes.</p><p>3. La qualité du client de la version Steam est encore en cours d'ajustement. Pendant le test, vous pourriez rencontrer des éléments instables tels que des bugs, des problèmes de client ou des anomalies de service en ligne. Veuillez nous faire part de vos retours via le service client en jeu ou d'autres canaux officiels. Nous continuerons de surveiller et d'améliorer l'expérience de la version Steam.</p><p>4. Veuillez vous référer aux annonces des canaux officiels afin de consulter les informations importantes concernant le recrutement pour le test. Ne prêtez pas attention aux messages provenant de sources non officielles, qui peuvent contenir de fausses informations. Veillez à protéger vos informations de compte, ainsi que vos biens personnels. Ne partagez pas, ne vendez pas et n'achetez pas d'accès au test via des canaux non officiels, afin d'éviter des pertes inutiles.</p><p>5. Assurez-vous de remplir le questionnaire avec exactitude. Nous vérifierons minutieusement l'authenticité des données fournies et toute incohérence peut entraîner l'exclusion du test. Si, pour des raisons personnelles, vous remplissez incorrectement les informations du questionnaire, nous considérerons que vous renoncez à participer au test.</p><p>6. Assurez-vous que vous êtes considéré comme majeur selon les lois et règlements de votre pays/région et que vous répondez aux exigences spécifiées pour le test de l'appareil. Dans le cas contraire, vous ne pourrez pas participer au test.</p><p>7. Le contenu de cette phase de test n'est pas représentatif de la qualité finale du produit. Veuillez vous référer à la version officielle qui sortira.</p><p></p><p>Nous avons hâte de recevoir votre candidature !</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "4610",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1786590000,
+            "focus": 0,
+            "title": "Événement de jalon Liste de souhaits",
+            "header": "Événement de jalon Liste de souhaits",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260811/83f3c524e8e28122dc03aee0b745730c.png\" data-width=\"1650\" data-height=\"300\"><p>Endministrator, <br>Pour célébrer le lancement imminent d'Arknights: Endfield sur Steam, nous vous avons préparé un événement de jalon spécial, [Liste de souhaits] ! <br>Ajoutez Arknights: Endfield à votre liste de souhaits Steam dès aujourd'hui et aidez-nous à atteindre le dernier jalon pour débloquer un cadre du portrait commémoratif spécial et d'autres récompenses !<br><br>▼// Dates de l'événement<br>Du 13 août 2026 au lancement officiel d'Arknights: Endfield sur Steam (la date exacte sera annoncée ultérieurement).<br><br>▼// Récompenses de jalon<br>· Phase 1 (30 000) : 8 000 crédits T <br>· Phase 2 (100 000) : 2 supports cognitifs de base <br>· Phase 3 (200 000) : 2 ensembles INSP d'arme <br>· Objectif final (300 000) : 1 cadre du portrait commémoratif spécial<br><br>Rendez-vous dès à présent sur Steam et ajoutez Arknights: Endfield à votre liste de souhaits. Ensemble, nous atteindrons l'objectif final !<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://store.steampowered.com/app/4732690/\">Accédez à Steam</a></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6446",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "picture",
+            "startAt": 1786338000,
+            "focus": 0,
+            "title": "Événement d'abonnement sur WhatsApp et Messenger",
+            "header": "L'événement d'abonnement sur WhatsApp et Messenger est lancé !",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260810/4bffb8ed85a0e93c3878e5944ed9e3f4.png",
+              "link": "https://endfield.gryphline.com/en-us/news/1329",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "9869",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 2,
+            "displayType": "rich_text",
+            "startAt": 1788303600,
+            "focus": 0,
+            "title": "Pass de Protocole\\nGloomwald",
+            "header": "Détails sur le [Pass de Protocole : Gloomwald]",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260831/2fbdc1ae19752a059d8767196d0aa6f2.jpg\" data-width=\"1650\" data-height=\"300\"><p>Endministrator, <br>Pendant la période du [Pass de Protocole : Gloomwald], vous pouvez accéder à divers projets de soutien fournis par les ingénieurs de l'arsenal grâce au système de [Pass de Protocole]. Au lancement de chaque saison de Pass de Protocole, le niveau [Approvisionnement de base] sera débloqué par défaut. En augmentant votre niveau de Pass, vous pouvez gagner des récompenses incluant des [permis REC de base], des [orobéryls], un [échange de caisses-à-surprises] et des [matériaux de progression]. <br>Le niveau [Approvisionnement en originium] peut être débloqué grâce à des [origéométries] et octroie un [permis REC de base], un [autocollant : piège onirique], un [filtre : souvenir sanguin] et des récompenses supplémentaires telles qu'un [approvisionnement en armes : Gloomwald], des [origéométries] et un [bonus de lucidité d'urgence]. <br>Achetez le niveau [Protocole personnalisé] pour obtenir un [profil : Nuit sous l'éclat des rêves], un [cadre du portrait : Règles du prêtre des neiges], un [portrait : Silhouette gelée], ainsi que des récompenses bonus comme un [approvisionnement en armes : Gloomwald], des [tickets de l'arsenal] et un [modèle d'arme protocolisée].<br><br><strong>▼// Disponibilité </strong><br>Pendant toute la durée de la version [Monde onirique de neige et de vent] <br>※ Fuseau horaire du serveur Asia : UTC+8 <br>※ Fuseau horaire du serveur Americas / Europe : UTC-5<br><br><strong>▼// Critères de participation </strong><br>Terminer la mission principale : [Chapitre I - Processus I : Rompre le siège]<br><br><strong>▼// Détails sur le Pass de Protocole </strong><br>· Activer le [Pass de Protocole] débloque par défaut le niveau [Approvisionnement de base]. Vous pouvez acheter le niveau [Protocole personnalisé] ou dépenser des [origéométries] pour débloquer le niveau [Approvisionnement en originium] afin de gagner des récompenses supplémentaires et un bonus de gain d'EXP de Pass. <br>· Pour chaque saison de Pass, les niveaux [Approvisionnement en originium] et [Protocole personnalisé] contiennent chacun un [approvisionnement en armes], qui vous permet d'obtenir au choix une des armes 6★ mises en avant dans la saison. Les [modèles d'armes protocolisées] peuvent augmenter le potentiel de n'importe quelle arme obtenue grâce aux [approvisionnements en armes] du Pass de Protocole. <br>· Terminez diverses missions de Pass (certaines missions seront disponibles après avoir rempli certains critères ou au fil du temps) ou participez aux [tâches quotidiennes du manuel opérationnel] et obtenez le maximum de récompenses en points d'activité chaque jour pour gagner de l'EXP de Pass. Faites monter le Pass de niveau pour débloquer diverses récompenses du [Pass de Protocole]. <br>· Après avoir débloqué l'[Approvisionnement en originium] ou le [Protocole personnalisé], et même après avoir atteint le niveau maximum du [Pass de Protocole], vous pouvez continuer à gagner de l'EXP de Pass. Toute l'EXP de Pass dépassant la limite s'accumulera pour vous faire gagner un [recyclage de caisses-à-surprises]. La caisse est automatiquement ouverte à réception et octroie des récompenses aléatoires en [orobéryls], en [matériaux de progression] et en [permis d'utilisation de lucidité]. <br>· Débloquer le niveau [Approvisionnement en originium] ou [Protocole personnalisé] du Pass de Protocole saisonnier octroie +3 % d'EXP bonus chacun. Débloquer les deux niveaux octroie +6 % d'EXP bonus. <br>· En cas d'achats surnuméraires du [Protocole personnalisé] en raison de circonstances particulières, les récompenses du niveau [Protocole personnalisé] ne sont pas cumulables. Vous recevrez plutôt le remboursement d'une quantité d'[origéométries] en fonction de la valeur de votre achat. <br>· Lorsque la saison du [Pass de Protocole] s'achève, les récompenses de niveau de Pass non réclamées vous sont envoyées par courrier.<br><br>※ Pour les règles détaillées, rendez-vous sur le [Pass d'accès] en jeu et consultez les [Détails sur le Pass de Protocole].<br></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1377",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 2,
+            "displayType": "rich_text",
+            "startAt": 1788303600,
+            "focus": 0,
+            "title": "Chasse hivernale\\nRecrutement certifié",
+            "header": "[Chasse hivernale] Recrutement certifié",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260901/5e07394a003135a7d3e99bbebdb9c309.jpg\" data-width=\"1650\" data-height=\"300\"><p>Endministrator,</p><p>Pendant le recrutement certifié [Chasse hivernale], l'opératrice&nbsp;6★ [Typhoeus] est à taux SUP&nbsp;!</p><p>L'événement de connexion à durée limitée [Pointe de fer empennée] s'ouvrira simultanément. Connectez-vous pendant plusieurs jours pour obtenir des récompenses telles que 5&nbsp;[permis REC Pointe de fer empennée]. Vous pouvez également échanger des [permis REC Pointe de fer empennée] à prix réduit dans l'[échange de quota du GIA]. L'événement de test d'opérateurs [Exercices de combat] sera également disponible pendant cette période.</p><p><br></p><p><strong>▼// Détails sur le recrutement certifié [Chasse hivernale]</strong></p><p>· Disponibilité&nbsp;: À partir de la sortie de la version [Monde onirique de neige et de vent], jusqu'au 30&nbsp;septembre&nbsp;2026 à 11&nbsp;h&nbsp;59 (heure du serveur)</p><p>· Critères de participation&nbsp;: terminer la mission principale [Chapitre&nbsp;I&nbsp;- Processus&nbsp;I&nbsp;: Rompre le siège]</p><p>· Le recrutement certifié [Chasse hivernale] propose l'opératrice&nbsp;6★ [Typhoeus] à taux SUP.</p><p>· Parmi les opérateurs&nbsp;6★ qui peuvent apparaître dans le recrutement certifié [Chasse hivernale], vous retrouverez notamment&nbsp;: Typhoeus&nbsp;/ Liino&nbsp;/ Arcane&nbsp;/ Ember&nbsp;/ Lifeng&nbsp;/ Ardelia&nbsp;/ Last Rite&nbsp;/ Pogranichnik.</p><p>· Dans le recrutement certifié [Chasse hivernale], vous pouvez utiliser les [permis REC Pointe de fer empennée], les [permis REC certifié] ou des [orobéryls] pour lancer des recrutements.</p><p>※ L'opérateur&nbsp;6★ à taux SUP proposé dans la bannière de [recrutement certifié] sera, au bout de 3&nbsp;bannières de [recrutement certifié], supprimé de la liste des opérateurs pouvant apparaître dans le [recrutement certifié]. Cet opérateur&nbsp;6★ à taux SUP ne sera pas non plus ajouté au [recrutement de base].</p><p><br></p><p><strong>▼// Récompenses de [recrutement certifié]</strong></p><p>Dans le recrutement certifié [Chasse hivernale], lancez un certain nombre de tentatives de recrutement pour gagner les récompenses correspondantes.</p><p><br></p><p>■ Recrutement d'urgence</p><p>· Après 30&nbsp;tentatives de recrutement, vous recevrez 10&nbsp;tentatives de recrutement d'urgence bonus (qui comptent comme 1&nbsp;tentative gratuite de recrutement&nbsp;×10). Elles seront uniquement valables pendant cette bannière de [recrutement certifié] et ne se répercuteront pas sur les autres bannières de recrutement.</p><p>· Les taux d'obtention d'opérateurs dans le recrutement d'urgence sont les mêmes que les taux de base de cette bannière de [recrutement certifié], et la tentative gratuite de recrutement&nbsp;×10 offerte par le recrutement d'urgence garantit un opérateur&nbsp;5★ ou plus.</p><p>· Cette tentative gratuite de recrutement&nbsp;×10 offerte par le recrutement d'urgence ne compte pas dans la garantie pour cette bannière ou les autres bannières de [recrutement certifié]. Elle ne sera pas non plus ajoutée aux tentatives de recrutement requises pour les récompenses de [recrutement certifié].</p><p>■ Dossier de recrutement</p><p>· Après avoir lancé 60&nbsp;tentatives de recrutement, vous recevrez 1&nbsp;[dossier de recrutement] bonus.</p><p>· Lorsque les critères sont remplis, le [dossier de recrutement] est automatiquement envoyé dans votre coffre d'objets de valeur. Au lancement de la bannière de [recrutement certifié] suivante, ce [dossier de recrutement] sera automatiquement converti en permis REC spécial&nbsp;×10 pour la bannière de [recrutement certifié] spécifique. Cependant, les permis REC expireront en même temps que la bannière en question.</p><p>■ Jeton symbolique</p><p>· Dans chaque bannière de [recrutement certifié], toutes les 240&nbsp;tentatives de recrutement, vous obtiendrez en bonus 1&nbsp;[jeton de l'opérateur&nbsp;6★ à taux SUP proposé dans la bannière en question].</p><p><br></p><p><strong>▼// Détails sur les tickets de l'arsenal</strong></p><p>Chaque tentative de recrutement d'opérateurs fait également gagner des [tickets de l'arsenal].</p><p>· Obtenir un opérateur&nbsp;6★ fait gagner 2&nbsp;000&nbsp;[tickets de l'arsenal].</p><p>· Obtenir un opérateur&nbsp;5★ fait gagner 200&nbsp;[tickets de l'arsenal].</p><p>· Obtenir un opérateur&nbsp;4★ fait gagner 20&nbsp;[tickets de l'arsenal].</p><p>※ Vous pouvez dépenser les [tickets de l'arsenal] au [Centre d'acquisition&nbsp;: boutique de l'arsenal].</p><p><br></p><p>Pendant le recrutement certifié [Chasse hivernale], le contenu suivant sera également disponible&nbsp;:</p><p><strong>▼// Événement de connexion à durée limitée [Pointe de fer empennée]</strong></p><p>Connectez-vous pendant 7&nbsp;jours pour gagner des récompenses telles que 5&nbsp;[permis REC Pointe de fer empennée].</p><p><br></p><p><strong>▼// Événement de test d'opérateurs [Exercices de combat]</strong></p><p>Les [exercices de combat] seront disponibles pour tester l'opératrice&nbsp;6★ [Typhoeus]. Terminez le niveau spécifique avec l'équipe prédéfinie incluant l'opératrice d'essai pour obtenir 100&nbsp;[orobéryls], une [caisse de défense de l'arsenal], une [Marque de persévérance] et d'autres récompenses. La [caisse de défense de l'arsenal] contient un ensemble d'équipement de niveau&nbsp;60 renforcé au maximum adapté à l'opératrice d'essai.</p><p><br></p><p><strong>▼// Remarque spéciale concernant l'[échange de quota du GIA]</strong></p><p>L'[échange de quota] proposera des offres spéciales à durée limitée. Vous pouvez dépenser des quotas du GIA pour acheter des objets tels que 5&nbsp;[permis REC Pointe de fer empennée].</p><p><br></p><p>※ Fuseau horaire du serveur Asia : UTC+8</p><p>※ Fuseau horaire du serveur Americas / Europe : UTC-5</p><p>※ Pour plus de détails à propos du recrutement, consultez l'écran de [Recrutement] en jeu.</p><p>※ Pour plus de détails à propos de l'événement, consultez le [Centre d'événement] en jeu.</p><p>※ Pour en savoir plus sur l'[échange de quota du GIA], consultez le [Centre d'acquisition] en jeu.</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7284",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1788303600,
+            "focus": 0,
+            "title": "Monde onirique de neige et de vent\nLot",
+            "header": "[Monde onirique de neige et de vent] Détails du lot",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260831/16d3528c8283bb1b5a27d2d325099244.jpg\" data-width=\"1650\" data-height=\"300\"><p>Endministrator,</p><p>Pendant la version [Monde onirique de neige et de vent], le [Centre d'acquisition] proposera divers lots.</p><p><br></p><p><strong>▼// Lots limités</strong></p><p>■ Lot de flux du Protocole</p><p>· Disponibilité : pendant toute la durée de la version [Monde onirique de neige et de vent]</p><p>· Contenu du lot : [Permis REC certifié] ×10, [Ticket de l'arsenal] ×2 000, [Marque de persévérance] ×10</p><p>· Remarque : 1 seul achat autorisé dans la version actuelle</p><p><br></p><p>■ Lot de REC Chasse hivernale</p><p>· Disponibilité : après la mise à jour de la version [Monde onirique de neige et de vent] — 30 septembre 2026 à 11 h 59 (heure du serveur)</p><p>· Contenu du lot : [Permis REC Pointe de fer empennée] ×10, [Crédits T] ×80 000</p><p>· Remarque : 1 seul achat autorisé</p><p><br></p><p>■ Pack de tickets de l'arsenal - éco</p><p>· Disponibilité : pendant toute la durée de la version [Monde onirique de neige et de vent]</p><p>· Contenu du lot : [Ticket de l'arsenal] ×2 000</p><p>· Remarque : 1 seul achat autorisé dans la version actuelle</p><p><br></p><p>※ Fuseau horaire du serveur Asia : UTC+8</p><p>※ Fuseau horaire du serveur Americas / Europe : UTC-5</p><p>※ Certains lots peuvent inclure des objets à durée limitée. Vous pouvez consulter les détails des objets à durée limitée dans [Achat — Contenu de l'article]. Si les objets à durée limitée d'un lot expirent après l'achat, ils ne pourront pas être réémis. Merci de votre compréhension et de votre soutien.</p><p>※ Pour plus de lots et de détails, visitez la section [Centre d'acquisition — Lots] en jeu.</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8950",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1788303600,
+            "focus": 0,
+            "title": "Tirage du froid mordant",
+            "header": "Détails sur la durée limitée du [tirage du froid mordant]",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260831/a7055b0b27b7ad4743266b8890df5627.jpg\" data-width=\"1650\" data-height=\"300\"><p>Endministrator,</p><p>Tant que le [tirage du froid mordant] est disponible, les chances d'obtenir l'arme 6★ [Ombre du crépuscule glacé (unité des Arts)] sont augmentées !</p><p><br></p><p><strong>▼// [Tirage du froid mordant]</strong></p><p>· Disponibilité : Ouvre après la sortie de la version [Monde onirique de neige et de vent], et se termine au bout de 3 bannières de [recrutement certifié] (à partir de [Chasse hivernale])</p><p>· Critères de participation : Terminer la mission principale [Chapitre I - Processus I : Rompre le siège]</p><p>· Le [tirage du froid mordant] propose l'arme 6★ [Ombre du crépuscule glacé (unité des Arts)] à taux SUP.</p><p>· Les armes 6★ susceptibles d'apparaître dans le [tirage du froid mordant] sont les suivantes : Ombre du crépuscule glacé (unité des Arts) / Exemplaire (espadon) / Clannibale (canon portatif) / Vaillance (arme d'hast) / Oubli (unité des Arts) / Unité de détonation (unité des Arts) / Ascension rapide (épée).</p><p><br></p><p><strong>▼// Récompenses de [tirage de l'arsenal]</strong></p><p>Dans chaque [tirage de l'arsenal], lancer un nombre défini de tirages offre alternativement un [coffre d'offrande d'armes] (CO d'armes) ou une [arme 6★ à taux SUP] spécifique à cette bannière. Le nombre total de tirages pour obtenir ces récompenses de tirage de l'arsenal sera réinitialisé à l'issue de la bannière et ne sera pas répercuté sur d'autres bannières de [tirage de l'arsenal].</p><p><br></p><p><strong>▼// Détails sur le [tirage de l'arsenal]</strong></p><p>· Dans le [tirage de l'arsenal], vous pouvez dépenser des [tickets de l'arsenal] pour lancer un tirage.</p><p>· Chaque tirage offre 10 armes aléatoires issues de la liste des armes disponibles, incluant au moins une arme 5★ ou plus.</p><p><br></p><p><strong>▼// Détails sur la [boutique de l'arsenal]</strong></p><p>Dans la [boutique de l'arsenal], vous pouvez également utiliser des [tickets de l'arsenal] pour acheter directement des armes. Certaines armes achetables peuvent être mises à jour de temps à autre. Consultez les informations affichées sur l'écran du [Centre d'acquisition : boutique de l'arsenal] pour connaître les disponibilités actuelles.</p><p><br></p><p>※ Pour plus de détails et de règles concernant les récompenses, visitez le [Centre d'acquisition : boutique de l'arsenal] dans le jeu.</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7282",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1788433200,
+            "focus": 0,
+            "title": "Manuel de survie au champ de neige de Typhoeus",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260903/889fa27059762481dd70d9d3d21a8f8b.jpg",
+              "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fwww.skport.com%252Farticle%253Fid%253D2095343107828303875%2526hg_media%253Dgame%2526hg_link_campaign%253Dannouncement%2526hg_link_name%253DTyphoeus",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7283",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1788346800,
+            "focus": 0,
+            "title": "Discussions autour de la nouvelle version",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260901/0debe2b6b1bc5689f080e88877eb96be.png",
+              "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fwww.skport.com%252Farticle%253Fid%253D2093178817402799422%2526hg_media%253Dgame%2526hg_link_campaign%253Dannouncement%2526hg_link_name%253DDreamscapeofWind",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "3040",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1788345000,
+            "focus": 0,
+            "title": "[Orobéryls] L'événement à thème de Typhoeus commence",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260901/d4670feb5b162835210d9331b4481c74.png",
+              "link": "https://discord.gg/amQspUDEa?event=1543899529894559764",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8959",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1788321600,
+            "focus": 0,
+            "title": "Connexion quotidienne",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260901/fe7598d4bd63a733dae43c3dbb869b12.png",
+              "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fstatic.skport.com%252Fu-link%252Fdownload.html%253Fschema%253Dskport%25253A%25252F%25252Fweb%25253Furl%25253Dhttps%2525253A%2525252F%2525252Fgame.skport.com%2525252Fendfield%2525252Fsign-in%2525253Fheader%2525253D0%25252526hg_media%2525253Dgame%25252526hg_link_campaign%2525253Dannouncement%25252526hg_link_name%2525253Dsignin",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1376",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "rich_text",
+            "startAt": 1788303600,
+            "focus": 0,
+            "title": "Rêve d'hiver brumeux au creux des bois",
+            "header": "Détails de l'événement narratif de Typhoeus",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260901/4f8011be94023967f1954f81b323f5e5.jpg\" data-width=\"1650\" data-height=\"300\"><p>Un message inattendu guide l'Endministrator vers une mystérieuse forêt de conifères, au-delà du col de Yinglung. Là-bas, un nouveau récit attend l'arrivée de l'Endministrator.</p><p><br></p><p><strong>▼// Dates de l'événement</strong></p><p>Pendant toute la durée de la version [Monde onirique de neige et de vent]</p><p><br></p><p><strong>▼// Conditions de participation</strong></p><p>Terminer la mission principale [Chapitre&nbsp;II&nbsp;- Processus&nbsp;VII&nbsp;: Le soleil refuse obstinément de se coucher]</p><p><br></p><p><strong>▼// Détails de l'événement</strong></p><p>· Terminez la mission annexe [Rêve d'hiver brumeux au creux des bois] pour obtenir des [orobéryls], un [support cognitif de base], un [Proto-èdre], un [ensemble INSP d'arme] et d'autres récompenses.</p><p>· Une fois la page de l'événement supprimée, vous pourrez continuer à jouer à cette mission annexe sur l'écran [Missions] et obtenir les récompenses si vous remplissez les conditions de participation.</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "5526",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "rich_text",
+            "startAt": 1788303600,
+            "focus": 0,
+            "title": "Échos guerriers\\nSaison de la Virtualité",
+            "header": "Échos guerriers - Saison de la virtualité",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260828/67128d675f9bfdac00d8f4a40d61dae0.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Disponibilité de la saison</strong><br>À partir de la mise à jour de la version [Monde onirique de neige et de vent], jusqu'au 24 septembre 2026 à 11 h 59 (heure du serveur)<br><br><strong>▼// Conditions de participation</strong><br>· Niveau d'autorité ≥ 40<br>· Terminer la mission principale [Chapitre I - Processus II : Ouvrir la voie]<br><br><strong>▼// Détails de la mise à jour de la saison</strong><br>La nouvelle saison [Saison de la virtualité] est disponible, avec 3 nouveaux niveaux. Cette saison compte 3 cycles, comportant chacun 3 niveaux.<br><br>※ Fuseau horaire du serveur Asia : UTC+8<br>※ Fuseau horaire du serveur Americas / Europe : UTC-5<br>※ Pour plus de détails à propos de l'événement, consultez le [Centre d'événement] en jeu.<br></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "0792",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 5,
+            "displayType": "picture",
+            "startAt": 1788321600,
+            "focus": 1,
+            "title": "Site officiel de recharge disponible",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260831/de85d14fc2d34429ddcc27461fd66938.png",
+              "link": "https://topup.gryphline.com/endfield?u8_token={u8_token}&server={server}",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "2101",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 5,
+            "displayType": "rich_text",
+            "startAt": 1788303600,
+            "focus": 0,
+            "title": "Neige sur les bois profonds",
+            "header": "Détails de l'événement de guide",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260901/9340431d375eb717f35e932377f50602.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Dates de l'événement</strong></p><p>À partir de la mise à jour de la version [Monde onirique de neige et de vent], jusqu'au 30&nbsp;septembre&nbsp;2026 à 11&nbsp;h&nbsp;59 (heure du serveur)</p><p><br></p><p><strong>▼// Récompenses de l'événement</strong></p><p>Terminez les missions pendant l'événement pour gagner des récompenses incluant&nbsp;: des [orobéryls] et une [Marque de persévérance].</p><p><br></p><p><strong>▼// Conditions de participation</strong></p><p>Dans la mission annexe [Une forêt enveloppée de brume], terminez l'objectif [Se rendre à l'entrée de la forêt].</p><p>※ Terminez la mission principale [Chapitre&nbsp;Ⅱ&nbsp;- Processus&nbsp;VII&nbsp;: Le soleil refuse obstinément de se coucher] pour débloquer la mission annexe [Une forêt enveloppée de brume].</p><p><br></p><p><strong>▼// Détails de l'événement</strong></p><p>Au cours de l'événement, visitez la zone [Forêt enneigée] dans la région de Wuling et terminez des missions d'événement, comme le déblocage de points&nbsp;TP et l'ouverture de caisses de Protocole, pour obtenir de belles récompenses.</p><p><br></p><p>※ Fuseau horaire du serveur Asia : UTC+8</p><p>※ Fuseau horaire du serveur Americas / Europe : UTC-5</p><p>※ Pour plus de détails sur l'événement, consultez le [Centre d'événement] en jeu.</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8998",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 5,
+            "displayType": "rich_text",
+            "startAt": 1769011200,
+            "focus": 0,
+            "title": "Règles de fair-play",
+            "header": "Règles de fair-play d'Arknights: Endfield",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260121/0124ec05493701714ff2280c237f4020.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Merci pour votre intérêt et votre soutien permanent à Arknights: Endfield. En vue de maintenir un environnement de jeu sain et équitable, et de protéger les droits et intérêts légitimes de tous les joueurs, nous souhaitons rappeler à tous les joueurs les points suivants :</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">1. L'utilisation de codes de triche, d'outils tiers, de recharges non autorisées ou de toute autre méthode inappropriée perturbant l'intégrité du jeu ou enfreignant les Conditions d'utilisation du jeu est strictement interdite. Selon les rapports de surveillance interne et les signalements des joueurs, dans le cas où de telles violations sont confirmées, nous prendrons les mesures qui s'imposent en fonction de la gravité de l'infraction. Cela inclut, mais sans s'y limiter, le retrait des gains illicites, la suspension temporaire ou le bannissement définitif du compte.</span></p><p><span style=\"color: rgb(0, 0, 0);\">2. Afin de préserver les droits et intérêts légitimes de tous les joueurs, veuillez ne pas transférer, partager ou monnayer votre compte de jeu. Les conséquences résultant de tels actes, notamment le vol de compte ou la perte d'éléments dans le jeu, relèvent de l'entière responsabilité du joueur.</span></p><p><span style=\"color: rgb(0, 0, 0);\">3. Afin de garantir une expérience de jeu complète, les joueurs ne sont pas autorisés à décompresser, modifier ou altérer les fichiers d'installation du jeu, et ils ne doivent pas distribuer d'éléments ainsi extraits.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Enfin, pour créer un environnement de jeu positif et juste, il faut que tous les joueurs produisent un effort collectif. Nous demandons à chacun et chacune de contribuer à entretenir un cadre de jeu juste et pacifique. Si vous vous rendez compte de violations de ces règles, veuillez les signaler via notre centre de service client officiel.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6472",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 7,
+            "displayType": "rich_text",
+            "startAt": 1769011200,
+            "focus": 0,
+            "title": "Politique d'utilisation des fonctionnalités",
+            "header": "Politique d'utilisation du Groupe industriel automatisé et des plans",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260121/f756424cf9fdd4694161abeb41eed35c.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">Afin de garantir un environnement de jeu convivial, veuillez respecter nos Conditions d'Utilisation lorsque vous utilisez les fonctionnalités liées au Groupe industriel automatisé. Veuillez ne pas publier ou diffuser de contenu comportant :</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">1. Toute forme de discrimination fondée sur la région, l'ethnie, l'orientation sexuelle, la religion, les opinions politiques, etc.</span></p><p><span style=\"color: rgb(31, 35, 41);\">2. Toute forme de diffamation, d'insulte ou de violation des droits d'autrui</span></p><p><span style=\"color: rgb(31, 35, 41);\">3. Toute forme d'obscénité, de violence, de jeu d'argent ou de haine</span></p><p><span style=\"color: rgb(31, 35, 41);\">4. Tout élément interdit ou jugé inapproprié par les Conditions d'Utilisation.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Si vous commettez l'une des infractions susmentionnées, des sanctions peuvent être appliquées, notamment la suppression des éléments placés dans le Groupe industriel automatisé, la restriction de certaines fonctionnalités de l'Usine GIA et la suspension de votre compte. Pour signaler une infraction, utilisez le bouton [Signaler] ou contactez le support client.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Si vous utilisez la fonctionnalité [Partager un plan], vous obtiendrez un [Code de plan] qui permettra aux autres Endministrators de voir et d'utiliser votre [Plan]. Avant de commencer, veuillez noter qu'en partageant votre [Code de plan], vous acceptez que tout le monde puisse consulter, copier ou utiliser votre conception. Réfléchissez bien avant de le partager.</span></p><p></p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user.gryphline.com/en-us/protocol/plain/endfield/game/terms_of_service\">Terms of Service</a></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "3041",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 10,
+            "displayType": "rich_text",
+            "startAt": 1787900400,
+            "focus": 0,
+            "extraData": {},
+            "title": "Avis : amélioration de l'affichage des prix de certaines devises",
+            "header": "Avis concernant l'amélioration de l'affichage des prix pour certaines devises",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260828/436edd4bbd63e980f95a30b7efbb4249.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Endministrator,</span></p><p><span style=\"color: rgb(0, 0, 0);\">Afin d'améliorer votre expérience de paiement, nous optimisons la précision décimale de l'affichage des prix pour certaines devises (CHF, HKD, RUB, THB, MYR). Les prix dans certaines devises seront affichés avec deux décimales au lieu de nombres entiers ou avec une seule décimale, ce qui rendra l'affichage des montants plus cohérent.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Si vous rencontrez d'autres problèmes, veuillez nous en faire part via notre service client en jeu ou par d'autres canaux officiels.</span></p><p><span style=\"color: rgb(0, 0, 0);\">Merci encore pour votre intérêt et votre soutien indéfectible à Arknights: Endfield, Endministrator !</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6474",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 12,
+            "displayType": "rich_text",
+            "startAt": 1769036400,
+            "focus": 0,
+            "title": "Récupération d'espace de corrosion",
+            "header": "Récupération d'espace de corrosion",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260117/f0736fcc76128c347acd8152f35bf9c3.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Période de disponibilité</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Dès la sortie officielle du jeu</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Récompenses d'exploration</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Tant que [Récupération d'espace de corrosion] est disponible, atteignez les chiffres de l'opération spécifiés pour obtenir des récompenses, dont : [Orobéryls], [Permis REC de base] et [Matériaux de progression].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Conditions de participation</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Terminer la mission principale [Chapitre I, Processus III : Mystère à tous les étages]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Détails du mode de jeu</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· [Récupération d'espace de corrosion] est une activité permanente au cours de laquelle vous embarquez à bord du Dijiang pour explorer les [Anomalies de la Vallée]. Pendant l'exploration, acceptez et terminez diverses commissions afin de débloquer la technologie de soutien à l'exploration, qui améliore votre capacité à explorer les Anomalies de la Vallée, et de gagner des récompenses, dont des [Orobéryls].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Gagnez des chiffres de l'opération en terminant des commissions spécifiques ou en extrayant des [nodules de précipitation] des Anomalies de la Vallée. Gagnez suffisamment de chiffres de l'opération pour obtenir des récompenses.</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Pour plus de détails, ouvrez l'écran [Récupération d'espace de corrosion] en jeu et cliquez sur [Détails du mode de jeu].</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "3080",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 19,
+            "displayType": "rich_text",
+            "startAt": 1769036400,
+            "focus": 0,
+            "title": "Guide des Outils de jeu",
+            "header": "Arknights: Endfield - Guide des Outils de jeu",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260120/666039916faaa001e536d54d48993651.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>[Connexion quotidienne]</strong></p><p>L'outil de Connexion quotidienne vous permet de vous connecter chaque jour afin d'obtenir des récompenses, comme des orobéryls, des archives de combat de niveau avancé, des ensembles INSP d'armes, des Proto-prismes et des notes de crédits talosiennes. Associez vos personnages, et lorsque vous aurez réalisé vos trois premières connexions quotidiennes, vous recevrez un bonus de 300 orobéryls !</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/endfield/sign-in\">Y aller</a></p><p></p><p><strong>[WIKI]</strong></p><p>Le WIKI est un outil renfermant des contenus créés et entretenus grâce au travail d'un groupe d'Endministrators. C'est une source pratique et détaillée qui couvre divers aspects du jeu.</p><p>Là, vous pouvez en savoir plus sur les objets de base et les opérateurs, les Dossiers des armes, et bien plus encore.</p><p>Le WIKI est en cours de développement, et il s'étoffe encore régulièrement, alors si jamais vous rencontrez des problèmes ou des erreurs, n'hésitez pas à appuyer sur [Commentaires] en bas à droite de la page principale.</p><p>Les informations actuellement détaillées dans le WIKI sont exactes pour la version de Beta Test II, mais le contenu réel en jeu peut être différent.</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wiki.skport.com/endfield\">Y aller</a></p><p></p><p><strong>[Outils de carte]</strong></p><p>Les Outils de carte vous offrent un aperçu complet des ressources et installations dans le jeu, ce qui vous permet de rechercher, filtrer et localiser les zones d'intérêt.</p><p>Cela vous offre bien plus qu'une simple vue des caisses de stockage, des objets à collectionner, des ennemis et des autres contenus clés de ce type : une fois connecté(e), vous verrez aussi vos propres tyroliennes, vos pylônes électriques, et les autres structures que vous avez bâties. Cela facilitera grandement votre exploration de Talos-II.</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/map/endfield\">Y aller</a></p><p></p><p><strong>[Terminal du Protocole]</strong></p><p>Le Terminal du Protocole est une façon pratique de rechercher des données de jeu, comme celles qui concernent les opérateurs et le développement régional. Ainsi, vous aurez à portée de main vos statistiques de lucidité, votre progression dans les tâches quotidiennes, et bien d'autres données en temps réel.</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/endfield/game-data?header=0\">Y aller</a></p><p></p><p><strong>[Sélections d'équipe et Guide de build]</strong></p><p>Ces Outils de jeu offrent aux Endministrators une foule d'informations utiles, qui vont des Sélections d'équipe, aux stratégies de combat, en passant par les suggestions de compétences. Parcourez les sélections partagées par d'autres joueurs passionnés d'Arknights: Endfield, et marquez vos préférées d'un J'aime.</p><p>Nous espérons que cela aidera les Endministrators à former rapidement des équipes de rêve, parées à relever tous les défis qui les attendent !</p><p><strong>Chargez Arknights: Endfield, ouvrez [Synchroniseur de Protocole] et appuyez sur le bouton Outils de jeu.</strong></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7222",
+            "type": 0,
+            "tab": "news",
+            "orderType": 2,
+            "orderWeight": 20,
+            "displayType": "picture",
+            "startAt": 1769040000,
+            "focus": 0,
+            "title": "Comptes officiels sur les réseaux sociaux",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260121/f7c29401425a944542963d8bacc9cb8e.jpg",
+              "link": "https://ef-webview.gryphline.com/act/social-media?u8_token={u8_token}&server={server}",
+              "linkType": 2
+            }
+          }
+        ]
+      },
+      "msg": ""
+    }
   }
 ]

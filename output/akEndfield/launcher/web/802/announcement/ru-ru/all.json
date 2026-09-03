@@ -8118,5 +8118,127 @@
         }
       ]
     }
+  },
+  {
+    "updatedAt": "2026-09-03T11:03:58.063+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "channel": 6,
+      "subChannel": 802,
+      "lang": "ru-ru",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "data_version": "",
+      "tabs": [
+        {
+          "tabName": "Уведомления",
+          "announcements": [
+            {
+              "content": "Специальный наем [Зимняя охота]",
+              "jump_url": "https://endfield.gryphline.com/news/6172",
+              "start_ts": "1788235200000",
+              "id": "988",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Сведения о временном предложении [поставки «Лютый мороз»]",
+              "jump_url": "https://endfield.gryphline.com/news/4480",
+              "start_ts": "1788237000000",
+              "id": "1002",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "「Сны средь ветров и снегов」 Описание обновления",
+              "jump_url": "https://endfield.gryphline.com/news/5208",
+              "start_ts": "1788310800000",
+              "id": "1044",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Об ошибках в игре после обновления драйверов NVIDIA",
+              "jump_url": "https://endfield.gryphline.com/news/3844",
+              "start_ts": "1773590400000",
+              "id": "415",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Руководство «Игровые инструменты Arknights: Endfield»",
+              "jump_url": "https://endfield.gryphline.com/news/0755",
+              "start_ts": "1769050800000",
+              "id": "142",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Заявление о честной игре для «Arknights: Endfield»",
+              "jump_url": "https://endfield.gryphline.com/news/8900",
+              "start_ts": "1768892400000",
+              "id": "98",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Предупреждение о риске сторонних инструментов",
+              "jump_url": "https://endfield.gryphline.com/news/7026",
+              "start_ts": "1773277200000",
+              "id": "401",
+              "need_token": false,
+              "pin": 0
+            }
+          ],
+          "tab_id": "75"
+        },
+        {
+          "tabName": "События",
+          "announcements": [
+            {
+              "content": "Обсуждение новой версии",
+              "jump_url": "https://www.skport.com/article?id=2093178817402799422&hg_media=launcher&hg_link_campaign=banner&hg_link_name=DreamscapeofWind",
+              "start_ts": "1788346800000",
+              "id": "1030",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Руководство Тифеи по выживанию среди льдов",
+              "jump_url": "https://www.skport.com/article?id=2095343107828303875&hg_media=launcher&hg_link_campaign=banner&hg_link_name=Typhoeus",
+              "start_ts": "1788433200000",
+              "id": "1058",
+              "need_token": false,
+              "pin": 0
+            }
+          ],
+          "tab_id": "76"
+        },
+        {
+          "tabName": "Новости",
+          "announcements": [
+            {
+              "content": "Выпуск DEV Comm о версии Arknights: Endfield [Сны средь ветров и снегов]",
+              "jump_url": "https://endfield.gryphline.com/news/4481",
+              "start_ts": "1787743800000",
+              "id": "947",
+              "need_token": false,
+              "pin": 0
+            },
+            {
+              "content": "Обновления виджета статистики в Discord",
+              "jump_url": "https://endfield.gryphline.com/special/discord-binding",
+              "start_ts": "1788256800000",
+              "id": "1016",
+              "need_token": false,
+              "pin": 0
+            }
+          ],
+          "tab_id": "77"
+        }
+      ]
+    }
   }
 ]
