@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:#DEFAULT:1:#DEFAULT:zh-cn",
-      "version": "076281addec0e0f4f77d1aeac1482759",
+      "version": "9295fead713e413af87174a04d299920",
       "onlineList": [
         {
           "cid": "0779",
@@ -35,6 +35,12 @@
         {
           "cid": "3020",
           "version": 1787996702,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "3028",
+          "version": 1788410231,
           "needRedDot": true,
           "needPopup": false
         },
@@ -148,7 +154,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1788491241,
+      "updatedAt": 1788494400,
       "list": [
         {
           "cid": "0779",
@@ -199,6 +205,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web.hycdn.cn/upload/image/20260827/f8d12182b8a28424d2caffa38a44aa70.png\" data-width=\"1920\" data-height=\"2967\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3028",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "picture",
+          "startAt": 1788494400,
+          "focus": 0,
+          "title": "「向渊行」\\n开拓日志",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web.hycdn.cn/upload/image/20260903/1bb94b91a7cee21bba1fdaa3ebb0d61d.jpg",
+            "link": "https://bbs.hycdn.cn/u-link/download.html?schema=skland%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fact.skland.com%252Fendfield%252Fdata-report%253Fheader%253D0%2526activityId%253Dhomecoming%2526hg_media%253Dendfield%2526hg_link_campaign%253Dannouncement&u8_token={u8_token}&server={server}",
             "linkType": 1
           }
         },
