@@ -74948,5 +74948,625 @@
       },
       "msg": ""
     }
+  },
+  {
+    "updatedAt": "2026-09-04T14:42:13.172+00:00",
+    "req": {
+      "channel": 6,
+      "server": 3,
+      "type": 0,
+      "lang": "en-us",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "code": 0,
+      "data": {
+        "topicCid": "0093",
+        "type": 0,
+        "platform": "Windows",
+        "server": "3",
+        "channel": "#DEFAULT",
+        "subChannel": "#DEFAULT",
+        "lang": "en-us",
+        "key": "0:Windows:3:#DEFAULT:#DEFAULT:en-us",
+        "version": "97fbb5ed7ccb7dc685137036697c3a9b",
+        "onlineList": [
+          {
+            "cid": "6433",
+            "version": 1788532892,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "6434",
+            "version": 1788263826,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "2102",
+            "version": 1788243146,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1378",
+            "version": 1787648503,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "4610",
+            "version": 1786440043,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6446",
+            "version": 1786336168,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "9869",
+            "version": 1788173023,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1377",
+            "version": 1788263668,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "7284",
+            "version": 1788228578,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "8950",
+            "version": 1788228586,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "7282",
+            "version": 1788504402,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "7283",
+            "version": 1788504482,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "3040",
+            "version": 1788307422,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "8959",
+            "version": 1788306475,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1376",
+            "version": 1788265802,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "5526",
+            "version": 1788146549,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "0793",
+            "version": 1788451867,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "0792",
+            "version": 1788315856,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "2101",
+            "version": 1788265810,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "8998",
+            "version": 1769005692,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6472",
+            "version": 1769044240,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "3041",
+            "version": 1787906251,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "6474",
+            "version": 1769005934,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "3080",
+            "version": 1782469292,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "7222",
+            "version": 1782469106,
+            "needRedDot": true,
+            "needPopup": false
+          }
+        ],
+        "popupVersion": 0,
+        "updatedAt": 1788532893,
+        "list": [
+          {
+            "cid": "6433",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1788404400,
+            "focus": 0,
+            "extraData": {},
+            "title": "Patch Notes",
+            "header": "Arknights: Endfield Patch Notes",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260903/3a3421f0fe40395a59749cad542db52a.png\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrator,<br>To ensure a better experience, we'll continue to optimize the game and fix issues as they arise. This update includes the following fixes:</p><p></p><p>▼// Updates &amp; Fixes</p><p><span style=\"color: rgb(0, 0, 0);\">■ 2026-09-03 (UTC-5)</span></p><p>· Fixed an issue where, with certain inputs, the hit count for 6★ operator [Typhoeus] was incorrect when attacking certain enemies.</p><p>· Fixed an issue where, under certain circumstances, the number of [Hunting Arrows] in 6★ operator [Typhoeus]'s skill effect was incorrect when re-challenging certain stages.</p><p>· Fixed an issue where, under certain circumstances, abnormal text appeared in the side mission [A Snowy Realm Touched by Nightmares].</p><p>· Fixed an issue where some of 6★ operator [Typhoeus]'s actions were abnormal.</p><p>· Fixed an issue where, under certain circumstances, specific operations caused non-controlled operators to still follow the controlled operator abnormally even while their actions were paused.</p><p>· Fixed an issue where, under certain circumstances, [Control Nexus] interaction options would abnormally appear in areas that were not [Control Nexus].</p><p>· Fixed an issue where, under certain circumstances, some function icons on the main interface displayed abnormally.</p><p></p><p><span style=\"color: rgb(0, 0, 0);\">■ 2026-09-02 (UTC-5)</span></p><p>· Fixed an issue with abnormal configuration of [Arms OC: Deep Cold]. Selectable weapons now include [Exemplar]. If the Endministrator used this item before the 09/02 hot update, please submit feedback via [Settings] - [Contact Support] during the [Dreamscape of Wind and Snow] version period, and we will verify the situation and process it accordingly.</p><p>· Fixed an issue where, under specific circumstances, enemy shields could not be destroyed in the side mission [A Forest Shrouded in Mist], thereby preventing mission progression.</p><p>· Fixed an issue where, under specific circumstances, 6★ operator [Typhoeus]'s arrow special effects persisted for an abnormal amount of time.</p><p>· Fixed an issue where, under specific circumstances, the DMG multipliers displayed in the brief and detailed descriptions of 6★ operator [Typhoeus]'s battle skill [Piercing Arrows of the Woods] are inconsistent.</p><p>· Fixed an issue where the [Depot Unloader]'s On/Off switch was not displayed.</p><p>· Fixed an issue where some information for [Snowy Forest] was incorrectly configured in the Regional Development Level Summary interface.</p><p>· Fixed an issue where, under specific circumstances, the [Endministrator] could cast their battle skill aboard Dijiang.</p><p></p><p>The above updates and fixes will take effect after you restart the client. We sincerely apologize for any inconvenience caused.<br>Thank you for your continued interest and support for Arknights: Endfield, Endministrator!</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6434",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1788310800,
+            "focus": 0,
+            "title": "Version Update\\nNotes",
+            "header": "[Dreamscape of Wind and Snow] Version Update Notes",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260901/3f766540a214c7963d78ad4f26fbbe30.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Past snow and fog, into dark woods and an endless dream.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Dear Endministrator,</span></p><p><span style=\"color: rgb(0, 0, 0);\">Welcome to the new version, [Dreamscape of Wind and Snow]!</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Maintenance Update &amp; Compensation Details</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Update &amp; Maintenance Time</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Asia Server: Sept. 2, 2026 at 06:00 – Sept. 2, 2026 at 12:00 (UTC+8)</span></p><p><span style=\"color: rgb(0, 0, 0);\">Americas / Europe Server: Sept. 1, 2026 at 17:00 – Sept. 1, 2026 at 23:00 (UTC-5)</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ The server reopening time after maintenance may be earlier or later than scheduled. Please check the official announcement for details.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Maintenance Update &amp; Bug Fix Compensation Details</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Update &amp; Maintenance Compensation: [Oroberyl]×900</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Bug Fix Compensation: [Oroberyl]×900</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Distribution Period: After the update and maintenance – Before the next version update and maintenance</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Eligibility: Create a character before the update</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Note: Update &amp; Maintenance Compensation and Bug Fix Compensation will be sent in two separate in-game mails after the [Mail] feature is unlocked. The mails will expire during the next version update and maintenance, so be sure to claim the compensations in time.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Update Notes</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">This update is mandatory. After the update is complete, you will need to re-download and reinstall the game client. Once the version update and maintenance begin, you can follow the in-game instructions to proceed with the update.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· iOS: Enter the App Store and tap [Update].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Android: Enter the game and follow the pop-up prompts to complete the update.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· PlayStation®5: Go to the home screen, select [Arknights: Endfield], press the controller's [OPTIONS] button, select [Check for Update], and confirm the update.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· PC: After closing the game, restart the GRYPHLINK launcher and click [Update].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>※ After [Dreamscape of Wind and Snow] version update, some content will unlock gradually over time as your exploration progresses. Please refer to the in-game version for the actual update details.</strong></span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// New Version Content</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ New Stories</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">1. Exploration Missions</span></p><p><span style=\"color: rgb(0, 0, 0);\">[OD Project: Cloudseeder STN III], [Cliffbottom Archery Range], [Bell of Recollection]</span></p><p><span style=\"color: rgb(0, 0, 0);\">2. Side Missions</span></p><p><span style=\"color: rgb(0, 0, 0);\">[A Winter Dream Fogged Deep in the Woods], [Endeavor of a Lifetime], [Illumination of Fate]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ New Operators</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">6★ operator [Typhoeus], 5★ operator [Purrchena]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ New Weapons</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">6★ weapon [Umbra of Frigid Eventide (Arts Unit)] and [Suffering's End (Arts Unit)], 5★ weapon [Dessert Moment (Sword)]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ New Enemies</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">[Woodcraft Slug], [Woodcraft Wanderer], [Gloomwald's Rage]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ New Areas</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">[Wuling - Snowy Forest], [Wuling - Suiming]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ New Headhunting Events and Issues</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1. [Winter Hunt] Chartered Headhunting</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Availability: After [Dreamscape of Wind and Snow] version update – Sept. 30, 2026 at 11:59 (server time)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Headhunting Details: [Winter Hunt] Chartered Headhunting features the Rate-UP 6★ operator [Typhoeus]. 6★ operators that may appear in [Winter Hunt] Chartered Headhunting include: Typhoeus / Liino / Arcane / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· During [Winter Hunt] Chartered Headhunting, [Combat Drills] will also become available for trying out the 6★ operator [Typhoeus]. Complete the specified stage with the preset team that includes the trial operator and go to the [Event Center] screen to claim [Oroberyl]×100, [Arsenal Defense Crate], [Mark of Perseverance], and other rewards. The [Arsenal Defense Crate] contains a Fully Artificed Level 60 Gear Set that is a good fit for the current trial operator. You can also exchange for [Fletched Irontip HH Permit] at a discount in [AIC Quota Exchange]. Up to [Fletched Irontip HH Permit]×5 can be exchanged.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2. [Deep Cold Issue] Arsenal Issue Open</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Availability: Opens after [Dreamscape of Wind and Snow] version update, and ends after 3 [Chartered Headhunting] banners (starting from [Winter Hunt])</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Issue Details: [Deep Cold Issue] Arsenal Issue features the Rate-UP 6★ weapon [Umbra of Frigid Eventide (Arts Unit)]. 6★ weapons that may appear in [Deep Cold Issue] Arsenal Issue include: Umbra of Frigid Eventide (Arts Unit) / Exemplar (Greatsword) / Clannibal (Handcannon) / Valiant (Polearm) / Oblivion (Arts Unit) / Detonation Unit (Arts Unit) / Rapid Ascent (Sword).</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>3. [Resplendent Spectrum] RE-Factor Headhunting #1</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Availability: Sept. 24, 2026 at 12:00 (server time) – Before version update and maintenance</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Headhunting Details: [Resplendent Spectrum] RE-Factor #1 Headhunting features the Rate-UP 6★ operator [Yvonne]. 6★ operators that may appear in the [Resplendent Spectrum] RE-Factor Headhunting #1 include: Yvonne / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ [Resplendent Spectrum] falls under the new headhunting type [RE-Factor Headhunting] and has different rules from other headhunting banners.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>4. [Tag Artist Issue] RE-Factor Issue #1 Open</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Availability: Sept. 24, 2026 at 12:00 (server time) – Before version update and maintenance</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Issue Details: [Tag Artist Issue] RE-Factor Issue #1 features the Rate-UP 6★ weapon [Artzy Tyrannical (Handcannon)]. 6★ weapons that may appear in [Tag Artist Issue] RE-Factor Issue #1 include: Artzy Tyrannical (Handcannon) / Wedge (Handcannon) / Rapid Ascent (Sword) / White Night Nova (Sword) / JET (Polearm) / Chivalric Virtues (Arts Unit) / Sundered Prince (Greatsword).</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ [Tag Artist Issue] falls under the new issue type [RE-Factor Issue] and has different rules from other Arsenal Issue banners.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ For more headhunting and issue details, please check in-game.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ New Events</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1. Typhoeus Narrative Event [A Winter Dream Fogged Deep in the Woods]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Time: Throughout the [Dreamscape of Wind and Snow] version</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Details: Complete the side mission [A Winter Dream Fogged Deep in the Woods] to acquire [Oroberyl]×600, [Elementary Cognitive Carrier], and other rewards.</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ After the narrative event page is removed, you can still play this side mission from [Mission] and earn the rewards if you meet the participation requirements.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2. [Snow Over Deep Woods] Guide Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Time: After [Dreamscape of Wind and Snow] version update – Sept. 30, 2026 at 12:00 (server time)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Details: Complete specified missions in the [Snowy Forest] area of the [Wuling] region to claim [Oroberyl]×1200 and [Mark of Perseverance].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>3. [Trial of the Bow] Challenge Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Time: Sept. 9, 2026 at 12:00 (server time) – Before version update and maintenance</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Details: Complete Simulations at [Typhoeus's Archery Range] and event-related Trial Missions during the event to earn rewards including [Oroberyl]×1200, [Advanced Cognitive Carrier], [Mark of Perseverance], and [Advanced Progression Selection Crate I].</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ After the [Trial of the Bow] Challenge Event ends, Trial Missions can no longer be completed and their rewards can no longer be claimed, but [Typhoeus's Archery Range] remains playable, and first-time clear rewards for Simulations can still be earned.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>4. [AIC Support: Chubby Lung Attacks] AIC Production Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Time: Sept. 16, 2026 at 12:00 – Sept. 30, 2026 at 16:00 (server time)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Goods Exchange Availability: Sept. 16, 2026 at 12:00 – Oct. 7, 2026 at 04:00 (server time)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Details: During the event, complete specified missions to unlock support goods formulas and the Goods Exchange. Produce support goods and submit them at the outpost to get bonus [Fruits of Altruism Certs], which are exchangeable for goods at the Goods Exchange. Event rewards available for exchange include: [Oroberyl]×1600, [Portrait: Chubby Lung Attacks], [Mark of Perseverance], [Advanced Progression Selection Crate Ⅰ], and [Advanced Cognitive Carrier].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>5. [Sanity Supply] Limited-Time Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">■ Event Time:</span></p><p><span style=\"color: rgb(0, 0, 0);\">Asia Server:</span></p><p><span style=\"color: rgb(0, 0, 0);\">Sept. 17, 2026 at 04:00 – Sept. 24, 2026 at 04:00 (server time)</span></p><p><span style=\"color: rgb(0, 0, 0);\">Oct. 8, 2026 at 04:00 – Oct. 15, 2026 at 04:00 (server time)</span></p><p><span style=\"color: rgb(0, 0, 0);\">Americas / Europe Server:</span></p><p><span style=\"color: rgb(0, 0, 0);\">Sept. 17, 2026 at 04:00 – Sept. 24, 2026 at 04:00 (server time)</span></p><p><span style=\"color: rgb(0, 0, 0);\">Oct. 8, 2026 at 04:00 – Oct. 14, 2026 at 17:00 (server time)</span></p><p><span style=\"color: rgb(0, 0, 0);\">■ Event Details: During the event, complete specified missions every day to claim Sanity Supply rewards: [Sanity Usage Permit] and [Emergency Sanity Booster].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>6. [Purry Big Feline! RAWR!] Giveaway Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Time: Sept. 24, 2026 at 12:00 (server time) – Before version update and maintenance</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Details: During the event, log into the game and participate in various game modes to claim new 5★ operator [Purrchena], [Purrchena's Token]×5, and new 5★ weapon [Dessert Moment (Sword)]×6.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>7. [Echoing Bell of an Old City] Guide Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Time: Sept. 24, 2026 at 12:00 (server time) – Before version update and maintenance</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Details: Complete specified missions in [Suiming] of the [Wuling] region to claim [Oroberyl]×1200 and [Mark of Perseverance].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>8. [Ridgeline Flows of Autumn] Limited-Time Sign-In</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Time: Oct. 1, 2026 at 12:00 (server time) – Before version update and maintenance</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Details: During the event, sign in for 7 days in total to earn rewards including [Oroberyl]×1500, [Portrait: Go Forth and Run], and [“Rolling Chubby Lung” Energy Drink].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>9. [Runners' Steeplechase] Fun &amp; Games Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Time: Oct. 1, 2026 at 12:00 (server time) – Before version update and maintenance</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Details: During the event, complete the race with 3★, collect balloons, and reach the corresponding Runner's Milestones to claim rewards such as [Oroberyl]×1200, [Portrait Frame: Champion Runner], and [\"Rolling Chubby Lung\" Energy Drink].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>10. [OrbiPom! MERGE!] Fun &amp; Games Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Time: Oct. 1, 2026 at 12:00 (server time) – Before version update and maintenance</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Details: Head to the web event and merge OrbiPoms to earn points. Complete specified missions to claim [Oroberyl]×300 and [T-Creds].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Event &amp; Gameplay Updates</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1. [Echoes of War] Permanent Challenge Mode Update</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>○[Season of Virtuality]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Season Update: After [Dreamscape of Wind and Snow] version update – Sept. 24, 2026 at 11:59 (server time)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Update Notes: New season [Season of Virtuality] is available. This season features 3 cycles, each including 3 stages. [Season of Virtuality] adds 3 new stages. Clear all new stages on Normal difficulty to claim rewards including [Oroberyl]×300.</span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>○[Season of Illusion]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Season Update: Sept. 24, 2026 at 12:00 (server time) – Before version update and maintenance</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Update Notes: New season [Season of Illusion] is available. This season features 3 cycles, each including 3 stages. [Season of Illusion] adds 3 new stages. Clear all new stages on Normal difficulty to claim rewards including [Oroberyl]×300.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2. [Umbral Monument] Challenge Gameplay Updated, [Marked by Dark Shadows] Stages Available</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Availability: Oct. 5, 2026 at 12:00 (server time)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Update Details: This [Umbral Monument] challenge mode introduces a new series, [Marked by Dark Shadows], featuring 4 stages. Complete all stage challenges to earn rewards including [Mark of Perseverance], [Advanced Cognitive Carrier], [Arms INSP Set], and [Protohedron].</span></p><p><span style=\"color: rgb(0, 0, 0);\">[Monumental Etching: Shadow Marked] limited-time challenge event will also be available once the gameplay mode is updated.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Time: Oct. 5, 2026 at 12:00 – Oct. 19, 2026 at 04:00 (server time)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Details: Upon the release of the [Marked by Dark Shadows] series, the [Monumental Etching: Shadow Marked] limited-time event will begin. During the event, complete various [Umbral Monument] challenges to claim rewards including [Oroberyl]×1200 and [Advanced Progression Selection Crate Ⅰ].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ For more event and gameplay info, stay tuned for our official announcements.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Acquisition Center Update</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· [Protocol Pass: Gloomwald] is available. During the [Dreamscape of Wind and Snow] version period, you can acquire various support items listed by the Arsenal Engineers in the [Protocol Pass]. Activating each seasonal Protocol Pass unlocks the [Basic Supply] tier by default. Level up the Pass to earn rewards such as [Basic HH Permit], [Oroberyls], [Exchange Crate-o-Surprise], and [Progression Materials].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Added in [Acquisition Center - Bundles]: [Protocol Flow Bundle], [Winter Hunt HH Bundle]. The purchase limit for [Value Arsenal Ticket Pack] is reset.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ For more bundles and their details, visit the in-game [Acquisition Center - Bundles].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ AIC Factory</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Increased the Regional Development Level cap for [Wuling]; increased the level cap of the [Xiranflow Cloudseeder Station] outpost in [Wuling - Yinglung Pass].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· New [Continue Placing] Feature: When placing facilities, ornamentals, or plots, you'll be able to toggle the [Continue Placing] feature on or off. When enabled, as long as you have the corresponding items in your Backpack, you can continuously place them without exiting the Construction Status.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ System</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· New [Progression Overview] Feature: In [Operators - Progression Overview], you'll be able to view all Owned, Not Owned, and upcoming operators and weapons in one place, along with the materials required to progress operators and weapons to various goals, as well as the quantities of materials you currently have. For upcoming operators, you can also preview their recommended weapons' perfect-match essences and directly add them to your Essence Wishlist.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· [Talosite Exchange] exchangeable items updated, with new items such as [Personal Device], [Ornamental], [Camera Pose], [Vinyl], and more.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Added a [Hide UI] feature. During story dialogue, button prompts and dialogue text can be hidden, and this can be enabled alongside Auto-Play.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Added reminders for certain modes you have not participated in for a long time, so you can quickly review the corresponding mode rules.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Added Challenge Time Display on Stage Results Screen: Some stage results screens now display your clear time.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Added system prompts related to already claimed [Honor] rewards on the [Echoes of War] stage selection screen.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Others</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Added content such as [Operator Guide], [Energy Alluvium], [Crisis Fragment], [NPC], [Engraved Medal], [Profile Theme], [Portrait], [Portrait Frame], [Filter], [Sticker], [Consumable], [Material], [Sanity Meds], [Database Entry], [Clue Dossier], [Ornamental], [Vinyl], [Camera Pose], [Regional Aurylene Submission Phase], and more. These will gradually unlock as you progress.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Added the new gear set [Deep Rampart]. New gear pieces have been added to gear sets [AIC Fieldwork], [Tide Surge], and [Eternal Xiranite].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Optimizations &amp; Adjustments</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Missions</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimized the location guidance for the Exploration Mission [Photo: Feranmut Heart].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Events &amp; Gameplay</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimized the wording of some system prompts in [Trial of Swordmancy].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ AIC Factory</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimized Box Selection: When using box selection to create blueprints in Batch Select Mode, if the number of selected facilities exceeds the blueprint saving limit, the screen will show in real time the current number of selected facilities and the maximum number of facilities that can be saved to the blueprint.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Voice Languages and Sound Effects</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimized the voice performance of some actions for 6★ operators [Arcane] and [Liino].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimized some voice lines in 4★ operator [Estella]'s Files.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ System</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Adjusted the item description and usable scope of [Chartered HH Permit]. The item description has been updated to: “An internal certificate of Endfield Industries. Use this to perform 1 headhunting in [Chartered Headhunting] or [RE-Factor Headhunting].” [Chartered HH Permit] can now be used in [Chartered Headhunting] and [RE-Factor Headhunting].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Adjusted Profile Theme Display: The display area of profile backgrounds in the Friends List has been expanded, allowing profile themes to be displayed more fully.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimized Reception Room Clue Management: Added a new [Quick Add] feature. When there are clues that can be filled in the Reception Room, a [Quick Add] button will be displayed; tapping it automatically fills all available clues that can be filled. Added the [Give Away All Duplicates] feature, which lets you gift duplicate clues to friends with one click when you have more than 2 identical clues in your local clue library.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimized Operator Gifting: If an operator's Trust is already maxed, you can still offer them gifts to complete gifting tasks.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimized Engraved Medal Viewing Experience: When viewing engraved medals in [Path of Glory - Medal Album] or [Path of Glory - Edit - Add Engraved Medals Already Acquired], the category tabs now switch automatically as you scroll through the engraved medal list.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Enhanced snow texture visuals: The texture details of characters, certain AIC Factory facilities, and ornamentals in the snow will be richer, making snowflake adhesion and snow accumulation more realistic and further enhancing immersion in icy and snowy scenes.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimized the experience of switching from controller mode back to keyboard and mouse mode under certain circumstances.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Others</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Stage experience optimizations: After entering the [Echoes of War] difficulty selection screen, you can now directly switch stages without returning to the stage selection interface. After clearing a stage in [Echoes of War] and [Umbral Monument], returning to the stage selection screen no longer triggers a loading screen, making operations smoother.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimized the difficulty selection logic when returning to the stage list after clearing a stage.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimized the visuals of some characters in rainy environments.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimized the display, visual effects, and interactions on certain screens.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimized the text for the Critical Rate boost in 6★ operator [Rossi]'s battle skill effect description. The actual effect remains unchanged.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimized the text for the Slow effect in 4★ operator [Fluorite]'s battle skill effect description. The actual effect remains unchanged.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimized the effect descriptions for Arts Reaction and Burst Boost, Cryo and Electric DMG Bonuses, Heat and Nature DMG Bonuses, All Skill DMG Bonuses, and Arts DMG Bonuses. The actual effects remain unchanged.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimized the text in some Operator Files.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimized some of the weapon skill effect descriptions for 6★ weapons [Type 42: Solemn Phalanx], [Junction Point], [Beacon of Duty], [Blessing of Lustrous Carmine], [Amaranthine Tassel], [Brigand's Calling], [JET], [Wedge], [Mountain Bearer], [Khravengger], and 5★ weapons [OBJ Heavy Burden], [Seeker of Dark Lung]. The actual effects remain unchanged.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimized some mission guidance text.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimized some story text.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Adjusted the name of the Valuable item in the Monthly Pass Rules from [Sanity Sanity Usage Permit] to [Sanity Usage Permit].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimized some mission descriptions and UI text in the Protocol Pass.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimized some event descriptions.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimized some descriptions for acquiring and trimming engraved medals.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimized some item names and descriptions based on how they work in-game.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimized some UI prompts.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimized some feature guidance text.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Bug Fixes</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Missions</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Fixed an issue where, under certain circumstances, switching to trial operator would not work in Operator Story missions.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Fixed an issue where, under certain circumstances, tracking a mission that requires opening [Baker] would not redirect to the [Baker] interface.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Fixed an issue where, under certain circumstances in some mission flows, your own operators assigned to a trial squad would abnormally revert to trial operators.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Combat</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Fixed an issue where, under certain circumstances, certain control inputs might cause abnormal SP return and damage after casting 6★ operator Arcane's [battle skill] in her [Array Arcana: INT] form.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Fixed an issue where 6★ operator [Liino] would interrupt an enemy's charging state an abnormal number of times when her [battle skill] first hit the enemy.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Fixed an issue where, under certain circumstances, certain control inputs could cause combo skills to fail to trigger.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Fixed an issue where, after the [Homecoming] version update, entering certain stages while carrying tactical items that restore Ultimate Energy could, under certain circumstances, abnormally consume those tactical items.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Events &amp; Gameplay</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Fixed an issue where, under certain circumstances, playing on a controller may cause icon display issues in the [RE-Crisis] interface.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Fixed an issue where, under certain circumstances, some visual effects in [Trial of Swordmancy] would not display.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Voice Languages and Sound Effects</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Fixed an issue where, under certain circumstances, some sound effects would persist after the dash moves of 6★ operators [Arcane] and [Camille] ended.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ System</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Fixed an issue where, under certain circumstances, dragging characters in the [Camera] feature would make it impossible to advance in certain stages.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Fixed an issue where, under certain circumstances, [Map - Tracking another map...] would not display the names of custom tags.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Others</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Fixed an issue where, under certain circumstances, parts of the screen would flicker abnormally in some areas of [Wuling - Marker Stone - Lake Islet]</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "2102",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1788303600,
+            "focus": 0,
+            "title": "Version Calendar",
+            "header": "[Dreamscape of Wind and Snow] Version Calendar",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260901/4f42532261b2c1ea643cd8a157e558ac.jpg\" data-width=\"1920\" data-height=\"2967\"><p></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1378",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1787716800,
+            "focus": 0,
+            "title": "Steam [Pioneer Test] Recruitment Open!",
+            "header": "Steam [Pioneer Test] Recruitment Open!",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260824/e9a1d05afc56fbfa945e648fc06e4ea8.png\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrator, <br>We'll be conducting the limited-time [Pioneer Test] before Arknights: Endfield officially launches on Steam. Endministrators are welcome to participate and get an early look!<br><br>▼// Recruitment Period<br>Aug. 26, 2026 at 12:00 – Sept. 10, 2026 at 13:00 (UTC+8)<br><br>▼// Playtest Rewards<br>Claimable after logging into the Steam version for 5 days during the test period (rewards will be sent after the game officially launches on Steam) <br>· Oroberyl×180 <br>· T-Creds×16,000 <br>· Elementary Cognitive Carrier×15<br><br>▼// How to Sign Up<br>· Click the link and complete the survey to sign up: <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://hgto.cc/n/e0zKE5\">https://hgto.cc/n/e0zKE5</a><br>· Want to stay up to date on recruitment results and test-related news? Join our official Discord with just one click: <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://discord.gg/akendfield\">https://discord.gg/akendfield</a></p><p></p><p>▼// System Requirements</p><p>· Recommended: Intel Core i7-10700K or equivalent or higher, 16GB or more of RAM, NVIDIA GeForce RTX 2060 or equivalent or higher.</p><p>· Minimum: Intel Core i5-9400F or equivalent, 16GB of RAM, NVIDIA GeForce GTX 1060 or equivalent.</p><p>· Operating System: Windows 10 64-bit or Windows 11 64-bit, DirectX 11.1 or later.</p><p>· Storage: 50GB or more free space, plus an additional 40GB required when extracting files. Installing the game on an SSD is recommended.</p><p></p><p>▼// Notes</p><p>1. This is a limited-access playtest with in-game purchases enabled and no data wipe, open only to Endministrators with test access. We will select a portion of Endministrators who complete the sign-up questionnaire to participate in this test. Due to limited slots, submitting the application questionnaire does not guarantee you the chance to participate. If you are selected to participate in the test, you will receive an official notification email with more detailed information about the test. Otherwise, you may assume that you have not been offered a participation slot.</p><p>2. During the playtest, the Steam version will run on the live servers, with game content, account data, and game progress synced across all platforms.</p><p>3. The Steam version is still being optimized. During the playtest, you may encounter unstable elements such as bugs, client issues, or online service anomalies. Please provide feedback through in-game customer support or other official channels. We will continue to monitor and improve the Steam version experience.</p><p>4. Please refer to official channels for important information regarding test sign-ups and related matters. Do not trust false information from unofficial sources. Please keep your personal account information safe, protect your personal property, and do not share, sell, or purchase test access through unofficial channels to avoid unnecessary losses.</p><p>5. All Endministrators must provide accurate information. We will carefully verify the authenticity of the information. If the submitted information does not match reality, you may be disqualified from participating in this test. If submitted information is filled incorrectly due to personal reasons, we will consider it as a voluntary withdrawal from test qualification.</p><p>6. Please ensure that you are of legal age according to the laws and regulations of your country/region and meet the specified device testing requirements, otherwise you will not be eligible for the test.</p><p>7. All test content does not represent the quality of the official release. Please refer to the final live version.</p><p></p><p>We look forward to seeing you sign up!</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "4610",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1786590000,
+            "focus": 0,
+            "title": "Wishlist Milestone Event",
+            "header": "Wishlist Milestone Event",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260811/44bef1a5461a1f433c694ed27f94dfe8.png\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrator, <br>To celebrate Arknights: Endfield's upcoming launch on Steam, we're holding a special Wishlist Milestone Event! <br>Starting today, add Arknights: Endfield to your Steam Wishlist and help us reach the final milestone to unlock a special commemorative portrait frame and other exciting rewards!<br><br>▼// Event Time<br>From the start of the event on Aug. 13, 2026, until the official launch of Arknights: Endfield on Steam (the exact launch date will be announced later).<br><br>▼// Milestone Rewards<br>· Phase 1 (30,000): T-Creds×8,000 <br>· Phase 2 (100,000): Elementary Cognitive Carrier×2 <br>· Phase 3 (200,000): Arms INSP Set×2 <br>· Final Goal (300,000): Special Commemorative Portrait Frame×1<br><br>Head to Steam now and add Arknights: Endfield to your Steam Wishlist. Let's push towards the final goal!<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://store.steampowered.com/app/4732690/\">Head to Steam now</a></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6446",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "picture",
+            "startAt": 1786338000,
+            "focus": 0,
+            "title": "WhatsApp & Messenger Subscription Event",
+            "header": "WhatsApp & Messenger Subscription Event Now Live!",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260808/7671f82ef8f6e428535365c7b284f8eb.png",
+              "link": "https://endfield.gryphline.com/en-us/news/1329",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "9869",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 2,
+            "displayType": "rich_text",
+            "startAt": 1788303600,
+            "focus": 0,
+            "title": "Protocol Pass\\nGloomwald",
+            "header": "[Protocol Pass: Gloomwald] Details",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260831/675ac433bd790b6bad4d0d11702d05f4.jpg\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrator, <br>During the [Protocol Pass: Gloomwald] period, you can access various support projects provided by the Arsenal Engineers through the [Protocol Pass] system. Upon the launch of each Protocol Pass season, the [Basic Supply] tier will be unlocked by default. By increasing your Pass Level, you can obtain rewards such as [Basic HH Permits], [Oroberyls], [Exchange Crates-o-Surprise], and [Progression Materials]. <br>The [Originium Supply] tier can be unlocked with [Origeometry] and grants [Basic HH Permit], [Sticker: Dream Snare], [Filter: Sanguine Recall], and additional rewards such as [Weapon Supply: Gloomwald], [Origeometry], and [Emergency Sanity Booster]. <br>Purchase the [Protocol Customized] tier to get [Profile: Dreamlit Night], [Portrait Frame: Rules of the Snowpriest], [Portrait: Frozen Outline], plus bonus rewards such as [Weapon Supply: Gloomwald], [Arsenal Ticket], and [Protocolized Weapon Pattern].<br><br><strong>▼// Availability </strong><br>Throughout the [Dreamscape of Wind and Snow] version <br>※ Asia Server Time Zone: UTC+8 <br>※ Americas / Europe Server Time Zone: UTC-5<br><br><strong>▼// Participation Criteria </strong><br>Complete the main mission [Chapter I Process I: Break the Siege]<br><br><strong>▼// Protocol Pass Details </strong><br>· Activating the [Protocol Pass] unlocks the [Basic Supply] tier by default. You can purchase the [Protocol Customized] tier or spend [Origeometry] to unlock the [Originium Supply] tier for additional rewards and Pass EXP Earning Bonus. <br>· For each pass season, the [Originium Supply] and [Protocol Customized] tiers each contain a [Weapon Supply], which allows you to choose and acquire one of the season's featured 6★ weapons. [Protocolized Weapon Patterns] can raise the potential of any weapon provided by Protocol Pass [Weapon Supplies]. <br>· Complete various Pass Missions (some missions will become available after meeting certain criteria or over time), or take part in [Operational Manual - Daily Tasks] and claim the max daily Activity Points rewards to earn Pass EXP. Level up the Pass to unlock a variety of [Protocol Pass] rewards. <br>· After unlocking [Originium Supply] or [Protocol Customized], you can continue earning Pass EXP even after maxing out the [Protocol Pass] level. Any Pass EXP beyond the cap will accumulate to grant [Cycling Crates-o-Surprise] as rewards. The crate opens automatically upon receipt and grants a random [Oroberyl] reward, a random [Progression Material] reward and a random [Sanity Usage Permit] reward. <br>· Unlocking the [Originium Supply] / [Protocol Customized] tier of the seasonal Protocol Pass grants +3% / +3% EXP bonus respectively. Unlocking both tiers grants a +6% EXP bonus. <br>· For excessive purchases of [Protocol Customized] due to special circumstances, rewards from the [Protocol Customized] tier will not stack. Instead, an amount of [Origeometry] based on the value of the purchase will be returned to you. <br>· When the [Protocol Pass] season ends, any unclaimed pass level rewards shall be sent to your Mail.<br><br>※ For detailed rules, visit [Access Pass] in-game and check [Protocol Pass Details].<br></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1377",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 2,
+            "displayType": "rich_text",
+            "startAt": 1788303600,
+            "focus": 0,
+            "title": "Winter Hunt\\nChartered Headhunting",
+            "header": "[Winter Hunt] Chartered Headhunting",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260901/df41f7d53706c1e02d2f0a673fef37e9.jpg\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrator,</p><p>During [Winter Hunt] Chartered Headhunting, the 6★ operator [Typhoeus] is Rate-UP!</p><p>The [Fletched Irontip] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards such as [Fletched Irontip HH Permit]×5. You can also exchange for [Fletched Irontip HH Permit] at a discount in [AIC Quota Exchange]. The [Combat Drills] operator trial event will also be available during this period.</p><p><br></p><p><strong>▼// [Winter Hunt] Chartered Headhunting Details</strong></p><p>· Availability: After [Dreamscape of Wind and Snow] version release – Sept. 30, 2026, 11:59 (server time)</p><p>· Participation Criteria: Complete main mission [Chapter I Process I: Break the Siege]</p><p>· [Winter Hunt] Chartered Headhunting features the Rate-UP 6★ operator [Typhoeus].</p><p>· 6★ operators that may appear in [Winter Hunt] Chartered Headhunting include: Typhoeus / Liino / Arcane / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.</p><p>· In [Winter Hunt] Chartered Headhunting, you can use [Fletched Irontip HH Permit], [Chartered HH Permit], or [Oroberyls] to perform headhunting.</p><p>※ The Rate-UP 6★ operator featured in a [Chartered Headhunting] banner will be, after 3 [Chartered Headhunting] banners, removed from the list of operators that may appear in [Chartered Headhunting]. This Rate-UP 6★ operator will also not be added to [Basic Headhunting].</p><p><br></p><p><strong>▼// [Chartered Headhunting] Rewards</strong></p><p>In [Winter Hunt] Chartered Headhunting, perform a certain number of headhunting attempts to earn corresponding rewards.</p><p><br></p><p>■ Urgent Recruitment</p><p>· After performing 30 headhunting attempts, you will receive 10 bonus Urgent Recruitment attempts (which count as 1 free 10× headhunting attempt). This is only valid during this [Chartered Headhunting] banner, and does not carry over to other headhunting banners.</p><p>· The rates for obtaining operators through Urgent Recruitment are the same as the base drop rates of this [Chartered Headhunting] banner, and the free 10× headhunting attempt from Urgent Recruitment guarantees a 5★ or better operator.</p><p>· This free 10× headhunting attempt given by Urgent Recruitment does not count toward the guarantee for this or other [Chartered Headhunting] banners. It also will not be added to the total headhunting attempts required for [Chartered Headhunting] rewards.</p><p>■ Headhunting Dossier</p><p>· After performing 60 headhunting attempts, you will receive a bonus [Headhunting Dossier]×1.</p><p>· Once the requirements are met, the [Headhunting Dossier] will be automatically sent to your Valuables Stash. Once the next [Chartered Headhunting] banner begins, this [Headhunting Dossier] will be automatically converted to special HH Permit×10 of the specified [Chartered Headhunting] banner. However, the HH Permits will also expire once that banner ends.</p><p>■ Token Tribute</p><p>· In each [Chartered Headhunting] banner, every 240 headhunting attempts give a bonus [Token of the Rate-UP 6★ operator featured in the said banner]×1.</p><p><br></p><p><strong>▼// Arsenal Ticket Details</strong></p><p>Every headhunting attempt for operators also gives [Arsenal Tickets].</p><p>· Acquiring a 6★ operator gives [Arsenal Ticket]×2000.</p><p>· Acquiring a 5★ operator gives [Arsenal Ticket]×200.</p><p>· Acquiring a 4★ operator gives [Arsenal Ticket]×20.</p><p>※ [Arsenal Tickets] can be spent at the [Acquisition Center - Arsenal Exchange].</p><p><br></p><p>During [Winter Hunt] Chartered Headhunting, the following content will also be available:</p><p><strong>▼// [Fletched Irontip] Limited-Time Sign-In Event</strong></p><p>Sign in for a total of 7 days to earn rewards such as [Fletched Irontip HH Permit]×5.</p><p><br></p><p><strong>▼// [Combat Drills] Operator Trial Event</strong></p><p>[Combat Drills] will become available for trying out the 6★ operator [Typhoeus]. Complete the specified stage with the preset team that includes the trial operator to claim [Oroberyl]×100, [Arsenal Defense Crate], [Mark of Perseverance], and other rewards. The [Arsenal Defense Crate] contains a Fully Artificed Level 60 Gear Set that is a good fit for the current trial operator.</p><p><br></p><p><strong>▼// [AIC Quota Exchange] Special Note</strong></p><p>The [Quota Exchange] will offer limited-time special deals. You can spend AIC Quota to purchase items such as [Fletched Irontip HH Permit]×5.</p><p><br></p><p>※ Asia Server Time Zone: UTC+8</p><p>※ Americas / Europe Server Time Zone: UTC-5</p><p>※ For more headhunting details, check the in-game [Headhunting] screen.</p><p>※ For more event details, check the in-game [Event Center].</p><p>※ For details on [AIC Quota Exchange], check the in-game [Acquisition Center].</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7284",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1788303600,
+            "focus": 0,
+            "title": "Dreamscape of Wind and Snow\nBundle",
+            "header": "[Dreamscape of Wind and Snow] Bundle Details",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260831/1e2ea607a8a870c9a79f5fbed4248580.jpg\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrator,</p><p>During the [Dreamscape of Wind and Snow] version, the [Acquisition Center] will offer a variety of bundles.</p><p><br></p><p><strong>▼// Limited Bundles</strong></p><p>■ Protocol Flow Bundle</p><p>· Availability: Throughout the [Dreamscape of Wind and Snow] version</p><p>· Bundle Contents: [Chartered HH Permit]×10, [Arsenal Ticket]×2000, [Mark of Perseverance]×10</p><p>· Special Note: Only 1 purchase allowed in current version</p><p><br></p><p>■ Winter Hunt HH Bundle</p><p>· Availability: After [Dreamscape of Wind and Snow] version update – Sept. 30, 2026 at 11:59 (server time)</p><p>· Bundle Contents: [Fletched Irontip HH Permit]×10, [T-Creds]×80000</p><p>· Special Note: Only 1 purchase allowed</p><p><br></p><p>■ Value Arsenal Ticket Pack</p><p>· Availability: Throughout the [Dreamscape of Wind and Snow] version</p><p>· Bundle Contents: [Arsenal Ticket]×2000</p><p>· Special Note: Only 1 purchase allowed in current version<br></p><p></p><p>※ Asia Server Time Zone: UTC+8</p><p>※ Americas / Europe Server Time Zone: UTC-5</p><p>※ Some bundles may include limited-time items. You can check the details of limited-time items in [Purchase - Item Contents]. If limited-time items in a bundle expire after purchase, they cannot be reissued. Thank you for your understanding and support.</p><p>※ For more bundles and their details, visit the in-game [Acquisition Center - Bundles].</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8950",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1788303600,
+            "focus": 0,
+            "title": "Deep Cold Issue",
+            "header": "[Deep Cold Issue] LTO Details",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260831/1fa64d6d6c246d14746eae5817dec485.jpg\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrator:</p><p>While [Deep Cold Issue] is available, the chance of getting 6★ weapon [Umbra of Frigid Eventide (Arts Unit)] is increased!</p><p><br></p><p><strong>▼// [Deep Cold Issue]</strong></p><p>· Availability: Opens after [Dreamscape of Wind and Snow] version update; ends after 3 [Chartered Headhunting] banners (starting from [Winter Hunt])</p><p>· Participation Criteria: Complete the main mission [Chapter I Process I: Break the Siege]</p><p>· [Deep Cold Issue] features the Rate-UP 6★ weapon [Umbra of Frigid Eventide (Arts Unit)].</p><p>· 6★ weapons that may appear in [Deep Cold Issue] include: Umbra of Frigid Eventide (Arts Unit) / Exemplar (Greatsword) / Clannibal (Handcannon) / Valiant (Polearm) / Oblivion (Arts Unit) / Detonation Unit (Arts Unit) / Rapid Ascent (Sword).</p><p><br></p><p><strong>▼// [Arsenal Issue] Rewards</strong></p><p>In every [Arsenal Issue], performing a set number of issues gives the banner's specific [Arms Offering Crate] (Arms OC) or [Rate-UP 6★ Weapon] in alternating order. The total number of issues for these Arsenal Issue rewards will be reset once the banner ends, and will not carry over to other [Arsenal Issue] banners.</p><p><br></p><p><strong>▼// [Arsenal Issue] Details</strong></p><p>· In [Arsenal Issue], you can spend [Arsenal Tickets] to apply for an issue.</p><p>· Each issue gives 10 random weapons from the list of available weapons, including at least one 5★ or better weapon.</p><p><br></p><p><strong>▼// [Arsenal Exchange] Details</strong></p><p>In [Arsenal Exchange], the [Arsenal Ticket] can also be used to directly purchase weapons. Some purchasable weapons may be updated every now and then. Check the information displayed on the [Acquisition Center - Arsenal Exchange] screen for what is actually available.</p><p><br></p><p>※ For more details and reward rules, visit the in-game [Acquisition Center - Arsenal Exchange].</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7282",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1788433200,
+            "focus": 0,
+            "extraData": {},
+            "title": "Typhoeus's Snowfield Survival Manual",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260903/383e039336140e0e68ca034a2f63b03c.jpg",
+              "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fdetail%3Fid%3D2095343107828303875&redirectUrl=https%3A%2F%2Fwww.skport.com%2Farticle%3Fid%3D2095343107828303875%26hg_media%3Dgame%26hg_link_campaign%3Dannouncement%26hg_link_name%3DTyphoeus",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7283",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1788346800,
+            "focus": 0,
+            "extraData": {},
+            "title": "New Version Discussion",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260901/10743ecfb1be0a23dfe40f14b1eac3ab.png",
+              "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fdetail%3Fid%3D2093178817402799422&redirectUrl=https%3A%2F%2Fwww.skport.com%2Farticle%3Fid%3D2093178817402799422%26hg_media%3Dgame%26hg_link_campaign%3Dannouncement%26hg_link_name%3DDreamscapeofWind",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "3040",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1788345000,
+            "focus": 0,
+            "title": "[Oroberyls] Typhoeus Themed Event Opens",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260901/6f67c063e423ecd7b42100f6d99e029d.png",
+              "link": "https://discord.gg/amQspUDEa?event=1543899529894559764",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8959",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1788321600,
+            "focus": 0,
+            "title": "Daily Sign-in",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260901/61b40c5ebfe7448f6f7d4e875d941a2e.png",
+              "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fstatic.skport.com%252Fu-link%252Fdownload.html%253Fschema%253Dskport%25253A%25252F%25252Fweb%25253Furl%25253Dhttps%2525253A%2525252F%2525252Fgame.skport.com%2525252Fendfield%2525252Fsign-in%2525253Fheader%2525253D0%25252526hg_media%2525253Dgame%25252526hg_link_campaign%2525253Dannouncement%25252526hg_link_name%2525253Dsignin",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1376",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "rich_text",
+            "startAt": 1788303600,
+            "focus": 0,
+            "title": "A Winter Dream Fogged Deep in the Woods",
+            "header": "Typhoeus Narrative Event Details",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260901/197eac21f16a51e86264deeb829e6481.jpg\" data-width=\"1650\" data-height=\"300\"><p>An unexpected message points the Endministrator towards a mysterious pinewood forest outside Yinglung Pass. There, a new tale waits for the Endministrator to begin.</p><p><br></p><p><strong>▼// Event Time</strong></p><p>Throughout the [Dreamscape of Wind and Snow] version</p><p><br></p><p><strong>▼// Participation Requirements</strong></p><p>Complete main mission [Chapter II Process VII: Stubbornly Lingers the Setting Sun]</p><p><br></p><p><strong>▼// Event Details</strong></p><p>· Complete the side mission [A Winter Dream Fogged Deep in the Woods] to earn [Oroberyls], [Elementary Cognitive Carrier], [Protohedron], [Arms INSP Set], and other rewards.</p><p>· After the event page is removed, you can still play this side mission from [Mission] and earn the rewards if you meet the participation requirements.</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "5526",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "rich_text",
+            "startAt": 1788303600,
+            "focus": 0,
+            "title": "Echoes of War\\nSeason of Virtuality",
+            "header": "[Echoes of War - Season of Virtuality] Season Update",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260828/4ac2678bd309638aef33c79b9aedbe05.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Season Availability </strong><br>After [Dreamscape of Wind and Snow] version update – Sept. 24, 2026 at 11:59 (server time)<br><br><strong>▼// Participation Requirements </strong><br>· Authority Level ≥ 40 <br>· Complete the main mission [Chapter I Process II: Paving the Way]<br><br><strong>▼// Season Update Details</strong> <br>New season [Season of Virtuality] is available with 3 newly added stages. This season features 3 cycles, each including 3 stages.<br><br>※ Asia Server Time Zone: UTC+8 <br>※ Americas / Europe Server Time Zone: UTC-5 <br>※ For more event details, check the in-game [Event Center].<br></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "0793",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1788256800,
+            "focus": 0,
+            "extraData": {},
+            "title": "Discord Game Stats Widget Updates",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260831/b17dbdecf2f3006cf939c0bf115c6a91.png",
+              "link": "https://endfield.gryphline.com/special/discord-binding",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "0792",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 5,
+            "displayType": "picture",
+            "startAt": 1788321600,
+            "focus": 1,
+            "title": "Official Top-Up Website Now Live",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260831/1298dd99e5b2052b57ea0ad7062f3620.png",
+              "link": "https://topup.gryphline.com/endfield?u8_token={u8_token}&server={server}",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "2101",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 5,
+            "displayType": "rich_text",
+            "startAt": 1788303600,
+            "focus": 0,
+            "title": "Snow Over Deep Woods",
+            "header": "[Snow Over Deep Woods] Guide Event Details",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260901/46a201d01671681fb58b94def036ea58.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Event Time</strong></p><p>After [Dreamscape of Wind and Snow] version update – Sept. 30, 2026 at 11:59 (server time)</p><p><br></p><p><strong>▼// Event Rewards</strong></p><p>Complete missions during the event to earn rewards including: [Oroberyls] and [Mark of Perseverance].</p><p><br></p><p><strong>▼// Participation Requirements</strong></p><p>In side mission [A Forest Shrouded in Mist], complete the objective [Go to the entrance of the forest]</p><p>※ Complete main mission [Chapter II Process VII: Stubbornly Lingers the Setting Sun] to unlock side mission [A Forest Shrouded in Mist]</p><p><br></p><p><strong>▼// Event Details</strong></p><p>During the event, visit the area [Snowy Forest] in the region of Wuling and complete event missions such as unlocking TP Points and opening Protocol Crates to earn rich rewards.</p><p><br></p><p>※ Asia Server Time Zone: UTC+8</p><p>※ Americas / Europe Server Time Zone: UTC-5</p><p>※ For more event details, check the in-game [Event Center].</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8998",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 5,
+            "displayType": "rich_text",
+            "startAt": 1769011200,
+            "focus": 0,
+            "title": "Fair Play Statement",
+            "header": "Arknights: Endfield Fair Play Statement",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260121/5d0e1d77e0f3fc0f4357a5e926e0276f.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Thank you for your continued interest and support for Arknights: Endfield. To maintain a healthy and fair gaming environment and protect the legitimate rights and interests of all players, we would like to remind everyone of the following:</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">1. The use of cheats, third-party tools, unauthorized top-ups, or any other improper methods that disrupt the game's integrity or violate the Game Terms of Service is strictly prohibited. Based on backend monitoring and player reports, if such violations are confirmed, we will take appropriate action depending on the severity of the offense, including but not limited to the removal of illicit gains, temporary suspension, or permanent account bans.</span></p><p><span style=\"color: rgb(0, 0, 0);\">2. To protect the legitimate rights and interests of all players, please do not transfer, share, or trade your game account. Any consequences resulting from such actions, including account theft or loss of in-game assets, shall be borne by the player.</span></p><p><span style=\"color: rgb(0, 0, 0);\">3. To ensure a complete gameplay experience, players are strictly prohibited from unpacking, modifying, or tampering with the game installation files, as well as distributing related extracted materials.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Finally, creating a positive and fair gaming environment requires the collective efforts of all players. We kindly ask everyone to help maintain a fair and orderly gaming environment. If you come across any violations, please feel free to report them through our official customer service center.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6472",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 7,
+            "displayType": "rich_text",
+            "startAt": 1769011200,
+            "focus": 0,
+            "title": "Feature Usage Policy",
+            "header": "Automated Industry Complex & Blueprint Usage Policy",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260121/4f7b6292b5e17ec8c71ddbaa01e07e0f.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">To ensure a friendly gaming environment, please follow our Terms of Service when using features related to the Automated Industry Complex. Please do not post or engage in content that involves:</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">1. Discrimination based on region, race, sexual orientation, religion, politics, etc.</span></p><p><span style=\"color: rgb(31, 35, 41);\">2. Defamation, offense, or infringement of others' rights</span></p><p><span style=\"color: rgb(31, 35, 41);\">3. Obscenity, violence, gambling, or hate</span></p><p><span style=\"color: rgb(31, 35, 41);\">4. Anything prohibited or deemed inappropriate by the Terms of Service</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">If you engage in any of the above violations, penalties may be applied, including removal of items placed in the Automated Industry Complex, restrictions on AIC Factory features, and account suspension. To report violations, use the [Report] button or contact customer support.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">If you use the [Share Blueprint] feature, you will get a [Blueprint Code] that lets other Endministrators view and use your [Blueprint]. Before getting started, please note: by sharing your [Blueprint Code], you're allowing anyone to view, copy, or use your design. Please consider carefully before sharing.</span></p><p></p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user.gryphline.com/en-us/protocol/plain/endfield/game/terms_of_service\">Terms of Service</a></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "3041",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 10,
+            "displayType": "rich_text",
+            "startAt": 1787900400,
+            "focus": 0,
+            "extraData": {},
+            "title": "Notice on Improving Price Display for Certain Currencies",
+            "header": "Notice on Improving Price Display for Certain Currencies",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260828/629c4b49660a1fb9ab413f1ad09d8119.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Dear Endministrator,</span></p><p><span style=\"color: rgb(0, 0, 0);\">To improve your payment experience, we're optimizing the decimal precision for price display in certain currencies (CHF, HKD, RUB, THB, MYR). Prices in some currencies will be displayed to two decimal places instead of as whole numbers or with one decimal place, making the display of amounts more consistent.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">If you encounter any other issues, please provide feedback through our in-game customer support or other official channels.</span></p><p><span style=\"color: rgb(0, 0, 0);\">Thank you again for your continued interest and support for Arknights: Endfield, Endministrator!</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6474",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 12,
+            "displayType": "rich_text",
+            "startAt": 1769036400,
+            "focus": 0,
+            "title": "Etchspace Salvage",
+            "header": "[Etchspace Salvage] Gameplay Details",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260117/84ee7329a136a7e12892455af10ca639.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Time Available</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Once the official release goes live</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Exploration Rewards</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">While [Etchspace Salvage] is available, reach the specified operation metrics to earn rewards that include: [Oroberyls], [Basic HH Permit], and [progression materials].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Participation Requirements</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Complete the main mission [Chapter I Process III: Mystery in the Building]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Gameplay Details</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· [Etchspace Salvage] is a permanent activity where you go aboard Dijiang to enter and explore the [Valley's Aberrants]. While exploring, accept and complete various commissions to unlock Exploration Support Tech that improves your ability to explore the Valley's Aberrants, and earn rewards including [Oroberyls].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Earn operation metrics by completing specific commissions or bringing out [precipitation nodules] from the Valley's Aberrants. Earn enough operation metrics to acquire rewards.</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ For more details, open the in-game [Etchspace Salvage] screen and click [Gameplay Details].</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "3080",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 19,
+            "displayType": "rich_text",
+            "startAt": 1769036400,
+            "focus": 0,
+            "title": "Game Tools Guide",
+            "header": "Arknights: Endfield Game Tools Guide",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260119/7e720c588a069c93cf714a925c555072.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>[Daily Sign-in]</strong></p><p>The Daily Sign-in Tool allows you to sign in daily to obtain rewards like Oroberyl, Advanced Combat Records, Arms INSP Sets, Protoprisms, and Talosian Credit Notes. Bind your characters and, upon completing your first three daily sign-ins, you'll receive 300 Oroberyl!</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/endfield/sign-in\">Go</a></p><p></p><p><strong>[WIKI]</strong></p><p>The WIKI is a tool with content created and maintained through a group of Endministrators’ effort. It's a convenient and detailed resource for checking in-game info.</p><p>Here, you can view basic Operator and item information, Weapon Files, and much more.</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wiki.skport.com/endfield\">Go</a></p><p></p><p><strong>[Map Tools]</strong></p><p>The map tools provides a comprehensive account of in-game resources and facilities, allowing players to search, filter, and locate areas of interest.</p><p>It offers more than just a view of storage crates, collectibles, enemies and similar key content: once logged in, you can also see your own ziplines, Electric Pylons, and other structures you've built. This all makes your Talos-II exploration that much easier.</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/map/endfield\">Go</a></p><p></p><p><strong>[Protocol Terminal]</strong></p><p>The Protocol Terminal grants players a convenient way to search game data such as that concerning operators and region development. You'll have Sanity stats, Daily Task progress, and much more real-time data at your fingertips.</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/endfield/game-data?header=0\">Go</a></p><p></p><p><strong>[Team Picks and Build Guide]</strong></p><p>Game Tools grant Endministrators a wealth of info to reference, spanning team setups, skill suggestions, and combat strategies. Browse the setups shared by other passionate Arknights: Endfield players, and give your favorites a like.</p><p>We hope this will aid Endministrators in quickly forming their perfect teams, ready for any challenge that awaits!</p><p><strong>Load up Arknights: Endfield, open [Protocol Synchronizer], and press the Game Tools button.</strong></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7222",
+            "type": 0,
+            "tab": "news",
+            "orderType": 2,
+            "orderWeight": 20,
+            "displayType": "picture",
+            "startAt": 1769040000,
+            "focus": 0,
+            "title": "Official Social Media Accounts",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260121/32c709626b7cdf405ce9256e89e9fd6b.jpg",
+              "link": "https://ef-webview.gryphline.com/act/social-media?u8_token={u8_token}&server={server}",
+              "linkType": 2
+            }
+          }
+        ]
+      },
+      "msg": ""
+    }
   }
 ]
