@@ -59,7 +59,7 @@ jobs:
               continue-on-error: true
 
             - name: Format output folder
-              run: bun x oxfmt data/output
+              run: bun x oxfmt data/output/*.json
 
             - name: Git pull
               working-directory: data
