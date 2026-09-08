@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "it-it",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:it-it",
-      "version": "c736102e67f6e6b6bda3cca6c2e5f635",
+      "version": "16708d3d5c3bf6992a5903652d29ea8f",
       "onlineList": [
         {
           "cid": "6433",
@@ -57,6 +57,12 @@
           "needPopup": false
         },
         {
+          "cid": "9867",
+          "version": 1788491081,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "9869",
           "version": 1788173023,
           "needRedDot": true,
@@ -77,6 +83,12 @@
         {
           "cid": "8950",
           "version": 1788228586,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "0790",
+          "version": 1788782116,
           "needRedDot": true,
           "needPopup": false
         },
@@ -178,7 +190,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1788836332,
+      "updatedAt": 1788840000,
       "list": [
         {
           "cid": "6433",
@@ -285,6 +297,23 @@
           }
         },
         {
+          "cid": "9867",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1788840000,
+          "focus": 0,
+          "title": "Prova dell'arco",
+          "header": "Dettagli sull'evento sfida [Prova dell'arco]",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260904/2212cfcc3bd9e6c2d8d43baaad238ddd.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Periodo dell'evento</strong></p><p>9 settembre 2026 alle 12:00 (fuso orario del server) - Prima dell'aggiornamento e della manutenzione della versione</p><p>※ Fuso orario del server Asia: UTC+8</p><p>※ Fuso orario del server Americas / Europe: UTC-5</p><p></p><p><strong>▼// Ricompense dell'evento</strong></p><p>Durante l'evento, completa le simulazioni di addestramento e le missioni di prova dell'evento in [Poligono di tiro con l'arco di Typhoeus] per ottenere ricompense che includono 1200 [Oroberilli], [vettore cognitivo avanzato], [simbolo di perseveranza] e [cassa a scelta di sviluppo avanzato I].</p><p></p><p><strong>▼// Requisiti per partecipare</strong></p><p>· Aver completato la missione secondaria [Un sogno d'inverno tra le nebbie del bosco].</p><p>· Nella missione secondaria [Poligono di tiro con l'arco del fondo della scogliera], aver completato l'obiettivo [Sblocca la macchina].</p><p></p><p><strong>▼// Dettagli sull'evento</strong></p><p>· Durante l'evento, completa le missioni di prova della [Prova dell'arco] per ottenere ricompense.</p><p>· Completa il tutorial di base per sbloccare una varietà di chip Freccia. Usa diverse combinazioni di chip Freccia per completare l'Addestramento avanzato e l'Esercitazione quotidiana per ottenere ricompense e sbloccare obiettivi.</p><p>· Gli stati degli obiettivi dell'Esercitazione quotidiana si aggiornano ogni giorno.</p><p>· Dopo la fine dell'evento, [Prova dell'arco] diventerà un'attività permanente e le ricompense delle missioni di prova a tempo limitato non saranno più disponibili. Tuttavia, sarà possibile ottenere le ricompense per aver completato per la prima volta vari addestramenti ed esercitazioni. Endministrator, presta attenzione al calendario dell'evento e ritira le tue ricompense per tempo.</p><p></p><p>※ Per maggiori dettagli sull'evento, apri la schermata di gioco [Centro eventi].</p>",
+            "linkType": 1
+          }
+        },
+        {
           "cid": "9869",
           "type": 0,
           "tab": "updates",
@@ -349,6 +378,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260831/1d7c389b682243aa47297b62ed85f3b6.jpg\" data-width=\"1650\" data-height=\"300\"><p>Ciao, Endministrator!</p><p>Mentre la [Distribuzione Freddo profondo] è disponibile, la possibilità di ottenere l'arma da 6★ [Ombra del gelido crepuscolo (unità delle Arti)] è aumentata!</p><p><br></p><p><strong>▼// [Distribuzione Freddo profondo]</strong></p><p>· Disponibilità: comincia dopo l'uscita della versione [Paesaggio onirico di vento e neve], termina dopo 3 campagne di [caccia ai talenti certificata] (a partire da [Caccia invernale])</p><p>· Criteri di partecipazione: completa la missione principale [Capitolo I - Elaborazione I: Sotto assedio]</p><p>· La [Distribuzione Freddo profondo] comprende l'arma da 6★ in evidenza [Ombra del gelido crepuscolo (unità delle Arti)]</p><p>· Fra le armi da 6★ che potrebbero apparire in [Distribuzione Freddo profondo], ci sono: Ombra del gelido crepuscolo (unità delle Arti) / Exemplar (spadone) / Clannibal (pistola pesante) / Audace (arma ad asta) / Oblio (unità delle Arti) / Unità di detonazione (unità delle Arti) / Ascesa fulminea (spada).</p><p><br></p><p><strong>▼// Ricompense [Distribuzione arsenale]</strong></p><p>In ogni [Distribuzione arsenale], completare un determinato numero di distribuzioni consente di ottenere, in ordine alternato, la [cassa Offerta armi (CO armi)] o l'[arma da 6★ in evidenza]. Il numero totale di distribuzioni necessarie per queste ricompense di Distribuzione arsenale viene azzerato alla fine della campagna e non viene trasferito ad altre campagne [Distribuzione arsenale].</p><p><br></p><p><strong>▼// Dettagli [Distribuzione arsenale]</strong></p><p>· In [Distribuzione arsenale], puoi usare i [biglietti arsenale] per richiedere una distribuzione.</p><p>· Ogni Distribuzione fornisce 10 armi casuali dall'elenco delle armi disponibili, di cui almeno un'arma da 5★ o migliore.</p><p><br></p><p><strong>▼// Dettagli [Scambio arsenale]</strong></p><p>In [Scambio arsenale], i [biglietti arsenale] possono essere utilizzati anche per acquistare direttamente armi. Alcune armi acquistabili possono essere aggiornate periodicamente. Consulta la schermata [Centro di acquisizione: Scambio arsenale] per verificare la disponibilità effettiva.</p><p><br></p><p>※ Per maggiori dettagli e per le regole relative alle ricompense, dai un'occhiata al [Centro di acquisizione - Scambio arsenale] nel gioco.</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "0790",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1788840000,
+          "focus": 0,
+          "title": "New Official Merch Now Available",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260907/f5ea9fb32291c45a1f3c1d2616bbada9.png",
+            "link": "https://store.gryphline.com",
             "linkType": 1
           }
         },

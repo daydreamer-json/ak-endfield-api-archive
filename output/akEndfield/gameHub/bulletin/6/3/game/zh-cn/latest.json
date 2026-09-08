@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-cn",
-      "version": "c736102e67f6e6b6bda3cca6c2e5f635",
+      "version": "0a5bea75bdd9396396ad589b5f3cae4e",
       "onlineList": [
         {
           "cid": "6433",
@@ -53,6 +53,12 @@
         {
           "cid": "6446",
           "version": 1786336168,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "9867",
+          "version": 1788491081,
           "needRedDot": true,
           "needPopup": false
         },
@@ -178,7 +184,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1788836332,
+      "updatedAt": 1788840000,
       "list": [
         {
           "cid": "6433",
@@ -281,6 +287,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260808/46f6d7662fbefdbdb7ee9d4787faa935.png",
             "link": "https://endfield.gryphline.com/en-us/news/1329",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "9867",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1788840000,
+          "focus": 0,
+          "title": "挽弓试炼",
+          "header": "「挽弓试炼」挑战活动说明",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260904/17ed57f11bb479993c9ea49d93c4a574.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//活动时间</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">2026/09/09 12:00（服务器时间） - 版本更新维护前</span></p><p><span style=\"color: rgb(0, 0, 0);\">※Asia服务器时区: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※Americas / Europe服务器时区: UTC-5</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//活动奖励</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">活动期间，完成「提弗洛斯的靶场」中的模拟训练和活动相关试炼任务，即可领取【嵌晶玉】×1200、【高级认知载体】、【存续的痕迹】及【高阶培养自选箱Ⅰ】等活动奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//参与条件</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 完成支线任务「雾隐冬梦深林中」。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 在支线任务「悬崖下的靶场」中，完成「解锁机器」。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//活动说明</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动期间，完成「挽弓试炼」试炼任务，即可获得对应奖励。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 完成基础教学解锁多种箭矢芯片，通过配置不同的箭矢芯片完成进阶训练和日常训练，获取对应奖励与目标。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 日常训练目标状态每日刷新。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 「挽弓试炼」在活动时间结束后将转为常驻活动，转为常驻活动后管理员将无法领取限时试炼任务奖励，但仍可继续游玩获取训练首通奖励。请管理员注意活动时间，及时领取奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ 更多活动详细说明，请前往游戏内【活动中心】查看。</span></p>",
             "linkType": 1
           }
         },

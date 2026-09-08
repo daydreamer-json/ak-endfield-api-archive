@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "ja-jp",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ja-jp",
-      "version": "c736102e67f6e6b6bda3cca6c2e5f635",
+      "version": "0a5bea75bdd9396396ad589b5f3cae4e",
       "onlineList": [
         {
           "cid": "6433",
@@ -53,6 +53,12 @@
         {
           "cid": "6446",
           "version": 1786336168,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "9867",
+          "version": 1788491081,
           "needRedDot": true,
           "needPopup": false
         },
@@ -178,7 +184,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1788836332,
+      "updatedAt": 1788840000,
       "list": [
         {
           "cid": "6433",
@@ -281,6 +287,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260808/f275b70ee322ec400805738e4ed171b7.png",
             "link": "https://endfield.gryphline.com/en-us/news/1329",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "9867",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1788840000,
+          "focus": 0,
+          "title": "弓の試練",
+          "header": "「弓の試練」上級者イベント概要",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260904/c610a78b4cc41d86649a1a94461aeda1.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//開催期間</strong></p><p>2026/09/09 12:00（サーバー時間）～バージョンアップメンテナンス前</p><p>※Asiaサーバーのタイムゾーン：UTC+8</p><p>※Americas / Europeサーバーのタイムゾーン：UTC-5</p><p></p><p><strong>▼//イベント報酬</strong></p><p>イベント期間中、「ティフォロスの射場」で模擬訓練やイベント関連の試練クエストを完了すると、【赤晶玉】×1,200、【上級認識媒体】【存続の痕跡】【上級育成強化ボックスⅠ】などの報酬を獲得できます。</p><p></p><p><strong>▼//参加条件</strong></p><p>· サブ任務「冬の夢は霧の中に」を完了</p><p>· サブ任務「崖の下の射場」で、「機械のロックを解除する」を完了</p><p></p><p><strong>▼//説明</strong></p><p>· イベント期間中、「弓の試練」試練クエストを完了すると、対応する報酬を獲得できます。</p><p>· 基礎訓練を完了すると、さまざまな矢のチップが解放されます。矢のチップを使い分けて上級訓練や日常訓練を完了すると、対応する報酬と目標を獲得できます。</p><p>· 日常訓練の目標状況は毎日更新されます。</p><p>· 「弓の試練」はイベント期間終了後、常時開放イベントとなります。以降は期間限定の試練クエスト報酬を受け取れなくなりますが、各訓練の初回クリア報酬は引き続き獲得できます。期間限定報酬は、イベント期間中に忘れずにお受け取りください。</p><p></p><p>※イベントの詳細は、ゲーム内の【イベント】よりご確認ください。</p>",
             "linkType": 1
           }
         },

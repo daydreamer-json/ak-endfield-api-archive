@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:#DEFAULT:2:#DEFAULT:zh-cn",
-      "version": "b085bef2e8d5604b318782800e9e39f0",
+      "version": "ac19082fefa2ea538469dac7b5d79d00",
       "onlineList": [
         {
           "cid": "9843",
@@ -53,6 +53,12 @@
         {
           "cid": "1392",
           "version": 1768982321,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "7263",
+          "version": 1787997523,
           "needRedDot": true,
           "needPopup": false
         },
@@ -136,7 +142,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1788837814,
+      "updatedAt": 1788840000,
       "list": [
         {
           "cid": "9843",
@@ -241,6 +247,23 @@
             "url": "https://web.hycdn.cn/upload/image/20260121/528a5c2a39687aaa0e15ef79c8e879f9.jpg",
             "link": "https://ef-webview.hypergryph.com/act/social-media?u8_token={u8_token}&server={server}",
             "linkType": 2
+          }
+        },
+        {
+          "cid": "7263",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1788840000,
+          "focus": 0,
+          "title": "挽弓试炼",
+          "header": "「挽弓试炼」挑战活动说明",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web.hycdn.cn/upload/image/20260829/2a339a8957585356b88d3cd13ccaea09.jpg\" data-width=\"1650\" data-height=\"300\"><p>▼//活动时间</p><p>2026/09/09 12:00（服务器时间） - 版本更新维护前</p><p></p><p>▼//活动奖励</p><p>活动期间，完成「提弗洛斯的靶场」中的模拟训练和活动相关试炼任务，即可领取【嵌晶玉】×1200、【高级认知载体】、【存续的痕迹】及【高阶培养自选箱Ⅰ】等活动奖励。</p><p></p><p>▼//参与条件</p><p>· 完成支线任务「雾隐冬梦深林中」</p><p></p><p>▼//活动说明</p><p>· 活动期间，完成「挽弓试炼」试炼任务，即可获得对应奖励。</p><p>· 完成基础教学以解锁多种箭矢芯片，通过配置不同的箭矢芯片完成进阶训练和日常训练，获取对应奖励或达成对应目标。</p><p>· 日常训练目标状态每日重置。</p><p>· 「挽弓试炼」挑战活动结束后，将无法完成试炼任务或领取对应奖励，但仍可继续游玩「提弗洛斯的靶场」，获取模拟训练首通奖励。请管理员注意活动时间，及时领取奖励。</p><p></p><p>※ 更多活动详细说明，请前往游戏内【活动中心】查看。</p>",
+            "linkType": 1
           }
         },
         {
