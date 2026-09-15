@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:#DEFAULT:2:#DEFAULT:zh-cn",
-      "version": "ac19082fefa2ea538469dac7b5d79d00",
+      "version": "0cca96ff2c86a53258192445c4826778",
       "onlineList": [
         {
           "cid": "9843",
@@ -53,6 +53,12 @@
         {
           "cid": "1392",
           "version": 1768982321,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "8935",
+          "version": 1789209583,
           "needRedDot": true,
           "needPopup": false
         },
@@ -142,7 +148,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1788840000,
+      "updatedAt": 1789444800,
       "list": [
         {
           "cid": "9843",
@@ -247,6 +253,23 @@
             "url": "https://web.hycdn.cn/upload/image/20260121/528a5c2a39687aaa0e15ef79c8e879f9.jpg",
             "link": "https://ef-webview.hypergryph.com/act/social-media?u8_token={u8_token}&server={server}",
             "linkType": 2
+          }
+        },
+        {
+          "cid": "8935",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1789444800,
+          "focus": 0,
+          "title": "集成援助\\n泡泡出击",
+          "header": "「集成援助·泡泡出击」集成生产活动说明",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web.hycdn.cn/upload/image/20260912/fd5c58fc94f20f798b668f6b0ee9ae2d.png\" data-width=\"1650\" data-height=\"300\"><p>▼//活动时间</p><p>2026/09/16 12:00 - 2026/09/30 16:00（服务器时间）</p><p></p><p>▼//活动奖励</p><p>活动开放期间，完成任务，累计可获得【嵌晶玉】【高阶培养自选箱Ⅰ】【高级认知载体】【存续的痕迹】等活动奖励。</p><p></p><p>▼//参与条件</p><p>完成主线任务「第二章 - 进程Ⅱ - 无患之患」</p><p></p><p>▼//活动说明</p><p>· 活动期间，完成特定任务以解锁援助物品配方与物资兑换处。生产援助物品并提交至据点可获得【武陵调度券】与【援助成果券】，使用【援助成果券】可在物资兑换处兑换物资。（活动开启后第8天，物资兑换处将新增额外的可兑换物资。）</p><p>· 9月30日16:00（服务器时间）活动结束后，已生产但未提交至据点的援助物品，将会自动兑换为【武陵调度券】与【援助成果券】，并通过邮件发送。其中，超出可兑换调度券上限的部分将自动兑换为【援助成果券】。</p><p>· 活动结束后，物资兑换处还会额外开放一段时间便于管理员兑换剩余物资。请管理员在10月7日04:00（服务器时间）前及时兑换。</p><p>· 活动期间，达成指定条件即可获得本活动专属蚀刻章。</p><p></p><p>※ 更多活动详细说明，请前往游戏内【活动中心】查看。</p>",
+            "linkType": 1
           }
         },
         {
