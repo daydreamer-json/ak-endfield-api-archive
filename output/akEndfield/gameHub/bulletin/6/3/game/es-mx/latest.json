@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "es-mx",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:es-mx",
-      "version": "09a0483467a1119366aca179b68471fe",
+      "version": "4d0fc7fb95512ff24c01aea231683f2c",
       "onlineList": [
         {
           "cid": "6433",
@@ -77,6 +77,12 @@
         {
           "cid": "8950",
           "version": 1788228586,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "6432",
+          "version": 1789464561,
           "needRedDot": true,
           "needPopup": false
         },
@@ -196,7 +202,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1789445058,
+      "updatedAt": 1789531200,
       "list": [
         {
           "cid": "6433",
@@ -367,6 +373,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260831/67b16732cc7267d11c5c0ff7f438a69c.jpg\" data-width=\"1650\" data-height=\"300\"><p>Hola, Endministrator:</p><p>Durante el periodo de disponibilidad de [Solicitud de Frío intenso], ¡aumenta la probabilidad de obtener el arma de 6★ [Sombra del gélido crepúsculo (Unidad de las Artes)]!</p><p><br></p><p><strong>▼// [Solicitud de Frío intenso]</strong></p><p>· Disponibilidad: inicia tras la actualización de la versión [Paisaje onírico de Viento y Nieve] y termina después de 3 banners de [Caza de reclutas certificada], a partir de [Cacería invernal]</p><p>· Requisitos de participación: completa la misión principal [Capítulo I Proceso I: Rompiendo el asedio]</p><p>· [Solicitud de Frío intenso] incluye el arma de 6★ con aumento de probabilidad [Sombra del gélido crepúsculo (Unidad de las Artes)].</p><p>· Las armas de 6★ que pueden aparecer en [Solicitud de Frío intenso] incluyen: Sombra del gélido crepúsculo (Unidad de las Artes) / Ejemplar (gran espada) / Clannibal (cañón de mano) / Valiente (arma de asta) / Olvido (Unidad de las Artes) / Unidad de detonación (Unidad de las Artes) / Ascenso rápido (espada).</p><p><br></p><p><strong>▼// Recompensas de [Solicitud de Arsenal]</strong></p><p>En cada [Solicitud de Arsenal], al completar un número determinado de misiones, se obtendrá la [Caja de ofrenda de armas] (CO de armas) específica del banner o el [arma de 6★ con aumento de probabilidad] en orden alterno. El número total de solicitudes para estas recompensas de Solicitud de Arsenal se restablecerá una vez que finalice el banner y no se transferirá a otros banners de [Solicitud de Arsenal].</p><p><br></p><p><strong>▼// Detalles de [Solicitud de Arsenal]</strong></p><p>· En [Solicitud de Arsenal], puedes gastar [Boletos de Arsenal] para enviar una solicitud.</p><p>· Cada solicitud otorga 10 armas al azar de la lista de armas disponibles, que incluye al menos un arma de 5★ o más.</p><p><br></p><p><strong>▼// Detalles del [Intercambio de Arsenal]</strong></p><p>En [Intercambio de Arsenal], el [Boleto de Arsenal] también se puede usar para comprar armas directamente. Algunas armas a la venta pueden actualizarse de vez en cuando. Consulta la información que se muestra en la pantalla [Centro de adquisición: Intercambio de Arsenal] para saber qué hay disponible.</p><p><br></p><p>※ Visita el [Centro de adquisición: Intercambio de Arsenal] para conocer más detalles y reglas de las recompensas.</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "6432",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "rich_text",
+          "startAt": 1789531200,
+          "focus": 0,
+          "title": "Suministro de Cordura",
+          "header": "Suministro de Cordura",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260915/ca06305e5dd4208f5aa47482c601a4a6.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Periodo del evento </strong><br>Del 17 de septiembre de 2026 a las 04:00 al 24 de septiembre de 2026 a las 04:00 (hora del servidor)<br><br><strong>▼// Recompensas del evento </strong><br>Durante el evento, completa las misiones especificadas todos los días para recibir [Refuerzo de Cordura de emergencia]×4 y [Permiso de uso de Cordura]×8.<br><br><strong>▼// Requisitos de participación </strong><br>Completa la misión principal [Capítulo I Proceso II: Pavimentando el camino]<br><br><strong>▼// Detalles del evento </strong><br>· Durante el evento, habrá 3 misiones diarias de Suministro de Cordura: complétalas para ganar recompensas. <br>· Las misiones de Suministro de Cordura se actualizarán diariamente a las 04:00 (hora del servidor). Asegúrate de reclamar las recompensas a tiempo.<br><br>※ Zona horaria del servidor Asia: UTC+8 <br>※ Zona horaria del servidor Americas / Europe: UTC-5 <br>※ Para obtener más detalles sobre el evento, consulta el [Centro de eventos] en el juego.<br></p>",
             "linkType": 1
           }
         },
