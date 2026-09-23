@@ -18,8 +18,14 @@
       "subChannel": "#DEFAULT",
       "lang": "pt-br",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:pt-br",
-      "version": "861f9c95c19445cdf7ce027ae429e392",
+      "version": "2cf5cbd06f28ea15e9d07f5aa0335431",
       "onlineList": [
+        {
+          "cid": "5521",
+          "version": 1790168012,
+          "needRedDot": false,
+          "needPopup": false
+        },
         {
           "cid": "8956",
           "version": 1789871803,
@@ -117,12 +123,6 @@
           "needPopup": false
         },
         {
-          "cid": "3048",
-          "version": 1789106681,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
           "cid": "2109",
           "version": 1788963403,
           "needRedDot": true,
@@ -208,8 +208,25 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1790157600,
+      "updatedAt": 1790175600,
       "list": [
+        {
+          "cid": "5521",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1790175600,
+          "focus": 1,
+          "title": "Quick Update Notice",
+          "header": "09/23 Quick Update Notice",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260808/f9f1fa78d5d555f7616dacc80f89f31e.png\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrator,</p><p>The servers will undergo a quick update from 2026/09/23 21:30 - 21:40 (UTC-5). During this time, all Endministrators will be logged out and unable to access the game.<br></p><p>▼// Update Details</p><p>· Updated the new area [Wuling - Suiming] and related mission resources.</p><p>· Updated [Resplendent Spectrum] RE-Factor Headhunting #1, [Tag Artist Issue] RE-Factor Issue #1, [Purry Big Feline! RAWR!] Giveaway Event, and game resources for subsequent events.<br></p><p>▼// Update Compensation</p><p>· Emergency Sanity Booster×1<br></p><p>Distribution Period: 2026/09/23 after the quick update - Before the next version update and maintenance</p><p>Eligibility: All Endministrators who registered and created a character before the update on 2026/09/23 21:30 (UTC-5).</p><p>Note: Claimable after unlocking the [Mail] function. The mail is valid for 30 days. Please be sure to claim it in time.</p><p>Thank you for your continued interest and support for Arknights: Endfield, Endministrator!</p>",
+            "linkType": 1
+          }
+        },
         {
           "cid": "8956",
           "type": 0,
@@ -482,24 +499,6 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260915/8a34c9648b6fc907ef00f2dbde2d1323.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Horário do Evento </strong><br>17 de setembro de 2026, às 04:00 – 24 de setembro de 2026, às 04:00 (horário do servidor)<br><br><strong>▼// Recompensas do Evento </strong><br>Durante o evento, conclua as missões especificadas todos os dias para receber [Potencializador de Sanidade de Emergência]×4 e [Permissão para Uso de Sanidade]×8.<br><br><strong>▼// Requisitos de Participação </strong><br>Conclua a missão principal [Capítulo I Processo II: Pavimentando o Caminho]<br><br><strong>▼// Detalhes do Evento </strong><br>· Durante o evento, haverá 3 missões diárias de Suprimento de Sanidade. Conclua essas missões para receber as recompensas. <br>· As missões de Suprimento de Sanidade serão atualizadas diariamente, às 04:00 (horário do servidor). Lembre-se de resgatar as recompensas a tempo.<br><br>※ Fuso Horário do Servidor Asia: UTC+8 <br>※ Fuso Horário do Servidor Americas / Europe: UTC-5 <br>※ Para mais informações sobre o evento, confira o [Centro de Eventos] no jogo.<br></p>",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "3048",
-          "type": 0,
-          "tab": "news",
-          "orderType": 1,
-          "orderWeight": 4,
-          "displayType": "picture",
-          "startAt": 1789124400,
-          "focus": 0,
-          "title": "Log do Pioneiro",
-          "header": "",
-          "jumpButton": null,
-          "data": {
-            "url": "https://web-static.hg-cdn.com/upload/image/20260910/d8c566b6ba1356fba86b64b697aae79d.jpg",
-            "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fact.skport.com%252Fendfield%252Fdata-report%253Fheader%253D0%2526activityId%253Dhomecoming%2526hg_media%253Dgame%2526hg_link_campaign%253Dannouncement%2526hg_link_name%253Dreport",
             "linkType": 1
           }
         },

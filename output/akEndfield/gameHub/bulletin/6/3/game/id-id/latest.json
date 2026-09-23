@@ -18,8 +18,14 @@
       "subChannel": "#DEFAULT",
       "lang": "id-id",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:id-id",
-      "version": "861f9c95c19445cdf7ce027ae429e392",
+      "version": "2cf5cbd06f28ea15e9d07f5aa0335431",
       "onlineList": [
+        {
+          "cid": "5521",
+          "version": 1790168012,
+          "needRedDot": false,
+          "needPopup": false
+        },
         {
           "cid": "8956",
           "version": 1789871803,
@@ -117,12 +123,6 @@
           "needPopup": false
         },
         {
-          "cid": "3048",
-          "version": 1789106681,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
           "cid": "2109",
           "version": 1788963403,
           "needRedDot": true,
@@ -208,8 +208,25 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1790157600,
+      "updatedAt": 1790175600,
       "list": [
+        {
+          "cid": "5521",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1790175600,
+          "focus": 1,
+          "title": "Quick Update Notice",
+          "header": "09/23 Quick Update Notice",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260808/f9f1fa78d5d555f7616dacc80f89f31e.png\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrator,</p><p>The servers will undergo a quick update from 2026/09/23 21:30 - 21:40 (UTC-5). During this time, all Endministrators will be logged out and unable to access the game.<br></p><p>▼// Update Details</p><p>· Updated the new area [Wuling - Suiming] and related mission resources.</p><p>· Updated [Resplendent Spectrum] RE-Factor Headhunting #1, [Tag Artist Issue] RE-Factor Issue #1, [Purry Big Feline! RAWR!] Giveaway Event, and game resources for subsequent events.<br></p><p>▼// Update Compensation</p><p>· Emergency Sanity Booster×1<br></p><p>Distribution Period: 2026/09/23 after the quick update - Before the next version update and maintenance</p><p>Eligibility: All Endministrators who registered and created a character before the update on 2026/09/23 21:30 (UTC-5).</p><p>Note: Claimable after unlocking the [Mail] function. The mail is valid for 30 days. Please be sure to claim it in time.</p><p>Thank you for your continued interest and support for Arknights: Endfield, Endministrator!</p>",
+            "linkType": 1
+          }
+        },
         {
           "cid": "8956",
           "type": 0,
@@ -482,24 +499,6 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260915/e3f85e3551e156e738229e762d2b6686.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Waktu Event </strong><br>17 September 2026, pukul 04.00 – 24 September 2026, pukul 04.00 (waktu server) <br><br><strong>▼// Hadiah Event </strong><br>Selama acara, selesaikan misi tertentu setiap hari untuk menerima: [Booster Sanity Darurat]×4 dan [Izin Penggunaan Sanity]×8. <br><br><strong>▼// Persyaratan Partisipasi </strong><br>Selesaikan misi utama [Bab I Proses II: Membuka Jalan] <br><br><strong>▼// Detail Event </strong><br>· Selama acara, 3 misi Pasokan Sanity akan tersedia setiap hari. Selesaikan misi untuk mendapatkan hadiah. <br>· Misi Pasokan Sanity akan diperbarui setiap pukul 04.00 (waktu server). Jangan lupa untuk segera mengklaim hadiahnya. <br><br>※ Zona Waktu Server Asia: UTC+8 <br>※ Zona Waktu Server Americas / Europe: UTC-5 <br>※ Untuk detail acara, lihat [Pusat Event] dalam game.<br></p>",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "3048",
-          "type": 0,
-          "tab": "news",
-          "orderType": 1,
-          "orderWeight": 4,
-          "displayType": "picture",
-          "startAt": 1789124400,
-          "focus": 0,
-          "title": "Log Perintis",
-          "header": "",
-          "jumpButton": null,
-          "data": {
-            "url": "https://web-static.hg-cdn.com/upload/image/20260910/cc78f722fe3d4cd88a0c018d9bf3c86e.jpg",
-            "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fact.skport.com%252Fendfield%252Fdata-report%253Fheader%253D0%2526activityId%253Dhomecoming%2526hg_media%253Dgame%2526hg_link_campaign%253Dannouncement%2526hg_link_name%253Dreport",
             "linkType": 1
           }
         },

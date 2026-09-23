@@ -18,8 +18,14 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-cn",
-      "version": "6e370264e2b993996aee900bf138df36",
+      "version": "aca39487b2fb8ad938aded9efbdb2f70",
       "onlineList": [
+        {
+          "cid": "5521",
+          "version": 1790168012,
+          "needRedDot": false,
+          "needPopup": false
+        },
         {
           "cid": "8956",
           "version": 1789871803,
@@ -117,12 +123,6 @@
           "needPopup": false
         },
         {
-          "cid": "3048",
-          "version": 1789106681,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
           "cid": "2109",
           "version": 1788963403,
           "needRedDot": true,
@@ -202,8 +202,25 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1790157600,
+      "updatedAt": 1790175600,
       "list": [
+        {
+          "cid": "5521",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1790175600,
+          "focus": 1,
+          "title": "闪断更新公告",
+          "header": "09月23日闪断更新公告",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260808/26d5c3d45627ac682586b4dbfb9c76b3.png\" data-width=\"1650\" data-height=\"300\"><p>亲爱的管理员：</p><p>《明日方舟：终末地》将于2026/09/23 21:30 - 21:40（UTC-5）进行闪断更新，届时将强制掉线。更新期间给管理员带来不便，敬请谅解。<br></p><p>▼//更新内容</p><p><span style=\"color: rgb(31, 35, 41);\">· 更新了全新区域「武陵 - 遂明」及相关任务资源。</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 更新了「绚丽异彩」重构寻访#1、「点绘申领」重构申领#1、「我们的大菲林！来袭！」馈赠活动及后续活动的游戏资源。</span><br></p><p>▼//更新补偿</p><p>· 应急理智加强剂 × 1</p><p></p><p>· 发放时间：2026/09/23 闪断更新维护后 - 下个版本更新维护前</p><p>· 发放条件：2026/09/23 21:30（UTC-5）更新前所有注册并创建角色的管理员。</p><p>· 发放说明：开启【邮箱】功能后领取，邮件有效期为30天，请注意及时领取。</p><p>感谢管理员对《明日方舟：终末地》一直以来的关注与支持！</p>",
+            "linkType": 1
+          }
+        },
         {
           "cid": "8956",
           "type": 0,
@@ -476,24 +493,6 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260915/0e3571030fe668b7d9d8dd1837c192cc.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//活动时间</strong><br>2026/09/17 04:00 - 2026/09/24 04:00（服务器时间）<br><br><strong>▼//活动奖励</strong><br>活动期间，每日完成指定任务，可获得【应急理智加强剂】×4、【理智消耗许可】×8。<br><br><strong>▼//参与条件</strong><br>完成主线任务「第一章 - 进程Ⅱ - 开拓前路」<br><br><strong>▼//活动说明</strong><br>· 活动期间，每日将固定开放3个理智补给任务，完成任务即可获得奖励。<br>· 每日的理智补给任务将于次日04:00（服务器时间）刷新，请管理员及时领取奖励。<br><br>※Asia服务器时区：UTC+8<br>※Americas / Europe服务器时区：UTC-5<br>※ 更多活动详细说明，请前往游戏内【活动中心】查看。<br></p>",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "3048",
-          "type": 0,
-          "tab": "news",
-          "orderType": 1,
-          "orderWeight": 4,
-          "displayType": "picture",
-          "startAt": 1789124400,
-          "focus": 0,
-          "title": "开拓日志",
-          "header": "",
-          "jumpButton": null,
-          "data": {
-            "url": "https://web-static.hg-cdn.com/upload/image/20260910/a640033a4620948e12cfcd2da9c13d13.jpg",
-            "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fact.skport.com%252Fendfield%252Fdata-report%253Fheader%253D0%2526activityId%253Dhomecoming%2526hg_media%253Dgame%2526hg_link_campaign%253Dannouncement%2526hg_link_name%253Dreport",
             "linkType": 1
           }
         },

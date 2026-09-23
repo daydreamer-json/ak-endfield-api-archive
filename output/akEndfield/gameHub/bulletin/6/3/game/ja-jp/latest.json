@@ -18,8 +18,14 @@
       "subChannel": "#DEFAULT",
       "lang": "ja-jp",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ja-jp",
-      "version": "6e370264e2b993996aee900bf138df36",
+      "version": "aca39487b2fb8ad938aded9efbdb2f70",
       "onlineList": [
+        {
+          "cid": "5521",
+          "version": 1790168012,
+          "needRedDot": false,
+          "needPopup": false
+        },
         {
           "cid": "8956",
           "version": 1789871803,
@@ -117,12 +123,6 @@
           "needPopup": false
         },
         {
-          "cid": "3048",
-          "version": 1789106681,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
           "cid": "2109",
           "version": 1788963403,
           "needRedDot": true,
@@ -202,8 +202,25 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1790157600,
+      "updatedAt": 1790175600,
       "list": [
+        {
+          "cid": "5521",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1790175600,
+          "focus": 1,
+          "title": "データ更新のご案内",
+          "header": "09月23日データ更新のご案内",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260808/3d1d3bb4c0aa89f5ea8832033134d6c7.png\" data-width=\"1650\" data-height=\"300\"><p>親愛なる管理人：</p><p>サーバーは2026年09月23日 21:30 - 21:40（UTC-5）にアップデートを行う予定です。アップデート中は強制的にログアウトされ、ゲームにログインすることができません。皆さまにはご迷惑をおかけいたしますが、ご理解のほどよろしくお願いいたします。<br></p><p>▼//アップデート内容</p><p><span style=\"color: rgb(0, 0, 0);\">· 新たなエリア「武陵 - 遂明」および関連する任務リソースを更新</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 「超爆盛れカラフル」再現スカウト#1、「点描・申請」再現申請#1、「でっかいフェリーン！襲来！」プレゼントイベントおよび後続イベントのゲームリソースを更新</span><br></p><p>▼//メンテナンス補填内容</p><p>· 初級理性回復剤×1<br></p><p>配布日時：2026/09/23 アップデート後～次のバージョンアップメンテナンス</p><p>配布条件：2026/09/23 21:30（UTC-5）メンテナンス前にアカウントおよびキャラクターを作成済み</p><p>注意事項：【メールボックス】機能が解放されてから受け取れます。メールの有効期間は30日間ですので、忘れずにお受け取りください。</p><p>引き続き、『アークナイツ：エンドフィールド』をよろしくお願いします。</p>",
+            "linkType": 1
+          }
+        },
         {
           "cid": "8956",
           "type": 0,
@@ -476,24 +493,6 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260915/0ee36d13162a8cd633144942c4a20d5e.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//開催期間</strong><br>2026/09/17 04:00～2026/09/24 04:00（サーバー時間）<br><br><strong>▼//イベント報酬</strong><br>開催期間中、クエストを完了すると、【初級理性回復剤】×4、【理性消費許可証】×8を受け取ることができます。<br><br><strong>▼//参加条件</strong><br>メイン任務：第一章-プロセスⅡ「前路開拓」を完了<br><br><strong>▼//説明</strong><br>· 期間中、毎日3つの理性補給クエストが解放されます。クエストを完了すると、報酬を受け取ることができます。<br>· 理性補給クエストは翌日04:00（サーバー時間）に更新されます。報酬はお早めにお受け取りください。<br><br>※Asiaサーバーのタイムゾーン：UTC+8<br>※Americas / Europeサーバーのタイムゾーン：UTC-5<br>※イベントの詳細は、ゲーム内の【イベント】よりご確認ください。<br></p>",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "3048",
-          "type": 0,
-          "tab": "news",
-          "orderType": 1,
-          "orderWeight": 4,
-          "displayType": "picture",
-          "startAt": 1789124400,
-          "focus": 0,
-          "title": "開拓日誌",
-          "header": "",
-          "jumpButton": null,
-          "data": {
-            "url": "https://web-static.hg-cdn.com/upload/image/20260910/e7671ccd873eac721728e589f209e5d7.jpg",
-            "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fact.skport.com%252Fendfield%252Fdata-report%253Fheader%253D0%2526activityId%253Dhomecoming%2526hg_media%253Dgame%2526hg_link_campaign%253Dannouncement%2526hg_link_name%253Dreport",
             "linkType": 1
           }
         },

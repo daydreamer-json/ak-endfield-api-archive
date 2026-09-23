@@ -18,8 +18,14 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-tw",
       "key": "1:Windows:#DEFAULT:#DEFAULT:#DEFAULT:zh-tw",
-      "version": "29c6fd7e49722c8f597dd432f1b4eb42",
+      "version": "88aa392a3201cf40665c80f7c6675ab1",
       "onlineList": [
+        {
+          "cid": "3046",
+          "version": 1790168041,
+          "needRedDot": false,
+          "needPopup": false
+        },
         {
           "cid": "9868",
           "version": 1788263893,
@@ -52,8 +58,25 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1788402600,
+      "updatedAt": 1790175600,
       "list": [
+        {
+          "cid": "3046",
+          "type": 1,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1790175600,
+          "focus": 1,
+          "title": "快速維護更新公告",
+          "header": "09月24日快速維護更新公告",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260923/f593de69a33d3222d82aec1f2ad1b39e.png\" data-width=\"1650\" data-height=\"300\"><p>親愛的管理員：</p><p>伺服器將於2026/09/24 10:30 - 10:40 (UTC+8)進行快速維護更新，更新期間將強制斷線，無法登入遊戲。更新期間造成不便，敬請見諒。</p><p></p><p>▼//修復內容</p><p>· 更新了全新區域「武陵 - 遂明」及相關任務資源。</p><p>· 更新了「絢麗異彩」重構尋訪#1、「點繪申領」重構申領#1、「我們的大菲林！來襲！」饋贈活動及後續活動的遊戲資源。</p><p></p><p>▼//更新補償</p><p>· 緊急理智加強劑 × 1<br></p><p>發放時間：2026/09/24 快速維護更新後 ~ 下個版本更新維護前</p><p>發放條件：2026/09/24 10:30 (UTC+8)更新前已註冊並建立角色的管理員</p><p>發放說明：開啟【信箱】功能後可領取，信件有效期限為30天，請注意及時領取。</p><p>感謝管理員對《明日方舟：終末地》長期以來的關注與支持！</p>",
+            "linkType": 1
+          }
+        },
         {
           "cid": "9868",
           "type": 1,
