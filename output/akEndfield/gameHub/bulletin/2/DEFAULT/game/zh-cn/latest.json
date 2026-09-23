@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:#DEFAULT:2:#DEFAULT:zh-cn",
-      "version": "26231debad0d986145ad9b209b5b99a1",
+      "version": "503ce3f652e41192863c29baf3e0ce2a",
       "onlineList": [
         {
           "cid": "9843",
@@ -59,6 +59,12 @@
         {
           "cid": "1392",
           "version": 1768982321,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "9841",
+          "version": 1789209717,
           "needRedDot": true,
           "needPopup": false
         },
@@ -166,7 +172,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1790053200,
+      "updatedAt": 1790136000,
       "list": [
         {
           "cid": "9843",
@@ -289,6 +295,23 @@
             "url": "https://web.hycdn.cn/upload/image/20260121/528a5c2a39687aaa0e15ef79c8e879f9.jpg",
             "link": "https://ef-webview.hypergryph.com/act/social-media?u8_token={u8_token}&server={server}",
             "linkType": 2
+          }
+        },
+        {
+          "cid": "9841",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1790136000,
+          "focus": 0,
+          "title": "于钟鸣的旧城",
+          "header": "「于钟鸣的旧城」引入活动说明",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web.hycdn.cn/upload/image/20260912/b7cf5f23d40f208d5bcbb0437267207f.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">▼//活动时间</span></p><p><span style=\"color: rgb(31, 35, 41);\">2026/09/24 12:00（服务器时间） - 版本更新维护前</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">▼//活动奖励</span></p><p><span style=\"color: rgb(31, 35, 41);\">活动开放期间，完成任务，累计可获得【嵌晶玉】【存续的痕迹】活动奖励。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">▼//参与条件</span></p><p><span style=\"color: rgb(31, 35, 41);\">在支线任务「钟鸣人归」中，完成「探访遂明」</span></p><p><span style=\"color: rgb(31, 35, 41);\">※ 完成主线任务「第二章 - 进程Ⅶ - 余晖未却」后，可开启支线任务「钟鸣人归」</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">▼//活动说明</span></p><p><span style=\"color: rgb(31, 35, 41);\">活动期间，前往武陵地区的「遂明」区域，完成解锁协议传送点、开启协议储藏箱等任务，即可获得丰厚奖励。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">※ 更多活动详细说明，请前往游戏内【活动中心】查看。</span></p>",
+            "linkType": 1
           }
         },
         {

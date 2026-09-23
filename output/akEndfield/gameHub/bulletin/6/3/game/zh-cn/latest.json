@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-cn",
-      "version": "97c7ba3f5155434618dc07ee83e81bb7",
+      "version": "b20d540016d9e3ad3b764346af965d75",
       "onlineList": [
         {
           "cid": "8956",
@@ -47,6 +47,12 @@
         {
           "cid": "4610",
           "version": 1786440043,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "9865",
+          "version": 1790045529,
           "needRedDot": true,
           "needPopup": false
         },
@@ -190,7 +196,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1790053200,
+      "updatedAt": 1790136000,
       "list": [
         {
           "cid": "8956",
@@ -276,6 +282,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260811/7e6163f44195a69ca06651bbb8651a0d.png\" data-width=\"1650\" data-height=\"300\"><p>亲爱的管理员：<br>为了庆祝《明日方舟：终末地》即将登陆 Steam，我们特别推出上线愿望单里程碑活动！<br>即日起，将游戏加入Steam愿望单，一起冲刺最终目标，解锁特殊纪念头像框等丰厚奖励！<br><br>▼//活动时间<br>2026/08/13活动开启后，至《明日方舟：终末地》Steam 正式上线（具体上线时间将另行公布）。<br><br>▼//里程碑奖励<br>· 第1阶段（30,000）： 折金票 ×8,000 <br>· 第2阶段（100,000）： 初级认知载体 ×2 <br>· 第3阶段（200,000）： 武器检查套组 ×2 <br>· 最终目标（300,000）： 特殊纪念头像框 ×1<br><br>立即前往Steam将《明日方舟：终末地》加入Steam愿望单，向最终目标全力冲刺吧！<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://store.steampowered.com/app/4732690/\">立即前往Steam</a></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "9865",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1790136000,
+          "focus": 0,
+          "title": "于钟鸣的旧城",
+          "header": "「于钟鸣的旧城」引入活动说明",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260918/d39121a04b366d164c53a954b13a98d1.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//活动时间</strong></p><p>2026/09/24 12:00（服务器时间） - 版本更新维护前</p><p><br></p><p><strong>▼//活动奖励</strong></p><p>活动开放期间，完成任务，累计可获得【嵌晶玉】【存续的痕迹】活动奖励。</p><p><br></p><p><strong>▼//参与条件</strong></p><p>在支线任务「钟鸣人归」中，完成「探访遂明」</p><p>※ 完成主线任务「第二章 - 进程Ⅶ - 余晖未却」后，可开启支线任务「钟鸣人归」</p><p><br></p><p><strong>▼//活动说明</strong></p><p>活动期间，前往武陵地区的「遂明」区域，完成解锁协议传送点、开启协议储藏箱等任务，即可获得丰厚奖励。</p><p><br></p><p>※Asia服务器时区: UTC+8</p><p>※Americas / Europe服务器时区: UTC-5</p><p>※更多活动详细说明，请前往游戏内【活动中心】查看。</p>",
             "linkType": 1
           }
         },
