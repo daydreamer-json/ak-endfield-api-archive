@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:#DEFAULT:1:#DEFAULT:zh-cn",
-      "version": "1d29b348fc1cc340595429988b158b60",
+      "version": "3e842b828d50099bb14133d0daf900c2",
       "onlineList": [
         {
           "cid": "9843",
@@ -41,6 +41,12 @@
         {
           "cid": "3020",
           "version": 1789728162,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "1359",
+          "version": 1790225045,
           "needRedDot": true,
           "needPopup": false
         },
@@ -202,7 +208,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1790222400,
+      "updatedAt": 1790233200,
       "list": [
         {
           "cid": "9843",
@@ -272,6 +278,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web.hycdn.cn/upload/image/20260918/cfcab6005637f8209389c7790efe5684.png\" data-width=\"1920\" data-height=\"2967\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "1359",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "picture",
+          "startAt": 1790233200,
+          "focus": 0,
+          "title": "「雪凇幽梦」\\n 限时任务",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web.hycdn.cn/upload/image/20260924/b57e82a99a92e5bc8dd15acb48ad314a.png",
+            "link": "https://bbs.hycdn.cn/u-link/download.html?schema=skland%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fact.skland.com%252Fendfield%252Fdreamscape%253Fheader%253D0%2526activityId%253Dact_endfield_049760%2526hg_media%253Dendfield%2526hg_link_campaign%253Dannouncement&u8_token={u8_token}&server={server}",
             "linkType": 1
           }
         },
