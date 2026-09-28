@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:#DEFAULT:2:#DEFAULT:zh-cn",
-      "version": "e16ca7fc447b730bea784439fec46b6a",
+      "version": "37daef71439544d386a6d6ba7c9006cd",
       "onlineList": [
         {
           "cid": "0779",
@@ -53,6 +53,12 @@
         {
           "cid": "1392",
           "version": 1768982321,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "6418",
+          "version": 1789210314,
           "needRedDot": true,
           "needPopup": false
         },
@@ -160,7 +166,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1790524740,
+      "updatedAt": 1790568000,
       "list": [
         {
           "cid": "0779",
@@ -265,6 +271,23 @@
             "url": "https://web.hycdn.cn/upload/image/20260121/528a5c2a39687aaa0e15ef79c8e879f9.jpg",
             "link": "https://ef-webview.hypergryph.com/act/social-media?u8_token={u8_token}&server={server}",
             "linkType": 2
+          }
+        },
+        {
+          "cid": "6418",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1790568000,
+          "focus": 0,
+          "title": "跑者运动会",
+          "header": "「跑者运动会」趣味活动说明",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web.hycdn.cn/upload/image/20260912/da3d678f6c45db27c5598c4acfa3597d.png\" data-width=\"1650\" data-height=\"300\"><p>▼//活动时间</p><p>2026/10/01 12:00（服务器时间） - 版本更新维护前</p><p></p><p>▼//参与条件</p><p>完成主线任务「第二章 - 进程Ⅱ - 东风就绪」</p><p></p><p>▼//活动说明</p><p>· 活动期间，管理员可前往武陵城参与赛跑活动。在限定时间内到达赛道的终点，根据完赛成绩，可获得对应的完赛奖励。</p><p>· 活动共有4个赛道。活动开启时，将会开放前2个赛道。从第2天起，每日04:00（服务器时间）将会开放1个新的赛道。</p><p>· 每条赛道中存在可收集的龙泡泡气球，收集后即可累积[跑者历程]进度；累计收集特定数量的龙泡泡气球后，可领取对应节点奖励。</p><p>· 活动期间，达成指定条件即可获得本活动专属蚀刻章。</p><p></p><p>※ 更多活动详细说明，请前往游戏内【活动中心】查看。</p><p></p>",
+            "linkType": 1
           }
         },
         {

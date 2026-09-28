@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-cn",
-      "version": "e4f78119c12c89a0766fba3b7cb0e362",
+      "version": "efa2dad7bd8be569a22363eb43a3b007",
       "onlineList": [
         {
           "cid": "8956",
@@ -47,6 +47,12 @@
         {
           "cid": "4610",
           "version": 1786440043,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "4614",
+          "version": 1789898593,
           "needRedDot": true,
           "needPopup": false
         },
@@ -196,7 +202,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1790404371,
+      "updatedAt": 1790568000,
       "list": [
         {
           "cid": "8956",
@@ -282,6 +288,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260811/7e6163f44195a69ca06651bbb8651a0d.png\" data-width=\"1650\" data-height=\"300\"><p>亲爱的管理员：<br>为了庆祝《明日方舟：终末地》即将登陆 Steam，我们特别推出上线愿望单里程碑活动！<br>即日起，将游戏加入Steam愿望单，一起冲刺最终目标，解锁特殊纪念头像框等丰厚奖励！<br><br>▼//活动时间<br>2026/08/13活动开启后，至《明日方舟：终末地》Steam 正式上线（具体上线时间将另行公布）。<br><br>▼//里程碑奖励<br>· 第1阶段（30,000）： 折金票 ×8,000 <br>· 第2阶段（100,000）： 初级认知载体 ×2 <br>· 第3阶段（200,000）： 武器检查套组 ×2 <br>· 最终目标（300,000）： 特殊纪念头像框 ×1<br><br>立即前往Steam将《明日方舟：终末地》加入Steam愿望单，向最终目标全力冲刺吧！<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://store.steampowered.com/app/4732690/\">立即前往Steam</a></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "4614",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1790568000,
+          "focus": 0,
+          "title": "跑者运动会",
+          "header": "「跑者运动会」趣味活动说明",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260920/9cf4b93a72b1d977d607ff0e73575863.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//活动时间</strong></p><p>2026/10/01 12:00（服务器时间） - 版本更新维护前</p><p>※Asia服务器时区: UTC+8</p><p>※Americas / Europe服务器时区: UTC-5</p><p></p><p><strong>▼//参与条件</strong></p><p>完成主线任务「第二章 - 进程Ⅱ - 东风就绪」</p><p></p><p><strong>▼//活动说明</strong></p><p>· 活动期间，管理员可前往武陵城参与赛跑活动。在限定时间内到达赛道的终点，根据完赛成绩，可获得对应的完赛奖励。</p><p>· 活动共有4个赛道。活动开启时，将会开放前2个赛道。从第2天起，每日04:00（服务器时间）将会开放1个新的赛道。</p><p>· 每条赛道中存在可收集的龙泡泡气球，收集后即可累积[跑者历程]进度；累计收集特定数量的龙泡泡气球后，可领取对应节点奖励。</p><p>· 活动期间，达成指定条件即可获得本活动专属蚀刻章。</p><p></p><p>※ 更多活动详细说明，请前往游戏内【活动中心】查看。</p>",
             "linkType": 1
           }
         },

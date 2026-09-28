@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "en-us",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:en-us",
-      "version": "5bce1a0aa82b920d7d125616741b928d",
+      "version": "ba24c3eae14d22ee9b4124ae2f721fdf",
       "onlineList": [
         {
           "cid": "8956",
@@ -47,6 +47,12 @@
         {
           "cid": "4610",
           "version": 1786440043,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "4614",
+          "version": 1789898593,
           "needRedDot": true,
           "needPopup": false
         },
@@ -202,7 +208,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1790404371,
+      "updatedAt": 1790568000,
       "list": [
         {
           "cid": "8956",
@@ -288,6 +294,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260811/44bef1a5461a1f433c694ed27f94dfe8.png\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrator, <br>To celebrate Arknights: Endfield's upcoming launch on Steam, we're holding a special Wishlist Milestone Event! <br>Starting today, add Arknights: Endfield to your Steam Wishlist and help us reach the final milestone to unlock a special commemorative portrait frame and other exciting rewards!<br><br>▼// Event Time<br>From the start of the event on Aug. 13, 2026, until the official launch of Arknights: Endfield on Steam (the exact launch date will be announced later).<br><br>▼// Milestone Rewards<br>· Phase 1 (30,000): T-Creds×8,000 <br>· Phase 2 (100,000): Elementary Cognitive Carrier×2 <br>· Phase 3 (200,000): Arms INSP Set×2 <br>· Final Goal (300,000): Special Commemorative Portrait Frame×1<br><br>Head to Steam now and add Arknights: Endfield to your Steam Wishlist. Let's push towards the final goal!<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://store.steampowered.com/app/4732690/\">Head to Steam now</a></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "4614",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1790568000,
+          "focus": 0,
+          "title": "Runners' Steeplechase",
+          "header": "[Runners' Steeplechase] Fun & Games Event Details",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260920/295e7ffacb34170b591e97f843b80946.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Event Time</strong></p><p>Oct. 1, 2026 at 12:00 (server time) – Before version update and maintenance</p><p>※ Asia Server Time Zone: UTC+8</p><p>※ Americas / Europe Server Time Zone: UTC-5</p><p></p><p><strong>▼// Participation Requirements</strong></p><p>Complete the main mission [Chapter Ⅱ Process Ⅱ: Ready the Easterlies]</p><p></p><p><strong>▼// Event Details</strong></p><p>· During the event, visit Wuling City to take part in the Steeplechase racing event. Reach the finish line within the time limit to complete a race and earn rewards based on your performance.</p><p>· The event has a total of 4 tracks. The first 2 will be available when the event begins. From day 2 onwards, 1 new track will be made available at 04:00 (server time) per day.</p><p>· Collect Chubby Lung Balloons from the tracks to earn [Runner's Milestones] progression. Collect enough balloons to claim milestone node rewards.</p><p>· During the event, meet specified conditions to obtain the event-exclusive engraved medal.</p><p></p><p>※ For more event details, check the in-game [Event Center].</p>",
             "linkType": 1
           }
         },

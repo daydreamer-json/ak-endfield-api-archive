@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "de-de",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:de-de",
-      "version": "5bce1a0aa82b920d7d125616741b928d",
+      "version": "ba24c3eae14d22ee9b4124ae2f721fdf",
       "onlineList": [
         {
           "cid": "8956",
@@ -47,6 +47,12 @@
         {
           "cid": "4610",
           "version": 1786440043,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "4614",
+          "version": 1789898593,
           "needRedDot": true,
           "needPopup": false
         },
@@ -202,7 +208,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1790404371,
+      "updatedAt": 1790568000,
       "list": [
         {
           "cid": "8956",
@@ -288,6 +294,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260811/de1e1f92f5cab77b066bd98f3d844deb.png\" data-width=\"1650\" data-height=\"300\"><p>Geschätzter Endministrator:<br>Um den bevorstehenden Start von Arknights: Endfield auf Steam zu feiern, veranstalten wir ein besonderes Wunschlisten-Meilenstein-Event!<br>Füge ab heute Arknights: Endfield zu deiner Steam-Wunschliste hinzu und hilf uns, den letzten Meilenstein zu erreichen, um einen speziellen Gedenk-Profilbildrahmen und andere aufregende Belohnungen freizuschalten!<br><br>▼// Eventzeitraum<br>Vom Beginn des Events am 13. August 2026 bis zum offiziellen Start von Arknights: Endfield auf Steam (das genaue Startdatum wird später bekannt gegeben).<br><br>▼// Meilenstein-Belohnungen<br>· Phase 1 (30.000): T-Kreditscheine ×8.000<br>· Phase 2 (100.000): Grundlegender kognitiver Datenträger ×2<br>· Phase 3 (200.000): Waffen-INSP-Set ×2<br>· Endziel (300.000): Spezieller Gedenk-Profilbildrahmen ×1<br><br>Geh jetzt auf Steam und füge Arknights: Endfield deiner Steam-Wunschliste hinzu. Lasst uns gemeinsam das Endziel erreichen!<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://store.steampowered.com/app/4732690/\">Geh jetzt auf Steam</a></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "4614",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1790568000,
+          "focus": 0,
+          "title": "Der Hindernislauf der Läufer",
+          "header": "Der Hindernislauf der Läufer",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260920/3274a9d435b822a848a633e604e968d4.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Eventzeitraum</strong></p><p>1. Oktober 2026 um 12:00 Uhr (Serverzeit) – Vor dem Versionsupdate und der Wartung</p><p>※ Zeitzone des Asia-Servers: UTC+8</p><p>※ Zeitzone des Americas / Europe-Servers: UTC-5</p><p></p><p><strong>▼// Teilnahmevoraussetzungen</strong></p><p>Abschluss der Hauptmission [Kapitel II, Prozess II: Bereite im Osten alles vor]</p><p></p><p><strong>▼// Eventdetails</strong></p><p>· Besuche während des Events Wuling City und nimm am Hindernislauf teil. Erreiche die Ziellinie innerhalb der vorgegebenen Zeit, um ein Rennen abzuschließen, und erhalte Belohnungen entsprechend deiner Leistung.</p><p>· Das Event besteht aus insgesamt 4 Strecken. Die ersten 2 sind bei Beginn des Events verfügbar. Ab Tag 2 wird jeden Tag um 04:00 Uhr (Serverzeit) eine neue Strecke hinzugefügt.</p><p>· Sammle Chubby-Lung-Ballons auf den Strecken und erziele Fortschritt in [Meilensteine des Läufers]. Sammle genug Ballons, um Meilenstein-Knotenbelohnungen zu erhalten.</p><p>· Erfülle während des Events bestimmte Bedingungen, um die exklusive gravierte Medaille zu erhalten.</p><p></p><p>※ Weitere Eventdetails findest du im [Eventcenter] im Spiel.</p>",
             "linkType": 1
           }
         },
