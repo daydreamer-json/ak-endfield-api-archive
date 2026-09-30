@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "en-us",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:en-us",
-      "version": "4be6a67b55032789731e224172b63aaa",
+      "version": "8c77b18cf92413ddae19812f6028c646",
       "onlineList": [
         {
           "cid": "8956",
@@ -47,6 +47,12 @@
         {
           "cid": "4610",
           "version": 1786440043,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "6430",
+          "version": 1790648656,
           "needRedDot": true,
           "needPopup": false
         },
@@ -87,12 +93,6 @@
           "needPopup": false
         },
         {
-          "cid": "1377",
-          "version": 1788263668,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
           "cid": "7289",
           "version": 1790567535,
           "needRedDot": true,
@@ -101,12 +101,6 @@
         {
           "cid": "7284",
           "version": 1788228578,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
-          "cid": "8950",
-          "version": 1788228586,
           "needRedDot": true,
           "needPopup": false
         },
@@ -171,12 +165,6 @@
           "needPopup": false
         },
         {
-          "cid": "2101",
-          "version": 1788265810,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
           "cid": "8998",
           "version": 1769005692,
           "needRedDot": true,
@@ -214,7 +202,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1790697540,
+      "updatedAt": 1790740800,
       "list": [
         {
           "cid": "8956",
@@ -300,6 +288,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260811/44bef1a5461a1f433c694ed27f94dfe8.png\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrator, <br>To celebrate Arknights: Endfield's upcoming launch on Steam, we're holding a special Wishlist Milestone Event! <br>Starting today, add Arknights: Endfield to your Steam Wishlist and help us reach the final milestone to unlock a special commemorative portrait frame and other exciting rewards!<br><br>▼// Event Time<br>From the start of the event on Aug. 13, 2026, until the official launch of Arknights: Endfield on Steam (the exact launch date will be announced later).<br><br>▼// Milestone Rewards<br>· Phase 1 (30,000): T-Creds×8,000 <br>· Phase 2 (100,000): Elementary Cognitive Carrier×2 <br>· Phase 3 (200,000): Arms INSP Set×2 <br>· Final Goal (300,000): Special Commemorative Portrait Frame×1<br><br>Head to Steam now and add Arknights: Endfield to your Steam Wishlist. Let's push towards the final goal!<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://store.steampowered.com/app/4732690/\">Head to Steam now</a></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "6430",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1790740800,
+          "focus": 0,
+          "title": "Ridgeline Flows of Autumn",
+          "header": "[Ridgeline Flows of Autumn] Limited-Time Sign-In Event",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260924/ab1cf6773e9d0cf2a92f97fec3de233e.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Event Time</strong><br>Oct. 1, 2026 at 12:00 (server time) – Before version update and maintenance<br><br><strong>▼// Participation Requirements</strong><br>Complete the main mission [Chapter I Process I: Break the Siege]<br><br><strong>▼// Event Details</strong><br>· During the event, log into the game every day to claim sign-in rewards.<br>· Complete the 7-day sign-in to earn rich rewards such as [Portrait: Go Forth and Run] and [Oroberyl]×1500!<br><br>※ Asia Server Time Zone: UTC+8<br>※ Americas / Europe Server Time Zone: UTC-5<br>※ For more event details, check the in-game [Event Center].<br></p>",
             "linkType": 1
           }
         },
@@ -408,23 +413,6 @@
           }
         },
         {
-          "cid": "1377",
-          "type": 0,
-          "tab": "events",
-          "orderType": 1,
-          "orderWeight": 2,
-          "displayType": "rich_text",
-          "startAt": 1788303600,
-          "focus": 0,
-          "title": "Winter Hunt\\nChartered Headhunting",
-          "header": "[Winter Hunt] Chartered Headhunting",
-          "jumpButton": null,
-          "data": {
-            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260901/df41f7d53706c1e02d2f0a673fef37e9.jpg\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrator,</p><p>During [Winter Hunt] Chartered Headhunting, the 6★ operator [Typhoeus] is Rate-UP!</p><p>The [Fletched Irontip] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards such as [Fletched Irontip HH Permit]×5. You can also exchange for [Fletched Irontip HH Permit] at a discount in [AIC Quota Exchange]. The [Combat Drills] operator trial event will also be available during this period.</p><p><br></p><p><strong>▼// [Winter Hunt] Chartered Headhunting Details</strong></p><p>· Availability: After [Dreamscape of Wind and Snow] version release – Sept. 30, 2026, 11:59 (server time)</p><p>· Participation Criteria: Complete main mission [Chapter I Process I: Break the Siege]</p><p>· [Winter Hunt] Chartered Headhunting features the Rate-UP 6★ operator [Typhoeus].</p><p>· 6★ operators that may appear in [Winter Hunt] Chartered Headhunting include: Typhoeus / Liino / Arcane / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.</p><p>· In [Winter Hunt] Chartered Headhunting, you can use [Fletched Irontip HH Permit], [Chartered HH Permit], or [Oroberyls] to perform headhunting.</p><p>※ The Rate-UP 6★ operator featured in a [Chartered Headhunting] banner will be, after 3 [Chartered Headhunting] banners, removed from the list of operators that may appear in [Chartered Headhunting]. This Rate-UP 6★ operator will also not be added to [Basic Headhunting].</p><p><br></p><p><strong>▼// [Chartered Headhunting] Rewards</strong></p><p>In [Winter Hunt] Chartered Headhunting, perform a certain number of headhunting attempts to earn corresponding rewards.</p><p><br></p><p>■ Urgent Recruitment</p><p>· After performing 30 headhunting attempts, you will receive 10 bonus Urgent Recruitment attempts (which count as 1 free 10× headhunting attempt). This is only valid during this [Chartered Headhunting] banner, and does not carry over to other headhunting banners.</p><p>· The rates for obtaining operators through Urgent Recruitment are the same as the base drop rates of this [Chartered Headhunting] banner, and the free 10× headhunting attempt from Urgent Recruitment guarantees a 5★ or better operator.</p><p>· This free 10× headhunting attempt given by Urgent Recruitment does not count toward the guarantee for this or other [Chartered Headhunting] banners. It also will not be added to the total headhunting attempts required for [Chartered Headhunting] rewards.</p><p>■ Headhunting Dossier</p><p>· After performing 60 headhunting attempts, you will receive a bonus [Headhunting Dossier]×1.</p><p>· Once the requirements are met, the [Headhunting Dossier] will be automatically sent to your Valuables Stash. Once the next [Chartered Headhunting] banner begins, this [Headhunting Dossier] will be automatically converted to special HH Permit×10 of the specified [Chartered Headhunting] banner. However, the HH Permits will also expire once that banner ends.</p><p>■ Token Tribute</p><p>· In each [Chartered Headhunting] banner, every 240 headhunting attempts give a bonus [Token of the Rate-UP 6★ operator featured in the said banner]×1.</p><p><br></p><p><strong>▼// Arsenal Ticket Details</strong></p><p>Every headhunting attempt for operators also gives [Arsenal Tickets].</p><p>· Acquiring a 6★ operator gives [Arsenal Ticket]×2000.</p><p>· Acquiring a 5★ operator gives [Arsenal Ticket]×200.</p><p>· Acquiring a 4★ operator gives [Arsenal Ticket]×20.</p><p>※ [Arsenal Tickets] can be spent at the [Acquisition Center - Arsenal Exchange].</p><p><br></p><p>During [Winter Hunt] Chartered Headhunting, the following content will also be available:</p><p><strong>▼// [Fletched Irontip] Limited-Time Sign-In Event</strong></p><p>Sign in for a total of 7 days to earn rewards such as [Fletched Irontip HH Permit]×5.</p><p><br></p><p><strong>▼// [Combat Drills] Operator Trial Event</strong></p><p>[Combat Drills] will become available for trying out the 6★ operator [Typhoeus]. Complete the specified stage with the preset team that includes the trial operator to claim [Oroberyl]×100, [Arsenal Defense Crate], [Mark of Perseverance], and other rewards. The [Arsenal Defense Crate] contains a Fully Artificed Level 60 Gear Set that is a good fit for the current trial operator.</p><p><br></p><p><strong>▼// [AIC Quota Exchange] Special Note</strong></p><p>The [Quota Exchange] will offer limited-time special deals. You can spend AIC Quota to purchase items such as [Fletched Irontip HH Permit]×5.</p><p><br></p><p>※ Asia Server Time Zone: UTC+8</p><p>※ Americas / Europe Server Time Zone: UTC-5</p><p>※ For more headhunting details, check the in-game [Headhunting] screen.</p><p>※ For more event details, check the in-game [Event Center].</p><p>※ For details on [AIC Quota Exchange], check the in-game [Acquisition Center].</p>",
-            "linkType": 1
-          }
-        },
-        {
           "cid": "7289",
           "type": 0,
           "tab": "updates",
@@ -455,23 +443,6 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260831/1e2ea607a8a870c9a79f5fbed4248580.jpg\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrator,</p><p>During the [Dreamscape of Wind and Snow] version, the [Acquisition Center] will offer a variety of bundles.</p><p><br></p><p><strong>▼// Limited Bundles</strong></p><p>■ Protocol Flow Bundle</p><p>· Availability: Throughout the [Dreamscape of Wind and Snow] version</p><p>· Bundle Contents: [Chartered HH Permit]×10, [Arsenal Ticket]×2000, [Mark of Perseverance]×10</p><p>· Special Note: Only 1 purchase allowed in current version</p><p><br></p><p>■ Winter Hunt HH Bundle</p><p>· Availability: After [Dreamscape of Wind and Snow] version update – Sept. 30, 2026 at 11:59 (server time)</p><p>· Bundle Contents: [Fletched Irontip HH Permit]×10, [T-Creds]×80000</p><p>· Special Note: Only 1 purchase allowed</p><p><br></p><p>■ Value Arsenal Ticket Pack</p><p>· Availability: Throughout the [Dreamscape of Wind and Snow] version</p><p>· Bundle Contents: [Arsenal Ticket]×2000</p><p>· Special Note: Only 1 purchase allowed in current version<br></p><p></p><p>※ Asia Server Time Zone: UTC+8</p><p>※ Americas / Europe Server Time Zone: UTC-5</p><p>※ Some bundles may include limited-time items. You can check the details of limited-time items in [Purchase - Item Contents]. If limited-time items in a bundle expire after purchase, they cannot be reissued. Thank you for your understanding and support.</p><p>※ For more bundles and their details, visit the in-game [Acquisition Center - Bundles].</p>",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "8950",
-          "type": 0,
-          "tab": "events",
-          "orderType": 1,
-          "orderWeight": 3,
-          "displayType": "rich_text",
-          "startAt": 1788303600,
-          "focus": 0,
-          "title": "Deep Cold Issue",
-          "header": "[Deep Cold Issue] LTO Details",
-          "jumpButton": null,
-          "data": {
-            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260831/1fa64d6d6c246d14746eae5817dec485.jpg\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrator:</p><p>While [Deep Cold Issue] is available, the chance of getting 6★ weapon [Umbra of Frigid Eventide (Arts Unit)] is increased!</p><p><br></p><p><strong>▼// [Deep Cold Issue]</strong></p><p>· Availability: Opens after [Dreamscape of Wind and Snow] version update; ends after 3 [Chartered Headhunting] banners (starting from [Winter Hunt])</p><p>· Participation Criteria: Complete the main mission [Chapter I Process I: Break the Siege]</p><p>· [Deep Cold Issue] features the Rate-UP 6★ weapon [Umbra of Frigid Eventide (Arts Unit)].</p><p>· 6★ weapons that may appear in [Deep Cold Issue] include: Umbra of Frigid Eventide (Arts Unit) / Exemplar (Greatsword) / Clannibal (Handcannon) / Valiant (Polearm) / Oblivion (Arts Unit) / Detonation Unit (Arts Unit) / Rapid Ascent (Sword).</p><p><br></p><p><strong>▼// [Arsenal Issue] Rewards</strong></p><p>In every [Arsenal Issue], performing a set number of issues gives the banner's specific [Arms Offering Crate] (Arms OC) or [Rate-UP 6★ Weapon] in alternating order. The total number of issues for these Arsenal Issue rewards will be reset once the banner ends, and will not carry over to other [Arsenal Issue] banners.</p><p><br></p><p><strong>▼// [Arsenal Issue] Details</strong></p><p>· In [Arsenal Issue], you can spend [Arsenal Tickets] to apply for an issue.</p><p>· Each issue gives 10 random weapons from the list of available weapons, including at least one 5★ or better weapon.</p><p><br></p><p><strong>▼// [Arsenal Exchange] Details</strong></p><p>In [Arsenal Exchange], the [Arsenal Ticket] can also be used to directly purchase weapons. Some purchasable weapons may be updated every now and then. Check the information displayed on the [Acquisition Center - Arsenal Exchange] screen for what is actually available.</p><p><br></p><p>※ For more details and reward rules, visit the in-game [Acquisition Center - Arsenal Exchange].</p>",
             "linkType": 1
           }
         },
@@ -651,23 +622,6 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260831/1298dd99e5b2052b57ea0ad7062f3620.png",
             "link": "https://topup.gryphline.com/endfield?u8_token={u8_token}&server={server}",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "2101",
-          "type": 0,
-          "tab": "events",
-          "orderType": 1,
-          "orderWeight": 5,
-          "displayType": "rich_text",
-          "startAt": 1788303600,
-          "focus": 0,
-          "title": "Snow Over Deep Woods",
-          "header": "[Snow Over Deep Woods] Guide Event Details",
-          "jumpButton": null,
-          "data": {
-            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260901/46a201d01671681fb58b94def036ea58.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Event Time</strong></p><p>After [Dreamscape of Wind and Snow] version update – Sept. 30, 2026 at 11:59 (server time)</p><p><br></p><p><strong>▼// Event Rewards</strong></p><p>Complete missions during the event to earn rewards including: [Oroberyls] and [Mark of Perseverance].</p><p><br></p><p><strong>▼// Participation Requirements</strong></p><p>In side mission [A Forest Shrouded in Mist], complete the objective [Go to the entrance of the forest]</p><p>※ Complete main mission [Chapter II Process VII: Stubbornly Lingers the Setting Sun] to unlock side mission [A Forest Shrouded in Mist]</p><p><br></p><p><strong>▼// Event Details</strong></p><p>During the event, visit the area [Snowy Forest] in the region of Wuling and complete event missions such as unlocking TP Points and opening Protocol Crates to earn rich rewards.</p><p><br></p><p>※ Asia Server Time Zone: UTC+8</p><p>※ Americas / Europe Server Time Zone: UTC-5</p><p>※ For more event details, check the in-game [Event Center].</p>",
             "linkType": 1
           }
         },

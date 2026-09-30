@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "id-id",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:id-id",
-      "version": "4be6a67b55032789731e224172b63aaa",
+      "version": "8c77b18cf92413ddae19812f6028c646",
       "onlineList": [
         {
           "cid": "8956",
@@ -47,6 +47,12 @@
         {
           "cid": "4610",
           "version": 1786440043,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "6430",
+          "version": 1790648656,
           "needRedDot": true,
           "needPopup": false
         },
@@ -87,12 +93,6 @@
           "needPopup": false
         },
         {
-          "cid": "1377",
-          "version": 1788263668,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
           "cid": "7289",
           "version": 1790567535,
           "needRedDot": true,
@@ -101,12 +101,6 @@
         {
           "cid": "7284",
           "version": 1788228578,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
-          "cid": "8950",
-          "version": 1788228586,
           "needRedDot": true,
           "needPopup": false
         },
@@ -171,12 +165,6 @@
           "needPopup": false
         },
         {
-          "cid": "2101",
-          "version": 1788265810,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
           "cid": "8998",
           "version": 1769005692,
           "needRedDot": true,
@@ -214,7 +202,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1790697540,
+      "updatedAt": 1790740800,
       "list": [
         {
           "cid": "8956",
@@ -300,6 +288,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260811/25c296de38705a2c0aeceaefe2c9df76.png\" data-width=\"1650\" data-height=\"300\"><p>Kepada Endministrator, <br>Untuk merayakan peluncuran mendatang Arknights: Endfield di Steam, kami mengadakan Event Capaian Wishlist khusus! <br>Mulai hari ini, tambahkan Arknights: Endfield ke Wishlist Steam kamu dan bantu kami meraih capaian final untuk membuka bingkai potret peringatan khusus dan imbalan menarik lainnya!<br><br>▼// Waktu Event<br>Mulai awal event pada 13 Agustus 2026, hingga peluncuran resmi Arknights: Endfield di Steam (tanggal peluncuran pasti akan diumumkan kemudian).<br><br>▼// Imbalan Capaian<br>· Fase 1 (30.000): T-Cred ×8.000 <br>· Fase 2 (100.000): Unit Kognitif Dasar ×2 <br>· Fase 3 (200.000): Set INSP Senjata ×2 <br>· Target Final (300.000): Bingkai Potret Peringatan Khusus ×1<br><br>Menuju Steam sekarang, dan tambahkan Arknights: Endfield ke Wishlist Steam kamu. Mari kita capai target final!<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://store.steampowered.com/app/4732690/\">Menuju Steam sekarang</a></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "6430",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1790740800,
+          "focus": 0,
+          "title": "Aliran Musim Gugur di Pegunungan",
+          "header": "Aliran Musim Gugur di Pegunungan",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260924/4eef6dfda8f6cd708769214b61503675.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Waktu Event</strong><br>1 Oktober 2026, pukul 12.00 (waktu server) – Sebelum pembaruan versi dan pemeliharaan<br><br><strong>▼// Syarat Partisipasi</strong><br>Selesaikan misi utama [Bab I Proses I: Tembus Kepungan]<br><br><strong>▼// Detail Event</strong><br>· Selama event, masuk ke game setiap hari untuk mengklaim hadiah sign in.<br>· Selesaikan sign in 7 hari untuk mendapatkan hadiah berlimpah seperti [Potret: Maju dan Berlarilah] dan [Oroberyl]×1500!<br><br>※ Zona Waktu Server Asia: UTC+8<br>※ Zona Waktu Server Americas / Europe: UTC-5<br>※ Untuk detail event selengkapnya, lihat [Pusat Event] dalam game.<br></p>",
             "linkType": 1
           }
         },
@@ -408,23 +413,6 @@
           }
         },
         {
-          "cid": "1377",
-          "type": 0,
-          "tab": "events",
-          "orderType": 1,
-          "orderWeight": 2,
-          "displayType": "rich_text",
-          "startAt": 1788303600,
-          "focus": 0,
-          "title": "Headhunt Khusus\\nPerburuan Musim Dingin",
-          "header": "Headhunt Khusus [Perburuan Musim Dingin]",
-          "jumpButton": null,
-          "data": {
-            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260901/17395483c43441289efbdcd0dbbe255c.jpg\" data-width=\"1650\" data-height=\"300\"><p>Kepada Endministrator,</p><p>Selama Headhunt Khusus [Perburuan Musim Dingin], operator 6★ [Typhoeus] akan mendapatkan Rate NAIK!</p><p>Event sign in berbatas waktu [Mata Panah Besi Bersirip] akan dibuka secara bersamaan. Akumulasikan sign in untuk mendapatkan hadiah seperti [Surat Izin HH Mata Panah Besi Bersirip]×5. Kamu juga bisa menukarkan [Surat Izin HH Mata Panah Besi Bersirip] dengan diskon di [Bursa Kuota AIC]. Event uji coba operator [Latihan Pertarungan] juga akan tersedia selama periode ini.</p><p><br></p><p><strong>▼// Detail Headhunt Khusus [Perburuan Musim Dingin]</strong></p><p>· Ketersediaan: Setelah rilis versi [Dimensi Mimpi Angin dan Salju] – 30 Sept. 2026, 11:59 (waktu server)</p><p>· Kriteria Partisipasi: Selesaikan misi utama [Bab I Proses I: Tembus Kepungan]</p><p>· Headhunt Khusus [Perburuan Musim Dingin] menghadirkan Rate NAIK untuk operator 6★ [Typhoeus].</p><p>· Operator 6★ yang mungkin muncul dalam Headhunt Khusus [Perburuan Musim Dingin] termasuk: Typhoeus / Liino / Arcane / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.</p><p>· Dalam Headhunt Khusus [Perburuan Musim Dingin], kamu bisa menggunakan [Surat Izin HH Mata Panah Besi Bersirip], [Surat Izin HH Khusus], atau [Oroberyl] untuk melakukan headhunt.</p><p>※ Operator 6★ Rate NAIK yang tampil di banner [Headhunt Khusus] akan dihapus dari daftar operator yang mungkin muncul di [Headhunt Khusus] setelah 3 banner [Headhunt Khusus]. Operator 6★ Rate NAIK ini juga tidak akan ditambahkan ke [Headhunt Biasa].</p><p><br></p><p><strong>▼// Hadiah [Headhunt Khusus]</strong></p><p>Dalam Headhunt Khusus [Perburuan Musim Dingin], lakukan sejumlah upaya headhunt untuk mendapatkan hadiah yang sesuai.</p><p><br></p><p>■ Rekrutmen Mendesak</p><p>· Setelah melakukan 30 upaya headhunt, kamu akan menerima bonus 10 upaya Rekrutmen Mendesak (yang dihitung sebagai 1 kali gratis untuk 10× upaya headhunt), yang hanya valid selama banner [Headhunt Khusus] ini, dan tidak berlaku untuk banner headhunt lain.</p><p>· Rate untuk mendapatkan operator melalui Rekrutmen Mendesak sama dengan drop rate dasar dari banner [Headhunt Khusus] ini, dan 10× upaya headhunt gratis dari Rekrutmen Mendesak memberikan jaminan untuk mendapatkan operator 5★ atau yang lebih tinggi.</p><p>· Upaya headhunt gratis sebanyak 10× dari Rekrutmen Mendesak tidak termasuk dalam jaminan untuk banner [Headhunt Khusus] ini atau yang lain, juga tidak akan ditambahkan pada total upaya headhunt yang dibutuhkan untuk mendapatkan hadiah [Headhunt Khusus].</p><p>■ Dokumen Headhunt</p><p>· Setelah melakukan 60 upaya headhunt, kamu akan menerima bonus [Dokumen Headhunt] ×1.</p><p>· Begitu persyaratan terpenuhi, [Dokumen Headhunt] akan terkirim otomatis ke Simpanan Barang Berharga kamu. Begitu banner [Headhunt Khusus] berikutnya dimulai, [Dokumen Headhunt] ini akan dikonversi otomatis menjadi Surat Izin HH spesial ×10 dari banner [Headhunt Khusus] yang ditentukan. Namun, Surat Izin HH ini juga akan kedaluwarsa setelah banner tersebut berakhir.</p><p>■ Persembahan Token</p><p>· Dalam tiap banner [Headhunt Khusus], tiap 240 upaya headhunt akan memberikan bonus [Token Rate NAIK operator 6★ yang hadir dalam banner tersebut] ×1.</p><p><br></p><p><strong>▼// Detail Tiket Senjata</strong></p><p>Tiap upaya headhunt untuk operator juga memberikan [Tiket Senjata].</p><p>· Mendapatkan operator 6★ akan memberikan [Tiket Senjata] ×2000.</p><p>· Mendapatkan operator 5★ akan memberikan [Tiket Senjata] ×200.</p><p>· Mendapatkan operator 4★ akan memberikan [Tiket Senjata] ×20.</p><p>※ [Tiket Senjata] bisa digunakan di [Pusat Akuisisi - Bursa Senjata].</p><p><br></p><p>Selama Headhunt Khusus [Perburuan Musim Dingin], konten berikut juga akan tersedia:</p><p><strong>▼// Event Sign In Berbatas Waktu [Mata Panah Besi Bersirip]</strong></p><p>Sign in selama total 7 hari untuk mendapatkan hadiah seperti [Surat Izin HH Mata Panah Besi Bersirip]×5.</p><p><br></p><p><strong>▼// Event Uji Coba Operator [Latihan Pertarungan]</strong></p><p>[Latihan Pertarungan] akan tersedia untuk mencoba operator 6★ [Typhoeus]. Selesaikan stage yang ditentukan dengan tim prasetel yang mencakup operator uji coba untuk mengklaim [Oroberyl]×100, [Kerat Pertahanan Senjata], [Tanda Kegigihan], dan hadiah lainnya. [Kerat Pertahanan Senjata] berisi Set Gear Level 60 Sempurna Penuh yang sangat cocok untuk operator uji coba saat ini.</p><p><br></p><p><strong>▼// Catatan Khusus [Bursa Kuota AIC]</strong></p><p>[Bursa Kuota] akan memberikan penawaran khusus berbatas waktu. Kamu bisa menggunakan Kuota AIC untuk membeli item seperti [Surat Izin HH Mata Panah Besi Bersirip]×5.</p><p><br><span style=\"color: rgb(31, 35, 41);\">※ Zona Waktu Server Asia: UTC+8</span></p><p><span style=\"color: rgb(31, 35, 41);\">※ Zona Waktu Server Americas / Europe: UTC-5</span></p><p>※ Untuk detail headhunt selengkapnya, kunjungi layar [Headhunt] dalam game.</p><p>※ Untuk detail event selengkapnya, kunjungi [Pusat Event] dalam game.</p><p>※ Untuk detail mengenai [Bursa Kuota AIC], kunjungi [Pusat Akuisisi] dalam game.</p>",
-            "linkType": 1
-          }
-        },
-        {
           "cid": "7289",
           "type": 0,
           "tab": "updates",
@@ -455,23 +443,6 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260831/582054c8a41b3e2cefe5153ef00b23d8.jpg\" data-width=\"1650\" data-height=\"300\"><p>Halo, Endministrator,</p><p>Selama versi [Dimensi Mimpi Angin dan Salju], [Pusat Akuisisi] akan menawarkan berbagai bundel.</p><p><br></p><p><strong>▼// Bundel Terbatas</strong></p><p>■ Bundel Aliran Protokol</p><p>· Ketersediaan: Sepanjang versi [Dimensi Mimpi Angin dan Salju]</p><p>· Isi Bundel: [Surat Izin HH Khusus]×10, [Tiket Senjata]×2000, [Tanda Kegigihan]×10</p><p>· Catatan Khusus: Hanya dapat dibeli 1 kali pada versi saat ini</p><p><br></p><p>■ Bundel HH Perburuan Musim Dingin</p><p>· Ketersediaan: Setelah pembaruan versi [Dimensi Mimpi Angin dan Salju] hingga 30 September 2026 pukul 11.59 (waktu server)</p><p>· Isi Bundel: [Surat Izin HH Mata Panah Besi Bersirip]×10, [T-Cred]×80000</p><p>· Catatan Khusus: Hanya dapat dibeli 1 kali</p><p><br></p><p>■ Paket Tiket Senjata Hemat</p><p>· Ketersediaan: Sepanjang versi [Dimensi Mimpi Angin dan Salju]</p><p>· Isi Bundel: [Tiket Senjata]×2000</p><p>· Catatan Khusus: Hanya dapat dibeli 1 kali pada versi saat ini<br><br></p><p>※ Zona Waktu Server Asia: UTC+8</p><p>※ Zona Waktu Server Americas / Europe: UTC-5</p><p>※ Beberapa bundel mungkin berisi item berbatas waktu. Kamu dapat memeriksa detail item berbatas waktu di [Pembelian - Isi Item]. Jika item berbatas waktu dalam sebuah bundel kedaluwarsa setelah dibeli, item tersebut tidak dapat diberikan ulang. Terima kasih atas pengertian dan dukungan kamu.</p><p>※ Untuk melihat bundel lainnya beserta detailnya, kunjungi [Pusat Akuisisi - Bundel] dalam game.</p>",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "8950",
-          "type": 0,
-          "tab": "events",
-          "orderType": 1,
-          "orderWeight": 3,
-          "displayType": "rich_text",
-          "startAt": 1788303600,
-          "focus": 0,
-          "title": "Edisi Dingin Menusuk Tulang",
-          "header": "Detail OBW [Edisi Dingin Menusuk Tulang]",
-          "jumpButton": null,
-          "data": {
-            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260831/1f72782dde6453b73148337cd6522e73.jpg\" data-width=\"1650\" data-height=\"300\"><p>Kepada Endministrator,</p><p>[Edisi Dingin Menusuk Tulang] masih tersedia, dan peluang untuk mendapatkan senjata 6★ [Umbra of Frigid Eventide (Unit Arts)] meningkat!</p><p><br></p><p><strong>▼// [Edisi Dingin Menusuk Tulang]</strong></p><p>· Ketersediaan: Dibuka setelah pembaruan versi [Dimensi Mimpi Angin dan Salju]; berakhir setelah 3 banner [Headhunt Khusus] (dimulai dari [Perburuan Musim Dingin])</p><p>· Kriteria Partisipasi: Menyelesaikan misi utama [Bab I Proses I: Tembus Kepungan]</p><p>· [Edisi Dingin Menusuk Tulang] menghadirkan senjata 6★ Rate NAIK [Umbra of Frigid Eventide (Unit Arts)].</p><p>· Senjata 6★ yang mungkin muncul dalam [Edisi Dingin Menusuk Tulang] termasuk: Umbra of Frigid Eventide (Unit Arts) / Exemplar (Pedang Besar) / Clannibal (Meriam Tangan) / Valiant (Senjata Galah) / Oblivion (Unit Arts) / Detonation Unit (Unit Arts) / Rapid Ascent (Pedang).</p><p><br></p><p><strong>▼// Imbalan [Edisi Senjata]</strong></p><p>Dalam tiap [Edisi Senjata], melakukan sejumlah edisi memberikan [Kerat Penawaran Senjata] (KP Senjata) spesifik dari banner atau [Senjata 6★ Rate NAIK] secara bergantian. Jumlah total dari edisi untuk imbalan Edisi Senjata ini akan direset begitu banner berakhir, dan tidak akan diteruskan ke banner [Edisi Senjata] yang lain.</p><p><br></p><p><strong>▼// Detail [Edisi Senjata]</strong></p><p>· Dalam [Edisi Senjata], kamu bisa menggunakan [Tiket Senjata] untuk mengajukan edisi.</p><p>· Tiap Edisi memberikan 10 senjata acak dari daftar senjata yang tersedia, termasuk minimal satu senjata 5★ atau yang lebih tinggi.</p><p><br></p><p><strong>▼// Detail [Bursa Senjata]</strong></p><p>Dalam [Bursa Senjata], [Tiket Senjata] juga bisa digunakan untuk membeli senjata secara langsung. Beberapa senjata yang bisa dibeli akan diperbarui dari waktu ke waktu. Periksa informasi yang ditampilkan di layar [Pusat Akuisisi - Bursa Senjata] untuk mengetahui ketersediaan yang akurat.</p><p><br></p><p>※ Untuk detail lebih lanjut serta aturan imbalan, silakan kunjungi [Pusat Akuisisi - Bursa Senjata] di dalam game.</p>",
             "linkType": 1
           }
         },
@@ -651,23 +622,6 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260831/946cf07be3e1485684cc245b10d2ff86.png",
             "link": "https://topup.gryphline.com/endfield?u8_token={u8_token}&server={server}",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "2101",
-          "type": 0,
-          "tab": "events",
-          "orderType": 1,
-          "orderWeight": 5,
-          "displayType": "rich_text",
-          "startAt": 1788303600,
-          "focus": 0,
-          "title": "Salju di Kedalaman Hutan",
-          "header": "Detail Event Panduan [Salju di Kedalaman Hutan]",
-          "jumpButton": null,
-          "data": {
-            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260901/fd07e1d1105e5a0c04b3d7351d94b900.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Waktu Event</strong></p><p>Setelah pembaruan versi [Dimensi Mimpi Angin dan Salju] – 30 Sept. 2026 pukul 11:59 (waktu server)</p><p><br></p><p><strong>▼// Hadiah Event</strong></p><p>Selesaikan misi selama event berlangsung untuk mendapatkan hadiah termasuk: [Oroberyl] dan [Tanda Kegigihan].</p><p><br></p><p><strong>▼// Persyaratan Partisipasi</strong></p><p>Dalam misi sampingan [Hutan Berselimut Kabut], selesaikan target [Pergi ke pintu masuk hutan]</p><p>※ Selesaikan misi utama [Bab II Proses VII: Matahari Masih Saja Terbenam] untuk membuka misi sampingan [Hutan Berselimut Kabut]</p><p><br></p><p><strong>▼// Detail Event</strong></p><p>Selama event berlangsung, kunjungi area [Hutan Salju] di wilayah Wuling dan selesaikan misi event seperti membuka Titik TP dan membuka Kerat Protokol untuk mendapatkan hadiah berlimpah.</p><p><br></p><p>※ Zona Waktu Server Asia: UTC+8</p><p>※ Zona Waktu Server Americas / Europe: UTC-5</p><p>※ Untuk detail event selengkapnya, kunjungi [Pusat Event] dalam game.</p>",
             "linkType": 1
           }
         },

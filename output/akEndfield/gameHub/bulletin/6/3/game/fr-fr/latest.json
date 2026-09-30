@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "fr-fr",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:fr-fr",
-      "version": "4be6a67b55032789731e224172b63aaa",
+      "version": "8c77b18cf92413ddae19812f6028c646",
       "onlineList": [
         {
           "cid": "8956",
@@ -47,6 +47,12 @@
         {
           "cid": "4610",
           "version": 1786440043,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "6430",
+          "version": 1790648656,
           "needRedDot": true,
           "needPopup": false
         },
@@ -87,12 +93,6 @@
           "needPopup": false
         },
         {
-          "cid": "1377",
-          "version": 1788263668,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
           "cid": "7289",
           "version": 1790567535,
           "needRedDot": true,
@@ -101,12 +101,6 @@
         {
           "cid": "7284",
           "version": 1788228578,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
-          "cid": "8950",
-          "version": 1788228586,
           "needRedDot": true,
           "needPopup": false
         },
@@ -171,12 +165,6 @@
           "needPopup": false
         },
         {
-          "cid": "2101",
-          "version": 1788265810,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
           "cid": "8998",
           "version": 1769005692,
           "needRedDot": true,
@@ -214,7 +202,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1790697540,
+      "updatedAt": 1790740800,
       "list": [
         {
           "cid": "8956",
@@ -300,6 +288,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260811/83f3c524e8e28122dc03aee0b745730c.png\" data-width=\"1650\" data-height=\"300\"><p>Endministrator, <br>Pour célébrer le lancement imminent d'Arknights: Endfield sur Steam, nous vous avons préparé un événement de jalon spécial, [Liste de souhaits] ! <br>Ajoutez Arknights: Endfield à votre liste de souhaits Steam dès aujourd'hui et aidez-nous à atteindre le dernier jalon pour débloquer un cadre du portrait commémoratif spécial et d'autres récompenses !<br><br>▼// Dates de l'événement<br>Du 13 août 2026 au lancement officiel d'Arknights: Endfield sur Steam (la date exacte sera annoncée ultérieurement).<br><br>▼// Récompenses de jalon<br>· Phase 1 (30 000) : 8 000 crédits T <br>· Phase 2 (100 000) : 2 supports cognitifs de base <br>· Phase 3 (200 000) : 2 ensembles INSP d'arme <br>· Objectif final (300 000) : 1 cadre du portrait commémoratif spécial<br><br>Rendez-vous dès à présent sur Steam et ajoutez Arknights: Endfield à votre liste de souhaits. Ensemble, nous atteindrons l'objectif final !<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://store.steampowered.com/app/4732690/\">Accédez à Steam</a></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "6430",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1790740800,
+          "focus": 0,
+          "title": "Les flux d'arête de l'automne",
+          "header": "Les flux d'arête de l'automne",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260924/92a0a9bf21d4e26cdec5e5b6bcdb3713.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Dates de l'événement</strong><br>À partir du 1er octobre 2026 à 12 h (heure du serveur), jusqu'à la prochaine mise à jour de version et maintenance<br><br><strong>▼// Conditions de participation</strong><br>Avoir terminé la mission principale [Chapitre I - Processus I : Rompre le siège]<br><br><strong>▼// Détails de l'événement</strong><br>· Pendant l'événement, connectez-vous au jeu chaque jour pour récupérer des récompenses de connexion.<br>· Connectez-vous pendant 7 jours pour obtenir de généreuses récompenses, telles que le [portrait : En avant, courez] et 1 500 [orobéryls] !<br><br>※ Fuseau horaire du serveur Asia : UTC+8<br>※ Fuseau horaire du serveur Americas / Europe : UTC-5<br>※ Pour plus de détails sur l'événement, consultez le [centre d'événement] en jeu.<br></p>",
             "linkType": 1
           }
         },
@@ -408,23 +413,6 @@
           }
         },
         {
-          "cid": "1377",
-          "type": 0,
-          "tab": "events",
-          "orderType": 1,
-          "orderWeight": 2,
-          "displayType": "rich_text",
-          "startAt": 1788303600,
-          "focus": 0,
-          "title": "Chasse hivernale\\nRecrutement certifié",
-          "header": "[Chasse hivernale] Recrutement certifié",
-          "jumpButton": null,
-          "data": {
-            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260901/5e07394a003135a7d3e99bbebdb9c309.jpg\" data-width=\"1650\" data-height=\"300\"><p>Endministrator,</p><p>Pendant le recrutement certifié [Chasse hivernale], l'opératrice&nbsp;6★ [Typhoeus] est à taux SUP&nbsp;!</p><p>L'événement de connexion à durée limitée [Pointe de fer empennée] s'ouvrira simultanément. Connectez-vous pendant plusieurs jours pour obtenir des récompenses telles que 5&nbsp;[permis REC Pointe de fer empennée]. Vous pouvez également échanger des [permis REC Pointe de fer empennée] à prix réduit dans l'[échange de quota du GIA]. L'événement de test d'opérateurs [Exercices de combat] sera également disponible pendant cette période.</p><p><br></p><p><strong>▼// Détails sur le recrutement certifié [Chasse hivernale]</strong></p><p>· Disponibilité&nbsp;: À partir de la sortie de la version [Monde onirique de neige et de vent], jusqu'au 30&nbsp;septembre&nbsp;2026 à 11&nbsp;h&nbsp;59 (heure du serveur)</p><p>· Critères de participation&nbsp;: terminer la mission principale [Chapitre&nbsp;I&nbsp;- Processus&nbsp;I&nbsp;: Rompre le siège]</p><p>· Le recrutement certifié [Chasse hivernale] propose l'opératrice&nbsp;6★ [Typhoeus] à taux SUP.</p><p>· Parmi les opérateurs&nbsp;6★ qui peuvent apparaître dans le recrutement certifié [Chasse hivernale], vous retrouverez notamment&nbsp;: Typhoeus&nbsp;/ Liino&nbsp;/ Arcane&nbsp;/ Ember&nbsp;/ Lifeng&nbsp;/ Ardelia&nbsp;/ Last Rite&nbsp;/ Pogranichnik.</p><p>· Dans le recrutement certifié [Chasse hivernale], vous pouvez utiliser les [permis REC Pointe de fer empennée], les [permis REC certifié] ou des [orobéryls] pour lancer des recrutements.</p><p>※ L'opérateur&nbsp;6★ à taux SUP proposé dans la bannière de [recrutement certifié] sera, au bout de 3&nbsp;bannières de [recrutement certifié], supprimé de la liste des opérateurs pouvant apparaître dans le [recrutement certifié]. Cet opérateur&nbsp;6★ à taux SUP ne sera pas non plus ajouté au [recrutement de base].</p><p><br></p><p><strong>▼// Récompenses de [recrutement certifié]</strong></p><p>Dans le recrutement certifié [Chasse hivernale], lancez un certain nombre de tentatives de recrutement pour gagner les récompenses correspondantes.</p><p><br></p><p>■ Recrutement d'urgence</p><p>· Après 30&nbsp;tentatives de recrutement, vous recevrez 10&nbsp;tentatives de recrutement d'urgence bonus (qui comptent comme 1&nbsp;tentative gratuite de recrutement&nbsp;×10). Elles seront uniquement valables pendant cette bannière de [recrutement certifié] et ne se répercuteront pas sur les autres bannières de recrutement.</p><p>· Les taux d'obtention d'opérateurs dans le recrutement d'urgence sont les mêmes que les taux de base de cette bannière de [recrutement certifié], et la tentative gratuite de recrutement&nbsp;×10 offerte par le recrutement d'urgence garantit un opérateur&nbsp;5★ ou plus.</p><p>· Cette tentative gratuite de recrutement&nbsp;×10 offerte par le recrutement d'urgence ne compte pas dans la garantie pour cette bannière ou les autres bannières de [recrutement certifié]. Elle ne sera pas non plus ajoutée aux tentatives de recrutement requises pour les récompenses de [recrutement certifié].</p><p>■ Dossier de recrutement</p><p>· Après avoir lancé 60&nbsp;tentatives de recrutement, vous recevrez 1&nbsp;[dossier de recrutement] bonus.</p><p>· Lorsque les critères sont remplis, le [dossier de recrutement] est automatiquement envoyé dans votre coffre d'objets de valeur. Au lancement de la bannière de [recrutement certifié] suivante, ce [dossier de recrutement] sera automatiquement converti en permis REC spécial&nbsp;×10 pour la bannière de [recrutement certifié] spécifique. Cependant, les permis REC expireront en même temps que la bannière en question.</p><p>■ Jeton symbolique</p><p>· Dans chaque bannière de [recrutement certifié], toutes les 240&nbsp;tentatives de recrutement, vous obtiendrez en bonus 1&nbsp;[jeton de l'opérateur&nbsp;6★ à taux SUP proposé dans la bannière en question].</p><p><br></p><p><strong>▼// Détails sur les tickets de l'arsenal</strong></p><p>Chaque tentative de recrutement d'opérateurs fait également gagner des [tickets de l'arsenal].</p><p>· Obtenir un opérateur&nbsp;6★ fait gagner 2&nbsp;000&nbsp;[tickets de l'arsenal].</p><p>· Obtenir un opérateur&nbsp;5★ fait gagner 200&nbsp;[tickets de l'arsenal].</p><p>· Obtenir un opérateur&nbsp;4★ fait gagner 20&nbsp;[tickets de l'arsenal].</p><p>※ Vous pouvez dépenser les [tickets de l'arsenal] au [Centre d'acquisition&nbsp;: boutique de l'arsenal].</p><p><br></p><p>Pendant le recrutement certifié [Chasse hivernale], le contenu suivant sera également disponible&nbsp;:</p><p><strong>▼// Événement de connexion à durée limitée [Pointe de fer empennée]</strong></p><p>Connectez-vous pendant 7&nbsp;jours pour gagner des récompenses telles que 5&nbsp;[permis REC Pointe de fer empennée].</p><p><br></p><p><strong>▼// Événement de test d'opérateurs [Exercices de combat]</strong></p><p>Les [exercices de combat] seront disponibles pour tester l'opératrice&nbsp;6★ [Typhoeus]. Terminez le niveau spécifique avec l'équipe prédéfinie incluant l'opératrice d'essai pour obtenir 100&nbsp;[orobéryls], une [caisse de défense de l'arsenal], une [Marque de persévérance] et d'autres récompenses. La [caisse de défense de l'arsenal] contient un ensemble d'équipement de niveau&nbsp;60 renforcé au maximum adapté à l'opératrice d'essai.</p><p><br></p><p><strong>▼// Remarque spéciale concernant l'[échange de quota du GIA]</strong></p><p>L'[échange de quota] proposera des offres spéciales à durée limitée. Vous pouvez dépenser des quotas du GIA pour acheter des objets tels que 5&nbsp;[permis REC Pointe de fer empennée].</p><p><br></p><p>※ Fuseau horaire du serveur Asia : UTC+8</p><p>※ Fuseau horaire du serveur Americas / Europe : UTC-5</p><p>※ Pour plus de détails à propos du recrutement, consultez l'écran de [Recrutement] en jeu.</p><p>※ Pour plus de détails à propos de l'événement, consultez le [Centre d'événement] en jeu.</p><p>※ Pour en savoir plus sur l'[échange de quota du GIA], consultez le [Centre d'acquisition] en jeu.</p>",
-            "linkType": 1
-          }
-        },
-        {
           "cid": "7289",
           "type": 0,
           "tab": "updates",
@@ -455,23 +443,6 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260831/16d3528c8283bb1b5a27d2d325099244.jpg\" data-width=\"1650\" data-height=\"300\"><p>Endministrator,</p><p>Pendant la version [Monde onirique de neige et de vent], le [Centre d'acquisition] proposera divers lots.</p><p><br></p><p><strong>▼// Lots limités</strong></p><p>■ Lot de flux du Protocole</p><p>· Disponibilité : pendant toute la durée de la version [Monde onirique de neige et de vent]</p><p>· Contenu du lot : [Permis REC certifié] ×10, [Ticket de l'arsenal] ×2 000, [Marque de persévérance] ×10</p><p>· Remarque : 1 seul achat autorisé dans la version actuelle</p><p><br></p><p>■ Lot de REC Chasse hivernale</p><p>· Disponibilité : après la mise à jour de la version [Monde onirique de neige et de vent] — 30 septembre 2026 à 11 h 59 (heure du serveur)</p><p>· Contenu du lot : [Permis REC Pointe de fer empennée] ×10, [Crédits T] ×80 000</p><p>· Remarque : 1 seul achat autorisé</p><p><br></p><p>■ Pack de tickets de l'arsenal - éco</p><p>· Disponibilité : pendant toute la durée de la version [Monde onirique de neige et de vent]</p><p>· Contenu du lot : [Ticket de l'arsenal] ×2 000</p><p>· Remarque : 1 seul achat autorisé dans la version actuelle</p><p><br></p><p>※ Fuseau horaire du serveur Asia : UTC+8</p><p>※ Fuseau horaire du serveur Americas / Europe : UTC-5</p><p>※ Certains lots peuvent inclure des objets à durée limitée. Vous pouvez consulter les détails des objets à durée limitée dans [Achat — Contenu de l'article]. Si les objets à durée limitée d'un lot expirent après l'achat, ils ne pourront pas être réémis. Merci de votre compréhension et de votre soutien.</p><p>※ Pour plus de lots et de détails, visitez la section [Centre d'acquisition — Lots] en jeu.</p>",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "8950",
-          "type": 0,
-          "tab": "events",
-          "orderType": 1,
-          "orderWeight": 3,
-          "displayType": "rich_text",
-          "startAt": 1788303600,
-          "focus": 0,
-          "title": "Tirage du froid mordant",
-          "header": "Détails sur la durée limitée du [tirage du froid mordant]",
-          "jumpButton": null,
-          "data": {
-            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260831/a7055b0b27b7ad4743266b8890df5627.jpg\" data-width=\"1650\" data-height=\"300\"><p>Endministrator,</p><p>Tant que le [tirage du froid mordant] est disponible, les chances d'obtenir l'arme 6★ [Ombre du crépuscule glacé (unité des Arts)] sont augmentées !</p><p><br></p><p><strong>▼// [Tirage du froid mordant]</strong></p><p>· Disponibilité : Ouvre après la sortie de la version [Monde onirique de neige et de vent], et se termine au bout de 3 bannières de [recrutement certifié] (à partir de [Chasse hivernale])</p><p>· Critères de participation : Terminer la mission principale [Chapitre I - Processus I : Rompre le siège]</p><p>· Le [tirage du froid mordant] propose l'arme 6★ [Ombre du crépuscule glacé (unité des Arts)] à taux SUP.</p><p>· Les armes 6★ susceptibles d'apparaître dans le [tirage du froid mordant] sont les suivantes : Ombre du crépuscule glacé (unité des Arts) / Exemplaire (espadon) / Clannibale (canon portatif) / Vaillance (arme d'hast) / Oubli (unité des Arts) / Unité de détonation (unité des Arts) / Ascension rapide (épée).</p><p><br></p><p><strong>▼// Récompenses de [tirage de l'arsenal]</strong></p><p>Dans chaque [tirage de l'arsenal], lancer un nombre défini de tirages offre alternativement un [coffre d'offrande d'armes] (CO d'armes) ou une [arme 6★ à taux SUP] spécifique à cette bannière. Le nombre total de tirages pour obtenir ces récompenses de tirage de l'arsenal sera réinitialisé à l'issue de la bannière et ne sera pas répercuté sur d'autres bannières de [tirage de l'arsenal].</p><p><br></p><p><strong>▼// Détails sur le [tirage de l'arsenal]</strong></p><p>· Dans le [tirage de l'arsenal], vous pouvez dépenser des [tickets de l'arsenal] pour lancer un tirage.</p><p>· Chaque tirage offre 10 armes aléatoires issues de la liste des armes disponibles, incluant au moins une arme 5★ ou plus.</p><p><br></p><p><strong>▼// Détails sur la [boutique de l'arsenal]</strong></p><p>Dans la [boutique de l'arsenal], vous pouvez également utiliser des [tickets de l'arsenal] pour acheter directement des armes. Certaines armes achetables peuvent être mises à jour de temps à autre. Consultez les informations affichées sur l'écran du [Centre d'acquisition : boutique de l'arsenal] pour connaître les disponibilités actuelles.</p><p><br></p><p>※ Pour plus de détails et de règles concernant les récompenses, visitez le [Centre d'acquisition : boutique de l'arsenal] dans le jeu.</p>",
             "linkType": 1
           }
         },
@@ -651,23 +622,6 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260831/de85d14fc2d34429ddcc27461fd66938.png",
             "link": "https://topup.gryphline.com/endfield?u8_token={u8_token}&server={server}",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "2101",
-          "type": 0,
-          "tab": "events",
-          "orderType": 1,
-          "orderWeight": 5,
-          "displayType": "rich_text",
-          "startAt": 1788303600,
-          "focus": 0,
-          "title": "Neige sur les bois profonds",
-          "header": "Détails de l'événement de guide",
-          "jumpButton": null,
-          "data": {
-            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260901/9340431d375eb717f35e932377f50602.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Dates de l'événement</strong></p><p>À partir de la mise à jour de la version [Monde onirique de neige et de vent], jusqu'au 30&nbsp;septembre&nbsp;2026 à 11&nbsp;h&nbsp;59 (heure du serveur)</p><p><br></p><p><strong>▼// Récompenses de l'événement</strong></p><p>Terminez les missions pendant l'événement pour gagner des récompenses incluant&nbsp;: des [orobéryls] et une [Marque de persévérance].</p><p><br></p><p><strong>▼// Conditions de participation</strong></p><p>Dans la mission annexe [Une forêt enveloppée de brume], terminez l'objectif [Se rendre à l'entrée de la forêt].</p><p>※ Terminez la mission principale [Chapitre&nbsp;Ⅱ&nbsp;- Processus&nbsp;VII&nbsp;: Le soleil refuse obstinément de se coucher] pour débloquer la mission annexe [Une forêt enveloppée de brume].</p><p><br></p><p><strong>▼// Détails de l'événement</strong></p><p>Au cours de l'événement, visitez la zone [Forêt enneigée] dans la région de Wuling et terminez des missions d'événement, comme le déblocage de points&nbsp;TP et l'ouverture de caisses de Protocole, pour obtenir de belles récompenses.</p><p><br></p><p>※ Fuseau horaire du serveur Asia : UTC+8</p><p>※ Fuseau horaire du serveur Americas / Europe : UTC-5</p><p>※ Pour plus de détails sur l'événement, consultez le [Centre d'événement] en jeu.</p>",
             "linkType": 1
           }
         },

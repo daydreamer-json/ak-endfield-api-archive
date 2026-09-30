@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "es-mx",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:es-mx",
-      "version": "4be6a67b55032789731e224172b63aaa",
+      "version": "8c77b18cf92413ddae19812f6028c646",
       "onlineList": [
         {
           "cid": "8956",
@@ -47,6 +47,12 @@
         {
           "cid": "4610",
           "version": 1786440043,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "6430",
+          "version": 1790648656,
           "needRedDot": true,
           "needPopup": false
         },
@@ -87,12 +93,6 @@
           "needPopup": false
         },
         {
-          "cid": "1377",
-          "version": 1788263668,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
           "cid": "7289",
           "version": 1790567535,
           "needRedDot": true,
@@ -101,12 +101,6 @@
         {
           "cid": "7284",
           "version": 1788228578,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
-          "cid": "8950",
-          "version": 1788228586,
           "needRedDot": true,
           "needPopup": false
         },
@@ -171,12 +165,6 @@
           "needPopup": false
         },
         {
-          "cid": "2101",
-          "version": 1788265810,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
           "cid": "8998",
           "version": 1769005692,
           "needRedDot": true,
@@ -214,7 +202,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1790697540,
+      "updatedAt": 1790740800,
       "list": [
         {
           "cid": "8956",
@@ -300,6 +288,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260811/2c7356bbd0d6c582dc5fa3494f053d2b.png\" data-width=\"1650\" data-height=\"300\"><p>Hola, Endministrator:<br>Para celebrar el próximo lanzamiento de Arknights: Endfield en Steam, ¡organizamos un evento especial de hitos de la lista de deseados! <br>A partir de hoy, añade Arknights: Endfield a tu lista de deseados de Steam y ayúdanos a alcanzar el objetivo final para desbloquear un marco de retrato conmemorativo especial y otras fantásticas recompensas.<br><br>▼// Periodo del evento<br>Desde el inicio del evento, el 13 de agosto de 2026, hasta el lanzamiento oficial de Arknights: Endfield en Steam (la fecha exacta de lanzamiento se anunciará más adelante).<br><br>▼// Recompensas por hitos<br>· Fase 1 (30,000): T-Creds ×8,000 <br>· Fase 2 (100,000): Portador cognitivo elemental ×2 <br>· Fase 3 (200,000): Set de inspector de armas ×2 <br>· Objetivo final (300,000): marco de retrato conmemorativo especial ×1<br><br>¡Ve a Steam y añade Arknights: Endfield a tu lista de deseados! ¡Alcancemos juntos el objetivo final!<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://store.steampowered.com/app/4732690/\">Ve a Steam ahora</a></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "6430",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1790740800,
+          "focus": 0,
+          "title": "Flujos otoñales de la cresta",
+          "header": "Flujos otoñales de la cresta",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260924/1e729106b4f25bdfe8803301bcd90201.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Periodo del evento</strong><br>Del 1 de octubre de 2026 a las 12:00 (hora del servidor) hasta antes de la actualización de la versión y del mantenimiento<br><br><strong>▼// Requisitos de participación</strong><br>Completa la misión principal [Capítulo I Proceso I: Rompiendo el asedio]<br><br><strong>▼// Detalles del evento</strong><br>· Durante el evento, inicia sesión en el juego todos los días para reclamar recompensas de inicio de sesión.<br>· Completa el inicio de sesión de 7 días para obtener grandes recompensas como [Retrato: Avanza y corre] y [Oroberilio] ×1500!<br><br>※ Zona horaria del servidor Asia: UTC+8<br>※ Zona horaria del servidor Americas / Europe: UTC-5<br>※ Para obtener más detalles sobre el evento, consulta el [Centro de eventos] del juego.<br></p>",
             "linkType": 1
           }
         },
@@ -408,23 +413,6 @@
           }
         },
         {
-          "cid": "1377",
-          "type": 0,
-          "tab": "events",
-          "orderType": 1,
-          "orderWeight": 2,
-          "displayType": "rich_text",
-          "startAt": 1788303600,
-          "focus": 0,
-          "title": "Caza de reclutas certificada\\nCacería invernal",
-          "header": "Caza de reclutas certificada [Cacería invernal]",
-          "jumpButton": null,
-          "data": {
-            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260901/4cbb00c1bee1115565a5ce958e8718aa.jpg\" data-width=\"1650\" data-height=\"300\"><p>Hola, Endministrator:</p><p>¡Durante la Caza de reclutas certificada [Cacería invernal], la operadora de 6★ [Typhoeus] tendrá un aumento de probabilidad!</p><p>El evento de inicio de sesión por tiempo limitado [Punta de hierro emplumada] estará disponible de manera simultánea. Inicia sesión varios días seguidos para obtener recompensas como 5 [Permisos de C.R. de Punta de hierro emplumada]. Además, [Intercambio de cuotas del CAI] ofrecerá un intercambio con descuento para el [Permiso de C.R. de Punta de hierro emplumada]. El evento de prueba de operador [Simulacros de combate] también estará disponible durante este periodo.</p><p><br></p><p><strong>▼// Detalles de la Caza de reclutas certificada [Cacería invernal]</strong></p><p>· Disponibilidad: Tras el lanzamiento de la versión [Paisaje onírico de Viento y Nieve] y hasta el 30 de septiembre de 2026 a las 11:59 (hora del servidor)</p><p>· Requisitos de participación: Completar la misión principal [Capítulo I Proceso I: Rompiendo el asedio]</p><p>· La Caza de reclutas certificada [Cacería invernal] incluye a la operadora de 6★ [Typhoeus] con aumento de probabilidad.</p><p>· Los operadores de 6★ que pueden aparecer en la Caza de reclutas certificada [Cacería invernal] son los siguientes: Typhoeus / Liino / Arcane / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.</p><p>· En la Caza de reclutas certificada [Cacería invernal], puedes usar el [Permiso de C.R. de Punta de hierro emplumada], el [Permiso de C.R. certificada] u [Oroberilios] para realizar la caza de reclutas.</p><p>※ Después de 3 banners de la [Caza de reclutas certificada], el operador de 6★ con aumento de probabilidad incluido en un banner de [Caza de reclutas certificada] se eliminará de la lista de operadores que podrían aparecer en [Caza de reclutas certificada]. Tampoco se añadirá a este operador de 6★ con aumento de probabilidad a [Caza de reclutas básica].</p><p><br></p><p><strong>▼// Recompensas de [Caza de reclutas certificada]</strong></p><p>En la Caza de reclutas certificada [Cacería invernal], haz un determinado número de intentos de caza de reclutas para obtener las recompensas correspondientes.</p><p><br></p><p>■ Reclutamiento urgente</p><p>· Después de realizar 30 intentos de caza de reclutas, recibirás 10 intentos de Reclutamiento urgente adicionales (que cuentan como 1 intento de caza de reclutas x10 gratuito). Esto solo será válido durante este banner de [Caza de reclutas certificada] y no se traspasa a los demás banners de caza de reclutas.</p><p>· Las tasas para obtener operadores mediante Reclutamiento urgente son iguales a las tasas de aparición básicas de [Caza de reclutas certificada], y el intento gratuito de caza de reclutas x10 garantiza un operador de 5★ o mejor.</p><p>· Este intento gratuito de caza de reclutas x10, otorgado por el Reclutamiento urgente, no cuenta para la garantía de este u otros banners de [Caza de reclutas certificada]. Tampoco se añadirá a la cantidad total de intentos de caza de reclutas requerida para obtener recompensas de [Caza de reclutas certificada].</p><p>■ Expediente de caza de reclutas</p><p>· Tras realizar 60 intentos de caza de reclutas, recibirás un [Expediente de caza de reclutas] adicional.</p><p>· Una vez que se cumplan los requisitos, el [Expediente de caza de reclutas] se enviará de inmediato a tu Reserva de objetos de valor. Cuando comience el siguiente banner de [Caza de reclutas certificada], el [Expediente de caza de reclutas] se convertirá automáticamente en 10 Permisos de C.R. especial de dicho banner de [Caza de reclutas certificada]. Sin embargo, estos permisos también caducarán cuando termine el banner.</p><p>■ Tributo de fichas</p><p>· En cada banner de [Caza de reclutas certificada], luego de 240 intentos de caza de reclutas recibirás una bonificación de [Ficha del operador de 6★ con aumento de probabilidad incluida en dicho banner].</p><p><br></p><p><strong>▼// Detalles de Boletos de Arsenal</strong></p><p>Cada intento de caza de reclutas de operadores también otorga [Boletos de Arsenal].</p><p>· Al adquirir un operador de 6★, recibes [Boleto de Arsenal] ×2000.</p><p>· Al adquirir un operador de 5★, recibes [Boleto de Arsenal] ×200.</p><p>· Al adquirir un operador de 4★, recibes [Boleto de Arsenal] ×20.</p><p>※ Puedes gastar los [Boletos de Arsenal] en el [Centro de adquisición: Intercambio de Arsenal].</p><p><br></p><p>Durante Caza de reclutas certificada [Cacería invernal], el siguiente contenido también estará disponible:</p><p><strong>▼// Evento de inicio de sesión por tiempo limitado [Punta de hierro emplumada]</strong></p><p>·Inicia sesión durante 7 días en total para obtener recompensas como [Permiso de C.R. de Punta de hierro emplumada] ×5.</p><p><br></p><p><strong>▼// Evento de prueba de operador [Simulacros de combate]</strong></p><p>[Simulacros de combate] estará disponible y podrás probar a la operadora de 6★ [Typhoeus]. Completa las etapas indicadas con un equipo preestablecido que incluya a la operadora de la prueba y ve a la pantalla del [Centro de eventos] para reclamar [Oroberilio] ×100, [Caja de defensa de Arsenal], [Marca de perseverancia], y otras recompensas. La [Caja de defensa de Arsenal] contiene un conjunto de equipamiento de nivel 60 completamente elaborado, ideal para la operadora de prueba actual.</p><p><br></p><p><strong>▼// Nota especial del [Intercambio de cuotas del CAI]</strong></p><p>El [Intercambio de cuotas] ofrecerá descuentos especiales por tiempo limitado. Puedes gastar cuotas del CAI para comprar objetos como [Permiso de C.R. de Punta de hierro emplumada] ×5.</p><p><br></p><p>※ Zona horaria del servidor Asia: UTC+8</p><p>※ Zona horaria del servidor Americas / Europe: UTC-5</p><p>※ Para obtener más información sobre la caza de reclutas, consulta la pantalla de [Caza de reclutas] del juego.</p><p>※ Para obtener más información del evento, consulta el [Centro de eventos] del juego.</p><p>※ Para obtener más información del [Intercambio de cuotas del CAI], consulta el [Centro de adquisición] del juego.</p>",
-            "linkType": 1
-          }
-        },
-        {
           "cid": "7289",
           "type": 0,
           "tab": "updates",
@@ -455,23 +443,6 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260831/41fc10f788ffeb8012c01da6767d03e9.jpg\" data-width=\"1650\" data-height=\"300\"><p>Endministrator:</p><p>Durante la versión [Paisaje onírico de Viento y Nieve], el [Centro de adquisición] ofrecerá una variedad de paquetes.</p><p><br></p><p><strong>▼// Paquetes limitados</strong></p><p>■ Paquete de flujo de protocolo</p><p>· Disponibilidad: durante toda la versión [Paisaje onírico de Viento y Nieve]</p><p>· Contenido del paquete: [Permiso de C.R. certificada]×10, [Boleto de Arsenal]×2000, [Marca de perseverancia]×10</p><p>· Nota especial: Solo se permite 1 compra en la versión actual</p><p><br></p><p>■ Paquete de C.R. de Cacería invernal</p><p>· Disponibilidad: desde la actualización de la versión [Paisaje onírico de Viento y Nieve] hasta el 30 de septiembre de 2026 a las 11:59 (hora del servidor)</p><p>· Contenido del paquete: [Permiso de C.R. de Punta de hierro emplumada]×10, [T-Creds]×80 000</p><p>· Nota especial: Solo se permite 1 compra</p><p><br></p><p>■ Paquete eco de Boletos de Arsenal</p><p>· Disponibilidad: durante toda la versión [Paisaje onírico de Viento y Nieve]</p><p>· Contenido del paquete: [Boleto de Arsenal]×2000</p><p>· Nota especial: Solo se permite 1 compra en la versión actual</p><p><br></p><p>※ Zona horaria del servidor Asia: UTC+8</p><p>※ Zona horaria del servidor Americas / Europe: UTC-5</p><p>※ Algunos paquetes pueden incluir objetos por tiempo limitado. Puedes consultar los detalles de los objetos por tiempo limitado en la sección [Compra - Contenido de objetos]. Si los objetos por tiempo limitado de un paquete caducan tras la compra, no se volverán a emitir. Gracias por tu comprensión y apoyo.</p><p>※ Para obtener información sobre otros paquetes, visita la sección [Centro de adquisición - Paquetes] en el juego.</p>",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "8950",
-          "type": 0,
-          "tab": "events",
-          "orderType": 1,
-          "orderWeight": 3,
-          "displayType": "rich_text",
-          "startAt": 1788303600,
-          "focus": 0,
-          "title": "Solicitud de Frío intenso",
-          "header": "Detalles OTL de la [Solicitud de Frío intenso]",
-          "jumpButton": null,
-          "data": {
-            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260831/67b16732cc7267d11c5c0ff7f438a69c.jpg\" data-width=\"1650\" data-height=\"300\"><p>Hola, Endministrator:</p><p>Durante el periodo de disponibilidad de [Solicitud de Frío intenso], ¡aumenta la probabilidad de obtener el arma de 6★ [Sombra del gélido crepúsculo (Unidad de las Artes)]!</p><p><br></p><p><strong>▼// [Solicitud de Frío intenso]</strong></p><p>· Disponibilidad: inicia tras la actualización de la versión [Paisaje onírico de Viento y Nieve] y termina después de 3 banners de [Caza de reclutas certificada], a partir de [Cacería invernal]</p><p>· Requisitos de participación: completa la misión principal [Capítulo I Proceso I: Rompiendo el asedio]</p><p>· [Solicitud de Frío intenso] incluye el arma de 6★ con aumento de probabilidad [Sombra del gélido crepúsculo (Unidad de las Artes)].</p><p>· Las armas de 6★ que pueden aparecer en [Solicitud de Frío intenso] incluyen: Sombra del gélido crepúsculo (Unidad de las Artes) / Ejemplar (gran espada) / Clannibal (cañón de mano) / Valiente (arma de asta) / Olvido (Unidad de las Artes) / Unidad de detonación (Unidad de las Artes) / Ascenso rápido (espada).</p><p><br></p><p><strong>▼// Recompensas de [Solicitud de Arsenal]</strong></p><p>En cada [Solicitud de Arsenal], al completar un número determinado de misiones, se obtendrá la [Caja de ofrenda de armas] (CO de armas) específica del banner o el [arma de 6★ con aumento de probabilidad] en orden alterno. El número total de solicitudes para estas recompensas de Solicitud de Arsenal se restablecerá una vez que finalice el banner y no se transferirá a otros banners de [Solicitud de Arsenal].</p><p><br></p><p><strong>▼// Detalles de [Solicitud de Arsenal]</strong></p><p>· En [Solicitud de Arsenal], puedes gastar [Boletos de Arsenal] para enviar una solicitud.</p><p>· Cada solicitud otorga 10 armas al azar de la lista de armas disponibles, que incluye al menos un arma de 5★ o más.</p><p><br></p><p><strong>▼// Detalles del [Intercambio de Arsenal]</strong></p><p>En [Intercambio de Arsenal], el [Boleto de Arsenal] también se puede usar para comprar armas directamente. Algunas armas a la venta pueden actualizarse de vez en cuando. Consulta la información que se muestra en la pantalla [Centro de adquisición: Intercambio de Arsenal] para saber qué hay disponible.</p><p><br></p><p>※ Visita el [Centro de adquisición: Intercambio de Arsenal] para conocer más detalles y reglas de las recompensas.</p>",
             "linkType": 1
           }
         },
@@ -651,23 +622,6 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260831/8e34f9dc6d4c179bfcba16fff06c300a.png",
             "link": "https://topup.gryphline.com/endfield?u8_token={u8_token}&server={server}",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "2101",
-          "type": 0,
-          "tab": "events",
-          "orderType": 1,
-          "orderWeight": 5,
-          "displayType": "rich_text",
-          "startAt": 1788303600,
-          "focus": 0,
-          "title": "Nieve sobre las profundidades del bosque",
-          "header": "Evento de guía [Nieve sobre las profundidades del bosque]",
-          "jumpButton": null,
-          "data": {
-            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260901/112929d6be66cdffc442fccbe5b7ef01.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Periodo del evento</strong></p><p>Después de la actualización de la versión [Paisaje onírico de Viento y Nieve] hasta el 30 de septiembre de 2026 a las 11:59 (hora del servidor)</p><p><br></p><p><strong>▼// Recompensas del evento</strong></p><p>Completa las misiones durante el evento para obtener recompensas como [Oroberilios] y [Marca de Perseverancia].</p><p><br></p><p><strong>▼// Requisitos de participación</strong></p><p>En la misión secundaria [Un bosque envuelto en niebla], completa el objetivo [Ve a la entrada del bosque].</p><p>※ Completa la misión principal [Capítulo II Proceso VII: El sol poniente se resiste a marchar] para desbloquear la misión secundaria [Un bosque envuelto en niebla].</p><p><br></p><p><strong>▼// Detalles del evento</strong></p><p>Durante el evento, visita el área del [Bosque Nevado] en la región de Wuling y completa misiones del evento, como desbloquear Puntos de TP y abrir Cajas protocolares para obtener abundantes recompensas.</p><p><br></p><p>※ Zona horaria del servidor Asia: UTC+8</p><p>※ Zona horaria del servidor Americas / Europe: UTC-5</p><p>※ Para obtener más detalles sobre el evento, consulta el [Centro de eventos] en el juego.</p>",
             "linkType": 1
           }
         },
