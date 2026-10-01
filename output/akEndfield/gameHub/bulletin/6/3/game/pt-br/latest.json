@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "pt-br",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:pt-br",
-      "version": "62fa5d20bef279d740025b1eaece28a2",
+      "version": "8eaaf2f95554272497e1d041359f3cf2",
       "onlineList": [
         {
           "cid": "8956",
@@ -107,6 +107,12 @@
         {
           "cid": "7284",
           "version": 1788228578,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "8945",
+          "version": 1790591542,
           "needRedDot": true,
           "needPopup": false
         },
@@ -202,7 +208,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1790780400,
+      "updatedAt": 1790827200,
       "list": [
         {
           "cid": "8956",
@@ -460,6 +466,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260831/f06610da88c0fdd8b4e2146db2b17508.jpg\" data-width=\"1650\" data-height=\"300\"><p>Endministrator,</p><p>Durante a versão [Sonho de Vento e Neve], o [Centro de Aquisições] oferecerá uma variedade de pacotes.</p><p><br></p><p><strong>▼// Pacotes limitados</strong></p><p>■ Pacote Fluxo do Protocolo</p><p>· Disponibilidade: durante toda a versão [Sonho de Vento e Neve]</p><p>· Conteúdo do pacote: [Permissão para CT Privilegiada]×10, [Tíquete do Arsenal]×2000, [Marca da Perseverança]×10</p><p>· Observação especial: apenas 1 compra permitida na versão atual</p><p><br></p><p>■ Pacote CT Caçada de Inverno</p><p>· Disponibilidade: após a atualização da versão [Sonho de Vento e Neve] – 30 de setembro de 2026, às 11:59 (horário do servidor)</p><p>· Conteúdo do pacote: [Permissão para CT Ponta de Ferro Emplumada]×10, [T-Creds]×80000</p><p>· Observação especial: apenas 1 compra permitida</p><p><br></p><p>■ Pacote Tíquete do Arsenal Promo</p><p>· Disponibilidade: durante toda a versão [Sonho de Vento e Neve]</p><p>· Conteúdo do pacote: [Tíquete do Arsenal]×2000</p><p>· Observação especial: apenas 1 compra permitida na versão atual</p><p><br></p><p>※ Fuso horário do servidor Asia: UTC+8</p><p>※ Fuso horário do servidor Americas / Europe: UTC-5</p><p>※ Alguns pacotes podem incluir itens por tempo limitado. Você pode conferir os detalhes dos itens por tempo limitado em [Compra — Conteúdo do Item]. Se os itens por tempo limitado em um pacote expirarem após a compra, eles não poderão ser reemitidos. Obrigado pela sua compreensão e apoio.</p><p>※ Para mais pacotes e detalhes sobre eles, acesse [Centro de Aquisições — Pacotes] no jogo.</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "8945",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1790827200,
+          "focus": 0,
+          "title": "Check-in diário",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260928/ec1c97c25439e415a18f56756230c1a1.png",
+            "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fstatic.skport.com%252Fu-link%252Fdownload.html%253Fschema%253Dskport%25253A%25252F%25252Fweb%25253Furl%25253Dhttps%2525253A%2525252F%2525252Fgame.skport.com%2525252Fendfield%2525252Fsign-in%2525253Fheader%2525253D0%25252526hg_media%2525253Dgame%25252526hg_link_campaign%2525253Dannouncement%25252526hg_link_name%2525253Dsignin",
             "linkType": 1
           }
         },
