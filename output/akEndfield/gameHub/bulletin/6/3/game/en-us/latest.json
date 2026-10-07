@@ -18,8 +18,14 @@
       "subChannel": "#DEFAULT",
       "lang": "en-us",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:en-us",
-      "version": "07f007b6efd618248e4ca7b0db3b49ed",
+      "version": "68aee54dd6d534d8dbde5852ca887ef9",
       "onlineList": [
+        {
+          "cid": "5512",
+          "version": 1791287529,
+          "needRedDot": false,
+          "needPopup": false
+        },
         {
           "cid": "9854",
           "version": 1791152945,
@@ -232,8 +238,25 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1791345600,
+      "updatedAt": 1791385200,
       "list": [
+        {
+          "cid": "5512",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1791385200,
+          "focus": 1,
+          "title": "Quick Update Notice",
+          "header": "10/07 Quick Update Notice",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260825/f9f1fa78d5d555f7616dacc80f89f31e.png\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrator,</p><p>The servers will undergo a quick update from 2026/10/07 21:30 - 21:40 (UTC-5). During this time, all Endministrators will be logged out and unable to access the game.<br></p><p>▼// Update Details</p><p>· Updated resources for the upcoming limited-time sign-in event [Inkwashed World].<br></p><p>▼// Update Compensation</p><p>· Emergency Sanity Booster×1<br></p><p>Distribution Period: 2026/10/07 after the quick update - Before the next version update and maintenance</p><p>Eligibility: All Endministrators who registered and created a character before the update on 2026/10/07 21:30 (UTC-5).</p><p>Note: Claimable after unlocking the [Mail] function. The mail is valid for 30 days. Please be sure to claim it in time.</p><p></p><p>Thank you for your continued interest and support for Arknights: Endfield, Endministrator!</p>",
+            "linkType": 1
+          }
+        },
         {
           "cid": "9854",
           "type": 0,
