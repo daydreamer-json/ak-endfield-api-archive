@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "ko-kr",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ko-kr",
-      "version": "9c27279fcd2364cdb63b7d3f62241fe8",
+      "version": "488f59949619b933cb2032ad64eb3211",
       "onlineList": [
         {
           "cid": "1307",
@@ -59,6 +59,12 @@
         {
           "cid": "4610",
           "version": 1786440043,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "6420",
+          "version": 1791168614,
           "needRedDot": true,
           "needPopup": false
         },
@@ -232,7 +238,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1791343800,
+      "updatedAt": 1791345600,
       "list": [
         {
           "cid": "1307",
@@ -353,6 +359,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260811/4c9f3a8237a7f8d75193047906aab99a.png\" data-width=\"1650\" data-height=\"300\"><p>안녕하세요, 관리자님!<br>「명일방주: 엔드필드」의 Steam 출시를 기념해 찜 목록 마일스톤 이벤트를 진행합니다!<br>지금 바로 Steam에서 「명일방주: 엔드필드」를 찜 목록에 추가하고, 다 함께 최종 목표를 달성해 특별 기념 프로필 프레임 등 다양한 보상을 획득해 보세요!<br><br>▼//이벤트 기간<br>2026/08/13 이벤트 시작 후 ~ 「명일방주: 엔드필드」 Steam 정식 출시까지(정식 출시 날짜는 추후 별도 안내)<br><br>▼//마일스톤 보상<br>· 1단계(30,000): 탈로시안 화폐×8,000<br>· 2단계(100,000): 초급 인지 매개체×2<br>· 3단계(200,000): 무기 점검 세트×2<br>· 최종 목표(300,000): 특별 기념 프로필 프레임×1<br><br>지금 바로 Steam에서 「명일방주: 엔드필드」를 찜 목록에 추가하고, 최종 목표 달성까지 함께해 주세요!<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://store.steampowered.com/app/4732690/\">지금 바로 Steam으로</a></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "6420",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1791345600,
+          "focus": 0,
+          "title": "천지에 번지는 먹빛",
+          "header": "「천지에 번지는 먹빛」 기간 한정 출석 체크 이벤트 설명",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260930/88c0c105e977f1b813e41082d78608c8.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//이벤트 기간</strong><br>2026/10/08 12:00(서버 시간) ~ 버전 업데이트 전까지<br><br><strong>▼//참여 조건</strong><br>메인 임무 「1장 - 프로세스 I - 기지 구출」 완료<br><br><strong>▼//이벤트 설명</strong><br>· 매일 로그인하면 출석 체크 보상을 획득할 수 있습니다.<br>· 3일 출석 체크를 완료하면 [기초 헤드헌팅 허가증]×2, [오로베릴]×500 등 보상을 수령할 수 있습니다.<br><br>※ Asia 서버 시간: UTC+8<br>※ Americas / Europe 서버 시간: UTC-5<br></p>",
             "linkType": 1
           }
         },

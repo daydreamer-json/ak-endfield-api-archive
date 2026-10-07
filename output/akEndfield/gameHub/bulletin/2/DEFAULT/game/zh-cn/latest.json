@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:#DEFAULT:2:#DEFAULT:zh-cn",
-      "version": "44be8a2a4a29671564920cd9197738f5",
+      "version": "887fbb1f81e1c685cc028e41fe94d520",
       "onlineList": [
         {
           "cid": "0779",
@@ -60,6 +60,12 @@
           "cid": "1392",
           "version": 1768982321,
           "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "3025",
+          "version": 1790061126,
+          "needRedDot": false,
           "needPopup": false
         },
         {
@@ -178,7 +184,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1791343800,
+      "updatedAt": 1791345600,
       "list": [
         {
           "cid": "0779",
@@ -300,6 +306,23 @@
             "url": "https://web.hycdn.cn/upload/image/20260121/528a5c2a39687aaa0e15ef79c8e879f9.jpg",
             "link": "https://ef-webview.hypergryph.com/act/social-media?u8_token={u8_token}&server={server}",
             "linkType": 2
+          }
+        },
+        {
+          "cid": "3025",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1791345600,
+          "focus": 0,
+          "title": "天地墨显",
+          "header": "「天地墨显」限时签到活动说明",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web.hycdn.cn/upload/image/20260922/a5cc5e6dc7d0e50f0de6f64a3314215b.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">▼//活动时间</span></p><p><span style=\"color: rgb(31, 35, 41);\">2026/10/08 12:00（服务器时间） - 版本更新维护前</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">▼//参与条件</span></p><p><span style=\"color: rgb(31, 35, 41);\">完成主线任务「第一章 - 进程Ⅰ - 基地解围」</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">▼//活动说明</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 每日登录游戏即可领取签到奖励。</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 完成3日签到累计可领取【基础寻访凭证】×2和【嵌晶玉】×500等奖励。</span></p>",
+            "linkType": 1
           }
         },
         {

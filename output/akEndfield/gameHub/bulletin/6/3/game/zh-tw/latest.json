@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-tw",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-tw",
-      "version": "fed168c2be5d339054b39983f5aa4664",
+      "version": "07f007b6efd618248e4ca7b0db3b49ed",
       "onlineList": [
         {
           "cid": "9854",
@@ -53,6 +53,12 @@
         {
           "cid": "4610",
           "version": 1786440043,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "6420",
+          "version": 1791168614,
           "needRedDot": true,
           "needPopup": false
         },
@@ -226,7 +232,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1791343800,
+      "updatedAt": 1791345600,
       "list": [
         {
           "cid": "9854",
@@ -329,6 +335,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260811/9b8eb3385dc8963ed22edd152d6377bd.png\" data-width=\"1650\" data-height=\"300\"><p>親愛的管理員：<br>為了慶祝《明日方舟：終末地》即將登陸Steam，我們特別推出上線願望清單里程碑活動！<br>即日起，將遊戲加入Steam願望清單，一起向最終目標衝刺，解鎖特殊紀念頭像框等豐厚獎勵！<br><br>▼//活動時間<br>2026/08/13活動開啟後 至 《明日方舟：終末地》Steam 正式上線（實際上線時間將另行公布）。<br><br>▼//里程碑獎勵<br>· 第1階段（30,000）：折金票×8,000<br>· 第2階段（100,000）：初級認知載體×2<br>· 第3階段（200,000）：武器檢查套組×2<br>· 最終目標（300,000）：特殊紀念頭像框×1<br><br>立即前往Steam將《明日方舟：終末地》加入Steam願望清單，向最終目標全力衝刺吧！<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://store.steampowered.com/app/4732690/\">立即前往Steam</a></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "6420",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1791345600,
+          "focus": 0,
+          "title": "天地墨顯",
+          "header": "「天地墨顯」限時簽到活動說明",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260930/3b4af6042a26db6825e565f59da5734c.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//活動時間</strong><br>2026/10/08 12:00（伺服器時間） ~ 版本更新維護前<br><br><strong>▼//參與條件</strong><br>完成主線任務「第一章 - 進度I - 基地解圍」<br><br><strong>▼//活動說明</strong><br>· 每日登入遊戲即可領取簽到獎勵。<br>· 完成3日簽到累計可領取【基礎尋訪憑證】×2和【嵌晶玉】×500等獎勵。<br><br>※Asia伺服器時區：UTC+8<br>※Americas / Europe伺服器時區：UTC-5<br></p>",
             "linkType": 1
           }
         },

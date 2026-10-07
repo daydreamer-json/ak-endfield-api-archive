@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "es-mx",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:es-mx",
-      "version": "fed168c2be5d339054b39983f5aa4664",
+      "version": "07f007b6efd618248e4ca7b0db3b49ed",
       "onlineList": [
         {
           "cid": "9854",
@@ -53,6 +53,12 @@
         {
           "cid": "4610",
           "version": 1786440043,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "6420",
+          "version": 1791168614,
           "needRedDot": true,
           "needPopup": false
         },
@@ -226,7 +232,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1791343800,
+      "updatedAt": 1791345600,
       "list": [
         {
           "cid": "9854",
@@ -329,6 +335,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260811/2c7356bbd0d6c582dc5fa3494f053d2b.png\" data-width=\"1650\" data-height=\"300\"><p>Hola, Endministrator:<br>Para celebrar el próximo lanzamiento de Arknights: Endfield en Steam, ¡organizamos un evento especial de hitos de la lista de deseados! <br>A partir de hoy, añade Arknights: Endfield a tu lista de deseados de Steam y ayúdanos a alcanzar el objetivo final para desbloquear un marco de retrato conmemorativo especial y otras fantásticas recompensas.<br><br>▼// Periodo del evento<br>Desde el inicio del evento, el 13 de agosto de 2026, hasta el lanzamiento oficial de Arknights: Endfield en Steam (la fecha exacta de lanzamiento se anunciará más adelante).<br><br>▼// Recompensas por hitos<br>· Fase 1 (30,000): T-Creds ×8,000 <br>· Fase 2 (100,000): Portador cognitivo elemental ×2 <br>· Fase 3 (200,000): Set de inspector de armas ×2 <br>· Objetivo final (300,000): marco de retrato conmemorativo especial ×1<br><br>¡Ve a Steam y añade Arknights: Endfield a tu lista de deseados! ¡Alcancemos juntos el objetivo final!<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://store.steampowered.com/app/4732690/\">Ve a Steam ahora</a></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "6420",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1791345600,
+          "focus": 0,
+          "title": "Mundo bañado en tinta",
+          "header": "Mundo bañado en tinta",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260930/3a3ecf7b2274a4f73cc9e23c6452a57c.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Periodo del evento</strong><br>8 de octubre de 2026 a las 12:00 (hora del servidor) hasta antes de la actualización de la versión y del mantenimiento<br><br><strong>▼// Requisitos de participación</strong><br>Completa la misión principal [Capítulo I Proceso I: Rompiendo el asedio]<br><br><strong>▼// Detalles del evento</strong><br>· Inicia sesión en el juego todos los días para reclamar recompensas de inicio de sesión.<br>· Completa el inicio de sesión de 3 días para obtener recompensas como [Permiso de C.R. Básica] ×2 y [Oroberilio] ×500.<br><br>※ Zona horaria del servidor Asia: UTC+8<br>※ Zona horaria del servidor Americas / Europe: UTC-5<br></p>",
             "linkType": 1
           }
         },

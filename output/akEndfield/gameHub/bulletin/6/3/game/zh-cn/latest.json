@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-cn",
-      "version": "ae62a2609e4ae28d1ff5d76fd808904b",
+      "version": "700e46c1bfea31ca93e1f007a7daa346",
       "onlineList": [
         {
           "cid": "9854",
@@ -53,6 +53,12 @@
         {
           "cid": "4610",
           "version": 1786440043,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "6420",
+          "version": 1791168614,
           "needRedDot": true,
           "needPopup": false
         },
@@ -220,7 +226,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1791343800,
+      "updatedAt": 1791345600,
       "list": [
         {
           "cid": "9854",
@@ -323,6 +329,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260811/7e6163f44195a69ca06651bbb8651a0d.png\" data-width=\"1650\" data-height=\"300\"><p>亲爱的管理员：<br>为了庆祝《明日方舟：终末地》即将登陆 Steam，我们特别推出上线愿望单里程碑活动！<br>即日起，将游戏加入Steam愿望单，一起冲刺最终目标，解锁特殊纪念头像框等丰厚奖励！<br><br>▼//活动时间<br>2026/08/13活动开启后，至《明日方舟：终末地》Steam 正式上线（具体上线时间将另行公布）。<br><br>▼//里程碑奖励<br>· 第1阶段（30,000）： 折金票 ×8,000 <br>· 第2阶段（100,000）： 初级认知载体 ×2 <br>· 第3阶段（200,000）： 武器检查套组 ×2 <br>· 最终目标（300,000）： 特殊纪念头像框 ×1<br><br>立即前往Steam将《明日方舟：终末地》加入Steam愿望单，向最终目标全力冲刺吧！<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://store.steampowered.com/app/4732690/\">立即前往Steam</a></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "6420",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1791345600,
+          "focus": 0,
+          "title": "天地墨显",
+          "header": "「天地墨显」限时签到活动说明",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260930/ec2db6fb160071cc641ab1ea106811b8.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//活动时间</strong><br>2026/10/08 12:00（服务器时间） - 版本更新维护前<br><br><strong>▼//参与条件</strong><br>完成主线任务「第一章 - 进程Ⅰ - 基地解围」<br><br><strong>▼//活动说明</strong><br>· 每日登录游戏即可领取签到奖励。<br>· 完成3日签到累计可领取【基础寻访凭证】×2和【嵌晶玉】×500等奖励。<br><br>※Asia服务器时区: UTC+8<br>※Americas / Europe服务器时区: UTC-5<br></p>",
             "linkType": 1
           }
         },

@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "fr-fr",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:fr-fr",
-      "version": "fed168c2be5d339054b39983f5aa4664",
+      "version": "07f007b6efd618248e4ca7b0db3b49ed",
       "onlineList": [
         {
           "cid": "9854",
@@ -53,6 +53,12 @@
         {
           "cid": "4610",
           "version": 1786440043,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "6420",
+          "version": 1791168614,
           "needRedDot": true,
           "needPopup": false
         },
@@ -226,7 +232,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1791343800,
+      "updatedAt": 1791345600,
       "list": [
         {
           "cid": "9854",
@@ -329,6 +335,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260811/83f3c524e8e28122dc03aee0b745730c.png\" data-width=\"1650\" data-height=\"300\"><p>Endministrator, <br>Pour célébrer le lancement imminent d'Arknights: Endfield sur Steam, nous vous avons préparé un événement de jalon spécial, [Liste de souhaits] ! <br>Ajoutez Arknights: Endfield à votre liste de souhaits Steam dès aujourd'hui et aidez-nous à atteindre le dernier jalon pour débloquer un cadre du portrait commémoratif spécial et d'autres récompenses !<br><br>▼// Dates de l'événement<br>Du 13 août 2026 au lancement officiel d'Arknights: Endfield sur Steam (la date exacte sera annoncée ultérieurement).<br><br>▼// Récompenses de jalon<br>· Phase 1 (30 000) : 8 000 crédits T <br>· Phase 2 (100 000) : 2 supports cognitifs de base <br>· Phase 3 (200 000) : 2 ensembles INSP d'arme <br>· Objectif final (300 000) : 1 cadre du portrait commémoratif spécial<br><br>Rendez-vous dès à présent sur Steam et ajoutez Arknights: Endfield à votre liste de souhaits. Ensemble, nous atteindrons l'objectif final !<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://store.steampowered.com/app/4732690/\">Accédez à Steam</a></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "6420",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1791345600,
+          "focus": 0,
+          "title": "Le monde du lavis d'encre",
+          "header": "Le monde du lavis d'encre",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260930/8ecd9ff10aa77c0df5bedd260bfd2f57.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Dates de l'événement</strong><br>Du 8 octobre 2026 à 12 h (heure du serveur) jusqu'à la prochaine mise à jour de version et maintenance<br><br><strong>▼// Conditions de participation</strong><br>Avoir terminé la mission principale [Chapitre I - Processus I : Rompre le siège]<br><br><strong>▼// Détails de l'événement</strong><br>· Connectez-vous au jeu chaque jour pour recevoir des récompenses de connexion.<br>· Connectez-vous pendant 3 jours pour recevoir des récompenses incluant 2 [permis REC de base] et 500 [orobéryls].<br><br>※ Fuseau horaire du serveur Asia : UTC+8<br>※ Fuseau horaire du serveur Americas / Europe : UTC-5<br></p>",
             "linkType": 1
           }
         },
