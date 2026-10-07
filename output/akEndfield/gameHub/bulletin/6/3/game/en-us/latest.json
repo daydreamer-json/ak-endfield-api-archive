@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "en-us",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:en-us",
-      "version": "5d5fc14cb0f6ae4f6b72828098e55e0c",
+      "version": "fed168c2be5d339054b39983f5aa4664",
       "onlineList": [
         {
           "cid": "9854",
@@ -113,6 +113,12 @@
         {
           "cid": "7284",
           "version": 1788228578,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "2107",
+          "version": 1791152975,
           "needRedDot": true,
           "needPopup": false
         },
@@ -220,7 +226,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1791334800,
+      "updatedAt": 1791343800,
       "list": [
         {
           "cid": "9854",
@@ -494,6 +500,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260831/1e2ea607a8a870c9a79f5fbed4248580.jpg\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrator,</p><p>During the [Dreamscape of Wind and Snow] version, the [Acquisition Center] will offer a variety of bundles.</p><p><br></p><p><strong>▼// Limited Bundles</strong></p><p>■ Protocol Flow Bundle</p><p>· Availability: Throughout the [Dreamscape of Wind and Snow] version</p><p>· Bundle Contents: [Chartered HH Permit]×10, [Arsenal Ticket]×2000, [Mark of Perseverance]×10</p><p>· Special Note: Only 1 purchase allowed in current version</p><p><br></p><p>■ Winter Hunt HH Bundle</p><p>· Availability: After [Dreamscape of Wind and Snow] version update – Sept. 30, 2026 at 11:59 (server time)</p><p>· Bundle Contents: [Fletched Irontip HH Permit]×10, [T-Creds]×80000</p><p>· Special Note: Only 1 purchase allowed</p><p><br></p><p>■ Value Arsenal Ticket Pack</p><p>· Availability: Throughout the [Dreamscape of Wind and Snow] version</p><p>· Bundle Contents: [Arsenal Ticket]×2000</p><p>· Special Note: Only 1 purchase allowed in current version<br></p><p></p><p>※ Asia Server Time Zone: UTC+8</p><p>※ Americas / Europe Server Time Zone: UTC-5</p><p>※ Some bundles may include limited-time items. You can check the details of limited-time items in [Purchase - Item Contents]. If limited-time items in a bundle expire after purchase, they cannot be reissued. Thank you for your understanding and support.</p><p>※ For more bundles and their details, visit the in-game [Acquisition Center - Bundles].</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "2107",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "rich_text",
+          "startAt": 1791343800,
+          "focus": 0,
+          "title": "Sanity Supply",
+          "header": "[Sanity Supply] Limited-Time Event Details",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260926/fe933ae2b965edf33bfeda9c9610b824.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Event Time:</strong></p><p>Asia Server:</p><p>Oct. 8, 2026 at 04:00 – Oct. 15, 2026 at 04:00 (server time)</p><p><br></p><p>Americas / Europe Server:</p><p>Oct. 8, 2026 at 04:00 – Oct. 14, 2026 at 17:00 (server time)</p><p><br></p><p><strong>▼// Event Rewards</strong></p><p>During the event, complete specified missions every day to receive: [Emergency Sanity Booster]×4 and [Sanity Usage Permit]×8.</p><p><br></p><p><strong>▼// Participation Requirements</strong></p><p>Complete the main mission [Chapter I Process II: Paving the Way]</p><p><br></p><p><strong>▼// Event Details</strong></p><p>· During the event, 3 Sanity Supply missions will be available daily. Complete the missions to earn rewards.</p><p>· Sanity Supply missions will be refreshed daily at 04:00 (server time). Please remember to claim the rewards promptly.</p><p><br></p><p>※ Asia Server Time Zone: UTC+8</p><p>※ Americas / Europe Server Time Zone: UTC-5</p><p>※ For more event details, check the in-game [Event Center].</p>",
             "linkType": 1
           }
         },

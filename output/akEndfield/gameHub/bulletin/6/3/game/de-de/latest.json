@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "de-de",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:de-de",
-      "version": "5d5fc14cb0f6ae4f6b72828098e55e0c",
+      "version": "fed168c2be5d339054b39983f5aa4664",
       "onlineList": [
         {
           "cid": "9854",
@@ -113,6 +113,12 @@
         {
           "cid": "7284",
           "version": 1788228578,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "2107",
+          "version": 1791152975,
           "needRedDot": true,
           "needPopup": false
         },
@@ -220,7 +226,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1791334800,
+      "updatedAt": 1791343800,
       "list": [
         {
           "cid": "9854",
@@ -494,6 +500,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260831/70032ebc9fa0905786b4dced855c8727.jpg\" data-width=\"1650\" data-height=\"300\"><p>Lieber Endministrator,</p><p>während der Version [Traumlandschaft aus Wind und Schnee] werden im [Ankaufszentrum] verschiedene Pakete angeboten.</p><p><br></p><p><strong>▼// Limitierte Pakete</strong></p><p>■ Paket: Protokollfluss</p><p>· Verfügbarkeit: Während der gesamten Version [Traumlandschaft aus Wind und Schnee]</p><p>· Paketinhalt: [RK-Genehmigung: Priorisiert] ×10, [Waffenticket] ×2.000, [Mal der Beharrlichkeit] ×10</p><p>· Hinweis: Nur 1 Kauf in der aktuellen Version erlaubt</p><p><br></p><p>■ Paket: Winterjagd-RK</p><p>· Verfügbarkeit: Nach dem Versionsupdate der [Traumlandschaft aus Wind und Schnee] – 30. Sept. 2026 um 11:59 Uhr (Serverzeit)</p><p>· Paketinhalt: [„Befiederte Eisenspitze“-RK-Genehmigung] ×10, [T-Kreditscheine] ×80.000</p><p>· Hinweis: Nur 1 Kauf erlaubt</p><p><br></p><p>■ Preiswertes Waffenticket-Paket</p><p>· Verfügbarkeit: Während der gesamten Version [Traumlandschaft aus Wind und Schnee]</p><p>· Paketinhalt: [Waffenticket] ×2.000</p><p>· Hinweis: Nur 1 Kauf in der aktuellen Version erlaubt</p><p></p><p>※ Zeitzone des Asia-Servers: UTC+8</p><p>※ Zeitzone des Americas / Europe-Servers: UTC-5</p><p>※ Manche Pakete enthalten befristete Gegenstände. Details zu zeitlich begrenzten Gegenständen findest du unter [Kaufen – Gegenstandsinhalte]. Sollten zeitlich begrenzte Objekte in einem Paket nach dem Kauf verfallen, können diese nicht erneut ausgegeben werden. Vielen Dank für dein Verständnis und deine Unterstützung.</p><p>※ Weitere Pakete und Details findest du im Spiel unter [Ankaufszentrum – Pakete].</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "2107",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "rich_text",
+          "startAt": 1791343800,
+          "focus": 0,
+          "title": "Verstandsversorgung",
+          "header": "Verstandsversorgung",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260926/bd878f3121ddbf2038fdf927d7c75441.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Eventzeitraum:</strong></p><p>„Asia“-Server:</p><p>8. Oktober 2026 um 04:00 Uhr bis 15. Oktober 2026 um 04:00 Uhr (Serverzeit)</p><p><br></p><p>„Americas / Europe“-Server:</p><p>8. Oktober 2026 um 04:00 Uhr bis 14. Oktober 2026 um 17:00 Uhr (Serverzeit)</p><p><br></p><p><strong>▼// Event-Belohnungen</strong></p><p>Schließe während des Events jeden Tag bestimmte Missionen ab und erhalte: [Verstandsverstärker für den Notfall]×4 und [Verstandsverbrauch-Genehmigung]×8.</p><p><br></p><p><strong>▼// Teilnahmevoraussetzungen</strong></p><p>Abschluss der Hauptmission [Kapitel I Prozess II: Den Weg freimachen]</p><p><br></p><p><strong>▼// Eventdetails</strong></p><p>· Während des Events sind täglich 3 Verstandsversorgung-Missionen verfügbar. Schließe die Missionen ab, um Belohnungen zu erhalten.</p><p>· Verstandsversorgung-Missionen werden täglich um 04:00 Uhr (Serverzeit) aktualisiert. Bitte denk dran, deine Belohnungen rechtzeitig abzuholen.</p><p><br></p><p>※ Zeitzone des Asia-Servers: UTC+8</p><p>※ Zeitzone des Americas / Europe-Servers: UTC-5</p><p>※ Weitere Eventdetails findest du im [Eventcenter] im Spiel.</p>",
             "linkType": 1
           }
         },
