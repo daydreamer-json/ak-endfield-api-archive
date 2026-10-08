@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "de-de",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:de-de",
-      "version": "0e159037d54bb23d7cd2489ae7692925",
+      "version": "b1f215b27c7b6d9f205831a0535b3f81",
       "onlineList": [
         {
           "cid": "9854",
@@ -113,6 +113,12 @@
         {
           "cid": "7284",
           "version": 1788228578,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "0788",
+          "version": 1790763677,
           "needRedDot": true,
           "needPopup": false
         },
@@ -232,7 +238,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1791429406,
+      "updatedAt": 1791455400,
       "list": [
         {
           "cid": "9854",
@@ -506,6 +512,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260831/70032ebc9fa0905786b4dced855c8727.jpg\" data-width=\"1650\" data-height=\"300\"><p>Lieber Endministrator,</p><p>während der Version [Traumlandschaft aus Wind und Schnee] werden im [Ankaufszentrum] verschiedene Pakete angeboten.</p><p><br></p><p><strong>▼// Limitierte Pakete</strong></p><p>■ Paket: Protokollfluss</p><p>· Verfügbarkeit: Während der gesamten Version [Traumlandschaft aus Wind und Schnee]</p><p>· Paketinhalt: [RK-Genehmigung: Priorisiert] ×10, [Waffenticket] ×2.000, [Mal der Beharrlichkeit] ×10</p><p>· Hinweis: Nur 1 Kauf in der aktuellen Version erlaubt</p><p><br></p><p>■ Paket: Winterjagd-RK</p><p>· Verfügbarkeit: Nach dem Versionsupdate der [Traumlandschaft aus Wind und Schnee] – 30. Sept. 2026 um 11:59 Uhr (Serverzeit)</p><p>· Paketinhalt: [„Befiederte Eisenspitze“-RK-Genehmigung] ×10, [T-Kreditscheine] ×80.000</p><p>· Hinweis: Nur 1 Kauf erlaubt</p><p><br></p><p>■ Preiswertes Waffenticket-Paket</p><p>· Verfügbarkeit: Während der gesamten Version [Traumlandschaft aus Wind und Schnee]</p><p>· Paketinhalt: [Waffenticket] ×2.000</p><p>· Hinweis: Nur 1 Kauf in der aktuellen Version erlaubt</p><p></p><p>※ Zeitzone des Asia-Servers: UTC+8</p><p>※ Zeitzone des Americas / Europe-Servers: UTC-5</p><p>※ Manche Pakete enthalten befristete Gegenstände. Details zu zeitlich begrenzten Gegenständen findest du unter [Kaufen – Gegenstandsinhalte]. Sollten zeitlich begrenzte Objekte in einem Paket nach dem Kauf verfallen, können diese nicht erneut ausgegeben werden. Vielen Dank für dein Verständnis und deine Unterstützung.</p><p>※ Weitere Pakete und Details findest du im Spiel unter [Ankaufszentrum – Pakete].</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "0788",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1791455400,
+          "focus": 0,
+          "title": "Updates für das Discord-Spielstatistik-Widget",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260930/4cc876b229d28ed7db5382836ff0eeab.png",
+            "link": "https://endfield.gryphline.com/special/discord-binding",
             "linkType": 1
           }
         },

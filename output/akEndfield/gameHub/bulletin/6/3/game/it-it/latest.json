@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "it-it",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:it-it",
-      "version": "0e159037d54bb23d7cd2489ae7692925",
+      "version": "b1f215b27c7b6d9f205831a0535b3f81",
       "onlineList": [
         {
           "cid": "9854",
@@ -113,6 +113,12 @@
         {
           "cid": "7284",
           "version": 1788228578,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "0788",
+          "version": 1790763677,
           "needRedDot": true,
           "needPopup": false
         },
@@ -232,7 +238,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1791429406,
+      "updatedAt": 1791455400,
       "list": [
         {
           "cid": "9854",
@@ -506,6 +512,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260831/684a25d4869dfe65f820399d6e71438e.jpg\" data-width=\"1650\" data-height=\"300\"><p>Gentile Endministrator,</p><p>Durante la versione Paesaggio onirico di vento e neve, il Centro di acquisizione offrirà una varietà di pacchetti.</p><p><br></p><p><strong>▼// Pacchetti limitati</strong></p><p>■ Pacchetto Flusso protocollare</p><p>· Disponibilità: per tutta la durata della versione Paesaggio onirico di vento e neve</p><p>· Contenuto del pacchetto: 10 permessi CT certificata, 2.000 biglietti arsenale, 10 simboli di perseveranza</p><p>· Nota: in questa versione è consentito un solo acquisto</p><p><br></p><p>■ Pacchetto CT: Caccia invernale</p><p>· Disponibilità: dal rilascio della versione Paesaggio onirico di vento e neve al 30 settembre 2026 alle 11:59 (fuso orario del server)</p><p>· Contenuto del pacchetto: 10 permessi CT Freccia di ferro ordinaria, 80.000 Crediti-T</p><p>· Nota: è consentito un solo acquisto</p><p><br></p><p>■ Pacchetto di biglietti arsenale conveniente</p><p>· Disponibilità: per tutta la durata della versione Paesaggio onirico di vento e neve</p><p>· Contenuto del pacchetto: 2.000 biglietti arsenale</p><p>· Nota: in questa versione è consentito un solo acquisto</p><p><br></p><p>※ Fuso orario del Server Asia: UTC+8</p><p>※ Fuso orario del Server Americas / Europe: UTC-5</p><p>※ Alcuni pacchetti potrebbero includere oggetti a tempo limitato. Puoi ottenere ulteriori dettagli sugli oggetti a tempo limitato in Acquista &gt; Contenuti oggetto. Se gli oggetti a tempo limitato in un pacchetto scadono dopo l'acquisto, non potranno essere riemessi. Grazie per la comprensione e il sostegno.</p><p>※ Per maggiori informazioni sui pacchetti e il loro contenuto, vai alla sezione Pacchetti del Centro di acquisizione nel gioco.</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "0788",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1791455400,
+          "focus": 0,
+          "title": "Widget delle statistiche di Discord: novità",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260930/26c75811b3659f92b3be4348771ca37c.png",
+            "link": "https://endfield.gryphline.com/special/discord-binding",
             "linkType": 1
           }
         },

@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-cn",
-      "version": "d8835b203d9188b261ddf1265d60b91c",
+      "version": "e1198416e1926013e383195501f88957",
       "onlineList": [
         {
           "cid": "9854",
@@ -113,6 +113,12 @@
         {
           "cid": "7284",
           "version": 1788228578,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "0788",
+          "version": 1790763677,
           "needRedDot": true,
           "needPopup": false
         },
@@ -226,7 +232,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1791429406,
+      "updatedAt": 1791455400,
       "list": [
         {
           "cid": "9854",
@@ -500,6 +506,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260831/7c770277ae4e1017c404217f79fdc9b6.jpg\" data-width=\"1650\" data-height=\"300\"><p>亲爱的管理员：</p><p>「雪凇幽梦」版本期间，【采购中心】将上架各类组合包。</p><p><br></p><p><strong>▼//限时组合包</strong></p><p>■ 协议源流组合包</p><p>· 可购买时间：「雪凇幽梦」版本期间</p><p>· 组合包内容：【特许寻访凭证】×10、【武库配额】×2000、【存续的痕迹】×10</p><p>· 特殊说明：当前版本限购1次</p><p><br></p><p>■ 冬猎寻访组合包</p><p>· 可购买时间：「雪凇幽梦」版本更新后 - 2026/09/30 11:59（服务器时间）</p><p>· 组合包内容：【镞砺括羽寻访凭证】×10、【折金票】×80000</p><p>· 特殊说明：限购1次</p><p><br></p><p>■ 特惠武库配额包</p><p>· 可购买时间：「雪凇幽梦」版本期间</p><p>· 组合包内容：【武库配额】×2000</p><p>· 特殊说明：当前版本限购1次<br><br></p><p>※ Asia服务器时区：UTC+8</p><p>※ Americas / Europe服务器时区：UTC-5</p><p>※ 部分组合包可能含有限时道具。管理员可在【购买商品 - 商品内容】中查看限时道具的具体信息。如在购买组合包后，其中的限时道具因到期失效，将无法补发。感谢管理员的理解与支持。</p><p>※ 更多组合包及相关详细说明，请前往游戏内【采购中心 - 组合包】查看。</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "0788",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1791455400,
+          "focus": 0,
+          "title": "Discord游戏\\n统计小工具更新",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260930/06b4a3e4b5aedd4d53c659236a38d54d.png",
+            "link": "https://endfield.gryphline.com/special/discord-binding",
             "linkType": 1
           }
         },

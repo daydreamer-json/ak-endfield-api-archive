@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "en-us",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:en-us",
-      "version": "0e159037d54bb23d7cd2489ae7692925",
+      "version": "b1f215b27c7b6d9f205831a0535b3f81",
       "onlineList": [
         {
           "cid": "9854",
@@ -113,6 +113,12 @@
         {
           "cid": "7284",
           "version": 1788228578,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "0788",
+          "version": 1790763677,
           "needRedDot": true,
           "needPopup": false
         },
@@ -232,7 +238,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1791429406,
+      "updatedAt": 1791455400,
       "list": [
         {
           "cid": "9854",
@@ -506,6 +512,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260831/1e2ea607a8a870c9a79f5fbed4248580.jpg\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrator,</p><p>During the [Dreamscape of Wind and Snow] version, the [Acquisition Center] will offer a variety of bundles.</p><p><br></p><p><strong>▼// Limited Bundles</strong></p><p>■ Protocol Flow Bundle</p><p>· Availability: Throughout the [Dreamscape of Wind and Snow] version</p><p>· Bundle Contents: [Chartered HH Permit]×10, [Arsenal Ticket]×2000, [Mark of Perseverance]×10</p><p>· Special Note: Only 1 purchase allowed in current version</p><p><br></p><p>■ Winter Hunt HH Bundle</p><p>· Availability: After [Dreamscape of Wind and Snow] version update – Sept. 30, 2026 at 11:59 (server time)</p><p>· Bundle Contents: [Fletched Irontip HH Permit]×10, [T-Creds]×80000</p><p>· Special Note: Only 1 purchase allowed</p><p><br></p><p>■ Value Arsenal Ticket Pack</p><p>· Availability: Throughout the [Dreamscape of Wind and Snow] version</p><p>· Bundle Contents: [Arsenal Ticket]×2000</p><p>· Special Note: Only 1 purchase allowed in current version<br></p><p></p><p>※ Asia Server Time Zone: UTC+8</p><p>※ Americas / Europe Server Time Zone: UTC-5</p><p>※ Some bundles may include limited-time items. You can check the details of limited-time items in [Purchase - Item Contents]. If limited-time items in a bundle expire after purchase, they cannot be reissued. Thank you for your understanding and support.</p><p>※ For more bundles and their details, visit the in-game [Acquisition Center - Bundles].</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "0788",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1791455400,
+          "focus": 0,
+          "title": "Discord Game Stats Widget Updates",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20260930/c59770c616ba9f97c4a8822d496ca8b8.png",
+            "link": "https://endfield.gryphline.com/special/discord-binding",
             "linkType": 1
           }
         },
