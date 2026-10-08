@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "fr-fr",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:fr-fr",
-      "version": "5445b0d08f8646d4ae0dd4359b18cfc9",
+      "version": "29fa95f445ceeafcab7ac62632828dfc",
       "onlineList": [
         {
           "cid": "9854",
@@ -113,6 +113,12 @@
         {
           "cid": "7284",
           "version": 1788228578,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "4613",
+          "version": 1790756500,
           "needRedDot": true,
           "needPopup": false
         },
@@ -226,7 +232,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1791426600,
+      "updatedAt": 1791428400,
       "list": [
         {
           "cid": "9854",
@@ -500,6 +506,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260831/16d3528c8283bb1b5a27d2d325099244.jpg\" data-width=\"1650\" data-height=\"300\"><p>Endministrator,</p><p>Pendant la version [Monde onirique de neige et de vent], le [Centre d'acquisition] proposera divers lots.</p><p><br></p><p><strong>▼// Lots limités</strong></p><p>■ Lot de flux du Protocole</p><p>· Disponibilité : pendant toute la durée de la version [Monde onirique de neige et de vent]</p><p>· Contenu du lot : [Permis REC certifié] ×10, [Ticket de l'arsenal] ×2 000, [Marque de persévérance] ×10</p><p>· Remarque : 1 seul achat autorisé dans la version actuelle</p><p><br></p><p>■ Lot de REC Chasse hivernale</p><p>· Disponibilité : après la mise à jour de la version [Monde onirique de neige et de vent] — 30 septembre 2026 à 11 h 59 (heure du serveur)</p><p>· Contenu du lot : [Permis REC Pointe de fer empennée] ×10, [Crédits T] ×80 000</p><p>· Remarque : 1 seul achat autorisé</p><p><br></p><p>■ Pack de tickets de l'arsenal - éco</p><p>· Disponibilité : pendant toute la durée de la version [Monde onirique de neige et de vent]</p><p>· Contenu du lot : [Ticket de l'arsenal] ×2 000</p><p>· Remarque : 1 seul achat autorisé dans la version actuelle</p><p><br></p><p>※ Fuseau horaire du serveur Asia : UTC+8</p><p>※ Fuseau horaire du serveur Americas / Europe : UTC-5</p><p>※ Certains lots peuvent inclure des objets à durée limitée. Vous pouvez consulter les détails des objets à durée limitée dans [Achat — Contenu de l'article]. Si les objets à durée limitée d'un lot expirent après l'achat, ils ne pourront pas être réémis. Merci de votre compréhension et de votre soutien.</p><p>※ Pour plus de lots et de détails, visitez la section [Centre d'acquisition — Lots] en jeu.</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "4613",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "rich_text",
+          "startAt": 1791428400,
+          "focus": 0,
+          "title": "Missions accélérées disponibles",
+          "header": "[Pass de Protocole] Missions accélérées disponibles",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260925/2be302a20aedbcfca7936ed6cbcefa8b.jpg\" data-width=\"1650\" data-height=\"300\"><p>Endministrator, <br>Les missions accélérées du [Pass de Protocole] sont désormais disponibles. Terminez toutes les missions accélérées de la saison de Pass actuelle pour gagner une grande quantité d'EXP de Pass supplémentaire.<br><br><strong>▼// Disponibilité </strong><br>Du 8 octobre 2026 à 4 h (heure du serveur), jusqu'à la prochaine mise à jour de version et maintenance<br><br><strong>▼// Critères de participation </strong><br>Avoir terminé la mission principale [Chapitre I - Processus II : Ouvrir la voie].<br><br><strong>▼// Remarques spéciales </strong><br>Vous pouvez continuer à gagner de l'EXP de Pass, même après avoir atteint le niveau maximum du [Pass de Protocole]. Toute l'EXP de Pass gagnée au-delà de la limite sera accumulée et vous permettra d'obtenir un [Recyclage de caisses-à-surprises] en récompense. La caisse s'ouvrira automatiquement dès l'obtention et offrira une quantité aléatoire d'[orobéryls], de [matériaux de progression] et de [permis d'utilisation de lucidité] en récompense.<br><br>※ Fuseau horaire du serveur Asia : UTC+8 <br>※ Fuseau horaire du serveur Americas / Europe : UTC-5 <br>※ Pour plus de détails concernant les règles, rendez-vous sur le [Pass de Protocole] en jeu et consultez les [Détails sur le Pass de Protocole].<br></p>",
             "linkType": 1
           }
         },

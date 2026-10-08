@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-tw",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-tw",
-      "version": "5445b0d08f8646d4ae0dd4359b18cfc9",
+      "version": "29fa95f445ceeafcab7ac62632828dfc",
       "onlineList": [
         {
           "cid": "9854",
@@ -113,6 +113,12 @@
         {
           "cid": "7284",
           "version": 1788228578,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "4613",
+          "version": 1790756500,
           "needRedDot": true,
           "needPopup": false
         },
@@ -226,7 +232,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1791426600,
+      "updatedAt": 1791428400,
       "list": [
         {
           "cid": "9854",
@@ -500,6 +506,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260831/41b4c6b2b6dd56c77d9abdfc2a8ca716.jpg\" data-width=\"1650\" data-height=\"300\"><p>親愛的管理員：</p><p>「雪淞幽夢」版本期間，【採購中心】將上架各類組合包。</p><p><br></p><p><strong>▼//限時組合包</strong></p><p>■ 協議源流組合包</p><p>· 可購買時間：「雪淞幽夢」版本期間</p><p>· 組合包內容：【特許尋訪憑證】×10、【武庫配額】×2000、【存續的痕跡】×10</p><p>· 特殊說明：目前版本限購1次</p><p><br></p><p>■ 冬獵尋訪組合包</p><p>· 可購買時間：「雪淞幽夢」版本更新後 ~ 2026/09/30 11:59（伺服器時間）</p><p>· 組合包內容：【鏃礪括羽尋訪憑證】×10、【折金票】×80000</p><p>· 特殊說明：限購1次</p><p><br></p><p>■ 特惠武庫配額包</p><p>· 可購買時間：「雪淞幽夢」版本期間</p><p>· 組合包內容：【武庫配額】×2000</p><p>· 特殊說明：目前版本限購1次<br></p><p><br></p><p>※ Asia伺服器時區：UTC+8</p><p>※ Americas / Europe伺服器時區：UTC-5</p><p>※ 部分組合包可能含有限時道具。管理員可在【購買商品 - 商品內容】中查看限時道具的詳細資訊。如在購買組合包後，其中的限時道具因到期失效，將無法補發。感謝管理員的理解與支持。</p><p>※ 更多組合包及相關詳細說明，請前往遊戲內【採購中心 - 組合包】查看。</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "4613",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "rich_text",
+          "startAt": 1791428400,
+          "focus": 0,
+          "title": "加速任務開啟",
+          "header": "「協議通行證」加速任務開啟提醒",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260925/3382c199a5dc29750cc714ad2e41fd4d.jpg\" data-width=\"1650\" data-height=\"300\"><p>親愛的管理員：<br>「協議通行證」加速任務現已開啟，完成當期所有加速任務可額外獲得大量通行證經驗。<br><br><strong>▼//開放時間</strong><br>2026/10/08 04:00（伺服器時間） ~ 版本更新維護前<br><br><strong>▼//開放條件</strong><br>完成主線任務「第一章 - 進度II - 開拓前路」<br><br><strong>▼//特殊說明</strong><br>若「協議通行證」達到等級上限，仍可繼續獲得通行證經驗。超出等級上限的通行證經驗可累積以獲得【循環驚喜箱】獎勵。【循環驚喜箱】將在獲得時自動開啟，固定包含一份隨機【嵌晶玉】獎勵、一份隨機【培養材料】獎勵和一份隨機【理智消耗許可】獎勵。<br><br>※ Asia伺服器時區：UTC+8<br>※ Americas / Europe伺服器時區：UTC-5<br>※ 更多詳細規則，請前往遊戲內【通行證】查看【協議通行證說明】。<br></p>",
             "linkType": 1
           }
         },

@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "id-id",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:id-id",
-      "version": "5445b0d08f8646d4ae0dd4359b18cfc9",
+      "version": "29fa95f445ceeafcab7ac62632828dfc",
       "onlineList": [
         {
           "cid": "9854",
@@ -113,6 +113,12 @@
         {
           "cid": "7284",
           "version": 1788228578,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "4613",
+          "version": 1790756500,
           "needRedDot": true,
           "needPopup": false
         },
@@ -226,7 +232,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1791426600,
+      "updatedAt": 1791428400,
       "list": [
         {
           "cid": "9854",
@@ -500,6 +506,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260831/582054c8a41b3e2cefe5153ef00b23d8.jpg\" data-width=\"1650\" data-height=\"300\"><p>Halo, Endministrator,</p><p>Selama versi [Dimensi Mimpi Angin dan Salju], [Pusat Akuisisi] akan menawarkan berbagai bundel.</p><p><br></p><p><strong>▼// Bundel Terbatas</strong></p><p>■ Bundel Aliran Protokol</p><p>· Ketersediaan: Sepanjang versi [Dimensi Mimpi Angin dan Salju]</p><p>· Isi Bundel: [Surat Izin HH Khusus]×10, [Tiket Senjata]×2000, [Tanda Kegigihan]×10</p><p>· Catatan Khusus: Hanya dapat dibeli 1 kali pada versi saat ini</p><p><br></p><p>■ Bundel HH Perburuan Musim Dingin</p><p>· Ketersediaan: Setelah pembaruan versi [Dimensi Mimpi Angin dan Salju] hingga 30 September 2026 pukul 11.59 (waktu server)</p><p>· Isi Bundel: [Surat Izin HH Mata Panah Besi Bersirip]×10, [T-Cred]×80000</p><p>· Catatan Khusus: Hanya dapat dibeli 1 kali</p><p><br></p><p>■ Paket Tiket Senjata Hemat</p><p>· Ketersediaan: Sepanjang versi [Dimensi Mimpi Angin dan Salju]</p><p>· Isi Bundel: [Tiket Senjata]×2000</p><p>· Catatan Khusus: Hanya dapat dibeli 1 kali pada versi saat ini<br><br></p><p>※ Zona Waktu Server Asia: UTC+8</p><p>※ Zona Waktu Server Americas / Europe: UTC-5</p><p>※ Beberapa bundel mungkin berisi item berbatas waktu. Kamu dapat memeriksa detail item berbatas waktu di [Pembelian - Isi Item]. Jika item berbatas waktu dalam sebuah bundel kedaluwarsa setelah dibeli, item tersebut tidak dapat diberikan ulang. Terima kasih atas pengertian dan dukungan kamu.</p><p>※ Untuk melihat bundel lainnya beserta detailnya, kunjungi [Pusat Akuisisi - Bundel] dalam game.</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "4613",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "rich_text",
+          "startAt": 1791428400,
+          "focus": 0,
+          "title": "Misi Percepatan Kini Tersedia",
+          "header": "Misi Percepatan [Tiket Akses Protokol] Kini Tersedia",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260925/311c1eeef8f374dfaee187bd8a3336ab.jpg\" data-width=\"1650\" data-height=\"300\"><p>Kepada Endministrator, <br>[Tiket Akses Protokol] Misi Percepatan kini telah tersedia. Selesaikan seluruh Misi Percepatan pada musim tiket akses saat ini untuk memperoleh banyak EXP Tiket Akses tambahan.<br><br><strong>▼// Ketersediaan </strong><br>8 Oktober 2026, 04.00 (waktu server) – Sebelum pembaruan versi dan pemeliharaan<br><br><strong>▼// Kriteria Partisipasi </strong><br>Selesaikan misi utama [Bab I Proses II: Membuka Jalan]<br><br><strong>▼// Catatan Khusus </strong><br>Kamu bisa terus memperoleh EXP Tiket Akses meskipun level [Tiket Akses Protokol] telah mencapai batas maksimum. EXP Tiket Akses yang melampaui batas maksimum akan diakumulasikan untuk memberikan [Kerat Kejutan Siklus] sebagai imbalan. Kerat ini akan terbuka secara otomatis setelah diperoleh dan memberikan hadiah [Oroberyl] acak, imbalan [Material Progresi] acak, dan imbalan [Izin Penggunaan Sanity] acak.<br><br>※ Zona Waktu Server Asia: UTC+8 <br>※ Waktu Server Americas/Europe: UTC-5 <br>※ Untuk aturan lebih lanjut, kunjungi [Tiket Akses Protokol] di dalam game dan periksa [Detail Tiket Akses Protokol].<br></p>",
             "linkType": 1
           }
         },

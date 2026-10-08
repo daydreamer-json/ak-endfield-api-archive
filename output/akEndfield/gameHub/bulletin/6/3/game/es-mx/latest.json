@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "es-mx",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:es-mx",
-      "version": "5445b0d08f8646d4ae0dd4359b18cfc9",
+      "version": "29fa95f445ceeafcab7ac62632828dfc",
       "onlineList": [
         {
           "cid": "9854",
@@ -113,6 +113,12 @@
         {
           "cid": "7284",
           "version": 1788228578,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "4613",
+          "version": 1790756500,
           "needRedDot": true,
           "needPopup": false
         },
@@ -226,7 +232,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1791426600,
+      "updatedAt": 1791428400,
       "list": [
         {
           "cid": "9854",
@@ -500,6 +506,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260831/41fc10f788ffeb8012c01da6767d03e9.jpg\" data-width=\"1650\" data-height=\"300\"><p>Endministrator:</p><p>Durante la versión [Paisaje onírico de Viento y Nieve], el [Centro de adquisición] ofrecerá una variedad de paquetes.</p><p><br></p><p><strong>▼// Paquetes limitados</strong></p><p>■ Paquete de flujo de protocolo</p><p>· Disponibilidad: durante toda la versión [Paisaje onírico de Viento y Nieve]</p><p>· Contenido del paquete: [Permiso de C.R. certificada]×10, [Boleto de Arsenal]×2000, [Marca de perseverancia]×10</p><p>· Nota especial: Solo se permite 1 compra en la versión actual</p><p><br></p><p>■ Paquete de C.R. de Cacería invernal</p><p>· Disponibilidad: desde la actualización de la versión [Paisaje onírico de Viento y Nieve] hasta el 30 de septiembre de 2026 a las 11:59 (hora del servidor)</p><p>· Contenido del paquete: [Permiso de C.R. de Punta de hierro emplumada]×10, [T-Creds]×80 000</p><p>· Nota especial: Solo se permite 1 compra</p><p><br></p><p>■ Paquete eco de Boletos de Arsenal</p><p>· Disponibilidad: durante toda la versión [Paisaje onírico de Viento y Nieve]</p><p>· Contenido del paquete: [Boleto de Arsenal]×2000</p><p>· Nota especial: Solo se permite 1 compra en la versión actual</p><p><br></p><p>※ Zona horaria del servidor Asia: UTC+8</p><p>※ Zona horaria del servidor Americas / Europe: UTC-5</p><p>※ Algunos paquetes pueden incluir objetos por tiempo limitado. Puedes consultar los detalles de los objetos por tiempo limitado en la sección [Compra - Contenido de objetos]. Si los objetos por tiempo limitado de un paquete caducan tras la compra, no se volverán a emitir. Gracias por tu comprensión y apoyo.</p><p>※ Para obtener información sobre otros paquetes, visita la sección [Centro de adquisición - Paquetes] en el juego.</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "4613",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "rich_text",
+          "startAt": 1791428400,
+          "focus": 0,
+          "title": "Ya están disponibles las misiones de aceleración",
+          "header": "Ya están disponibles las misiones de aceleración",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260925/e10d6a95d90ccf80ecc261f47c0d1d71.jpg\" data-width=\"1650\" data-height=\"300\"><p>Hola, Endministrator: <br>Las misiones de aceleración de [Pase de protocolo] ya están disponibles. Completa todas las misiones de aceleración de la temporada actual del pase para ganar mucha EXP del Pase adicional.<br><br><strong>▼// Disponibilidad </strong><br>Desde el 8 de octubre de 2026 a las 04:00 (hora del servidor) hasta antes de la actualización de la versión y del mantenimiento<br><br><strong>▼// Criterios de participación </strong><br>Completa la misión principal [Capítulo I Proceso II: Pavimentando el camino]<br><strong><br>▼// Notas especiales </strong><br>Puedes seguir ganando EXP del Pase aún después de alcanzar el nivel máximo del [Pase de protocolo]. Cualquier EXP del Pase por encima del límite se acumulará para otorgar [Cajas sorpresa cíclicas] como recompensa. La caja se abre automáticamente tras recibirse y otorga una recompensa aleatoria de [Oroberilio], una recompensa aleatoria de [material de progresión] y una recompensa aleatoria de [Permiso de uso de Cordura].<br><br>※ Zona horaria del servidor Asia: UTC+8 <br>※ Zona horaria del servidor Americas / Europe: UTC-5 <br>※ Para conocer las reglas en detalle, visita [Pase de protocolo] en el juego y consulta [Detalles del Pase de protocolo].<br></p>",
             "linkType": 1
           }
         },

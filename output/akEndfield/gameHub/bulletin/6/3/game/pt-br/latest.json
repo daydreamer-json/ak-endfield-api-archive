@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "pt-br",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:pt-br",
-      "version": "5445b0d08f8646d4ae0dd4359b18cfc9",
+      "version": "29fa95f445ceeafcab7ac62632828dfc",
       "onlineList": [
         {
           "cid": "9854",
@@ -113,6 +113,12 @@
         {
           "cid": "7284",
           "version": 1788228578,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "4613",
+          "version": 1790756500,
           "needRedDot": true,
           "needPopup": false
         },
@@ -226,7 +232,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1791426600,
+      "updatedAt": 1791428400,
       "list": [
         {
           "cid": "9854",
@@ -500,6 +506,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260831/f06610da88c0fdd8b4e2146db2b17508.jpg\" data-width=\"1650\" data-height=\"300\"><p>Endministrator,</p><p>Durante a versão [Sonho de Vento e Neve], o [Centro de Aquisições] oferecerá uma variedade de pacotes.</p><p><br></p><p><strong>▼// Pacotes limitados</strong></p><p>■ Pacote Fluxo do Protocolo</p><p>· Disponibilidade: durante toda a versão [Sonho de Vento e Neve]</p><p>· Conteúdo do pacote: [Permissão para CT Privilegiada]×10, [Tíquete do Arsenal]×2000, [Marca da Perseverança]×10</p><p>· Observação especial: apenas 1 compra permitida na versão atual</p><p><br></p><p>■ Pacote CT Caçada de Inverno</p><p>· Disponibilidade: após a atualização da versão [Sonho de Vento e Neve] – 30 de setembro de 2026, às 11:59 (horário do servidor)</p><p>· Conteúdo do pacote: [Permissão para CT Ponta de Ferro Emplumada]×10, [T-Creds]×80000</p><p>· Observação especial: apenas 1 compra permitida</p><p><br></p><p>■ Pacote Tíquete do Arsenal Promo</p><p>· Disponibilidade: durante toda a versão [Sonho de Vento e Neve]</p><p>· Conteúdo do pacote: [Tíquete do Arsenal]×2000</p><p>· Observação especial: apenas 1 compra permitida na versão atual</p><p><br></p><p>※ Fuso horário do servidor Asia: UTC+8</p><p>※ Fuso horário do servidor Americas / Europe: UTC-5</p><p>※ Alguns pacotes podem incluir itens por tempo limitado. Você pode conferir os detalhes dos itens por tempo limitado em [Compra — Conteúdo do Item]. Se os itens por tempo limitado em um pacote expirarem após a compra, eles não poderão ser reemitidos. Obrigado pela sua compreensão e apoio.</p><p>※ Para mais pacotes e detalhes sobre eles, acesse [Centro de Aquisições — Pacotes] no jogo.</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "4613",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "rich_text",
+          "startAt": 1791428400,
+          "focus": 0,
+          "title": "Missões Aceleradas Já Disponíveis",
+          "header": "Missões Aceleradas do [Passe do Protocolo] Já Disponíveis",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260925/4f947bc9150759ce6e6aedfcb568af81.jpg\" data-width=\"1650\" data-height=\"300\"><p>Endministrator: <br>As Missões Aceleradas de [Passe do Protocolo] já estão disponíveis. Conclua todas as Missões Aceleradas na temporada atual do passe para ganhar bastante EXP de Passe adicional.<br><br><strong>▼// Disponibilidade </strong><br>8 de outubro de 2026, às 04:00 (horário do servidor) – Antes da atualização de versão e manutenção<br><br><strong>▼// Critérios de Participação </strong><br>Conclua a missão principal [Capítulo I Processo II: Pavimentando o Caminho].<br><br><strong>▼// Observações Especiais </strong><br>Você pode continuar ganhando EXP de Passe mesmo depois de maximizar o nível do [Passe do Protocolo]. Qualquer EXP de Passe que ultrapassar o limite será acumulada para conceder [Caixote de Surpresas Cíclico]. O caixote se abre automaticamente ao ser recebido e sempre concede uma recompensa aleatória de [Ourubis], uma de [Material de Progressão] e outra de [Permissão para Uso de Sanidade].<br><br>※ Fuso Horário do Servidor Asia: UTC+8 <br>※ Fuso Horário do Servidor Americas / Europe: UTC-5 <br>※ Para ver regras detalhadas, acesse o [Passe do Protocolo] no jogo e confira a seção [Detalhes do Passe do Protocolo].<br></p>",
             "linkType": 1
           }
         },
