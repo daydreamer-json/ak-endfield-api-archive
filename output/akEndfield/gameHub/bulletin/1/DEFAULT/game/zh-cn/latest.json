@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:#DEFAULT:1:#DEFAULT:zh-cn",
-      "version": "424e4cda42b10175fe75e72ee263a3ab",
+      "version": "f312a50a09920996da1bb5d758b38b6f",
       "onlineList": [
         {
           "cid": "6415",
@@ -29,6 +29,12 @@
         {
           "cid": "3024",
           "version": 1791533588,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "5509",
+          "version": 1792031844,
           "needRedDot": true,
           "needPopup": false
         },
@@ -154,7 +160,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1792076400,
+      "updatedAt": 1792080000,
       "list": [
         {
           "cid": "6415",
@@ -188,6 +194,24 @@
           "data": {
             "url": "https://web.hycdn.cn/upload/image/20261009/0558fc0d8b6c8f433614d2cec0cc8bde.png",
             "link": "https://comic.hypergryph.com/talos-ii-historicus/comic/6251",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "5509",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "picture",
+          "startAt": 1792080000,
+          "focus": 0,
+          "title": "森空岛10月\\n签到开启",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web.hycdn.cn/upload/image/20261015/61a9064b8123a286ce8d3e81d830a9ee.jpg",
+            "link": "https://bbs.hycdn.cn/u-link/download.html?schema=skland%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fgame.skland.com%252Fendfield%252Fsign-in%253Fheader%253D0%2526hg_media%253Dendfield%2526hg_link_campaign%253Dannouncement",
             "linkType": 1
           }
         },
