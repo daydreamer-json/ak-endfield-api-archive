@@ -18,8 +18,14 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-tw",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-tw",
-      "version": "8d2147c5242ef7fcdb5762cce6ef702d",
+      "version": "26997e5da9952947285c29ee672f591d",
       "onlineList": [
+        {
+          "cid": "8941",
+          "version": 1792071377,
+          "needRedDot": false,
+          "needPopup": false
+        },
         {
           "cid": "3037",
           "version": 1791977934,
@@ -166,8 +172,25 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1792070710,
+      "updatedAt": 1792076400,
       "list": [
+        {
+          "cid": "8941",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1792076400,
+          "focus": 0,
+          "title": "已知問題說明",
+          "header": "「丹青渡」版本已知問題說明",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261015/835953c6eb0d288955727c9006189bf3.png\" data-width=\"1650\" data-height=\"300\"><p>親愛的管理員：<br>為了協助各位管理員更順利地體驗遊戲內容，現將已知問題進行彙整。在遊戲過程中，如管理員遇到相同問題，請參考對應的解決方式進行處理。<br><br>▼//遊戲已知問題</p><p>· 已知在特定情況下，「武陵 - 祀的畫」區域的NPC【湯湯】狀態異常，導致支線任務「前緣再續」無法被正常接取的問題。如遇該問題，可在完成支線任務「泉中客·其二」與「泉中客·其三」後，重新嘗試接取該任務。</p><p><br><span style=\"color: rgb(0, 0, 0);\">目前我們已定位該問題並將盡快修復，由此帶來的不便深表歉意。</span><span style=\"color: rgb(31, 35, 41);\">如遇到其他問題，還請管理員透過聯絡遊戲內客服等方式回報。再次感謝管理員對《明日方舟：終末地》一直以來的關注與支持！</span></p>",
+            "linkType": 1
+          }
+        },
         {
           "cid": "3037",
           "type": 0,

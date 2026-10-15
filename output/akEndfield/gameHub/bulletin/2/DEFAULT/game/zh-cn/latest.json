@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:#DEFAULT:2:#DEFAULT:zh-cn",
-      "version": "d381ec451e25997faf8d21ba89634e23",
+      "version": "1ec45387dbbde0d2df81be74967dfe83",
       "onlineList": [
         {
           "cid": "6415",
@@ -29,6 +29,12 @@
         {
           "cid": "3024",
           "version": 1791533588,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "8932",
+          "version": 1792068536,
           "needRedDot": true,
           "needPopup": false
         },
@@ -136,7 +142,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1792031159,
+      "updatedAt": 1792076400,
       "list": [
         {
           "cid": "6415",
@@ -170,6 +176,23 @@
           "data": {
             "url": "https://web.hycdn.cn/upload/image/20261009/0558fc0d8b6c8f433614d2cec0cc8bde.png",
             "link": "https://comic.hypergryph.com/talos-ii-historicus/comic/6251",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "8932",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1792076400,
+          "focus": 1,
+          "title": "已知问题说明",
+          "header": "「丹青渡」版本已知问题说明",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web.hycdn.cn/upload/image/20260122/6f4ae6db85baee40c80ed1ef09ed8af0.png\" data-width=\"1650\" data-height=\"300\"><p>亲爱的管理员：</p><p>为了帮助各位管理员更顺利地体验游戏内容，现将已知问题进行汇总。在游戏过程中，如管理员遇到相同问题，请您参考对应的解决方式进行处理。</p><p></p><p><strong>▼//游戏已知问题</strong></p><p>· 已知特定情况下，「武陵 - 祀的画」区域的NPC【汤汤】状态异常，导致支线任务「前缘再续」无法被正常接取的问题。如遇该问题，可在完成支线任务「泉中客·其二」与「泉中客·其三」后，重新尝试接取该任务。</p><p></p><p>上述已知问题我们已定位并将尽快修复，期间带来的不便我们深表歉意。如遇到其他问题，还请管理员通过游戏内客服等方式提供反馈。再次感谢管理员对《明日方舟：终末地》一直以来的关注与支持！</p>",
             "linkType": 1
           }
         },

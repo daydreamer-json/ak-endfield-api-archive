@@ -18,8 +18,14 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-cn",
-      "version": "91103e5eeae62976cc592661139c37d8",
+      "version": "7063c24be233d2c5929d74abc18b634e",
       "onlineList": [
+        {
+          "cid": "8941",
+          "version": 1792071377,
+          "needRedDot": false,
+          "needPopup": false
+        },
         {
           "cid": "3037",
           "version": 1791977934,
@@ -160,8 +166,25 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1792070710,
+      "updatedAt": 1792076400,
       "list": [
+        {
+          "cid": "8941",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1792076400,
+          "focus": 0,
+          "title": "已知问题说明",
+          "header": "「丹青渡」版本已知问题说明",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261015/6eba1a620a8d9f6f70c68d07d77a1329.png\" data-width=\"1650\" data-height=\"300\"><p>亲爱的管理员：<br>为了帮助各位管理员更顺利地体验游戏内容，现将已知问题进行汇总。在游戏过程中，如管理员遇到相同问题，请您参考对应的解决方式进行处理。<br><br>▼//游戏已知问题</p><p>· 已知特定情况下，「武陵 - 祀的画」区域的NPC【汤汤】状态异常，导致支线任务「前缘再续」无法被正常接取的问题。如遇该问题，可在完成支线任务「泉中客·其二」与「泉中客·其三」后，重新尝试接取该任务。</p><p></p><p><span style=\"color: rgb(31, 35, 41);\">目前我们已定位该问题并将尽快修复，由此带来的不便深表歉意。如遇到其他问题，还请管理员通过游戏内客服等方式提供反馈。再次感谢管理员对《明日方舟：终末地》一直以来的关注与支持！</span></p>",
+            "linkType": 1
+          }
+        },
         {
           "cid": "3037",
           "type": 0,
