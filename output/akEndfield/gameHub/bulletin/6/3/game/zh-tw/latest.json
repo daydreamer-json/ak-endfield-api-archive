@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-tw",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-tw",
-      "version": "e4180b96778a7fef3404c3bee4944d98",
+      "version": "6ed5e554aca0a93f1d8fd21b8a351a61",
       "onlineList": [
         {
           "cid": "3037",
@@ -70,7 +70,7 @@
         },
         {
           "cid": "7271",
-          "version": 1790592928,
+          "version": 1792041104,
           "needRedDot": false,
           "needPopup": false
         },
@@ -160,7 +160,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1792036800,
+      "updatedAt": 1792041105,
       "list": [
         {
           "cid": "3037",
@@ -309,12 +309,13 @@
           "displayType": "picture",
           "startAt": 1792036800,
           "focus": 0,
+          "extraData": {},
           "title": "官方儲值網站\\n現已上線",
           "header": "",
           "jumpButton": null,
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260928/0a4d77f9a90b2a5457d15518c1c48daf.png",
-            "link": "https://topup.gryphline.com/endfield?u8_token={u8_token}&server={server}",
+            "link": "https://topup.gryphline.com/endfield?u8_token={u8_token}&server_id={server}",
             "linkType": 1
           }
         },

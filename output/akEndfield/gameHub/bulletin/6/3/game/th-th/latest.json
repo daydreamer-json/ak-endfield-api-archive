@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "th-th",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:th-th",
-      "version": "db61e9bea7bae72cbc652d2ff5502460",
+      "version": "73d96fad2f4181a20ea6fdc672c27758",
       "onlineList": [
         {
           "cid": "3037",
@@ -70,7 +70,7 @@
         },
         {
           "cid": "7271",
-          "version": 1790592928,
+          "version": 1792041104,
           "needRedDot": false,
           "needPopup": false
         },
@@ -154,7 +154,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1792036800,
+      "updatedAt": 1792041105,
       "list": [
         {
           "cid": "3037",
@@ -303,12 +303,13 @@
           "displayType": "picture",
           "startAt": 1792036800,
           "focus": 0,
+          "extraData": {},
           "title": "เว็บไซต์เติมเงินทางการเปิดให้บริการแล้ว",
           "header": "",
           "jumpButton": null,
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260928/0c556759033afffca2878b48638f8b6f.png",
-            "link": "https://topup.gryphline.com/endfield?u8_token={u8_token}&server={server}",
+            "link": "https://topup.gryphline.com/endfield?u8_token={u8_token}&server_id={server}",
             "linkType": 1
           }
         },

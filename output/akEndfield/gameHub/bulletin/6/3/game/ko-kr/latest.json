@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "ko-kr",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ko-kr",
-      "version": "945419228831178b71755ec09b0290a3",
+      "version": "8f0ee033c5beba94c4ae86475c845ff1",
       "onlineList": [
         {
           "cid": "1307",
@@ -76,7 +76,7 @@
         },
         {
           "cid": "7271",
-          "version": 1790592928,
+          "version": 1792041104,
           "needRedDot": false,
           "needPopup": false
         },
@@ -166,7 +166,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1792036800,
+      "updatedAt": 1792041105,
       "list": [
         {
           "cid": "1307",
@@ -333,12 +333,13 @@
           "displayType": "picture",
           "startAt": 1792036800,
           "focus": 0,
+          "extraData": {},
           "title": "공식 충전 사이트 오픈",
           "header": "",
           "jumpButton": null,
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260928/659d4780d22841bacedf35924ddf81f5.png",
-            "link": "https://topup.gryphline.com/endfield?u8_token={u8_token}&server={server}",
+            "link": "https://topup.gryphline.com/endfield?u8_token={u8_token}&server_id={server}",
             "linkType": 1
           }
         },
