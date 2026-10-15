@@ -124226,5 +124226,501 @@
       },
       "msg": ""
     }
+  },
+  {
+    "updatedAt": "2026-10-15T02:03:47.693+00:00",
+    "req": {
+      "channel": 6,
+      "server": 3,
+      "type": 0,
+      "lang": "zh-cn",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "code": 0,
+      "data": {
+        "topicCid": "0093",
+        "type": 0,
+        "platform": "Windows",
+        "server": "3",
+        "channel": "#DEFAULT",
+        "subChannel": "#DEFAULT",
+        "lang": "zh-cn",
+        "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-cn",
+        "version": "eca06d6bdb24b94bb685c9bc797d2a22",
+        "onlineList": [
+          {
+            "cid": "2194",
+            "version": 1791977778,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "9854",
+            "version": 1791152945,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "7279",
+            "version": 1792027171,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "5510",
+            "version": 1791972303,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "9853",
+            "version": 1791948920,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "3036",
+            "version": 1791978536,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1362",
+            "version": 1791970442,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "0798",
+            "version": 1790756562,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "2195",
+            "version": 1791971185,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "3038",
+            "version": 1791884841,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "0788",
+            "version": 1790763677,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "3039",
+            "version": 1790763494,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "8945",
+            "version": 1790591542,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "0787",
+            "version": 1791970448,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "8998",
+            "version": 1769005692,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "4604",
+            "version": 1792026949,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6472",
+            "version": 1769044240,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6474",
+            "version": 1769005934,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "3080",
+            "version": 1782469292,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "7222",
+            "version": 1782469106,
+            "needRedDot": true,
+            "needPopup": false
+          }
+        ],
+        "popupVersion": 0,
+        "updatedAt": 1792029600,
+        "list": [
+          {
+            "cid": "2194",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1792026000,
+            "focus": 0,
+            "title": "版本更新说明",
+            "header": "「丹青渡」版本更新说明",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261014/929988df24cc9667044a026f41ac9575.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">秋景现，丹青垂，渡过千般崎岖，万种嶙峋。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">亲爱的管理员：</span></p><p><span style=\"color: rgb(0, 0, 0);\">欢迎来到全新版本「丹青渡」！</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//更新维护及补偿说明</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 更新维护时间</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Asia服务器：2026/10/15 06:00 - 2026/10/15 12:00（UTC+8）</span></p><p><span style=\"color: rgb(0, 0, 0);\">Americas / Europe服务器：2026/10/14 17:00 - 2026/10/14 23:00 (UTC-5)</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ 维护后的开服时间存在提前或延迟的可能，详情请关注官方公告。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 更新维护及问题修复补偿说明</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 更新维护补偿内容：【嵌晶玉】×900</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 问题修复补偿内容：【嵌晶玉】×900</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 发放时间：更新维护后 - 下次版本更新维护前</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 发放条件：更新前创建角色</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 发放说明：更新维护补偿及问题修复补偿将在解锁【邮箱】功能后，通过游戏内邮件分两封发放，邮件将于下次版本更新维护时过期，请注意及时领取。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 更新说明</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">本次更新为强制更新，更新结束后，需重新下载并安装游戏客户端。版本更新维护开始后，管理员可依照游戏内指引进行更新。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· iOS：进入App Store，点击更新。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 安卓：进入游戏后，按照游戏内弹窗提示完成更新。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· PlayStation®5：打开系统界面，选择《明日方舟：终末地》，按下控制器“选项（OPTIONS）键”，选择“检查更新”选项，确认更新。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· PC：关闭游戏后，重启鹰角启动器并点击更新。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>※ 「丹青渡」版本更新后，部分更新内容将随时间及管理员的探索进度逐一解锁，实际更新内容请以游戏内为准。</strong></span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//版本全新内容</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 全新剧情</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1. 主线任务</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">开放至「第二章 - 进程Ⅷ - 着新墨」。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2. 探索任务</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">「奇闻满地跑」「后目的地」「开画大吉」「农植自动化改造」</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>3. 支线任务</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">「归野」「无终之恋」「前缘再续」「纪念日」「缘缘庄经营·其一」「缘缘庄经营·其二」「缘缘庄经营·其三」</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 全新干员</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">6星干员【祀】【明河】</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 全新武器</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">6星武器【玉中身（双手剑）】【唤月（单手剑）】【悠久传承（双手剑）】【聚合工业（单手剑）】</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 全新敌人</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">「存禄」「用奇」「解燥」「行度」等</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 全新区域</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">「武陵 - 祀的画」</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 全新寻访及申领</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1.「万物更新」特许寻访</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 开放时间：「丹青渡」版本更新后 - 2026/11/05 11:59（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 寻访说明：「万物更新」特许寻访中，6星干员【祀】获取概率提升，全部可能出现的6星干员包括：祀/提弗洛斯/梨诺/余烬/黎风/艾尔黛拉/别礼/骏卫。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 特许寻访开放期间，还将开放6星干员【祀】的「作战演练」干员试用活动。使用包含试用干员的固定队伍体验指定关卡，完成后可前往【活动中心】界面领取【嵌晶玉】×100、【武库防具箱】及【存续的痕迹】等奖励。其中，【武库防具箱】内包含较为适配当期试用干员的特殊满精锻60级套组装备。【集成配额交易】中也新增【万物有灵寻访凭证】的特惠兑换，最多可兑换【万物有灵寻访凭证】×5。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2.「篆玉申领」开放</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 开放时间：「丹青渡」版本更新后开启，于3次「特许寻访」后结束（从「万物更新」起计算）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 申领说明：「篆玉申领」中，概率提升的6星武器为【玉中身（双手剑）】，全部可能出现的6星武器包括：玉中身（双手剑）/昔日精品（双手剑）/楔子（手铳）/J.E.T.（长柄武器）/骑士精神（施术单元）/破碎君王（双手剑）/显赫声名（单手剑）。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>3.「祖泉的新流」重构寻访#1</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 开放时间：2026/10/29 12:00 - 2026/11/19 11:59（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 寻访说明：「祖泉的新流」重构寻访#1中，6星干员【汤汤】获取概率提升，全部可能出现的6星干员包括：汤汤/余烬/黎风/艾尔黛拉/别礼/骏卫。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>4.「细枝申领」重构申领#1开放</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 开放时间：2026/10/29 12:00 - 2026/11/19 11:59（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 申领说明：「细枝申领」重构申领#1中，概率提升的6星武器为【落草（手铳）】，全部可能出现的6星武器包括：落草（手铳）/同类相食（手铳）/楔子（手铳）/骑士精神（施术单元）/热熔切割器（单手剑）/破碎君王（双手剑）/J.E.T.（长柄武器）。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>5.「烟火邀星河」特许寻访</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 开放时间：2026/11/05 12:00（服务器时间） - 版本更新维护前</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 寻访说明：「烟火邀星河」特许寻访中，6星干员【明河】获取概率提升，全部可能出现的6星干员包括：明河/祀/提弗洛斯/余烬/黎风/艾尔黛拉/别礼/骏卫。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 特许寻访开放期间，还将开放6星干员【明河】的「作战演练」干员试用活动。使用包含试用干员的固定队伍体验指定关卡，完成后可前往【活动中心】界面领取【嵌晶玉】×100、【武库防具箱】及【存续的痕迹】等奖励。其中，【武库防具箱】内包含较为适配当期试用干员的特殊满精锻60级套组装备。【集成配额交易】中也新增【星河共我寻访凭证】的特惠兑换，最多可兑换【星河共我寻访凭证】×5。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>6.「月映申领」开放</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 开放时间：2026/11/05 12:00（服务器时间）开启，于3次「特许寻访」后结束（从「烟火邀星河」起计算）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 申领说明：「月映申领」中，概率提升的6星武器为【唤月（单手剑）】，全部可能出现的6星武器包括：唤月（单手剑）/热熔切割器（单手剑）/白夜新星（单手剑）/骁勇（长柄武器）/遗忘（施术单元）/同类相食（手铳）/典范（双手剑）。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ 更多寻访及申领的详细说明，请前往游戏内查看。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 全新活动</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1.「烟火生缘」趣味活动</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动时间：「丹青渡」版本更新后 - 版本更新维护前</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动内容更新时间：2026/10/22 04:00（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动说明：前往「武陵」地区的「祀的画」区域，经营「缘缘庄客栈」，完成相应的经营任务，提升经营里程，即可领取【嵌晶玉】×1000、【存续的痕迹】等奖励。</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ 「烟火生缘」趣味活动结束后，将无法完成经营任务或领取对应奖励，但仍可游玩「缘缘庄客栈」，获取经营里程阶段奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2.「万物有灵」签到活动</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动时间：「丹青渡」版本更新后 - 2026/11/05 11:59（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动说明：累计签到7日，即可获得【万物有灵寻访凭证】×5等奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>3.「墨分诸彩」引入活动</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动时间：「丹青渡」版本更新后 - 2026/11/05 12:00（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动说明：前往「武陵」地区的「祀的画」区域完成指定任务，即可领取【嵌晶玉】×1200、【存续的痕迹】活动奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>4.「卡莉的芳菲童话」拍照活动</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动时间：2026/10/22 12:00 - 2026/11/05 04:00（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动说明：完成拍照任务，即可获得【嵌晶玉】×1500、【头像框·卡莉的芳菲集】、【存续的痕迹】等活动奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>5.「危机筹备」限时活动</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动时间：2026/10/29 04:00 - 2026/11/05 04:00（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动说明：活动期间，每日完成指定任务即可获得【理智消耗许可】【应急理智加强剂】【武陵精锻助剂】及【冷却脂】活动奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>6.「百趣演武」挑战活动</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动时间：2026/10/29 12:00 - 2026/11/19 04:00（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动内容更新时间：2026/11/11 04:00（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动说明：活动期间挑战「百趣演武」，获取演武积分，达到演武历程中的全部档位，即可获得【嵌晶玉】×1200、【存续的痕迹】等活动奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>7.「予众魂的新光影」趣味活动</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动时间：2026/10/31 12:00 - 2026/11/14 04:00（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动说明：前往网页活动，通过搭配演员与道具完成故事拍摄，解锁不同结局，可领取【嵌晶玉】×300、【折金票】活动奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>8.「归野」叙事活动</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动时间：2026/11/05 12:00（服务器时间） - 版本更新维护前</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动说明：完成支线任务「归野」，可获得【嵌晶玉】×600、【初级认知载体】等奖励。</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ 叙事活动的活动页面下线后，若满足任务参与条件，仍可在【任务】中继续体验该支线任务并获得对应奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>9.「星河共我」签到活动</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动时间：2026/11/05 12:00（服务器时间） - 版本更新维护前</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动说明：累计签到7日，即可获得【星河共我寻访凭证】×5等奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>10.「危机合约 浸蓝测试作战」挑战活动</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动开放时间：2026/11/05 12:00（服务器时间） - 版本更新维护前</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动内容更新时间：2026/11/12 12:00（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 「机密圣所」开放时间：2026/11/05 12:00 - 2026/12/03 04:00（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动说明：活动期间，通过自由选择指标组合完成战斗挑战，达成活动任务目标可获得【头像·白刃的奖章】【头像框·危机响应】及【晶化硬币·浸蓝】奖励。消耗【晶化硬币·浸蓝】可在「机密圣所」中兑换【嵌晶玉】×2000、【贴纸·除危记号】【高阶培养自选箱Ⅱ】等丰富奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>11.「理智补给」限时活动</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动时间：</span></p><p><span style=\"color: rgb(0, 0, 0);\">Asia服务器：</span></p><p><span style=\"color: rgb(0, 0, 0);\">2026/11/19 04:00 - 2026/11/26 04:00（服务器时间）</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Americas / Europe服务器：</span></p><p><span style=\"color: rgb(0, 0, 0);\">2026/11/19 04:00 - 2026/11/25 17:00（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动说明：活动期间，每日完成指定任务即可领取理智补给奖励【理智消耗许可】及【应急理智加强剂】。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 活动及玩法更新</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1.「战争回响」常驻挑战玩法更新</strong></span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>○「异想赛季」</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 赛季更新：「丹青渡」版本更新后 - 2026/11/05 11:59（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 更新说明：全新赛季「异想赛季」开放，该赛季分为3个轮换周期，每个轮换周期包含3个关卡。「异想赛季」新增3个关卡，完成所有新增关卡的普通难度即可领取【嵌晶玉】×300等奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>○「狂热赛季」</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 赛季更新：2026/11/05 12:00（服务器时间） - 版本更新维护前</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 更新说明：全新赛季「狂热赛季」开放，该赛季分为3个轮换周期，每个轮换周期包含3个关卡。「狂热赛季」新增3个关卡，完成所有新增关卡的普通难度即可领取【嵌晶玉】×300等奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2.「影拓丰碑」挑战玩法更新，开放「深林呓语」系列关卡</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 开放时间：2026/10/22 12:00（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 更新说明：本次「影拓丰碑」挑战玩法开放1个新系列「深林呓语」，包含4个关卡。完成全部关卡挑战，累计可获得【存续的痕迹】【高级认知载体】【武器检查套组】【协议棱柱组】等奖励。</span></p><p><span style=\"color: rgb(0, 0, 0);\">同时，玩法更新后还将同步开放「丰碑留名·魇林」限时挑战活动</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动时间：2026/10/22 12:00 - 2026/11/05 04:00（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动说明：「深林呓语」系列开放后，将开启「丰碑留名·魇林」限时活动。活动期间在「影拓丰碑」完成对应挑战，即可领取【嵌晶玉】×1200、【高阶培养自选箱Ⅱ】等活动奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>3.「密境行者」空间组更新</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 更新时间：2026/11/12 12:00（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 更新说明：「密境行者」解谜活动将更新新空间组「画外遗光」，率先开放3个协议空间，并在2026/11/19 04:00（服务器时间）开放后续3个协议空间。完成该空间组挑战，累计可领取【嵌晶玉】×1200、【存续的痕迹】等活动奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ 更多活动及玩法内容请关注后续官方公告。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 采购中心更新</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 开放「协议通行证·墨卷」，「丹青渡」版本期间，管理员可在「协议通行证」中获得武库工程师列出的各类支援项目。每期协议通行证开启时，将默认解锁「基础配给」。提升通行证等级，可获得【基础寻访凭证】【嵌晶玉】【兑换惊喜箱】【培养素材】等奖励。其中，奖励【高阶培养自选箱Ⅰ】更改为【高阶培养自选箱Ⅱ】，并追加可选择的培养素材【跃迁浆体涂片】。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 【采购中心 - 组合包】新增【奇妙视线收藏包】【协议源流组合包】【万象寻访组合包】【天河寻访组合包】；【特惠武库配额包】可购买次数更新。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ 更多组合包及相关详细说明，请前往游戏内【采购中心 - 组合包】查看。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 集成工业系统</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 「武陵」地区建设等级上限提升；「武陵 - 应龙关」物资调度终端等级上限提升；「武陵物资调度」中新增部分可兑换物资。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 新增【自动农植机】：解锁【自动农植机】后，可以对「祀的画」中的种植区进行自动育苗和自动收获。随着相关剧情推进，「武陵城」中的种植区也可使用【自动农植机】。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 战斗系统</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 新增连携技优先级设置：可在【编队】界面调整干员连携技优先级；局内同一时点触发多个连携技时，将按所设优先级依次施放。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 新增第六、第七小队：管理员可在编队界面配置并保存更多小队阵容。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 系统</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 新增【装备方案】功能：可保存多套装备方案并自定义命名，便于按编队需求为干员快速切换装备。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 新增限时理智药剂到期自动使用功能：限时理智药剂到期时将自动转化为理智；超出理智上限的部分，将通过【理智萃取器】转化为不限时的【理智精粹药剂】。若理智已达上限，且【理智精粹药剂】已达持有上限或无可用【理智萃取器】，剩余的限时理智药剂将被销毁。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 新增舱室班组功能：每个舱室最多可设置 A、B 两个班组，支持手动【启用班组】或【自动轮换】；请注意，若班组预计工时不足以覆盖所分配工作时段，舱室生产有概率中断。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 其他</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 新增部分【干员教学】【能量淤积点】【危境再现】【NPC】【蚀刻章】【名片主题】【头像】【头像框】【滤镜】【贴纸】【消耗品】【材料】【理智药剂】【百科条目】【情报档案】【随身装置】【装饰物品】【唱片】【拍照动作】【地区醚质提交阶段】等内容，将随管理员的进度逐渐解锁。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 装备套组【50式应龙】【脉冲式】【长息】【涉渊】【集成实训】新增部分装备部件。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 新增珍贵培养素材【跃迁浆体涂片】。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//优化与调整</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 任务</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 优化了「自由开拓」任务的显示逻辑：当仍有未完成的紧要任务时，将不再显示「自由开拓」；待其余紧要任务全部完成后，将自动显示。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 优化了探索任务「往日珍瑰」接取的指引和方式。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 战斗</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 调整了6星干员【汤汤】终结技的技能描述，将“汤汤揭开眼罩，释放眼中的古老图形封锁范围内的敌人，使其暂停行动一段时间”调整为“汤汤揭开眼罩，释放眼中的古老图形对范围内的敌人施加一段时间的定身”。【定身】的效果为“持续时间内，受影响的目标暂停行动”。本次仅调整文本描述，调整前后均不影响该技能的实际效果。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 优化了索敌操作：战斗中长按锁定键将出现准星，可旋转镜头瞄准敌人；松开后锁定距离准星最近的敌人。原有锁定与切换锁定功能仍可正常使用。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 优化了6星干员【梨诺】作为非主控干员施放战技与终结技时的震动表现。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 活动及玩法</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 优化了使用移动端设备体验时，玩法「选剑演武」的抽牌动画表现。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 语音语言及音效</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 优化了游戏语音为中文时，「O.M.V.帝江号」中，特定NPC的配音表现。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 优化了游戏语音为英语时，部分配音的表现。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 集成工业系统</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 优化了设备放置体验：放置设备时，只要背包或任意仓库中已有该设备，或仓库内材料足以制造该设备，即可直接放置。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 优化了种植体验：种植区支持【俯瞰模式】，田块支持密集排布；在【施肥模式】中可开启辅助施肥并设置辅助模式，选择肥料进行施肥后，小队内其他干员将消耗对应肥料完成施肥。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 优化了种植区地图标记，支持查看种植区整体状态及【自动农植机】相关信息。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 优化了装备精锻流程：【请选择待消耗物品】界面新增【待制造】分页，将自动筛选可作为精锻消耗的装备，支持调整数量或一键填充，无需跳转页面即可完成装备制造并将其用于精锻。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 优化了线索收取与赠予的体验：在【总控事项】中，好友赠予的线索也可一键收取并填入。同时还可将重复线索一键赠予需要该线索的好友。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 优化了拜访好友时的体验：拜访好友飞船时，可通过【快速拜访】或快捷键直接前往下一位好友的飞船。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 优化了干员展示的效果：【好友列表】与【个人名片】中，6星满潜能干员新增展示效果；在帝江号内走动时，6星满潜能干员也将呈现相应满潜能特效。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 优化了拍照贴纸的效果：支持缩放与旋转、同时放置多个贴纸，并可一键删除全部已放置贴纸。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 优化了手柄操作适配的体验：针对养成、运送委托及关卡结算等场景进行了适配，涵盖【干员 - 总览】【干员 - 能力扩延】【干员 - 档案】【武器 - 潜能】【地区建设 - 仓储节点】等界面。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 其他</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 调整了敌人【徘徊树傀】在百科中的怪物类型显示，由「精英敌人」调整为「进阶敌人」。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 优化了部分场景细节表现：落叶会随干员移动、技能释放或场景风力产生飘动。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 优化了特定情况下，部分干员的模型、服饰、特效、动作、镜头等的表现。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 优化了特定情况下，部分NPC、敌方等的模型、服饰、特效、动作、镜头等的表现。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 优化了特定情况下，部分场景、武器、关卡等的模型、动效、特效、动画等的表现。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 优化了部分界面的显示效果、特效表现、交互逻辑、文本描述。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//问题修复</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 任务</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 修复了特定情况下，支线任务「终其一生」中部分敌人消失，导致无法正常推进任务的问题。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 战斗</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 修复了通过特定方式进入「协议空间」时，动效表现异常的问题。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 修复了通过特定操作进行闪避时，干员有概率坠落悬崖的问题。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 修复了特定情况下，6星干员【庄方宜】开启终结技后退出副本时，终结技能量未正确继承进入副本时状态的问题。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 系统</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 修复了特定情况下，传送后交互选项异常残留的问题。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 修复了特定情况下，地图缩放功能异常的问题。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 修复了特定情况下，地图标记点显示异常的问题。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 修复了特定情况下，主界面倒计时异常残留的问题。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 修复了特定情况下，主界面功能入口排列顺序异常的问题。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 其他</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 修复了6星武器【艺术暴君（手铳）】模型中，部分装饰文本显示异常的问题。</span></p><p></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "9854",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1791288000,
+            "focus": 0,
+            "title": "新版本导览",
+            "header": "「丹青渡」新版本导览专题网页上线说明",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260930/1ffd97d17b96d8739096a6e6449ada64.png\" data-width=\"1650\" data-height=\"300\"><p>「丹青渡」新版本导览专题网页上线，一站式查阅新版本内容，浏览即可领取【嵌晶玉】×1000、【折金票】×10000、【初级认知载体】×8、【武器检查套组】×4。</p><p><br></p><p><strong>▼//网页入口链接</strong></p><p>管理员可通过下方链接进入新版本导览专题网页。</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://endfield.gryphline.com/version_briefing/latest?source_from=notice\">&gt;&gt;点击前往</a></p><p><br></p><p><strong>▼//网页上线时间</strong></p><p>· 新版本导览专题网页自2026/10/06 20:00（UTC+8）起长期可浏览，内容将随游戏版本替换。</p><p>· 每期新版本导览专题网页的展示时间为对应版本前瞻预告节目播出后，至下一版本前瞻预告节目结束前。</p><p><br></p><p><strong>▼//奖励领取条件</strong></p><p>· 在新版本导览专题网页中登录游戏账号，并在《明日方舟：终末地》内完成创建角色。</p><p><br></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//奖励领取说明</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">· 奖励领取期限：「丹青渡」新版本导览专题网页上线后，至「丹青渡」版本更新维护前，可在该页面点击领取奖励。</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 在奖励领取期限内，新版本导览专题网页中将展示奖励领取按钮；超过该期限后，按钮将不再展示，且无法领取当期奖励。</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 成功在新版本导览专题网页领取奖励后，相应奖励将发放至当前登录账号的角色邮箱。</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 同一期新版本导览奖励，每个游戏账号仅可获取一次。</span></p><p><br></p><p>※ 更多详细说明，请前往网页内查看。</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7279",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 2,
+            "displayType": "picture",
+            "startAt": 1792029600,
+            "focus": 0,
+            "title": "WhatsApp\\n账号绑定",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261014/c36d2aa22da06523dfebfb4310ca1dea.jpg",
+              "link": "https://endfield.gryphline.com/special/whatsapp-bind?u8_token={u8_token}&server={server}",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "5510",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 2,
+            "displayType": "rich_text",
+            "startAt": 1792018800,
+            "focus": 0,
+            "title": "协议通行证\\n墨卷",
+            "header": "「协议通行证·墨卷」说明",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261014/10f0cc6dcd47daf8715dadd4f4ec8826.png\" data-width=\"1650\" data-height=\"300\"><p>亲爱的管理员：<br>「协议通行证·墨卷」开放期间，您可在「协议通行证」中获得武库工程师列出的各类支援项目。每期协议通行证开启时，将默认解锁「基础配给」。提升通行证等级，可获得【基础寻访凭证】【嵌晶玉】【兑换惊喜箱】【培养素材】等奖励。<br>使用【衍质源石】解锁「源石配给」后，还可额外获得【基础寻访凭证】【贴纸·线形墨魉】【滤镜·武陵印象】，以及【武器补给·墨卷】【衍质源石】【应急理智加强剂】等奖励。<br>购买「协议定制」后，还可额外获得【名片·自有意气向云流】【头像框·墨峦】【头像·龙的简约线条】，此外，还可额外获得【武器补给·墨卷】【武库配额】【协议化武器原型】等奖励。<br><br><strong>▼//开放时间</strong><br>「丹青渡」版本期间<br><br><strong>▼//开放条件</strong><br>完成主线任务「第一章 - 进程Ⅰ - 基地解围」<br><br><strong>▼//通行证说明</strong><br>· 「协议通行证」开启时，将默认解锁「基础配给」档位。管理员可购买「协议定制」或通过消耗【衍质源石】解锁「源石配给」，以解锁更丰富的奖励与通行证经验获取加成。<br>· 每一期「协议通行证」的「源石配给」和「协议定制」分别包含一个【武器补给】，获得并开启后可从当期「协议通行证」定制的6星武器中，任选其一获取。【协议化武器原型】可为所有协议通行证的【武器补给】所包含的武器提升潜能。<br>· 可通过完成各类通行证任务（部分任务会在满足相应条件时或在一定时间后逐步释出），或在【行动手册 - 日常任务】中领取活跃度达到上限时的奖励，以获取通行证经验，提升通行证等级，从而获得「协议通行证」中的各种奖励。<br>· 解锁「源石配给」或「协议定制」后，若「协议通行证」达到等级上限，仍可继续获取通行证经验。超出等级上限的通行证经验可累积以获得【循环惊喜箱】奖励。【循环惊喜箱】将在获取时自动开启，固定包含一份随机【嵌晶玉】奖励、一份随机【培养素材】奖励和一份随机【理智消耗许可】奖励。<br>· 若已解锁当期协议通行证的「源石配给」或「协议定制」，则获取通行证经验时，可分别获得3%的额外经验加成。两档经验加成可累加，最高可获得6%的额外经验加成。<br>· 如因特殊情况导致过量购买「协议定制」，「协议定制」奖励不会叠加，同时根据购买价格返还对应数量的【衍质源石】。<br>· 当期「协议通行证」结束后，若存在未领取的等级奖励，该奖励将通过邮件发送至邮箱。<br><br>※ Asia服务器时区：UTC+8<br>※ Americas / Europe服务器时区：UTC-5<br>※ 更多详细规则，请前往游戏内【通行证】查看【协议通行证说明】。<br></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "9853",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 2,
+            "displayType": "rich_text",
+            "startAt": 1792018800,
+            "focus": 0,
+            "title": "「丹青渡」\\n版本日历",
+            "header": "「丹青渡」版本日历",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261013/8adb8ee5d23dd8b0b3145c070fafb170.jpg\" data-width=\"1920\" data-height=\"3601\"><p></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "3036",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1792018800,
+            "focus": 0,
+            "title": "丹青渡\\n组合包",
+            "header": "「丹青渡」组合包说明",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261014/a61f9fc245b97eb4dde536533713fa2b.png\" data-width=\"1650\" data-height=\"300\"><p>亲爱的管理员：<br>「丹青渡」版本期间，【采购中心】将上架各类组合包。</p><p><br><strong>▼//限时组合包</strong><br>■ 奇妙视线收藏包<br>· 可购买时间：「丹青渡」版本期间<br>· 组合包内容：【特许寻访凭证】×1、【贴纸·严肃凝视】×1、【贴纸·哦吼……】×1、【贴纸·左右看看】×1<br>· 特殊说明：限购1次<br><br>■ 协议源流组合包<br>· 可购买时间：「丹青渡」版本期间<br>· 组合包内容：【特许寻访凭证】×10、【武库配额】×2000、【存续的痕迹】×10<br>· 特殊说明：当前版本限购1次<br><br>■ 万象寻访组合包<br>· 可购买时间：「丹青渡」版本更新后 - 2026/11/05 11:59（服务器时间）<br>· 组合包内容：【万物有灵寻访凭证】×10、【折金票】×80000<br>· 特殊说明：限购1次<br><br>■ 天河寻访组合包<br>· 可购买时间：2026/11/05 12:00（服务器时间） - 版本更新维护前<br>· 组合包内容：【星河共我寻访凭证】×10、【折金票】×80000<br>· 特殊说明：限购1次<br><br>■ 特惠武库配额包<br>· 组合包内容：【武库配额】×2000<br>· 特殊说明：限购1次，随「特许寻访」的更新而更新限购次数<br><br>※ Asia服务器时区：UTC+8<br>※ Americas / Europe服务器时区：UTC-5<br>※ 部分组合包可能含有限时道具。管理员可在【购买商品 - 商品内容】中查看限时道具的具体信息。如在购买组合包后，其中的限时道具因到期失效，将无法补发。感谢管理员的理解与支持。<br>※ 更多组合包及相关详细说明，请前往游戏内【采购中心 - 组合包】查看。<br></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1362",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1792018800,
+            "focus": 0,
+            "title": "万物更新\\n特许寻访",
+            "header": "「万物更新」特许寻访",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261013/4aecb8b0646268c07144fc5a0acc42bf.jpg\" data-width=\"1650\" data-height=\"300\"><p>亲爱的管理员：</p><p>「万物更新」特许寻访开放期间，6星干员【祀】获取概率提升！</p><p>「万物有灵」限时签到活动同步开放，累计签到可获得【万物有灵寻访凭证】×5等奖励，还可在【集成配额交易】中进行【万物有灵寻访凭证】的特惠兑换。同时，开放「作战演练」干员试用活动。</p><p><br></p><p><strong>▼//「万物更新」特许寻访说明</strong></p><p>· 开放时间：「丹青渡」版本更新后 - 2026/11/05 11:59（服务器时间）</p><p>· 开放条件：完成主线任务「第一章 - 进程Ⅰ - 基地解围」</p><p>· 「万物更新」特许寻访中，概率提升的6星干员为【祀】。</p><p>· 「万物更新」特许寻访中，全部可能出现的6星干员包括：祀/提弗洛斯/梨诺/余烬/黎风/艾尔黛拉/别礼/骏卫。</p><p>· 「万物更新」特许寻访中，可使用【万物有灵寻访凭证】【特许寻访凭证】或【嵌晶玉】进行寻访。</p><p>※ 在「特许寻访」中概率提升的6星干员，将于3次「特许寻访」结束后，移出「特许寻访」全部可能出现的干员列表。移出后，概率提升的6星干员不会进入「基础寻访」。</p><p><br></p><p><strong>▼//「特许寻访」奖励</strong></p><p>在「万物更新」特许寻访中，累计达到指定寻访次数，即可获得对应奖励。</p><p><br></p><p>■ 加急招募</p><p>· 累计寻访30次，将额外获得10次加急招募（即1次免费十连），仅在本次「特许寻访」期间生效，不会保留到其他寻访。</p><p>· 加急招募的干员获取概率与本次「特许寻访」的基础概率一致，加急招募所赠送的十连必定能通过保底获取5星或以上干员。</p><p>· 加急招募所赠送的免费十连，其抽取结果将不计入本次或其他「特许寻访」保底计数，也不会累加至「特许寻访」奖励所需的累计寻访次数中。</p><p>■ 寻访情报书</p><p>· 累计寻访60次，将额外获得【寻访情报书】×1。</p><p>· 【寻访情报书】在满足条件后将自动发放至贵重品库。在下一次「特许寻访」开启后，【寻访情报书】将自动转化为对应「特许寻访」的专有寻访凭证×10，此寻访凭证将在对应寻访结束后失效。</p><p>■ 信物赠礼</p><p>· 在每次「特许寻访」中，每累计寻访240次，将额外获得【该寻访中概率提升的6星干员的信物】×1。</p><p><br></p><p><strong>▼//武库配额说明</strong></p><p>每次通过寻访获取干员的同时，还会获得【武库配额】。</p><p>· 获取6星干员时，获得【武库配额】×2000。</p><p>· 获取5星干员时，获得【武库配额】×200。</p><p>· 获取4星干员时，获得【武库配额】×20。</p><p>※ 【武库配额】可在【采购中心 - 武库交易所】中使用。</p><p><br></p><p>「万物更新」特许寻访开放期间，还将同步开放如下内容：</p><p><strong>▼//「万物有灵」限时签到活动</strong></p><p>累计签到7日，即可获得【万物有灵寻访凭证】×5等奖励。</p><p><br></p><p><strong>▼//「作战演练」干员试用活动</strong></p><p>开放6星干员【祀】的「作战演练」干员试用活动。使用包含试用干员的固定队伍体验指定关卡，完成后可领取【嵌晶玉】×100、【武库防具箱】及【存续的痕迹】等奖励。其中，【武库防具箱】内包含较为适配当期试用干员的特殊满精锻60级套组装备。</p><p><br></p><p><strong>▼//【集成配额交易】特别说明</strong></p><p>【配额兑换所】限时开放特惠物品购买，可消耗集成配额购买【万物有灵寻访凭证】×5等物品。</p><p><br></p><p>※Asia服务器时区: UTC+8</p><p>※Americas / Europe服务器时区: UTC-5</p><p>※ 更多寻访详细说明，请前往游戏内【干员寻访】查看。</p><p>※ 更多活动详细说明，请前往游戏内【活动中心】查看。</p><p>※ 【集成配额交易】详细说明，请前往游戏内【采购中心】查看。</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "0798",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1791086400,
+            "focus": 0,
+            "title": "影拓丰碑\\n系列更新",
+            "header": "「影拓丰碑 - 幽影刻形」",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260925/cfb8011589139628661df0860e19ded9.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//开放时间</strong><br>2026/10/05 12:00（服务器时间）开启，系列开启后常驻开放<br><br><strong>▼//玩法奖励</strong><br>「影拓丰碑 - 幽影刻形」开放期间，完成全部关卡挑战，累计可获得【存续的痕迹】【高级认知载体】【武器检查套组】【协议棱柱组】等奖励。<br><br><strong>▼//开放条件</strong><br>· 完成主线任务「第一章 - 进程Ⅱ - 开拓前路」<br>· 权限等阶≥30级<br><br><strong>▼//玩法说明</strong><br>· 本次「影拓丰碑」挑战玩法更新系列「幽影刻形」，包含4个关卡。<br>· 关卡包含普通模式及苦难模式，通关普通模式将解锁苦难模式。苦难模式下，关卡难度会有明显提高。<br>· 通关当前系列普通模式的全部关卡后，即可获得该系列蚀刻章；通关该系列苦难模式的全部关卡，即可对该系列蚀刻章进行镀层。<br><br><strong>▼//「丰碑留名·刻影」限时挑战活动</strong><br>· 活动时间：2026/10/05 12:00 - 2026/10/19 04:00（服务器时间）<br>· 活动说明：「影拓丰碑 - 幽影刻形」系列开放后，将开启「丰碑留名·刻影」限时活动。活动期间在「影拓丰碑」完成对应挑战，即可领取「丰碑留名·刻影」活动奖励。<br><br>※Asia服务器时区：UTC+8<br>※Americas / Europe服务器时区：UTC-5<br>※ 更多活动详细说明，请前往游戏内【活动中心】查看。<br></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "2195",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "rich_text",
+            "startAt": 1792018800,
+            "focus": 0,
+            "title": "篆玉申领",
+            "header": "「篆玉申领」限时特卖说明",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261014/78a43a250eb442d9bbe9bd43c1fb8d1d.png\" data-width=\"1650\" data-height=\"300\"><p>亲爱的管理员：</p><p>「篆玉申领」开放期间，6星武器【玉中身（双手剑）】获取概率提升！</p><p><br></p><p><strong>▼//「篆玉申领」</strong></p><p>· 开放时间：「丹青渡」版本更新后开启，于3次「特许寻访」后结束（从「万物更新」起计算）</p><p>· 开放条件：完成主线任务「第一章 - 进程Ⅰ - 基地解围」</p><p>· 「篆玉申领」中，概率提升的6星武器为【玉中身（双手剑）】。</p><p>· 「篆玉申领」中，全部可能出现的6星武器包括：玉中身（双手剑）/昔日精品（双手剑）/楔子（手铳）/J.E.T.（长柄武器）/骑士精神（施术单元）/破碎君王（双手剑）/显赫声名（单手剑）。</p><p><br></p><p><strong>▼//「武库申领」奖励</strong></p><p>在每个「武库申领」中，累计达到指定申领次数，即可交替获得「武库申领」对应的【补充武库箱】或【概率提升的6星武器】。武库申领奖励计数会在每个「武库申领」关闭时清零，不会继承到其他的「武库申领」中。</p><p><br></p><p><strong>▼//「武库申领」说明</strong></p><p>· 在「武库申领」中，可使用【武库配额】进行申领。</p><p>· 每申领1次，可随机获得全部可能出现的武器列表中的10件武器，其中必定包含5星或以上武器。</p><p><br></p><p><strong>▼//「武库交易所」说明</strong></p><p>「武库交易所」中，可使用「武库配额」直接购买武器。部分可购买武器将不定期更新，具体内容请以【采购中心 - 武库交易所】界面显示为准。</p><p><br></p><p>※ 更多详细说明及奖励规则，请前往游戏内【采购中心 - 武库交易所】查看。</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "3038",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "rich_text",
+            "startAt": 1792018800,
+            "focus": 0,
+            "title": "战争回响\\n异想赛季",
+            "header": "「战争回响 - 异想赛季」赛季更新说明",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261013/0de2ee274f1cad303297fc42ff5d7da2.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//赛季时间</strong></p><p>「丹青渡」版本更新后 - 2026/11/05 11:59（服务器时间）</p><p></p><p><strong>▼//参与条件</strong></p><p>· 权限等阶≥40级</p><p>· 完成主线任务「第一章 - 进程Ⅱ - 开拓前路」</p><p></p><p><strong>▼//赛季更新说明</strong></p><p>全新赛季「异想赛季」开放，新增3个全新关卡。本赛季分为3个轮换周期，每个轮换周期包含3个关卡。</p><p></p><p><span style=\"color: rgb(31, 35, 41);\">※ Asia服务器时区：UTC+8</span></p><p><span style=\"color: rgb(31, 35, 41);\">※ Americas / Europe服务器时区：UTC-5</span></p><p>※ 更多详细说明，请前往游戏内【活动中心】查看。</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "0788",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1791455400,
+            "focus": 0,
+            "title": "Discord游戏\\n统计小工具更新",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260930/06b4a3e4b5aedd4d53c659236a38d54d.png",
+              "link": "https://endfield.gryphline.com/special/discord-binding",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "3039",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "rich_text",
+            "startAt": 1791334800,
+            "focus": 0,
+            "title": "Steam愿望单\\n里程碑达成",
+            "header": "Steam愿望单里程碑达成",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260930/93f3e8dc486a6d982fe8050d3a8d427a.png\" data-width=\"1650\" data-height=\"300\"><p>亲爱的管理员：</p><p>感谢大家一直以来的支持，《明日方舟：终末地》Steam 愿望单已正式突破 300,000！与此同时，我们也正式宣布《明日方舟：终末地》将于 10 月 15 日 正式登陆 Steam！</p><p>所有管理员均可成功解锁最终奖励——特殊纪念头像框，以及此前各阶段的所有里程碑奖励。</p><p></p><p>▼//兑换码</p><p>ENDFIELDSTEAM</p><p></p><p>▼//奖励内容</p><p>· 折金票 ×8,000</p><p>· 初级认知载体 ×2</p><p>· 武器检查套组 ×2</p><p>· 特殊纪念头像框 ×1</p><p></p><p>▼//兑换时间</p><p>Asia服务器：2026/10/6 19:30 - 2026/11/25 23:59 （UTC+8）</p><p>Americas / Europe服务器：2026/10/6 06:30 - 2026/11/25 10:59（UTC-5）</p><p></p><p>如果你还没有将《明日方舟：终末地》加入 Steam 愿望单，点击链接赶快行动吧：<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://store.steampowered.com/app/4732690/\">https://store.steampowered.com/app/4732690/</a></p><p>也别忘了加入我们的 Discord，与其他管理员一起交流！<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://discord.gg/akendfield\">https://discord.gg/akendfield</a></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8945",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1790827200,
+            "focus": 0,
+            "title": "每日签到",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260928/695791e6615250d4ff3cf8619d3f5781.png",
+              "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fstatic.skport.com%252Fu-link%252Fdownload.html%253Fschema%253Dskport%25253A%25252F%25252Fweb%25253Furl%25253Dhttps%2525253A%2525252F%2525252Fgame.skport.com%2525252Fendfield%2525252Fsign-in%2525253Fheader%2525253D0%25252526hg_media%2525253Dgame%25252526hg_link_campaign%2525253Dannouncement%25252526hg_link_name%2525253Dsignin",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "0787",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 5,
+            "displayType": "rich_text",
+            "startAt": 1792018800,
+            "focus": 0,
+            "title": "烟火生缘",
+            "header": "「烟火生缘」趣味活动",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261013/77fd2ba8f660847345b508b7258d7516.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//活动时间</strong></p><p>「丹青渡」版本更新后 - 版本更新维护前</p><p>· 活动阶段1开放时间：「丹青渡」版本更新后</p><p>· 活动阶段2开放时间：2026/10/22 04:00（服务器时间）</p><p><br></p><p><strong>▼//活动奖励</strong></p><p>活动期间，经营缘缘庄客栈，可获得【嵌晶玉】×1000、【高阶培养自选箱Ⅱ】、【高级认知载体】、【存续的痕迹】、【折金票】、【协议圆盘组】等奖励。</p><p><br></p><p><strong>▼//参与条件</strong></p><p>· 在支线任务「开画大吉」中，完成「经营客栈」。</p><p>· 完成主线任务「第二章 - 进程Ⅷ - 着新墨」后，可开启任务「开画大吉」。</p><p><br></p><p><strong>▼//活动说明</strong></p><p>· 活动期间，前往「武陵」地区的「祀的画」区域，经营缘缘庄客栈，完成相应的经营任务，提升经营里程，即可获得丰厚奖励。</p><p>· 在阶段2开启后，客栈评级达到4级即可解锁经营主题「食有老饕」，体验此主题可完成新增的经营任务。</p><p>·「烟火生缘」趣味活动结束后，将无法完成经营任务或领取对应奖励，但仍可游玩「缘缘庄客栈」，获取经营里程阶段奖励。</p><p><br></p><p>※Asia服务器时区: UTC+8</p><p>※Americas / Europe服务器时区: UTC-5</p><p>※ 更多活动详细说明，请前往游戏内【活动中心】查看。</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8998",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 5,
+            "displayType": "rich_text",
+            "startAt": 1769011200,
+            "focus": 0,
+            "title": "公平运营声明",
+            "header": "《明日方舟：终末地》公平运营声明",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260121/1651259ae841fbf5def82e3fa4c81f21.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">感谢您对《明日方舟：终末地》的关注与支持。为维护绿色、公平的游戏环境，保障各位玩家的合法权益，在此特意提醒各位玩家：</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">1. 禁止游戏中使用外挂、第三方工具、非正规途径充值，不得以任何不正当方式破坏游戏公平性、违反游戏用户协议。根据后台监控和玩家举报，如发现以上行为，我们将根据具体违规情节采取扣除违规收益、冻结和封停游戏账号等一项或多项措施。</span></p><p><span style=\"color: rgb(0, 0, 0);\">2. 为维护各位玩家的合法权益，请勿转让、共享、交易游戏账号；若因上述行为导致账号被盗或账号内权益受损等情况，相关后果由玩家自行承担。</span></p><p><span style=\"color: rgb(0, 0, 0);\">3. 为保证玩家完整的游戏体验，请勿解析、修改安装包及传播相关解析素材。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">最后，为打造良好的游戏环境，也需要各位玩家的共同努力。为此，请各位玩家配合维护游戏秩序，如发现违规行为，欢迎通过官方客服进行举报。</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "4604",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 6,
+            "displayType": "rich_text",
+            "startAt": 1792018800,
+            "focus": 0,
+            "title": "墨分诸彩",
+            "header": "「墨分诸彩」引入活动说明",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261014/ef36cb6a1a2d7d3a8b93a56051efccc0.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//活动时间</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">「丹青渡」版本更新后 - 2026/11/05 12:00（服务器时间）</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//活动奖励</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">活动开放期间，完成任务，累计可获得【嵌晶玉】【存续的痕迹】活动奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//参与条件</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">在主线任务「第二章 - 进程Ⅷ - 入丹青」中，完成「前往指定地点，与祀会合」。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//活动说明</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">活动期间，前往武陵地区的「祀的画」区域，完成解锁协议传送点、开启协议储藏箱等任务，即可获得丰厚奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※Asia服务器时区: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※Americas / Europe服务器时区: UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ 更多活动详细说明，请前往游戏内【活动中心】查看。</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6472",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 7,
+            "displayType": "rich_text",
+            "startAt": 1769011200,
+            "focus": 0,
+            "title": "功能使用说明",
+            "header": "集成工业系统及蓝图功能使用声明",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260121/a5600478deae74d1cb13f922961e65bc.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">为共同营造良好的游戏氛围，在使用集成工业系统相关功能时，请您遵守鹰角网络游戏使用许可及服务协议（简称“《用户协议》”），请勿发布及/或参与：</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">1.涉及地域、种族、性向、宗教、政治等方面的歧视内容；</span></p><p><span style=\"color: rgb(31, 35, 41);\">2.具有诽谤性、令人反感或侵害他人合法权益的内容；</span></p><p><span style=\"color: rgb(31, 35, 41);\">3.含有淫秽色情、血腥暴力、赌博、仇恨等的内容；</span></p><p><span style=\"color: rgb(31, 35, 41);\">4.其他《用户协议》中禁止或不适宜的内容。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">若您实施了违反上述规范的行为，我们将视情况采取清空集成工业系统摆放内容、限制或禁止使用集成工业系统功能、封停账号等措施。如您发现违规内容或行为，可通过【举报功能】或【联系客服】进行反馈。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">此外，若您使用【蓝图分享】功能，会生成【蓝图分享码】，将您设计的【蓝图】分享给其他管理员查看与使用。在使用该功能前，请您进一步知悉并确认：您一旦分享您的【蓝图分享码】，即视为您授权不特定第三方查看、复制或使用该蓝图内容，请您自行判断是否分享。</span></p><p></p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user.hypergryph.com/protocol/plain/endfield/service\">用户协议</a></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6474",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 12,
+            "displayType": "rich_text",
+            "startAt": 1769036400,
+            "focus": 0,
+            "title": "蚀像寻遗",
+            "header": "「蚀像寻遗」玩法说明",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260117/f37243c321ecfd8676f32adcf6c0b6b5.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//开放时间</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">公测开启后</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//探索奖励</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">「蚀像寻遗」开放期间，达到指定行动刻度后，可获得【嵌晶玉】【基础寻访凭证】【培养素材】等奖励。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//参与条件</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">完成主线任务「第一章 - 进程Ⅲ - 诡楼寻踪」</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//玩法说明</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">· 「蚀像寻遗」为常驻玩法。该玩法开放期间，可于帝江号进入【谷地像差】进行探索。探索的同时可领取各类委托，完成相应委托后，可解锁多种辅助探测技术，提升在谷地像差中的探索能力，并获取【嵌晶玉】等奖励。</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 从谷地像差带出【沉积结核】或完成特定委托，可积累行动刻度，达到指定行动刻度即可领取对应奖励。</span></p><p><span style=\"color: rgb(31, 35, 41);\">※ 更多详细说明，请前往游戏内【蚀像寻遗】界面，点击【玩法导览】查看。</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "3080",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 19,
+            "displayType": "rich_text",
+            "startAt": 1769036400,
+            "focus": 0,
+            "title": "游戏工具指南",
+            "header": "《明日方舟：终末地》游戏工具指南",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260120/ece8ed7a9bfcbb4cb7749c0adb12603c.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>【每日签到工具】</strong></p><p>在每日签到工具中，参与每日签到可获得嵌晶玉、高级作战记录、武器检查套组、协议棱柱、折金票等游戏道具奖励。绑定游戏角色并首次完成三日签到，累计可获得嵌晶玉×300奖励！</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/endfield/sign-in\">点击前往</a></p><p></p><p><strong>【WIKI】</strong></p><p>WIKI是由管理员们共同创作和维护的平台，该平台为管理员提供便捷、详细的游戏信息查询服务。</p><p>可在WIKI工具中查看干员的基础资料、武器图鉴、装备信息、物品信息等。</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wiki.skport.com/endfield\">点击前往</a></p><p></p><p><strong>【地图工具】</strong></p><p>地图工具整合游戏地图的各种资源设施的位置信息，支持管理员快速查询、筛选及定位各种关键点位。使用地图工具，不仅可以便捷查看储藏箱、采集物、怪物等各类探索中的重要地点，登录后还可以一览管理员自己建造的滑索、供电桩等工业设施的位置，助您更便捷地探索建设塔卫二。</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/map/endfield\">点击前往</a></p><p></p><p><strong>【协议终端工具】</strong></p><p>协议终端工具将为管理员提供便携式数据查询服务。管理员可在工具内便携获取探索、干员、地区发展相关游戏数据。通过实时数据，可查询理智恢复情况、日常任务进度等实时游戏数据信息。</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/endfield/game-data?header=0\">点击前往</a></p><p></p><p><strong>【配队推荐&amp;养成建议】</strong></p><p>游戏工具为管理员提供多种队伍搭配方案、技能建议以及战斗思路参考。所有的方案内容均来源于热心的玩家，管理员可以根据自己的需求参考选择，也可以为自己喜欢的方案点赞。希望能帮助管理员更快地组建适合自己的战斗小队，从容应对各类挑战！</p><p><strong>在游戏内，进入【协议同步器】后点击「游戏工具」图标，即可进入工具页面。</strong></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7222",
+            "type": 0,
+            "tab": "news",
+            "orderType": 2,
+            "orderWeight": 20,
+            "displayType": "picture",
+            "startAt": 1769040000,
+            "focus": 0,
+            "title": "官方社媒账号",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260122/c119da8c799dfc0d251a0a3fdef7ee45.png",
+              "link": "https://ef-webview.gryphline.com/act/social-media?u8_token={u8_token}&server={server}",
+              "linkType": 2
+            }
+          }
+        ]
+      },
+      "msg": ""
+    }
   }
 ]
