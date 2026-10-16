@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:#DEFAULT:1:#DEFAULT:zh-cn",
-      "version": "0b81cc4d8436a3e304ef23105a1553a6",
+      "version": "a080ea4af5824829663d1a2d29d3b2be",
       "onlineList": [
         {
           "cid": "1356",
@@ -35,6 +35,12 @@
         {
           "cid": "3024",
           "version": 1791533588,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "3023",
+          "version": 1792049745,
           "needRedDot": true,
           "needPopup": false
         },
@@ -178,7 +184,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1792126800,
+      "updatedAt": 1792130400,
       "list": [
         {
           "cid": "1356",
@@ -229,6 +235,24 @@
           "data": {
             "url": "https://web.hycdn.cn/upload/image/20261009/0558fc0d8b6c8f433614d2cec0cc8bde.png",
             "link": "https://comic.hypergryph.com/talos-ii-historicus/comic/6251",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3023",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "picture",
+          "startAt": 1792130400,
+          "focus": 0,
+          "title": "「丹青渡」\\n限时任务",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web.hycdn.cn/upload/image/20261015/08721d748c09580062eef963e9f5d9a3.jpg",
+            "link": "https://bbs.hycdn.cn/u-link/download.html?schema=skland%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fact.skland.com%252Fendfield%252Fsanctuary%253Fheader%253D0%2526activityId%253Dact_endfield_948507%2526hg_media%253Dendfield%2526hg_link_campaign%253Dannouncement&u8_token={u8_token}&server={server}",
             "linkType": 1
           }
         },
