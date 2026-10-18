@@ -8,6 +8,7 @@ import appConfig from '../utils/config.js';
 import githubUtils from '../utils/github.js';
 import logger from '../utils/logger.js';
 import mathUtils from '../utils/math.js';
+import retryUtils from '../utils/retry.js';
 import stringUtils from '../utils/string.js';
 
 interface MirrorFileEntry {
@@ -49,6 +50,9 @@ interface AssetToMirrorResPatch {
 }
 
 const networkQueue = new PQueue({ concurrency: appConfig.threadCount.network });
+
+// Assets that failed in this run. They stay in the pending list and are retried next run.
+const failures: string[] = [];
 
 const formatBytes = (size: number) =>
   mathUtils.formatFileSize(size, {
@@ -120,11 +124,22 @@ async function processMirrorQueue(configAuth: any, client: Octokit) {
     }
     return false;
   })();
-  if (!selectedTag) logger.error('GitHub tag assets file count limit reached');
+  if (!selectedTag) {
+    logger.error('GitHub tag assets file count limit reached');
+    return;
+  }
 
-  for (const { url, name } of pending) {
+  // Drop entries that are already mirrored (leftovers from a previous partial run).
+  const remaining = pending.filter(({ url }) => !db.find((e) => e.orig.includes(stringUtils.removeQueryStr(url))));
+  if (remaining.length !== pending.length) {
+    logger.info(`Dropped ${pending.length - remaining.length} already-mirrored entries from pending list`);
+    await Bun.write(pendingPath, JSON.stringify(remaining, null, 2));
+  }
+
+  for (const entry of [...remaining]) {
+    const { url, name } = entry;
     const origUrl = stringUtils.removeQueryStr(url);
-    if (!db.find((e) => e.orig.includes(origUrl))) {
+    try {
       await githubUtils.uploadAsset(client, owner, repo, selectedTag, url, name);
       db.push({
         orig: origUrl,
@@ -132,11 +147,17 @@ async function processMirrorQueue(configAuth: any, client: Octokit) {
         origStatus: true,
       });
       await Bun.write(dbPath, JSON.stringify(db, null, 2));
+
+      // Rewrite the pending list after every upload so a killed run leaves accurate state.
+      remaining.splice(remaining.indexOf(entry), 1);
+      await Bun.write(pendingPath, JSON.stringify(remaining, null, 2));
+    } catch (err) {
+      logger.error(`Mirror archive: Failed to mirror ${origUrl}: ${err}`);
+      failures.push(origUrl);
     }
   }
 
-  await Bun.write(pendingPath, JSON.stringify([], null, 2));
-  logger.info('Mirroring process completed and pending list cleared');
+  if (remaining.length === 0) logger.info('Mirroring process completed and pending list cleared');
 }
 
 function getSelectedTag(tags: string[], dbs: { mirror: string }[][]) {
@@ -176,23 +197,40 @@ async function processGenericResQueue<
   const pendingDb: TAsset[] = (await Bun.file(paths.pending).json()) ?? [];
 
   const validPendingDb: TAsset[] = [];
-  const newPendingDb: TAsset[] = [];
+  // Entries in the original order, removed one by one as they are uploaded, so that a
+  // killed run leaves an accurate pending list behind.
+  const pendingOut: TAsset[] = [];
 
   for (const entry of pendingDb) {
     if (options.isDuplicate(entry, dbs.current)) continue;
+    pendingOut.push(entry);
     if (entry.size >= ghFileSizeLimit) {
       logger.warn(
         `File size is larger than limit. Skipped${options.isPatch ? ' patch' : ''}: ${options.getBigFileName(entry)}`,
       );
-      newPendingDb.push(entry);
       continue;
     }
     validPendingDb.push(entry);
   }
 
+  const markUploaded = async (assets: TAsset[]) => {
+    for (const asset of assets) {
+      const index = pendingOut.indexOf(asset);
+      if (index !== -1) pendingOut.splice(index, 1);
+    }
+    await Bun.write(paths.pending, JSON.stringify(pendingOut, null, 2));
+  };
+
+  if (pendingOut.length !== pendingDb.length) {
+    logger.info(
+      `Dropped ${pendingDb.length - pendingOut.length} already-mirrored entries from ${options.logPrefix} pending list`,
+    );
+    await Bun.write(paths.pending, JSON.stringify(pendingOut, null, 2));
+  }
+
   if (validPendingDb.length === 0) {
     logger.info(`${options.logPrefix} valid pending list is empty`);
-    await Bun.write(paths.pending, JSON.stringify([...newPendingDb], null, 2));
+    await Bun.write(paths.pending, JSON.stringify(pendingOut, null, 2));
     return;
   }
 
@@ -225,22 +263,39 @@ async function processGenericResQueue<
   } else {
     for (const chunk of pendingFileChunks) {
       const buffers: { index: number; data: Uint8Array }[] = [];
+      let downloadFailed = false;
       console.log('');
       chunk.forEach((e, index) => {
         networkQueue.add(async () => {
-          const data = await ky
-            .get(e.url, {
-              headers: { 'User-Agent': appConfig.network.userAgent.minimum },
-              timeout: appConfig.network.timeout,
-              retry: { limit: appConfig.network.retryCount },
-            })
-            .bytes();
-          buffers.push({ index, data });
-          process.stdout.write('\x1b[1A\x1b[2K');
-          logger.trace(options.downloadLogFn(e, buffers.length, chunk.length, data.length));
+          try {
+            const data = await retryUtils.withRetry(`download ${new URL(e.url).pathname.split('/').at(-1)}`, () =>
+              ky
+                .get(e.url, {
+                  headers: { 'User-Agent': appConfig.network.userAgent.minimum },
+                  timeout: appConfig.network.timeout,
+                  retry: 0,
+                })
+                .bytes(),
+            );
+            buffers.push({ index, data });
+            process.stdout.write('\x1b[1A\x1b[2K');
+            logger.trace(options.downloadLogFn(e, buffers.length, chunk.length, data.length));
+          } catch (err) {
+            downloadFailed = true;
+            logger.error(
+              `${options.logPrefix} download failed (will retry next run): ${new URL(e.url).pathname.split('/').at(-1)} (${err})`,
+            );
+          }
         });
       });
       await networkQueue.onIdle();
+
+      // Never upload a chunk with missing members: the db offsets would not match its content.
+      if (downloadFailed) {
+        failures.push(...chunk.map((e) => e.url));
+        continue;
+      }
+
       buffers.sort((a, b) => a.index - b.index);
 
       const chunkTotalSize = mathUtils.arrayTotal(buffers.map((e) => e.data.length));
@@ -253,59 +308,76 @@ async function processGenericResQueue<
       const combinedBufferMd5 = new Bun.CryptoHasher('md5').update(combinedBuffer).digest('hex');
       const chunkFileName = `${options.chunkPrefix}${combinedBufferMd5}.bin`;
       const currentTag = tagPicker();
-      if (!currentTag) throw new Error('GitHub tag assets file count limit reached');
-
-      await githubUtils.uploadAssetWithBuffer(client, owner, repo, currentTag, chunkFileName, combinedBuffer);
-
-      offset = 0;
-      for (const item of chunk) {
-        options.pushToDb(
-          item,
-          dbs.current,
-          `https://github.com/${owner}/${repo}/releases/download/${currentTag}/${chunkFileName}`,
-          { start: offset, length: item.size },
-        );
-        offset += item.size;
+      if (!currentTag) {
+        logger.error('GitHub tag assets file count limit reached');
+        failures.push('GitHub tag assets file count limit reached');
+        break;
       }
-      await Bun.write(paths.db, Bun.zstdCompressSync(JSON.stringify(dbs.current), { level: 16 }));
+
+      try {
+        await githubUtils.uploadAssetWithBuffer(client, owner, repo, currentTag, chunkFileName, combinedBuffer);
+
+        offset = 0;
+        for (const item of chunk) {
+          options.pushToDb(
+            item,
+            dbs.current,
+            `https://github.com/${owner}/${repo}/releases/download/${currentTag}/${chunkFileName}`,
+            { start: offset, length: item.size },
+          );
+          offset += item.size;
+        }
+        await Bun.write(paths.db, Bun.zstdCompressSync(JSON.stringify(dbs.current), { level: 16 }));
+        await markUploaded(chunk);
+      } catch (err) {
+        logger.error(`${options.logPrefix} chunk upload failed (will retry next run): ${chunkFileName} (${err})`);
+        failures.push(...chunk.map((e) => e.url));
+      }
     }
   }
 
   const bigFiles = validPendingDb.filter((e) => e.size >= chunkThresholdSize);
-  await Bun.write(paths.pending, JSON.stringify([...newPendingDb, ...bigFiles], null, 2));
 
   if (bigFiles.length > 0) {
     logger.info(`Processing big pending ${options.logPrefix.toLowerCase()} ...`);
     networkQueue.concurrency = 4;
     for (const file of bigFiles) {
       networkQueue.add(async () => {
-        const buffer: Uint8Array = await ky
-          .get(file.url, {
-            headers: { 'User-Agent': appConfig.network.userAgent.minimum },
-            timeout: appConfig.network.timeout,
-            retry: { limit: appConfig.network.retryCount },
-          })
-          .bytes();
-        logger.trace(options.bigFileDownloadLogFn(file));
-        const currentTag = tagPicker();
-        if (!currentTag) throw new Error('GitHub tag assets file count limit reached');
+        try {
+          const buffer: Uint8Array = await retryUtils.withRetry(`download ${options.getBigFileName(file)}`, () =>
+            ky
+              .get(file.url, {
+                headers: { 'User-Agent': appConfig.network.userAgent.minimum },
+                timeout: appConfig.network.timeout,
+                retry: 0,
+              })
+              .bytes(),
+          );
+          logger.trace(options.bigFileDownloadLogFn(file));
+          const currentTag = tagPicker();
+          if (!currentTag) throw new Error('GitHub tag assets file count limit reached');
 
-        const fileName = options.getBigFileName(file);
-        await githubUtils.uploadAssetWithBuffer(client, owner, repo, currentTag, fileName, buffer);
-        options.pushToDb(
-          file,
-          dbs.current,
-          `https://github.com/${owner}/${repo}/releases/download/${currentTag}/${fileName}`,
-          null,
-        );
-        await Bun.write(paths.db, Bun.zstdCompressSync(JSON.stringify(dbs.current), { level: 16 }));
+          const fileName = options.getBigFileName(file);
+          await githubUtils.uploadAssetWithBuffer(client, owner, repo, currentTag, fileName, buffer);
+          options.pushToDb(
+            file,
+            dbs.current,
+            `https://github.com/${owner}/${repo}/releases/download/${currentTag}/${fileName}`,
+            null,
+          );
+          await Bun.write(paths.db, Bun.zstdCompressSync(JSON.stringify(dbs.current), { level: 16 }));
+          await markUploaded([file]);
+        } catch (err) {
+          logger.error(
+            `${options.logPrefix} upload failed (will retry next run): ${options.getBigFileName(file)} (${err})`,
+          );
+          failures.push(options.getBigFileName(file));
+        }
       });
     }
     await networkQueue.onIdle();
     networkQueue.concurrency = appConfig.threadCount.network;
   }
-
-  await Bun.write(paths.pending, JSON.stringify([...newPendingDb], null, 2));
 }
 
 async function processMirrorResQueue(configAuth: any, client: Octokit) {
@@ -407,6 +479,9 @@ async function mainCmdHandler() {
   await processMirrorQueue(configAuth, clients.relArchive);
   await processMirrorResQueue(configAuth, clients.relArchiveRes);
   await processMirrorResPatchQueue(configAuth, clients.relArchiveRes);
+
+  // Exit non-zero so the failed assets are visible, but only after every queue had a chance to run.
+  if (failures.length > 0) throw new Error(`Failed to mirror ${failures.length} asset(s)`);
 
   // const relInfo = await githubUtils.getReleaseInfo(octoClient, githubAuthCfg);
   // if (relInfo) {
