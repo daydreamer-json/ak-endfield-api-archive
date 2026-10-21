@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "ja-jp",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ja-jp",
-      "version": "3b03a7e97d0c434c7da1b8a35c48a1a0",
+      "version": "c136eda2f7762e16d2348c8a5fa1bab9",
       "onlineList": [
         {
           "cid": "3035",
@@ -141,6 +141,12 @@
           "needPopup": false
         },
         {
+          "cid": "0784",
+          "version": 1792382030,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "0787",
           "version": 1791970448,
           "needRedDot": true,
@@ -184,7 +190,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1792552231,
+      "updatedAt": 1792553400,
       "list": [
         {
           "cid": "3035",
@@ -536,6 +542,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260928/70be86020401830ce8048f2462e06b11.png",
             "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fstatic.skport.com%252Fu-link%252Fdownload.html%253Fschema%253Dskport%25253A%25252F%25252Fweb%25253Furl%25253Dhttps%2525253A%2525252F%2525252Fgame.skport.com%2525252Fendfield%2525252Fsign-in%2525253Fheader%2525253D0%25252526hg_media%2525253Dgame%25252526hg_link_campaign%2525253Dannouncement%25252526hg_link_name%2525253Dsignin",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "0784",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 5,
+          "displayType": "rich_text",
+          "startAt": 1792553400,
+          "focus": 0,
+          "title": "カーリーの花いろ絵本",
+          "header": "「カーリーの花いろ絵本」写真撮影イベント概要",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261016/212e57f275d226cb3386ec077c78b3e7.png\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//開催期間</strong><br>2026/10/22 12:00～2026/11/05 04:00（サーバー時間）<br><br><strong>▼//イベント報酬</strong><br>開催期間中、写真撮影任務を完了すると、【フレーム・カーリーの花綴り】【赤晶玉】【存続の痕跡】などの報酬を受け取ることができます。<br><br><strong>▼//参加条件</strong><br>メイン任務：第二章-プロセスⅡ「見えざる災い」を完了<br><br><strong>▼//説明</strong><br>· 期間中、指定の場所で写真撮影任務を開始できます。<br>· 撮影任務は計7つあります。イベント開始時には、2つの任務が開放され、3日目以降は毎日04:00（サーバー時間）に新しい撮影任務が1つ開放されます。<br>· 撮影目標に合わせてオペレーターのポーズを調整し、撮影任務を完了すると、対応する報酬を受け取ることができます。<br>· 対象地域がまだ開放されていない場合は、メイン任務を進める必要があります。<br><br>※Asiaサーバーのタイムゾーン：UTC+8<br>※Americas / Europeサーバーのタイムゾーン：UTC-5<br>※詳細は、ゲーム内の【イベント】よりご確認ください。<br></p>",
             "linkType": 1
           }
         },
