@@ -2691,5 +2691,63 @@
       "domain": "https://beyond.hg-cdn.com",
       "resource_keys": []
     }
+  },
+  {
+    "updatedAt": "2026-10-23T07:46:37.562+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "gameVersion": "1.3",
+      "version": "1.3.3",
+      "randStr": "BGlQHu2HgMlqTuqG",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "resources": [
+        {
+          "name": "main",
+          "version": "8190425-29",
+          "path": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.3/resource/Windows/main/8190425-29_kvvlG6eW8qBNAbPr/files"
+        },
+        {
+          "name": "initial",
+          "version": "8190425-29",
+          "path": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.3/resource/Windows/initial/8190425-29_oU0ukPzbaacGLgfw/files"
+        }
+      ],
+      "configs": "{\"kick_flag\":true}",
+      "res_version": "initial_8190425-29_main_8190425-29",
+      "patch_index_path": "",
+      "domain": "https://beyond.hg-cdn.com",
+      "resource_keys": []
+    }
+  },
+  {
+    "updatedAt": "2026-10-23T07:46:38.808+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "gameVersion": "1.0",
+      "version": "1.0.14",
+      "randStr": "Qk2mXHuAH1JWKF37",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "resources": [
+        {
+          "name": "main",
+          "version": "5793042-32",
+          "path": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/Windows/main/5793042-32_bFEvDGHdOVxxqZvF/files"
+        },
+        {
+          "name": "initial",
+          "version": "5793042-32",
+          "path": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.0/resource/Windows/initial/5793042-32_arWv8IZn8aZZjSoP/files"
+        }
+      ],
+      "configs": "{\"kick_flag\":false}",
+      "res_version": "initial_5793042-32_main_5793042-32",
+      "patch_index_path": "",
+      "domain": "https://beyond.hg-cdn.com",
+      "resource_keys": []
+    }
   }
 ]
