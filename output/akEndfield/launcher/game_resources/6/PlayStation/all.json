@@ -2462,5 +2462,63 @@
       "patch_index_path": "",
       "domain": "https://beyond.hg-cdn.com"
     }
+  },
+  {
+    "updatedAt": "2026-10-23T07:36:53.909+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "gameVersion": "1.5",
+      "version": "1.5.3",
+      "randStr": "X9dZfixN2KQwWvcQ",
+      "platform": "PlayStation"
+    },
+    "rsp": {
+      "resources": [
+        {
+          "name": "main",
+          "version": "10731330-9",
+          "path": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.5/resource/PlayStation/main/10731330-9_XXkBBOHSVDf37fMr/files"
+        },
+        {
+          "name": "initial",
+          "version": "10731330-9",
+          "path": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.5/resource/PlayStation/initial/10731330-9_4uKRNKjZs2qbdOno/files"
+        }
+      ],
+      "configs": "{\"kick_flag\":true}",
+      "res_version": "initial_10731330-9_main_10731330-9",
+      "patch_index_path": "",
+      "domain": "https://beyond.hg-cdn.com",
+      "resource_keys": []
+    }
+  },
+  {
+    "updatedAt": "2026-10-23T07:36:54.833+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "gameVersion": "1.2",
+      "version": "1.2.5",
+      "randStr": "GyQOi4WaWC2Ju0kW",
+      "platform": "PlayStation"
+    },
+    "rsp": {
+      "resources": [
+        {
+          "name": "main",
+          "version": "7215718-18",
+          "path": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.2/resource/PlayStation/main/7215718-18_QcQGJZOthXGBdrZo/files"
+        },
+        {
+          "name": "initial",
+          "version": "7215718-18",
+          "path": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.2/resource/PlayStation/initial/7215718-18_EvWUdMb4V7m9QYOU/files"
+        }
+      ],
+      "configs": "{\"kick_flag\":true}",
+      "res_version": "initial_7215718-18_main_7215718-18",
+      "patch_index_path": "",
+      "domain": "https://beyond.hg-cdn.com",
+      "resource_keys": []
+    }
   }
 ]
