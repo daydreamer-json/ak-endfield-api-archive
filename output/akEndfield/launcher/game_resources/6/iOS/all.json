@@ -2634,5 +2634,63 @@
       "domain": "https://beyond.hg-cdn.com",
       "resource_keys": []
     }
+  },
+  {
+    "updatedAt": "2026-10-23T07:51:40.264+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "gameVersion": "1.3",
+      "version": "1.3.3",
+      "randStr": "BGlQHu2HgMlqTuqG",
+      "platform": "iOS"
+    },
+    "rsp": {
+      "resources": [
+        {
+          "name": "main",
+          "version": "8190425-15",
+          "path": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.3/resource/iOS/main/8190425-15_7p9J1K6rbaEGhZgu/files"
+        },
+        {
+          "name": "initial",
+          "version": "8190425-15",
+          "path": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.3/resource/iOS/initial/8190425-15_ikn0nZxVvJlqNgzS/files"
+        }
+      ],
+      "configs": "{\"kick_flag\":true}",
+      "res_version": "initial_8190425-15_main_8190425-15",
+      "patch_index_path": "",
+      "domain": "https://beyond.hg-cdn.com",
+      "resource_keys": []
+    }
+  },
+  {
+    "updatedAt": "2026-10-23T07:51:41.231+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "gameVersion": "1.1",
+      "version": "1.1.9",
+      "randStr": "PPTMaQzu2HpbgY7P",
+      "platform": "iOS"
+    },
+    "rsp": {
+      "resources": [
+        {
+          "name": "main",
+          "version": "6478171-19",
+          "path": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.1/resource/iOS/main/6478171-19_km8bOJ4txaOfyAN2/files"
+        },
+        {
+          "name": "initial",
+          "version": "6478171-19",
+          "path": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.1/resource/iOS/initial/6478171-19_GP6f64q8EyiE9vds/files"
+        }
+      ],
+      "configs": "{\"kick_flag\":true}",
+      "res_version": "initial_6478171-19_main_6478171-19",
+      "patch_index_path": "",
+      "domain": "https://beyond.hg-cdn.com",
+      "resource_keys": []
+    }
   }
 ]
