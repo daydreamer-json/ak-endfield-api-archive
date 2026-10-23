@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:#DEFAULT:1:#DEFAULT:zh-cn",
-      "version": "a62fa2e151a8f5976dd9ea1865d314ae",
+      "version": "74293a3cc07d898a1cc86dfc762dd7e6",
       "onlineList": [
         {
           "cid": "4699",
@@ -41,6 +41,12 @@
         {
           "cid": "3024",
           "version": 1791533588,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "7264",
+          "version": 1792722497,
           "needRedDot": true,
           "needPopup": false
         },
@@ -196,7 +202,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1792723147,
+      "updatedAt": 1792728000,
       "list": [
         {
           "cid": "4699",
@@ -266,6 +272,24 @@
           "data": {
             "url": "https://web.hycdn.cn/upload/image/20261009/0558fc0d8b6c8f433614d2cec0cc8bde.png",
             "link": "https://comic.hypergryph.com/talos-ii-historicus/comic/6251",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "7264",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "picture",
+          "startAt": 1792728000,
+          "focus": 0,
+          "title": "「雪凇幽梦」\\n开拓日志",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web.hycdn.cn/upload/image/20261023/adbd2dc9bdd8be5b4bd4da77399f7fa4.png",
+            "link": "https://bbs.hycdn.cn/u-link/download.html?schema=skland%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fevent.skland.com%252Factivity%252Fendfield_data_report%252Fdreamscape%253Fheader%253D0%2526hg_media%253Dendfield%2526hg_link_campaign%253Dannouncement&u8_token={u8_token}&server={server}",
             "linkType": 1
           }
         },
