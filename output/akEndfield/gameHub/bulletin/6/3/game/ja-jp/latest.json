@@ -18,14 +18,8 @@
       "subChannel": "#DEFAULT",
       "lang": "ja-jp",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ja-jp",
-      "version": "d3dabed735d06be498fdd74212819765",
+      "version": "71338a7bb2e754ff917066f81e3493c9",
       "onlineList": [
-        {
-          "cid": "2192",
-          "version": 1793118953,
-          "needRedDot": true,
-          "needPopup": false
-        },
         {
           "cid": "0783",
           "version": 1793118973,
@@ -59,6 +53,12 @@
         {
           "cid": "9854",
           "version": 1792030352,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "2192",
+          "version": 1793158596,
           "needRedDot": true,
           "needPopup": false
         },
@@ -232,25 +232,8 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1793155207,
+      "updatedAt": 1793158597,
       "list": [
-        {
-          "cid": "2192",
-          "type": 0,
-          "tab": "updates",
-          "orderType": 1,
-          "orderWeight": 1,
-          "displayType": "rich_text",
-          "startAt": 1793154600,
-          "focus": 0,
-          "title": "一部イベントの\\n期間変更について",
-          "header": "一部イベントの期間変更について",
-          "jumpButton": null,
-          "data": {
-            "html": "<p></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261027/d60d81efaa6c732efe84033fa6855aa4.jpg\" alt=\"\"><p>親愛なる管理人<br>バージョン「丹青渡」における一部イベントの開催期間を変更いたします。関連する内容および報酬に変更はございません。今回の変更は2026/11/05のアップデート後に適用されます。変更内容は以下の通りです。</p><p><br></p><p><strong>▼//変更の説明</strong><br>■ レジャーイベント「俗世の縁」の終了日時を2026/11/25 06:00（サーバー時間）に変更いたします。<br>■ 「危機契約 青藍試験作戦」の「機密聖堂」における交換の終了日時を2026/12/02 04:00（サーバー時間）に変更いたします。<br>■ 期間限定イベント「理性補給」の開催期間を2026/11/18 04:00～2026/11/25 04:00（サーバー時間）に変更いたします。</p><p><br></p><p><strong>▼//その他</strong><br>その他のイベントおよびコンテンツ（「映像の記念碑 - 深き森の囁き」シリーズ、「密境の探索者 - 絵巻外の残光」など）の内容や報酬に変更はございません。</p><p><br></p><p>引き続き、『アークナイツ：エンドフィールド』をよろしくお願いいたします。<br>※Asiaサーバーのタイムゾーン：UTC+8<br>※Americas / Europeサーバーのタイムゾーン：UTC-5</p>",
-            "linkType": 1
-          }
-        },
         {
           "cid": "0783",
           "type": 0,
@@ -354,6 +337,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260930/46b5e5e77dde79cc600aa17bf7a8a2e2.png\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//ページへのリンク</strong></p><p>管理人は以下のリンクから新バージョン注目情報特設ページにアクセスできます。</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://endfield.gryphline.com/version_briefing/latest?source_from=notice\">&gt;&gt;今すぐチェック</a></p><p><br></p><p><strong>▼//ウェブページ公開時間</strong></p><p>· 新バージョン注目情報特設ページは2026/10/06 20:00（UTC+8）より常設公開され、各バージョンにあわせて内容が差し替えられます。</p><p>· 各バージョンの注目情報特設ページの公開期間は、対象バージョンの先行予告番組の放送後から、次回バージョンの先行予告番組の終了前までです。</p><p><br></p><p><strong>▼//報酬受取条件</strong></p><p>· 新バージョン注目情報特設ページでゲームアカウントにログインし、『アークナイツ：エンドフィールド』内でキャラクターを作成していること。</p><p><br></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//報酬受取説明</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 報酬受取期限：「丹青渡」バージョン注目情報特設ページ公開後から、「丹青渡」バージョンのアップデートメンテナンス開始前まで、同ページから報酬を受け取れます。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 報酬受取期間中は、新バージョン注目情報特設ページに「報酬受取」ボタンが表示されます。期間終了後はボタンが表示されなくなり、そのバージョンの報酬は受け取れません。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 新バージョン注目情報特設ページで報酬を受け取ると、現在ログインしているアカウントのキャラクターのメールボックスに、報酬が送付されます。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 各バージョンの報酬は、1つのゲームアカウントにつき1回のみ受け取れます。</span><br></p><p></p><p>※ 詳細はページよりご確認ください。</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "2192",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1793154600,
+          "focus": 0,
+          "extraData": {},
+          "title": "一部イベントの\\n期間変更について",
+          "header": "一部イベントの期間変更について",
+          "jumpButton": null,
+          "data": {
+            "html": "<p></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261027/d60d81efaa6c732efe84033fa6855aa4.jpg\" alt=\"\"><p>親愛なる管理人<br>バージョン「丹青渡」における一部イベントの開催期間を変更いたします。関連する内容および報酬に変更はございません。今回の変更は2026/11/05のアップデート後に適用されます。変更内容は以下の通りです。</p><p><br></p><p><strong>▼//変更の説明</strong><br>■ レジャーイベント「俗世の縁」の終了日時を2026/11/25 06:00（サーバー時間）に変更いたします。<br>■ 「危機契約 青藍試験作戦」の「機密聖堂」における交換の終了日時を2026/12/02 04:00（サーバー時間）に変更いたします。<br>■ 期間限定イベント「理性補給」の開催期間を以下の通り変更いたします。</p><p>Asiaサーバー：2026/11/18 04:00～2026/11/25 04:00（サーバー時間）</p><p>Americas / Europeサーバー：2026/11/18 04:00～2026/11/24 17:00（サーバー時間）<br></p><p><strong>▼//その他</strong><br>その他のイベントおよびコンテンツ（「映像の記念碑 - 深き森の囁き」シリーズ、「密境の探索者 - 絵巻外の残光」など）の内容や報酬に変更はございません。</p><p><br></p><p>引き続き、『アークナイツ：エンドフィールド』をよろしくお願いいたします。<br>※Asiaサーバーのタイムゾーン：UTC+8<br>※Americas / Europeサーバーのタイムゾーン：UTC-5</p>",
             "linkType": 1
           }
         },

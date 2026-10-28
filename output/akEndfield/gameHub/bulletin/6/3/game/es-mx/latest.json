@@ -18,14 +18,8 @@
       "subChannel": "#DEFAULT",
       "lang": "es-mx",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:es-mx",
-      "version": "2326c6b7af118ed670e67aa5310d235b",
+      "version": "e7e5c43595a8b6ff9f5d8236b820384d",
       "onlineList": [
-        {
-          "cid": "2192",
-          "version": 1793118953,
-          "needRedDot": true,
-          "needPopup": false
-        },
         {
           "cid": "0783",
           "version": 1793118973,
@@ -59,6 +53,12 @@
         {
           "cid": "9854",
           "version": 1792030352,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "2192",
+          "version": 1793158596,
           "needRedDot": true,
           "needPopup": false
         },
@@ -226,25 +226,8 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1793155207,
+      "updatedAt": 1793158597,
       "list": [
-        {
-          "cid": "2192",
-          "type": 0,
-          "tab": "updates",
-          "orderType": 1,
-          "orderWeight": 1,
-          "displayType": "rich_text",
-          "startAt": 1793154600,
-          "focus": 0,
-          "title": "Algunos eventos\\nAviso de ajuste de horario",
-          "header": "Aviso de ajuste de horario de algunos eventos",
-          "jumpButton": null,
-          "data": {
-            "html": "<p></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261027/ac77fd21752dd45072e9850b544a1765.jpg\" alt=\"\"><p>Endministrator:<br>El equipo del proyecto ajustará el horario de algunos eventos de la versión [Santuario de tinta]. Todo el contenido y las recompensas relacionadas se mantendrán sin cambios. Estos ajustes entrarán en vigor tras la actualización rápida del 5 de noviembre de 2026. A continuación, se detallan los ajustes:</p><p><br></p><p><strong>▼// Detalles del ajuste de horario</strong><br>■ La fecha de finalización del Evento: Diversión y juegos [Fogones ardientes de Yuanyuan] se ajustará al 25 de noviembre de 2026 a las 06:00 (hora del servidor)<br>■ La fecha de finalización de los canjes en el [Santuario secreto] de [Contrato de contingencia: Operación experimental índigo] se ajustará al 2 de diciembre de 2026 a las 04:00 (hora del servidor)<br>■ El periodo del Evento por tiempo limitado [Suministro de Cordura] se ajustará del 18 de noviembre de 2026 a las 04:00 al 25 de noviembre de 2026 a las 04:00 (hora del servidor)</p><p><br></p><p><strong>▼// Otra información</strong><br>El contenido y las recompensas de otros eventos y modos de juego (como la serie [Monumento del Umbral - Murmullos del bosque profundo] y [Explorador de lo críptico - Desvanecerse más allá de la pintura]) se mantendrán sin cambios.</p><p><br></p><p>¡Gracias por tu comprensión y apoyo constantes a Arknights: Endfield, Endministrator!<br>※ Zona horaria del servidor Asia: UTC+8<br>※ Zona horaria del servidor Americas / Europe: UTC-5</p>",
-            "linkType": 1
-          }
-        },
         {
           "cid": "0783",
           "type": 0,
@@ -348,6 +331,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260930/1403bb8b181a1066dc30bafc51fd14f2.png\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Enlace de la página</strong></p><p>Los Endministrators pueden acceder a la página de la Guía de la nueva versión mediante el siguiente enlace.</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://endfield.gryphline.com/version_briefing/latest?source_from=notice\">&gt;&gt;Haz clic para ir</a></p><p><br></p><p><strong>▼// Hora de lanzamiento de la página</strong></p><p>· La página de la Guía de la nueva versión estará disponible permanentemente para su consulta a partir del 6 de octubre de 2026 a las 20:00 (UTC+8) y su contenido se reemplazará con cada versión del juego.</p><p>· Cada página de la Guía de la nueva versión estará disponible desde la emisión de la Vista previa de la versión correspondiente hasta antes de que termine la Vista previa de la siguiente versión.</p><p><br></p><p><strong>▼// Requisitos para obtener recompensas</strong></p><p>· Inicia sesión en tu cuenta del juego en la página de la Guía de la nueva versión y termina de crear un personaje en Arknights: Endfield.</p><p><br></p><p><strong>▼// Instrucciones para reclamar recompensas</strong></p><p><span style=\"color: rgb(0, 0, 0);\">· Periodo para reclamar recompensas: Tras el lanzamiento de la página de la Guía de la nueva versión [Santuario de tinta], y hasta antes de la actualización y el mantenimiento de la versión [Santuario de tinta], las recompensas podrán reclamarse en esa página.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Durante el periodo para reclamar recompensas, aparecerá un botón de “reclamar recompensas” en la página de la Guía de la nueva versión. Una vez que termine el periodo, el botón dejará de aparecer y ya no se podrán reclamar las recompensas de esa versión.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Una vez que las recompensas se reclamen correctamente en la página de la Guía de la nueva versión, se enviarán al correo del juego del personaje asociado a la cuenta que tenga la sesión iniciada en ese momento.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Cada cuenta del juego solo puede reclamar una vez las recompensas de cada Guía de la nueva versión.</span></p><p><br></p><p>※ Consulta la página para obtener más detalles.</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "2192",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1793154600,
+          "focus": 0,
+          "extraData": {},
+          "title": "Algunos eventos\\nAviso de ajuste de horario",
+          "header": "Aviso de ajuste de horario de algunos eventos",
+          "jumpButton": null,
+          "data": {
+            "html": "<p></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261027/ac77fd21752dd45072e9850b544a1765.jpg\" alt=\"\"><p>Endministrator:<br>El equipo del proyecto ajustará el horario de algunos eventos de la versión [Santuario de tinta]. Todo el contenido y las recompensas relacionadas se mantendrán sin cambios. Estos ajustes entrarán en vigor tras la actualización rápida del 5 de noviembre de 2026. A continuación, se detallan los ajustes:</p><p><br></p><p><strong>▼// Detalles del ajuste de horario</strong><br>■ La fecha de finalización del Evento: Diversión y juegos [Fogones ardientes de Yuanyuan] se ajustará al 25 de noviembre de 2026 a las 06:00 (hora del servidor)<br>■ La fecha de finalización de los canjes en el [Santuario secreto] de [Contrato de contingencia: Operación experimental índigo] se ajustará al 2 de diciembre de 2026 a las 04:00 (hora del servidor)<br>■  El periodo del Evento por tiempo limitado [Suministro de Cordura] se ajustará de la siguiente manera:</p><p>Servidor Asia: del 18 de noviembre de 2026 a las 04:00 al 25 de noviembre de 2026 a las 04:00 (hora del servidor)</p><p>Servidor Americas / Europe: del 18 de noviembre de 2026 a las 04:00 al 24 de noviembre de 2026 a las 17:00 (hora del servidor)</p><p><br></p><p><strong>▼// Otra información</strong><br>El contenido y las recompensas de otros eventos y modos de juego (como la serie [Monumento del Umbral - Murmullos del bosque profundo] y [Explorador de lo críptico - Desvanecerse más allá de la pintura]) se mantendrán sin cambios.</p><p><br></p><p>¡Gracias por tu comprensión y apoyo constantes a Arknights: Endfield, Endministrator!<br>※ Zona horaria del servidor Asia: UTC+8<br>※ Zona horaria del servidor Americas / Europe: UTC-5</p>",
             "linkType": 1
           }
         },
