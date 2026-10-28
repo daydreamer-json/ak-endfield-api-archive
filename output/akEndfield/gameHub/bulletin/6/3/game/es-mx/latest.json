@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "es-mx",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:es-mx",
-      "version": "4b60af0fe24c593665b795d2298d443e",
+      "version": "52777948a3d98eb4b5cba134755a755c",
       "onlineList": [
         {
           "cid": "2192",
@@ -77,6 +77,12 @@
         {
           "cid": "9853",
           "version": 1793074566,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "8940",
+          "version": 1793158861,
           "needRedDot": true,
           "needPopup": false
         },
@@ -171,6 +177,12 @@
           "needPopup": false
         },
         {
+          "cid": "6425",
+          "version": 1793082735,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "1369",
           "version": 1792498429,
           "needRedDot": true,
@@ -226,7 +238,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1793158717,
+      "updatedAt": 1793160000,
       "list": [
         {
           "cid": "2192",
@@ -402,6 +414,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/56021051499adbd5aeb693804ac8cc3e.jpg\" data-width=\"1920\" data-height=\"3601\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "8940",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1793160000,
+          "focus": 0,
+          "title": "Preparación ante contingencias",
+          "header": "Preparación ante contingencias",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/4bb2d20194ce2de127c6b60ca5337aed.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Periodo del evento </strong><br>Del 29 de octubre de 2026 a las 04:00 al 5 de noviembre de 2026 a las 04:00 (hora del servidor)<br><br><strong>▼// Recompensas del evento </strong><br>Durante el evento, completa las misiones especificadas todos los días para recibir [Refuerzo de Cordura de emergencia]×4 y [Permiso de uso de Cordura]×8, [Catalizador de elaboración de Wuling]×20 y [Gel refrigerante]×100.<br><br><strong>▼// Requisitos de participación </strong><br>Completa la misión principal [Capítulo I Proceso II: Pavimentando el camino] <br><br><strong>▼// Detalles del evento </strong><br>· Este es un evento de suministros especial por tiempo limitado previo al lanzamiento de [Contrato de Contingencia: Operación Experimental Índigo]. <br>· Durante el evento, habrá 3 misiones diarias de Suministro de Cordura: complétalas para ganar recompensas. <br>· Las misiones de Suministro de Cordura se actualizarán diariamente a las 04:00 (hora del servidor). Asegúrate de reclamar las recompensas a tiempo. <br><br><br>※ Zona horaria del servidor Asia: UTC+8 <br>※ Zona horaria del servidor Americas / Europe: UTC-5 <br>※ Para obtener más detalles sobre el evento, consulta el [Centro de eventos] en el juego.<br></p>",
             "linkType": 1
           }
         },
@@ -669,6 +698,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260928/1f00b75800080ef9e7193dd0c59babfd.png",
             "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fstatic.skport.com%252Fu-link%252Fdownload.html%253Fschema%253Dskport%25253A%25252F%25252Fweb%25253Furl%25253Dhttps%2525253A%2525252F%2525252Fgame.skport.com%2525252Fendfield%2525252Fsign-in%2525253Fheader%2525253D0%25252526hg_media%2525253Dgame%25252526hg_link_campaign%2525253Dannouncement%25252526hg_link_name%2525253Dsignin",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "6425",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 5,
+          "displayType": "rich_text",
+          "startAt": 1793160000,
+          "focus": 0,
+          "title": "Arena de juegos",
+          "header": "Detalles del evento [Arena de juegos]",
+          "jumpButton": null,
+          "data": {
+            "html": "<p></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261026/695c4a1aa5171b0eae150988c83f04b5.png\" alt=\"\"><p><strong>▼// Periodo del evento </strong><br>Desde el 29 de octubre de 2026 a las 12:00 hasta el 19 de noviembre de 2026 a las 04:00 (hora del servidor) <br>· Fase 1 del evento: comienza el 29 de octubre de 2026 a las 12:00 (hora del servidor) <br>· Fase 2 del evento: comienza el 11 de noviembre de 2026 a las 04:00 (hora del servidor)</p><p><br></p><p><strong>▼// Recompensas del evento </strong><br>Durante este evento, puedes intentar desafíos de [Arena de juegos] para ganar Puntos de arena. Alcanza todos los Hitos de la arena para ganar recompensas como 1200 [Oroberilios] y [Marca de perseverancia].</p><p><br></p><p><strong>▼// Requisitos de participación </strong><br>Nivel de autoridad ≥30</p><p><br></p><p><strong>▼// Detalles del evento </strong><br>· Extrae Placas de datos y derrota varias rondas de enemigos para aumentar tu puntuación, la cual puede contabilizarse como Puntos de arena. También puedes obtener recompensas de [Hitos de la arena] y [Tareas de la arena]. <br>· Formar una mano con las Placas de datos extraídas otorga multiplicadores de mano, pero también aumenta la dificultad del desafío. <br>· Durante el evento, cumple con los requisitos indicados para obtener la medalla grabada exclusiva del evento.</p><p><br></p><p>※ Zona horaria del servidor Asia: UTC+8 <br>※ Zona horaria del servidor Americas/Europe: UTC-5 <br>※ Para obtener más detalles sobre el evento, consulta el [Centro de eventos] del juego.</p>",
             "linkType": 1
           }
         },

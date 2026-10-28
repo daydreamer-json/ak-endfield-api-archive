@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "en-us",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:en-us",
-      "version": "c9451564157137b21f55d22052104cb4",
+      "version": "bb5e19f754c28ea896e63e28c77e61e2",
       "onlineList": [
         {
           "cid": "2192",
@@ -77,6 +77,12 @@
         {
           "cid": "9853",
           "version": 1793074566,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "8940",
+          "version": 1793158861,
           "needRedDot": true,
           "needPopup": false
         },
@@ -177,6 +183,12 @@
           "needPopup": false
         },
         {
+          "cid": "6425",
+          "version": 1793082735,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "1369",
           "version": 1792498429,
           "needRedDot": true,
@@ -232,7 +244,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1793158717,
+      "updatedAt": 1793160000,
       "list": [
         {
           "cid": "2192",
@@ -408,6 +420,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/48d57a5f7fc071bc4961f44be0ca2158.jpg\" data-width=\"1920\" data-height=\"3601\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "8940",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1793160000,
+          "focus": 0,
+          "title": "Contingency Readiness",
+          "header": "[Contingency Readiness] Limited-Time Event Details",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/2d2e18472ac9522617b22a91d52c64f4.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Event Time </strong><br>Oct. 29, 2026 at 04:00 – Nov. 5, 2026 at 04:00 (server time) <br><br><strong>▼// Event Rewards </strong><br>During the event, complete the specified missions every day to receive [Emergency Sanity Booster]×4, [Sanity Usage Permit]×8, [Wuling Artificing Catalyst]×20, and [Coolant Gel]×100. <br><br><strong>▼// Participation Requirements </strong><br>Complete the main mission [Chapter I Process II: Paving the Way] <br><strong><br>▼// Event Details </strong><br>· This is a special limited-time supply event prior to the launch of the [Contingency Contract: Indigo Experimental Operation]. <br>· During the event, 3 Sanity Supply missions will be available daily. Complete the missions to earn rewards. <br>· Sanity Supply missions will be refreshed daily at 04:00 (server time). Please remember to claim the rewards in time. <br><br><br>※ Asia Server Time Zone: UTC+8 <br>※ Americas / Europe Server Time Zone: UTC-5 <br>※ For more event details, check the in-game [Event Center].<br></p>",
             "linkType": 1
           }
         },
@@ -693,6 +722,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260928/6862ee85049b2d6a079daf39ccdf12cd.png",
             "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fstatic.skport.com%252Fu-link%252Fdownload.html%253Fschema%253Dskport%25253A%25252F%25252Fweb%25253Furl%25253Dhttps%2525253A%2525252F%2525252Fgame.skport.com%2525252Fendfield%2525252Fsign-in%2525253Fheader%2525253D0%25252526hg_media%2525253Dgame%25252526hg_link_campaign%2525253Dannouncement%25252526hg_link_name%2525253Dsignin",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "6425",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 5,
+          "displayType": "rich_text",
+          "startAt": 1793160000,
+          "focus": 0,
+          "title": "Arena of Games",
+          "header": "[Arena of Games] Event Details",
+          "jumpButton": null,
+          "data": {
+            "html": "<p></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261026/203ebf96e35e3802464d3cdd649f6e45.png\" alt=\"\"><p><strong>▼// Event Time </strong><br>Oct. 29, 2026 at 12:00 – Nov. 19, 2026 at 04:00 (server time) <br>· Event Phase 1: Opens Oct. 29, 2026 at 12:00 (server time) <br>· Event Phase 2: Opens Nov. 11, 2026 at 04:00 (server time)</p><p><br></p><p><strong>▼// Event Rewards </strong><br>During the event, challenge the [Arena of Games] for Arena Points. Reach all of the Arena Milestones to earn rewards including [Oroberyl]×1200 and [Mark of Perseverance].</p><p><br></p><p><strong>▼// Participation Requirements </strong><br>Authority Level ≥30</p><p><br></p><p><strong>▼// Event Details </strong><br>· Draw Dataplates and defeat multiple rounds of enemies to increase your score that can be tallied to Arena Points. You can also acquire rewards from the [Arena Milestone] and [Arena Tasks]. <br>· Forming a hand with the Dataplates drawn gives Hand Multipliers, but this also makes the challenge more difficult. <br>· During the event, meet specified conditions to obtain the event-exclusive engraved medal.</p><p><br></p><p>※ Asia Server Time Zone: UTC+8 <br>※ Americas / Europe Server Time Zone: UTC-5 <br>※ For more event details, check the in-game [Event Center].</p>",
             "linkType": 1
           }
         },

@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "ko-kr",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ko-kr",
-      "version": "c8881dd5b2107d452e81241c7f696364",
+      "version": "2bfb8d28dadd33f8291a76e02d708daa",
       "onlineList": [
         {
           "cid": "1307",
@@ -83,6 +83,12 @@
         {
           "cid": "9853",
           "version": 1793074566,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "8940",
+          "version": 1793158861,
           "needRedDot": true,
           "needPopup": false
         },
@@ -189,6 +195,12 @@
           "needPopup": false
         },
         {
+          "cid": "6425",
+          "version": 1793082735,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "1369",
           "version": 1792498429,
           "needRedDot": true,
@@ -244,7 +256,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1793158717,
+      "updatedAt": 1793160000,
       "list": [
         {
           "cid": "1307",
@@ -438,6 +450,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/a2a82615d9994c8afd83d9f0c1b82826.jpg\" data-width=\"1920\" data-height=\"3601\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "8940",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1793160000,
+          "focus": 0,
+          "title": "위기 대응 준비",
+          "header": "「위기 대응 준비」 기간 한정 이벤트 설명",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/2091ae06748b7829fe787f6b6da300b0.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//이벤트 시간</strong><br>2026/10/29 04:00 ~ 2026/11/05 04:00(서버 시간)<br><br><strong>▼//이벤트 보상</strong><br>이벤트 기간에 매일 지정 임무를 완료하면, [응급 이성 강화제]×4, [이성 소모 허가증]×8, [무릉 정밀 단조제]×20 및 [냉각제]×100을 획득할 수 있습니다.<br><br><strong>▼//참여 조건</strong><br>메인 임무 「1장 - 프로세스 II - 앞길 개척」 완료<br><br><strong>▼//이벤트 설명</strong><br>· 본 이벤트는 [위기 협약 · 잿빛 실험 작전] 개방 전 진행되는 특별 기간 한정 보급 이벤트입니다.<br>· 이벤트 기간, 매일 세 가지의 이성 보급 임무가 개방됩니다. 매일 지정 임무를 완료하면 보상을 획득할 수 있습니다.<br>· 매일의 이성 보급 임무는 다음 날 04:00(서버 시간)에 새로고침 되므로, 기한 내에 보상을 수령해 주시기 바랍니다.<br><br><br>※ Asia 서버 시간: UTC+8<br>※ Americas / Europe 서버 시간: UTC-5<br>※ 이벤트와 관련된 더 자세한 설명은 게임 내 [이벤트 센터]에서 확인해 주시기 바랍니다.<br></p>",
             "linkType": 1
           }
         },
@@ -741,6 +770,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260928/5d90571f4fb030917d6398f0774050f6.png",
             "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fstatic.skport.com%252Fu-link%252Fdownload.html%253Fschema%253Dskport%25253A%25252F%25252Fweb%25253Furl%25253Dhttps%2525253A%2525252F%2525252Fgame.skport.com%2525252Fendfield%2525252Fsign-in%2525253Fheader%2525253D0%25252526hg_media%2525253Dgame%25252526hg_link_campaign%2525253Dannouncement%25252526hg_link_name%2525253Dsignin",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "6425",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 5,
+          "displayType": "rich_text",
+          "startAt": 1793160000,
+          "focus": 0,
+          "title": "다채로운 연무",
+          "header": "「다채로운 연무」 이벤트 설명",
+          "jumpButton": null,
+          "data": {
+            "html": "<p></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261026/4d0d390facb74a4c9ca70a542447e635.png\" alt=\"\"><p><strong>▼//이벤트 시간</strong><br>2026/10/29 12:00 ~ 2026/11/19 04:00(서버 시간)<br>· 이벤트 단계 1 개방 시간: 2026/10/29 12:00(서버 시간)<br>· 이벤트 단계 2 개방 시간: 2026/11/11 04:00(서버 시간)</p><p><br></p><p><strong>▼//이벤트 보상</strong><br>이벤트 기간에 「다채로운 연무」에 도전하고, 연무 포인트를 획득해 연무 여정의 전체 구간에 도달하면 [오로베릴]×1,200, [존속의 흔적] 등 이벤트 보상을 획득할 수 있습니다.</p><p><br></p><p><strong>▼//참여 조건</strong><br>권한 등급 ≥ 30레벨</p><p><br></p><p><strong>▼//이벤트 설명</strong><br>· 데이터 플레이트를 뽑아 여러 차례 적을 처치하면, 연산이 완료되고 보상 포인트와 연산 포인트를 획득할 수 있으며, 「연무 여정」과 「연무 기록」에서도 보상을 획득할 수 있습니다.<br>· 뽑은 데이터 플레이트 구성이 조합을 이루면 보상 포인트 버프 배율을 제공하며, 도전 난도도 함께 증가합니다.<br>· 이벤트 기간에 특정 조건을 충족하면, 본 이벤트 한정 식각 훈장을 획득할 수 있습니다.</p><p><br></p><p>※ Asia 서버 시간: UTC+8<br>※ Americas / Europe 서버 시간: UTC-5<br>※ 이벤트와 관련된 더 자세한 설명은 게임 내 [이벤트 센터]에서 확인해 주시기 바랍니다.</p>",
             "linkType": 1
           }
         },

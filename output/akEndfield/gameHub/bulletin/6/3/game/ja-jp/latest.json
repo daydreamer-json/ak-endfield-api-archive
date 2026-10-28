@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "ja-jp",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ja-jp",
-      "version": "6b90830c0c7d8f9421f131c884076492",
+      "version": "253398ec738c763f8f348593e7d96e0c",
       "onlineList": [
         {
           "cid": "2192",
@@ -77,6 +77,12 @@
         {
           "cid": "9853",
           "version": 1793074566,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "8940",
+          "version": 1793158861,
           "needRedDot": true,
           "needPopup": false
         },
@@ -177,6 +183,12 @@
           "needPopup": false
         },
         {
+          "cid": "6425",
+          "version": 1793082735,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "1369",
           "version": 1792498429,
           "needRedDot": true,
@@ -232,7 +244,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1793158717,
+      "updatedAt": 1793160000,
       "list": [
         {
           "cid": "2192",
@@ -408,6 +420,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/9ab8555a950e1f3f2ff9b7a223edfa8f.jpg\" data-width=\"1920\" data-height=\"3601\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "8940",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1793160000,
+          "focus": 0,
+          "title": "危機準備",
+          "header": "「危機準備」期間限定イベント概要",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/f5dfb4c4dea952da9201bceb0d8000cf.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//開催期間</strong><br>2026/10/29 04:00～2026/11/05 04:00（サーバー時間）<br><br><strong>▼//イベント報酬</strong><br>開催期間中、クエストを完了すると、【初級理性回復剤】×4、【理性消費許可証】×8、【武陵精密加工強化剤】×20、【冷却グリース】×100を受け取ることができます。<br><br><strong>▼//参加条件</strong><br>メイン任務：第一章-プロセスⅡ「前路開拓」を完了<br><br><strong>▼//説明</strong><br>· 本イベントは「危機契約 青藍試験作戦」開催前の期間限定特別補給イベントです。<br>· 期間中、毎日3つの理性補給クエストが解放されます。クエストを完了すると、報酬を受け取ることができます。<br>· 理性補給クエストは翌日04:00（サーバー時間）に更新されます。報酬はお早めにお受け取りください。<br><br><br>※Asiaサーバーのタイムゾーン：UTC+8<br>※Americas / Europeサーバーのタイムゾーン：UTC-5<br>※イベントの詳細は、ゲーム内の【イベント】よりご確認ください。<br></p>",
             "linkType": 1
           }
         },
@@ -693,6 +722,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260928/70be86020401830ce8048f2462e06b11.png",
             "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fstatic.skport.com%252Fu-link%252Fdownload.html%253Fschema%253Dskport%25253A%25252F%25252Fweb%25253Furl%25253Dhttps%2525253A%2525252F%2525252Fgame.skport.com%2525252Fendfield%2525252Fsign-in%2525253Fheader%2525253D0%25252526hg_media%2525253Dgame%25252526hg_link_campaign%2525253Dannouncement%25252526hg_link_name%2525253Dsignin",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "6425",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 5,
+          "displayType": "rich_text",
+          "startAt": 1793160000,
+          "focus": 0,
+          "title": "百趣演武",
+          "header": "「百趣演武」イベント概要",
+          "jumpButton": null,
+          "data": {
+            "html": "<p></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261026/605e4938ff5f708a6107008ab16e6949.png\" alt=\"\"><p><strong>▼//開催期間</strong><br>2026/10/29 12:00～2026/11/19 04:00（サーバー時間）<br>· イベント段階1開放日時：2026/10/29 12:00（サーバー時間）<br>· イベント段階2開放日時：2026/11/11 04:00（サーバー時間）</p><p><br></p><p><strong>▼//イベント報酬</strong><br>イベント期間中、「百趣演武」に挑戦して演武ポイントを獲得し、演武実績の段階を最大にすると、【赤晶玉】×1,200、【存続の痕跡】などの報酬を獲得できます。</p><p><br></p><p><strong>▼//参加条件</strong><br>行動レベル≥Lv.30</p><p><br></p><p><strong>▼//説明</strong><br>· データカードを引き、複数ラウンドの敵を倒すと、演算を完了してボーナスと演算ポイントを獲得でき、「演武実績」と「演武事録」から報酬を受け取れます。<br>· 引いたデータカードで特定の組み合わせを成立させると、ボーナスの獲得倍率が上がりますが、同時に挑戦の難度も上昇します。<br>· イベント期間中、指定の条件を達成すると本イベント専用の勲章を入手できます。</p><p><br></p><p>※Asiaサーバーのタイムゾーン： UTC+8<br>※Americas / Europeサーバーのタイムゾーン：UTC-5<br>※ イベントの詳細は、ゲーム内の【イベント】よりご確認ください。</p>",
             "linkType": 1
           }
         },

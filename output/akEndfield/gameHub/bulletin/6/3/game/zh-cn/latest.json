@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-cn",
-      "version": "4b60af0fe24c593665b795d2298d443e",
+      "version": "52777948a3d98eb4b5cba134755a755c",
       "onlineList": [
         {
           "cid": "2192",
@@ -77,6 +77,12 @@
         {
           "cid": "9853",
           "version": 1793074566,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "8940",
+          "version": 1793158861,
           "needRedDot": true,
           "needPopup": false
         },
@@ -171,6 +177,12 @@
           "needPopup": false
         },
         {
+          "cid": "6425",
+          "version": 1793082735,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "1369",
           "version": 1792498429,
           "needRedDot": true,
@@ -226,7 +238,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1793158717,
+      "updatedAt": 1793160000,
       "list": [
         {
           "cid": "2192",
@@ -402,6 +414,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/8c61e662e129855899b69fe7340bbb50.jpg\" data-width=\"1920\" data-height=\"3601\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "8940",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1793160000,
+          "focus": 0,
+          "title": "危机筹备",
+          "header": "「危机筹备」限时活动说明",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/011b797e93b56a79cb7b609f947852bc.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//活动时间</strong><br>2026/10/29 04:00 - 2026/11/05 04:00（服务器时间）<br><br><strong>▼//活动奖励</strong><br>活动期间，每日完成指定任务，可获得【应急理智加强剂】×4、【理智消耗许可】×8、【武陵精锻助剂】×20、【冷却脂】×100。<br><br><strong>▼//参与条件</strong><br>完成主线任务「第一章 - 进程Ⅱ - 开拓前路」<br><br><strong>▼//活动说明</strong><br>· 本活动为「危机合约 浸蓝测试作战」开启前的特别限时补给活动。<br>· 活动期间，每日将固定开放3个理智补给任务，完成任务即可获得奖励。<br>· 每日的理智补给任务将于次日04:00（服务器时间）刷新，请管理员及时领取奖励。<br><br><br>※Asia服务器时区：UTC+8<br>※Americas / Europe服务器时区：UTC-5<br>※ 更多活动详细说明，请前往游戏内【活动中心】查看。<br></p>",
             "linkType": 1
           }
         },
@@ -669,6 +698,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260928/695791e6615250d4ff3cf8619d3f5781.png",
             "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fstatic.skport.com%252Fu-link%252Fdownload.html%253Fschema%253Dskport%25253A%25252F%25252Fweb%25253Furl%25253Dhttps%2525253A%2525252F%2525252Fgame.skport.com%2525252Fendfield%2525252Fsign-in%2525253Fheader%2525253D0%25252526hg_media%2525253Dgame%25252526hg_link_campaign%2525253Dannouncement%25252526hg_link_name%2525253Dsignin",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "6425",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 5,
+          "displayType": "rich_text",
+          "startAt": 1793160000,
+          "focus": 0,
+          "title": "百趣演武",
+          "header": "「百趣演武」活动说明",
+          "jumpButton": null,
+          "data": {
+            "html": "<p></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261026/06017a539133a7b0a442ccc8dbe7136f.jpg\" alt=\"\"><p><strong>▼//活动时间</strong><br>2026/10/29 12:00 - 2026/11/19 04:00（服务器时间）<br>· 活动阶段1开放时间：2026/10/29 12:00（服务器时间）<br>· 活动阶段2开放时间：2026/11/11 04:00（服务器时间）</p><p><br></p><p><strong>▼//活动奖励</strong><br>活动期间挑战「百趣演武」，获取演武积分，达到演武历程中的全部档位，即可获得【嵌晶玉】×1200、【存续的痕迹】等活动奖励。</p><p><br></p><p><strong>▼//参与条件</strong><br>权限等阶≥30级</p><p><br></p><p><strong>▼//活动说明</strong><br>· 抽取数据铭牌，击败多轮敌人即可完成演算，获得奖励点和演算积分，并在「演武历程」和「演武事录」中获取奖励。<br>· 抽出的数据铭牌达成组合，能提供组合增益倍率，也会加大挑战难度。<br>· 活动期间，达成指定条件即可获得本活动专属蚀刻章。</p><p><br></p><p>※Asia服务器时区: UTC+8<br>※Americas / Europe服务器时区: UTC-5<br>※更多活动详细说明，请前往游戏内【活动中心】查看。</p>",
             "linkType": 1
           }
         },

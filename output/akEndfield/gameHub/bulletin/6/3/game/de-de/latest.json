@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "de-de",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:de-de",
-      "version": "4b60af0fe24c593665b795d2298d443e",
+      "version": "52777948a3d98eb4b5cba134755a755c",
       "onlineList": [
         {
           "cid": "2192",
@@ -77,6 +77,12 @@
         {
           "cid": "9853",
           "version": 1793074566,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "8940",
+          "version": 1793158861,
           "needRedDot": true,
           "needPopup": false
         },
@@ -171,6 +177,12 @@
           "needPopup": false
         },
         {
+          "cid": "6425",
+          "version": 1793082735,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "1369",
           "version": 1792498429,
           "needRedDot": true,
@@ -226,7 +238,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1793158717,
+      "updatedAt": 1793160000,
       "list": [
         {
           "cid": "2192",
@@ -402,6 +414,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/408e3acad6e5297a79722b8d680f9e83.jpg\" data-width=\"1920\" data-height=\"3601\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "8940",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1793160000,
+          "focus": 0,
+          "title": "Krisenbereitschaft",
+          "header": "[Krisenbereitschaft] Details zum zeitlich begrenzten Event",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/2c262009fd1a2fb3741dbe7dc3c3df21.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Eventzeitraum </strong><br>29. Oktober 2026 um 04:00 Uhr – 5. November 2026 um 04:00 Uhr (Serverzeit) <br><br><strong>▼// Event-Belohnungen </strong><br>Schließe während des Events jeden Tag die angegebenen Missionen ab und erhalte [Verstandsverstärker für den Notfall]×4, [Verstandsverbrauch-Genehmigung]×8, [Wuling-Veredelungskatalysator]×20 und [Kühlungsgel]×100.<br><br><strong>▼// Teilnahmevoraussetzungen </strong><br>Abschluss der Hauptmission [Kapitel I, Prozess II: Den Weg freimachen]<br><br><strong>▼// Eventdetails </strong><br>· Dies ist ein besonderes, zeitlich begrenztes Versorgungsevent vor dem Start von [Krisenschutzvertrag: Versuchseinsatz Indigo]. <br>· Während des Events sind täglich 3 Verstandsversorgung-Missionen verfügbar. Schließe die Missionen ab, um Belohnungen zu erhalten. <br>· Verstandsversorgung-Missionen werden täglich um 04:00 Uhr (Serverzeit) aktualisiert. Bitte denk dran, deine Belohnungen rechtzeitig abzuholen.<br><br><br>※ Zeitzone des Asia-Servers: UTC+8 <br>※ Zeitzone des Americas / Europe-Servers: UTC-5 <br>※ Weitere Eventdetails findest du im [Eventcenter] im Spiel.<br></p>",
             "linkType": 1
           }
         },
@@ -669,6 +698,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260928/2992e336800fb03a7ed370c261fe22e4.png",
             "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fstatic.skport.com%252Fu-link%252Fdownload.html%253Fschema%253Dskport%25253A%25252F%25252Fweb%25253Furl%25253Dhttps%2525253A%2525252F%2525252Fgame.skport.com%2525252Fendfield%2525252Fsign-in%2525253Fheader%2525253D0%25252526hg_media%2525253Dgame%25252526hg_link_campaign%2525253Dannouncement%25252526hg_link_name%2525253Dsignin",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "6425",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 5,
+          "displayType": "rich_text",
+          "startAt": 1793160000,
+          "focus": 0,
+          "title": "Arena der Spiele",
+          "header": "[Arena der Spiele] Eventdetails",
+          "jumpButton": null,
+          "data": {
+            "html": "<p></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261026/9c9caf760318dca0cfb55ec94724c46b.png\" alt=\"\"><p><strong>▼// Eventzeitraum </strong><br>29. Oktober 2026 um 12:00&nbsp;Uhr&nbsp;– 19. November 2026 um 04:00&nbsp;Uhr (Serverzeit) <br>· Eventphase 1: Öffnet am 29. Okt. 2026 um 12:00&nbsp;Uhr (Serverzeit) <br>· Eventphase 2: Öffnet am 11. Nov. 2026 um 04:00&nbsp;Uhr (Serverzeit)</p><p><br></p><p><strong>▼// Event-Belohnungen </strong><br>Stelle dich während des Events der [Arena der Spiele], um Arena-Punkte zu erhalten. Erreiche alle Arena-Meilensteine, um Belohnungen zu erhalten, darunter [Oro-Beryll]×1.200 und [Mal der Beharrlichkeit].</p><p><br></p><p><strong>▼// Teilnahmevoraussetzungen </strong><br>Autoritätslevel ≥30</p><p><br></p><p><strong>▼// Eventdetails </strong><br>· Ziehe Datenplatten und besiege mehrere Runden von Gegnern, um deine Punkte zu erhöhen, die zu Arena-Punkten addiert werden. Du kannst außerdem Belohnungen über [Arena-Meilensteine] und [Arena-Aufgaben] erhalten. <br>· Das Bilden eines Blatts mit den gezogenen Datenplatten gewährt Blatt-Multiplikatoren, macht die Herausforderung jedoch auch schwieriger. <br>· Erfülle während des Events bestimmte Bedingungen, um die exklusive gravierte Medaille zu erhalten.</p><p><br></p><p>※ Zeitzone des Asia-Servers: UTC+8 <br>※ Zeitzone des Americas / Europe-Servers: UTC-5 <br>※ Weitere Eventdetails findest du im [Eventcenter] im Spiel.</p>",
             "linkType": 1
           }
         },
