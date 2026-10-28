@@ -18,8 +18,14 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-cn",
-      "version": "e7e5c43595a8b6ff9f5d8236b820384d",
+      "version": "4b60af0fe24c593665b795d2298d443e",
       "onlineList": [
+        {
+          "cid": "2192",
+          "version": 1793158716,
+          "needRedDot": true,
+          "needPopup": false
+        },
         {
           "cid": "0783",
           "version": 1793118973,
@@ -53,12 +59,6 @@
         {
           "cid": "9854",
           "version": 1792030352,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
-          "cid": "2192",
-          "version": 1793158596,
           "needRedDot": true,
           "needPopup": false
         },
@@ -226,8 +226,26 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1793158597,
+      "updatedAt": 1793158717,
       "list": [
+        {
+          "cid": "2192",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1793154600,
+          "focus": 0,
+          "extraData": {},
+          "title": "部分活动\\n时间调整说明",
+          "header": "部分活动时间调整说明",
+          "jumpButton": null,
+          "data": {
+            "html": "<p></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261027/88e4259d926e10e3c8c0677bbf57e51c.jpg\" alt=\"\"><p>亲爱的管理员：<br>项目组将对「丹青渡」版本中部分活动时间进行调整，相关内容及奖励均保持不变。本次调整将在2026/11/05闪断更新后生效，调整内容如下：</p><p><br></p><p><strong>▼//时间调整说明</strong><br>■ 「烟火生缘」趣味活动的结束时间将调整为2026/11/25 06:00（服务器时间）<br>■ 「危机合约 浸蓝测试作战」中「机密圣所」兑换的结束时间将调整为2026/12/02 04:00（服务器时间）<br>■ 「理智补给」限时活动的活动时间将调整为：</p><p>Asia服务器：2026/11/18 04:00 - 2026/11/25 04:00（服务器时间）</p><p>Americas / Europe服务器：2026/11/18 04:00 - 2026/11/24 17:00（服务器时间）</p><p><br></p><p><strong>▼//其他说明</strong><br>其他活动及玩法（如「影拓丰碑 - 深林呓语」系列、「密境行者 - 画外遗光」等）的内容、奖励等均保持不变。</p><p><br></p><p>感谢管理员一直以来对于《明日方舟：终末地》的理解与支持！<br>※Asia服务器时区: UTC+8<br>※Americas / Europe服务器时区: UTC-5</p>",
+            "linkType": 1
+          }
+        },
         {
           "cid": "0783",
           "type": 0,
@@ -331,24 +349,6 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260930/1ffd97d17b96d8739096a6e6449ada64.png\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//网页入口链接</strong></p><p>管理员可通过下方链接进入新版本导览专题网页。</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://endfield.gryphline.com/version_briefing/latest?source_from=notice\">&gt;&gt;点击前往</a></p><p><br></p><p><strong>▼//网页上线时间</strong></p><p>· 新版本导览专题网页自2026/10/06 20:00（UTC+8）起长期可浏览，内容将随游戏版本替换。</p><p>· 每期新版本导览专题网页的展示时间为对应版本前瞻预告节目播出后，至下一版本前瞻预告节目结束前。</p><p><br></p><p><strong>▼//奖励领取条件</strong></p><p>· 在新版本导览专题网页中登录游戏账号，并在《明日方舟：终末地》内完成创建角色。</p><p><br></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//奖励领取说明</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">· 奖励领取期限：「丹青渡」新版本导览专题网页上线后，至「丹青渡」版本更新维护前，可在该页面点击领取奖励。</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 在奖励领取期限内，新版本导览专题网页中将展示奖励领取按钮；超过该期限后，按钮将不再展示，且无法领取当期奖励。</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 成功在新版本导览专题网页领取奖励后，相应奖励将发放至当前登录账号的角色邮箱。</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 同一期新版本导览奖励，每个游戏账号仅可获取一次。</span></p><p><br></p><p>※ 更多详细说明，请前往网页内查看。</p>",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "2192",
-          "type": 0,
-          "tab": "updates",
-          "orderType": 1,
-          "orderWeight": 2,
-          "displayType": "rich_text",
-          "startAt": 1793154600,
-          "focus": 0,
-          "extraData": {},
-          "title": "部分活动\\n时间调整说明",
-          "header": "部分活动时间调整说明",
-          "jumpButton": null,
-          "data": {
-            "html": "<p></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261027/88e4259d926e10e3c8c0677bbf57e51c.jpg\" alt=\"\"><p>亲爱的管理员：<br>项目组将对「丹青渡」版本中部分活动时间进行调整，相关内容及奖励均保持不变。本次调整将在2026/11/05闪断更新后生效，调整内容如下：</p><p><br></p><p><strong>▼//时间调整说明</strong><br>■ 「烟火生缘」趣味活动的结束时间将调整为2026/11/25 06:00（服务器时间）<br>■ 「危机合约 浸蓝测试作战」中「机密圣所」兑换的结束时间将调整为2026/12/02 04:00（服务器时间）<br>■ 「理智补给」限时活动的活动时间将调整为：</p><p>Asia服务器：2026/11/18 04:00 - 2026/11/25 04:00（服务器时间）</p><p>Americas / Europe服务器：2026/11/18 04:00 - 2026/11/24 17:00（服务器时间）</p><p><br></p><p><strong>▼//其他说明</strong><br>其他活动及玩法（如「影拓丰碑 - 深林呓语」系列、「密境行者 - 画外遗光」等）的内容、奖励等均保持不变。</p><p><br></p><p>感谢管理员一直以来对于《明日方舟：终末地》的理解与支持！<br>※Asia服务器时区: UTC+8<br>※Americas / Europe服务器时区: UTC-5</p>",
             "linkType": 1
           }
         },

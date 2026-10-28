@@ -18,8 +18,14 @@
       "subChannel": "#DEFAULT",
       "lang": "fr-fr",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:fr-fr",
-      "version": "e7e5c43595a8b6ff9f5d8236b820384d",
+      "version": "4b60af0fe24c593665b795d2298d443e",
       "onlineList": [
+        {
+          "cid": "2192",
+          "version": 1793158716,
+          "needRedDot": true,
+          "needPopup": false
+        },
         {
           "cid": "0783",
           "version": 1793118973,
@@ -53,12 +59,6 @@
         {
           "cid": "9854",
           "version": 1792030352,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
-          "cid": "2192",
-          "version": 1793158596,
           "needRedDot": true,
           "needPopup": false
         },
@@ -226,8 +226,26 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1793158597,
+      "updatedAt": 1793158717,
       "list": [
+        {
+          "cid": "2192",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1793154600,
+          "focus": 0,
+          "extraData": {},
+          "title": "Certains événements\\nAvis d'ajustement des horaires",
+          "header": "Avis d'ajustement des horaires de certains événements",
+          "jumpButton": null,
+          "data": {
+            "html": "<p></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261027/436edd4bbd63e980f95a30b7efbb4249.jpg\" alt=\"\"><p>Endministrator :<br>L'équipe du projet va ajuster les horaires de certains événements de la version [Sanctuaire d'encre]. Les contenus et récompenses concernés restent inchangés. Ces ajustements prendront effet après la mise à jour rapide du 5 novembre 2026. Voici le détail des ajustements :</p><p><br></p><p><strong>▼// Détails de l'ajustement des horaires</strong><br>■ La date de fin de l'événement de jeux et divertissements [Fourneaux brûlants de Yuanyuan] sera modifiée au 25 novembre 2026 à 6 h (heure du serveur)<br>■ La date de fin des échanges au [Sanctuaire secret] de [Contrat de crise : Opération expérimentale indigo] sera modifiée au 2 décembre 2026 à 4 h (heure du serveur)<br>■ La période de l'événement à durée limitée [Approvisionnement en lucidité] sera modifiée comme suit :</p><p>Serveur Asia : du 18 novembre 2026 à 4 h au 25 novembre 2026 à 4 h (heure du serveur)</p><p>Serveur Americas / Europe : du 18 novembre 2026 à 4 h au 24 novembre 2026 à 17 h (heure du serveur)<br></p><p><strong>▼// Autres informations</strong><br>Les contenus et récompenses des autres événements et modes de jeu (comme la série [Monument de l'ombre - Murmures de la forêt profonde] et [Exploration du mystère - Disparaître par-delà la toile]) restent inchangés.</p><p><br></p><p>Merci de votre compréhension et de votre soutien continus pour Arknights: Endfield, Endministrator !<br>※ Fuseau horaire du serveur Asia : UTC+8<br>※ Fuseau horaire du serveur Americas / Europe : UTC-5</p>",
+            "linkType": 1
+          }
+        },
         {
           "cid": "0783",
           "type": 0,
@@ -331,24 +349,6 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260930/50de47bf88aef8dd428297f526523677.png\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Lien de la page</strong></p><p>Les Endministrators peuvent accéder à la page du Guide de la nouvelle version via le lien ci-dessous.</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://endfield.gryphline.com/version_briefing/latest?source_from=notice\">&gt;&gt;Cliquer pour y aller</a></p><p><br></p><p><strong>▼// Heure de mise en ligne de la page</strong></p><p>· La page du Guide de la nouvelle version sera accessible en permanence et consultable à partir du 6 octobre 2026 à 20 h (UTC+8), et son contenu sera remplacé à chaque version du jeu.</p><p>· Chaque page du Guide de la nouvelle version sera disponible à partir de la diffusion de l'aperçu de la version correspondante, et ce jusqu'avant la fin de l'aperçu de la version suivante.</p><p><br></p><p><strong>▼// Conditions d'obtention des récompenses</strong></p><p>· Connectez-vous à votre compte de jeu depuis la page du Guide de la nouvelle version et terminez la création de votre personnage dans Arknights: Endfield.</p><p><br></p><p><strong>▼// Instructions pour récupérer vos récompenses</strong></p><p><span style=\"color: rgb(0, 0, 0);\">· Période de récupération des récompenses : après la mise en ligne de la page du Guide de la nouvelle version [Sanctuaire d'encre], et jusqu'au début de la mise à jour et de la maintenance de la version [Sanctuaire d'encre], vous pouvez récupérer les récompenses sur cette page.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Durant la période de récupération des récompenses, un bouton « Récupérer les récompenses » s'affichera sur la page du Guide de la nouvelle version. Une fois cette période terminée, le bouton disparaîtra et les récompenses correspondant à cette version ne pourront plus être récupérées.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Une fois les récompenses récupérées sur la page du Guide de la nouvelle version, elles seront envoyées dans la messagerie en jeu du personnage associé au compte actuellement connecté.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Chaque compte de jeu ne peut récupérer qu'une seule fois les récompenses d'un Guide de la nouvelle version donné.</span></p><p><br></p><p>※ Consultez la page pour en savoir plus.</p>",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "2192",
-          "type": 0,
-          "tab": "updates",
-          "orderType": 1,
-          "orderWeight": 2,
-          "displayType": "rich_text",
-          "startAt": 1793154600,
-          "focus": 0,
-          "extraData": {},
-          "title": "Certains événements\\nAvis d'ajustement des horaires",
-          "header": "Avis d'ajustement des horaires de certains événements",
-          "jumpButton": null,
-          "data": {
-            "html": "<p></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261027/436edd4bbd63e980f95a30b7efbb4249.jpg\" alt=\"\"><p>Endministrator :<br>L'équipe du projet va ajuster les horaires de certains événements de la version [Sanctuaire d'encre]. Les contenus et récompenses concernés restent inchangés. Ces ajustements prendront effet après la mise à jour rapide du 5 novembre 2026. Voici le détail des ajustements :</p><p><br></p><p><strong>▼// Détails de l'ajustement des horaires</strong><br>■ La date de fin de l'événement de jeux et divertissements [Fourneaux brûlants de Yuanyuan] sera modifiée au 25 novembre 2026 à 6 h (heure du serveur)<br>■ La date de fin des échanges au [Sanctuaire secret] de [Contrat de crise : Opération expérimentale indigo] sera modifiée au 2 décembre 2026 à 4 h (heure du serveur)<br>■  La période de l'événement à durée limitée [Approvisionnement en lucidité] sera modifiée comme suit :</p><p>Serveur Asia : du 18 novembre 2026 à 4 h au 25 novembre 2026 à 4 h (heure du serveur)</p><p>Serveur Americas / Europe : du 18 novembre 2026 à 4 h au 24 novembre 2026 à 17 h (heure du serveur)<br></p><p><strong>▼// Autres informations</strong><br>Les contenus et récompenses des autres événements et modes de jeu (comme la série [Monument de l'ombre - Murmures de la forêt profonde] et [Exploration du mystère - Disparaître par-delà la toile]) restent inchangés.</p><p><br></p><p>Merci de votre compréhension et de votre soutien continus pour Arknights: Endfield, Endministrator !<br>※ Fuseau horaire du serveur Asia : UTC+8<br>※ Fuseau horaire du serveur Americas / Europe : UTC-5</p>",
             "linkType": 1
           }
         },
