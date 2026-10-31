@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-cn",
-      "version": "f320084bcbf32ae0f999385aa8013ab1",
+      "version": "90c19c665a6eb958ad5247dd8649f3ce",
       "onlineList": [
         {
           "cid": "2192",
@@ -77,6 +77,12 @@
         {
           "cid": "9853",
           "version": 1793168511,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "5517",
+          "version": 1793352658,
           "needRedDot": true,
           "needPopup": false
         },
@@ -232,7 +238,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1793375940,
+      "updatedAt": 1793419200,
       "list": [
         {
           "cid": "2192",
@@ -408,6 +414,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/8c61e662e129855899b69fe7340bbb50.jpg\" data-width=\"1920\" data-height=\"3601\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "5517",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1793419200,
+          "focus": 0,
+          "title": "予众魂的新光影",
+          "header": "「予众魂的新光影」趣味活动说明",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261029/b50ca57b354514fa7cc2eb587ad6a563.png\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//活动时间</strong></p><p>2026/10/31 12:00 - 2026/11/14 04:00（服务器时间）</p><p><br></p><p><strong>▼//活动奖励</strong></p><p>活动期间完成任务，可获得【嵌晶玉】【折金票】活动奖励。</p><p><br></p><p><strong>▼//参与条件</strong></p><p>完成主线任务「第一章 - 进程Ⅰ - 基地解围」</p><p><br></p><p><strong>▼//活动说明</strong></p><p>· 前往活动页面，通过搭配演员与道具完成拍摄，解锁不同结局，领取丰厚奖励。</p><p><br></p><p>※ Asia服务器时区：UTC+8</p><p>※ Americas / Europe服务器时区：UTC-5</p><p>※ 更多活动详细说明，请前往游戏内【活动中心】查看。</p>",
             "linkType": 1
           }
         },

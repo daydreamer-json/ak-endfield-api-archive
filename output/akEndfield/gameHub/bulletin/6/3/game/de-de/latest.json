@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "de-de",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:de-de",
-      "version": "f320084bcbf32ae0f999385aa8013ab1",
+      "version": "90c19c665a6eb958ad5247dd8649f3ce",
       "onlineList": [
         {
           "cid": "2192",
@@ -77,6 +77,12 @@
         {
           "cid": "9853",
           "version": 1793168511,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "5517",
+          "version": 1793352658,
           "needRedDot": true,
           "needPopup": false
         },
@@ -232,7 +238,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1793375940,
+      "updatedAt": 1793419200,
       "list": [
         {
           "cid": "2192",
@@ -408,6 +414,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/408e3acad6e5297a79722b8d680f9e83.jpg\" data-width=\"1920\" data-height=\"3601\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "5517",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1793419200,
+          "focus": 0,
+          "title": "Neues Zeitalter für die unzähligen Seelen",
+          "header": "Neues Zeitalter für die unzähligen Seelen",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261029/efb1b83628f025c1bc8f744e7d088b0e.png\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Eventzeitraum</strong></p><p>31. Oktober 2026 um 12:00 Uhr (Serverzeit) – 14. November 2026 um 04:00 Uhr (Serverzeit)</p><p><br></p><p><strong>▼// Event-Belohnungen</strong></p><p>Schließe während des Events Missionen ab, um [Oro-Berylle] und [T-Kreditscheine] als Belohnungen zu erhalten.</p><p><br></p><p><strong>▼// Teilnahmevoraussetzungen</strong></p><p>Abschluss der Hauptmission [Kapitel I, Prozess I: Die Belagerung durchbrechen]</p><p><br></p><p><strong>▼// Eventdetails</strong></p><p>· Rufe den Eventbildschirm auf, füge dann Schauspieler und Requisiten hinzu, um verschiedene Dreharbeiten abzuschließen, unterschiedliche Enden freizuschalten und großzügige Belohnungen zu erhalten.</p><p><br></p><p>※ Zeitzone des Asia-Servers: UTC+8</p><p>※ Zeitzone des Americas / Europe-Servers: UTC-5</p><p>※ Weitere Eventdetails findest du im [Eventcenter] im Spiel.</p>",
             "linkType": 1
           }
         },

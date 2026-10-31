@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "es-mx",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:es-mx",
-      "version": "f320084bcbf32ae0f999385aa8013ab1",
+      "version": "90c19c665a6eb958ad5247dd8649f3ce",
       "onlineList": [
         {
           "cid": "2192",
@@ -77,6 +77,12 @@
         {
           "cid": "9853",
           "version": 1793168511,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "5517",
+          "version": 1793352658,
           "needRedDot": true,
           "needPopup": false
         },
@@ -232,7 +238,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1793375940,
+      "updatedAt": 1793419200,
       "list": [
         {
           "cid": "2192",
@@ -408,6 +414,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/56021051499adbd5aeb693804ac8cc3e.jpg\" data-width=\"1920\" data-height=\"3601\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "5517",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1793419200,
+          "focus": 0,
+          "title": "Nueva era para las Incontables almas",
+          "header": "Nueva era para las Incontables almas",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261029/6472c38d9ea995ba6900ed91e304d370.png\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Periodo del evento</strong></p><p>Desde el 31 de octubre de 2026 a las 12:00 hasta el 14 de noviembre de 2026 a las 04:00 (hora del servidor)</p><p><br></p><p><strong>▼// Recompensas del evento</strong></p><p>Completa las misiones durante el evento para obtener recompensas como [Oroberilios] y [T-Creds].</p><p><br></p><p><strong>▼// Requisitos de participación</strong></p><p>Completa la misión principal [Capítulo I Proceso I: Rompiendo el asedio]</p><p><br></p><p><strong>▼// Detalles del evento</strong></p><p>· Visita la pantalla del evento para agregar actores y utilería para completar distintas grabaciones de la historia, desbloquear distintos finales y obtener abundantes recompensas.</p><p><br></p><p>※ Zona horaria del servidor Asia: UTC+8</p><p>※ Zona horaria del servidor Americas / Europe: UTC-5</p><p>※ Para obtener más detalles del evento, consulta el [Centro de eventos] del juego.</p>",
             "linkType": 1
           }
         },

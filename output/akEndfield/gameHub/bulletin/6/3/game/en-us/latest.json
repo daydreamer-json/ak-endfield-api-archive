@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "en-us",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:en-us",
-      "version": "f320084bcbf32ae0f999385aa8013ab1",
+      "version": "90c19c665a6eb958ad5247dd8649f3ce",
       "onlineList": [
         {
           "cid": "2192",
@@ -77,6 +77,12 @@
         {
           "cid": "9853",
           "version": 1793168511,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "5517",
+          "version": 1793352658,
           "needRedDot": true,
           "needPopup": false
         },
@@ -232,7 +238,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1793376000,
+      "updatedAt": 1793419200,
       "list": [
         {
           "cid": "2192",
@@ -408,6 +414,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/48d57a5f7fc071bc4961f44be0ca2158.jpg\" data-width=\"1920\" data-height=\"3601\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "5517",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1793419200,
+          "focus": 0,
+          "title": "New Era for the Myriad Souls",
+          "header": "[New Era for the Myriad Souls] Fun & Games Event Details",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261029/3c0bd79dba031758c736166d3775fa0b.png\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Event Time</strong></p><p>Oct. 31, 2026 at 12:00 – Nov. 14, 2026 at 04:00 (server time)</p><p><br></p><p><strong>▼// Event Rewards</strong></p><p>Complete missions during the event to earn rewards, including [Oroberyls] and [T-Creds].</p><p><br></p><p><strong>▼// Participation Requirements</strong></p><p>Complete the main mission [Chapter I Process I: Break the Siege]</p><p><br></p><p><strong>▼// Event Details</strong></p><p>· Visit the event screen, then add actors and props to complete various film shoots, unlock different endings, and claim generous rewards.</p><p><br></p><p>※ Asia Server Time Zone: UTC+8</p><p>※ Americas / Europe Server Time Zone: UTC-5</p><p>※ For more event details, check the in-game [Event Center].</p>",
             "linkType": 1
           }
         },

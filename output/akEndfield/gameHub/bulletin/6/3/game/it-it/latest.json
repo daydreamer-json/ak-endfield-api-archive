@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "it-it",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:it-it",
-      "version": "f320084bcbf32ae0f999385aa8013ab1",
+      "version": "90c19c665a6eb958ad5247dd8649f3ce",
       "onlineList": [
         {
           "cid": "2192",
@@ -77,6 +77,12 @@
         {
           "cid": "9853",
           "version": 1793168511,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "5517",
+          "version": 1793352658,
           "needRedDot": true,
           "needPopup": false
         },
@@ -232,7 +238,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1793375940,
+      "updatedAt": 1793419200,
       "list": [
         {
           "cid": "2192",
@@ -408,6 +414,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/20e9b0f4b467998a5f06860e0fd411a9.jpg\" data-width=\"1920\" data-height=\"3601\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "5517",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1793419200,
+          "focus": 0,
+          "title": "Una nuova era per la miriade di anime",
+          "header": "Una nuova era per la miriade di anime",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261029/ba26ab800a7ef6b6b114618dab102476.png\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Periodo dell'evento</strong></p><p>31 ottobre 2026 alle 12:00 - 14 novembre 2026 alle 04:00 (fuso orario del server)</p><p><br></p><p><strong>▼// Ricompense dell'evento</strong></p><p>Completa le missioni durante l'evento per ottenere ricompense che includono [Oroberilli] e [Crediti-T].</p><p><br></p><p><strong>▼// Requisiti per partecipare</strong></p><p>Aver completato la missione principale [Capitolo I - Elaborazione I: Sotto assedio]</p><p><br></p><p><strong>▼// Dettagli evento</strong></p><p>· Visita la schermata dell'evento, quindi aggiungi attori e oggetti di scena per completare varie riprese, sbloccare diversi finali e riscattare generose ricompense.</p><p><br></p><p>※ Fuso orario del server Asia: UTC+8</p><p>※ Fuso orario del server Americas / Europe: UTC-5</p><p>※ Per maggiori dettagli sull'evento, consulta il [Centro eventi] nel gioco.</p>",
             "linkType": 1
           }
         },
