@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-cn",
-      "version": "72346aa36c28f9afd37b59485c98856a",
+      "version": "33ddb6a32c4cb4feb3d8c5cc409930ac",
       "onlineList": [
         {
           "cid": "8949",
@@ -59,6 +59,12 @@
         {
           "cid": "9854",
           "version": 1793167771,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "4600",
+          "version": 1793787742,
           "needRedDot": true,
           "needPopup": false
         },
@@ -238,7 +244,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1793786400,
+      "updatedAt": 1793788200,
       "list": [
         {
           "cid": "8949",
@@ -361,6 +367,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260930/1ffd97d17b96d8739096a6e6449ada64.png\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//网页入口链接</strong></p><p>管理员可通过下方链接进入新版本导览专题网页。</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://endfield.gryphline.com/version_briefing/latest?source_from=notice\">&gt;&gt;点击前往</a></p><p><br></p><p><strong>▼//网页上线时间</strong></p><p>· 新版本导览专题网页自2026/10/06 20:00（UTC+8）起长期可浏览，内容将随游戏版本替换。</p><p>· 每期新版本导览专题网页的展示时间为对应版本前瞻预告节目播出后，至下一版本前瞻预告节目结束前。</p><p><br></p><p><strong>▼//奖励领取条件</strong></p><p>· 在新版本导览专题网页中登录游戏账号，并在《明日方舟：终末地》内完成创建角色。</p><p><br></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//奖励领取说明</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">· 奖励领取期限：「丹青渡」新版本导览专题网页上线后，至「丹青渡」版本更新维护前，可在该页面点击领取奖励。</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 在奖励领取期限内，新版本导览专题网页中将展示奖励领取按钮；超过该期限后，按钮将不再展示，且无法领取当期奖励。</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 成功在新版本导览专题网页领取奖励后，相应奖励将发放至当前登录账号的角色邮箱。</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 同一期新版本导览奖励，每个游戏账号仅可获取一次。</span></p><p><br></p><p>※ 更多详细说明，请前往网页内查看。</p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "4600",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 2,
+          "displayType": "rich_text",
+          "startAt": 1793788200,
+          "focus": 0,
+          "title": "月映申领",
+          "header": "「月映申领」限时特卖说明",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261103/575fbcc4b1d59a86a0114470500d1676.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">亲爱的管理员：</span></p><p><span style=\"color: rgb(31, 35, 41);\">「月映申领」开放期间，6星武器【唤月（单手剑）】获取概率提升！</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//「月映申领」</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">· 开放时间：2026/11/05 12:00（服务器时间）开启，于3次「特许寻访」后结束（从「烟火邀星河」起计算）</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 开放条件：完成主线任务「第一章 - 进程Ⅰ - 基地解围」</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 「月映申领」中，概率提升的6星武器为【唤月（单手剑）】。</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 「月映申领」中，全部可能出现的6星武器包括：唤月（单手剑）/热熔切割器（单手剑）/白夜新星（单手剑）/骁勇（长柄武器）/遗忘（施术单元）/同类相食（手铳）/典范（双手剑）。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//「武库申领」奖励</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">在每个「武库申领」中，累计达到指定申领次数，即可交替获得「武库申领」对应的【补充武库箱】或【概率提升的6星武器】。武库申领奖励计数会在每个「武库申领」关闭时清零，不会继承到其他的「武库申领」中。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//「武库申领」说明</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">· 在「武库申领」中，可使用【武库配额】进行申领。</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 每申领1次，可随机获得全部可能出现的武器列表中的10件武器，其中必定包含5星或以上武器。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//「武库交易所」说明</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">「武库交易所」中，可使用「武库配额」直接购买武器。部分可购买武器将不定期更新，具体内容请以【采购中心 - 武库交易所】界面显示为准。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">※Asia服务器时区: UTC+8</span></p><p><span style=\"color: rgb(31, 35, 41);\">※Americas / Europe服务器时区: UTC-5</span></p><p><span style=\"color: rgb(31, 35, 41);\">※ 更多详细说明及奖励规则，请前往游戏内【采购中心 - 武库交易所】查看。</span></p>",
             "linkType": 1
           }
         },
