@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "ko-kr",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ko-kr",
-      "version": "5aa064b8264c691af556c6a4eb9db61e",
+      "version": "bd14a119d04fef62db67399081f363ea",
       "onlineList": [
         {
           "cid": "1307",
@@ -123,12 +123,6 @@
           "needPopup": false
         },
         {
-          "cid": "8940",
-          "version": 1793158861,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
           "cid": "1362",
           "version": 1791970442,
           "needRedDot": true,
@@ -201,18 +195,6 @@
           "needPopup": false
         },
         {
-          "cid": "1369",
-          "version": 1792498429,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
-          "cid": "0784",
-          "version": 1792382030,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
           "cid": "0787",
           "version": 1793167791,
           "needRedDot": true,
@@ -256,7 +238,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1793804400,
+      "updatedAt": 1793822400,
       "list": [
         {
           "cid": "1307",
@@ -556,23 +538,6 @@
           }
         },
         {
-          "cid": "8940",
-          "type": 0,
-          "tab": "events",
-          "orderType": 1,
-          "orderWeight": 3,
-          "displayType": "rich_text",
-          "startAt": 1793160000,
-          "focus": 0,
-          "title": "위기 대응 준비",
-          "header": "「위기 대응 준비」 기간 한정 이벤트 설명",
-          "jumpButton": null,
-          "data": {
-            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/2091ae06748b7829fe787f6b6da300b0.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//이벤트 시간</strong><br>2026/10/29 04:00 ~ 2026/11/05 04:00(서버 시간)<br><br><strong>▼//이벤트 보상</strong><br>이벤트 기간에 매일 지정 임무를 완료하면, [응급 이성 강화제]×4, [이성 소모 허가증]×8, [무릉 정밀 단조제]×20 및 [냉각제]×100을 획득할 수 있습니다.<br><br><strong>▼//참여 조건</strong><br>메인 임무 「1장 - 프로세스 II - 앞길 개척」 완료<br><br><strong>▼//이벤트 설명</strong><br>· 본 이벤트는 [위기 협약 · 잿빛 실험 작전] 개방 전 진행되는 특별 기간 한정 보급 이벤트입니다.<br>· 이벤트 기간, 매일 세 가지의 이성 보급 임무가 개방됩니다. 매일 지정 임무를 완료하면 보상을 획득할 수 있습니다.<br>· 매일의 이성 보급 임무는 다음 날 04:00(서버 시간)에 새로고침 되므로, 기한 내에 보상을 수령해 주시기 바랍니다.<br><br><br>※ Asia 서버 시간: UTC+8<br>※ Americas / Europe 서버 시간: UTC-5<br>※ 이벤트와 관련된 더 자세한 설명은 게임 내 [이벤트 센터]에서 확인해 주시기 바랍니다.<br></p>",
-            "linkType": 1
-          }
-        },
-        {
           "cid": "1362",
           "type": 0,
           "tab": "events",
@@ -781,40 +746,6 @@
           "jumpButton": null,
           "data": {
             "html": "<p></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261026/4d0d390facb74a4c9ca70a542447e635.png\" alt=\"\"><p><strong>▼//이벤트 시간</strong><br>2026/10/29 12:00 ~ 2026/11/19 04:00(서버 시간)<br>· 이벤트 단계 1 개방 시간: 2026/10/29 12:00(서버 시간)<br>· 이벤트 단계 2 개방 시간: 2026/11/11 04:00(서버 시간)</p><p><br></p><p><strong>▼//이벤트 보상</strong><br>이벤트 기간에 「다채로운 연무」에 도전하고, 연무 포인트를 획득해 연무 여정의 전체 구간에 도달하면 [오로베릴]×1,200, [존속의 흔적] 등 이벤트 보상을 획득할 수 있습니다.</p><p><br></p><p><strong>▼//참여 조건</strong><br>권한 등급 ≥ 30레벨</p><p><br></p><p><strong>▼//이벤트 설명</strong><br>· 데이터 플레이트를 뽑아 여러 차례 적을 처치하면, 연산이 완료되고 보상 포인트와 연산 포인트를 획득할 수 있으며, 「연무 여정」과 「연무 기록」에서도 보상을 획득할 수 있습니다.<br>· 뽑은 데이터 플레이트 구성이 조합을 이루면 보상 포인트 버프 배율을 제공하며, 도전 난도도 함께 증가합니다.<br>· 이벤트 기간에 특정 조건을 충족하면, 본 이벤트 한정 식각 훈장을 획득할 수 있습니다.</p><p><br></p><p>※ Asia 서버 시간: UTC+8<br>※ Americas / Europe 서버 시간: UTC-5<br>※ 이벤트와 관련된 더 자세한 설명은 게임 내 [이벤트 센터]에서 확인해 주시기 바랍니다.</p>",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "1369",
-          "type": 0,
-          "tab": "events",
-          "orderType": 1,
-          "orderWeight": 5,
-          "displayType": "rich_text",
-          "startAt": 1792555200,
-          "focus": 0,
-          "title": "그림자 이정표\\n시리즈 업데이트",
-          "header": "「그림자 이정표 - 깊은 숲의 잠꼬대」 시리즈 업데이트 설명",
-          "jumpButton": null,
-          "data": {
-            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261020/cf7f5cbfcd8de0903399ccf3facf21b4.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//개방 시간</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">2026/10/22 12:00(서버 시간) 개방, 시리즈 시작 후 상시 개방</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//콘텐츠 보상</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">「그림자 이정표 - 깊은 숲의 잠꼬대」 개방 기간에 모든 스테이지 도전을 완료하면 [존속의 흔적], [고급 인지 매개체], [무기 점검 세트], [프로토콜 프리즘 세트] 등 보상을 획득할 수 있습니다.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//개방 조건</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 메인 임무 「1장 - 프로세스 II - 앞길 개척」 완료</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 권한 등급 ≥ 30레벨</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//콘텐츠 설명</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 이번 「그림자 이정표」 도전 콘텐츠는 「깊은 숲의 잠꼬대」 시리즈가 업데이트되며, 총 4개의 스테이지로 구성됩니다.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 스테이지는 일반 모드와 고난 모드로 나뉘며, 일반 모드를 완료하면 고난 모드가 잠금 해제됩니다. 고난 모드에서는 스테이지 난이도가 크게 증가합니다.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 현재 시리즈의 일반 모드에서 모든 스테이지를 완료하면, 해당 시리즈의 식각 훈장을 획득합니다. 같은 시리즈의 고난 모드에서 모든 스테이지를 완료하면, 해당 식각 훈장이 코팅됩니다.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//「기억의 흔적 · 악몽의 숲」 기간 한정 도전 이벤트</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 이벤트 시간: 2026/10/22 12:00 ~ 2026/11/05 04:00(서버 시간)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 이벤트 설명: 「그림자 이정표 - 깊은 숲의 잠꼬대」 시리즈 개방 후, 「기억의 흔적 · 악몽의 숲」 기간 한정 이벤트가 개방됩니다. 이벤트 기간에 「그림자 이정표」에서 해당하는 도전을 완료하면 「기억의 흔적 · 악몽의 숲」 이벤트 보상을 수령할 수 있습니다.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ Asia 서버 시간: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Americas / Europe 서버 시간: UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ 이벤트와 관련된 더 자세한 설명은 게임 내 [이벤트 센터]에서 확인해 주시기 바랍니다.</span></p>",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "0784",
-          "type": 0,
-          "tab": "events",
-          "orderType": 1,
-          "orderWeight": 5,
-          "displayType": "rich_text",
-          "startAt": 1792553400,
-          "focus": 0,
-          "title": "칼리의 꽃과 풀 동화",
-          "header": "「칼리의 꽃과 풀 동화」촬영 이벤트 설명",
-          "jumpButton": null,
-          "data": {
-            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261016/60ff26adb9e78aa1632f3eade9df388e.png\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//이벤트 기간</strong><br>2026/10/22 12:00 ~ 2026/11/05 04:00(서버 시간)<br><br><strong>▼//이벤트 보상</strong><br>이벤트 기간에 촬영 임무를 완료하면 [프로필 프레임 · 칼리의 꽃과 풀 모음집], [오로베릴], [존속의 흔적] 등 이벤트 보상을 획득할 수 있습니다.<br><br><strong>▼//참여 조건</strong><br>메인 임무 「2장 - 프로세스 II - 숨겨진 위협」 완료<br><br><strong>▼//이벤트 설명</strong><br>· 이벤트 기간, 지정된 장소로 이동하여 촬영 임무를 진행할 수 있습니다.<br>· 촬영 임무는 총 7개이며, 이벤트 시작과 동시에 2개의 촬영 임무가 개방됩니다. 3일 차부터 매일 04:00(서버 시간)에 새로운 촬영 임무 1개가 개방됩니다.<br>· 촬영 목표에 따라 팀 내 오퍼레이터의 포즈를 조정하여 촬영 임무를 완료하면 해당하는 보상을 획득할 수 있습니다.<br>· 촬영 임무를 진행할 구역이 잠금 해제되지 않은 경우, 해당 구역을 잠금 해제할 때까지 메인 임무를 계속 진행해 주세요.<br><br>※ Asia 서버 시간: UTC+8<br>※ Americas / Europe 서버 시간: UTC-5<br>※ 이벤트와 관련된 더 자세한 설명은 게임 내 [이벤트 센터]에서 확인해 주시기 바랍니다.<br></p>",
             "linkType": 1
           }
         },
