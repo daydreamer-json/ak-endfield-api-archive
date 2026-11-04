@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "en-us",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:en-us",
-      "version": "33ddb6a32c4cb4feb3d8c5cc409930ac",
+      "version": "207fdaed646be5eac0abe05810fbc51d",
       "onlineList": [
         {
           "cid": "8949",
@@ -89,6 +89,12 @@
         {
           "cid": "9853",
           "version": 1793168511,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "6424",
+          "version": 1793786892,
           "needRedDot": true,
           "needPopup": false
         },
@@ -244,7 +250,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1793788200,
+      "updatedAt": 1793790000,
       "list": [
         {
           "cid": "8949",
@@ -454,6 +460,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/48d57a5f7fc071bc4961f44be0ca2158.jpg\" data-width=\"1920\" data-height=\"3601\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "6424",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1793790000,
+          "focus": 0,
+          "title": "Back to the Rustics",
+          "header": "[Back to the Rustics] Argent Flow Narrative Event Details",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261102/7d81641587fa7fa28d08168fbd2e5502.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Argent Flow sent you a toast of garbled text. You decide to find out what happened, and talk to him about the past he has mentioned...</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Event Time</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Nov. 5, 2026 at 12:00 (server time) – Before version update and maintenance</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Asia Server Time Zone: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Americas / Europe Server Time Zone: UTC-5</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Participation Requirements</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Complete the main mission [Chapter Ⅱ Process Ⅷ: Paint with Fresh Ink]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Event Details</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Complete the side mission [Back to the Rustics] to earn [Oroberyls], [Elementary Cognitive Carrier], [Protohedron], [Arms INSP Set], and other rewards.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· After the event page is removed, you can still play this side mission from [Mission] and earn the rewards if you meet the participation requirements.</span></p>",
             "linkType": 1
           }
         },

@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "fr-fr",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:fr-fr",
-      "version": "33ddb6a32c4cb4feb3d8c5cc409930ac",
+      "version": "207fdaed646be5eac0abe05810fbc51d",
       "onlineList": [
         {
           "cid": "8949",
@@ -89,6 +89,12 @@
         {
           "cid": "9853",
           "version": 1793168511,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "6424",
+          "version": 1793786892,
           "needRedDot": true,
           "needPopup": false
         },
@@ -244,7 +250,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1793788200,
+      "updatedAt": 1793790000,
       "list": [
         {
           "cid": "8949",
@@ -454,6 +460,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/03c3acbff8b1b68d7ae5f1d9d48be016.jpg\" data-width=\"1920\" data-height=\"3601\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "6424",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1793790000,
+          "focus": 0,
+          "title": "Retour à la nature",
+          "header": "[Retour à la nature] Événement narratif",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261102/52b2bdffe351ae3dddb896800c64f0d3.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Flux d'argent vous a envoyé un message incompréhensible. Vous décidez d'en savoir plus et de discuter avec lui de ce passé qu'il évoque...</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Période de l'événement</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">5 nov. 2026 à 12 h (heure du serveur) — avant la mise à jour de version et la maintenance</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Fuseau horaire du serveur Asia : UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Fuseau horaire du serveur Americas / Europe : UTC-5</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Prérequis de participation</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Terminez la mission principale [Chapitre Ⅱ Processus Ⅷ : Une peinture à l'encre fraîche]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Détails de l'événement</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Terminez la mission annexe [Retour à la nature] pour obtenir des [orobéryls], un [support cognitif de base], un [proto-èdre], un [ensemble INSP d'arme] et d'autres récompenses.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Une fois la page de l'événement retirée, vous pourrez toujours accomplir cette mission annexe depuis l'écran [Mission] et obtenir les récompenses si vous remplissez les prérequis de participation.</span></p>",
             "linkType": 1
           }
         },

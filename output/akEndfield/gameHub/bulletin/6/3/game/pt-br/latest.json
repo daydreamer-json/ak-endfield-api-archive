@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "pt-br",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:pt-br",
-      "version": "33ddb6a32c4cb4feb3d8c5cc409930ac",
+      "version": "207fdaed646be5eac0abe05810fbc51d",
       "onlineList": [
         {
           "cid": "8949",
@@ -89,6 +89,12 @@
         {
           "cid": "9853",
           "version": 1793168511,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "6424",
+          "version": 1793786892,
           "needRedDot": true,
           "needPopup": false
         },
@@ -244,7 +250,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1793788200,
+      "updatedAt": 1793790000,
       "list": [
         {
           "cid": "8949",
@@ -454,6 +460,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/d650d27113872f94ab27db4207dbd7f6.jpg\" data-width=\"1920\" data-height=\"3601\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "6424",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1793790000,
+          "focus": 0,
+          "title": "De Volta ao Rústico",
+          "header": "[De Volta ao Rústico] Evento de Narrativa",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261102/6f541cfaa8b2f243e9efea3d827f75c8.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Argent Flow enviou uma notificação com texto distorcido para você. Você decide descobrir o que aconteceu e conversar com ele sobre o passado que ele mencionou...</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Período do evento</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">5 de novembro de 2026, às 12:00 (horário do servidor) – antes da atualização e manutenção da versão</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Fuso horário do Servidor Asia: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Fuso horário do Servidor Americas / Europe: UTC-5</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Requisitos de participação</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Conclua a missão principal [Capítulo Ⅱ Processo Ⅷ: Pintura com Tinta Fresca]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Detalhes do evento</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Conclua a missão secundária [De Volta ao Rústico] para ganhar [Ourubis], [Portador Cognitivo Elementar], [Protoedro], [Conjunto INSP Armas] e outras recompensas.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Após a página do evento ser removida, você ainda poderá jogar esta missão secundária em [Missão] e receber as recompensas caso cumpra os requisitos de participação.</span></p>",
             "linkType": 1
           }
         },

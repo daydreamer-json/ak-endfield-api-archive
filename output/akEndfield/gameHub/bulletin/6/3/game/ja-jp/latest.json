@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "ja-jp",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ja-jp",
-      "version": "0712bf2c9fdd1bd7e073294dfa0d1ace",
+      "version": "60d6d0cd9478589351084634a2d259e4",
       "onlineList": [
         {
           "cid": "8949",
@@ -89,6 +89,12 @@
         {
           "cid": "9853",
           "version": 1793168511,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "6424",
+          "version": 1793786892,
           "needRedDot": true,
           "needPopup": false
         },
@@ -244,7 +250,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1793788200,
+      "updatedAt": 1793790000,
       "list": [
         {
           "cid": "8949",
@@ -454,6 +460,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/9ab8555a950e1f3f2ff9b7a223edfa8f.jpg\" data-width=\"1920\" data-height=\"3601\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "6424",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1793790000,
+          "focus": 0,
+          "title": "帰野",
+          "header": "ミンホ物語イベント「帰野」の概要",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261102/8a0c46e64dce115ff81052c0c4797a0b.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">ミンホから文字化けしたメッセージが届いた。事情を確かめるため、彼に会いに行くことにした。ついでに、まだ聞けていない昔話の続きを聞いてみよう……</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//開催期間</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">2026/11/05 12:00（サーバー時間）～バージョンアップメンテナンス前</span></p><p><span style=\"color: rgb(0, 0, 0);\">※Asiaサーバーのタイムゾーン：UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※Americas / Europeサーバーのタイムゾーン：UTC-5</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//参加条件</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">メイン任務：第二章-プロセスⅧ「新たなる墨」を完了</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//説明</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· サブ任務「帰野」を完了すると、【赤晶玉】【初級認識媒体】【協約角柱セット】【武器検査ボックス】などの報酬を受け取ることができます。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· イベント終了後も、任務の参加条件を満たしていれば、【任務】からオペレーターのサブ任務を引き続き進行し、報酬を入手できます。</span></p>",
             "linkType": 1
           }
         },

@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "ru-ru",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ru-ru",
-      "version": "33ddb6a32c4cb4feb3d8c5cc409930ac",
+      "version": "207fdaed646be5eac0abe05810fbc51d",
       "onlineList": [
         {
           "cid": "8949",
@@ -89,6 +89,12 @@
         {
           "cid": "9853",
           "version": 1793168511,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "6424",
+          "version": 1793786892,
           "needRedDot": true,
           "needPopup": false
         },
@@ -244,7 +250,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1793788200,
+      "updatedAt": 1793790000,
       "list": [
         {
           "cid": "8949",
@@ -454,6 +460,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/be220710b02b859d9c104366cc4a1d5a.jpg\" data-width=\"1920\" data-height=\"3601\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "6424",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1793790000,
+          "focus": 0,
+          "title": "Возвращение в глубинку",
+          "header": "Сюжетное событие «Возвращение в глубинку»",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261102/d08cb523efc40f83d66753990995def0.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Серебристый Поток прислал вам спутанное сообщение. Вы решаете выяснить, что произошло, и поговорить с ним об упомянутом им прошлом...</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Длительность проведения</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">С 12:00 5 ноября 2026 года (по времени сервера) до обновления версии и технического обслуживания.</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Часовой пояс сервера Asia: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Часовой пояс сервера Americas / Europe: UTC-5</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Условия участия</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Завершите основную миссию: операция VIII главы Ⅱ «Этюд новыми чернилами».</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Сведения о событии</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Завершите побочную миссию «Возвращение в глубинку», чтобы получить ороберил, базовый когнитивный носитель, протоэдр, тест-набор для оружия и другие награды.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· После закрытия страницы события вы все равно сможете пройти эту побочную миссию в разделе «Миссии» и получить награды, если соответствуете требованиям для участия.</span></p>",
             "linkType": 1
           }
         },
