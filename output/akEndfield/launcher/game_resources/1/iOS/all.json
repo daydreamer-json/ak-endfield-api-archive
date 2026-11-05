@@ -2302,5 +2302,34 @@
       "domain": "https://beyond.hycdn.cn",
       "resource_keys": []
     }
+  },
+  {
+    "updatedAt": "2026-11-05T02:02:29.981+00:00",
+    "req": {
+      "appCode": "6LL0KJuqHBVz33WK",
+      "gameVersion": "1.6",
+      "version": "1.6.4",
+      "randStr": "zalKK5GCVQUtfKG1",
+      "platform": "iOS"
+    },
+    "rsp": {
+      "resources": [
+        {
+          "name": "main",
+          "version": "11571054-14",
+          "path": "https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.6/resource/iOS/main/11571054-14_b7K36vVO2POoH22n/files"
+        },
+        {
+          "name": "initial",
+          "version": "11571054-14",
+          "path": "https://beyond.hycdn.cn/6LL0KJuqHBVz33WK/1.6/resource/iOS/initial/11571054-14_kKKw5KpTDAwaAZ6b/files"
+        }
+      ],
+      "configs": "{\"kick_flag\":true}",
+      "res_version": "initial_11571054-14_main_11571054-14",
+      "patch_index_path": "",
+      "domain": "https://beyond.hycdn.cn",
+      "resource_keys": []
+    }
   }
 ]
