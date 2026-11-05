@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "ru-ru",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ru-ru",
-      "version": "e3765e5ac33e4999b71df50b85a3b8e4",
+      "version": "5d0e86185e915508d7a522cc8c8ad20e",
       "onlineList": [
         {
           "cid": "8949",
@@ -111,6 +111,12 @@
           "needPopup": false
         },
         {
+          "cid": "3033",
+          "version": 1793793685,
+          "needRedDot": false,
+          "needPopup": false
+        },
+        {
           "cid": "0782",
           "version": 1793785153,
           "needRedDot": true,
@@ -132,12 +138,6 @@
           "cid": "9850",
           "version": 1792388814,
           "needRedDot": true,
-          "needPopup": false
-        },
-        {
-          "cid": "7271",
-          "version": 1792041104,
-          "needRedDot": false,
           "needPopup": false
         },
         {
@@ -190,7 +190,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1793890800,
+      "updatedAt": 1793898001,
       "list": [
         {
           "cid": "8949",
@@ -455,6 +455,24 @@
           }
         },
         {
+          "cid": "3033",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1793898000,
+          "focus": 0,
+          "title": "Официальный сайт для пополнения уже доступен",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20261103/7066ecddacecd7e2e73d27165eb302fd.png",
+            "link": "https://topup.gryphline.com/endfield?u8_token={u8_token}&server_id={server}",
+            "linkType": 1
+          }
+        },
+        {
           "cid": "0782",
           "type": 0,
           "tab": "news",
@@ -522,25 +540,6 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20261019/c90828e96ead70b0106ac799a8b03d5c.png",
             "link": "https://store.gryphline.com",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "7271",
-          "type": 0,
-          "tab": "news",
-          "orderType": 1,
-          "orderWeight": 4,
-          "displayType": "picture",
-          "startAt": 1792036800,
-          "focus": 0,
-          "extraData": {},
-          "title": "Официальный сайт для пополнения уже доступен",
-          "header": "",
-          "jumpButton": null,
-          "data": {
-            "url": "https://web-static.hg-cdn.com/upload/image/20260928/7066ecddacecd7e2e73d27165eb302fd.png",
-            "link": "https://topup.gryphline.com/endfield?u8_token={u8_token}&server_id={server}",
             "linkType": 1
           }
         },
