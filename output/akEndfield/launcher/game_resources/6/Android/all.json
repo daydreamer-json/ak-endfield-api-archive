@@ -2722,5 +2722,34 @@
       "domain": "https://beyond.hg-cdn.com",
       "resource_keys": []
     }
+  },
+  {
+    "updatedAt": "2026-11-05T02:32:01.442+00:00",
+    "req": {
+      "appCode": "YDUTE5gscDZ229CW",
+      "gameVersion": "1.6",
+      "version": "1.6.4",
+      "randStr": "O0xruPqxQxZ9aEYl",
+      "platform": "Android"
+    },
+    "rsp": {
+      "resources": [
+        {
+          "name": "main",
+          "version": "11529267-11",
+          "path": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.6/resource/Android/main/11529267-11_f71pmqTwEnfc0K1X/files"
+        },
+        {
+          "name": "initial",
+          "version": "11529267-11",
+          "path": "https://beyond.hg-cdn.com/YDUTE5gscDZ229CW/1.6/resource/Android/initial/11529267-11_LbyVvntvNEwzk58m/files"
+        }
+      ],
+      "configs": "{\"kick_flag\":true}",
+      "res_version": "initial_11529267-11_main_11529267-11",
+      "patch_index_path": "",
+      "domain": "https://beyond.hg-cdn.com",
+      "resource_keys": []
+    }
   }
 ]
