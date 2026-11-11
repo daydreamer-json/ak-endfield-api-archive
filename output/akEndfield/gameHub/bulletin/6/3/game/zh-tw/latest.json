@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-tw",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-tw",
-      "version": "6c1efd95bcb277faa607445bb025d73f",
+      "version": "62a317d13b30ff1af68b68eaee116c53",
       "onlineList": [
         {
           "cid": "8949",
@@ -171,6 +171,12 @@
           "needPopup": false
         },
         {
+          "cid": "3031",
+          "version": 1794416561,
+          "needRedDot": false,
+          "needPopup": false
+        },
+        {
           "cid": "6425",
           "version": 1793082735,
           "needRedDot": true,
@@ -214,7 +220,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1794369600,
+      "updatedAt": 1794416562,
       "list": [
         {
           "cid": "8949",
@@ -654,6 +660,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260930/4838ec26c3afb96b2933bc194e187f7e.png",
             "link": "https://endfield.gryphline.com/special/discord-binding",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3031",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 5,
+          "displayType": "rich_text",
+          "startAt": 1794412800,
+          "focus": 0,
+          "title": "部分充值方式異常說明",
+          "header": "部分充值方式異常說明",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261112/341c9eb5e14edb5e2ff5e5356c724190.jpg\" data-width=\"1650\" data-height=\"300\"><p><span>親愛的管理員：</span></p><p><span>已知自2026 年 11 月 11 日起，臺灣地區部分充值方式出現異常，可能導致支付過程失敗，現正在緊急處理，在此期間管理員可嘗試使用其他支付方式儲值購買商品。</span></p><p></p><p><span>如您有任何問題，可以前往《明日方舟：終末地》官網【帳戶中心 - 聯絡客服】進行回報。</span></p><p><span>給您帶來的不便，我們深表歉意。再次感謝各位管理員一直以來對《明日方舟：終末地》的理解與支持！</span></p>",
             "linkType": 1
           }
         },
