@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "es-mx",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:es-mx",
-      "version": "1e3356149c4fc07cfa2cac23866fcf71",
+      "version": "382171e63af8f76297da0c4dc769645b",
       "onlineList": [
         {
           "cid": "8949",
@@ -171,6 +171,12 @@
           "needPopup": false
         },
         {
+          "cid": "9857",
+          "version": 1794383180,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "6425",
           "version": 1793082735,
           "needRedDot": true,
@@ -214,7 +220,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1794420952,
+      "updatedAt": 1794452400,
       "list": [
         {
           "cid": "8949",
@@ -655,6 +661,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260930/3d419bdad466e0141e8183f29ee56aab.png",
             "link": "https://endfield.gryphline.com/special/discord-binding",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "9857",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 5,
+          "displayType": "rich_text",
+          "startAt": 1794452400,
+          "focus": 0,
+          "title": "Encuesta sobre la experiencia de la versión",
+          "header": "Encuesta sobre la experiencia de la versión",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261111/857c9bbaf74d0db1b8fb75e17850090b.png\" data-width=\"1650\" data-height=\"300\"><p>Hola, Endministrator: <br>Para conocer mejor tus opiniones y comentarios sobre Arknights: Endfield, te enviaremos una encuesta. Te invitamos a completarla con base en tu experiencia de juego y a compartir con nosotros tus valiosos comentarios. Una vez que envíes la encuesta correctamente, recibirás [Oroberilio] ×300 como recompensa por participar, que se enviarán por correo dentro del juego. <br><br><strong>▼//Requisito para participar en la encuesta: </strong><br>Desbloquea la función [Correo] <br><br><strong>▼// Tiempo de distribución de la encuesta: </strong><br>13 de noviembre de 2026 a las 12:00 (UTC+8)<br><br><strong>▼//Cómo acceder a la encuesta </strong><br>Una vez enviada, podrás encontrar la encuesta sobre la experiencia de la versión [Santuario de tinta] en tu [Correo]. Haz clic en [Ir a la encuesta] para completarla y compartir tu opinión. <br>※ Una vez enviadas, las respuestas no podrán modificarse, por lo que te recomendamos completarlas con cuidado. <br><br>Para garantizar que tus comentarios reflejen tu experiencia de juego más reciente, la encuesta enviada por correo será válida por un tiempo limitado, luego del cual caducará. Completar la encuesta te tomará aproximadamente entre 3 y 5 minutos. Gracias por tu tiempo y tu paciencia. <br><br>Cada sugerencia que compartas nos ayudará a mejorar el juego. Tu opinión será clave para crear una mejor experiencia de Arknights: Endfield para todos los Endministrators. <br><br>¡Gracias de nuevo por tu interés y apoyo continuos a Arknights: Endfield, Endministrator!<br></p>",
             "linkType": 1
           }
         },

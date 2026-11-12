@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "ja-jp",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ja-jp",
-      "version": "db11ef51d227f644dc6717dafb7f925b",
+      "version": "107cc2cc6e8f2dc15735b94cbabdfa74",
       "onlineList": [
         {
           "cid": "8949",
@@ -171,6 +171,12 @@
           "needPopup": false
         },
         {
+          "cid": "9857",
+          "version": 1794383180,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "6425",
           "version": 1793082735,
           "needRedDot": true,
@@ -214,7 +220,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1794420952,
+      "updatedAt": 1794452400,
       "list": [
         {
           "cid": "8949",
@@ -655,6 +661,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260930/5c2903a28d2cc99ad7bedd856423076a.png",
             "link": "https://endfield.gryphline.com/special/discord-binding",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "9857",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 5,
+          "displayType": "rich_text",
+          "startAt": 1794452400,
+          "focus": 0,
+          "title": "バージョンアンケート",
+          "header": "バージョン「丹青渡」アンケート",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261111/0ea624f5a9ba01bfff505265b30eebdd.png\" data-width=\"1650\" data-height=\"300\"><p>親愛なる管理人<br>『アークナイツ：エンドフィールド』をより快適にお楽しみいただけるよう、アンケートを実施いたします。実際のプレイ体験をもとに、ぜひ率直なご意見やご要望をお寄せください。アンケートをご提出いただいた方には、お礼として【赤晶玉】×300をゲーム内メールにてお送りいたします。<br><br><strong>▼//アンケート参加条件</strong><br>「メール」機能を解放<br><br><strong>▼//アンケート配布日時</strong><br>2026/11/13 12:00（UTC+8）<br><br><strong>▼//回答方法</strong><br>アンケート配布後、「メール」よりバージョン「丹青渡」アンケートをご確認いただけます。「アンケートのご記入はこちら」を押してご回答ください。<br>※アンケートは一度送信すると修正できませんので、送信前に内容をよくご確認ください。<br><br>なお、特定の進行段階におけるゲーム体験を正確に反映できるよう、アンケートメールには有効期限を設けております。回答時間の目安は3～5分です。お手数をおかけしますが、ご協力をお願いいたします。<br><br>皆さまからお寄せいただく貴重なご意見やご要望は、今後のゲーム体験のさらなる向上に活用させていただきます。<br><br>引き続き、『アークナイツ：エンドフィールド』をよろしくお願いいたします。<br></p>",
             "linkType": 1
           }
         },

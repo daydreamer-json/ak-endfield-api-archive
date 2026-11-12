@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "it-it",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:it-it",
-      "version": "1e3356149c4fc07cfa2cac23866fcf71",
+      "version": "382171e63af8f76297da0c4dc769645b",
       "onlineList": [
         {
           "cid": "8949",
@@ -171,6 +171,12 @@
           "needPopup": false
         },
         {
+          "cid": "9857",
+          "version": 1794383180,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "6425",
           "version": 1793082735,
           "needRedDot": true,
@@ -214,7 +220,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1794420952,
+      "updatedAt": 1794452400,
       "list": [
         {
           "cid": "8949",
@@ -655,6 +661,23 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260930/26c75811b3659f92b3be4348771ca37c.png",
             "link": "https://endfield.gryphline.com/special/discord-binding",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "9857",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 5,
+          "displayType": "rich_text",
+          "startAt": 1794452400,
+          "focus": 0,
+          "title": "Sondaggio sull'esperienza con la versione",
+          "header": "Sondaggio sull'esperienza con la versione",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261111/b0a565d2bb4feca2dbb1aea1a521e052.jpg\" data-width=\"1650\" data-height=\"300\"><p>Ciao, Endministrator! <br>Affinché tu possa comunicarci la tua opinione su Arknights: Endfield, vorremmo inviarti un sondaggio. Ti saremmo grati se completassi il sondaggio basandoti sulla tua esperienza di gioco e condividessi con noi le tue preziose opinioni. Una volta concluso il sondaggio, ti invieremo una ricompensa consistente in 300 Oroberilli tramite la posta di gioco. <br><br><strong>▼// Requisito di idoneità al sondaggio </strong><br>Aver sbloccato la funzione Posta <br><br><strong>▼// Orario di distribuzione del sondaggio </strong><br>13 novembre 2026 alle 12:00 (UTC+8)<br><br><strong>▼// Come accedere al sondaggio </strong><br>Una volta distribuito, troverai il sondaggio sull'esperienza con la versione \"Santuario dell'inchiostro\" nella tua Posta. Fai clic su Vai al sondaggio per compilarlo e condividere con noi i tuoi preziosi feedback. <br>※ Una volta inviate, le risposte del sondaggio non possono essere modificate; ti invitiamo quindi a compilarlo con la massima attenzione. <br><br>Affinché le tue risposte rispecchino la tua esperienza di gioco più recente, il sondaggio inviato tramite posta scadrà dopo un determinato periodo di tempo. Il completamento del sondaggio richiede tra i 3 e i 5 minuti. Grazie per la pazienza e per il tempo che vorrai dedicarci. <br><br>Ogni tuo suggerimento ci aiuta a migliorare il gioco. Il tuo feedback avrà un ruolo cruciale nell'ottimizzazione dell'esperienza di gioco di tutti gli Endministrator di Arknights: Endfield. <br><br>Grazie ancora per l'interesse e il sostegno dimostrati nei confronti di Arknights: Endfield, Endministrator!<br></p>",
             "linkType": 1
           }
         },
