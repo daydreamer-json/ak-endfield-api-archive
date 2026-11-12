@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "it-it",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:it-it",
-      "version": "382171e63af8f76297da0c4dc769645b",
+      "version": "fa7b5d07b04f17239710271fba62e141",
       "onlineList": [
         {
           "cid": "8949",
@@ -83,6 +83,12 @@
         {
           "cid": "9853",
           "version": 1793168511,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "9856",
+          "version": 1794420808,
           "needRedDot": true,
           "needPopup": false
         },
@@ -220,7 +226,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1794452400,
+      "updatedAt": 1794456000,
       "list": [
         {
           "cid": "8949",
@@ -414,6 +420,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/20e9b0f4b467998a5f06860e0fd411a9.jpg\" data-width=\"1920\" data-height=\"3601\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "9856",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1794456000,
+          "focus": 0,
+          "title": "Contratto di emergenza\\nAggiornamento dei contenuti",
+          "header": "Aggiornamento dei contenuti del Contratto di emergenza",
+          "jumpButton": null,
+          "data": {
+            "html": "<p></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261112/a30097c0b1a15d71d0846ee656016a39.png\" alt=\"\"><p><strong>▼// Data di aggiornamento:</strong><br>12 novembre 2026 alle 12:00 (fuso orario del server)</p><p><br></p><p><strong>▼// Aggiornamenti dei contenuti</strong><br>I seguenti Criteri di test verranno aggiunti e sbloccati automaticamente:<br>· [Variazione: scudo di controllo]<br>· [Ambiente: limite di tempo III]<br>· [Ambiente: ecombo]<br>· [Variazione: cerchio di duello]<br>· [Variazione: rivestimento I]<br>· [Variazione: rivestimento II]<br>· [Variazione: orso dai denti a sciabola del branco III]<br>I nuovi Criteri di test non potranno essere selezionati se il loro set di Criteri è ancora bloccato. Stabilisci nuovi record di Criteri di test totali per sbloccare set di Criteri.</p><p><br></p><p><strong>▼// Criteri di partecipazione</strong><br>· Completa la missione principale [Capitolo I - Elaborazione II: Aprire la strada]<br>· Livello di autorità ≥30</p><p><br></p><p><strong>▼// Dettagli evento</strong><br>· Questo aggiornamento aggiunge i contenuti della fase 2 all'evento sfida a tempo limitato [Contratto di emergenza: Operazione sperimentale indaco]. Tutte le regole base, lo scambio ricompense, il [Punteggio del santuario] e le altre meccaniche rimangono uguali alla fase 1. Seleziona liberamente combinazioni di Criteri di test per stabilire record di Criteri di test totali!<br>· Durante l'evento, ci sarà un aggiornamento ogni 3 giorni alle 04:00 (fuso orario del server) in cui verranno aggiunte nuove missioni cicliche, per un totale di 7 missioni cicliche. Tutte le sfide e le missioni saranno disponibili fino al termine dell'evento.</p><p><br></p><p><strong>▼// Informazioni importanti</strong><br>· Tutte le missioni del Contratto e le prove di combattimento si chiuderanno al termine dell'evento.<br>· Dopo la fine dell'evento, il [Santuario segreto] rimarrà aperto per scambiare le ricompense fino al 2 dicembre 2026 alle 04:00 (fuso orario del server). Alla chiusura del [Santuario segreto], tutti gli [Indaco vetrificato] inutilizzati verranno rimossi.</p><p><br></p><p>※ Fuso orario del server Asia: UTC+8<br>※ Fuso orario del server Americas / Europe: UTC-5<br>※ Per maggiori dettagli sull'evento, consulta il [Centro eventi] nel gioco.</p>",
             "linkType": 1
           }
         },

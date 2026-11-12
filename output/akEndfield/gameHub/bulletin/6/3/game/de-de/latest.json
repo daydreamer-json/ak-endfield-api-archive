@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "de-de",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:de-de",
-      "version": "382171e63af8f76297da0c4dc769645b",
+      "version": "fa7b5d07b04f17239710271fba62e141",
       "onlineList": [
         {
           "cid": "8949",
@@ -83,6 +83,12 @@
         {
           "cid": "9853",
           "version": 1793168511,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "9856",
+          "version": 1794420808,
           "needRedDot": true,
           "needPopup": false
         },
@@ -220,7 +226,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1794452400,
+      "updatedAt": 1794456000,
       "list": [
         {
           "cid": "8949",
@@ -414,6 +420,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/408e3acad6e5297a79722b8d680f9e83.jpg\" data-width=\"1920\" data-height=\"3601\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "9856",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1794456000,
+          "focus": 0,
+          "title": "Krisenschutzvertrag\\nInhaltsupdate",
+          "header": "Krisenschutzvertrag – Inhaltsupdate",
+          "jumpButton": null,
+          "data": {
+            "html": "<p></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261112/e5b52c19c0c004b5e1edb7e40e6d1976.png\" alt=\"\"><p><strong>▼// Update-Zeitpunkt</strong><br>12. Nov. 2026 um 12:00 Uhr (Serverzeit)</p><p><br></p><p><strong>▼// Inhaltsupdates</strong><br>Die folgenden Testkriterien werden hinzugefügt und automatisch freigeschaltet:<br>· [Bearbeitung: Unkontrollierbar]<br>· [Umgebung: Zeitlimit III]<br>· [Umgebung: Echombo]<br>· [Bearbeitung: Duellantenring]<br>· [Bearbeitung: Gehäuse I]<br>· [Bearbeitung: Gehäuse II]<br>· [Bearbeitung: Teamvernichter III]<br>Solange ein Kriterienset gesperrt ist, können die neu hinzugefügten Testkriterien nicht ausgewählt werden. Erreiche höhere Gesamttestkriterien, um das Kriterienset freizuschalten.</p><p><br></p><p><strong>▼// Teilnahmekriterien</strong><br>· Abschluss der Hauptmission [Kapitel I, Prozess II: Den Weg freimachen]<br>· Autoritätslevel ≥ 30</p><p><br></p><p><strong>▼// Eventdetails</strong><br>· Dieses Update erweitert das zeitlich begrenzte Herausforderungsevent [Krisenschutzvertrag: Versuchseinsatz Indigo] um Inhalte der Phase 2. Alle Grundregeln, der Belohnungstausch, die [Heiligtum-Bewertung] sowie andere Spielmechaniken bleiben gegenüber Phase 1 unverändert. Kombiniere die Testkriterien nach Belieben, um höhere Rekorde bei den Gesamttestkriterien zu erzielen!<br>· Während des Events werden alle 3 Tage (Aktualisierung um 04:00 Uhr Serverzeit) neue Zyklusmissionen hinzugefügt. Es gibt insgesamt 7 Zyklusmissionen, wobei alle Herausforderungen und Missionen bis zum Ende des Events verfügbar bleiben.</p><p><br></p><p><strong>▼// Wichtige Hinweise</strong><br>· Alle Vertragsmissionen und Kampfherausforderungen werden mit Ende des Events geschlossen.<br>· Nach Ende des Events bleibt [Geheimes Heiligtum] bis zum 2. Dez. 2026 um 04:00 Uhr (Serverzeit) für das Einlösen von Belohnungen geöffnet. Sobald [Geheimes Heiligtum] geschlossen wird, werden alle ungenutzten [Kristallisierten Indigos] gelöscht.</p><p><br></p><p>※ Zeitzone des Asia-Servers: UTC+8<br>※ Zeitzone des Americas / Europe-Servers: UTC-5<br>※ Weitere Eventdetails findest du im [Eventcenter] im Spiel.</p>",
             "linkType": 1
           }
         },
