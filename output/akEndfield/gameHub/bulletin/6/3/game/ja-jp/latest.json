@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "ja-jp",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ja-jp",
-      "version": "ff60a60b3761d1f3b7e8cb86a7482f75",
+      "version": "b7c1ed153370437a8975962b8be42050",
       "onlineList": [
         {
           "cid": "8949",
@@ -117,6 +117,12 @@
           "needPopup": false
         },
         {
+          "cid": "2193",
+          "version": 1792581675,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "5514",
           "version": 1794566743,
           "needRedDot": true,
@@ -149,12 +155,6 @@
         {
           "cid": "5516",
           "version": 1793341195,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
-          "cid": "5518",
-          "version": 1792567060,
           "needRedDot": true,
           "needPopup": false
         },
@@ -220,7 +220,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1794626212,
+      "updatedAt": 1794668400,
       "list": [
         {
           "cid": "8949",
@@ -503,6 +503,24 @@
           }
         },
         {
+          "cid": "2193",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1794668400,
+          "focus": 0,
+          "title": "「丹青の秋嶺」\\n グッズ予約最終日",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20261021/c1bce75be630464153b5c1e314c83d7e.jpg",
+            "link": "https://shop-jp.gryphline.com/",
+            "linkType": 1
+          }
+        },
+        {
           "cid": "5514",
           "type": 0,
           "tab": "news",
@@ -606,24 +624,6 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261030/aea38ab3bdc7a58577136edf1ac9b00b.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//開放期間</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">2026/11/05 12:00（サーバー時間）～バージョンアップメンテナンス前</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//参加条件</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 行動レベルLv.40以上</span></p><p><span style=\"color: rgb(0, 0, 0);\">· メイン任務：第一章-プロセスⅡ「前路開拓」を完了</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//説明</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">新シーズン「狂熱シーズン」が開放されます。本シーズンには3つのステージが追加され、3つのローテーション周期に分かれます。1つの周期には3つのステージが含まれます。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※Asiaサーバーのタイムゾーン：UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※Americas / Europeサーバーのタイムゾーン：UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">※イベントの詳細は、ゲーム内の【イベント】よりご確認ください。</span></p>",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "5518",
-          "type": 0,
-          "tab": "news",
-          "orderType": 1,
-          "orderWeight": 4,
-          "displayType": "picture",
-          "startAt": 1792724400,
-          "focus": 0,
-          "title": "「丹青の秋嶺」 グッズ予約販売",
-          "header": "",
-          "jumpButton": null,
-          "data": {
-            "url": "https://web-static.hg-cdn.com/upload/image/20261020/5902a998f62a9148bd595374633debf4.jpg",
-            "link": "https://shop-jp.gryphline.com/",
             "linkType": 1
           }
         },
