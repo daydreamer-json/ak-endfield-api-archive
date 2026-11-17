@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "it-it",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:it-it",
-      "version": "03a90dffce54f7f26fbb7ae53fa7ea7a",
+      "version": "833296a529a227f3b64dab8e024cf9ad",
       "onlineList": [
         {
           "cid": "8949",
@@ -83,6 +83,12 @@
         {
           "cid": "9853",
           "version": 1793168511,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "2199",
+          "version": 1794885312,
           "needRedDot": true,
           "needPopup": false
         },
@@ -226,7 +232,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1794626212,
+      "updatedAt": 1794891600,
       "list": [
         {
           "cid": "8949",
@@ -420,6 +426,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/20e9b0f4b467998a5f06860e0fd411a9.jpg\" data-width=\"1920\" data-height=\"3601\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "2199",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1794891600,
+          "focus": 0,
+          "title": "Fornitura di Lucidità",
+          "header": "Dettagli evento a tempo limitato [Fornitura di Lucidità]",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261116/1cc2a594ad792cd4ad324c3a6619f547.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Periodo dell'evento </strong><br>Server Asia: <br>18 novembre 2026 alle 4:00 - 25 novembre 2026 alle 4:00 (fuso orario del server) <br>Server Americas / Europe: <br>18 novembre 2026 alle 4:00 - 24 novembre 2026 alle 17:00 (fuso orario del server)<br><br><strong>▼// Ricompense dell'evento </strong><br>Durante l'evento, completa ogni giorno le missioni indicate per ricevere: 4 [potenziamenti di Lucidità d'emergenza] e 8 [permessi d'uso di Lucidità].<br><br><strong>▼// Requisiti per partecipare </strong><br>Aver completato la missione principale [Capitolo I - Elaborazione II: Aprire la strada]<br><br><strong>▼// Dettagli evento </strong><br>· Durante l'evento, saranno disponibili 3 missioni Fornitura di Lucidità giornaliere. Completa le missioni per ottenere ricompense. <br>· Le missioni Fornitura di Lucidità vengono aggiornate ogni giorno alle 04:00 (fuso orario del server). Riscuoti le ricompense in tempo.<br><br>※ Fuso orario del server Asia: UTC+8 <br>※ Fuso orario del server Americas / Europe: UTC-5 <br>※ Per maggiori dettagli sull'evento, consulta il [Centro eventi] del gioco.<br></p>",
             "linkType": 1
           }
         },

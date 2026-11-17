@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "fr-fr",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:fr-fr",
-      "version": "03a90dffce54f7f26fbb7ae53fa7ea7a",
+      "version": "833296a529a227f3b64dab8e024cf9ad",
       "onlineList": [
         {
           "cid": "8949",
@@ -83,6 +83,12 @@
         {
           "cid": "9853",
           "version": 1793168511,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "2199",
+          "version": 1794885312,
           "needRedDot": true,
           "needPopup": false
         },
@@ -226,7 +232,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1794626212,
+      "updatedAt": 1794891600,
       "list": [
         {
           "cid": "8949",
@@ -420,6 +426,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/03c3acbff8b1b68d7ae5f1d9d48be016.jpg\" data-width=\"1920\" data-height=\"3601\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "2199",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1794891600,
+          "focus": 0,
+          "title": "Approvisionnement en lucidité",
+          "header": "Approvisionnement en lucidité",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261116/284fdd951ea503e6698b237d3d4b454d.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Dates de l'événement </strong><br>Serveur Asia : <br>Du 18 novembre 2026 à 4 h au 25 novembre 2026 à 4 h (heure du serveur) <br>Serveur Americas / Europe : <br>Du 18 novembre 2026 à 4 h au 24 novembre 2026 à 17 h (heure du serveur)<br><br><strong>▼// Récompenses d'événement </strong><br>Pendant l'événement, terminez chaque jour les missions indiquées pour obtenir les récompenses suivantes : 4 [bonus de lucidité d'urgence] et 8 [permis d'utilisation de lucidité].<br><br><strong>▼// Conditions de participation </strong><br>Terminer la mission principale [Chapitre I - Processus II : Ouvrir la voie]<br><br><strong>▼// Détails de l'événement </strong><br>· Pendant l'événement, 3 missions d'approvisionnement en lucidité seront disponibles chaque jour. Terminez ces missions pour récupérer les récompenses. <br>· Les missions d'approvisionnement en lucidité seront réinitialisées chaque jour à 4 h (heure du serveur). N'oubliez pas de récupérer vos récompenses à temps.<br><br>※ Fuseau horaire du serveur Asia : UTC+8 <br>※ Fuseau horaire du serveur Americas / Europe : UTC-5 <br>※ Pour plus de détails sur l'événement, consultez le [Centre d'événement] en jeu.<br></p>",
             "linkType": 1
           }
         },

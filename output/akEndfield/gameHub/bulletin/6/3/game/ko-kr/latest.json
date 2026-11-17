@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "ko-kr",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ko-kr",
-      "version": "6305986511e1046b9a5d07f322eccef2",
+      "version": "399be25c7d0c88976cec18d7bd29c4d1",
       "onlineList": [
         {
           "cid": "1307",
@@ -89,6 +89,12 @@
         {
           "cid": "9853",
           "version": 1793168511,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "2199",
+          "version": 1794885312,
           "needRedDot": true,
           "needPopup": false
         },
@@ -232,7 +238,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1794626212,
+      "updatedAt": 1794891600,
       "list": [
         {
           "cid": "1307",
@@ -444,6 +450,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/a2a82615d9994c8afd83d9f0c1b82826.jpg\" data-width=\"1920\" data-height=\"3601\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "2199",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1794891600,
+          "focus": 0,
+          "title": "이성 보급",
+          "header": "「이성 보급」 기간 한정 이벤트 설명",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261116/f0a79df685d878f39f5e72e6d53bceab.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//이벤트 시간</strong><br>Asia 서버:<br>2026/11/18 04:00 ~ 2026/11/25 04:00(서버 시간)<br>Americas / Europe 서버:<br>2026/11/18 04:00 ~ 2026/11/24 17:00(서버 시간)<br><br><strong>▼//이벤트 보상</strong><br>이벤트 기간에 매일 지정 임무를 완료하면, [응급 이성 강화제]×4와 [이성 소모 허가증]×8을 획득할 수 있습니다.<br><br><strong>▼//참여 조건</strong><br>메인 임무 「1장 - 프로세스 II - 앞길 개척」 완료<br><br><strong>▼//이벤트 안내</strong><br>· 이벤트 기간, 매일 세 가지의 이성 보급 임무가 개방됩니다. 매일 지정 임무를 완료하면 보상을 획득할 수 있습니다.<br>· 매일의 이성 보급 임무는 다음 날 04:00(서버 시간)에 새로고침되므로, 기한 내에 보상을 수령해 주시기 바랍니다.<br><br>※ Asia 서버 시간: UTC+8<br>※ Americas / Europe 서버 시간: UTC-5<br>※ 이벤트와 관련된 더 상세 정보는 게임 내 [이벤트 센터]에서 확인해 주시기 바랍니다.<br></p>",
             "linkType": 1
           }
         },

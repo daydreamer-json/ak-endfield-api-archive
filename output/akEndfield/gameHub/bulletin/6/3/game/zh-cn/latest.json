@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-cn",
-      "version": "03a90dffce54f7f26fbb7ae53fa7ea7a",
+      "version": "833296a529a227f3b64dab8e024cf9ad",
       "onlineList": [
         {
           "cid": "8949",
@@ -83,6 +83,12 @@
         {
           "cid": "9853",
           "version": 1793168511,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "2199",
+          "version": 1794885312,
           "needRedDot": true,
           "needPopup": false
         },
@@ -226,7 +232,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1794626212,
+      "updatedAt": 1794891600,
       "list": [
         {
           "cid": "8949",
@@ -420,6 +426,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/8c61e662e129855899b69fe7340bbb50.jpg\" data-width=\"1920\" data-height=\"3601\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "2199",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1794891600,
+          "focus": 0,
+          "title": "理智补给",
+          "header": "「理智补给」限时活动说明",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261116/0e3571030fe668b7d9d8dd1837c192cc.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//活动时间</strong><br>Asia服务器：<br>2026/11/18 4:00 - 2026/11/25 4:00（服务器时间）<br>Americas / Europe服务器：<br>2026/11/18 4:00 - 2026/11/24 17:00 （服务器时间）<br><br><strong>▼//活动奖励</strong><br>活动期间，每日完成指定任务，可获得【应急理智加强剂】×4、【理智消耗许可】×8。<br><br><strong>▼//参与条件</strong><br>完成主线任务「第一章 - 进程Ⅱ - 开拓前路」<br><br><strong>▼//活动说明</strong><br>· 活动期间，每日将固定开放3个理智补给任务，完成任务即可获得奖励。<br>· 每日的理智补给任务将于次日04:00（服务器时间）刷新，请管理员及时领取奖励。<br><br>※Asia服务器时区：UTC+8<br>※Americas / Europe服务器时区：UTC-5<br>※ 更多活动详细说明，请前往游戏内【活动中心】查看。<br></p>",
             "linkType": 1
           }
         },

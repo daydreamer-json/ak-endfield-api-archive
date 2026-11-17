@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "th-th",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:th-th",
-      "version": "03a90dffce54f7f26fbb7ae53fa7ea7a",
+      "version": "833296a529a227f3b64dab8e024cf9ad",
       "onlineList": [
         {
           "cid": "8949",
@@ -83,6 +83,12 @@
         {
           "cid": "9853",
           "version": 1793168511,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "2199",
+          "version": 1794885312,
           "needRedDot": true,
           "needPopup": false
         },
@@ -226,7 +232,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1794626212,
+      "updatedAt": 1794891600,
       "list": [
         {
           "cid": "8949",
@@ -420,6 +426,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/e7156d753af264e298bcc78e37eb6dc7.jpg\" data-width=\"1920\" data-height=\"3601\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "2199",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1794891600,
+          "focus": 0,
+          "title": "เสบียงค่าสติ",
+          "header": "รายละเอียดกิจกรรมจำกัดเวลา [เสบียงค่าสติ]",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261116/49cfe4c0fd709cb15327badb84748116.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// เวลากิจกรรม </strong><br>เซิร์ฟเวอร์ Asia: <br>18 พ.ย. 2026 เวลา 04:00 น. - 25 พ.ย. 2026 เวลา 04:00 น. (ตามเวลาเซิร์ฟเวอร์) <br>เซิร์ฟเวอร์ Americas / Europe: <br>18 พ.ย. 2026 เวลา 04:00 น. - 24 พ.ย. 2026 เวลา 17:00 น. (ตามเวลาเซิร์ฟเวอร์)<br><br><strong>▼// รางวัลกิจกรรม </strong><br>ระหว่างกิจกรรม ทำภารกิจที่กำหนดให้สำเร็จทุกวันเพื่อรับ: [บูสเตอร์ค่าสติฉุกเฉิน]×4 และ [ใบอนุญาตใช้ค่าสติ]×8<br><br><strong>▼// เงื่อนไขการเข้าร่วม </strong><br>ทำภารกิจหลัก [บทที่ 1 องก์ 2: ถางเส้นทาง] เสร็จสิ้น<br><br><strong>▼// รายละเอียดกิจกรรม </strong><br>· ระหว่างกิจกรรม จะมีภารกิจเสบียงค่าสติ 3 ภารกิจในแต่ละวัน ทำภารกิจให้เสร็จสิ้นเพื่อรับรางวัล <br>· ภารกิจเสบียงค่าสติจะรีเฟรชทุกวัน เวลา 04:00 น. (ตามเวลาเซิร์ฟเวอร์) อย่าลืมรับรางวัลโดยเร็ว<br><br>※ เขตเวลาเซิร์ฟเวอร์ Asia: UTC+8 <br>※ เขตเวลาเซิร์ฟเวอร์ Americas / Europe: UTC-5 <br>※ สำหรับรายละเอียดกิจกรรมเพิ่มเติม โปรดตรวจสอบที่ [ศูนย์กิจกรรม] ภายในเกม<br></p>",
             "linkType": 1
           }
         },

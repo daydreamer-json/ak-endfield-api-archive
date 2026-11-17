@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-tw",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-tw",
-      "version": "03a90dffce54f7f26fbb7ae53fa7ea7a",
+      "version": "833296a529a227f3b64dab8e024cf9ad",
       "onlineList": [
         {
           "cid": "8949",
@@ -83,6 +83,12 @@
         {
           "cid": "9853",
           "version": 1793168511,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "2199",
+          "version": 1794885312,
           "needRedDot": true,
           "needPopup": false
         },
@@ -226,7 +232,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1794626212,
+      "updatedAt": 1794891600,
       "list": [
         {
           "cid": "8949",
@@ -420,6 +426,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/83d8a63f10b50f5b764419de1e055858.jpg\" data-width=\"1920\" data-height=\"3601\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "2199",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1794891600,
+          "focus": 0,
+          "title": "理智補給",
+          "header": "「理智補給」限時活動說明",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261116/a9250375a4fc39eda0816dec1e359e34.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼//活動時間</strong><br>Asia伺服器：<br>2026/11/18 04:00 ~ 2026/11/25 04:00（伺服器時間）<br>Americas / Europe伺服器：<br>2026/11/18 04:00 ~ 2026/11/24 17:00（伺服器時間）<br><br><strong>▼//活動獎勵</strong><br>活動期間，每日完成指定任務，可獲得【緊急理智加強劑】×4、【理智消耗許可】×8。<br><strong><br>▼//參與條件</strong><br>完成主線任務「第一章 - 進度II - 開拓前路」<br><br><strong>▼//活動說明</strong><br>· 活動期間，每日將固定開放3個理智補給任務，完成任務即可獲得獎勵。<br>· 每日的理智補給任務將於次日04:00（伺服器時間）更新，請管理員及時領取獎勵。<br><br>※ Asia伺服器時區：UTC+8<br>※ Americas / Europe伺服器時區：UTC-5<br>※ 更多活動詳細說明，請前往遊戲內【活動中心】查看。<br></p>",
             "linkType": 1
           }
         },

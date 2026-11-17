@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "ru-ru",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ru-ru",
-      "version": "4df81a3878a63efef8c0905f0b31e137",
+      "version": "275cde39dc61980d92d1a5b9a703c4e7",
       "onlineList": [
         {
           "cid": "8949",
@@ -83,6 +83,12 @@
         {
           "cid": "9853",
           "version": 1793168511,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "2199",
+          "version": 1794885312,
           "needRedDot": true,
           "needPopup": false
         },
@@ -226,7 +232,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1794626212,
+      "updatedAt": 1794891600,
       "list": [
         {
           "cid": "8949",
@@ -420,6 +426,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/be220710b02b859d9c104366cc4a1d5a.jpg\" data-width=\"1920\" data-height=\"3601\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "2199",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1794891600,
+          "focus": 0,
+          "title": "Поставка рассудка",
+          "header": "Сведения о временном событии [Поставка рассудка]",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261116/86901b2c896cbbc50e2904e12b8a9154.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Расписание события </strong><br>Сервер Asia: <br>с 18 ноября 2026 г., 4:00 до 25 ноября 2026 г., 4:00 (по времени сервера) <br>Сервер Americas / Europe: <br>с 18 ноября 2026 г., 4:00 до 24 ноября 2026 г., 17:00 (по времени сервера)<br><br><strong>▼// Награды события </strong><br>Во время события выполняйте указанные миссии каждый день, чтобы получить 4 [экстренных протектора рассудка] и 8 [разрешений на поглощение рассудка].<br><strong><br>▼// Условия участия </strong><br>Выполните основную миссию [глава I, операция II: «Прокладывание пути»]<br><br><strong>▼// Сведения о событии </strong><br>· Во время события ежедневно будут доступны 3 миссии поставки рассудка. Выполняйте их, чтобы получить награды. <br>· Миссии поставки рассудка обновляются ежедневно в 04:00 (по времени сервера). Не забудьте своевременно забрать награды.<br><br>※ Часовой пояс сервера Asia: UTC+8 <br>※ Часовой пояс сервера Americas / Europe: UTC-5 <br>※ Дополнительные сведения о событии можно получить во внутриигровом [Центре событий].<br></p>",
             "linkType": 1
           }
         },

@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "es-mx",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:es-mx",
-      "version": "03a90dffce54f7f26fbb7ae53fa7ea7a",
+      "version": "833296a529a227f3b64dab8e024cf9ad",
       "onlineList": [
         {
           "cid": "8949",
@@ -83,6 +83,12 @@
         {
           "cid": "9853",
           "version": 1793168511,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "2199",
+          "version": 1794885312,
           "needRedDot": true,
           "needPopup": false
         },
@@ -226,7 +232,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1794626212,
+      "updatedAt": 1794891600,
       "list": [
         {
           "cid": "8949",
@@ -420,6 +426,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/56021051499adbd5aeb693804ac8cc3e.jpg\" data-width=\"1920\" data-height=\"3601\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "2199",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1794891600,
+          "focus": 0,
+          "title": "Suministro de Cordura",
+          "header": "Suministro de Cordura",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261116/ca06305e5dd4208f5aa47482c601a4a6.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Periodo del evento </strong><br>Servidor Asia: <br>Del 18 de noviembre de 2026 a las 4:00 al 25 de noviembre de 2026 a las 4:00 (hora del servidor) <br>Servidor Americas / Europe: <br>Del 18 de noviembre de 2026 a las 4:00 al 24 de noviembre de 2026 a las 17:00 (hora del servidor)<br><br><strong>▼// Recompensas del evento </strong><br>Durante el evento, completa las misiones especificadas todos los días para recibir [Refuerzo de Cordura de emergencia]×4 y [Permiso de uso de Cordura]×8.<br><br><strong>▼// Requisitos de participación </strong><br>Completa la misión principal [Capítulo I Proceso II: Pavimentando el camino]<br><br><strong>▼// Detalles del evento </strong><br>· Durante el evento, habrá 3 misiones diarias de Suministro de Cordura: complétalas para ganar recompensas. <br>· Las misiones de Suministro de Cordura se actualizarán diariamente a las 04:00 (hora del servidor). Asegúrate de reclamar las recompensas a tiempo.<br><br>※ Zona horaria del servidor Asia: UTC+8 <br>※ Zona horaria del servidor Americas / Europe: UTC-5 <br>※ Para obtener más detalles sobre el evento, consulta el [Centro de eventos] en el juego.<br></p>",
             "linkType": 1
           }
         },
