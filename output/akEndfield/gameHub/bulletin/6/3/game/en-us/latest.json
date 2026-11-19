@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "en-us",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:en-us",
-      "version": "521eddf00719bd6b91dae364853cff31",
+      "version": "4b36a8e9444028fb19e17fed94c1ab3c",
       "onlineList": [
         {
           "cid": "8947",
@@ -93,6 +93,12 @@
           "needPopup": false
         },
         {
+          "cid": "6422",
+          "version": 1795056851,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "2199",
           "version": 1794885312,
           "needRedDot": true,
@@ -119,12 +125,6 @@
         {
           "cid": "3036",
           "version": 1793348061,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
-          "cid": "3034",
-          "version": 1793073788,
           "needRedDot": true,
           "needPopup": false
         },
@@ -189,12 +189,6 @@
           "needPopup": false
         },
         {
-          "cid": "9857",
-          "version": 1794383180,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
           "cid": "0787",
           "version": 1793167791,
           "needRedDot": true,
@@ -232,7 +226,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1795057307,
+      "updatedAt": 1795060800,
       "list": [
         {
           "cid": "8947",
@@ -448,6 +442,23 @@
           }
         },
         {
+          "cid": "6422",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1795060800,
+          "focus": 0,
+          "title": "Speed Up Missions Now Available",
+          "header": "[Protocol Pass] Speed Up Missions Availability Notice",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261118/0f89417e8fe6543f5ed56a2ca97c785c.jpg\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrator, <br>[Protocol Pass] Speed Up Missions are now available. Complete all Speed Up Missions for the current pass season to earn plenty of extra Pass EXP. <br><br><strong>▼// Availability </strong><br>Nov. 19, 2026 at 04:00 (server time) – Before version update and maintenance <br><strong><br>▼// Participation Criteria </strong><br>Complete the main mission [Chapter I Process II: Paving the Way] <br><br><strong>▼// Special Notes </strong><br>You can continue earning Pass EXP even after maxing out the [Protocol Pass] level. Any Pass EXP beyond the cap will accumulate to grant [Cycling Crates-o-Surprise] as rewards. These crates open automatically upon receipt and grant a random [Oroberyl] reward, a random [Progression Material] reward, and a random [Sanity Usage Permit] reward. <br><br>※ Asia Server Time Zone: UTC+8 <br>※ Americas / Europe Server Time Zone: UTC-5 <br>※ For detailed rules, visit [Protocol Pass] in-game and check [Protocol Pass Details].<br></p>",
+            "linkType": 1
+          }
+        },
+        {
           "cid": "2199",
           "type": 0,
           "tab": "events",
@@ -529,23 +540,6 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261014/0317da4ecfc6657cdb11bc057ebf3625.png\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrator, <br>During the [Sanctuary of Ink] version, the [Acquisition Center] will offer a variety of bundles.</p><p><br><strong>▼// Limited Bundles </strong><br>■ Wondrous View Collection Pack <br>· Availability: Throughout the [Sanctuary of Ink] version <br>· Bundle Contents: [Chartered HH Permit]×1, [Sticker: Solemn Gaze]×1, [Sticker: Aha...]×1, [Sticker: Looking Around]×1 <br>· Special Note: Only 1 purchase allowed<br><br>■ Protocol Flow Bundle <br>· Availability: Throughout the [Sanctuary of Ink] version <br>· Bundle Contents: [Chartered HH Permit]×10, [Arsenal Ticket]×2000, [Mark of Perseverance]×10 <br>· Special Note: Only 1 purchase allowed in current version<br><br>■ Omnipresence HH Bundle <br>· Availability: After [Sanctuary of Ink] version update – Nov. 5, 2026 at 11:59 (server time) <br>· Bundle Contents: [Spirit's Restoration HH Permit]×10, [T-Creds]×80000 <br>· Special Note: Only 1 purchase allowed<br><br>■ Star River HH Bundle <br>· Availability: Nov. 5, 2026 at 12:00 (server time) – Before version update and maintenance <br>· Bundle Contents: [The Stars Are With Me HH Permit]×10, [T-Creds]×80000 <br>· Special Note: Only 1 purchase allowed<br><br>■ Value Arsenal Ticket Pack <br>· Bundle Contents: [Arsenal Ticket]×2000 <br>· Special Note: Only 1 purchase allowed. Purchase limit resets when [Chartered Headhunting] is updated.<br><br>※ Asia Server Time Zone: UTC+8 <br>※ Americas / Europe Server Time Zone: UTC-5 <br>※ Some bundles may include limited-time items. You can check the details of limited-time items in [Purchase - Item Contents]. If limited-time items in a bundle expire after purchase, they cannot be reissued. Thank you for your understanding and support. <br>※ For more bundles and their details, visit the in-game [Acquisition Center - Bundles].<br></p>",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "3034",
-          "type": 0,
-          "tab": "events",
-          "orderType": 1,
-          "orderWeight": 3,
-          "displayType": "rich_text",
-          "startAt": 1793181600,
-          "focus": 0,
-          "title": "RE-Factor Headhunting\\nRE-Factor Issue",
-          "header": "RE-Factor Headhunting and RE-Factor Issue Open",
-          "jumpButton": null,
-          "data": {
-            "html": "<p><span style=\"color: rgb(0, 0, 0);\">Dear Endministrator,</span></p><p><span style=\"color: rgb(0, 0, 0);\">During [Ancestral Spring Flows Anew] RE-Factor Headhunting #1, the 6-star operator [Tangtang] is Rate-UP.</span></p><p><span style=\"color: rgb(0, 0, 0);\">During [Tender Sprig Issue] RE-Factor Issue #1, the chance of getting the 6★ weapon [Brigand's Calling (Handcannon)] is increased!</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Availability</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Oct. 29, 2026 at 12:00 – Nov. 19, 2026 at 11:59 (server time)</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Asia Server Time Zone: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Americas / Europe Server Time Zone: UTC-5</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Participation Criteria</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Complete the main mission [Chapter I Process I: Break the Siege]</span><br><br><span style=\"color: rgb(0, 0, 0);\"><strong>▼// [Ancestral Spring Flows Anew] RE-Factor Headhunting #1 Details</strong></span></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261027/28661d5d2790135af15403a5f4570e30.png\" alt=\"\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Headhunting Details</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">[Ancestral Spring Flows Anew] RE-Factor Headhunting features the Rate-UP 6★ operator [Tangtang]. In this headhunting, you are guaranteed to get the Rate-UP 6★ operator [Tangtang] within the first 120 headhunting attempts. This guarantee can only trigger 1 time across all [Ancestral Spring Flows Anew] RE-Factor Headhunting banners. Attempts toward this guarantee will carry over to future [Ancestral Spring Flows Anew] RE-Factor Headhunting banners.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Headhunting Rewards</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">In [Ancestral Spring Flows Anew] RE-Factor Headhunting, perform a certain number of headhunting attempts to earn corresponding rewards. The accumulated headhunting attempts will carry over to future [Ancestral Spring Flows Anew] RE-Factor Headhunting banners.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>· Urgent Recruitment</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">After performing 30/60/90 headhunting attempts, you will respectively receive 10 bonus Urgent Recruitment attempts (i.e., 1 free 10× headhunting attempt at each milestone). This bonus can only trigger 1 time across all [Ancestral Spring Flows Anew] RE-Factor Headhunting banners. Any unused Urgent Recruitment attempts will carry over to future [Ancestral Spring Flows Anew] RE-Factor Headhunting banners.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>· Token Tribute</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Across all [Ancestral Spring Flows Anew] RE-Factor Headhunting banners, for every 240 headhunting attempts performed, you will receive a bonus [Tangtang's Token]×1. Attempts will carry over to future [Ancestral Spring Flows Anew] RE-Factor Headhunting banners.</span><br></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// [Tender Sprig Issue] RE-Factor Issue #1 Details</strong></span></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261027/a96d0a953385fe54192e761bfb11f262.png\" alt=\"\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Issue Details</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· [Tender Sprig Issue] RE-Factor Issue features the Rate-UP 6★ weapon [Brigand's Calling (Handcannon)].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· In this Issue, if no 6★ weapons are acquired in 3 consecutive issues, then a 6★ weapon is guaranteed on the 4th issue. This guarantee is only valid for [Tender Sprig Issue] RE-Factor Issue #1 and does not carry over to other Issue banners (including future [Tender Sprig Issue] RE-Factor Issue banners).</span></p><p><span style=\"color: rgb(0, 0, 0);\">· In this Issue, if no Rate-UP 6★ weapons are acquired in the first 7 issues, then a Rate-UP 6★ weapon is guaranteed on the 8th issue. This guarantee can trigger 1 time across all [Tender Sprig Issue] RE-Factor Issue banners. Attempts toward the guarantee will carry over to future [Tender Sprig Issue] RE-Factor Issue banners.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Issue Rewards</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Perform a set number of RE-Factor Issue attempts to get [Arms OC: Tender Sprig] or [Brigand's Calling (Handcannon)] in alternating order. The accumulated RE-Factor Issue attempts will carry over to future [Tender Sprig Issue] RE-Factor Issue banners.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ Please check in-game for more details.</span></p>",
             "linkType": 1
           }
         },
@@ -726,23 +720,6 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260930/c59770c616ba9f97c4a8822d496ca8b8.png",
             "link": "https://endfield.gryphline.com/special/discord-binding",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "9857",
-          "type": 0,
-          "tab": "updates",
-          "orderType": 1,
-          "orderWeight": 5,
-          "displayType": "rich_text",
-          "startAt": 1794452400,
-          "focus": 0,
-          "title": "Version Experience Survey",
-          "header": "[Sanctuary of Ink] Version Experience Survey",
-          "jumpButton": null,
-          "data": {
-            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261111/20f1655d421bee689b661dea05810a3f.png\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrator, <br>To better collect your thoughts and feedback on Arknights: Endfield, we would like to send you a survey. We invite you to complete the survey based on your gaming experience and share your valuable insights with us. After you successfully submit the survey, we will send you [Oroberyl]×300 as a survey completion reward via in-game mail. <br><br><strong>▼// Survey Eligibility Requirement </strong><br>Unlock the [Mail] feature <br><br><strong>▼// Survey Distribution Time </strong><br>Nov. 13, 2026 at 12:00 (UTC+8)<br><br><strong>▼// How to Access the Survey </strong><br>Once the survey is sent out, you can find the [Sanctuary of Ink] Version Experience Survey in your [Mail]. Click [Go to Survey] to fill it out and share your valuable feedback. <br>※ Survey responses cannot be edited after submission. Please complete it carefully. <br><br>To ensure your feedback reflects your latest gaming experience, the survey mail will expire after a set period. Completing the survey takes about 3–5 minutes. Thank you for your time and patience. <br><br>Every valuable suggestion you share will help us enhance the game. Your feedback will play an important role in shaping a better Arknights: Endfield experience for all Endministrators. <br><br>Thank you again for your continued interest and support for Arknights: Endfield, Endministrator!<br></p>",
             "linkType": 1
           }
         },

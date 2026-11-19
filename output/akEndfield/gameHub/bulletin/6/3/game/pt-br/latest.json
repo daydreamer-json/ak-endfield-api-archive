@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "pt-br",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:pt-br",
-      "version": "521eddf00719bd6b91dae364853cff31",
+      "version": "4b36a8e9444028fb19e17fed94c1ab3c",
       "onlineList": [
         {
           "cid": "8947",
@@ -93,6 +93,12 @@
           "needPopup": false
         },
         {
+          "cid": "6422",
+          "version": 1795056851,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "2199",
           "version": 1794885312,
           "needRedDot": true,
@@ -119,12 +125,6 @@
         {
           "cid": "3036",
           "version": 1793348061,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
-          "cid": "3034",
-          "version": 1793073788,
           "needRedDot": true,
           "needPopup": false
         },
@@ -189,12 +189,6 @@
           "needPopup": false
         },
         {
-          "cid": "9857",
-          "version": 1794383180,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
           "cid": "0787",
           "version": 1793167791,
           "needRedDot": true,
@@ -232,7 +226,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1795057307,
+      "updatedAt": 1795060800,
       "list": [
         {
           "cid": "8947",
@@ -448,6 +442,23 @@
           }
         },
         {
+          "cid": "6422",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1795060800,
+          "focus": 0,
+          "title": "Missões Aceleradas Já Disponíveis",
+          "header": "Missões Aceleradas Já Disponíveis",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261118/3c04caf9fcdb4ac82f3011795e50dd0b.jpg\" data-width=\"1650\" data-height=\"300\"><p>Endministrator, <br>As Missões Aceleradas do [Passe do Protocolo] já estão disponíveis. Conclua todas as Missões Aceleradas na temporada atual do passe para ganhar bastante EXP de Passe adicional. <br><strong><br>▼// Disponibilidade </strong><br>19 de novembro de 2026, às 04:00 (horário do servidor) – Antes da atualização de versão e manutenção <br><br><strong>▼// Critérios de Participação </strong><br>Conclua a missão principal [Capítulo I Processo II: Pavimentando o Caminho]. <br><br><strong>▼// Observações Especiais </strong><br>Você pode continuar ganhando EXP de Passe mesmo depois de maximizar o nível do [Passe do Protocolo]. Qualquer EXP de Passe que ultrapassar o limite será acumulada para conceder [Caixote de Surpresas Cíclico]. Os caixotes são abertos automaticamente ao serem recebidos e sempre concedem uma recompensa aleatória de [Ourubis], uma de [Material de Progressão] e outra de [Permissão para Uso de Sanidade]. <br><br>※ Fuso Horário do Servidor Asia: UTC+8 <br>※ Fuso Horário do Servidor Americas / Europe: UTC-5 <br>※ Para ver regras detalhadas, acesse o [Passe do Protocolo] no jogo e confira a seção [Detalhes do Passe do Protocolo].<br></p>",
+            "linkType": 1
+          }
+        },
+        {
           "cid": "2199",
           "type": 0,
           "tab": "events",
@@ -529,23 +540,6 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261014/a32389586b2d3c32bc745b9b7aa2578e.png\" data-width=\"1650\" data-height=\"300\"><p>Olá, Endministrator, <br>Durante a versão [Santuário de Tinta], o [Centro de Aquisições] oferecerá uma variedade de pacotes.</p><p><br><strong>▼// Pacotes limitados </strong><br>■ Pacote de Coleção Vista Maravilhosa <br>· Disponibilidade: durante toda a versão [Santuário de Tinta] <br>· Conteúdo do pacote: [Permissão para CT Privilegiada]×1, [Adesivo: Olhar Solene]×1, [Adesivo: Aha...]×1, [Adesivo: Dando uma Olhada]×1 <br>· Observação especial: apenas 1 compra permitida<br><br>■ Pacote Fluxo do Protocolo <br>· Disponibilidade: durante toda a versão [Santuário de Tinta] <br>· Conteúdo do pacote: [Permissão para CT Privilegiada]×10, [Tíquete do Arsenal]×2.000, [Marca da Perseverança]×10 <br>· Observação especial: apenas 1 compra permitida na versão atual<br><br>■ Pacote CT Onipresença <br>· Disponibilidade: após a atualização da versão [Santuário de Tinta] – 5 de novembro de 2026, às 11:59 (horário do servidor) <br>· Conteúdo do pacote: [Permissão para CT Restauração do Espírito]×10, [T-Creds]×80.000 <br>· Observação especial: apenas 1 compra permitida<br><br>■ Pacote CT Rio da Estrela <br>· Disponibilidade: 5 de novembro de 2026, às 12:00 (horário do servidor) – antes da atualização e manutenção da versão <br>· Conteúdo do pacote: [Permissão para CT As Estrelas Estão Comigo]×10, [T-Creds]×80.000 <br>· Observação especial: apenas 1 compra permitida<br><br>■ Pacote Tíquete do Arsenal Promo <br>· Conteúdo do pacote: [Tíquete do Arsenal]×2.000 <br>· Observação especial: apenas 1 compra permitida. O limite de compra é redefinido quando a [Caça de Talentos Privilegiada] for atualizada.<br><br>※ Fuso horário do Servidor Asia: UTC+8 <br>※ Fuso horário do Servidor Americas / Europe: UTC-5 <br>※ Alguns pacotes podem incluir itens por tempo limitado. Você pode conferir os detalhes dos itens por tempo limitado em [Compra — Conteúdo do Item]. Se os itens por tempo limitado de um pacote expirarem após a compra, eles não poderão ser reemitidos. Agradecemos pela compreensão e apoio. <br>※ Para mais pacotes e seus detalhes, acesse [Centro de Aquisições — Pacotes] no jogo.<br></p>",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "3034",
-          "type": 0,
-          "tab": "events",
-          "orderType": 1,
-          "orderWeight": 3,
-          "displayType": "rich_text",
-          "startAt": 1793181600,
-          "focus": 0,
-          "title": "Caça de Talentos RE-Fator \\nDistribuição RE-Fator",
-          "header": "Caça de Talentos RE-Fator e Distribuição RE-Fator",
-          "jumpButton": null,
-          "data": {
-            "html": "<p>Endministrator,&nbsp;<br>Durante a Caça de Talentos RE-Fator #1 [O Novo Fluxo da Fonte Ancestral], a operadora 6 estrelas [Tangtang] é Maior Chance.&nbsp;<br>Durante a Distribuição RE-Fator #1 [Distribuição Broto Tenro], a chance de obter a arma 6★ [Convocação do Bandido (Canhão de Mão)] é aumentada!<br><br><strong>▼// Disponibilidade&nbsp;</strong><br>29 de outubro de 2026 às 12h – 19 de novembro de 2026 às 11h59 (horário do servidor)&nbsp;<br>※ Fuso Horário do Servidor Asia: UTC+8&nbsp;<br>※ Fuso Horário do Servidor Americas/Europe: UTC-5&nbsp;<br><strong><br>▼// Critérios de Participação&nbsp;</strong><br>Conclua a missão principal [Capítulo I Processo I: Romper o Cerco]<br><strong><br>▼// Detalhes da Caça de Talentos RE-Fator #1 [O Novo Fluxo da Fonte Ancestral]&nbsp;</strong></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261027/3a97df43a4027ab8467805ef8f026cc2.png\" alt=\"\" data-width=\"1650\" data-height=\"300\"><p><strong>■ Detalhes da Caça de Talentos</strong><br>A Caça de Talentos RE-Fator [O Novo Fluxo da Fonte Ancestral] apresenta a operadora 6★ Maior Chance [Tangtang]. Nessa caça de talentos, você tem a garantia de obter a operadora 6★ Maior Chance [Tangtang] nas 120 primeiras tentativas de caça de talentos. Essa garantia só pode ser acionada 1 vez entre todos os estandartes de Caça de Talentos RE-Fator [O Novo Fluxo da Fonte Ancestral]. As tentativas realizadas para essa garantia serão transportadas para futuros estandartes da Caça de Talentos RE-Fator [O Novo Fluxo da Fonte Ancestral].&nbsp;<br><strong><br>■ Recompensas da Caça de Talentos&nbsp;</strong><br>Na Caça de Talentos RE-Fator [O Novo Fluxo da Fonte Ancestral], realize um determinado número de tentativas de caça de talentos para receber as recompensas correspondentes. As tentativas de caça de talentos acumuladas serão transportadas para futuros estandartes de Caça de Talentos RE-Fator [O Novo Fluxo da Fonte Ancestral].&nbsp;<br><br><strong>· Recrutamento Urgente&nbsp;</strong><br>Após realizar 30/60/90 tentativas de caça de talentos, você receberá de bônus 10 tentativas de Recrutamento Urgente (ou seja, 1 tentativa de caça de talentos 10× grátis a cada marco). Esse bônus só pode ser acionado 1 vez entre todos os estandartes de Caça de Talentos RE-Fator [O Novo Fluxo da Fonte Ancestral]. Quaisquer tentativas de Recrutamento Urgente não usadas serão transportadas para futuros estandartes de Caça de Talentos RE-Fator [O Novo Fluxo da Fonte Ancestral].&nbsp;<br><br><strong>· Tributo em Símbolos&nbsp;</strong><br>Entre todos os estandartes da Caça de Talentos RE-Fator [O Novo Fluxo da Fonte Ancestral], para cada 240 tentativas de caça de talentos realizadas, você receberá um bônus de [Símbolo de Tangtang] × 1. As tentativas serão transportadas para futuros estandartes de Caça de Talentos RE-Fator [O Novo Fluxo da Fonte Ancestral].<br><br><strong>▼// Detalhes da Distribuição RE-Fator #1 [Distribuição Broto Tenro]&nbsp;</strong></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261027/8a7b7bad8c3527bbdfe5416f56c2d1d4.png\" alt=\"\" data-width=\"1650\" data-height=\"300\"><p><strong>■ Detalhes da Distribuição&nbsp;</strong><br>· A Distribuição RE-Fator [Distribuição Broto Tenro] apresenta a arma 6★ Maior Chance [Convocação do Bandido (Canhão de Mão)].&nbsp;<br>· Nessa Distribuição, se nenhuma arma 6★ for adquirida em 3 distribuições consecutivas, então uma arma 6★ será garantida na 4ª distribuição. Essa garantia só é válida para a Distribuição RE-Fator #1 [Distribuição Broto Tenro] e não é transportada para outros estandartes de distribuição (inclusive estandartes de Distribuição RE-Fator [Distribuição Broto Tenro] futuros).&nbsp;<br>· Nessa Distribuição, se nenhuma arma 6★ Maior Chance for adquirida nas 7 primeiras distribuições, então uma arma 6★ Maior Chance será garantida na 8ª distribuição. Essa garantia pode ser acionada 1 vez entre todos os estandartes de Distribuição RE-Fator [Distribuição Broto Tenro]. As tentativas referentes à garantia serão transportadas para futuros estandartes de Distribuição RE-Fator [Distribuição Broto Tenro].&nbsp;<br><strong><br>■ Recompensas da Distribuição&nbsp;</strong><br>Realize um número definido de tentativas de Distribuição RE-Fator para obter [CO Armas: Broto Tenro] ou [Convocação do Bandido (Canhão de Mão)] alternadamente. As tentativas de Distribuição RE-Fator acumuladas serão transportadas para futuros estandartes de Distribuição RE-Fator [Distribuição Broto Tenro].&nbsp;<br><br>※ Consulte o jogo em si para obter mais detalhes.</p>",
             "linkType": 1
           }
         },
@@ -726,23 +720,6 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260930/c754d371f977628eb92cd8baa00d84a6.png",
             "link": "https://endfield.gryphline.com/special/discord-binding",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "9857",
-          "type": 0,
-          "tab": "updates",
-          "orderType": 1,
-          "orderWeight": 5,
-          "displayType": "rich_text",
-          "startAt": 1794452400,
-          "focus": 0,
-          "title": "Pesquisa de Experiência de Versão",
-          "header": "Pesquisa de Experiência de Versão [Santuário de Tinta]",
-          "jumpButton": null,
-          "data": {
-            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261111/3d809fdcc83bc5d5f1ef3e479bed716e.jpg\" data-width=\"1650\" data-height=\"300\"><p>Endministrator, <br>Para entendermos melhor suas opiniões e comentários sobre Arknights: Endfield, gostaríamos de lhe enviar uma pesquisa. Convidamos você a responder à pesquisa de acordo com sua experiência no jogo e compartilhar suas opiniões valiosas conosco. Após concluir a pesquisa, enviaremos a você [Ourubis]×300 como recompensa pela participação pelo correio do jogo. <br><br><strong>▼// Requisito de elegibilidade da pesquisa </strong><br>Desbloqueie o recurso [Correio] <br><br><strong>▼// Horário de distribuição da pesquisa</strong> <br>13 de novembro de 2026, às 12:00 (UTC+8)<br><br><strong>▼// Como acessar a pesquisa</strong> <br>Quando a pesquisa for enviada, você encontrará a Pesquisa de Experiência de Versão [Santuário de Tinta] no [Correio]. Clique em [Acessar a Pesquisa] para respondê-la e compartilhar seus comentários valiosos. <br>※ As respostas da pesquisa não poderão ser editadas após o envio. Responda a ela com atenção. <br><br>Para garantir que seus comentários reflitam a experiência mais recente no jogo, a mensagem de pesquisa expira após um determinado período. A pesquisa leva cerca de 3 a 5 minutos para ser respondida. Agradecemos o tempo e a paciência dedicados. <br><br>Cada sugestão valiosa que você compartilhar nos ajudará a melhorar o jogo. Seus comentários serão muito importantes para a criação de uma experiência melhor em Arknights: Endfield para todos os Endministrators. <br><br>Agradecemos mais uma vez pelo seu apoio e interesse constante em Arknights: Endfield, Endministrator!<br></p>",
             "linkType": 1
           }
         },

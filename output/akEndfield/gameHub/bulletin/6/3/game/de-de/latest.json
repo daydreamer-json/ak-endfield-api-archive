@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "de-de",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:de-de",
-      "version": "521eddf00719bd6b91dae364853cff31",
+      "version": "4b36a8e9444028fb19e17fed94c1ab3c",
       "onlineList": [
         {
           "cid": "8947",
@@ -93,6 +93,12 @@
           "needPopup": false
         },
         {
+          "cid": "6422",
+          "version": 1795056851,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "2199",
           "version": 1794885312,
           "needRedDot": true,
@@ -119,12 +125,6 @@
         {
           "cid": "3036",
           "version": 1793348061,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
-          "cid": "3034",
-          "version": 1793073788,
           "needRedDot": true,
           "needPopup": false
         },
@@ -189,12 +189,6 @@
           "needPopup": false
         },
         {
-          "cid": "9857",
-          "version": 1794383180,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
           "cid": "0787",
           "version": 1793167791,
           "needRedDot": true,
@@ -232,7 +226,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1795057307,
+      "updatedAt": 1795060800,
       "list": [
         {
           "cid": "8947",
@@ -448,6 +442,23 @@
           }
         },
         {
+          "cid": "6422",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1795060800,
+          "focus": 0,
+          "title": "Beschleunigungsmissionen jetzt verfügbar",
+          "header": "Beschleunigungsmissionen jetzt verfügbar",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261118/7cd93a5f4ae2547c14dcf2911fd7e7f6.jpg\" data-width=\"1650\" data-height=\"300\"><p>Geschätzter Endministrator: <br>[Protokollpass] Beschleunigungsmissionen sind jetzt verfügbar. Schließe alle Beschleunigungsmissionen für die aktuelle Pass-Saison ab, um jede Menge zusätzliche Pass-EP zu erhalten.<br><br><strong>▼// Verfügbarkeit </strong><br>19. November 2026 um 04:00 Uhr (Serverzeit) – Vor dem Versions-Update und der Wartung<br><strong><br>▼// Teilnahmekriterien </strong><br>Schließe die Hauptmission [Kapitel I, Prozess II: Den Weg freimachen] ab.<br><br><strong>▼// Besondere Hinweise </strong><br>Du kannst weiterhin Pass-EP erhalten, auch wenn du bereits das max. [Protokollpass]-Level erreicht hast. Die gesamten EP, die nach Erreichen des max. Passlevels gesammelt werden, werden gegen [Wiederkehrende Kisten des Unerwarteten] als Belohnungen eingetauscht. Diese Kisten werden nach Erhalt automatisch geöffnet und gewähren eine zufällige [Oro-Beryll]-Belohnung, eine zufällige [Fortschrittsmaterial]-Belohnung und eine zufällige [Verstandsverbrauch-Genehmigung]-Belohnung.<br><br>※ Zeitzone des Asia-Servers: UTC+8 <br>※ Zeitzone des Americas / Europe-Servers: UTC-5 <br>※ Weitere Details zu den Regeln sind im Spiel unter [Protokollpass] und dann [Details zum Protokollpass] zu finden.<br></p>",
+            "linkType": 1
+          }
+        },
+        {
           "cid": "2199",
           "type": 0,
           "tab": "events",
@@ -529,23 +540,6 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261014/1576a57f1778ea565a902158c01f0321.png\" data-width=\"1650\" data-height=\"300\"><p>Lieber Endministrator, <br>während der Version [Das Heiligtum aus Tusche] werden im [Ankaufszentrum] verschiedene Pakete angeboten.</p><p><br><strong>▼// Limitierte Pakete </strong><br>■ Sammlungspaket der Wundersamen Aussicht <br>· Verfügbarkeit: Während der gesamten Version [Das Heiligtum aus Tusche] <br>· Paketinhalt: [RK-Genehmigung: Priorisiert] ×1, [Sticker: Ernster Blick] ×1, [Sticker: Aha …] ×1, [Sticker: Umsehen] ×1 <br>· Hinweis: Nur 1 Kauf erlaubt<br><br>■ Paket: Protokollfluss <br>· Verfügbarkeit: Während der gesamten Version [Das Heiligtum aus Tusche] <br>· Paketinhalt: [RK-Genehmigung: Priorisiert] ×10, [Waffenticket] ×2.000, [Mal der Beharrlichkeit] ×10 <br>· Hinweis: Nur 1 Kauf in der aktuellen Version erlaubt<br><br>■ Paket: Omnipräsenz-RK <br>· Verfügbarkeit: Nach dem Versionsupdate [Das Heiligtum aus Tusche] – 5. Nov. 2026 um 11:59 Uhr (Serverzeit) <br>· Paketinhalt: [RK-Genehmigung: Wiederherstellung des Geistes] ×10, [T-Kreditscheine] ×80.000 <br>· Hinweis: Nur 1 Kauf erlaubt<br><br>■ Paket: Sternenfluss-RK <br>· Verfügbarkeit: 5. Nov. 2026 um 12:00 Uhr (Serverzeit) – Vor dem Versionsupdate und der Wartung <br>· Paketinhalt: [RK-Genehmigung: Die Sterne sind mit mir] ×10, [T-Kreditscheine] ×80.000 <br>· Hinweis: Nur 1 Kauf erlaubt<br><br>■ Preiswertes Waffenticket-Paket <br>· Paketinhalt: [Waffenticket] ×2.000 <br>· Hinweis: Nur 1 Kauf erlaubt. Das Kauflimit wird zurückgesetzt, wenn die [Rekrutierung: Priorisiert] aktualisiert wird.<br><br>※ „Asia“-Server-Zeitzone: UTC+8 <br>※ „Americas / Europe“-Server-Zeitzone: UTC-5 <br>※ Manche Pakete enthalten befristete Gegenstände. Details zu zeitlich begrenzten Gegenständen findest du unter [Kauf – Gegenstandsinhalte]. Sollten zeitlich begrenzte Objekte in einem Paket nach dem Kauf verfallen, können diese nicht erneut ausgegeben werden. Vielen Dank für dein Verständnis und deine Unterstützung. <br>※ Weitere Pakete und Details findest du im Spiel unter [Ankaufszentrum – Pakete].<br></p>",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "3034",
-          "type": 0,
-          "tab": "events",
-          "orderType": 1,
-          "orderWeight": 3,
-          "displayType": "rich_text",
-          "startAt": 1793181600,
-          "focus": 0,
-          "title": "RE-Faktor-Rekrutierung\\nRE-Faktor-Ausgabe",
-          "header": "RE-Faktor-Rekrutierung und RE-Faktor-Ausgabe",
-          "jumpButton": null,
-          "data": {
-            "html": "<p>Lieber Endministrator!&nbsp;<br>Während „RE-Faktor-Rekrutierung – [Die Ahnenquelle sprudelt erneut]“ #1 ist die 6-Stern-Operatorin [Tangtang] Rate-UP.&nbsp;<br>Während „RE-Faktor-Ausgabe – [Zarter-Zweig-Ausgabe]“ #1 ist die Chance auf den Erhalt der 6★-Waffe [Banditenruf (Handfeuerwaffe)] erhöht!<br><br><strong>▼// Verfügbarkeit&nbsp;</strong><br>29. Oktober 2026 um 12:00 Uhr – 19. November 2026 um 11:59 Uhr (Serverzeit)&nbsp;<br>※ „Asia“-Server-Zeitzone: UTC+8&nbsp;<br>※ „Americas / Europe“-Server-Zeitzone: UTC-5&nbsp;<br><br><strong>▼// Teilnahmekriterien&nbsp;</strong><br>Abschluss der Hauptmission [Kapitel I Prozess I: Die Belagerung durchbrechen]<br><br><strong>▼// Details zu „RE-Faktor-Rekrutierung – [Die Ahnenquelle sprudelt erneut]“ #1&nbsp;</strong></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261027/7409352555ba7b1654c024dafd582b74.png\" alt=\"\" data-width=\"1650\" data-height=\"300\"><p><strong>■ Rekrutierungsdetails</strong><br>„RE-Faktor-Rekrutierung – [Die Ahnenquelle sprudelt erneut]“ enthält die Rate-UP-6★-Operatorin [Tangtang]. In dieser Rekrutierung erhältst du garantiert innerhalb der ersten 120 Rekrutierungsversuche die Rate-UP-6★-Operatorin [Tangtang]. Diese Garantie kann während aller „RE-Faktor-Rekrutierungsbanner – [Die Ahnenquelle sprudelt erneut]“ nur 1-mal ausgelöst werden. Für diese Garantie zählende Versuche werden auf zukünftige „RE-Faktor-Rekrutierungsbanner – [Die Ahnenquelle sprudelt erneut]“ übertragen.&nbsp;<br><br><strong>■ Belohnungen der Rekrutierung</strong>&nbsp;<br>Unternimm bei „RE-Faktor-Rekrutierung – [Die Ahnenquelle sprudelt erneut]“ eine bestimmte Anzahl an Rekrutierungsversuchen, um entsprechende Belohnungen zu erhalten. Die Summe der Rekrutierungsversuche wird auf zukünftige „RE-Faktor-Rekrutierungsbanner – [Die Ahnenquelle sprudelt erneut]“ übertragen.&nbsp;<br><br><strong>· Bonusrekrutierung&nbsp;<br></strong>Nach 30/60/90 durchgeführten Rekrutierungsversuchen erhältst du als Bonus jeweils 10 Bonusrekrutierungsversuche (d. h. 1 kostenloser 10er-Rekrutierungsversuch pro Meilenstein). Dieser Bonus kann während aller „RE-Faktor-Rekrutierungsbanner – [Die Ahnenquelle sprudelt erneut]“ nur 1-mal ausgelöst werden. Ungenutzte Bonusrekrutierungsversuche werden auf zukünftige „RE-Faktor-Rekrutierungsbanner – [Die Ahnenquelle sprudelt erneut]“ übertragen.&nbsp;<br><br><strong>· Token-Tribut&nbsp;</strong><br>Wenn du über alle „RE-Faktor-Rekrutierungsbanner – [Die Ahnenquelle sprudelt erneut]“ hinweg jeweils 240 Rekrutierungsversuche durchführst, erhältst du als Bonus [Tangtangs Token] ×1. Versuche werden auf zukünftige „RE-Faktor-Rekrutierungsbanner – [Die Ahnenquelle sprudelt erneut]“ übertragen.<br><br><strong>▼// Details zu „RE-Faktor-Ausgabe – [Zarter-Zweig-Ausgabe]“ #1&nbsp;</strong></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261027/cf1df345b09e4279a3fc14d0458dcc00.png\" alt=\"\" data-width=\"1650\" data-height=\"300\"><p><strong>■ Ausgabe-Details&nbsp;</strong><br>· „RE-Faktor-Ausgabe – [Zarter-Zweig-Ausgabe]“ enthält die Rate-UP-6★-Waffe [Banditenruf (Handfeuerwaffe)].&nbsp;<br>· Wenn du in dieser Ausgabe keine 6★-Waffen in 3 aufeinanderfolgenden Ausgaben erhältst, dann ist eine 6★-Waffe in der 4. Ausgabe garantiert. Diese Garantie gilt nur für „RE-Faktor-Ausgabe – [Zarter-Zweig-Ausgabe]“ #1 und gilt nicht für andere Ausgabebanner (inklusive zukünftiger „RE-Faktor-Ausgabebanner – [Zarter-Zweig-Ausgabe]“).&nbsp;<br>· Wenn du in dieser Ausgabe keine Rate-UP-6★-Waffen in den ersten 7 Ausgaben erhältst, dann ist eine Rate-UP-6★-Waffe in der 8. Ausgabe garantiert. Diese Garantie kann während aller „RE-Faktor-Ausgabebanner – [Zarter-Zweig-Ausgabe]“ 1-mal ausgelöst werden. Für diese Garantie zählende Versuche werden auf zukünftige „RE-Faktor-Ausgabebanner – [Zarter-Zweig-Ausgabe]“ übertragen.&nbsp;<br><strong><br>■ Belohnungen der Ausgabe&nbsp;</strong><br>Führe eine bestimmte Anzahl an RE-Faktor-Ausgabeversuchen durch, um abwechselnd [Waffen-AK: Zarter Zweig] oder [Banditenruf (Handfeuerwaffe)] zu erhalten. Die Summe der RE-Faktor-Ausgabeversuche wird auf zukünftige „RE-Faktor-Ausgabebanner – [Zarter-Zweig-Ausgabe]“ übertragen.&nbsp;<br><br>※ Weitere Details gibt es im Spiel.</p>",
             "linkType": 1
           }
         },
@@ -726,23 +720,6 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260930/4cc876b229d28ed7db5382836ff0eeab.png",
             "link": "https://endfield.gryphline.com/special/discord-binding",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "9857",
-          "type": 0,
-          "tab": "updates",
-          "orderType": 1,
-          "orderWeight": 5,
-          "displayType": "rich_text",
-          "startAt": 1794452400,
-          "focus": 0,
-          "title": "Umfrage zur Erfahrung mit der Version",
-          "header": "Umfrage zur Erfahrung mit der Version",
-          "jumpButton": null,
-          "data": {
-            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261111/f372a99cc5f75b1e67734128779d0be7.jpg\" data-width=\"1650\" data-height=\"300\"><p>Geschätzter Endministrator, <br>um deine Eindrücke und dein Feedback zu Arknights: Endfield einzuholen, möchten wir dich zur Teilnahme an einer Umfrage einladen. Bitte schließe die Umfrage deinem Spielerlebnis entsprechend ab und teile deine Gedanken zum Spiel mit uns. Nach dem Abschluss der Umfrage senden wir dir [Oro-Beryll]×300 als Abschlussbelohnung per Nachricht im Spiel. <br><br><strong>▼//Teilnahmeberechtigung für die Umfrage: </strong><br>Schalte die [Mail]-Funktion frei. <br><br><strong>▼//Zeitpunkt der Umfrage-Zustellung: </strong><br>13. November 2026 um 12:00 Uhr (UTC+8)<br><br><strong>▼//So gelangst du zur Umfrage</strong> <br>Sobald die Zustellung erfolgt ist, findest du die Umfrage zur Erfahrung mit der Version [Das Heiligtum aus Tusche] in deiner [Mail]. Klicke auf [Zur Umfrage], um sie auszufüllen und Feedback zu geben. <br>※ Nach dem Absenden der Umfrage kannst du sie nicht nachträglich bearbeiten. Bitte fülle sie sorgfältig aus. <br><br>Damit dein Feedback auch auf dem neuesten Stand ist, verfällt die Umfrage-Mail nach bestimmter Zeit. Die Umfrage dauert ungefähr 3–5 Minuten. Danke für deine Zeit und Geduld. <br><br>Deine Vorschläge helfen uns dabei, das Spiel weiter zu verbessern. Dein Feedback spielt eine wichtige Rolle, um Arknights: Endfield zu einem besseren Erlebnis für alle Endministratoren zu machen. <br><br>Danke noch mal für dein anhaltendes Interesse und deine Unterstützung von Arknights: Endfield, Endministrator!<br></p>",
             "linkType": 1
           }
         },

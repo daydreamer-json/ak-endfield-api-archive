@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "it-it",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:it-it",
-      "version": "521eddf00719bd6b91dae364853cff31",
+      "version": "4b36a8e9444028fb19e17fed94c1ab3c",
       "onlineList": [
         {
           "cid": "8947",
@@ -93,6 +93,12 @@
           "needPopup": false
         },
         {
+          "cid": "6422",
+          "version": 1795056851,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "2199",
           "version": 1794885312,
           "needRedDot": true,
@@ -119,12 +125,6 @@
         {
           "cid": "3036",
           "version": 1793348061,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
-          "cid": "3034",
-          "version": 1793073788,
           "needRedDot": true,
           "needPopup": false
         },
@@ -189,12 +189,6 @@
           "needPopup": false
         },
         {
-          "cid": "9857",
-          "version": 1794383180,
-          "needRedDot": true,
-          "needPopup": false
-        },
-        {
           "cid": "0787",
           "version": 1793167791,
           "needRedDot": true,
@@ -232,7 +226,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1795057307,
+      "updatedAt": 1795060800,
       "list": [
         {
           "cid": "8947",
@@ -448,6 +442,23 @@
           }
         },
         {
+          "cid": "6422",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1795060800,
+          "focus": 0,
+          "title": "Missioni di accelerazione ora disponibili",
+          "header": "Missioni di accelerazione ora disponibili",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261118/f7f231e33568d5d9e29c23cc421379cf.jpg\" data-width=\"1650\" data-height=\"300\"><p>Gentile Endministrator,<br>le missioni di accelerazione del [Pass protocollare] sono ora disponibili: completa tutte le missioni di accelerazione della stagione del Pass in corso per ottenere un sacco di ESP Pass.<br><br><strong>▼// Disponibilità </strong><br>19 novembre 2026 alle 04:00 (fuso orario del server) - Prima dell'aggiornamento e della manutenzione della versione<br><br><strong>▼// Criteri di partecipazione </strong><br>Completa la missione principale [Capitolo I - Elaborazione II: Aprire la strada].<br><br><strong>▼// Note speciali </strong><br>Puoi continuare a ottenere ESP Pass anche dopo aver raggiunto il livello massimo del [Pass protocollare]. Tutta l'ESP Pass ottenuta dopo aver raggiunto il limite massimo si accumulerà e potrai ottenere ricompense come [casse a sorpresa cicliche], che si aprono automaticamente una volta acquisite e garantiscono una ricompensa casuale in [Oroberilli], una ricompensa casuale in [materiali di sviluppo] e una ricompensa casuale in [permessi d'uso di Lucidità].<br><br>※ Fuso orario del server Asia: UTC+8 <br>※ Fuso orario del server Americas / Europe: UTC-5 <br>※ Per consultare il regolamento dettagliato, apri il menu [Pass protocollare] all'interno del gioco e vai alla sezione [Dettagli Pass protocollare].<br></p>",
+            "linkType": 1
+          }
+        },
+        {
           "cid": "2199",
           "type": 0,
           "tab": "events",
@@ -529,23 +540,6 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261014/2003344bf2dbbebe560300c4a00e0a17.png\" data-width=\"1650\" data-height=\"300\"><p>Gentile Endministrator, <br>Durante la versione Santuario dell'inchiostro, il Centro di acquisizione offrirà una varietà di pacchetti.</p><p><br><strong>▼// Pacchetti limitati </strong><br>■ Pacchetto da collezione Meraviglie visive <br>· Disponibilità: per tutta la durata della versione Santuario dell'inchiostro <br>· Contenuto del pacchetto: 1 permesso CT certificata, 1 adesivo: Sguardo solenne, 1 adesivo: Aha..., 1 adesivo: Guardarsi intorno <br>· Nota speciale: è consentito un solo acquisto<br><br>■ Pacchetto Flusso protocollare <br>· Disponibilità: per tutta la durata della versione Santuario dell'inchiostro <br>· Contenuto del pacchetto: 10 permessi CT certificata, 2.000 biglietti arsenale, 10 simboli di perseveranza <br>· Nota speciale: in questa versione è consentito un solo acquisto<br><br>■ Pacchetto CT: Onnipresenza <br>· Disponibilità: dal rilascio della versione Santuario dell'inchiostro fino al 5 novembre 2026 alle 11:59 (fuso orario del server) <br>· Contenuto del pacchetto: 10 permessi CT Rinascita dello spirito, 80.000 Crediti-T <br>· Nota speciale: è consentito un solo acquisto<br><br>■ Pacchetto CT: Fiume stellare <br>· Disponibilità: dal 5 novembre 2026 alle 12:00 (fuso orario del server) fino a prima dell'aggiornamento e della manutenzione della versione <br>· Contenuto del pacchetto: 10 permessi CT Le stelle sono con me, 80.000 Crediti-T <br>· Nota speciale: è consentito un solo acquisto<br><br>■ Pacchetto di biglietti arsenale conveniente <br>· Contenuto del pacchetto: 2.000 biglietti arsenale <br>· Nota speciale: è consentito un solo acquisto. Il limite di acquisti viene azzerato all'aggiornamento della caccia ai talenti certificata.<br><br>※ Fuso orario del server Asia: UTC+8 <br>※ Fuso orario del server Americas / Europe: UTC-5 <br>※ Alcuni pacchetti potrebbero includere oggetti a tempo limitato. Puoi ottenere ulteriori dettagli sugli oggetti a tempo limitato in Acquista - Contenuti oggetto. Se gli oggetti a tempo limitato in un pacchetto scadono dopo l'acquisto, non potranno essere riemessi. Grazie per la comprensione e il sostegno. <br>※ Per maggiori informazioni sui pacchetti e il loro contenuto, vai alla sezione Pacchetti del Centro di acquisizione nel gioco.<br></p>",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "3034",
-          "type": 0,
-          "tab": "events",
-          "orderType": 1,
-          "orderWeight": 3,
-          "displayType": "rich_text",
-          "startAt": 1793181600,
-          "focus": 0,
-          "title": "Caccia ai talenti RE-Factor\\nDistribuzione RE-Factor",
-          "header": "Caccia ai talenti RE-Factor e Distribuzione RE-Factor",
-          "jumpButton": null,
-          "data": {
-            "html": "<p>Gentile Endministrator,<br>durante la Caccia ai talenti RE-Factor #1 [La fonte ancestrale scorre rinnovata], l'operatrice da 6 stelle [Tangtang] è in evidenza.<br>Durante la Distribuzione RE-Factor #1 [distribuzione Rametto tenero], le probabilità di ottenere l'arma da 6★ [Vocazione da brigante (pistola pesante)] sono aumentate!<br><br><strong>▼// Disponibilità</strong><br>29 ottobre 2026 alle 12:00 - 19 novembre 2026 alle 11:59 (fuso orario del server)<br>※ Fuso orario del server Asia: UTC+8<br>※ Fuso orario del server Americas / Europe: UTC-5<br><strong><br>▼// Criteri di partecipazione</strong><br>Completa la missione principale [Capitolo I - Elaborazione I: Sotto assedio]<br><br><strong>▼// Dettagli Caccia ai talenti RE-Factor #1 [La fonte ancestrale scorre rinnovata]</strong></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261027/1ee7023c445bdd18266a0948d0952bf3.png\" alt=\"\" data-width=\"1650\" data-height=\"300\"><p><strong>■ Dettagli caccia ai talenti</strong><br>La Caccia ai talenti RE-Factor [La fonte ancestrale scorre rinnovata] comprende l'operatrice da 6★ in evidenza [Tangtang]. In questa caccia ai talenti, l'ottenimento dell'operatrice da 6★ in evidenza [Tangtang] è garantito entro i primi 120 tentativi di caccia ai talenti. Questa garanzia può attivarsi solo una volta per tutte le campagne Caccia ai talenti RE-Factor [La fonte ancestrale scorre rinnovata]. I tentativi effettuati per arrivare a questo risultato garantito verranno trasferiti alle future campagne Caccia ai talenti RE-Factor [La fonte ancestrale scorre rinnovata].<br><br><strong>■ Ricompense caccia ai talenti&nbsp;</strong><br>Nella Caccia ai talenti RE-Factor [La fonte ancestrale scorre rinnovata], effettua un certo numero di tentativi di caccia ai talenti per ottenere le ricompense corrispondenti. I tentativi di caccia ai talenti accumulati verranno trasferiti alle future campagne Caccia ai talenti RE-Factor [La fonte ancestrale scorre rinnovata].<br><br><strong>· Reclutamento urgente</strong><br>Una volta effettuati 30/60/90 tentativi di caccia ai talenti, riceverai rispettivamente 10 tentativi di Reclutamento urgente bonus (cioè un tentativo gratuito di caccia ai talenti da 10 utilizzi a ogni traguardo). Tale bonus può attivarsi una sola volta per tutte le campagne Caccia ai talenti RE-Factor [La fonte ancestrale scorre rinnovata]. I tentativi di Reclutamento urgente non utilizzati verranno trasferiti alle future campagne Caccia ai talenti RE-Factor [La fonte ancestrale scorre rinnovata].<br><br><strong>· Tributo gettone</strong><br>Considerando tutte le campagne Caccia ai talenti RE-Factor [La fonte ancestrale scorre rinnovata], per ogni 240 tentativi di caccia ai talenti effettuati, riceverai 1 [gettone di Tangtang] bonus. I tentativi verranno trasferiti alle future campagne Caccia ai talenti RE-Factor [La fonte ancestrale scorre rinnovata].<br><strong><br>▼// Dettagli Distribuzione RE-Factor #1 [distribuzione Rametto tenero]</strong></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261027/ab51ed038c444780f86d1fe5e709cadd.png\" alt=\"\" data-width=\"1650\" data-height=\"300\"><p><strong>■ Dettagli distribuzione</strong><br>· La Distribuzione RE-Factor [distribuzione Rametto tenero] comprende l'arma da 6★ in evidenza [Vocazione da brigante (pistola pesante)].<br>· In questa distribuzione, se non si acquisisce un'arma da 6★ con 3 distribuzioni consecutive, nella quarta distribuzione l'arma da 6★ è garantita. Questa garanzia è valida solo per Distribuzione RE-Factor #1 [distribuzione Rametto tenero] e non viene trasferita ad altre campagne di distribuzione (comprese le future campagne Distribuzione RE-Factor [distribuzione Rametto tenero]).<br>· In questa distribuzione, se non si acquisisce un'arma da 6★ in evidenza nelle prime 7 distribuzioni, nell'ottava distribuzione l'arma da 6★ in evidenza è garantita. Questa garanzia può attivarsi una volta sola per tutte le campagne Distribuzione RE-Factor [distribuzione Rametto tenero]. I tentativi per questa garanzia verranno trasferiti alle future campagne Distribuzione RE-Factor [distribuzione Rametto tenero].<br><br><strong>■ Ricompense distribuzione</strong><br>Effettua un determinato numero di tentativi di Distribuzione RE-Factor per ottenere [CO armi: Rametto tenero] o [Vocazione da brigante (pistola pesante)] in ordine alternato. I tentativi di Distribuzione RE-Factor accumulati verranno trasferiti alle future campagne Distribuzione RE-Factor [distribuzione Rametto tenero].<br><br>※ Per maggiori dettagli, fai riferimento alle informazioni nel gioco.</p>",
             "linkType": 1
           }
         },
@@ -726,23 +720,6 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260930/26c75811b3659f92b3be4348771ca37c.png",
             "link": "https://endfield.gryphline.com/special/discord-binding",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "9857",
-          "type": 0,
-          "tab": "updates",
-          "orderType": 1,
-          "orderWeight": 5,
-          "displayType": "rich_text",
-          "startAt": 1794452400,
-          "focus": 0,
-          "title": "Sondaggio sull'esperienza con la versione",
-          "header": "Sondaggio sull'esperienza con la versione",
-          "jumpButton": null,
-          "data": {
-            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261111/b0a565d2bb4feca2dbb1aea1a521e052.jpg\" data-width=\"1650\" data-height=\"300\"><p>Ciao, Endministrator! <br>Affinché tu possa comunicarci la tua opinione su Arknights: Endfield, vorremmo inviarti un sondaggio. Ti saremmo grati se completassi il sondaggio basandoti sulla tua esperienza di gioco e condividessi con noi le tue preziose opinioni. Una volta concluso il sondaggio, ti invieremo una ricompensa consistente in 300 Oroberilli tramite la posta di gioco. <br><br><strong>▼// Requisito di idoneità al sondaggio </strong><br>Aver sbloccato la funzione Posta <br><br><strong>▼// Orario di distribuzione del sondaggio </strong><br>13 novembre 2026 alle 12:00 (UTC+8)<br><br><strong>▼// Come accedere al sondaggio </strong><br>Una volta distribuito, troverai il sondaggio sull'esperienza con la versione \"Santuario dell'inchiostro\" nella tua Posta. Fai clic su Vai al sondaggio per compilarlo e condividere con noi i tuoi preziosi feedback. <br>※ Una volta inviate, le risposte del sondaggio non possono essere modificate; ti invitiamo quindi a compilarlo con la massima attenzione. <br><br>Affinché le tue risposte rispecchino la tua esperienza di gioco più recente, il sondaggio inviato tramite posta scadrà dopo un determinato periodo di tempo. Il completamento del sondaggio richiede tra i 3 e i 5 minuti. Grazie per la pazienza e per il tempo che vorrai dedicarci. <br><br>Ogni tuo suggerimento ci aiuta a migliorare il gioco. Il tuo feedback avrà un ruolo cruciale nell'ottimizzazione dell'esperienza di gioco di tutti gli Endministrator di Arknights: Endfield. <br><br>Grazie ancora per l'interesse e il sostegno dimostrati nei confronti di Arknights: Endfield, Endministrator!<br></p>",
             "linkType": 1
           }
         },
