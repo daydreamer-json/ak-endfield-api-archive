@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "it-it",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:it-it",
-      "version": "48ee3bb9e99533fc0481d061f4b777e0",
+      "version": "0450166f810414a2e2186cc19cb0d7a5",
       "onlineList": [
         {
           "cid": "8947",
@@ -89,6 +89,12 @@
         {
           "cid": "9853",
           "version": 1793168511,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "6422",
+          "version": 1795064866,
           "needRedDot": true,
           "needPopup": false
         },
@@ -220,7 +226,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1795064619,
+      "updatedAt": 1795064867,
       "list": [
         {
           "cid": "8947",
@@ -432,6 +438,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/20e9b0f4b467998a5f06860e0fd411a9.jpg\" data-width=\"1920\" data-height=\"3601\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "6422",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1795060800,
+          "focus": 0,
+          "title": "Missioni di accelerazione ora disponibili",
+          "header": "Missioni di accelerazione ora disponibili",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261118/f7f231e33568d5d9e29c23cc421379cf.jpg\" data-width=\"1650\" data-height=\"300\"><p>Gentile Endministrator,<br>le missioni di accelerazione del [Pass protocollare] sono ora disponibili: completa tutte le missioni di accelerazione della stagione del Pass in corso per ottenere un sacco di ESP Pass.<br><br><strong>▼// Disponibilità </strong><br>18 novembre 2026 alle 04:00 (fuso orario del server) - Prima dell'aggiornamento e della manutenzione della versione<br><br><strong>▼// Criteri di partecipazione </strong><br>Completa la missione principale [Capitolo I - Elaborazione II: Aprire la strada].<br><br><strong>▼// Note speciali </strong><br>Puoi continuare a ottenere ESP Pass anche dopo aver raggiunto il livello massimo del [Pass protocollare]. Tutta l'ESP Pass ottenuta dopo aver raggiunto il limite massimo si accumulerà e potrai ottenere ricompense come [casse a sorpresa cicliche], che si aprono automaticamente una volta acquisite e garantiscono una ricompensa casuale in [Oroberilli], una ricompensa casuale in [materiali di sviluppo] e una ricompensa casuale in [permessi d'uso di Lucidità].<br><br>※ Fuso orario del server Asia: UTC+8 <br>※ Fuso orario del server Americas / Europe: UTC-5 <br>※ Per consultare il regolamento dettagliato, apri il menu [Pass protocollare] all'interno del gioco e vai alla sezione [Dettagli Pass protocollare].<br></p>",
             "linkType": 1
           }
         },

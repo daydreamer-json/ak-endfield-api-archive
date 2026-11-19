@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "es-mx",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:es-mx",
-      "version": "48ee3bb9e99533fc0481d061f4b777e0",
+      "version": "0450166f810414a2e2186cc19cb0d7a5",
       "onlineList": [
         {
           "cid": "8947",
@@ -89,6 +89,12 @@
         {
           "cid": "9853",
           "version": 1793168511,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "6422",
+          "version": 1795064866,
           "needRedDot": true,
           "needPopup": false
         },
@@ -220,7 +226,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1795064619,
+      "updatedAt": 1795064867,
       "list": [
         {
           "cid": "8947",
@@ -432,6 +438,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261027/56021051499adbd5aeb693804ac8cc3e.jpg\" data-width=\"1920\" data-height=\"3601\"><p></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "6422",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 3,
+          "displayType": "rich_text",
+          "startAt": 1795060800,
+          "focus": 0,
+          "title": "Ya están disponibles las misiones de aceleración",
+          "header": "Ya están disponibles las misiones de aceleración",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261118/3e815cef0ca2b769359bb5b72a151b01.jpg\" data-width=\"1650\" data-height=\"300\"><p>Hola, Endministrator: <br>Las misiones de aceleración de [Pase de protocolo] ya están disponibles. Completa todas las misiones de aceleración de la temporada actual del pase para ganar mucha EXP del Pase adicional.<br><strong><br>▼// Disponibilidad </strong><br>Desde el 18 de noviembre de 2026 a las 04:00 (hora del servidor) hasta antes de la actualización de la versión y del mantenimiento<br><br><strong>▼// Criterios de participación </strong><br>Completa la misión principal [Capítulo I Proceso II: Pavimentando el camino]<br><br><strong>▼// Notas especiales </strong><br>Puedes seguir ganando EXP del Pase aún después de alcanzar el nivel máximo del [Pase de protocolo]. Cualquier EXP del Pase por encima del límite se acumulará para otorgar [Cajas sorpresa cíclicas] como recompensa. Estas cajas se abren automáticamente tras recibirse y otorgan una recompensa aleatoria de [Oroberilio], una recompensa aleatoria de [material de progresión] y una recompensa aleatoria de [Permiso de uso de Cordura].<br><br>※ Zona horaria del servidor Asia: UTC+8 <br>※ Zona horaria del servidor Americas / Europe: UTC-5 <br>※ Para conocer las reglas en detalle, visita [Pase de protocolo] en el juego y consulta [Detalles del Pase de protocolo].<br></p>",
             "linkType": 1
           }
         },
