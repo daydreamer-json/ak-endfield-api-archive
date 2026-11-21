@@ -18,8 +18,14 @@
       "subChannel": "#DEFAULT",
       "lang": "vi-vn",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:vi-vn",
-      "version": "66e9292770ad4211f2722c0884667903",
+      "version": "bc27c539fb509c49191a9de99c1f9de6",
       "onlineList": [
+        {
+          "cid": "6421",
+          "version": 1795172459,
+          "needRedDot": true,
+          "needPopup": false
+        },
         {
           "cid": "5506",
           "version": 1795185495,
@@ -214,8 +220,25 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1795226400,
+      "updatedAt": 1795258800,
       "list": [
+        {
+          "cid": "6421",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1795258800,
+          "focus": 0,
+          "title": "Thu Hoạch Nấm",
+          "header": "Chi Tiết Sự Kiện Điểm Danh Có Thời Hạn [Thu Hoạch Nấm]",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261119/607da44f45e8916016b267433e0db207.png\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Thời Gian Sự Kiện</strong> <br>Sau bản cập nhật nhanh ngày 21/11/2026 – Trước khi cập nhật phiên bản và bảo trì <br><br><strong>▼// Điều Kiện Tham Gia </strong><br>Hoàn thành nhiệm vụ chính [Chương I Tiến Trình I: Phá Vòng Vây] <br><br><strong>▼// Chi Tiết Sự Kiện</strong> <br>· Đăng nhập vào game mỗi ngày để nhận phần thưởng điểm danh. <br>· Hoàn thành chuỗi điểm danh 3 ngày để nhận các phần thưởng phong phú, bao gồm [Vé Chiêu Mộ Cơ Bản]×2 và [Oroberyl]×500. <br><br>※ Múi Giờ Máy Chủ Asia: UTC+8 <br>※ Múi Giờ Máy Chủ Americas / Europe: UTC-5<br></p>",
+            "linkType": 1
+          }
+        },
         {
           "cid": "5506",
           "type": 0,

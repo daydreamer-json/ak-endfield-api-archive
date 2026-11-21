@@ -18,8 +18,14 @@
       "subChannel": "#DEFAULT",
       "lang": "ru-ru",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ru-ru",
-      "version": "185d461a651036f8cb313e7c71f3516d",
+      "version": "9c9975693691ebd02966b138cf614e2d",
       "onlineList": [
+        {
+          "cid": "6421",
+          "version": 1795172459,
+          "needRedDot": true,
+          "needPopup": false
+        },
         {
           "cid": "5506",
           "version": 1795185495,
@@ -214,8 +220,25 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1795226400,
+      "updatedAt": 1795258800,
       "list": [
+        {
+          "cid": "6421",
+          "type": 0,
+          "tab": "events",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1795258800,
+          "focus": 0,
+          "title": "Грибной сбор",
+          "header": "Сведения о временном событии входа [Грибной сбор]",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261119/87743a3d71fa2cbf7218472b297c1686.png\" data-width=\"1650\" data-height=\"300\"><p><strong>▼// Время проведения </strong><br>С 21 ноября 2026 г. после быстрого обновления до обновления версии и технического обслуживания <br><br><strong>▼// Условия для участия</strong> <br>Выполните основную миссию [глава I, операция I «Прорыв осады»] <br><br><strong>▼// Сведения о событии </strong><br>· Входите в игру каждый день, чтобы получать награды за вход. <br>· Отмечайтесь в игре 3 дня и забирайте награды: 2 [базовых разрешения на наем] и 500 [ороберилов]. <br><br>※ Часовой пояс сервера Asia: (UTC+8) <br>※ Часовой пояс сервера Americas / Europe: (UTC-5)<br></p>",
+            "linkType": 1
+          }
+        },
         {
           "cid": "5506",
           "type": 0,
