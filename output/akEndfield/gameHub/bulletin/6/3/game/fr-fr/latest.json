@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "fr-fr",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:fr-fr",
-      "version": "9cc8d5d2269bd28383838c079e75f5d8",
+      "version": "8a927eb3e30c63668b3b6c612fdafdd6",
       "onlineList": [
         {
           "cid": "7272",
@@ -135,6 +135,12 @@
           "needPopup": false
         },
         {
+          "cid": "9845",
+          "version": 1795184114,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "3020",
           "version": 1795184312,
           "needRedDot": true,
@@ -220,7 +226,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1795320000,
+      "updatedAt": 1795323600,
       "list": [
         {
           "cid": "7272",
@@ -550,6 +556,23 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261014/191ed0aa4794db81605a8cc4648a0f15.png\" data-width=\"1650\" data-height=\"300\"><p>Endministrator, <br>Pendant la version [Sanctuaire d'encre], le [Centre d'acquisition] proposera divers lots.</p><p><br><strong>▼// Lots limités </strong><br>■ Pack de collection Vue merveilleuse <br>· Disponibilité : tout au long de la version [Sanctuaire d'encre] <br>· Contenu du lot : [permis REC certifié]×1, [Autocollant : Regard sérieux]×1, [Autocollant : Aha...]×1, [Autocollant : Recherche]×1 <br>· Remarque : 1 seul achat autorisé<br><br>■ Lot de flux du Protocole <br>· Disponibilité : tout au long de la version [Sanctuaire d'encre] <br>· Contenu du lot : [permis REC certifié]×10, [ticket de l'arsenal]×2000, [Marque de persévérance]×10 <br>· Remarque : 1 seul achat autorisé dans la version actuelle<br><br>■ Lot de REC Omniprésence <br>· Disponibilité : après la mise à jour de la version [Sanctuaire d'encre] — 5 nov. 2026 à 11 h 59 (heure du serveur) <br>· Contenu du lot : [permis REC Restauration de l'esprit]×10, [crédits T]×80 000 <br>· Remarque : 1 seul achat autorisé<br><br>■ Lot de REC Rivière étoilée <br>· Disponibilité : 5 nov. 2026 à 12 h (heure du serveur) — avant la mise à jour de la version et la maintenance <br>· Contenu du lot : [permis REC Les étoiles sont avec moi]×10, [crédits T]×80 000 <br>· Remarque : 1 seul achat autorisé<br><br>■ Pack de tickets de l'arsenal - éco <br>· Contenu du lot : [ticket de l'arsenal]×2000 <br>· Remarque : 1 seul achat autorisé. La limite d'achat se réinitialise lors de la mise à jour du [recrutement certifié].<br><br>※ Fuseau horaire du serveur Asia : UTC+8 <br>※ Fuseau horaire du serveur Americas / Europe : UTC-5 <br>※ Certains lots peuvent contenir des objets à durée limitée. Vous pouvez consulter les détails des objets à durée limitée dans [Achat - Contenu des objets]. Si des objets à durée limitée d'un lot expirent après l'achat, ils ne pourront pas être réémis. Merci pour votre compréhension et votre soutien. <br>※ Pour découvrir d'autres lots et leurs détails, rendez-vous dans [Centre d'acquisition - Lots] en jeu.<br></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "9845",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "rich_text",
+          "startAt": 1795323600,
+          "focus": 0,
+          "title": "Outils de jeu mis à jour !",
+          "header": "Nouvelles fonctionnalités intelligentes dans les Sélections d'équipe et le Guide de build",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261120/ba409c20e94d1074d74254f15efde430.png\" data-width=\"1650\" data-height=\"300\"><p>Endministrators,</p><p>Mise à jour des Outils de jeu d'Arknights: Endfield : Les nouvelles fonctionnalités de [Sélections d'équipe intelligentes] et de [Guide de build intelligent] sont maintenant disponibles ! En fonction de vos opérateurs et des besoins des différents niveaux, ces fonctionnalités intelligentes vous proposent des recommandations d'équipes personnalisées et des conseils de build sur mesure pour vous aider à renforcer plus efficacement votre équipe.</p><p></p><p><strong>▼// Détails sur la fonctionnalité [Sélections d'équipe intelligentes]</strong></p><p>· Sélections d'équipe personnalisées</p><p>Après avoir sélectionné un mode de jeu et un niveau, les Sélections d'équipe intelligentes analyseront les opérateurs en votre possession, leur statut de progression et les données d'équipe issues des défis de niveaux pour générer des compositions d'équipe adaptées à vos besoins.</p><p></p><p>· Détails sur le build d'équipe</p><p>Les Détails sur le build d'équipe incluent des informations sur la progression du build d'équipe et la priorité de progression, afin de vous aider à planifier plus efficacement la progression de vos opérateurs.</p><p>Développez les détails de progression de l'opérateur pour afficher des informations sur la progression de l'opérateur, de l'arme et de l'équipement, triées par ordre de priorité. Comparez votre progression actuelle dans chaque domaine avec les objectifs recommandés pour déterminer clairement vos priorités de progression.</p><p></p><p><strong>▼// Détails sur la fonctionnalité [Guide de build intelligent]</strong></p><p>Dans le [Guide de build intelligent], vous pouvez sélectionner un opérateur cible pour afficher son statut de progression actuel et ses objectifs de progression recommandés. Les recommandations de progression sont également triées par ordre de priorité et couvrent tous les aspects de la progression d'un opérateur.</p><p></p><p>Chargez Arknights: Endfield, ouvrez le [Synchroniseur de Protocole] et appuyez sur le bouton Outils de jeu. Ensuite, cliquez sur [Sélections d'équipe intelligentes] ou [Guide de build intelligent] pour accéder à l'une ou l'autre de ces fonctionnalités.</p><p></p><p>※ Les [Sélections d'équipe intelligentes] et le [Guide de build intelligent] se basent sur des données d'équipe issues des défis de niveaux et sur une compilation des données récentes des joueurs. Elles sont mises à jour en temps réel en fonction de la version du contenu et les résultats ne sont présentés qu'à titre indicatif.</p><p>Si vous avez des suggestions ou des remarques à propos de ces fonctionnalités, cliquez sur le bouton [Remarques] en bas de l'écran des sélections intelligentes pour nous dire ce que vous en pensez !</p>",
             "linkType": 1
           }
         },
