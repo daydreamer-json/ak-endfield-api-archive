@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "ja-jp",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ja-jp",
-      "version": "c817865e710402abe4b0b5ddd51b3bd2",
+      "version": "5fce4cf3b8f37c8a1eac8ef6d8e39435",
       "onlineList": [
         {
           "cid": "4607",
@@ -147,6 +147,12 @@
           "needPopup": false
         },
         {
+          "cid": "2198",
+          "version": 1795517746,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "9845",
           "version": 1795184114,
           "needRedDot": true,
@@ -220,7 +226,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1795514384,
+      "updatedAt": 1795517747,
       "list": [
         {
           "cid": "4607",
@@ -585,6 +591,24 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20261124/cf67bde1512d841f792cddc9f86434c0.png",
             "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fevent.skport.com%252Factivity%252Fendfield_data_report%252Fsanctuary%253Fheader%253D0%2526hg_media%253Dgame%2526hg_link_campaign%253Dannouncement%2526hg_link_name%253Dpioneerlog",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "2198",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1795433400,
+          "focus": 0,
+          "title": "Discordゲーム統計ウィジェット更新",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20261120/be0322d953d67560528ac836b10d8cc5.jpg",
+            "link": "https://endfield.gryphline.com/special/discord-binding",
             "linkType": 1
           }
         },

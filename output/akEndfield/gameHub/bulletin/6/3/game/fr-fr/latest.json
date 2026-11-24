@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "fr-fr",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:fr-fr",
-      "version": "36a9cedf5f5795301621821a006f98cf",
+      "version": "4d5c8a4a41675d9a0fbcce55f35c14f8",
       "onlineList": [
         {
           "cid": "4607",
@@ -147,6 +147,12 @@
           "needPopup": false
         },
         {
+          "cid": "2198",
+          "version": 1795517746,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "9845",
           "version": 1795184114,
           "needRedDot": true,
@@ -232,7 +238,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1795514384,
+      "updatedAt": 1795517747,
       "list": [
         {
           "cid": "4607",
@@ -597,6 +603,24 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20261124/28b661c14f454c34b4200d54ff0819d9.png",
             "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fevent.skport.com%252Factivity%252Fendfield_data_report%252Fsanctuary%253Fheader%253D0%2526hg_media%253Dgame%2526hg_link_campaign%253Dannouncement%2526hg_link_name%253Dpioneerlog",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "2198",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1795433400,
+          "focus": 0,
+          "title": "Mises à jour du widget de statistiques de jeu Discord",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20261120/cac756804d80eed4bda6044a44ccdd70.jpg",
+            "link": "https://endfield.gryphline.com/special/discord-binding",
             "linkType": 1
           }
         },
