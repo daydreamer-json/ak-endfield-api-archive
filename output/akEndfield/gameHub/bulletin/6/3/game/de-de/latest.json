@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "de-de",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:de-de",
-      "version": "6e71d80ecee7525ae202cf601c65188f",
+      "version": "36a9cedf5f5795301621821a006f98cf",
       "onlineList": [
         {
           "cid": "4607",
@@ -141,6 +141,12 @@
           "needPopup": false
         },
         {
+          "cid": "3029",
+          "version": 1795514383,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
           "cid": "9845",
           "version": 1795184114,
           "needRedDot": true,
@@ -226,7 +232,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1795406400,
+      "updatedAt": 1795514384,
       "list": [
         {
           "cid": "4607",
@@ -573,6 +579,24 @@
           "jumpButton": null,
           "data": {
             "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261014/1576a57f1778ea565a902158c01f0321.png\" data-width=\"1650\" data-height=\"300\"><p>Lieber Endministrator, <br>während der Version [Das Heiligtum aus Tusche] werden im [Ankaufszentrum] verschiedene Pakete angeboten.</p><p><br><strong>▼// Limitierte Pakete </strong><br>■ Sammlungspaket der Wundersamen Aussicht <br>· Verfügbarkeit: Während der gesamten Version [Das Heiligtum aus Tusche] <br>· Paketinhalt: [RK-Genehmigung: Priorisiert] ×1, [Sticker: Ernster Blick] ×1, [Sticker: Aha …] ×1, [Sticker: Umsehen] ×1 <br>· Hinweis: Nur 1 Kauf erlaubt<br><br>■ Paket: Protokollfluss <br>· Verfügbarkeit: Während der gesamten Version [Das Heiligtum aus Tusche] <br>· Paketinhalt: [RK-Genehmigung: Priorisiert] ×10, [Waffenticket] ×2.000, [Mal der Beharrlichkeit] ×10 <br>· Hinweis: Nur 1 Kauf in der aktuellen Version erlaubt<br><br>■ Paket: Omnipräsenz-RK <br>· Verfügbarkeit: Nach dem Versionsupdate [Das Heiligtum aus Tusche] – 5. Nov. 2026 um 11:59 Uhr (Serverzeit) <br>· Paketinhalt: [RK-Genehmigung: Wiederherstellung des Geistes] ×10, [T-Kreditscheine] ×80.000 <br>· Hinweis: Nur 1 Kauf erlaubt<br><br>■ Paket: Sternenfluss-RK <br>· Verfügbarkeit: 5. Nov. 2026 um 12:00 Uhr (Serverzeit) – Vor dem Versionsupdate und der Wartung <br>· Paketinhalt: [RK-Genehmigung: Die Sterne sind mit mir] ×10, [T-Kreditscheine] ×80.000 <br>· Hinweis: Nur 1 Kauf erlaubt<br><br>■ Preiswertes Waffenticket-Paket <br>· Paketinhalt: [Waffenticket] ×2.000 <br>· Hinweis: Nur 1 Kauf erlaubt. Das Kauflimit wird zurückgesetzt, wenn die [Rekrutierung: Priorisiert] aktualisiert wird.<br><br>※ „Asia“-Server-Zeitzone: UTC+8 <br>※ „Americas / Europe“-Server-Zeitzone: UTC-5 <br>※ Manche Pakete enthalten befristete Gegenstände. Details zu zeitlich begrenzten Gegenständen findest du unter [Kauf – Gegenstandsinhalte]. Sollten zeitlich begrenzte Objekte in einem Paket nach dem Kauf verfallen, können diese nicht erneut ausgegeben werden. Vielen Dank für dein Verständnis und deine Unterstützung. <br>※ Weitere Pakete und Details findest du im Spiel unter [Ankaufszentrum – Pakete].<br></p>",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3029",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 4,
+          "displayType": "picture",
+          "startAt": 1795449600,
+          "focus": 0,
+          "title": "[Das Heiligtum aus Tusche]\\nPionier-Logbuch",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20261124/f6b80397322205f5ce868060ff32e3bb.png",
+            "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fevent.skport.com%252Factivity%252Fendfield_data_report%252Fsanctuary%253Fheader%253D0%2526hg_media%253Dgame%2526hg_link_campaign%253Dannouncement%2526hg_link_name%253Dpioneerlog",
             "linkType": 1
           }
         },
