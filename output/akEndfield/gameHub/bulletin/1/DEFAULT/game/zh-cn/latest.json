@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:#DEFAULT:1:#DEFAULT:zh-cn",
-      "version": "4a67c326086428f37005d324b5c8ea34",
+      "version": "7df0f2af25e6f0100a88155cc4a2733d",
       "onlineList": [
         {
           "cid": "5404",
@@ -29,6 +29,12 @@
         {
           "cid": "4597",
           "version": 1793708723,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "1259",
+          "version": 1795590583,
           "needRedDot": true,
           "needPopup": false
         },
@@ -178,7 +184,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1795579200,
+      "updatedAt": 1795593600,
       "list": [
         {
           "cid": "5404",
@@ -212,6 +218,24 @@
           "data": {
             "url": "https://web.hycdn.cn/upload/image/20261103/a2fdf452f5018cf305a05b9d6b5abf1c.jpg",
             "link": "https://market.m.taobao.com/app/tb-shop/shop-page-webapp/pages/custom-page/index.html?shopId=414690138&sellerId=2221386384051&pageId=476096550&pathInfo=shop/activity2&isShopDomain=true",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "1259",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "picture",
+          "startAt": 1795593600,
+          "focus": 0,
+          "title": "森空岛\\n版本限时任务",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web.hycdn.cn/upload/image/20261125/543f6bdec04bad066a9dba555d06815c.jpg",
+            "link": "https://bbs.hycdn.cn/u-link/download.html?schema=skland%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fact.skland.com%252Fendfield%252Fmushroom-reunion%253Fheader%253D0%2526activityId%253Dact_endfield_414177",
             "linkType": 1
           }
         },
