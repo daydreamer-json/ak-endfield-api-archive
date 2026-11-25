@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "ja-jp",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ja-jp",
-      "version": "ccfbb1a39acd77b2d92dd6954d092583",
+      "version": "9bf0129b5ab29f6e649eae4b2d2af864",
       "onlineList": [
         {
           "cid": "4695",
@@ -87,12 +87,6 @@
           "needPopup": false
         },
         {
-          "cid": "1353",
-          "version": 1795525145,
-          "needRedDot": false,
-          "needPopup": false
-        },
-        {
           "cid": "5505",
           "version": 1795502336,
           "needRedDot": true,
@@ -129,6 +123,12 @@
           "needPopup": false
         },
         {
+          "cid": "1353",
+          "version": 1795525145,
+          "needRedDot": false,
+          "needPopup": false
+        },
+        {
           "cid": "8998",
           "version": 1769005692,
           "needRedDot": true,
@@ -160,7 +160,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1795583776,
+      "updatedAt": 1795584612,
       "list": [
         {
           "cid": "4695",
@@ -352,24 +352,6 @@
           }
         },
         {
-          "cid": "1353",
-          "type": 0,
-          "tab": "news",
-          "orderType": 1,
-          "orderWeight": 4,
-          "displayType": "picture",
-          "startAt": 1795579200,
-          "focus": 0,
-          "title": "公式チャージ\\nセンター公開",
-          "header": "",
-          "jumpButton": null,
-          "data": {
-            "url": "https://web-static.hg-cdn.com/upload/image/20261124/d184b19ac04f62ddffc3b2fb4e732ed1.png",
-            "link": "https://topup.gryphline.com/endfield?source_from=bulletin&u8_token={u8_token}&server={server}",
-            "linkType": 1
-          }
-        },
-        {
           "cid": "5505",
           "type": 0,
           "tab": "events",
@@ -471,6 +453,25 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260930/5c2903a28d2cc99ad7bedd856423076a.png",
             "link": "https://endfield.gryphline.com/special/discord-binding",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "1353",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 5,
+          "displayType": "picture",
+          "startAt": 1795579200,
+          "focus": 0,
+          "extraData": {},
+          "title": "公式チャージ\\nセンター公開",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20261124/d184b19ac04f62ddffc3b2fb4e732ed1.png",
+            "link": "https://topup.gryphline.com/endfield?source_from=bulletin&u8_token={u8_token}&server={server}",
             "linkType": 1
           }
         },

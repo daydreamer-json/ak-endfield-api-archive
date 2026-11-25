@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "es-mx",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:es-mx",
-      "version": "c34dd2fe3c37e0028d4c0489483562f8",
+      "version": "3119dfb505cbda98a78e2ae227ab10fe",
       "onlineList": [
         {
           "cid": "4695",
@@ -87,12 +87,6 @@
           "needPopup": false
         },
         {
-          "cid": "1353",
-          "version": 1795525145,
-          "needRedDot": false,
-          "needPopup": false
-        },
-        {
           "cid": "5505",
           "version": 1795502336,
           "needRedDot": true,
@@ -141,6 +135,12 @@
           "needPopup": false
         },
         {
+          "cid": "1353",
+          "version": 1795525145,
+          "needRedDot": false,
+          "needPopup": false
+        },
+        {
           "cid": "8998",
           "version": 1769005692,
           "needRedDot": true,
@@ -172,7 +172,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1795583776,
+      "updatedAt": 1795584612,
       "list": [
         {
           "cid": "4695",
@@ -364,24 +364,6 @@
           }
         },
         {
-          "cid": "1353",
-          "type": 0,
-          "tab": "news",
-          "orderType": 1,
-          "orderWeight": 4,
-          "displayType": "picture",
-          "startAt": 1795579200,
-          "focus": 0,
-          "title": "Sitio oficial de recarga disponible",
-          "header": "",
-          "jumpButton": null,
-          "data": {
-            "url": "https://web-static.hg-cdn.com/upload/image/20261124/8e34f9dc6d4c179bfcba16fff06c300a.png",
-            "link": "https://topup.gryphline.com/endfield?source_from=bulletin&u8_token={u8_token}&server={server}",
-            "linkType": 1
-          }
-        },
-        {
           "cid": "5505",
           "type": 0,
           "tab": "events",
@@ -519,6 +501,25 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260930/3d419bdad466e0141e8183f29ee56aab.png",
             "link": "https://endfield.gryphline.com/special/discord-binding",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "1353",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 5,
+          "displayType": "picture",
+          "startAt": 1795579200,
+          "focus": 0,
+          "extraData": {},
+          "title": "Sitio oficial de recarga disponible",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20261124/8e34f9dc6d4c179bfcba16fff06c300a.png",
+            "link": "https://topup.gryphline.com/endfield?source_from=bulletin&u8_token={u8_token}&server={server}",
             "linkType": 1
           }
         },

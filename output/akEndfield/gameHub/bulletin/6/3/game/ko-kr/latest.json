@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "ko-kr",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ko-kr",
-      "version": "3e5542fc021f9760e98c1612b26c964f",
+      "version": "da3755eb094281552b5d8319f4cd8402",
       "onlineList": [
         {
           "cid": "1307",
@@ -93,12 +93,6 @@
           "needPopup": false
         },
         {
-          "cid": "1353",
-          "version": 1795525145,
-          "needRedDot": false,
-          "needPopup": false
-        },
-        {
           "cid": "5505",
           "version": 1795502336,
           "needRedDot": true,
@@ -147,6 +141,12 @@
           "needPopup": false
         },
         {
+          "cid": "1353",
+          "version": 1795525145,
+          "needRedDot": false,
+          "needPopup": false
+        },
+        {
           "cid": "8998",
           "version": 1769005692,
           "needRedDot": true,
@@ -178,7 +178,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1795583776,
+      "updatedAt": 1795584612,
       "list": [
         {
           "cid": "1307",
@@ -388,24 +388,6 @@
           }
         },
         {
-          "cid": "1353",
-          "type": 0,
-          "tab": "news",
-          "orderType": 1,
-          "orderWeight": 4,
-          "displayType": "picture",
-          "startAt": 1795579200,
-          "focus": 0,
-          "title": "공식 충전 사이트 오픈",
-          "header": "",
-          "jumpButton": null,
-          "data": {
-            "url": "https://web-static.hg-cdn.com/upload/image/20261124/659d4780d22841bacedf35924ddf81f5.png",
-            "link": "https://topup.gryphline.com/endfield?source_from=bulletin&u8_token={u8_token}&server={server}",
-            "linkType": 1
-          }
-        },
-        {
           "cid": "5505",
           "type": 0,
           "tab": "events",
@@ -543,6 +525,25 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20260930/ce30f2bec23723c0c53a8058b5a9c7c3.png",
             "link": "https://endfield.gryphline.com/special/discord-binding",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "1353",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 5,
+          "displayType": "picture",
+          "startAt": 1795579200,
+          "focus": 0,
+          "extraData": {},
+          "title": "공식 충전 사이트 오픈",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20261124/659d4780d22841bacedf35924ddf81f5.png",
+            "link": "https://topup.gryphline.com/endfield?source_from=bulletin&u8_token={u8_token}&server={server}",
             "linkType": 1
           }
         },
