@@ -212013,5 +212013,622 @@
       },
       "msg": ""
     }
+  },
+  {
+    "updatedAt": "2026-11-25T03:53:28.523+00:00",
+    "req": {
+      "channel": 6,
+      "server": 3,
+      "type": 0,
+      "lang": "vi-vn",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "code": 0,
+      "data": {
+        "topicCid": "0093",
+        "type": 0,
+        "platform": "Windows",
+        "server": "3",
+        "channel": "#DEFAULT",
+        "subChannel": "#DEFAULT",
+        "lang": "vi-vn",
+        "key": "0:Windows:3:#DEFAULT:#DEFAULT:vi-vn",
+        "version": "3be29bda99a63328d22a89284b7407c9",
+        "onlineList": [
+          {
+            "cid": "4695",
+            "version": 1795575817,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "0770",
+            "version": 1795521319,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "4697",
+            "version": 1795509994,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "7272",
+            "version": 1795168775,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "8947",
+            "version": 1795057306,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6411",
+            "version": 1795429868,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "7263",
+            "version": 1795509983,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "4696",
+            "version": 1795509918,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "3030",
+            "version": 1795517760,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "2188",
+            "version": 1795500657,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6412",
+            "version": 1795509990,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "5505",
+            "version": 1795502336,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1364",
+            "version": 1795517752,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "8939",
+            "version": 1795431420,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "3029",
+            "version": 1795514383,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "2198",
+            "version": 1795517746,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1365",
+            "version": 1794538207,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "9850",
+            "version": 1792388814,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "7271",
+            "version": 1793898000,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "0788",
+            "version": 1790763677,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "8998",
+            "version": 1769005692,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6472",
+            "version": 1769044240,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6474",
+            "version": 1769005934,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "3080",
+            "version": 1782469292,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "7222",
+            "version": 1782469106,
+            "needRedDot": true,
+            "needPopup": false
+          }
+        ],
+        "popupVersion": 0,
+        "updatedAt": 1795575818,
+        "list": [
+          {
+            "cid": "4695",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795575600,
+            "focus": 0,
+            "title": "Known Issues Notice",
+            "header": "[Meeting You in the World o'Shrooms] Version Known Issues Notice",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261015/ced77442b4ada7220b51b1b709f16193.png\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrators:<br>To ensure a smoother game experience, we've compiled a list of known issues. If you encounter any of these during gameplay, please refer to the suggested solutions.<br><br>▼// Known Issues</p><p>· <span>We are aware of an error in the item description for [HC Wuling Batteries]. These batteries are obtained using packaging equipment and can be used to generate power and charge devices, but cannot be used as trade goods at outposts. We will correct the item description in a future update to reflect their actual uses.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">We have located the issue and will fix it as soon as possible. We sincerely apologize for any inconvenience caused. </span><span style=\"color: rgb(31, 35, 41);\">For any other issues, please report them to us via the in-game customer support. Thank you again for your continued interest and support for Arknights: Endfield!</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "0770",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795568400,
+            "focus": 0,
+            "title": "Ghi Chú Cập Nhật Phiên Bản",
+            "header": "[Chạm Mặt Ở Xứ Nấm] Ghi Chú Cập Nhật Phiên Bản",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261124/6fb6d3df30543ab8c5a3b173a3b68c65.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">\"Cuối cùng thì... sau ngần ấy thời gian... chúng ta cũng sẽ được gặp nhau sau khi vượt qua 'Xứ Nấm'\".</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Endministrator thân mến,</span></p><p><span style=\"color: rgb(0, 0, 0);\">Chào mừng bạn đến với phiên bản mới, [Chạm Mặt Ở Xứ Nấm]!</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Chi Tiết Cập Nhật Bảo Trì &amp; Đền Bù</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Thời Gian Cập Nhật &amp; Bảo Trì</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Máy Chủ Asia: 06:00 ngày 25/11/2026 – 12:00 ngày 25/11/2026 (UTC+8)</span></p><p><span style=\"color: rgb(0, 0, 0);\">Máy chủ Americas / Europe: 17:00 ngày 24/11/2026 – 23:00 ngày 24/11/2026 (UTC-5)</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Thời gian mở lại máy chủ sau bảo trì có thể sớm hơn hoặc muộn hơn dự kiến. Vui lòng theo dõi thông báo chính thức để biết chi tiết.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Chi Tiết Đền Bù Cập Nhật Bảo Trì &amp; Sửa Lỗi</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đền Bù Cập Nhật &amp; Bảo Trì: [Oroberyl]×900</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đền Bù Sửa Lỗi: [Oroberyl]×900</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Thời Gian Phát: Sau khi cập nhật và bảo trì – Trước lần cập nhật bảo trì phiên bản tiếp theo</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Điều kiện: Tạo nhân vật trước thời điểm cập nhật</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ghi chú: Phần Đền Bù Cập Nhật &amp; Bảo Trì và Phần Đền Bù Sửa Lỗi sẽ được gửi qua hai thư riêng trong game sau khi tính năng [Thư] được mở khóa. Các thư này sẽ hết hạn khi bắt đầu đợt cập nhật và bảo trì phiên bản tiếp theo. Vì vậy, vui lòng nhận đúng thời hạn.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Ghi Chú Cập Nhật</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Bản cập nhật này là bắt buộc. Sau khi quá trình cập nhật hoàn tất, bạn sẽ cần tải lại và cài đặt lại client game. Khi đợt cập nhật và bảo trì phiên bản bắt đầu, bạn có thể làm theo các hướng dẫn trong game để tiến hành cập nhật.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· iOS: Vào App Store rồi nhấn vào [Cập nhật].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Android: Vào game rồi làm theo hướng dẫn bật lên để hoàn tất quá trình cập nhật.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· PlayStation®5: Vào màn hình chính, chọn [Arknights: Endfield], nhấn nút [TÙY CHỌN] trên tay cầm, chọn [Kiểm tra cập nhật]. Sau đó xác nhận bản cập nhật.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· PC: Sau khi đóng game, khởi động lại trình khởi chạy GRYPHLINK rồi nhấp vào [Cập nhật].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>※ Sau khi cập nhật phiên bản [Chạm Mặt Ở Xứ Nấm], một số nội dung sẽ dần được mở khóa tùy theo tiến độ khám phá của bạn. Vui lòng tham khảo thông tin cập nhật thực tế trong game.</strong></span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Nội Dung Phiên Bản Mới</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Cốt Truyện Mới</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1. Nhiệm Vụ Khám Phá</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">[Cận Cảnh Siêu Nấm]</span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2. Nhiệm Vụ Phụ</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">[Giấc Mơ Bánh Waffle Mật Ong], [Ngày Hôm Sau], [Tái Thiết Quê Hương I], [Tái Thiết Quê Hương II], [Tái Thiết Quê Hương III]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Cán Viên Mới</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Cán viên 6★ [Kay], cán viên 5★ [Mimino]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Vũ Khí Mới</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Vũ khí 6★ [Thương Vụ Ngọt Ngào (Vũ Khí Cán Dài)], [Sao Chổi Đột Kích (Vũ Khí Cán Dài)], vũ khí 5★ [Ngôi Sao Ngày Mai (Súng Lục)]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Kẻ Địch Mới</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">[Shroomkrusher Nidwyrm], [Hoàng Tử Nấm Đùi Gà], [Quyền Thủ Bào Tử Shroomkrusher], [Vệ Binh Bào Tử Shroomkrusher]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Khu Vực Mới</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">[Võ Lăng - Đập Nước Cũ]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Sự Kiện Chiêu Mộ và Gói Rút Mới</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1. Chiêu Mộ Đặc Quyền [Đe Rèn, Ba Lô Và Hũ Mật Ong]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Thời Gian Mở: Sau khi cập nhật phiên bản [Chạm Mặt Ở Xứ Nấm] – 11:59 ngày 23/12/2026 (giờ máy chủ)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Chi Tiết Chiêu Mộ: Đợt Chiêu Mộ Đặc Quyền [Đe Rèn, Ba Lô Và Hũ Mật Ong] sẽ TĂNG Tỷ Lệ xuất hiện cán viên [Kay] 6★. Danh sách cán viên 6★ có thể xuất hiện trong Chiêu Mộ Đặc Quyền [Đe Rèn, Ba Lô Và Hũ Mật Ong] bao gồm: Kay / Argent Flow / Si / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Trong đợt Chiêu Mộ Đặc Quyền [Đe Rèn, Ba Lô Và Hũ Mật Ong], [Huấn Luyện Chiến Đấu] cũng sẽ được mở thêm để trải nghiệm cán viên [Kay] 6★. Hãy hoàn thành các màn chơi được chỉ định với đội hình cố định bao gồm cán viên thử thách đó rồi vào màn hình [Trung Tâm Sự Kiện] để nhận [Oroberyl]×100, [Thùng Trang Bị Phòng Vệ Kho Vũ Khí], [Dấu Ấn Bền Bỉ] và các phần thưởng khác. [Thùng Trang Bị Phòng Vệ Kho Vũ Khí] chứa Bộ Trang Bị Chế Tác Hoàn Chỉnh Cấp 60 phù hợp cho cán viên thử thách hiện tại. Bạn cũng có thể đổi [Vé Chiêu Mộ Thám Hiểm Hoang Dã] với giá ưu đãi trong [Đổi Giới Hạn Khu Phức Hợp]. Có thể đổi tối đa [Vé Chiêu Mộ Thám Hiểm Hoang Dã]×5.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2. Mở Rút Kho Vũ Khí [Gói Rút Lữ Khách Thảnh Thơi]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Thời Gian Mở: Bắt đầu sau khi cập nhật phiên bản [Chạm Mặt Ở Xứ Nấm]; kết thúc sau 3 banner [Chiêu Mộ Đặc Quyền] (tính từ banner [Đe Rèn, Ba Lô Và Hũ Mật Ong])</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Chi Tiết Lượt Rút: Rút Kho Vũ Khí [Gói Rút Lữ Khách Thảnh Thơi] sẽ TĂNG Tỷ Lệ xuất hiện vũ khí 6★ [Thương Vụ Ngọt Ngào (Vũ Khí Cán Dài)]. Danh sách vũ khí 6★ có thể xuất hiện trong Rút Kho Vũ Khí [Gói Rút Lữ Khách Thảnh Thơi] bao gồm: Thương Vụ Ngọt Ngào (Vũ Khí Cán Dài) / Fuyao (Kiếm) / Dũng Khí (Vũ Khí Cán Dài) / JET (Vũ Khí Cán Dài) / Đơn Vị Nổ (Đơn Vị Thuật Pháp) / Nêm (Súng Lục) / Bảo Kiếm Đời Trước (Đại Kiếm).</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>3. Chiêu Mộ Tái Cấu Trúc #1 [Gửi Đến Từng Nguyện Ước Bồng Bềnh]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Thời Gian Mở: Sau khi cập nhật phiên bản [Chạm Mặt Ở Xứ Nấm] – 11:59 ngày 16/12/2026 (giờ máy chủ)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Chi Tiết Chiêu Mộ: Đợt Chiêu Mộ Tái Cấu Trúc #1 [Gửi Đến Từng Nguyện Ước Bồng Bềnh] sẽ TĂNG Tỷ Lệ xuất hiện cán viên [Gilberta] 6★. Danh sách cán viên 6★ có thể xuất hiện trong Chiêu Mộ Tái Cấu Trúc #1 [Gửi Đến Từng Nguyện Ước Bồng Bềnh] bao gồm: Gilberta / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>4. Mở Gói Rút Tái Cấu Trúc #1 [Gói Rút Lữ Khách Bồng Bềnh]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Thời Gian Mở: Sau khi cập nhật phiên bản [Chạm Mặt Ở Xứ Nấm] – 11:59 ngày 16/12/2026 (giờ máy chủ)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Chi Tiết Lượt Rút: Gói Rút Tái Cấu Trúc #1 [Gói Rút Lữ Khách Bồng Bềnh] sẽ TĂNG Tỷ Lệ xuất hiện vũ khí 6★ [Sứ Mệnh Tất Toàn (Đơn Vị Thuật Pháp)]. Danh sách vũ khí 6★ có thể xuất hiện trong Gói Rút Tái Cấu Trúc #1 [Gói Rút Lữ Khách Bồng Bềnh] bao gồm: Sứ Mệnh Tất Toàn (Đơn Vị Thuật Pháp) / Hào Hiệp (Đơn Vị Thuật Pháp) / Lãng Quên (Đơn Vị Thuật Pháp) / Nêm (Súng Lục) / Kiếm Cắt Nhiệt (Kiếm) / Sao Băng Đêm Trắng (Kiếm) / Bảo Kiếm Khó Sánh (Đại Kiếm).</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>5. Chiêu Mộ Tái Cấu Trúc #1 [Sắc Đỏ Trân Quý]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Thời Gian Mở: 12:00 ngày 16/12/2026 (giờ máy chủ) – Trước khi cập nhật và bảo trì phiên bản</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Chi Tiết Chiêu Mộ: Đợt Chiêu Mộ Tái Cấu Trúc #1 [Sắc Đỏ Trân Quý] sẽ TĂNG Tỷ Lệ xuất hiện cán viên [Rossi] 6★. Danh sách cán viên 6★ có thể xuất hiện trong Chiêu Mộ Tái Cấu Trúc #1 [Sắc Đỏ Trân Quý] bao gồm: Rossi / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>6. Mở Gói Rút Tái Cấu Trúc #1 [Gói Rút Vuốt Đỏ]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Thời Gian Mở: 12:00 ngày 16/12/2026 (giờ máy chủ) – Trước khi cập nhật và bảo trì phiên bản</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Chi Tiết Lượt Rút: Gói Rút Tái Cấu Trúc #1 [Gói Rút Vuốt Đỏ] sẽ TĂNG Tỷ Lệ xuất hiện vũ khí 6★ [Huyết Lang Đỏ Thẫm (Kiếm)]. Danh sách vũ khí 6★ có thể xuất hiện trong Gói Rút Tái Cấu Trúc #1 [Gói Rút Vuốt Đỏ] bao gồm: Huyết Lang Đỏ Thẫm (Kiếm) / Fuyao (Kiếm) / Danh Tiếng Lừng Lẫy (Kiếm) / Nêm (Súng Lục) / Bảo Kiếm Đời Trước (Đại Kiếm) / Đơn Vị Nổ (Đơn Vị Thuật Pháp) / Dũng Khí (Vũ Khí Cán Dài).</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Sự Kiện Mới</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1. Sự Kiện Cốt Truyện [Giấc Mơ Bánh Waffle Mật Ong]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Thời Gian Sự Kiện: Trong suốt phiên bản [Chạm Mặt Ở Xứ Nấm]</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Chi Tiết Sự Kiện: Hoàn thành nhiệm vụ phụ [Giấc Mơ Bánh Waffle Mật Ong] để nhận [Oroberyl]×600, [Vật Chứa Nhận Thức Sơ Cấp] và các phần thưởng khác.</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Sau khi trang sự kiện cốt truyện đóng lại, bạn vẫn có thể chơi nhiệm vụ phụ này tại mục [Nhiệm vụ] và nhận thưởng nếu đủ điều kiện tham gia.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2. Sự Kiện Xây Dựng [Dựng Trận: Vá Vết Nứt Cũ]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Thời Gian Sự Kiện: Trong suốt phiên bản [Chạm Mặt Ở Xứ Nấm]</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Chi Tiết Sự Kiện: Trong thời gian diễn ra sự kiện, hãy tiến hành nhiệm vụ để mở khóa chế độ chơi [Tái Thiết Khu Cấm] và các công nghệ Khu Phức Hợp liên quan. Sau đó, sử dụng Khu Phức Hợp Công Nghiệp Tự Động để sản xuất vật tư cần thiết cho Tái Thiết Khu Cấm, thúc đẩy Tiến Độ Tái Thiết và hoàn thành các Nhiệm Vụ Xây Dựng để nhận phần thưởng sự kiện bao gồm: [Oroberyl] x1.000, [Thùng Lựa Chọn Cấp Tiến Nâng Cao Ⅱ], [Dấu Ấn Bền Bỉ], [Chất Lỏng Chế Tác Origo Mk Ⅰ] và [Vật Chứa Nhận Thức Cao Cấp].</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Sau khi sự kiện [Dựng Trận: Vá Vết Nứt Cũ] kết thúc, bạn sẽ không thể hoàn thành các Nhiệm Vụ Xây Dựng hoặc nhận phần thưởng tương ứng. Tuy nhiên, bạn vẫn có thể chơi [Tái Thiết Khu Cấm] để nhận phần thưởng tiến độ tái thiết.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>3. Sự Kiện Điểm Danh [Thám Hiểm Hoang Dã]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Thời Gian Sự Kiện: Sau khi cập nhật phiên bản [Chạm Mặt Ở Xứ Nấm] – 11:59 ngày 23/12/2026 (giờ máy chủ)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Chi Tiết Sự Kiện: Điểm danh tổng cộng 7 ngày để nhận phần thưởng như [Vé Chiêu Mộ Thám Hiểm Hoang Dã]×5.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>4. Sự Kiện Hướng Dẫn [Mũ Nấm! Nấm! NẤM!]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Thời Gian Sự Kiện: Sau khi cập nhật phiên bản [Chạm Mặt Ở Xứ Nấm] – 12:00 ngày 23/12/2026 (giờ máy chủ)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Chi Tiết Sự Kiện: Hãy tiến vào khu vực [Đập Nước Cũ] thuộc vùng [Võ Lăng] và hoàn thành các nhiệm vụ được chỉ định để nhận các phần thưởng sự kiện như [Oroberyl]×1.200 và [Dấu Ấn Bền Bỉ].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>5. Sự Kiện Giới Hạn Thời Gian [Tiếp Tế Tinh Chất Tỉnh Táo]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Thời Gian Sự Kiện:</span></p><p><span style=\"color: rgb(0, 0, 0);\">Máy Chủ Asia:</span></p><p><span style=\"color: rgb(0, 0, 0);\">04:00 ngày 09/12/2026 – 04:00 ngày 16/12/2026 (giờ máy chủ)</span></p><p><span style=\"color: rgb(0, 0, 0);\">04:00 ngày 31/12/2026 – 04:00 ngày 07/01/2027 (giờ máy chủ)</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Máy Chủ Americas / Europe:</span></p><p><span style=\"color: rgb(0, 0, 0);\">04:00 ngày 09/12/2026 – 04:00 ngày 16/12/2026 (giờ máy chủ)</span></p><p><span style=\"color: rgb(0, 0, 0);\">04:00 ngày 31/12/2026 – 17:00 ngày 06/01/2027 (giờ máy chủ)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Chi Tiết Sự Kiện: Trong thời gian diễn ra sự kiện, hoàn thành các nhiệm vụ chỉ định mỗi ngày để nhận phần thưởng Tiếp Tế Tinh Chất Tỉnh Táo: [Vé Dùng Tỉnh Táo] và [Tăng Tỉnh Táo Khẩn Cấp].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>6. Sự Kiện Thử Thách [BÙNG NỔ! SIÊU ĐẤU TRƯỜNG!]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Thời Gian Sự Kiện: 12:00 ngày 16/12/2026 (giờ máy chủ) – Trước khi cập nhật và bảo trì phiên bản</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Thời Gian Cập Nhật Sự Kiện: 04:00 ngày 18/12/2026 (giờ máy chủ)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Chi Tiết Sự Kiện: Trong thời gian diễn ra sự kiện, hãy hoàn thành các màn chơi thử thách để nhận phần thưởng, bao gồm [Oroberyl]×1.200, [Khung Chân Dung: Ngôi Sao Sáng của Quán Quân], [Thùng Lựa Chọn Cấp Tiến Nâng Cao Ⅱ], [Dấu Ấn Bền Bỉ] và [Vật Chứa Nhận Thức Cao Cấp].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>7. Vui Chơi Có Thưởng [Trò Chơi Kỳ Diệu của Cà Rốt May Mắn]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Thời Gian Sự Kiện: 12:00 ngày 16/12/2026 (giờ máy chủ) – Trước khi cập nhật và bảo trì phiên bản</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Thời Gian Cập Nhật Sự Kiện: 04:00 ngày 23/12/2026 (giờ máy chủ)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Chi Tiết Sự Kiện: Trong thời gian diễn ra sự kiện, hãy trải nghiệm trò chơi \"Thiên Đường Ma Thuật\" và hoàn thành Thử Thách Trò Chơi để nhận [Tiền Giấy Cà Rốt]. Dùng [Tiền Giấy Cà Rốt] tại [Quầy Đổi Quà Lưu Niệm] để đổi lấy phần thưởng sự kiện, bao gồm [Oroberyl]×1.000, [Thùng Lựa Chọn Cấp Tiến Nâng Cao II], [Dấu Ấn Bền Bỉ] và [Vật Chứa Nhận Thức Cao Cấp].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>8. Sự Kiện Tặng Quà [Vệ Binh Công Nhân: Điểm Danh]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Thời Gian Sự Kiện: 12:00 ngày 16/12/2026 (giờ máy chủ) – Trước khi cập nhật và bảo trì phiên bản</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Chi Tiết Sự Kiện: Trong thời gian diễn ra sự kiện, hãy đăng nhập vào trò chơi và tham gia nhiều chế độ chơi để nhận cán viên 5★ mới [Mimino] đạt tiềm năng tối đa và vũ khí 5★ mới [Ngôi Sao Ngày Mai (Súng Lục)] đạt tiềm năng tối đa.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>9. Vui Chơi Có Thưởng [Endmin! Cùng Phân Loại Quà Nào!]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Thời Gian Sự Kiện: 12:00 ngày 23/12/2026 (giờ máy chủ) – Trước khi cập nhật và bảo trì phiên bản</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Chi Tiết Sự Kiện: Truy cập trang Sự Kiện Web để phân loại hộp quà trên băng tải vận chuyển, trải nghiệm nhiều màn chơi khác nhau và nhận phần thưởng hậu hĩnh, bao gồm [Oroberyl]×300 và [T-Cred].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Cập Nhật Sự Kiện &amp; Lối Chơi</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1. Cập Nhật Chế Độ Thử Thách Vĩnh Viễn [Tiếng Vọng Nơi Chiến Trận]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>○[Mùa Phân Tán]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Cập Nhật Mùa: Sau khi cập nhật phiên bản [Chạm Mặt Ở Xứ Nấm] – 11:59 ngày 16/12/2026 (giờ máy chủ)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ghi Chú Cập Nhật: Mùa mới [Mùa Phân Tán] đã mở. Mùa này gồm 3 chu kỳ, mỗi chu kỳ có 3 màn chơi. [Mùa Phân Tán] bổ sung 3 màn chơi mới. Hoàn thành tất cả màn chơi mới ở độ khó Thường để nhận các phần thưởng gồm [Oroberyl]×300.</span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>○[Mùa Cảnh Giác]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Cập Nhật Mùa: 12:00 ngày 16/12/2026 (giờ máy chủ) – Trước khi cập nhật và bảo trì phiên bản</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ghi Chú Cập Nhật: Mùa mới [Mùa Cảnh Giác] đã mở. Mùa này gồm 3 chu kỳ, mỗi chu kỳ có 3 màn chơi. [Mùa Cảnh Giác] bổ sung 3 màn chơi mới. Hoàn thành tất cả màn chơi mới ở độ khó Thường để nhận các phần thưởng gồm [Oroberyl]×300.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2. Cập Nhật Lối Chơi Thử Thách [Đài Bóng Tối], Mở chuỗi đặc biệt [Bạo Chúa Vũ Trang]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Thời gian mở: 12:00 ngày 02/12/2026 (giờ máy chủ)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ghi Chú Cập Nhật: Bản cập nhật chế độ thử thách [Đài Bóng Tối] này sẽ giới thiệu một chuỗi đặc biệt mới, [Bạo Chúa Vũ Trang], nơi bạn sẽ đối đầu với những boss mạnh, trước tiên mở 1 màn chơi, và màn chơi thứ hai sẽ mở sau 04:00 ngày 09/12/2026 (giờ máy chủ). Mỗi màn chơi có nhiều độ khó. Hãy hoàn thành tất cả các thử thách màn chơi ở mọi độ khó để nhận phần thưởng bao gồm: [Dấu Ấn Bền Bỉ], [Thùng Lựa Chọn Cấp Tiến Nâng Cao Ⅱ] và [Vật Chứa Nhận Thức Cao Cấp].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>Sự kiện thử thách giới hạn thời gian [Hé Lộ Trọng Đại: Bạo Quyền] cũng sẽ được mở sau khi chế độ chơi cập nhật.</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Thời Gian Sự Kiện: 12:00 ngày 02/12/2026 – 04:00 ngày 23/12/2026 (giờ máy chủ)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Thời Gian Cập Nhật Sự Kiện: 04:00 ngày 09/12/2026 (giờ máy chủ)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Chi Tiết Sự Kiện: Sau khi ra mắt chuỗi [Bạo Chúa Vũ Trang], sự kiện giới hạn thời gian [Hé Lộ Trọng Đại: Bạo Quyền] sẽ bắt đầu. Trong thời gian diễn ra sự kiện, hãy hoàn thành các thách đấu [Đài Bóng Tối] để nhận các phần thưởng sự kiện, bao gồm [Oroberyl]×1.200 và [Thùng Lựa Chọn Cấp Tiến Nâng Cao II].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>3. Cập Nhật Bộ Không Gian [Ấn Bản Đặc Biệt Hành Giả Bí Ẩn]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Thời Gian Cập Nhật: 12:00 ngày 27/12/2026 (giờ máy chủ)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ghi Chú Cập Nhật: Sự kiện giải đố [Ấn Bản Đặc Biệt Hành Giả Bí Ẩn] này sẽ giới thiệu bộ không gian mới [Nấm Học Huyền Bí]. 3 Không Gian Giao Thức mới sẽ khả dụng. Hãy hoàn thành các thách đấu bộ không gian để nhận các phần thưởng, bao gồm [Oroberyl]×600 và [Dấu Ấn Bền Bỉ].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Cập Nhật Trung Tâm Mua Sắm</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· [Thẻ Giao Thức: Xứ Nấm] đã chính thức mở. Trong thời gian diễn ra phiên bản [Chạm Mặt Ở Xứ Nấm], bạn có thể nhận nhiều vật phẩm hỗ trợ đa dạng do các Kỹ Sư Kho Vũ Khí cung cấp trong [Thẻ Giao Thức]. Mỗi mùa giải, khi kích hoạt Thẻ Giao Thức sẽ mặc định mở khóa bậc [Tiếp Tế Cơ Bản]. Tăng cấp Thẻ để nhận các phần thưởng như [Vé Chiêu Mộ Cơ Bản], [Oroberyl], [Rương Đổi Bất Ngờ] và [Vật Liệu Thăng Cấp].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Thêm vào [Trung Tâm Mua Sắm: Gói]: [Gói Chiêu Mộ Lãng Khách Hoang Địa], [Gói Dòng Giao Thức]. Giới hạn số lần mua của [Gói Phiếu Kho Vũ Khí Giá Trị] được làm mới.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Nhà Máy Khu Phức Hợp</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đã thêm [Bộ Dụng Cụ Khắc Nhiều Dòng Võ Lăng]. Sử dụng để nhận một tinh chất có ba thuộc tính tùy chỉnh. Sau khi Trạm Điều Phối Vật Tư ở [Võ Lăng - Đèo Yinglung] đạt cấp 4, bạn có thể dùng [Phiếu Hàng Võ Lăng] để mua [Bộ Dụng Cụ Khắc Nhiều Dòng Võ Lăng] ×1.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Giới hạn Cấp Phát Triển Khu Vực của vùng [Võ Lăng] đã được tăng lên. Lõi Giao Thức-Phụ nay đã có thể được triển khai tại [Võ Lăng - Đập Nước Cũ]. Thêm các vật phẩm mới có thể quy đổi vào trạm [Điều Phối Vật Tư Võ Lăng].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đã thêm Chế Độ Khu Phức Hợp liên quan đến trận vào Khu Phức Hợp Võ Lăng, cùng với các Sơ Đồ Khu Phức Hợp liên quan đến trận: [Khai Hỏa Lò Rèn], [Tái Thiết Cung Ứng], [Mở Rộng: Đục Mờ], [Cân Bằng L/T], [Xếp Chồng L/T], [Lưỡng Cực Lò Rèn], [Mở Rộng Lò Rèn V]. Đồng thời thêm các cơ sở vật chất, bản mô phỏng và bản vẽ hệ thống tương ứng của Khu Phức Hợp.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đã thêm chế độ chơi mới [Tái Thiết Khu Cấm]: Mở khóa sau khi hoàn thành nhiệm vụ [Tái Thiết Quê Hương II]. Sử dụng Nhà Máy Khu Phức Hợp để sản xuất vật tư tái thiết và vận chuyển đến [Cổng Tái Thiết Cung Ứng] nhằm thúc đẩy Giai Đoạn Tái Thiết [Khu Cấm Bắc Võ Lăng] và gia tăng sự phát triển khu vực [Võ Lăng].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Hệ Thống</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đã thêm lối chơi [Điều Khiển Bánh Waffle]: Endministrator có thể phóng và điều khiển bánh waffle mật ong tại khu vực [Võ Lăng - Đập Nước Cũ]. Khi bay, bánh waffle có thể thu thập Aurylene. Nhúng bánh waffle mật ong vào các loại bào tử khác nhau sẽ tạo ra các hiệu ứng khác biệt. Ví dụ, nhúng bánh waffle vào bào tử lạnh sẽ giúp phát hiện và xua tan Tường Ảo Giác. Ngoài ra, tùy chọn mới [Điều Khiển Đảo Ngược Trục Y] đã được bổ sung vào [Cài Đặt - Bộ Điều Khiển].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đã cập nhật vật phẩm trao đổi trong cửa hàng [Trao Đổi Talosite], bổ sung [Mẫu Trang Bị], [Thiết Bị Cá Nhân], [Đồ Trang Trí], [Tư Thế Chụp Ảnh], [Đĩa Than] mới cùng nhiều vật phẩm khác.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Khác</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Thêm các nội dung như [Hướng Dẫn Cán Viên], [Năng Lượng Bồi Tích], [NPC], [Huy Chương Khắc], [Chủ Đề Hồ Sơ], [Chân Dung], [Khung Chân Dung], [Bộ Lọc], [Nhãn Dán], [Vật Tư Tiêu Hao], [Nguyên Liệu], [Thuốc Tỉnh Táo], [Mục Nhập Cơ Sở Dữ Liệu], [Hồ Sơ Manh Mối], [Thiết Bị Cá Nhân], [Đồ Trang Trí], [Đĩa Than], [Tư Thế Chụp Ảnh], [Giai Đoạn Nộp Aurylene Tại Khu Vực], v.v. Các nội dung này sẽ được mở khóa dần theo tiến độ của bạn.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đã thêm các mảnh trang bị mới vào các Bộ Trang Bị [Lữ Hành Khe Nứt], [Tiền Tuyến], [Xiranite Vĩnh Cửu] và [Thực Địa Khu Phức Hợp].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đã thêm vật liệu thăng cấp hiếm mới [Chất Lỏng Chế Tác Origo Mk I].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ Vui lòng xem trong game để biết thêm chi tiết.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Tối Ưu Hóa &amp; Điều Chỉnh</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Chiến Đấu</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đã cải thiện hiệu ứng hình ảnh của kẻ địch [Nefarith] trong một số tình huống nhất định.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Nhà Máy Khu Phức Hợp</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đã cải thiện vị trí của [Cảng Kiểm Soát Vật Phẩm] và [Cảng Kiểm Soát Ống]. Giờ đây, bạn có thể đặt chúng mà không cần kết nối trước với băng tải vận chuyển hoặc đường ống. Chúng có thể kết nối trực tiếp với cảng băng tải hoặc cảng đường ống của công trình và sẽ tự động khớp vào đúng vị trí theo hướng phù hợp.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Hệ Thống</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đã cải thiện thông báo nâng cấp trên màn hình [Cán Viên - Ma Trận Năng Lực]. Khi nâng cấp yêu cầu nhiều loại nguyên liệu, những nguyên liệu không đủ số lượng sẽ tự động được sắp xếp lại và hiển thị trước.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Khác</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đã cải thiện hình ảnh, hiệu ứng đặc biệt, logic tương tác và mô tả văn bản cho các giao diện nhất định.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đã cải thiện mô hình, trang phục, hiệu ứng đặc biệt, chuyển động, góc quay camera và các yếu tố hiển thị khác của một số cán viên nhất định trong một số tình huống nhất định.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đã tối ưu hóa mô tả kỹ năng chiến đấu của cán viên 6★ [Si]. Hiệu ứng thực tế không thay đổi.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đã cải thiện mô tả hiệu ứng [Vây Quý Hiếm] trong kỹ năng chiến đấu của cán viên 5★ [Alesh]. Hiệu ứng thực tế không thay đổi.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đã cải thiện một số nội dung liên quan đến việc lên đơn và món ăn trong chế độ Quản Lý Quán Trọ.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đã tối ưu hóa một số mô tả trong Hướng Dẫn Cán Viên.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đã tối ưu hóa một số nội dung trong Hồ Sơ Cán Viên.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Tối ưu hóa một số thông báo thao tác trên UI.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Tối ưu hóa một số tên nhiệm vụ.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Tối ưu hóa một số nội dung cốt truyện.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đã cải thiện tên loại sự kiện và mô tả của một số sự kiện, hoạt động để phản ánh chính xác hơn cơ chế hoạt động trong game.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đã trau chuốt tên và mô tả của một số vật phẩm để phù hợp hơn với cơ chế hoạt động thực tế trong game.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đã tối ưu hóa một số nội dung hướng dẫn tân thủ.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Khắc Phục Lỗi</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Nhiệm Vụ</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đã khắc phục sự cố trong nhiệm vụ phụ [Cõi Tuyết Nhuốm Bóng Ác Mộng] khiến kỹ năng liên hoàn của Endministrator không gây sát thương bình thường khi đánh trúng kẻ địch có [tầng khiên].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Chiến Đấu</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đã khắc phục sự cố hi hữu khiến tuyệt kỹ của các cán viên bị gián đoạn bất thường.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đã khắc phục sự cố hi hữu khiến kỹ năng [Hồn Mực] của cán viên 6★ [Si] hoạt động bất thường sau khi bị trúng đòn kết liễu.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đã khắc phục sự cố khiến một số thao tác nhập dữ liệu có thể làm [Nét Kết Thúc] trong kỹ năng chiến đấu của cán viên 6★ [Si] gây sát thương bất thường.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đã khắc phục sự cố khiến kỹ năng liên hoàn của cán viên 6★ [Si] không kích hoạt được khi kỹ năng chiến đấu của cán viên 5★ [Alesh] đông cứng và đánh bại kẻ địch.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đã khắc phục sự cố khiến các Tập Kích Cụm ở lượt triển khai sau không tăng ST Bùng Nổ Tự Nhiên lên kẻ địch khi kỹ năng liên hoàn của cán viên 6★ [Typhoeus] được sử dụng liên tục bằng một số thao tác điều khiển nhất định.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đã khắc phục sự cố hi hữu khiến trạng thái bay lơ lửng của cán viên 6★ [Typhoeus] trở nên bất thường sau khi sử dụng kỹ năng chiến đấu.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Sự Kiện &amp; Lối Chơi</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đã khắc phục sự cố hi hữu khiến kỹ năng liên hoàn của cán viên 6★ [Arcane] không kích hoạt được khi loại kỹ năng [Trận Huyền Thuật: TRÍ TUỆ] đang hoạt động tại màn [Hồ Sơ Quái Thú: Trại Thanh Ba] của chế độ thử thách vĩnh viễn [Tiếng Vọng Nơi Chiến Trận].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đã khắc phục sự cố hi hữu khiến giá trị sát thương được ghi nhận bởi kỹ năng [Họa Ý] của cán viên 6★ [Si] trở nên bất thường tại màn chơi [Hằn Dấu Bóng Tối - Tiếng Gầm Diệt Vong] của chế độ chơi vĩnh viễn [Đài Bóng Tối].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Hệ Thống</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đã khắc phục sự cố hi hữu khiến bản đồ hiển thị bất thường khi nhấn vào nhiệm vụ [Tạo và lưu 1 bản vẽ] trong [Cẩm Nang Vận Hành - Nút 03] và được chuyển đến bản đồ.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Khác</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Đã khắc phục sự cố một số thao tác nhất định khiến cho biểu tượng trạng thái của cán viên 6★ [Si] hiển thị không đúng.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "4697",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Lịch Trình Phiên Bản",
+            "header": "Lịch Trình Phiên Bản [Chạm Mặt Ở Xứ Nấm]",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/f21efcd8f256cf0af1bfab5343926866.jpg\" data-width=\"1920\" data-height=\"3220\"><p></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7272",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795262400,
+            "focus": 0,
+            "title": "Hướng Dẫn Phiên Bản Mới",
+            "header": "Hướng Dẫn Phiên Bản Mới Đã Ra Mắt",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261120/4f83c0a371bfab902ebc3669e25a1085.jpg\" data-width=\"1650\" data-height=\"300\"><p>Trang Hướng Dẫn Phiên Bản Mới [Chạm Mặt Ở Xứ Nấm] hiện đã mở.&nbsp;<br>Khám phá nội dung mới của phiên bản tại một nơi. Truy cập để nhận [Oroberyl]×1.000, [T-Cred]×10.000, [Vật Chứa Nhận Thức Sơ Cấp]×8 và [Bộ Kiểm Tra Vũ Khí]×4.&nbsp;<br>Thời Gian Nhận Thưởng: 20:00 ngày 21/11/2026 – 06:00 ngày 25/11/2026 (UTC+8).&nbsp;<br><br><strong>▼// Liên Kết Trang&nbsp;</strong><br>Bạn có thể truy cập Trang Hướng Dẫn Phiên Bản Mới thông qua liên kết bên dưới, Endministrator.&nbsp;<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://endfield.gryphline.com/version_briefing/latest?u8_token={u8_token}&amp;server={server}\">&gt;&gt;Truy cập ngay</a><br><br><strong>▼// Thời Gian Khả Dụng Của Trang&nbsp;</strong><br>· Trang Hướng Dẫn Phiên Bản Mới sẽ được mở vĩnh viễn để truy cập từ 20:00 ngày 06/10/2026 (UTC+8) và nội dung sẽ được cập nhật theo từng phiên bản game.&nbsp;<br>· Mỗi Trang Hướng Dẫn Phiên Bản Mới sẽ được mở từ khi phát sóng video Giới Thiệu Phiên Bản của phiên bản tương ứng cho đến trước khi Giới Thiệu Phiên Bản của phiên bản tiếp theo kết thúc.&nbsp;<br><br><strong>▼// Điều Kiện Nhận Thưởng&nbsp;</strong><br>· Đăng nhập vào tài khoản game của bạn từ Trang Hướng Dẫn Phiên Bản Mới và hoàn tất tạo nhân vật trong Arknights: Endfield.&nbsp;<br><br><strong>▼// Hướng Dẫn Nhận Thưởng&nbsp;</strong><br>· Trong thời gian nhận thưởng, nút \"nhận thưởng\" sẽ hiển thị trên Trang Hướng Dẫn Phiên Bản Mới. Sau khi thời gian này kết thúc, nút sẽ không còn hiển thị và bạn sẽ không thể nhận phần thưởng của phiên bản đó nữa.&nbsp;<br>· Sau khi nhận thưởng thành công trên Trang Hướng dẫn Phiên Bản Mới, phần thưởng sẽ được gửi vào Thư của nhân vật được liên kết với tài khoản đang đăng nhập.&nbsp;<br>· Mỗi tài khoản game chỉ được nhận phần thưởng của mỗi Hướng Dẫn Phiên Bản Mới một lần duy nhất.&nbsp;<br><br>※ Vui lòng xem trang để biết thêm chi tiết.</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8947",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795013400,
+            "focus": 0,
+            "extraData": {},
+            "title": "Lời Tri Ân Đặc Biệt\\nGửi Endministrator",
+            "header": "Lời Tri Ân Đặc Biệt | Quà Tri Ân Gửi Endministrator",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261119/5cacaeac122fbb9d0d8dceeba9b5c11d.png\" data-width=\"1650\" data-height=\"300\"><p>Endministrator thân mến,</p><p>Xin chân thành cảm ơn sự đồng hành và ủng hộ của bạn trong suốt thời gian qua! Arknights: Endfield đã vinh dự giành giải thưởng [Best Game] và [Best Story] tại Google Play's Best of 2026. Đồng thời, trò chơi cũng nhận được đề cử ở hạng mục [Best Mobile Game] tại The Game Awards 2026 và [iPad Game of the Year] tại App Store Awards 2026.</p><p>Để đặc biệt tri ân tình cảm và sự ghi nhận của bạn, đội dự án đã chuẩn bị một món quà.</p><p></p><p><strong>▼// Quà Tri Ân Gửi Endministrator</strong></p><p>· Quà Tặng: [Oroberyl]×3000</p><p>· Thời Gian Phát Thưởng: 00:00 ngày 19/11/2026 (UTC+8) – Trước khi phiên bản [Chạm Mặt Ở Xứ Nấm] kết thúc</p><p>· Điều Kiện Nhận Thưởng: Tạo nhân vật và mở khóa tính năng [Thư] trước khi phiên bản [Chạm Mặt Ở Xứ Nấm] kết thúc.</p><p>· Nội Dung Chi Tiết: Trong thời gian phát thưởng, đội dự án sẽ gửi thư trong game chứa [Oroberyl]×3000 đến các Endministrator đủ điều kiện. Thư có hiệu lực trong 30 ngày. Vui lòng nhớ đăng nhập và nhận phần thưởng kịp thời nhé, Endministrator.</p><p></p><p>Một lần nữa xin cảm ơn sự quan tâm và ủng hộ không ngừng của bạn dành cho Arknights: Endfield!</p><p></p><p>Đội Ngũ Arknights: Endfield</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6411",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 2,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Thẻ Giao Thức\\nXứ Nấm",
+            "header": "Chi tiết [Thẻ Giao Thức: Xứ Nấm]",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/11a14da855ac501920aa60f14f0b1d01.jpg\" data-width=\"1650\" data-height=\"300\"><p>Endministrator thân mến, <br>Trong thời gian diễn ra [Thẻ Giao Thức: Xứ Nấm], bạn có thể truy cập nhiều dự án hỗ trợ do các Kỹ Sư Kho Vũ Khí cung cấp thông qua hệ thống [Thẻ Giao Thức]. Khi mỗi mùa Thẻ Giao Thức bắt đầu, bậc [Tiếp Tế Cơ Bản] sẽ được mở khóa theo mặc định. Bằng cách tăng Cấp Thẻ, bạn có thể nhận các phần thưởng như [Vé Chiêu Mộ Cơ Bản], [Oroberyl], [Rương Đổi Bất Ngờ] và [Vật Liệu Thăng Cấp]. <br>Bạn có thể dùng [Origeometry] để mở khóa bậc [Tiếp Tế Originium] và nhận [Vé Chiêu Mộ Cơ Bản], [Nhãn Dán: Dính Rịt &amp; Ngọt Ngào], [Bộ Lọc: Hoàng Hôn Hoàng Kim] cùng các phần thưởng bổ sung như [Tiếp Tế Vũ Khí: Xứ Nấm], [Origeometry] và [Tăng Tỉnh Táo Khẩn Cấp]. <br>Mua bậc [Giao Thức Tùy Chỉnh] để nhận [Hồ Sơ: Thành Phố Nấm và Mật Ong], [Khung Chân Dung: Sắc Màu Sau Một Miếng Cắn], [Chân Dung: Nấm Thân Thiện], cùng các phần thưởng bổ sung như [Tiếp Tế Vũ Khí: Xứ Nấm], [Phiếu Kho Vũ Khí] và [Mẫu Vũ Khí Giao Thức Hóa].<br><br><strong>▼// Thời gian mở </strong><br>Trong suốt phiên bản [Chạm Mặt Ở Xứ Nấm]<br><br><strong>▼// Tiêu Chí Tham Gia </strong><br>Hoàn thành nhiệm vụ chính [Chương I Tiến Trình I: Phá Vòng Vây]<br><br><strong>▼// Chi Tiết Thẻ Giao Thức </strong><br>· Kích hoạt [Thẻ Giao Thức] sẽ mặc định mở khóa bậc [Tiếp Tế Cơ Bản]. Bạn có thể mua bậc [Giao Thức Tùy Chỉnh] hoặc tiêu hao [Origeometry] để mở khóa bậc [Tiếp Tế Originium], qua đó nhận thêm các phần thưởng bổ sung và Phần Thưởng EXP Thẻ Kiếm Thêm. <br>· Trong mỗi mùa thẻ, bậc [Tiếp Tế Originium] và [Giao Thức Tùy Chỉnh] đều chứa một [Tiếp Tế Vũ Khí], cho phép bạn chọn và nhận một trong những vũ khí 6★ nổi bật của mùa. [Mẫu Vũ Khí Giao Thức Hóa] có thể dùng để nâng cấp tiềm năng cho bất kỳ vũ khí nào nhận được từ [Tiếp Tế Vũ Khí] của Thẻ Giao Thức. <br>· Hoàn thành các Nhiệm Vụ Thẻ khác nhau (một số nhiệm vụ sẽ mở sau khi đạt đủ điều kiện nhất định hoặc mở theo thời gian), hoặc tham gia [Cẩm Nang Vận Hành - Nhiệm Vụ Hằng Ngày] và nhận tối đa phần thưởng Điểm Hoạt Động hàng ngày để kiếm EXP Thẻ. Tăng cấp Thẻ để mở khóa hàng loạt phần thưởng từ [Thẻ Giao Thức]. <br>· Sau khi mở khóa [Tiếp Tế Originium] hoặc [Giao Thức Tùy Chỉnh], bạn vẫn có thể tiếp tục nhận EXP Thẻ ngay cả khi đã đạt cấp độ tối đa của [Thẻ Giao Thức]. Lượng EXP Thẻ vượt giới hạn sẽ được tích lũy để đổi lấy phần thưởng là [Rương Chu Kỳ Bất Ngờ]. Thùng này sẽ tự động mở khi nhận, cung cấp ngẫu nhiên một phần thưởng [Oroberyl], một phần thưởng [Vật Liệu Thăng Cấp] và một phần thưởng [Vé Dùng Tỉnh Táo]. <br>· Mở khóa bậc [Tiếp Tế Originium] / [Giao Thức Tùy Chỉnh] của Thẻ Giao Thức theo mùa sẽ cung cấp mức thưởng thêm lần lượt là +3% / +3% EXP. Mở khóa cả hai bậc sẽ cung cấp mức thưởng thêm là +6% EXP. <br>· Trong trường hợp mua thừa bậc [Giao Thức Tùy Chỉnh] do các tình huống đặc biệt, phần thưởng từ bậc [Giao Thức Tùy Chỉnh] sẽ không được cộng dồn. Thay vào đó, một lượng [Origeometry] tương đương với giá trị giao dịch sẽ được hoàn trả lại cho bạn. <br>· Khi mùa [Thẻ Giao Thức] kết thúc, mọi phần thưởng cấp độ thẻ chưa nhận sẽ được gửi vào Thư của bạn.<br><br>※ Múi Giờ Máy Chủ Asia: UTC+8 <br>※ Múi Giờ Máy Chủ Americas / Europe: UTC-5 <br>※ Để biết quy tắc chi tiết, hãy truy cập [Thẻ Giao Thức] trong trò chơi và tham khảo [Chi Tiết Thẻ Giao Thức].<br></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7263",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 2,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Chiêu Mộ Đặc Quyền\\nĐe Rèn, Ba Lô Và Hũ Mật Ong",
+            "header": "Chiêu Mộ Đặc Quyền [Đe Rèn, Ba Lô Và Hũ Mật Ong]",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/9335f0b76e6c6ba42829a4f836158d96.png\" alt=\"\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Endministrator thân mến,&nbsp;<br>Trong thời gian diễn ra Chiêu Mộ Đặc Quyền [Đe Rèn, Ba Lô Và Hũ Mật Ong], cán viên 6★ [Kay] sẽ được Tăng Tỷ Lệ xuất hiện!&nbsp;<br>Đồng thời, sự kiện điểm danh có thời hạn [Thám Hiểm Hoang Dã] cũng sẽ được khai mở. Hãy tích lũy ngày điểm danh để nhận các phần thưởng như [Vé Chiêu Mộ Thám Hiểm Hoang Dã]×5. Bạn cũng có thể đổi [Vé Chiêu Mộ Thám Hiểm Hoang Dã] với mức giá ưu đãi trong sàn [Đổi Giới Hạn Khu Phức Hợp]. Sự kiện thử thách cán viên [Huấn Luyện Chiến Đấu] cũng sẽ mở cửa trong thời gian này.<br><br>▼//<strong>&nbsp;Chi Tiết Chiêu Mộ Đặc Quyền [Đe Rèn, Ba Lô Và Hũ Mật Ong]&nbsp;</strong><br>· Thời Gian: Sau khi cập nhật phiên bản [Chạm Mặt Ở Xứ Nấm] – 11:59 ngày 23/12/2026 (giờ máy chủ)&nbsp;<br>· Điều Kiện Tham Gia: Hoàn thành nhiệm vụ chính [Chương I Tiến Trình I: Phá Vòng Vây]&nbsp;<br>· Chiêu Mộ Đặc Quyền [Đe Rèn, Ba Lô Và Hũ Mật Ong] cũng ra mắt cán viên 6★ [Kay] được Tăng Tỷ Lệ xuất hiện.&nbsp;<br>· Danh sách cán viên 6★ có thể xuất hiện trong Chiêu Mộ Đặc Quyền [Đe Rèn, Ba Lô Và Hũ Mật Ong]: Kay / Argent Flow / Si / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.&nbsp;<br>· Trong Chiêu Mộ Đặc Quyền [Đe Rèn, Ba Lô Và Hũ Mật Ong], bạn có thể dùng [Vé Chiêu Mộ Thám Hiểm Hoang Dã], [Vé Chiêu Mộ Đặc Quyền] hoặc [Oroberyl] để chiêu mộ.&nbsp;<br>※ Sau 3 banner [Chiêu Mộ Đặc Quyền], cán viên 6★ được Tăng Tỷ Lệ xuất hiện trong banner [Chiêu Mộ Đặc Quyền] sẽ bị loại khỏi danh sách cán viên có thể xuất hiện trong [Chiêu Mộ Đặc Quyền]. Cán viên 6★ được Tăng Tỷ Lệ xuất hiện này cũng không được thêm vào danh sách [Chiêu Mộ Cơ Bản].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">▼//<strong>&nbsp;Phần Thưởng [Chiêu Mộ Đặc Quyền]&nbsp;</strong><br>Trong Chiêu Mộ Đặc Quyền [Đe Rèn, Ba Lô Và Hũ Mật Ong], khi thực hiện số lượt chiêu mộ nhất định, bạn sẽ nhận được các phần thưởng tương ứng.<br>■<strong>&nbsp;Chiêu Mộ Khẩn Cấp&nbsp;</strong><br>· Sau khi thực hiện 30 lượt chiêu mộ, bạn sẽ nhận được 10 lượt Chiêu Mộ Khẩn Cấp thưởng (tương đương 1 lần chiêu mộ 10× miễn phí). Ưu đãi này chỉ áp dụng trong banner [Chiêu Mộ Đặc Quyền] này và không được chuyển sang các banner chiêu mộ khác.&nbsp;<br>· Tỷ lệ nhận được cán viên thông qua Chiêu Mộ Khẩn Cấp giống với tỷ lệ rơi cơ bản của banner [Chiêu Mộ Đặc Quyền] này, và lượt chiêu mộ 10× miễn phí từ Chiêu Mộ Khẩn Cấp này đảm bảo nhận được ít nhất một cán viên 5★ trở lên.&nbsp;<br>· Lượt chiêu mộ 10× miễn phí từ Chiêu Mộ Khẩn Cấp không được tính vào cơ chế bảo đảm của banner này hoặc các banner [Chiêu Mộ Đặc Quyền] khác, đồng thời cũng không được cộng vào tổng số lượt chiêu mộ để nhận phần thưởng [Chiêu Mộ Đặc Quyền].&nbsp;<br>■<strong>&nbsp;Hồ Sơ Chiêu Mộ&nbsp;</strong><br>· Sau khi thực hiện 60 lượt chiêu mộ, bạn sẽ nhận được [Hồ Sơ Chiêu Mộ]×1.&nbsp;<br>· Khi đáp ứng điều kiện, [Hồ Sơ Chiêu Mộ] sẽ tự động được gửi vào Kho Đồ Giá Trị. Khi banner [Chiêu Mộ Đặc Quyền] tiếp theo bắt đầu, [Hồ Sơ Chiêu Mộ] này sẽ tự động được chuyển đổi thành Vé Chiêu Mộ Đặc Biệt×10 của banner [Chiêu Mộ Đặc Quyền] nêu trên. Tuy nhiên, Vé Chiêu Mộ này cũng sẽ hết hạn khi banner đó kết thúc.&nbsp;<br>■<strong>&nbsp;Quà Tặng Tín Vật&nbsp;</strong><br>· Trong mỗi banner [Chiêu Mộ Đặc Quyền], cứ mỗi 240 lượt chiêu mộ, bạn sẽ nhận được [Tín vật của cán viên 6★ được Tăng Tỷ Lệ xuất hiện trong banner đó]×1.<br><br>▼//<strong>&nbsp;Chi Tiết Phiếu Kho Vũ Khí&nbsp;</strong><br>Mỗi lượt chiêu mộ cán viên đều sẽ nhận được [Phiếu Kho Vũ Khí].&nbsp;<br>· Chiêu mộ được cán viên 6★ sẽ được [Phiếu Kho Vũ Khí]×2.000.&nbsp;<br>· Chiêu mộ được cán viên 5★ sẽ được [Phiếu Kho Vũ Khí]×200.&nbsp;<br>· Chiêu mộ được cán viên 4★ sẽ được [Phiếu Kho Vũ Khí]×20.&nbsp;<br>※ [Phiếu Kho Vũ Khí] có thể sử dụng tại [Trung Tâm Mua Sắm: Sàn Vũ Khí].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Trong Chiêu Mộ Đặc Quyền [Đe Rèn, Ba Lô Và Hũ Mật Ong], các nội dung sau cũng sẽ được mở:&nbsp;<br>▼//<strong>&nbsp;Sự Kiện Điểm Danh Có Thời Hạn [Thám Hiểm Hoang Dã]&nbsp;</strong><br>Điểm danh tổng cộng 7 ngày để nhận các phần thưởng như [Vé Chiêu Mộ Thám Hiểm Hoang Dã]×5.&nbsp;<br><br>▼//<strong>&nbsp;Sự Kiện Thử Thách Cán Viên [Huấn Luyện Chiến Đấu]&nbsp;</strong><br>[Huấn Luyện Chiến Đấu] cho phép bạn trải nghiệm cán viên 6★ [Kay]. Hãy hoàn thành các màn chơi được chỉ định với đội hình mặc định có bao gồm cán viên dùng thử để nhận [Oroberyl]×100, [Thùng Trang Bị Phòng Vệ Kho Vũ Khí], [Dấu Ấn Bền Bỉ] và các phần thưởng khác. [Thùng Trang Bị Phòng Vệ Kho Vũ Khí] chứa một Bộ Trang Bị Cấp 60 Chế Tác Hoàn Chỉnh rất phù hợp cho cán viên dùng thử hiện tại.&nbsp;<br><br>▼//<strong>&nbsp;Ghi Chú Đặc Biệt về sàn [Đổi Giới Hạn Khu Phức Hợp]&nbsp;</strong><br>Sàn [Đổi Giới Hạn Khu Phức Hợp] sẽ có các ưu đãi giới hạn thời gian. Bạn có thể sử dụng [Giới Hạn Khu Phức Hợp] để mua các vật phẩm như [Vé Chiêu Mộ Thám Hiểm Hoang Dã]×5.&nbsp;<br><br>※ Múi Giờ Máy Chủ Asia: UTC+8&nbsp;<br>※ Múi Giờ Máy Chủ Americas / Europe: UTC-5&nbsp;<br>※ Để biết thêm chi tiết chiêu mộ, vui lòng kiểm tra màn hình [Chiêu Mộ] trong game.&nbsp;<br>※ Để biết thêm chi tiết về sự kiện, vui lòng kiểm tra [Trung Tâm Sự Kiện] trong game.&nbsp;<br>※ Để biết chi tiết về [Đổi Giới Hạn Khu Phức Hợp], vui lòng kiểm tra [Trung Tâm Mua Sắm] trong game.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "4696",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Các Gói\\n[Chạm Mặt Ở Xứ Nấm]",
+            "header": "Chi Tiết Gói [Chạm Mặt Ở Xứ Nấm]",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/012feabd2b1a19782f5709e6641f44f5.jpg\" data-width=\"1650\" data-height=\"300\"><p>Thân gửi Endministrator,<br>Trong thời gian diễn ra phiên bản [Chạm Mặt Ở Xứ Nấm], [Trung Tâm Mua Sắm] sẽ mở bán nhiều gói đa dạng.<br><br><strong>▼// Gói Giới Hạn</strong><br>■ Gói Dòng Giao Thức<br>· Thời Gian Mở Bán: Xuyên suốt phiên bản [Chạm Mặt Ở Xứ Nấm]<br>· Nội Dung Gói: [Vé Chiêu Mộ Đặc Quyền]×10, [Phiếu Kho Vũ Khí]×2000, [Dấu Ấn Bền Bỉ]×10<br>· Lưu Ý Đặc Biệt: Chỉ được mua 1 lần trong phiên bản hiện tại<br><br>■ Gói Chiêu Mộ Lãng Khách Hoang Địa<br>· Thời Gian Mở Bán: Sau khi cập nhật phiên bản [Chạm Mặt Ở Xứ Nấm] – 11:59 ngày 23/12/2026 (giờ máy chủ)<br>· Nội Dung Gói: [Vé Chiêu Mộ Thám Hiểm Hoang Dã]×10, [T-Cred]×80000<br>· Lưu Ý Đặc Biệt: Chỉ được mua 1 lần<br><br>■ Gói Phiếu Kho Vũ Khí Giá Trị<br>· Thời Gian Mở Bán: Xuyên suốt phiên bản [Chạm Mặt Ở Xứ Nấm]<br>· Nội Dung Gói: [Phiếu Kho Vũ Khí]×2000<br>· Lưu Ý Đặc Biệt: Chỉ được mua 1 lần trong phiên bản hiện tại<br><br>※ Múi giờ máy chủ Asia: UTC+8<br>※ Múi giờ máy chủ Americas / Europe: UTC-5<br>※ Một số gói có thể bao gồm vật phẩm giới hạn thời gian. Bạn có thể kiểm tra chi tiết các vật phẩm này tại mục [Mua—Nội Dung Vật Phẩm]. Nếu vật phẩm giới hạn thời gian trong gói hết hạn sau khi mua, hệ thống sẽ không thể cấp lại. Cảm ơn sự thấu hiểu và hỗ trợ của bạn.<br>※ Để xem thêm các gói khác và thông tin chi tiết, vui lòng truy cập [Trung Tâm Mua Sắm—Gói] trong trò chơi.</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "3030",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Dựng Trận: Vá Vết Nứt Cũ",
+            "header": "Chi Tiết Sự Kiện Xây Dựng [Dựng Trận: Vá Vết Nứt Cũ]",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261120/a2c0904c6427dd57a208ce9518c1199b.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Thời Gian Sự Kiện</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Trong thời gian phiên bản [Chạm Mặt Ở Xứ Nấm]</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Thời gian bắt đầu Tăng Tốc Xây Dựng: 2026/12/31 06:00 (giờ máy chủ)</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Phần Thưởng Sự Kiện</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Trong thời gian diễn ra sự kiện, hãy tích lũy Tiến Độ Tái Thiết và hoàn thành Nhiệm Vụ Xây Dựng để nhận các phần thưởng gồm: [Oroberyl]×1.000, [Thùng Lựa Chọn Cấp Tiến Nâng Cao II], [Vật Chứa Nhận Thức Cao Cấp], [Dấu Ấn Bền Bỉ] và [Chất Lỏng Chế Tác Origo Mk I].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Yêu Cầu Tham Gia</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Hoàn thành nhiệm vụ chính [Chương II Tiến Trình VII: Hoàng Hôn Còn Mãi Vấn Vương].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Hoàn thành nhiệm vụ phụ [Giấc Mơ Bánh Waffle Mật Ong].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Chi Tiết Sự Kiện</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Trong thời gian diễn ra sự kiện, lần lượt hoàn thành các nhiệm vụ để mở khóa chế độ chơi [Tái Thiết Khu Cấm] cùng các công nghệ Khu Phức Hợp liên quan, sau đó sử dụng Nhà Máy Khu Phức Hợp để sản xuất vật tư cần thiết cho dự án Tái Thiết Khu Cấm, tích lũy Tiến Độ Tái Thiết và hoàn thành Nhiệm Vụ Xây Dựng để nhận phần thưởng.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Tăng Tốc Xây Dựng sẽ bắt đầu trong 7 ngày cuối cùng của sự kiện. Trong thời gian này, mỗi lần tiếp tế thành công sẽ nhận thêm Tiến Độ Tái Thiết.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Sau khi kết thúc Sự Kiện Xây Dựng [Dựng Trận: Vá Vết Nứt Cũ], bạn sẽ không thể hoàn thành Nhiệm Vụ Xây Dựng hoặc nhận phần thưởng tương ứng. Tuy nhiên, bạn vẫn có thể chơi [Tái Thiết Khu Cấm] và nhận phần thưởng tiến trình tái thiết. Hãy chú ý lịch sự kiện và nhận phần thưởng đúng hạn, Endministrator.</span></p><p></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※Múi Giờ Máy Chủ Asia: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※Múi Giờ Máy Chủ Americas / Europe: UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Để biết thêm chi tiết về sự kiện, hãy kiểm tra [Trung Tâm Sự Kiện] trong game.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "2188",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Gói Rút Lữ Khách Thảnh Thơi",
+            "header": "Gói Rút Lữ Khách Thảnh Thơi",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/7517e4136dcf7badfd86430d2e11a980.png\" data-width=\"1650\" data-height=\"300\"><p>Endministrator thân mến, <br>Trong thời gian mở [Gói Rút Lữ Khách Thảnh Thơi], tỷ lệ nhận được vũ khí 6★ [Thương Vụ Ngọt Ngào (Vũ Khí Cán Dài)] sẽ được tăng lên! <br><br><strong>▼// [Gói Rút Lữ Khách Thảnh Thơi] </strong><br>· Thời gian mở: Sau khi cập nhật phiên bản [Chạm Mặt Ở Xứ Nấm]; kết thúc sau 3 banner [Chiêu Mộ Đặc Quyền] (bắt đầu từ banner [Đe Rèn, Ba Lô Và Hũ Mật Ong]) <br>· Điều Kiện Tham Gia: Hoàn thành nhiệm vụ chính [Chương I Tiến Trình I: Phá Vòng Vây] <br>· [Gói Rút Lữ Khách Thảnh Thơi] sẽ Tăng Tỷ Lệ xuất hiện cho vũ khí 6★ [Thương Vụ Ngọt Ngào (Vũ Khí Cán Dài)]. <br>· Các vũ khí 6★ có thể xuất hiện trong [Gói Rút Lữ Khách Thảnh Thơi] bao gồm: Thương Vụ Ngọt Ngào (Vũ Khí Cán Dài) / Cuồng Phong (Kiếm) / Dũng Khí (Vũ Khí Cán Dài) / JET (Vũ Khí Cán Dài) / Đơn Vị Nổ (Đơn Vị Thuật Pháp) / Nêm (Súng Lục) / Bảo Kiếm Đời Trước (Đại Kiếm). <br><br><strong>▼// Phần thưởng [Rút Kho Vũ Khí] </strong><br>Trong mỗi kỳ [Rút Kho Vũ Khí], khi thực hiện đủ số lần rút kho nhất định, bạn sẽ nhận được [Thùng Quà Tặng Vũ Khí] (Thùng Cấp VK) đặc trưng của banner hoặc [Vũ Khí 6★ Được Tăng Tỷ Lệ Xuất Hiện] theo thứ tự luân phiên. Tổng số lần rút kho đối với các phần thưởng Rút Kho Vũ Khí này sẽ được làm mới khi banner kết thúc, và sẽ không được tích lũy sang các banner [Rút Kho Vũ Khí] khác. <br><br><strong>▼// Chi tiết [Rút Kho Vũ Khí] </strong><br>· Trong kỳ [Rút Kho Vũ Khí], bạn có thể dùng [Phiếu Kho Vũ Khí] để thực hiện một lần rút kho. <br>· Mỗi lần rút kho sẽ mang đến 10 vũ khí ngẫu nhiên từ danh sách vũ khí hiện có, bao gồm ít nhất một vũ khí từ 5★ trở lên. <br><br><strong>▼// Chi tiết [Sàn Vũ Khí] </strong><br>Trong [Sàn Vũ Khí], [Phiếu Kho Vũ Khí] cũng có thể được sử dụng để mua trực tiếp vũ khí. Một số vũ khí có thể mua sẽ cập nhật theo thời gian. Hãy kiểm tra thông tin hiển thị trên màn hình [Trung Tâm Mua Sắm - Sàn Vũ Khí] để biết các vật phẩm thực tế hiện có. <br><br>※ Múi giờ máy chủ Asia: UTC+8 <br>※ Múi giờ máy chủ Americas / Europe: UTC-5 <br>※ Để biết thêm chi tiết và quy tắc phần thưởng, vui lòng truy cập [Trung Tâm Mua Sắm - Sàn Vũ Khí] trong game.<br></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6412",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "extraData": {},
+            "title": "Chiêu Mộ Tái Cấu Trúc\\nGói Rút Tái Cấu Trúc",
+            "header": "Khai Mở Chiêu Mộ Tái Cấu Trúc và Gói Rút Tái Cấu Trúc",
+            "jumpButton": null,
+            "data": {
+              "html": "<p><span style=\"color: rgb(31, 35, 41);\">Endministrator thân mến,&nbsp;<br>Trong Chiêu Mộ Tái Cấu Trúc #1 [Gửi Đến Từng Nguyện Ước Bồng Bềnh], cán viên 6★ [Gilberta] được Tăng Tỷ Lệ!&nbsp;<br>Trong Gói Rút Tái Cấu Trúc #1 [Gói Rút Lữ Khách Bồng Bềnh], tỷ lệ nhận vũ khí 6★ [Sứ Mệnh Tất Toàn (Đơn Vị Thuật Pháp)] tăng lên!<br><br><strong>▼// Thời Gian Mở&nbsp;</strong><br>Sau khi cập nhật phiên bản [Chạm Mặt Ở Xứ Nấm] – 11:59 ngày 16/12/2026 (giờ máy chủ)<br><br><strong>▼// Điều Kiện Tham Gia&nbsp;</strong><br>Hoàn thành nhiệm vụ chính [Chương I Tiến Trình I: Phá Vòng Vây]</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼// Chi Tiết Chiêu Mộ Tái Cấu Trúc #1 [Gửi Đến Từng Nguyện Ước Bồng Bềnh]&nbsp;</strong></span></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261123/de014bade113ba3970dec673ea20ae8d.png\" alt=\"\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\"><strong>■ Chi Tiết Chiêu Mộ</strong><br>Chiêu Mộ Tái Cấu Trúc [Gửi Đến Từng Nguyện Ước Bồng Bềnh] có cán viên 6★ [Gilberta] được Tăng Tỷ Lệ. Trong đợt chiêu mộ này, bạn được đảm bảo nhận cán viên 6★ [Gilberta] được tăng tỷ lệ trong 120 lần chiêu mộ đầu tiên. Bảo đảm này chỉ có thể kích hoạt 1 lần trên tất cả các banner Chiêu Mộ Tái Cấu Trúc [Gửi Đến Từng Nguyện Ước Bồng Bềnh]. Số lượt đã tích lũy cho bảo đảm này sẽ được chuyển sang các banner Chiêu Mộ Tái Cấu Trúc [Gửi Đến Từng Nguyện Ước Bồng Bềnh] trong tương lai.<br><br><strong>■ Phần Thưởng Chiêu Mộ&nbsp;</strong><br>Trong Chiêu Mộ Tái Cấu Trúc [Gửi Đến Từng Nguyện Ước Bồng Bềnh], thực hiện đủ số lần chiêu mộ nhất định để nhận phần thưởng tương ứng. Số lần chiêu mộ tích lũy sẽ được chuyển sang các banner Chiêu Mộ Tái Cấu Trúc [Gửi Đến Từng Nguyện Ước Bồng Bềnh] trong tương lai.<br><br><strong>· Chiêu Mộ Khẩn Cấp&nbsp;</strong><br>Sau khi thực hiện 30/60/90 lần chiêu mộ, bạn sẽ lần lượt nhận thêm 10 lượt Chiêu Mộ Khẩn Cấp (tức là tại mỗi mốc, bạn được miễn phí 10× Chiêu Mộ). Phần thưởng này chỉ có thể kích hoạt 1 lần trên tất cả các banner Chiêu Mộ Tái Cấu Trúc [Gửi Đến Từng Nguyện Ước Bồng Bềnh]. Số lượt Chiêu Mộ Khẩn Cấp chưa sử dụng sẽ được chuyển sang các banner Chiêu Mộ Tái Cấu Trúc [Gửi Đến Từng Nguyện Ước Bồng Bềnh] trong tương lai.<br><br><strong>· Quà Tặng Tín Vật&nbsp;</strong><br>Trên tất cả các banner Chiêu Mộ Tái Cấu Trúc [Gửi Đến Từng Nguyện Ước Bồng Bềnh], cứ mỗi 240 lần chiêu mộ, bạn sẽ nhận thêm [Tín Vật của Gilberta] ×1. Số lần chiêu mộ sẽ được chuyển sang các banner Chiêu Mộ Tái Cấu Trúc [Gửi Đến Từng Nguyện Ước Bồng Bềnh] trong tương lai.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Chi Tiết Gói Rút Tái Cấu Trúc #1 [Gói Rút Lữ Khách Bồng Bềnh]&nbsp;</strong></span></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261123/f6b154ee877b7b39f2ac09ef679a18f0.png\" alt=\"\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Chi Tiết Gói Rút&nbsp;</strong><br>· Gói Rút Tái Cấu Trúc [Gói Rút Lữ Khách Bồng Bềnh] có vũ khí 6★ Tăng Tỷ Lệ [Sứ Mệnh Tất Toàn (Đơn Vị Thuật Pháp)].&nbsp;<br>· Trong Gói Rút này, nếu không nhận được vũ khí 6★ trong 3 lượt rút liên tiếp, đảm bảo nhận được vũ khí 6★ ở lượt rút thứ 4. Cơ chế đảm bảo này chỉ có hiệu lực với Gói Rút Tái Cấu Trúc #1 [Gói Rút Lữ Khách Bồng Bềnh] và không được chuyển sang các banner Gói Rút khác (bao gồm cả các banner Gói Rút Tái Cấu Trúc [Gói Rút Lữ Khách Bồng Bềnh] trong tương lai).&nbsp;<br>· Trong Gói Rút này, nếu không nhận được vũ khí 6★ Tăng Tỷ Lệ trong 7 lượt rút đầu tiên, đảm bảo nhận được vũ khí 6★ Tăng Tỷ Lệ ở lượt rút thứ 8. Cơ chế đảm bảo này có thể kích hoạt 1 lần trên tất cả các banner Gói Rút Tái Cấu Trúc [Gói Rút Lữ Khách Bồng Bềnh]. Số lần rút tích lũy cho cơ chế đảm bảo sẽ được chuyển sang các banner Gói Rút Tái Cấu Trúc [Gói Rút Lữ Khách Bồng Bềnh] trong tương lai.&nbsp;<br><br><strong>■ Phần Thưởng Gói Rút&nbsp;</strong><br>Thực hiện đủ số lần rút Tái Cấu Trúc nhất định để luân phiên nhận [Thùng Cấp VK: Lữ Khách Bồng Bềnh] hoặc [Sứ Mệnh Tất Toàn (Đơn Vị Thuật Pháp)]. Số lần rút Tái Cấu Trúc tích lũy sẽ được chuyển sang các banner Gói Rút Tái Cấu Trúc [Gói Rút Lữ Khách Bồng Bềnh] trong tương lai.&nbsp;<br><br>※ Múi Giờ Máy Chủ Asia: UTC+8&nbsp;<br>※ Múi Giờ Máy Chủ Americas / Europe: UTC-5&nbsp;<br>※ Vui lòng xem trong game để biết thêm chi tiết.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "5505",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Giấc Mơ Bánh Waffle Mật Ong",
+            "header": "[Giấc Mơ Bánh Waffle Mật Ong] Sự Kiện Cốt Truyện",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261124/5e041627858a6c59984a2c594206f6a3.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Gần đây, người dân Võ Lăng đã phản ánh về những ảo giác hết sức kỳ lạ và khó hiểu. Bạn quyết định đi điều tra vụ việc này. Biết đâu một cuộc gặp gỡ kỳ diệu đang chờ đón bạn phía trước…</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Thời Gian Sự Kiện</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Xuyên suốt phiên bản [Chạm Mặt Ở Xứ Nấm]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Điều Kiện Tham Gia</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Hoàn thành nhiệm vụ chính [Chương Ⅱ Tiến Trình Ⅵ: Chung Chí Đồng Tâm]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Chi Tiết Sự Kiện</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Hoàn thành nhiệm vụ phụ [Giấc Mơ Bánh Waffle Mật Ong] để nhận [Oroberyl], [Vật Chứa Nhận Thức Sơ Cấp], [Protohedron], [Bộ Kiểm Tra Vũ Khí] và các phần thưởng khác.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Sau khi trang sự kiện đóng lại, nếu đáp ứng đủ điều kiện tham gia, bạn vẫn có thể trải nghiệm nhiệm vụ phụ này trong mục [Nhiệm Vụ] và nhận thưởng.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ Múi Giờ Máy Chủ Asia: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Múi Giờ Máy Chủ Americas / Europe: UTC-5</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1364",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Mũ Nấm! Nấm! NẤM!",
+            "header": "Chi Tiết Sự Kiện Hướng Dẫn [Mũ Nấm! Nấm! NẤM!]",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261120/68e030116eab89e69cc6c2d3745e373a.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Thời Gian Sự Kiện</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Sau khi cập nhật phiên bản [Chạm Mặt Ở Xứ Nấm] – 12:00 ngày 23/12/2026 (giờ máy chủ)</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Phần Thưởng Sự Kiện</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Hoàn thành các nhiệm vụ trong thời gian sự kiện để nhận các phần thưởng bao gồm: [Oroberyl] và [Dấu Ấn Bền Bỉ].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Điều Kiện Tham Gia</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Trong nhiệm vụ phụ [Bánh Waffle Cứu Nguy: Cuộc Gặp Gỡ], hoàn thành mục tiêu [Đi đến con đập]</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Hoàn thành nhiệm vụ chính [Chương II Tiến Trình VI: Chung Chí Đồng Tâm] để mở khóa nhiệm vụ phụ [Bánh Waffle Cứu Nguy: Cuộc Gặp Gỡ]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Chi Tiết Sự Kiện</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Trong thời gian diễn ra sự kiện, hãy tới khu vực [Đập Nước Cũ] tại Võ Lăng và hoàn thành các nhiệm vụ sự kiện như mở khóa Điểm Dịch Chuyển và mở Thùng Giao Thức để nhận những phần thưởng hậu hĩnh.</span></p><p></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※Múi Giờ Máy Chủ Asia: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※Múi Giờ Máy Chủ Americas / Europe: UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">※Để biết thêm chi tiết sự kiện, vui lòng kiểm tra [Trung Tâm Sự Kiện] trong game.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8939",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Tiếng Vọng Nơi Chiến Trận\\nMùa Phân Tán",
+            "header": "Tiếng Vọng Nơi Chiến Trận - Mùa Phân Tán",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/ae6edacf0842bd45121a76663547ebb1.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Thời Gian Mở Mùa&nbsp;<br></strong>Sau khi cập nhật phiên bản [Chạm Mặt Ở Xứ Nấm] – 11:59 ngày 16/12/2026 (giờ máy chủ)<br><br><strong>▼// Điều Kiện Tham Gia&nbsp;<br></strong>· Cấp Đặc Quyền ≥ 40&nbsp;<br>· Hoàn thành nhiệm vụ chính [Chương I Tiến Trình II: Mở Đường]<br><br><strong>▼// Chi Tiết Cập Nhật Mùa&nbsp;<br></strong>Mùa mới [Mùa Phân Tán] chính thức ra mắt, bổ sung 3 ải mới. Mùa này gồm 3 đợt, mỗi đợt có 3 ải.<br><br>※ Múi Giờ Máy Chủ Asia: UTC+8&nbsp;<br>※ Múi Giờ Máy Chủ Americas / Europe: UTC-5&nbsp;<br>※ Để biết thêm chi tiết sự kiện, vui lòng kiểm tra [Trung Tâm Sự Kiện] trong game.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "3029",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1795449600,
+            "focus": 0,
+            "title": "Nhật Ký Mở Đường\\n[Thánh Cảnh Mặc Họa]",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261124/f490114d5d42968f93fc1e1ccbb9cd6f.png",
+              "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fevent.skport.com%252Factivity%252Fendfield_data_report%252Fsanctuary%253Fheader%253D0%2526hg_media%253Dgame%2526hg_link_campaign%253Dannouncement%2526hg_link_name%253Dpioneerlog",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "2198",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1795433400,
+            "focus": 0,
+            "title": "Cập Nhật Tiện Ích Chỉ Số Game Discord",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261120/0fc13710a82657a80efb9e7c68e5faaa.jpg",
+              "link": "https://endfield.gryphline.com/special/discord-binding",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1365",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1794542400,
+            "focus": 0,
+            "title": "Official Illustration Collection Vol.1",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261112/e7e0d5ae6fc3f1246d7301be960fab00.jpg",
+              "link": "https://store.gryphline.com",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "9850",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1792555200,
+            "focus": 0,
+            "title": "New Official Merch Now Available",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261019/c90828e96ead70b0106ac799a8b03d5c.png",
+              "link": "https://store.gryphline.com",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7271",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1792036800,
+            "focus": 0,
+            "extraData": {},
+            "title": "Trang Web\\nNạp Tiền Chính Thức\\nĐã Mở",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260928/09d8abbc981d3544bc87e241fae5f5af.png",
+              "link": "https://topup.gryphline.com/endfield?u8_token={u8_token}&server_id={server}",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "0788",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1791455400,
+            "focus": 0,
+            "title": "Cập Nhật Tiện Ích Chỉ Số Game Discord",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260930/8ffa22070e10b195878a2e2d9276f589.png",
+              "link": "https://endfield.gryphline.com/special/discord-binding",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8998",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 5,
+            "displayType": "rich_text",
+            "startAt": 1769011200,
+            "focus": 0,
+            "title": "Tuyên Bố Về Chơi Công Bằng",
+            "header": "Tuyên Bố Về Chơi Công Bằng Của Arknights: Endfield",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260121/8ed8156fa31ab47fe885c3aef4205394.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">Cảm ơn bạn đã luôn quan tâm và ủng hộ Arknights: Endfield. Nhằm duy trì một môi trường chơi game lành mạnh, công bằng và bảo vệ quyền lợi hợp pháp của tất cả người chơi, chúng tôi xin nhắc lại một số nội dung quan trọng sau:</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">1. Nghiêm cấm tuyệt đối việc gian lận, sử dụng công cụ bất hợp pháp của bên thứ ba, nạp tiền trái phép hoặc bất kỳ phương thức không chính đáng nào làm ảnh hưởng đến tính toàn vẹn của trò chơi hoặc vi phạm Điều khoản Dịch vụ Trò chơi. Dựa trên hệ thống giám sát phía máy chủ và các báo cáo từ người chơi, nếu phát hiện và xác nhận vi phạm, chúng tôi sẽ áp dụng các biện pháp xử lý phù hợp tùy theo mức độ, bao gồm nhưng không giới hạn ở việc thu hồi lợi ích bất hợp pháp, tạm khóa tài khoản hoặc khóa tài khoản vĩnh viễn.</span></p><p><span style=\"color: rgb(31, 35, 41);\">2. Để bảo vệ quyền lợi hợp pháp của tất cả người chơi, vui lòng không chuyển nhượng, chia sẻ hoặc trao đổi tài khoản game. Mọi hậu quả phát sinh từ các hành vi này, bao gồm nhưng không giới hạn ở việc mất tài khoản hoặc thất thoát tài sản trong game, người chơi sẽ tự chịu trách nhiệm.</span></p><p><span style=\"color: rgb(31, 35, 41);\">3. Nhằm bảo đảm trải nghiệm chơi game đầy đủ và công bằng, người chơi bị nghiêm cấm giải nén, chỉnh sửa hoặc can thiệp vào các tệp cài đặt của trò chơi, cũng như phát tán các tài liệu được trích xuất liên quan.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Cuối cùng, việc xây dựng một môi trường chơi game lành mạnh và công bằng cần sự chung tay của toàn thể cộng đồng người chơi. Chúng tôi mong nhận được sự hợp tác của mọi người trong việc duy trì một môi trường chơi game công bằng và trật tự. Nếu phát hiện bất kỳ hành vi vi phạm nào, vui lòng gửi báo cáo thông qua trung tâm chăm sóc khách hàng chính thức của chúng tôi.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6472",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 7,
+            "displayType": "rich_text",
+            "startAt": 1769011200,
+            "focus": 0,
+            "title": "Chính Sách Sử Dụng Tính Năng",
+            "header": "Chính Sách Sử Dụng Tính Năng",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260121/3738dcafcb69f3bbbc6e2b8b003fbe57.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">Để đảm bảo môi trường chơi game lành mạnh, vui lòng tuân thủ Điều khoản Dịch vụ của chúng tôi khi sử dụng các tính năng liên quan đến Khu Phức Hợp Công Nghiệp Tự Động. Vui lòng không đăng tải hoặc tham gia vào nội dung liên quan đến:</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">1. Phân biệt đối xử dựa trên khu vực, chủng tộc, khuynh hướng tình dục, tôn giáo, chính trị, v.v.</span></p><p><span style=\"color: rgb(31, 35, 41);\">2. Phỉ báng, xúc phạm hoặc xâm phạm quyền của người khác</span></p><p><span style=\"color: rgb(31, 35, 41);\">3. Hành vi tục tĩu, bạo lực, cờ bạc hoặc thù hận</span></p><p><span style=\"color: rgb(31, 35, 41);\">4. Bất kỳ nội dung nào bị cấm hoặc bị coi là không phù hợp theo Điều khoản Dịch vụ</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Nếu bạn vi phạm bất kỳ hành vi nào nêu trên, bạn có thể bị áp dụng các hình phạt, bao gồm xóa các vật phẩm được đặt trong Khu Phức Hợp Công Nghiệp Tự Động, hạn chế các tính năng của Nhà Máy Khu Phức Hợp và tạm ngưng tài khoản. Để báo cáo vi phạm, xin sử dụng nút [Báo cáo] hoặc liên hệ với bộ phận hỗ trợ khách hàng.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Nếu bạn sử dụng tính năng [Chia Sẻ Bản Vẽ], bạn sẽ được nhận một [Mã Bản Vẽ] để các Quản Đốc Endfield khác có thể xem và sử dụng [Bản Vẽ] của bạn. Trước khi bắt đầu, xin lưu ý: bằng cách chia sẻ [Mã Bản Vẽ] của mình, bạn sẽ cho phép mọi người xem, sao chép hoặc sử dụng thiết kế của bạn. Vui lòng cân nhắc kỹ trước khi chia sẻ.</span></p><p></p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user.gryphline.com/en-us/protocol/plain/endfield/game/terms_of_service\">Terms of Service</a></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6474",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 12,
+            "displayType": "rich_text",
+            "startAt": 1769036400,
+            "focus": 0,
+            "title": "Phế Tích Khắc Dẫn",
+            "header": "[Phế Tích Khắc Dẫn] Chi Tiết Lối Chơi",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260117/be4b8a4eaa88027add7c5b04373774aa.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Thời Gian Mở</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Sau khi chính thức phát hành</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Phần Thưởng Khám Phá</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Trong thời gian mở [Phế Tích Khắc Dẫn], hãy đạt chỉ số tác chiến chỉ định để nhận phần thưởng gồm: [Oroberyl], [Vé Chiêu Mộ Cơ Bản] và [vật liệu tiến trình].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Yêu Cầu Tham Gia</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Hoàn thành nhiệm vụ chính [Chương I Tiến Hành III: Bí Ẩn Trong Tòa Nhà]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Chi Tiết Lối Chơi</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· [Phế Tích Khắc Dẫn] là hoạt động luôn mở, bạn sẽ lên Dijiang để tiến vào và thám hiểm [Dị Thể Thung Lũng]. Trong lúc thám hiểm, hãy nhận và hoàn thành các ủy thác khác nhau để mở khóa Công Nghệ Hỗ Trợ Khám Phá, giúp nâng cao khả năng thám hiểm Dị Thể Thung Lũng và nhận các phần thưởng bao gồm cả [Oroberyl].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Hoàn thành ủy thác chỉ định hoặc mang [khối lắng đọng] ra khỏi Dị Thể Thung Lũng để nhận chỉ số tác chiến. Hãy tích lũy đủ chỉ số tác chiến để nhận phần thưởng.</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Để biết thêm thông tin chi tiết, vui lòng mở màn hình [Phế Tích Khắc Dẫn] trong game và nhấn vào [Chi Tiết Lối Chơi].</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "3080",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 19,
+            "displayType": "rich_text",
+            "startAt": 1769036400,
+            "focus": 0,
+            "title": "Hướng Dẫn Công Cụ Chơi",
+            "header": "Arknights: Endfield - Hướng Dẫn Công Cụ Chơi",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260120/68e9304364c0771ffa58988380d99261.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>[Báo Danh Hằng Ngày]</strong></p><p>Công Cụ Báo Danh Hằng Ngày cho phép bạn báo danh hằng ngày để nhận các phần thưởng như Oroberyl, Ghi Chú Chiến Đấu Cao Cấp, Bộ Kiểm Tra Vũ Khí, Protoprism và Phiếu Ghi Nợ Talosia. Hãy liên kết nhân vật của bạn và khi hoàn thành 3 lần báo danh đầu tiên, bạn sẽ nhận thêm 300 Oroberyl thưởng!</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/endfield/sign-in\">Đi</a></p><p></p><p><strong>[WIKI]</strong></p><p>WIKI là một công cụ với nội dung được xây dựng và duy trì nhờ nỗ lực chung của cộng đồng Endministrator. Đây là nguồn tham khảo tiện lợi và chi tiết để tra cứu thông tin trong trò chơi.</p><p>Tại đây, bạn có thể xem thông tin cơ bản về Đặc Vụ và vật phẩm, Hồ Sơ Vũ Khí, cùng nhiều nội dung khác.</p><p>WIKI hiện vẫn đang trong quá trình phát triển và hoàn thiện, vì vậy nếu bạn phát hiện bất kỳ vấn đề hay lỗi nào, vui lòng nhấn vào nút [Phản Hồi] ở góc dưới bên phải của trang chính để gửi phản hồi.</p><p>Thông tin hiển thị trong WIKI hiện tại chính xác theo Beta Test II, tuy nhiên nội dung thực tế trong trò chơi có thể có thay đổi.</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wiki.skport.com/endfield\">Đi</a></p><p></p><p><strong>[Công Cụ Bản Đồ]</strong></p><p>Công cụ bản đồ cung cấp cái nhìn toàn diện về các tài nguyên và công trình trong trò chơi, cho phép người chơi tìm kiếm, lọc và xác định những khu vực đáng quan tâm.</p><p>Không chỉ dừng lại ở việc hiển thị thùng lưu trữ, vật phẩm sưu tầm, kẻ địch và các nội dung quan trọng tương tự, sau khi đăng nhập, bạn còn có thể xem zipline, Cột Điện và những công trình do chính bạn xây dựng. Tất cả những điều này giúp hành trình khám phá Talos-II của bạn trở nên dễ dàng và thuận tiện hơn rất nhiều.</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/map/endfield\">Đi</a></p><p></p><p><strong>[Giao Thức Terminal]</strong></p><p>Giao Thức Terminal mang đến cho người chơi một phương tiện thuận lợi để tra cứu dữ liệu trong trò chơi, chẳng hạn như thông tin về Đặc Vụ và phát triển khu vực. Tại đây, bạn có thể theo dõi chỉ số Tỉnh Táo, tiến độ Nhiệm Vụ Hằng Ngày, cùng nhiều dữ liệu thời gian thực khác - tất cả đều nằm trong tầm tay.</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/endfield/game-data?header=0\">Đi</a></p><p></p><p><strong>[Hướng Dẫn Xây Dựng, Lựa Chọn Đội]</strong></p><p>Những công cụ chơi này mang đến cho các Endministrator nguồn thông tin tham khảo phong phú, bao gồm thiết lập đội hình, gợi ý kỹ năng và chiến thuật chiến đấu. Hãy khám phá các đội hình do những người chơi Arknights: Endfield đầy đam mê khác chia sẻ, và đừng quên thả nút \"thích\" cho những lựa chọn bạn yêu.</p><p>Chúng tôi hy vọng những công cụ chơi này sẽ giúp các Endministrator nhanh chóng xây dựng đội hình hoàn hảo, sẵn sàng đối mặt với mọi thử thách phía trước!</p><p><span style=\"color: rgb(0, 0, 0);\"><strong>Mở Arknights: Endfield, truy cập [Đồng Bộ Hóa Giao Thức], rồi nhấn nút Công Cụ Chơi.</strong></span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7222",
+            "type": 0,
+            "tab": "news",
+            "orderType": 2,
+            "orderWeight": 20,
+            "displayType": "picture",
+            "startAt": 1769040000,
+            "focus": 0,
+            "title": "Tài Khoản Mạng Xã Hội Chính Thức",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260121/14c54270e5402a74e31d3a0748dcc231.jpg",
+              "link": "https://ef-webview.gryphline.com/act/social-media?u8_token={u8_token}&server={server}",
+              "linkType": 2
+            }
+          }
+        ]
+      },
+      "msg": ""
+    }
   }
 ]
