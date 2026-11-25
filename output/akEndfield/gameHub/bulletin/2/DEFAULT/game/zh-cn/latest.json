@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:#DEFAULT:2:#DEFAULT:zh-cn",
-      "version": "eac43c144dd5296386eabf56ab677d59",
+      "version": "0bd3b3a2a128bc6f310cb3c60ea8807d",
       "onlineList": [
         {
           "cid": "5404",
@@ -29,6 +29,12 @@
         {
           "cid": "4597",
           "version": 1793708723,
+          "needRedDot": true,
+          "needPopup": false
+        },
+        {
+          "cid": "3925",
+          "version": 1795522831,
           "needRedDot": true,
           "needPopup": false
         },
@@ -160,7 +166,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1795573858,
+      "updatedAt": 1795579200,
       "list": [
         {
           "cid": "5404",
@@ -194,6 +200,24 @@
           "data": {
             "url": "https://web.hycdn.cn/upload/image/20261103/a2fdf452f5018cf305a05b9d6b5abf1c.jpg",
             "link": "https://market.m.taobao.com/app/tb-shop/shop-page-webapp/pages/custom-page/index.html?shopId=414690138&sellerId=2221386384051&pageId=476096550&pathInfo=shop/activity2&isShopDomain=true",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "3925",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "picture",
+          "startAt": 1795579200,
+          "focus": 0,
+          "title": "完成高校认证\\n领专属福利",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web.hycdn.cn/upload/image/20261124/2161f9558b9a31038c39b7931355790d.png",
+            "link": "https://endfield.hypergryph.com/activity/campus-auth/?source_from=game&u8_token={u8_token}&server={server}",
             "linkType": 1
           }
         },
