@@ -18,8 +18,14 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-tw",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-tw",
-      "version": "c522785d4397935f1a99e50b6a207db0",
+      "version": "3be29bda99a63328d22a89284b7407c9",
       "onlineList": [
+        {
+          "cid": "4695",
+          "version": 1795575817,
+          "needRedDot": false,
+          "needPopup": false
+        },
         {
           "cid": "0770",
           "version": 1795521319,
@@ -166,8 +172,25 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1795572000,
+      "updatedAt": 1795575818,
       "list": [
+        {
+          "cid": "4695",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1795575600,
+          "focus": 0,
+          "title": "已知問題說明",
+          "header": "「穿越甚大蘑境與你相逢」版本已知問題說明",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261015/835953c6eb0d288955727c9006189bf3.png\" data-width=\"1650\" data-height=\"300\"><p>親愛的管理員：<br>為了協助各位管理員更順利地體驗遊戲內容，現將已知問題進行彙整。在遊戲過程中，如管理員遇到相同問題，請參考對應的解決方式進行處理。<br><br>▼//遊戲已知問題</p><p>· 已知【高容量武陵電池】的文本描述有誤，該電池通過設備封裝獲得，可用於發電和設備充能，無法作為交易貨品進行據點交易。後續更新將修正道具描述，使其與實際用途一致。</p><p><br><span style=\"color: rgb(0, 0, 0);\">目前我們已定位該問題並將盡快修復，由此帶來的不便深表歉意。</span><span style=\"color: rgb(31, 35, 41);\">如遇到其他問題，還請管理員透過聯絡遊戲內客服等方式回報。再次感謝管理員對《明日方舟：終末地》一直以來的關注與支持！</span></p>",
+            "linkType": 1
+          }
+        },
         {
           "cid": "0770",
           "type": 0,

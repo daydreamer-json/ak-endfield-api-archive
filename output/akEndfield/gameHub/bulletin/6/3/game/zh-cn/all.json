@@ -209861,5 +209861,621 @@
       },
       "msg": ""
     }
+  },
+  {
+    "updatedAt": "2026-11-25T03:04:20.498+00:00",
+    "req": {
+      "channel": 6,
+      "server": 3,
+      "type": 0,
+      "lang": "zh-cn",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "code": 0,
+      "data": {
+        "topicCid": "0093",
+        "type": 0,
+        "platform": "Windows",
+        "server": "3",
+        "channel": "#DEFAULT",
+        "subChannel": "#DEFAULT",
+        "lang": "zh-cn",
+        "key": "0:Windows:3:#DEFAULT:#DEFAULT:zh-cn",
+        "version": "3be29bda99a63328d22a89284b7407c9",
+        "onlineList": [
+          {
+            "cid": "4695",
+            "version": 1795575817,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "0770",
+            "version": 1795521319,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "4697",
+            "version": 1795509994,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "7272",
+            "version": 1795168775,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "8947",
+            "version": 1795057306,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6411",
+            "version": 1795429868,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "7263",
+            "version": 1795509983,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "4696",
+            "version": 1795509918,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "3030",
+            "version": 1795517760,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "2188",
+            "version": 1795500657,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6412",
+            "version": 1795509990,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "5505",
+            "version": 1795502336,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1364",
+            "version": 1795517752,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "8939",
+            "version": 1795431420,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "3029",
+            "version": 1795514383,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "2198",
+            "version": 1795517746,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1365",
+            "version": 1794538207,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "9850",
+            "version": 1792388814,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "7271",
+            "version": 1793898000,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "0788",
+            "version": 1790763677,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "8998",
+            "version": 1769005692,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6472",
+            "version": 1769044240,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6474",
+            "version": 1769005934,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "3080",
+            "version": 1782469292,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "7222",
+            "version": 1782469106,
+            "needRedDot": true,
+            "needPopup": false
+          }
+        ],
+        "popupVersion": 0,
+        "updatedAt": 1795575818,
+        "list": [
+          {
+            "cid": "4695",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795575600,
+            "focus": 0,
+            "title": "已知问题说明",
+            "header": "「穿越甚大蘑境与你相逢」版本已知问题说明",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261015/6eba1a620a8d9f6f70c68d07d77a1329.png\" data-width=\"1650\" data-height=\"300\"><p>亲爱的管理员：<br>为了帮助各位管理员更顺利地体验游戏内容，现将已知问题进行汇总。在游戏过程中，如管理员遇到相同问题，请您参考对应的解决方式进行处理。<br><br>▼//游戏已知问题</p><p>· <span>已知【高容武陵电池】的文本描述有误，该电池通过设备封装获得，可用于发电和设备充能，无法作为交易货品进行据点交易。后续更新将修正道具描述，使其与实际用途一致。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">目前我们已定位该问题并将尽快修复，由此带来的不便深表歉意。如遇到其他问题，还请管理员通过游戏内客服等方式提供反馈。再次感谢管理员对《明日方舟：终末地》一直以来的关注与支持！</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "0770",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795568400,
+            "focus": 0,
+            "title": "版本更新说明",
+            "header": "「穿越甚大蘑境与你相逢」版本更新说明",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261124/cdf1c63b14faf9bc2fc66f2dd5244bb7.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">终于……终于……一切的相逢在穿越“蘑境”之后。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">亲爱的管理员：</span></p><p><span style=\"color: rgb(0, 0, 0);\">欢迎来到全新版本「穿越甚大蘑境与你相逢」！</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//更新维护及补偿说明</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 更新维护时间</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Asia服务器：2026/11/25 06:00 - 2026/11/25 12:00（UTC+8）</span></p><p><span style=\"color: rgb(0, 0, 0);\">Americas / Europe服务器：2026/11/24 17:00 - 2026/11/24 23:00 (UTC-5)</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ 维护后的开服时间存在提前或延迟的可能，详情请关注官方公告。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 更新维护及问题修复补偿说明</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 更新维护补偿内容：【嵌晶玉】×900</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 问题修复补偿内容：【嵌晶玉】×900</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 发放时间：更新维护后 - 下次版本更新维护前</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 发放条件：更新前创建角色</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 发放说明：更新维护补偿及问题修复补偿将在解锁【邮箱】功能后，通过游戏内邮件分两封发放，邮件将于下次版本更新维护时过期，请注意及时领取。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 更新说明</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">本次更新为强制更新，更新结束后，需重新下载并安装游戏客户端。版本更新维护开始后，管理员可依照游戏内指引进行更新。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· iOS：进入App Store，点击更新。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 安卓：进入游戏后，按照游戏内弹窗提示完成更新。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· PlayStation®5：打开系统界面，选择《明日方舟：终末地》，按下控制器“选项（OPTIONS）键”，选择“检查更新”选项，确认更新。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· PC：关闭游戏后，重启鹰角启动器并点击更新。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>※ 「穿越甚大蘑境与你相逢」版本更新后，部分更新内容将随时间及管理员的探索进度逐一解锁，实际更新内容请以游戏内为准。</strong></span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//版本全新内容</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 全新剧情</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1.探索任务</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">「走近巨菇」</span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2.支线任务</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">「蜜饼是我的祈愿」「醉后派对」「重建家园·其一」「重建家园·其二」「重建家园·其三」</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 全新干员</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">6星干员【小刻】、5星干员【米米诺】</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 全新武器</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">6星武器【甜美交易（长柄武器）】【突击流星（长柄武器）】、5星武器【明日之星（手铳）】</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 全新敌人</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">「碾菇虬兽」「储菌」「碾菇破城者」「碾菇先锋」</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 全新区域</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">「武陵 - 旧水坝」</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 全新寻访及申领</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1.「锻砧、行囊与蜜糖」特许寻访</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 开放时间：「穿越甚大蘑境与你相逢」版本更新后 - 2026/12/23 11:59（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 寻访说明：「锻砧、行囊与蜜糖」特许寻访中，6星干员【小刻】获取概率提升，全部可能出现的6星干员包括：小刻/明河/祀/余烬/黎风/艾尔黛拉/别礼/骏卫。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 特许寻访开放期间，还将开放6星干员【小刻】的「作战演练」干员试用活动。使用包含试用干员的固定队伍体验指定关卡，完成后可前往【活动中心】界面领取【嵌晶玉】×100、【武库防具箱】及【存续的痕迹】等奖励。其中，【武库防具箱】内包含较为适配当期试用干员的特殊满精锻60级套组装备。【集成配额交易】中也新增【漫野探奇寻访凭证】的特惠兑换，最多可兑换【漫野探奇寻访凭证】×5。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2.「恣游申领」开放</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 开放时间：「穿越甚大蘑境与你相逢」版本更新后开启，于3次「特许寻访」后结束（从「锻砧、行囊与蜜糖」起计算）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 申领说明：「恣游申领」中，概率提升的6星武器为【甜美交易（长柄武器）】，全部可能出现的6星武器包括：甜美交易（长柄武器）/扶摇（单手剑）/骁勇（长柄武器）/J.E.T.（长柄武器）/爆破单元（施术单元）/楔子（手铳）/昔日精品（双手剑）。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>3.「致每一个飘游之愿」重构寻访1</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 开放时间：「穿越甚大蘑境与你相逢」版本更新后 - 2026/12/16 11:59（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 寻访说明：「致每一个飘游之愿」重构寻访1中，6星干员【洁尔佩塔】获取概率提升，全部可能出现的6星干员包括：洁尔佩塔/余烬/黎风/艾尔黛拉/别礼/骏卫。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>4.「飘行申领」重构申领1开放</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 开放时间：「穿越甚大蘑境与你相逢」版本更新后 - 2026/12/16 11:59（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 申领说明：「飘行申领」重构申领1中，概率提升的6星武器为【使命必达（施术单元）】，全部可能出现的6星武器包括：使命必达（施术单元）/骑士精神（施术单元）/遗忘（施术单元）/楔子（手铳）/热熔切割器（单手剑）/白夜新星（单手剑）/典范（双手剑）。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>5.「绯红瑰宝」重构寻访1</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 开放时间：2026/12/16 12:00（服务器时间） - 版本更新维护前</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 寻访说明：「绯红瑰宝」重构寻访1中，6星干员【洛茜】获取概率提升，全部可能出现的6星干员包括：洛茜/余烬/黎风/艾尔黛拉/别礼/骏卫。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>6.「赤獠申领」重构申领1开放</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 开放时间：2026/12/16 12:00（服务器时间） - 版本更新维护前</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 申领说明：「赤獠申领」重构申领1中，概率提升的6星武器为【狼之绯（单手剑）】，全部可能出现的6星武器包括：狼之绯（单手剑）/扶摇（单手剑）/显赫声名（单手剑）/楔子（手铳）/昔日精品（双手剑）/爆破单元（施术单元）/骁勇（长柄武器）。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 全新活动</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1.「蜜饼是我的祈愿」叙事活动</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动时间：「穿越甚大蘑境与你相逢」版本期间</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动说明：完成支线任务「蜜饼是我的祈愿」，可获得【嵌晶玉】×600、【初级认知载体】等奖励。</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ 叙事活动的活动页面下线后，若满足任务参与条件，仍可在【任务】中继续体验该支线任务并获得对应奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2.「阵列建设：旧伤弥合」建设活动</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动时间：「穿越甚大蘑境与你相逢」版本期间</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动说明：活动期间，推进任务，解锁「重建禁区」玩法和相关工业技术，通过集成工业系统生产重建禁区所需的物资，推动建设进度并完成建设任务，即可获得【嵌晶玉】×1000、【高阶培养自选箱Ⅱ】、【存续的痕迹】、【起源锻造液·Ⅰ型】、【高级认知载体】等活动奖励。</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ 「阵列建设：旧伤弥合」建设活动结束后，将无法完成建设任务或领取对应奖励，但仍可游玩「重建禁区」，获取建设进度奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>3.「漫野探奇」签到活动</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动时间：「穿越甚大蘑境与你相逢」版本更新后 - 2026/12/23 11:59（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动说明：累计签到7日，即可获得【漫野探奇寻访凭证】×5等奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>4.「蘑菇！蕈类！真菌！」引入活动</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动时间：「穿越甚大蘑境与你相逢」版本更新后 - 2026/12/23 12:00（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动说明：前往「武陵」地区的「旧水坝」区域完成指定任务，即可领取【嵌晶玉】×1200、【存续的痕迹】活动奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>5.「理智补给」限时活动</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动时间：</span></p><p><span style=\"color: rgb(0, 0, 0);\">Asia服务器：</span></p><p><span style=\"color: rgb(0, 0, 0);\">2026/12/09 04:00 - 2026/12/16 04:00（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">2026/12/31 04:00 - 2027/01/07 04:00（服务器时间）</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Americas / Europe服务器：</span></p><p><span style=\"color: rgb(0, 0, 0);\">2026/12/09 04:00 - 2026/12/16 04:00（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">2026/12/31 04:00 - 2027/01/06 17:00（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动说明：活动期间，每日完成指定任务即可领取理智补给奖励【理智消耗许可】及【应急理智加强剂】。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>6.「方兴！竞技大会！」挑战活动</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动时间：2026/12/16 12:00（服务器时间） - 版本更新维护前</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动内容更新时间：2026/12/18 04:00（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动说明：活动期间，完成一系列挑战关卡，即可领取【嵌晶玉】×1200、【头像框·摘冠者的耀星】、【高阶培养自选箱Ⅱ】、【存续的痕迹】、【高级认知载体】等活动奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>7.「“幸运萝卜”的妙趣游乐」趣味活动</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动时间：2026/12/16 12:00（服务器时间） - 版本更新维护前</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动内容更新时间：2026/12/23 04:00（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动说明：活动期间，体验“巫术乐园”系列娱乐产品，完成游乐挑战获得【萝卜大钞】，消耗【萝卜大钞】可在「纪念品兑换处」兑换【嵌晶玉】×1000、【高阶培养自选箱Ⅱ】、【存续的痕迹】、【高级认知载体】等活动奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>8.「行军者的报到」馈赠活动</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动时间：2026/12/16 12:00（服务器时间） - 版本更新维护前</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动说明：活动期间登录游戏，参与各类玩法，即可领取全新满潜能5星干员【米米诺】及全新满潜能5星武器【明日之星（手铳）】。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>9.「分拣吧！管礼员」趣味活动</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动时间：2026/12/23 12:00（服务器时间） - 版本更新维护前</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动说明：前往网页活动，对传送带上的礼盒进行分拣，体验不同关卡，可领取【嵌晶玉】×300、【折金票】活动奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 活动及玩法更新</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1.「战争回响」常驻挑战玩法更新</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>○「游离赛季」</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 赛季更新：「穿越甚大蘑境与你相逢」版本更新后 - 2026/12/16 11:59（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 更新说明：全新赛季「游离赛季」开放，该赛季分为3个轮换周期，每个轮换周期包含3个关卡。「游离赛季」新增3个关卡，完成所有新增关卡的普通难度即可领取【嵌晶玉】×300等奖励。</span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>○「警觉赛季」</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 赛季更新：2026/12/16 12:00（服务器时间） - 版本更新维护前</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 更新说明：全新赛季「警觉赛季」开放，该赛季分为3个轮换周期，每个轮换周期包含3个关卡。「警觉赛季」新增3个关卡，完成所有新增关卡的普通难度即可领取【嵌晶玉】×300等奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2.「影拓丰碑」挑战玩法更新，开放「暴君武装」特殊系列关卡</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 开放时间：2026/12/02 12:00（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 更新说明：本次「影拓丰碑」挑战玩法更新1个新特殊系列「暴君武装」，挑战中将直面更强大的领袖敌人。率先开放1个关卡，并在2026/12/09 04:00（服务器时间）后开放第2个关卡，每个关卡分为多种难度。完成全部关卡所有难度的挑战，累计可获得【存续的痕迹】【高阶培养自选箱Ⅱ】【高级认知载体】等奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>同时，玩法更新后还将同步开放「丰碑揭示·暴虐」限时挑战活动</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动时间：2026/12/02 12:00 - 2026/12/23 04:00（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动内容更新时间：2026/12/09 04:00（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动说明：「暴君武装」系列开放后，将开启「丰碑揭示·暴虐」限时活动。活动期间在「影拓丰碑」完成对应挑战，即可领取【嵌晶玉】×1200、【高阶培养自选箱Ⅱ】等活动奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>3.「密境行者」特别篇 空间组更新</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 更新时间：2026/12/27 12:00（服务器时间）</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 更新说明：「密境行者」解谜活动将更新特别篇——新空间组「菌类秘事」，开放3个协议空间。完成该空间组挑战，累计可领取【嵌晶玉】×600、【存续的痕迹】等活动奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 采购中心更新</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 开放「协议通行证·蘑境」，「穿越甚大蘑境与你相逢」版本期间，管理员可在「协议通行证」中获得武库工程师列出的各类支援项目。每期协议通行证开启时，将默认解锁「基础配给」。提升通行证等级，可获得【基础寻访凭证】【嵌晶玉】【兑换惊喜箱】【培养素材】等奖励。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 【采购中心 - 组合包】新增【漫野寻访组合包】【协议源流组合包】；【特惠武库配额包】可购买次数更新。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 集成工业系统</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 新增【武陵多痕刻写箱】，使用后可获得一个包含三条自定义属性的基质。在「武陵 - 应龙关」的物资调度终端升至4级后，可使用【武陵调度券】购买【武陵多痕刻写箱】×1。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 「武陵」地区建设等级上限提升；「武陵 - 旧水坝」开放次级核心部署；「武陵物资调度」中新增部分可兑换物资。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 武陵工业新增阵列相关工业模式，新增阵列相关工业规划，包括【明炉燃火】【重建供应】【晦型扩展】【清浊平衡】【明晦相叠】【明晦分影】【洪炉扩容Ⅴ】等以及新增对应工业设备，同步新增相关模拟空间与系统蓝图。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 新增「重建禁区」玩法：完成任务「重建家园·其二」后解锁。通过集成工业系统生产重建物资并输入【重建供应端口】，即可推动「北部禁区」的重建阶段，并提升「武陵」地区发展度。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 系统</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 新增【蜜饼飞行】玩法：管理员可在「武陵 - 旧水坝」区域放飞并操控蜜饼，飞行中的蜜饼可以收集醚质；蘸取不同的孢子后，蜜饼会获得不同效果，例如蘸取清凉孢子可识破并驱散幻觉墙。同时，【设置 - 控制器】中新增【飞行器俯仰操作翻转】选项。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 【塔晶集换】更新兑换内容，新增部分【装备制造模板】【随身装置】【装饰物品】【拍照动作】【唱片】等物品。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 其他</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 新增部分【干员教学】【能量淤积点】【NPC】【蚀刻章】【名片主题】【头像】【头像框】【滤镜】【贴纸】【消耗品】【材料】【理智药剂】【百科条目】【情报档案】【随身装置】【装饰物品】【唱片】【拍照动作】【地区醚质提交阶段】等内容，将随管理员的进度逐渐解锁。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 装备套组【涉渊】【拓荒】【长息】【集成实训】新增部分装备部件。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 新增珍贵培养素材【起源锻造液·Ⅰ型】。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ 更多详细说明，请前往游戏内查看。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//优化与调整</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 战斗</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 优化了特定情况下，敌人【聂菲斯】的特效表现。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 集成工业系统</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 优化了【物品准入口】及【管道准入口】的放置方式。无需预先连接传送带或管道，可直接放置于设备的传送带口或管道口处，并自动吸附，调整朝向。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 系统</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 优化了【干员 - 能力扩延】界面的升级提示。当所需消耗材料的种类较多时，材料消耗栏将优先展示数量不足的材料。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 其他</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 优化了部分界面的显示效果、特效表现、交互逻辑、文本描述。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 优化了特定情况下，部分干员的模型、服饰、特效、动作、镜头等的表现。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//问题修复</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 任务</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 修复了在支线任务「噩梦潜入雪地」中，管理员的连携技命中带有【层叠护盾】的敌人时，有概率无法正常造成伤害的问题。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 战斗</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 修复了特定情况下，干员施放终结技时被异常打断的问题。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 修复了6星干员【祀】的【墨魂】在特定情况下被处决时，表现异常的问题。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 修复了特定操作导致6星干员【祀】的战技中，【收笔】造成的伤害异常的问题。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 修复了5星干员【阿列什】使用战技冻结并击败敌人时，6星干员【祀】的连携技无法正常触发的问题。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 修复了通过特定操作连续施放6星干员【提弗洛斯】的连携技时，后施放的箭阵无法正常提高敌人受到的自然爆发伤害的问题。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 修复了特定情况下，6星干员【提弗洛斯】施放战技后浮空状态异常的问题。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 活动及玩法</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 修复了特定情况下，在常驻挑战玩法「战争回响」的关卡【兽群记录：清波寨】中，6星干员【诀】处于【阵诀·智】形态时有概率无法触发连携技的问题。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 修复了特定情况下，在常驻玩法「影拓丰碑」的关卡【幽影刻形 - 沛然轰鸣】中，6星干员【祀】的【笔意】记录的伤害数值异常的问题。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 系统</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 修复了特定情况下，在【行动手册 - 节点03】中点击任务【自定义制作并保存蓝图1次】后跳转至地图时，地图显示异常的问题。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ 其他</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 修复了特定操作导致6星干员【祀】的状态图标显示异常的问题。</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "4697",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "「穿越甚大蘑境与你相逢」\\n版本日历",
+            "header": "「穿越甚大蘑境与你相逢」版本日历",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/5b3a0b628c3f63d42e0b2320b70fe082.jpg\" data-width=\"1920\" data-height=\"3220\"><p></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7272",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795262400,
+            "focus": 0,
+            "title": "新版本导览",
+            "header": "新版本导览网页已上线",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261120/f02437501023e05a036d3fdbd5834bde.jpg\" data-width=\"1650\" data-height=\"300\"><p>「穿越甚大蘑境与你相逢」新版本导览专题网页已上线。<br>一站式查阅新版本内容，浏览即可领取【嵌晶玉】×1000、【折金票】×10000、【初级认知载体】×8、【武器检查套组】×4。<br>领取时间：2026/11/21 20:00 - 2026/11/25 06:00（UTC+8）。<br><br><strong>▼//网页入口链接</strong><br>管理员可通过下方链接进入新版本导览专题网页。<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://endfield.gryphline.com/version_briefing/latest?u8_token={u8_token}&amp;server={server}\">&gt;&gt;点击前往</a><br><br><strong>▼//网页上线时间</strong><br>· 新版本导览专题网页自2026/10/06 20:00（UTC+8）起长期可浏览，内容将随游戏版本替换。<br>· 每期新版本导览专题网页的展示时间为对应版本前瞻预告节目播出后，至下一版本前瞻预告节目结束前。<br><br><strong>▼//奖励领取条件</strong><br>· 在新版本导览专题网页中登录游戏账号，并在《明日方舟：终末地》内完成创建角色。<br><br><strong>▼//奖励领取说明</strong><br>· 在奖励领取期限内，新版本导览专题网页中将展示奖励领取按钮；超过该期限后，按钮将不再展示，且无法领取当期奖励。<br>· 成功在新版本导览专题网页领取奖励后，相应奖励将发放至当前登录账号的角色邮箱。<br>· 同一期新版本导览奖励，每个游戏账号仅可获取一次。<br><br>※ 更多详细说明，请前往网页内查看。</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8947",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795013400,
+            "focus": 0,
+            "extraData": {},
+            "title": "特别答谢\\n致管理员",
+            "header": "特别答谢 | 致管理员的谢礼",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261119/cc0f8d4b939fbc6c1d6de8374b9d3c4a.png\" data-width=\"1650\" data-height=\"300\"><p>亲爱的管理员：</p><p>衷心感谢管理员一直以来的陪伴与支持！《明日方舟：终末地》荣获【Google Play 2026年度最佳游戏】及【Google Play 2026年度最佳剧情游戏】奖项。同时，也获得了【TGA 2026最佳移动游戏】及【App Store Awards 2026年度 iPad 游戏】奖项的提名。</p><p>特别答谢管理员的喜爱与肯定，项目组准备了一份谢礼。</p><p></p><p><strong>▼//致管理员的谢礼</strong></p><p>· 谢礼内容：【嵌晶玉】×3000</p><p>· 发放时间：2026/11/19 00:00（UTC+8）- 「穿越甚大蘑境与你相逢」版本结束前</p><p>· 发放条件：「穿越甚大蘑境与你相逢」版本结束前，创建游戏角色并解锁【邮箱】功能。</p><p>· 发放说明：在发放时间内，项目组将通过游戏内邮件的方式，为满足条件的管理员发放一封包含【嵌晶玉】×3000的邮件。邮件有效期为30天，请管理员及时登录游戏领取。</p><p></p><p>再次感谢管理员一直以来对于《明日方舟：终末地》的关注与支持！</p><p></p><p>《明日方舟：终末地》项目组</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6411",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 2,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "协议通行证\\n蘑境",
+            "header": "「协议通行证·蘑境」说明",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/bb34156a62fe74b287593c33e0f098f1.jpg\" data-width=\"1650\" data-height=\"300\"><p>亲爱的管理员：<br>「协议通行证·蘑境」开放期间，您可在「协议通行证」中获得武库工程师列出的各类支援项目。每期协议通行证开启时，将默认解锁「基础配给」。提升通行证等级，可获得【基础寻访凭证】【嵌晶玉】【兑换惊喜箱】【培养素材】等奖励。<br>使用【衍质源石】解锁「源石配给」后，还可额外获得【基础寻访凭证】【贴纸·黏腻与甜香】【滤镜·金色黄昏】，以及【武器补给·蘑境】【衍质源石】【应急理智加强剂】等奖励。<br>购买「协议定制」后，还可额外获得【名片·蜜境蘑城】【头像框·食用后的色彩】【头像·蕈类住民】，此外，还可额外获得【武器补给·蘑境】【武库配额】【协议化武器原型】等奖励。<br><br><strong>▼//开放时间</strong><br>「穿越甚大蘑境与你相逢」版本期间<br><br><strong>▼//开放条件</strong><br>完成主线任务「第一章 - 进程Ⅰ - 基地解围」<br><br><strong>▼//通行证说明</strong><br>· 「协议通行证」开启时，将默认解锁「基础配给」档位。管理员可购买「协议定制」或通过消耗【衍质源石】解锁「源石配给」，以解锁更丰富的奖励与通行证经验获取加成。<br>· 每一期「协议通行证」的「源石配给」和「协议定制」分别包含一个【武器补给】，获得并开启后可从当期「协议通行证」定制的6星武器中，任选其一获取。【协议化武器原型】可为所有协议通行证的【武器补给】所包含的武器提升潜能。<br>· 可通过完成各类通行证任务（部分任务会在满足相应条件时或在一定时间后逐步释出），或在【行动手册 - 日常任务】中领取活跃度达到上限时的奖励，以获取通行证经验，提升通行证等级，从而获得「协议通行证」中的各种奖励。<br>· 解锁「源石配给」或「协议定制」后，若「协议通行证」达到等级上限，仍可继续获取通行证经验。超出等级上限的通行证经验可累积以获得【循环惊喜箱】奖励。【循环惊喜箱】将在获取时自动开启，固定包含一份随机【嵌晶玉】奖励、一份随机【培养素材】奖励和一份随机【理智消耗许可】奖励。<br>· 若已解锁当期协议通行证的「源石配给」或「协议定制」，则获取通行证经验时，可分别获得3%的额外经验加成。两档经验加成可累加，最高可获得6%的额外经验加成。<br>· 如因特殊情况导致过量购买「协议定制」，「协议定制」奖励不会叠加，同时根据购买价格返还对应数量的【衍质源石】。<br>· 当期「协议通行证」结束后，若存在未领取的等级奖励，该奖励将通过邮件发送至邮箱。<br><br>※ Asia服务器时区：UTC+8<br>※ Americas / Europe服务器时区：UTC-5<br>※ 更多详细规则，请前往游戏内【通行证】查看【协议通行证说明】。<br></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7263",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 2,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "锻砧、行囊与蜜糖\\n特许寻访",
+            "header": "「锻砧、行囊与蜜糖」特许寻访",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/e5a396d145935f786fb4ff2ca8a8d861.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">亲爱的管理员：</span></p><p><span style=\"color: rgb(31, 35, 41);\">「锻砧、行囊与蜜糖」特许寻访开放期间，6星干员【小刻】获取概率提升！</span></p><p><span style=\"color: rgb(31, 35, 41);\">「漫野探奇」限时签到活动同步开放，累计签到可获得【漫野探奇寻访凭证】×5等奖励，还可在【集成配额交易】中进行【漫野探奇寻访凭证】的特惠兑换。同时，开放「作战演练」干员试用活动。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//「锻砧、行囊与蜜糖」特许寻访说明</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">· 开放时间：「穿越甚大蘑境与你相逢」版本更新后 - 2026/12/23 11:59（服务器时间）</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 开放条件：完成主线任务「第一章 - 进程Ⅰ - 基地解围」</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 「锻砧、行囊与蜜糖」特许寻访中，概率提升的6星干员为【小刻】。</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 「锻砧、行囊与蜜糖」特许寻访中，全部可能出现的6星干员包括：小刻/明河/祀/余烬/黎风/艾尔黛拉/别礼/骏卫。</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 「锻砧、行囊与蜜糖」特许寻访中，可使用【漫野探奇寻访凭证】【特许寻访凭证】或【嵌晶玉】进行寻访。</span></p><p><span style=\"color: rgb(31, 35, 41);\">※ 在「特许寻访」中概率提升的6星干员，将于3次「特许寻访」结束后，移出「特许寻访」全部可能出现的干员列表。移出后，概率提升的6星干员不会进入「基础寻访」。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//「特许寻访」奖励</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">在「锻砧、行囊与蜜糖」特许寻访中，累计达到指定寻访次数，即可获得对应奖励。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>■ 加急招募</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">· 累计寻访30次，将额外获得10次加急招募（即1次免费十连），仅在本次「特许寻访」期间生效，不会保留到其他寻访。</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 加急招募的干员获取概率与本次「特许寻访」的基础概率一致，加急招募所赠送的十连必定能通过保底获取5星或以上干员。</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 加急招募所赠送的免费十连，其抽取结果将不计入本次或其他「特许寻访」保底计数，也不会累加至「特许寻访」奖励所需的累计寻访次数中。</span></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>■ 寻访情报书</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">· 累计寻访60次，将额外获得【寻访情报书】×1。</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 【寻访情报书】在满足条件后将自动发放至贵重品库。在下一次「特许寻访」开启后，【寻访情报书】将自动转化为对应「特许寻访」的专有寻访凭证×10，此寻访凭证将在对应寻访结束后失效。</span></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>■ 信物赠礼</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">· 在每次「特许寻访」中，每累计寻访240次，将额外获得【该寻访中概率提升的6星干员的信物】×1。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//武库配额说明</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">每次通过寻访获取干员的同时，还会获得【武库配额】。</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 获取6星干员时，获得【武库配额】×2000。</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 获取5星干员时，获得【武库配额】×200。</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 获取4星干员时，获得【武库配额】×20。</span></p><p><span style=\"color: rgb(31, 35, 41);\">※ 【武库配额】可在【采购中心 - 武库交易所】中使用。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">「锻砧、行囊与蜜糖」特许寻访开放期间，还将同步开放如下内容：</span></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//「漫野探奇」限时签到活动</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">累计签到7日，即可获得【漫野探奇寻访凭证】×5等奖励。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//「作战演练」干员试用活动</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">开放6星干员【小刻】的「作战演练」干员试用活动。使用包含试用干员的固定队伍体验指定关卡，完成后可领取【嵌晶玉】×100、【武库防具箱】及【存续的痕迹】等奖励。其中，【武库防具箱】内包含较为适配当期试用干员的特殊满精锻60级套组装备。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//【集成配额交易】特别说明</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">【配额兑换所】限时开放特惠物品购买，可消耗【集成配额】购买【漫野探奇寻访凭证】×5等物品。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">※ Asia服务器时区: UTC+8</span></p><p><span style=\"color: rgb(31, 35, 41);\">※ Americas / Europe服务器时区: UTC-5</span></p><p><span style=\"color: rgb(31, 35, 41);\">※ 更多寻访详细说明，请前往游戏内【干员寻访】查看。</span></p><p><span style=\"color: rgb(31, 35, 41);\">※ 更多活动详细说明，请前往游戏内【活动中心】查看。</span></p><p><span style=\"color: rgb(31, 35, 41);\">※ 【集成配额交易】详细说明，请前往游戏内【采购中心】查看。</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "4696",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "穿越甚大蘑境与你相逢\\n组合包",
+            "header": "「穿越甚大蘑境与你相逢」组合包说明",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/967aa04213947cf70cb8dd4cbbbd6fdf.jpg\" data-width=\"1650\" data-height=\"300\"><p>亲爱的管理员：<br>「穿越甚大蘑境与你相逢」版本期间，【采购中心】将上架各类组合包。<br><br><strong>▼//限时组合包</strong><br>■ 协议源流组合包<br>· 可购买时间：「穿越甚大蘑境与你相逢」版本期间<br>· 组合包内容：【特许寻访凭证】×10、【武库配额】×2000、【存续的痕迹】×10<br>· 特殊说明：当前版本限购1次<br><br>■ 漫野寻访组合包<br>· 可购买时间：「穿越甚大蘑境与你相逢」版本更新后 - 2026/12/23 11:59（服务器时间）<br>· 组合包内容：【漫野探奇寻访凭证】×10、【折金票】×80000<br>· 特殊说明：限购1次<br><br>■ 特惠武库配额包<br>· 可购买时间：「穿越甚大蘑境与你相逢」版本期间<br>· 组合包内容：【武库配额】×2000<br>· 特殊说明：当前版本限购1次<br><br>※ Asia服务器时区：UTC+8<br>※ Americas / Europe服务器时区：UTC-5<br>※ 部分组合包可能含有限时道具。管理员可在【购买商品 - 商品内容】中查看限时道具的具体信息。如在购买组合包后，其中的限时道具因到期失效，将无法补发。感谢管理员的理解与支持。<br>※ 更多组合包及相关详细说明，请前往游戏内【采购中心 - 组合包】查看。<br></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "3030",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "阵列建设：旧伤弥合",
+            "header": "「阵列建设：旧伤弥合」建设活动说明",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261120/3ac6f159600e5db64b02410294cbe8c5.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//活动时间</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 「穿越甚大蘑境与你相逢」版本期间</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 建设提速开启时间：2026/12/31 06:00（服务器时间）</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//活动奖励</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">活动期间，推动建设进度并完成建设任务，可获得【嵌晶玉】×1000、【高阶培养自选箱Ⅱ】、【高级认知载体】、【存续的痕迹】及【起源锻造液·Ⅰ型】等活动奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//参与条件</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 完成主线任务「第二章 - 进程Ⅶ - 余晖未却」</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 完成支线任务「蜜饼是我的祈愿」</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//活动说明</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动期间，推进任务，解锁「重建禁区」玩法和相关工业技术，通过集成工业系统生产重建禁区所需的物资，推动建设进度并完成建设任务，即可获取奖励。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动最后7天，将开启建设提速，在此期间每次成功供应提供额外的建设进度。</span></p><p><span style=\"color: rgb(0, 0, 0);\">·「阵列建设：旧伤弥合」建设活动结束后，将无法完成建设任务或领取对应奖励，但仍可游玩「重建禁区」，获取建设进度奖励。请管理员注意活动时间，及时领取奖励。</span></p><p></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※Asia服务器时区: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※Americas / Europe服务器时区: UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ 更多活动详细说明，请前往游戏内【活动中心】查看。</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "2188",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "恣游申领",
+            "header": "「恣游申领」限时特卖说明",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/62c7ee4b77517a9a7adbbef241dd1a7b.png\" data-width=\"1650\" data-height=\"300\"><p>亲爱的管理员：<br>「恣游申领」开放期间，6星武器【甜美交易（长柄武器）】获取概率提升！<br><br><strong>▼//「恣游申领」</strong><br>· 开放时间：「穿越甚大蘑境与你相逢」版本更新后开启，于3次「特许寻访」后结束（从「锻砧、行囊与蜜糖」起计算）<br>· 开放条件：完成主线任务「第一章 - 进程Ⅰ - 基地解围」<br>· 「恣游申领」中，概率提升的6星武器为【甜美交易（长柄武器）】。<br>· 「恣游申领」中，全部可能出现的6星武器包括：甜美交易（长柄武器）/扶摇（单手剑）/骁勇（长柄武器）/J.E.T.（长柄武器）/爆破单元（施术单元）/楔子（手铳）/昔日精品（双手剑）。<br><br><strong>▼//「武库申领」奖励</strong><br>在每个「武库申领」中，累计达到指定申领次数，即可交替获得「武库申领」对应的【补充武库箱】或【概率提升的6星武器】。武库申领奖励计数会在每个「武库申领」关闭时清零，不会继承到其他的「武库申领」中。<br><br><strong>▼//「武库申领」说明</strong><br>· 在「武库申领」中，可使用【武库配额】进行申领。<br>· 每申领1次，可随机获得全部可能出现的武器列表中的10件武器，其中必定包含5星或以上武器。<br><br><strong>▼//「武库交易所」说明</strong><br>「武库交易所」中，可使用「武库配额」直接购买武器。部分可购买武器将不定期更新，具体内容请以【采购中心 - 武库交易所】界面显示为准。<br><br>※Asia服务器时区: UTC+8<br>※Americas / Europe服务器时区: UTC-5<br>※ 更多详细说明及奖励规则，请前往游戏内【采购中心 - 武库交易所】查看。<br></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6412",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "重构寻访\\n重构申领",
+            "header": "「致每一个飘游之愿」重构寻访1与「飘行申领」重构申领1开放",
+            "jumpButton": null,
+            "data": {
+              "html": "<p><span style=\"color: rgb(31, 35, 41);\">亲爱的管理员：</span></p><p><span style=\"color: rgb(31, 35, 41);\">「致每一个飘游之愿」重构寻访#1开放期间，6星干员【洁尔佩塔】获取概率提升！</span></p><p><span style=\"color: rgb(31, 35, 41);\">「飘行申领」重构申领#1开放期间，6星武器【使命必达（施术单元）】获取概率提升！</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//开放时间</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">「穿越甚大蘑境与你相逢」版本更新后 - 2026/12/16 11:59（服务器时间）</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//开放条件</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">完成主线任务「第一章 - 进程Ⅰ - 基地解围」</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//「致每一个飘游之愿」重构寻访#1说明</strong></span></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261123/57611b9652efb19da7bb38abff8e43c1.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\"><strong>■ 寻访说明</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">「致每一个飘游之愿」重构寻访中，概率提升的6星干员为【洁尔佩塔】。在本寻访中，前120次寻访必定能获取6星干员【洁尔佩塔】，该规则在所有「致每一个飘游之愿」重构寻访中仅生效1次。该计数将继承到后续的「致每一个飘游之愿」重构寻访中。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>■ 寻访奖励</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">「致每一个飘游之愿」重构寻访中，累计达到指定寻访次数，即可获得对应奖励。其中累计的寻访次数，将继承至后续的「致每一个飘游之愿」重构寻访中。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>· 加急招募</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">累计寻访次数达到30/60/90次时，将分别额外获得10次加急招募（即分别额外获得1次免费十连），该规则在所有「致每一个飘游之愿」重构寻访中仅生效1次。未使用的加急招募，将保留到后续的「致每一个飘游之愿」重构寻访中。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>· 信物赠礼</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">在所有「致每一个飘游之愿」重构寻访中，每累计寻访240次，可额外获得【洁尔佩塔的信物】×1。该计数将继承到后续的「致每一个飘游之愿」重构寻访中。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//「飘行申领」重构申领#1说明</strong></span></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261123/c1d0548dea1d3a5daf0ac389915b3af7.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\"><strong>■ 申领说明</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">· 「飘行申领」重构申领中，概率提升的6星武器为【使命必达（施术单元）】。</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 在本申领中，如果连续3次申领均没有获取6星武器，则第4次申领必定获得6星武器。该保底计数仅在「飘行申领」重构申领#1中生效，不会继承到其他申领（含后续的「飘行申领」重构申领）中。</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 在本申领中，如果前7次申领均没有获取概率提升的6星武器，则第8次申领必定获得概率提升的6星武器。该规则在所有「飘行申领」重构申领中仅生效1次。该保底计数将继承到后续的「飘行申领」重构申领中。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>■ 申领奖励</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">累计达到指定重构申领次数，即可交替获得【补充武库箱·飘行】或【使命必达（施术单元）】。累计的重构申领次数，将继承到后续的「飘行申领」重构申领中。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">※ Asia服务器时区: UTC+8</span></p><p><span style=\"color: rgb(31, 35, 41);\">※ Americas / Europe服务器时区: UTC-5</span></p><p><span style=\"color: rgb(31, 35, 41);\">※ 更多详细说明，请前往游戏内查看。</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "5505",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "蜜饼是我的祈愿",
+            "header": "「蜜饼是我的祈愿」小刻叙事活动说明",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261124/bb806bfa60168729ecfaf46e8697ac34.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">武陵市民近来被古怪的幻觉困扰。决定亲自调查的你，会收获什么奇妙的际遇呢……</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//活动时间</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">「穿越甚大蘑境与你相逢」版本期间</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//参与条件</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">完成主线任务「第二章 - 进程Ⅵ - 志同道合」</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//活动说明</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· 完成支线任务「蜜饼是我的祈愿」，可获得【嵌晶玉】【初级认知载体】【协议棱柱组】【武器检查套组】等奖励。</span></p><p><span style=\"color: rgb(0, 0, 0);\">· 活动页面下线后，若满足任务参与条件，仍可在【任务】中继续体验该支线任务并获得对应奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※Asia服务器时区: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※Americas / Europe服务器时区: UTC-5</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1364",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "蘑菇！蕈类！真菌！",
+            "header": "「蘑菇！蕈类！真菌！」引入活动说明",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261120/22cec973ef7009f6510b20d5ab04f779.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//活动时间</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">「穿越甚大蘑境与你相逢」版本更新后 - 2026/12/23 12:00（服务器时间）</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//活动奖励</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">活动开放期间，完成任务，累计可获得【嵌晶玉】【存续的痕迹】活动奖励。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//参与条件</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">在支线任务「彩蕈蜜境·奇遇」中，完成「前往大坝」</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ 完成主线任务「第二章 - 进程Ⅵ - 志同道合」后可开启对应支线任务「彩蕈蜜境·奇遇」。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//活动说明</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">活动期间，前往武陵地区的「旧水坝」区域，完成解锁协议传送点、开启协议储藏箱等任务，即可获得丰厚奖励。</span></p><p></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※Asia服务器时区: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※Americas / Europe服务器时区: UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">※更多活动详细说明，请前往游戏内【活动中心】查看。</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8939",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "战争回响\\n游离赛季",
+            "header": "「战争回响 - 游离赛季」赛季更新说明",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/0de2ee274f1cad303297fc42ff5d7da2.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼//赛季时间<br></strong>「穿越甚大蘑境与你相逢」版本更新后 - 2026/12/16 11:59（服务器时间）<br><br><strong>▼//参与条件<br></strong>· 权限等阶≥40级<br>· 完成主线任务「第一章 - 进程Ⅱ - 开拓前路」<br><br><strong>▼//赛季更新说明<br></strong>全新赛季「游离赛季」开放，新增3个全新关卡。本赛季分为3个轮换周期，每个轮换周期包含3个关卡。<br><br>※Asia服务器时区: UTC+8<br>※Americas / Europe服务器时区: UTC-5<br>※更多详细说明，请前往游戏内【活动中心】查看。</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "3029",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1795449600,
+            "focus": 0,
+            "title": "「丹青渡」\\n开拓日志",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261124/5f399f5ba030edbc690f20a52a095057.png",
+              "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fevent.skport.com%252Factivity%252Fendfield_data_report%252Fsanctuary%253Fheader%253D0%2526hg_media%253Dgame%2526hg_link_campaign%253Dannouncement%2526hg_link_name%253Dpioneerlog",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "2198",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1795433400,
+            "focus": 0,
+            "title": "Discord游戏统计小工具更新",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261120/b7185e1090906acc7176016a9895e3a0.jpg",
+              "link": "https://endfield.gryphline.com/special/discord-binding",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1365",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1794542400,
+            "focus": 0,
+            "title": "官方插画集\\nVol 1",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261112/e7e0d5ae6fc3f1246d7301be960fab00.jpg",
+              "link": "https://store.gryphline.com",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "9850",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1792555200,
+            "focus": 0,
+            "title": "New Official Merch Now Available",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261019/c90828e96ead70b0106ac799a8b03d5c.png",
+              "link": "https://store.gryphline.com",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7271",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1792036800,
+            "focus": 0,
+            "extraData": {},
+            "title": "官方充值网站\\n现已上线",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260928/7f231490fee9ed5b5738751e6a2c76b9.jpg",
+              "link": "https://topup.gryphline.com/endfield?u8_token={u8_token}&server_id={server}",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "0788",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1791455400,
+            "focus": 0,
+            "title": "Discord游戏\\n统计小工具更新",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260930/06b4a3e4b5aedd4d53c659236a38d54d.png",
+              "link": "https://endfield.gryphline.com/special/discord-binding",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8998",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 5,
+            "displayType": "rich_text",
+            "startAt": 1769011200,
+            "focus": 0,
+            "title": "公平运营声明",
+            "header": "《明日方舟：终末地》公平运营声明",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260121/1651259ae841fbf5def82e3fa4c81f21.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">感谢您对《明日方舟：终末地》的关注与支持。为维护绿色、公平的游戏环境，保障各位玩家的合法权益，在此特意提醒各位玩家：</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">1. 禁止游戏中使用外挂、第三方工具、非正规途径充值，不得以任何不正当方式破坏游戏公平性、违反游戏用户协议。根据后台监控和玩家举报，如发现以上行为，我们将根据具体违规情节采取扣除违规收益、冻结和封停游戏账号等一项或多项措施。</span></p><p><span style=\"color: rgb(0, 0, 0);\">2. 为维护各位玩家的合法权益，请勿转让、共享、交易游戏账号；若因上述行为导致账号被盗或账号内权益受损等情况，相关后果由玩家自行承担。</span></p><p><span style=\"color: rgb(0, 0, 0);\">3. 为保证玩家完整的游戏体验，请勿解析、修改安装包及传播相关解析素材。</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">最后，为打造良好的游戏环境，也需要各位玩家的共同努力。为此，请各位玩家配合维护游戏秩序，如发现违规行为，欢迎通过官方客服进行举报。</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6472",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 7,
+            "displayType": "rich_text",
+            "startAt": 1769011200,
+            "focus": 0,
+            "title": "功能使用说明",
+            "header": "集成工业系统及蓝图功能使用声明",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260121/a5600478deae74d1cb13f922961e65bc.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">为共同营造良好的游戏氛围，在使用集成工业系统相关功能时，请您遵守鹰角网络游戏使用许可及服务协议（简称“《用户协议》”），请勿发布及/或参与：</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">1.涉及地域、种族、性向、宗教、政治等方面的歧视内容；</span></p><p><span style=\"color: rgb(31, 35, 41);\">2.具有诽谤性、令人反感或侵害他人合法权益的内容；</span></p><p><span style=\"color: rgb(31, 35, 41);\">3.含有淫秽色情、血腥暴力、赌博、仇恨等的内容；</span></p><p><span style=\"color: rgb(31, 35, 41);\">4.其他《用户协议》中禁止或不适宜的内容。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">若您实施了违反上述规范的行为，我们将视情况采取清空集成工业系统摆放内容、限制或禁止使用集成工业系统功能、封停账号等措施。如您发现违规内容或行为，可通过【举报功能】或【联系客服】进行反馈。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">此外，若您使用【蓝图分享】功能，会生成【蓝图分享码】，将您设计的【蓝图】分享给其他管理员查看与使用。在使用该功能前，请您进一步知悉并确认：您一旦分享您的【蓝图分享码】，即视为您授权不特定第三方查看、复制或使用该蓝图内容，请您自行判断是否分享。</span></p><p></p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user.hypergryph.com/protocol/plain/endfield/service\">用户协议</a></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6474",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 12,
+            "displayType": "rich_text",
+            "startAt": 1769036400,
+            "focus": 0,
+            "title": "蚀像寻遗",
+            "header": "「蚀像寻遗」玩法说明",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260117/f37243c321ecfd8676f32adcf6c0b6b5.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//开放时间</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">公测开启后</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//探索奖励</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">「蚀像寻遗」开放期间，达到指定行动刻度后，可获得【嵌晶玉】【基础寻访凭证】【培养素材】等奖励。</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//参与条件</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">完成主线任务「第一章 - 进程Ⅲ - 诡楼寻踪」</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼//玩法说明</strong></span></p><p><span style=\"color: rgb(31, 35, 41);\">· 「蚀像寻遗」为常驻玩法。该玩法开放期间，可于帝江号进入【谷地像差】进行探索。探索的同时可领取各类委托，完成相应委托后，可解锁多种辅助探测技术，提升在谷地像差中的探索能力，并获取【嵌晶玉】等奖励。</span></p><p><span style=\"color: rgb(31, 35, 41);\">· 从谷地像差带出【沉积结核】或完成特定委托，可积累行动刻度，达到指定行动刻度即可领取对应奖励。</span></p><p><span style=\"color: rgb(31, 35, 41);\">※ 更多详细说明，请前往游戏内【蚀像寻遗】界面，点击【玩法导览】查看。</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "3080",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 19,
+            "displayType": "rich_text",
+            "startAt": 1769036400,
+            "focus": 0,
+            "title": "游戏工具指南",
+            "header": "《明日方舟：终末地》游戏工具指南",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260120/ece8ed7a9bfcbb4cb7749c0adb12603c.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>【每日签到工具】</strong></p><p>在每日签到工具中，参与每日签到可获得嵌晶玉、高级作战记录、武器检查套组、协议棱柱、折金票等游戏道具奖励。绑定游戏角色并首次完成三日签到，累计可获得嵌晶玉×300奖励！</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/endfield/sign-in\">点击前往</a></p><p></p><p><strong>【WIKI】</strong></p><p>WIKI是由管理员们共同创作和维护的平台，该平台为管理员提供便捷、详细的游戏信息查询服务。</p><p>可在WIKI工具中查看干员的基础资料、武器图鉴、装备信息、物品信息等。</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wiki.skport.com/endfield\">点击前往</a></p><p></p><p><strong>【地图工具】</strong></p><p>地图工具整合游戏地图的各种资源设施的位置信息，支持管理员快速查询、筛选及定位各种关键点位。使用地图工具，不仅可以便捷查看储藏箱、采集物、怪物等各类探索中的重要地点，登录后还可以一览管理员自己建造的滑索、供电桩等工业设施的位置，助您更便捷地探索建设塔卫二。</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/map/endfield\">点击前往</a></p><p></p><p><strong>【协议终端工具】</strong></p><p>协议终端工具将为管理员提供便携式数据查询服务。管理员可在工具内便携获取探索、干员、地区发展相关游戏数据。通过实时数据，可查询理智恢复情况、日常任务进度等实时游戏数据信息。</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/endfield/game-data?header=0\">点击前往</a></p><p></p><p><strong>【配队推荐&amp;养成建议】</strong></p><p>游戏工具为管理员提供多种队伍搭配方案、技能建议以及战斗思路参考。所有的方案内容均来源于热心的玩家，管理员可以根据自己的需求参考选择，也可以为自己喜欢的方案点赞。希望能帮助管理员更快地组建适合自己的战斗小队，从容应对各类挑战！</p><p><strong>在游戏内，进入【协议同步器】后点击「游戏工具」图标，即可进入工具页面。</strong></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7222",
+            "type": 0,
+            "tab": "news",
+            "orderType": 2,
+            "orderWeight": 20,
+            "displayType": "picture",
+            "startAt": 1769040000,
+            "focus": 0,
+            "title": "官方社媒账号",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260122/c119da8c799dfc0d251a0a3fdef7ee45.png",
+              "link": "https://ef-webview.gryphline.com/act/social-media?u8_token={u8_token}&server={server}",
+              "linkType": 2
+            }
+          }
+        ]
+      },
+      "msg": ""
+    }
   }
 ]

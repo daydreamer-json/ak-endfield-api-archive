@@ -18,8 +18,14 @@
       "subChannel": "#DEFAULT",
       "lang": "es-mx",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:es-mx",
-      "version": "c522785d4397935f1a99e50b6a207db0",
+      "version": "3be29bda99a63328d22a89284b7407c9",
       "onlineList": [
+        {
+          "cid": "4695",
+          "version": 1795575817,
+          "needRedDot": false,
+          "needPopup": false
+        },
         {
           "cid": "0770",
           "version": 1795521319,
@@ -166,8 +172,25 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1795572000,
+      "updatedAt": 1795575818,
       "list": [
+        {
+          "cid": "4695",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1795575600,
+          "focus": 0,
+          "title": "Known Issues Notice",
+          "header": "[Meeting You in the World o'Shrooms] Version Known Issues Notice",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261015/ced77442b4ada7220b51b1b709f16193.png\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrators:<br>To ensure a smoother game experience, we've compiled a list of known issues. If you encounter any of these during gameplay, please refer to the suggested solutions.<br><br>▼// Known Issues</p><p>· <span>We are aware of an error in the item description for [HC Wuling Batteries]. These batteries are obtained using packaging equipment and can be used to generate power and charge devices, but cannot be used as trade goods at outposts. We will correct the item description in a future update to reflect their actual uses.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">We have located the issue and will fix it as soon as possible. We sincerely apologize for any inconvenience caused. </span><span style=\"color: rgb(31, 35, 41);\">For any other issues, please report them to us via the in-game customer support. Thank you again for your continued interest and support for Arknights: Endfield!</span></p>",
+            "linkType": 1
+          }
+        },
         {
           "cid": "0770",
           "type": 0,
