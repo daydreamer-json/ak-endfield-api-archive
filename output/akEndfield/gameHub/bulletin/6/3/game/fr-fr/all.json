@@ -216310,5 +216310,623 @@
       },
       "msg": ""
     }
+  },
+  {
+    "updatedAt": "2026-11-25T22:05:59.037+00:00",
+    "req": {
+      "channel": 6,
+      "server": 3,
+      "type": 0,
+      "lang": "fr-fr",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "code": 0,
+      "data": {
+        "topicCid": "0093",
+        "type": 0,
+        "platform": "Windows",
+        "server": "3",
+        "channel": "#DEFAULT",
+        "subChannel": "#DEFAULT",
+        "lang": "fr-fr",
+        "key": "0:Windows:3:#DEFAULT:#DEFAULT:fr-fr",
+        "version": "a09c304094af9cec3eb16ea0430bde96",
+        "onlineList": [
+          {
+            "cid": "4695",
+            "version": 1795575817,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "0770",
+            "version": 1795521319,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "4697",
+            "version": 1795509994,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "7272",
+            "version": 1795168775,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "8947",
+            "version": 1795057306,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6411",
+            "version": 1795429868,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "7263",
+            "version": 1795509983,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "4696",
+            "version": 1795509918,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "3030",
+            "version": 1795517760,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "2188",
+            "version": 1795500657,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6412",
+            "version": 1795509990,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "9844",
+            "version": 1795512237,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "5504",
+            "version": 1795602505,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "2186",
+            "version": 1795561085,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "5505",
+            "version": 1795502336,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1364",
+            "version": 1795517752,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "8939",
+            "version": 1795431420,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "3029",
+            "version": 1795514383,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "2198",
+            "version": 1795517746,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1353",
+            "version": 1795525145,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "8998",
+            "version": 1769005692,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6472",
+            "version": 1769044240,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6474",
+            "version": 1769005934,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "3080",
+            "version": 1782469292,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "7222",
+            "version": 1782469106,
+            "needRedDot": true,
+            "needPopup": false
+          }
+        ],
+        "popupVersion": 0,
+        "updatedAt": 1795644000,
+        "list": [
+          {
+            "cid": "4695",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795575600,
+            "focus": 0,
+            "extraData": {},
+            "title": "Known Issues Notice",
+            "header": "[Meeting You in the World o'Shrooms] Version Known Issues Notice",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261015/ced77442b4ada7220b51b1b709f16193.png\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrators:<br>To ensure a smoother game experience, we've compiled a list of known issues. If you encounter any of these during gameplay, please refer to the suggested solutions.<br><br>▼// Known Issues</p><p>· We are aware of an error in the item description for [HC Wuling Batteries]. These batteries are obtained using packaging equipment and can be used to generate power and charge devices, but cannot be used as trade goods at outposts. We will correct the item description in a future update to reflect their actual uses.</p><p><span>· We are aware of an issue in [Optical Offset], the fourth Protocol Space in the [Delver of the Cryptic - Fade Beyond the Painting] spatial set. When you use the Bounce Device to reach the opposite platform, your character may die unexpectedly upon landing, preventing you from continuing the challenge. If this happens, make a note of the code for the current puzzle before restarting the challenge. When you return to the code entry point, enter the code you noted down to proceed.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">We have located the issue and will fix it as soon as possible. We sincerely apologize for any inconvenience caused. </span><span style=\"color: rgb(31, 35, 41);\">For any other issues, please report them to us via the in-game customer support. Thank you again for your continued interest and support for Arknights: Endfield!</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "0770",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795568400,
+            "focus": 0,
+            "title": "Notes de mise à jour de version",
+            "header": "Rendez-vous dans le monde des champis",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261124/809262dfaf5acb6f881fadcb6edcbb6e.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">« Enfin... après tout ce temps... on va pouvoir se rencontrer, après cette traversée du \"champimonde\". »</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Endministrator,</span></p><p><span style=\"color: rgb(0, 0, 0);\">Bienvenue dans la nouvelle version [Rendez-vous dans le monde des champis] !</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Détails de mise à jour, de maintenance et de compensation</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Date de mise à jour et de maintenance</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Serveur Asia : 25 novembre 2026 à 6 h – 25 novembre 2026 à 12 h (UTC+8)</span></p><p><span style=\"color: rgb(0, 0, 0);\">Serveur Americas / Europe : 24 novembre 2026 à 17 h – 24 novembre 2026 à 23 h (UTC-5)</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ L'heure de réouverture du serveur suite à la maintenance pourrait survenir plus tôt ou plus tard que prévu. Veuillez consulter les annonces officielles pour en savoir plus.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Détails de la compensation de mise à jour, de maintenance et de correction des bugs</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Compensation de mise à jour et de maintenance : 900 [orobéryls]</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Compensation de correction des bugs : 900 [orobéryls]</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Période d'envoi : après la mise à jour et la maintenance, et avant la prochaine maintenance et mise à jour de version</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Éligibilité : avoir créé un personnage avant la mise à jour</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Remarque : La compensation de mise à jour et de maintenance ainsi que la compensation de correction des bugs seront transmises en deux messages différents en jeu après le déblocage de la fonctionnalité [Courrier]. Ces courriers expireront lors de la prochaine mise à jour de version et maintenance, alors n'oubliez pas de les récupérer à temps.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Notes de mise à jour</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Cette mise à jour est obligatoire. Une fois la mise à jour terminée, vous devrez retélécharger et réinstaller le client du jeu. Au moment du lancement de la mise à jour de version et maintenance, suivez les instructions en jeu pour procéder à la mise à jour.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· iOS : Ouvrez l'App Store et appuyez sur [Mettre à jour].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Android : Ouvrez le jeu et suivez les invites de commandes pour procéder à la mise à jour.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· PlayStation®5 : Rendez-vous sur l'écran d'accueil, sélectionnez [Arknights: Endfield], appuyez sur la touche d'[options] de la manette, sélectionnez [Vérifier les mises à jour] et confirmez la mise à jour.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· PC : Après avoir quitté le jeu, redémarrez le lanceur GRYPHLINK et cliquez sur [Mettre à jour].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>※ Après la mise à jour de la version [Rendez-vous dans le monde des champis], du contenu se débloquera progressivement, au fur et à mesure de la progression de votre exploration. Veuillez consulter la version en jeu pour connaître les détails de la mise à jour.</strong></span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Contenu de la nouvelle version</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Nouvelles histoires</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1. Mission d'exploration</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">[Nez à nez avec un giga champi]</span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2. Missions annexes</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">[Rêve de gaufres au miel], [Le lendemain], [Reconstruire un foyer I], [Reconstruire un foyer II], [Reconstruire un foyer III]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Nouveaux opérateurs</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Opératrice 6★ [Kay], opératrice 5★ [Mimino]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Nouvelles armes</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Armes 6★ [Offre alléchante (arme d'hast)], [Comète d'assaut (arme d'hast)], arme 5★ [Étoile de demain (canon portatif)]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Nouveaux ennemis</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">[nidwyrm Broyeur de champis], [prince bolet], [poings de spores Broyeurs de champis], [garde de spores Broyeur de champis]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Nouvelle zone</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">[Wuling - Ancien barrage]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Nouveaux événements de recrutement et tirages</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1. Recrutement certifié [Enclume, sac à dos, plus un pot de miel]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Disponibilité : Après la mise à jour de la version [Rendez-vous dans le monde des champis], jusqu'au 23 décembre 2026 à 11 h 59 (heure du serveur)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Détails sur le recrutement : Le recrutement certifié [Enclume, sac à dos, plus un pot de miel] propose l'opératrice 6★ [Kay] à taux SUP. Les opérateurs 6★ susceptibles d'apparaître dans le recrutement certifié [Enclume, sac à dos, plus un pot de miel] sont les suivants : Kay / Flux d'argent / Si / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Dans le cadre du recrutement certifié [Enclume, sac à dos, plus un pot de miel], des [exercices de combat] seront également disponibles pour tester l'opératrice 6★ [Kay]. Terminez le niveau indiqué avec l'équipe prédéfinie incluant l'opératrice d'essai et rendez-vous sur l'écran du [centre d'événement] pour obtenir 100 [orobéryls], une [caisse de défense de l'arsenal], une [Marque de persévérance] et d'autres récompenses. La [caisse de défense de l'arsenal] contient un ensemble d'équipement de niveau 60 renforcé au maximum adapté à l'opératrice d'essai. Vous pouvez également obtenir des [permis REC Sylvepatte errante] à prix réduit dans l'[échange de quota du GIA]. Il est possible d'échanger jusqu'à 5 [permis REC Sylvepatte errante].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2. Tirage de l'arsenal [Tirage de nomade désinvolte] ouvert</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Disponibilité : Ouvre après la sortie de la version [Rendez-vous dans le monde des champis]. Se termine au bout de 3 bannières de [recrutement certifié] (à partir de la bannière [Enclume, sac à dos, plus un pot de miel]).</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Détails sur le tirage : La bannière de la boutique de l'arsenal [Tirage de nomade désinvolte] propose l'arme 6★ [Offre alléchante (arme d'hast)] à taux SUP. Les armes 6★ susceptibles d'apparaître dans la bannière de la boutique de l'arsenal [Tirage de nomade désinvolte] sont les suivantes : Offre alléchante (arme d'hast) / Fuyao (épée) / Vaillance (arme d'hast) / JET (arme d'hast) / Unité de détonation (unité des Arts) / Pivot (canon portatif) / Raffinement ancien (espadon).</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>3. Recrutement de réusinage n° 1 [À tous les vœux à la dérive]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Disponibilité : Après la mise à jour de la version [Rendez-vous dans le monde des champis], jusqu'au 16 décembre 2026 à 11 h 59 (heure du serveur)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Détails sur le recrutement : Le recrutement de réusinage n° 1 [À tous les vœux à la dérive] propose l'opératrice 6★ [Gilberta] à taux SUP. Les opérateurs 6★ susceptibles d'apparaître dans le recrutement de réusinage n° 1 [À tous les vœux à la dérive] sont les suivants : Gilberta / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>4. Tirage de réusinage n° 1 [tirage de voyageuse aérienne] ouvert</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Disponibilité : Après la mise à jour de la version [Rendez-vous dans le monde des champis], jusqu'au 16 décembre 2026 à 11 h 59 (heure du serveur)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Détails sur le tirage : Le tirage de réusinage n° 1 [Tirage de voyageuse aérienne] propose l'arme 6★ [Livraison garantie (unité des Arts)] à taux SUP. Les armes 6★ susceptibles d'apparaître dans le tirage de réusinage n° 1 [Tirage de voyageuse aérienne] sont les suivantes : Livraison garantie (unité des Arts) / Vertus chevaleresques (unité des Arts) / Oubli (unité des Arts) / Pivot (canon portatif) / Coupe-thermite (épée) / Nova des nuits blanches (épée) / Exemplaire (espadon).</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>5. Recrutement de réusinage n° 1 [Précieuse écarlate]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Disponibilité : À partir du 16 décembre 2026 à 12 h (heure du serveur), jusqu'à la prochaine mise à jour de version et maintenance</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Détails sur le recrutement : Le recrutement de réusinage n° 1 [Précieuse écarlate] propose l'opératrice 6★ [Rossi] à taux SUP. Les opérateurs 6★ susceptibles d'apparaître dans le recrutement de réusinage n° 1 [Précieuse écarlate] sont les suivants : Rossi / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>6. Tirage de réusinage n° 1 [tirage de griffes écarlates] ouvert</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Disponibilité : À partir du 16 décembre 2026 à 12 h (heure du serveur), jusqu'à la prochaine mise à jour de version et maintenance</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Détails sur le tirage : Le tirage de réusinage n° 1 [Tirage de griffes écarlates] propose l'arme 6★ [Lupin écarlate (épée)] à taux SUP. Les armes 6★ susceptibles d'apparaître dans le tirage de réusinage n° 1 [Tirage de griffes écarlates] sont les suivantes : Lupin écarlate (épée) / Fuyao (épée) / Réputation éminente (épée) / Pivot (canon portatif) / Raffinement ancien (espadon) / Unité de détonation (unité des Arts) / Vaillance (arme d'hast).</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Nouveaux événements</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1. [Rêve de gaufres au miel] Événement narratif</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Dates de l'événement : Pendant toute la durée de la version [Rendez-vous dans le monde des champis]</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Détails de l'événement : Terminez la mission annexe [Rêve de gaufres au miel] pour obtenir 600 [orobéryls], un [support cognitif de base] et d'autres récompenses.</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Une fois la page de l'événement narratif supprimée, vous pourrez continuer à jouer à cette mission annexe sur l'écran [Missions] et gagner les récompenses si vous remplissez les conditions de participation.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2. [Construction de matrices : refermer de vieilles plaies] Événement de construction</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Dates de l'événement : Pendant toute la durée de la version [Rendez-vous dans le monde des champis]</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Détails de l'événement : Pendant l'événement, progressez dans les missions pour débloquer le mode de jeu [Reconstruction de la zone d'exclusion] et les technologies du GIA associées, puis utilisez le Groupe industriel automatisé pour produire les matériaux nécessaires à la reconstruction de la zone d'exclusion, faites avancer la progression de la reconstruction et terminez les tâches de construction pour obtenir des récompenses incluant : 1 000 [orobéryls], une [caisse de sélection de progression avancée II], une [Marque de persévérance], un [fluide de renforcement à l'origécorce V1] et un [support cognitif de niveau avancé].</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Une fois l'événement [Construction de matrices : refermer de vieilles plaies] terminé, il ne sera plus possible de terminer les tâches de construction ni de récupérer les récompenses correspondantes. Toutefois, vous pourrez toujours jouer à [Reconstruction de la zone d'exclusion] et obtenir des récompenses de progression de la reconstruction.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>3. Événement de connexion [Sylvepatte errante]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Dates de l'événement : Après la mise à jour de la version [Rendez-vous dans le monde des champis], jusqu'au 23 décembre 2026 à 11 h 59 (heure du serveur)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Détails de l'événement : connectez-vous pendant 7 jours pour gagner des récompenses, telles que 5 [permis REC Sylvepatte errante].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>4. [Chapeaux ! Champis ! CHAMPIGNONS !] Événement de guide</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Dates de l'événement : Après la mise à jour de la version [Rendez-vous dans le monde des champis], jusqu'au 23 décembre 2026 à 12 h (heure du serveur)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Détails de l'événement : Visitez la zone de l'[ancien barrage] dans la région de [Wuling] et terminez les missions indiquées pour obtenir de belles récompenses incluant 1 200 [orobéryls] et une [Marque de persévérance].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>5. [Approvisionnement en lucidité] Événement à durée limitée</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Dates de l'événement :</span></p><p><span style=\"color: rgb(0, 0, 0);\">Serveur Asia :</span></p><p><span style=\"color: rgb(0, 0, 0);\">Du 9 décembre 2026 à 4 h au 16 décembre 2026 à 4 h (heure du serveur)</span></p><p><span style=\"color: rgb(0, 0, 0);\">Du 31 décembre 2026 à 4 h au 7 janvier 2027 à 4 h (heure du serveur)</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Serveur Americas / Europe :</span></p><p><span style=\"color: rgb(0, 0, 0);\">Du 9 décembre 2026 à 4 h au 16 décembre 2026 à 4 h (heure du serveur)</span></p><p><span style=\"color: rgb(0, 0, 0);\">Du 31 décembre 2026 à 4 h au 6 janvier 2027 à 17 h (heure du serveur)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Détails de l'événement : Pendant l'événement, terminez chaque jour les missions indiquées pour récupérer des récompenses d'approvisionnement en lucidité : un [permis d'utilisation de lucidité] et un [bonus de lucidité d'urgence].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>6. [ASCENSION ! MÉGA ARÈNE !] Événement de défi</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Dates de l'événement : À partir du 16 décembre 2026 à 12 h (heure du serveur), jusqu'à la prochaine mise à jour de version et maintenance</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Date de mise à jour de l'événement : 18 décembre 2026 à 4 h (heure du serveur)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Détails de l'événement : Pendant l'événement, terminez les niveaux du défi pour gagner des récompenses incluant 1 200 [orobéryls], le [cadre du portrait : étoile brillante d'usurpation], une [caisse de sélection de progression avancée II], une [Marque de persévérance] et un [support cognitif de niveau avancé].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>7. [Jeux merveilleux de Carotte porte-bonheur] Événement de jeux et divertissements</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Dates de l'événement : À partir du 16 décembre 2026 à 12 h (heure du serveur), jusqu'à la prochaine mise à jour de version et maintenance</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Date de mise à jour de l'événement : 23 décembre 2026 à 4 h (heure du serveur)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Détails de l'événement : Pendant l'événement, jouez aux jeux du « Paradis de la sorcellerie » et relevez des défis de jeux pour gagner des [espèces de Carotte]. Dépensez vos [espèces de Carotte] à l'[échange de souvenirs] pour obtenir des récompenses d'événement incluant 1 000 [orobéryls], une [caisse de sélection de progression avancée II], une [Marque de persévérance] et un [support cognitif de niveau avancé].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>8. [Garde ouvrière : liste de présence] Événement cadeau</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Dates de l'événement : À partir du 16 décembre 2026 à 12 h (heure du serveur), jusqu'à la prochaine mise à jour de version et maintenance</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Détails de l'événement : Pendant l'événement, connectez-vous au jeu et participez à divers modes de jeu pour récupérer la nouvelle opératrice 5★ [Mimino] au potentiel maximum et l'arme 5★ [Étoile de demain (canon portatif)] au potentiel maximum.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>9. [Endmin ! Trions les cadeaux !] Événement de jeux et divertissements</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Dates de l'événement : À partir du 23 décembre 2026 à 12 h (heure du serveur), jusqu'à la prochaine mise à jour de version et maintenance</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Détails de l'événement : Rendez-vous sur la page de l'événement en ligne pour trier les cadeaux sur les convoyeurs à bande, découvrir divers niveaux et récupérer de belles récompenses incluant 300 [orobéryls] et des [crédits T].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Mises à jour d'événement et de mode de jeu</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1. Mise à jour du mode de défi permanent [Échos guerriers]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>○[Saison de la dispersion]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Mise à jour de la saison : Après la mise à jour de la version [Rendez-vous dans le monde des champis], jusqu'au 16 décembre 2026 à 11 h 59 (heure du serveur)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Notes de mise à jour : La nouvelle saison [Saison de la dispersion] est disponible. Cette saison compte 3 cycles incluant chacun 3 niveaux. La [Saison de la dispersion] ajoute 3 nouveaux niveaux. Terminez tous les nouveaux niveaux en difficulté Normal pour obtenir des récompenses incluant 300 [orobéryls].</span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>○[Saison de la prudence]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Mise à jour de la saison : À partir du 16 décembre 2026 à 12 h (heure du serveur), jusqu'à la prochaine mise à jour de version et maintenance</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Notes de mise à jour : La nouvelle saison [Saison de la prudence] est disponible. Cette saison compte 3 cycles incluant chacun 3 niveaux. La [Saison de la prudence] ajoute 3 nouveaux niveaux. Terminez tous les nouveaux niveaux en difficulté Normal pour obtenir des récompenses incluant 300 [orobéryls].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2. Le mode de jeu de défi [Monument de l'ombre] a été mis à jour, les niveaux de la série spéciale [Despote transformé en arme] sont disponibles.</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Disponibilité : 2 décembre 2026 à 12 h (heure du serveur)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Notes de mise à jour: Cette mise à jour du mode de défi [Monument de l'ombre] propose une nouvelle série spéciale, [Despote transformé en arme], où vous pouvez affronter des boss puissants, avec 1 niveau disponible dans un premier temps, puis un deuxième niveau à partir du 9 décembre 2026 à 4 h (heure du serveur). Chaque niveau propose plusieurs niveaux de difficulté. Terminez les défis de tous les niveaux dans toutes les difficultés pour gagner des récompenses incluant une [Marque de persévérance], une [caisse de sélection de progression avancée II] et un [support cognitif de niveau avancé].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>L'événement de défi à durée limitée [Révélation monumentale : tyrannie] sera disponible en même temps que le mode de jeu.</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Dates de l'événement : Du 2 décembre 2026 à 12 h au 23 décembre 2026 à 4 h (heure du serveur)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Date de mise à jour de l'événement : 9 décembre 2026 à 4 h (heure du serveur)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Détails de l'événement : L'événement à durée limitée [Révélation monumentale : tyrannie] commencera dès que la série [Despote transformé en arme] sera disponible. Pendant l'événement, relevez divers défis de [Monument de l'ombre] pour obtenir des récompenses, telles que 1 200 [orobéryls] et une [caisse de sélection de progression avancée II].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>3. Mise à jour d'ensemble spatial [Édition spéciale d'Exploration du mystère]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Date de la mise à jour : 27 décembre 2026 à 12 h (heure du serveur)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Notes de mise à jour: Cet événement de résolution d'énigmes [Édition spéciale d'Exploration du mystère] introduira le nouvel ensemble spatial [Mycologie ésotérique]. 3 nouveaux espaces de Protocole seront disponibles. Terminez les défis de l'ensemble spatial pour obtenir des récompenses incluant 600 [orobéryls] et une [Marque de persévérance].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Mise à jour du centre d'acquisition</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Le [Pass de Protocole : Champimonde] est disponible. Pendant toute la durée de la version [Rendez-vous dans le monde des champis], vous pouvez obtenir différents objets de soutien listés par les ingénieurs de l'arsenal dans le [Pass de Protocole]. Activer chaque Pass de Protocole saisonnier vous permet de débloquer le niveau [Approvisionnement de base] par défaut. Augmentez votre niveau de Pass pour gagner des récompenses incluant des [permis REC de base], des [orobéryls], un [échange de caisse-à-surprises] et des [matériaux de progression].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ajouts au [Centre d'acquisition - Lots] : [Lot de REC Nomade des terres sauvages], [Lot de flux du Protocole]. La limite d'achat [Pack de tickets de l'arsenal - éco] est réinitialisée.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Usine du GIA</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ajout du [kit de gravure pluriligne de Wuling]. Utilisez-le pour obtenir une essence dotée de trois attributs personnalisés. Lorsque le terminal du magasin de redistribution de [Wuling - Col de Yinglung] atteint le niveau 4, vous pouvez utiliser un [billet de réserves de Wuling] pour acheter [kit de gravure pluriligne de Wuling] ×1.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· La limite de niveau de développement régional a été augmentée pour la région de [Wuling]. Le mini-NAP peut désormais être déployé à [Wuling - Ancien barrage]. Ajout de nouvelles marchandises échangeables au [magasin de redistribution de Wuling].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ajout du mode GIA relatif aux matrices au GIA de Wuling, ainsi que des plans du GIA relatifs aux matrices : [Allumage de la forge], [Approvisionnement de reconstruction], [Extension : trouble], [Équilibre L/T], [Empilement L/T], [Bipolarité de la forge], [Extension de forge V]. Ajout également des installations du GIA, des simulations et des plans du système correspondants.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ajout du mode de jeu [Reconstruction de la zone d'exclusion] : débloqué après avoir terminé la mission [Reconstruire un foyer II]. Utilisez l'usine du GIA pour produire des matériaux de reconstruction et les livrer au [port d'approvisionnement de reconstruction] afin de faire progresser la phase de reconstruction de la [zone d'exclusion] et d'augmenter le développement régional de [Wuling].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Système</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ajout du gameplay [Pilotage de gaufre] : les Endministrators peuvent lancer et contrôler des gaufres au miel dans la zone de [Wuling - Ancien barrage]. Pendant le vol, une gaufre peut collecter des aurylènes. Tremper les gaufres au miel dans différents types de spores leur confère divers effets. Par exemple, tremper une gaufre dans des spores glacées permet de révéler et de dissiper les murs illusoires. De plus, une nouvelle option [Inverser les commandes de l'axe Y] a été ajoutée dans [Paramètres - Manette].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Mise à jour des objets échangeables dans l'[échange de talosite], accompagnée de nouveautés : [modèle d'équipement], [dispositif personnel], [décoration], [pose d'appareil photo], [vinyle] et bien plus encore.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Autres</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ajout de contenu, incluant : [guide des opérateurs], [alluvion d'énergie], [PNJ], [médaille gravée], [thème du profil], [portrait], [cadre du portrait], [filtre], [autocollant], [consommable], [matériaux], [pilules de lucidité], [entrée de la base de données], [dossier d'indices], [dispositif personnel], [décoration], [vinyle], [pose d'appareil photo], [phase d'envoi régional d'aurylène] et bien plus encore. Ces éléments seront débloqués au fur et à mesure de votre progression.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ajout de nouvelles pièces d'équipement aux ensembles [Arpenteur de faille], [Confins], [Xiranite éternelle] et [Terrain du GIA].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ajout d'un nouveau matériau de progression rare : [Fluide de renforcement à l'origécorce V1].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ Pour plus d'informations, veuillez vous référer au jeu.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Optimisations et ajustements</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Combat</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Amélioration des effets visuels de l'ennemi [Nefarith] dans certaines situations.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Usine du GIA</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Amélioration du placement des [ports de contrôle des objets] et des [ports de contrôle des conduites]. Ils peuvent désormais être placés sans être d'abord connectés à un convoyeur à bande ou à une conduite. Ils peuvent se connecter directement aux ports de convoyeur ou de conduite d'une installation et se mettront automatiquement en place avec la bonne orientation.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Système</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Amélioration des invites d'amélioration sur l'écran [Opérateurs - Matrice de capacités]. Lorsqu'une amélioration nécessite plusieurs types de matériaux, ceux en quantité insuffisante sont automatiquement repositionnés et affichés en premier.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Autres</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Amélioration des visuels, des effets spéciaux, de la logique d'interaction et des descriptions dans certaines interfaces.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Amélioration des modèles, des vêtements, des effets spéciaux, des mouvements, des angles de caméra et d'autres aspects de présentation de certains opérateurs dans certaines situations.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Amélioration de certains textes liés aux commandes et aux plats dans le mode Gestion de l'auberge.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimisation des descriptions pour certains guides des opérateurs.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimisation de certains textes dans les fichiers d'opérateurs.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimisation de certaines invites de commandes de l'IU.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimisation de certains noms de missions.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimisation de certains textes de l'histoire.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Amélioration des noms du type d'événement et des descriptions de certains événements et activités, d'après leur fonctionnement en jeu.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Reformulation des noms et des descriptions de certains objets, d'après leur fonctionnement en jeu.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimisation de certains textes du didacticiel.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Corrections de bugs</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Missions</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Correction d'un problème, dans la mission annexe [Un royaume enneigé marqué par les cauchemars], à cause duquel la compétence de combo de l'Endministrator pouvait ne pas infliger de dégâts normalement lorsqu'elle touchait des ennemis ayant des [cumuls de bouclier].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Combat</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Correction d'un problème circonstanciel à cause duquel l'ultime des opérateurs pouvait être interrompu de façon anormale.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Correction d'un problème circonstanciel affectant le comportement de la compétence [Âme d'encre] de l'opératrice 6★ [Si] après avoir été touchée par un coup fatal.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Correction d'un problème à cause duquel le [Dernier coup de pinceau] de la compétence de combat de l'opératrice 6★ [Si] pouvait provoquer des dégâts anormaux avec certaines commandes.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Correction d'un problème à cause duquel la compétence de combo de l'opératrice 6★ [Si] ne se déclenchait pas lorsque la compétence de combat de l'opérateur 5★ [Alesh] solidifiait et éliminait l'ennemi.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Correction d'un problème à cause duquel, lorsque la compétence de combo de l'opératrice 6★ [Typhoeus] était lancée à plusieurs reprises avec certaines commandes, les matrices de barrage des lancements suivants n'augmentaient pas les DÉG d'explosion naturelle subis par les ennemis.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Correction d'un problème circonstanciel affectant l'état de Surplomb de l'opératrice 6★ [Typhoeus] après avoir utilisé sa compétence de combat.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Événements et modes de jeu</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Correction d'un problème circonstanciel à cause duquel, dans le niveau [Fichier de bête : Palanque de Qingbo] du mode défi permanent [Échos guerriers], la compétence de combo de l'opératrice 6★ [Arcane] pouvait ne pas se déclencher lorsque le type de compétence [Arcane de matrice : INT] était actif.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Correction d'un problème circonstanciel affectant les valeurs des dégâts enregistrés par l'[Intention artistique] de l'opératrice 6★ [Si] dans le niveau [Marque des ténèbres - Rugissement soudain de l'oubli] du mode de jeu permanent [Monument de l'ombre].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Système</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Correction d'un problème circonstanciel à cause duquel, après avoir appuyé sur la mission [Créer et sauvegarder un plan] dans le [Manuel opérationnel - Nœud 03] et avoir été redirigé vers la carte, celle-ci pouvait apparaître de façon anormale.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Autres</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Correction d'un problème affectant l'affichage de l'icône de statut de l'opératrice 6★ [Si] lors de l'utilisation de certaines commandes.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "4697",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Calendrier de la version",
+            "header": "Calendrier de la version",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/66d18335a75545109c2395a0132f70e7.jpg\" data-width=\"1917\" data-height=\"3220\"><p></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7272",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795262400,
+            "focus": 0,
+            "title": "Guide de la nouvelle version",
+            "header": "Guide de la nouvelle version disponible",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261120/d07c726ca8ac02ad728a2cd2c78dd8ab.jpg\" data-width=\"1650\" data-height=\"300\"><p>La page de Guide de la nouvelle version [Rendez-vous dans le monde des champis] est disponible.&nbsp;<br>Découvrez tout le contenu de la nouvelle version en un même endroit et obtenez 1 000 orobéryls, 10 000 [crédits T], 8 [supports cognitifs de base] et 4 [ensembles INSP d'armes].&nbsp;<br>Période de récupération : du 21 novembre 2026 à 20 h au 25 novembre 2026 à 6 h (UTC+8).&nbsp;<br><br><strong>▼// Lien de la page&nbsp;</strong><br>Vous pouvez accéder à la page de Guide de la nouvelle version en cliquant sur le lien ci-dessous, Endministrator.&nbsp;<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://endfield.gryphline.com/version_briefing/latest?u8_token={u8_token}&amp;server={server}\">&gt;&gt;Cliquer pour y aller</a><br><br><strong>▼// Période de disponibilité de la page&nbsp;</strong><br>· La page de Guide de la nouvelle version sera accessible en permanence et consultable à partir du 6 octobre 2026 à 20 h (UTC+8), et son contenu sera mis à jour à chaque version du jeu.&nbsp;<br>· Chaque page de Guide de la nouvelle version sera disponible à partir de la mise en ligne de l'aperçu de la version actuelle jusqu'à la fin de l'aperçu de la version suivante.&nbsp;<br><br><strong>▼// Conditions d'obtention des récompenses&nbsp;</strong><br>· Connectez-vous à votre compte de jeu depuis cette page et terminez la création de votre personnage dans Arknights: Endfield.&nbsp;<br><br><strong>▼// Instructions pour récupérer vos récompenses&nbsp;</strong><br>· Pendant la période de récupération des récompenses, un bouton « Récupérer les récompenses » s'affichera sur la page du Guide de la nouvelle version. Une fois cette période terminée, le bouton disparaîtra et les récompenses correspondant à cette version ne pourront plus être récupérées.&nbsp;<br>· Une fois les récompenses récupérées sur la page du Guide de la nouvelle version, elles seront envoyées dans la messagerie du personnage associé au compte actuellement connecté.&nbsp;<br>· Chaque compte de jeu ne peut récupérer qu'une seule fois les récompenses d'un Guide de la nouvelle version donné.&nbsp;<br><br>※ Consultez la page pour en savoir plus.</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8947",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795013400,
+            "focus": 0,
+            "extraData": {},
+            "title": "Remerciements spéciaux\\nÀ notre Endministrator",
+            "header": "Un cadeau pour notre Endministrator",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261119/c5143b5237f7309e10c67c1628e44f08.png\" data-width=\"1650\" data-height=\"300\"><p>Endministrator :</p><p>Nous vous remercions sincèrement pour votre compagnie et votre soutien de tous les instants ! Arknights: Endfield a remporté les prix « Meilleur jeu » et « Meilleur scénario » lors de l'événement « Meilleurs jeux de 2026 » de Google Play. Le jeu a également été nommé dans les catégories [Best Mobile Game] aux The Game Awards 2026 et [iPad Game of the Year] aux App Store Awards 2026.</p><p>En témoignage tout particulier de notre gratitude pour votre affection et votre reconnaissance, l'équipe du projet vous a préparé un cadeau.</p><p></p><p><strong>▼// Un cadeau pour notre Endministrator</strong></p><p>· Cadeau : [Orobéryls] ×3 000</p><p>· Période de distribution : du 19 novembre 2026 à 0 h (UTC+8) jusqu'à la fin de la version [Rendez-vous dans le monde des champis]</p><p>· Conditions d'éligibilité : créer un personnage et débloquer la fonctionnalité [Courrier] avant la fin de la version [Rendez-vous dans le monde des champis].</p><p>· Détails : pendant la période de distribution, l'équipe du projet enverra aux Endministrators éligibles un courrier en jeu contenant [Orobéryls] ×3 000. Le courrier sera valide pendant 30 jours. N'oubliez pas de vous connecter et de récupérer votre récompense à temps, Endministrator.</p><p></p><p>Merci encore pour votre intérêt et votre soutien sans faille envers Arknights: Endfield !</p><p>L'équipe d'Arknights: Endfield</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6411",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 2,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Pass de Protocole\\nChampimonde",
+            "header": "Détails sur le [Pass de Protocole : Champimonde]",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/7436efbadacd08095097ce16648ae8d8.jpg\" data-width=\"1650\" data-height=\"300\"><p>Endministrator, <br>Pendant la période du [Pass de Protocole : Champimonde], vous pouvez accéder à divers projets de soutien fournis par les ingénieurs de l'arsenal grâce au système de [Pass de Protocole]. Au lancement de chaque saison de Pass de Protocole, le niveau [Approvisionnement de base] sera débloqué par défaut. En augmentant votre niveau de Pass, vous pouvez gagner des récompenses incluant des [permis REC de base], des [orobéryls], un [échange de caisses-à-surprises] et des [matériaux de progression]. <br>Le niveau [Approvisionnement en originium] peut être débloqué grâce à des [origéométries] et octroie un [permis REC de base], un [autocollant : Collant et sucré], un [filtre : Coucher de soleil doré] et des récompenses supplémentaires telles qu'un [approvisionnement en armes : Champimonde], des [origéométries] et un [bonus de lucidité d'urgence]. <br>Achetez le niveau [Protocole personnalisé] pour obtenir un [profil : La ville des champis et du miel], un [cadre du portrait : Une bouchée pour mille couleurs], un [portrait : Champis accueillants], ainsi que des récompenses bonus comme un [approvisionnement en armes : Champimonde], des [tickets de l'arsenal] et un [modèle d'arme protocolisée].<br><br><strong>▼// Disponibilité </strong><br>Pendant la durée de la version [Rendez-vous dans le monde des champis]<br><br><strong>▼// Critères de participation </strong><br>Terminer la mission principale : [Chapitre I - Processus I : Rompre le siège]<br><br><strong>▼// Détails sur le Pass de Protocole </strong><br>· Activer le [Pass de Protocole] débloque par défaut le niveau [Approvisionnement de base]. Vous pouvez acheter le niveau [Protocole personnalisé] ou dépenser des [origéométries] pour débloquer le niveau [Approvisionnement en originium] afin de gagner des récompenses supplémentaires et un bonus de gain d'EXP de Pass. <br>· Pour chaque saison de Pass, les niveaux [Approvisionnement en originium] et [Protocole personnalisé] contiennent chacun un [approvisionnement en armes], qui vous permet d'obtenir au choix une des armes 6★ mises en avant dans la saison. Les [modèles d'armes protocolisées] peuvent augmenter le potentiel de n'importe quelle arme obtenue grâce aux [approvisionnements en armes] du Pass de Protocole. <br>· Terminez diverses missions de Pass (certaines missions seront disponibles après avoir rempli certains critères ou au fil du temps) ou participez aux [tâches quotidiennes du manuel opérationnel] et obtenez le maximum de récompenses en points d'activité chaque jour pour gagner de l'EXP de Pass. Faites monter le Pass de niveau pour débloquer diverses récompenses du [Pass de Protocole]. <br>· Après avoir débloqué l'[Approvisionnement en originium] ou le [Protocole personnalisé], et même après avoir atteint le niveau maximum du [Pass de Protocole], vous pouvez continuer à gagner de l'EXP de Pass. Toute l'EXP de Pass dépassant la limite s'accumulera pour vous faire gagner un [recyclage de caisses-à-surprises]. La caisse est automatiquement ouverte à réception et octroie des récompenses aléatoires en [orobéryls], en [matériaux de progression] et en [permis d'utilisation de lucidité]. <br>· Débloquer le niveau [Approvisionnement en originium] ou [Protocole personnalisé] du Pass de Protocole saisonnier octroie +3 % d'EXP bonus chacun. Débloquer les deux niveaux octroie +6 % d'EXP bonus. <br>· En cas d'achats surnuméraires du [Protocole personnalisé] en raison de circonstances particulières, les récompenses du niveau [Protocole personnalisé] ne sont pas cumulables. Vous recevrez plutôt le remboursement d'une quantité d'[origéométries] en fonction de la valeur de votre achat. <br>· Lorsque la saison du [Pass de Protocole] s'achève, les récompenses de niveau de Pass non réclamées vous sont envoyées par courrier.<br><br>※ Fuseau horaire du serveur Asia : UTC+8 <br>※ Fuseau horaire du serveur Americas / Europe : UTC-5 <br>※ Pour les règles détaillées, rendez-vous sur le [Pass de Protocole] en jeu et consultez les [Détails sur le Pass de Protocole].<br></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7263",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 2,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Enclume, sac à dos,\\nplus un pot de miel",
+            "header": "Enclume, sac à dos, plus un pot de miel",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/d7625f4b7478592f28685fce9853f306.png\" alt=\"\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Endministrator,&nbsp;<br>Pendant le recrutement certifié [Enclume, sac à dos, plus un pot de miel], l'opératrice 6★ [Kay] est à taux SUP !&nbsp;<br>L'événement de connexion à durée limitée [Sylvepatte errante] s'ouvrira simultanément. Connectez-vous pendant plusieurs jours pour gagner des récompenses telles que 5 [permis REC Sylvepatte errante]. Vous pouvez également échanger des [permis REC Sylvepatte errante] à prix réduit dans l'[échange de quota du GIA]. L'événement de test d'opérateurs [Exercices de combat] sera également disponible pendant cette période.<br><br>▼//<strong>&nbsp;Détails sur le recrutement certifié [Enclume, sac à dos, plus un pot de miel]&nbsp;</strong><br>· Disponibilité : ouvre au moment de la mise à jour de version [Rendez-vous dans le monde des champis], jusqu'au 23 décembre 2026 à 11 h 59 (heure du serveur)&nbsp;<br>· Critères de participation : terminer la mission principale [Chapitre I - Processus I : Rompre le siège]&nbsp;<br>· Le recrutement certifié [Enclume, sac à dos, plus un pot de miel] propose l'opératrice 6★ [Kay] à taux SUP.&nbsp;<br>· Parmi les opérateurs 6★ qui peuvent apparaître dans le recrutement certifié [Enclume, sac à dos, plus un pot de miel], vous retrouverez notamment : Kay / Flux d'argent / Si / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.&nbsp;<br>· Dans le recrutement certifié [Enclume, sac à dos, plus un pot de miel], vous pouvez utiliser les [permis REC Sylvepatte errante], les [permis REC certifié] ou des [orobéryls] pour lancer des recrutements.&nbsp;<br>※ Au bout de 3 bannières de [recrutement certifié], l'opérateur 6★ à taux SUP proposé dans la bannière de [recrutement certifié] sera supprimé de la liste des opérateurs pouvant apparaître dans le [recrutement certifié]. Cet opérateur 6★ à taux SUP ne sera pas non plus ajouté au [recrutement de base].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">▼//<strong>&nbsp;Récompenses de [recrutement certifié]&nbsp;</strong><br>Dans le recrutement certifié [Enclume, sac à dos, plus un pot de miel], lancez un certain nombre de tentatives de recrutement pour gagner les récompenses correspondantes.<br>■<strong>&nbsp;Recrutement d'urgence&nbsp;</strong><br>· Après 30 tentatives de recrutement, vous recevrez 10 tentatives de recrutement d'urgence bonus (qui comptent comme 1 tentative gratuite de recrutement ×10). Elles seront uniquement valables pendant cette bannière de [recrutement certifié] et ne se répercuteront pas sur les autres bannières de recrutement.&nbsp;<br>· Les taux d'obtention d'opérateurs dans le recrutement d'urgence sont les mêmes que les taux de base de cette bannière de [recrutement certifié], et la tentative gratuite de recrutement ×10 offerte par le recrutement d'urgence garantit un opérateur 5★ ou plus.&nbsp;<br>· Cette tentative gratuite de recrutement ×10 offerte par le recrutement d'urgence ne compte pas dans la garantie pour cette bannière ou les autres bannières de [recrutement certifié]. Elle ne sera pas non plus ajoutée aux tentatives de recrutement requises pour les récompenses de [recrutement certifié].&nbsp;<br>■<strong>&nbsp;Dossier de recrutement&nbsp;</strong><br>· Après avoir lancé 60 tentatives de recrutement, vous recevrez 1 [dossier de recrutement] bonus.&nbsp;<br>· Lorsque les critères sont remplis, le [dossier de recrutement] est automatiquement envoyé dans votre coffre d'objets de valeur. Au lancement de la bannière de [recrutement certifié] suivante, ce [dossier de recrutement] sera automatiquement converti en permis REC spécial ×10 pour la bannière de [recrutement certifié] spécifique. Cependant, les permis REC expireront en même temps que la bannière en question.&nbsp;<br>■<strong>&nbsp;Jeton symbolique&nbsp;</strong><br>· Dans chaque bannière de [recrutement certifié], toutes les 240 tentatives de recrutement, vous obtiendrez en bonus 1 [jeton de l'opérateur 6★ à taux SUP proposé dans la bannière en question].<br><br>▼//<strong>&nbsp;Détails sur les tickets de l'arsenal&nbsp;</strong><br>Chaque tentative de recrutement d'opérateurs fait également gagner des [tickets de l'arsenal].&nbsp;<br>· Obtenir un opérateur 6★ fait gagner 2 000 [tickets de l'arsenal].&nbsp;<br>· Obtenir un opérateur 5★ fait gagner 200 [tickets de l'arsenal].&nbsp;<br>· Obtenir un opérateur 4★ fait gagner 20 [tickets de l'arsenal].&nbsp;<br>※ Vous pouvez dépenser les [tickets de l'arsenal] au [Centre d'acquisition : boutique de l'arsenal].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Pendant le recrutement certifié [Enclume, sac à dos, plus un pot de miel], le contenu suivant sera également disponible :&nbsp;<br>▼//<strong>&nbsp;Événement de connexion à durée limitée [Sylvepatte errante]&nbsp;</strong><br>Connectez-vous pendant 7 jours pour gagner des récompenses telles que 5 [permis REC Sylvepatte errante].<br><br>▼//<strong>&nbsp;Événement de test d'opérateurs [Exercices de combat]&nbsp;</strong><br>Les [exercices de combat] seront disponibles pour tester l'opératrice 6★ [Kay]. Terminez le niveau spécifique avec l'équipe prédéfinie incluant l'opératrice d'essai pour obtenir 100 [orobéryls], une [caisse de défense de l'arsenal], une [Marque de persévérance] et d'autres récompenses. La [caisse de défense de l'arsenal] contient un ensemble d'équipement de niveau 60 renforcé au maximum adapté à l'opératrice d'essai.<br><br>▼//<strong>&nbsp;Remarque spéciale concernant l'[échange de quota du GIA]&nbsp;</strong><br>L'[échange de quota] proposera des offres spéciales à durée limitée. Vous pouvez dépenser des [quotas du GIA] pour acheter des objets tels que 5 [permis REC Sylvepatte errante].<br><br>※ Fuseau horaire du serveur Asia : UTC+8&nbsp;<br>※ Fuseau horaire du serveur Americas / Europe : UTC-5&nbsp;<br>※ Pour plus de détails à propos du recrutement, consultez l'écran de [Recrutement] en jeu.&nbsp;<br>※ Pour plus de détails à propos de l'événement, consultez le [Centre d'événement] en jeu.&nbsp;<br>※ Pour en savoir plus sur l'[échange de quota du GIA], consultez le [Centre d'acquisition] en jeu.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "4696",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "[Rendez-vous dans le monde des champis]\\nLots",
+            "header": "[Rendez-vous dans le monde des champis] Détails des lots",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/55551393a5f443ee6a5ca303f6735ce3.jpg\" data-width=\"1650\" data-height=\"300\"><p>Endministrator, <br>Pendant la version [Rendez-vous dans le monde des champis], le [Centre d'acquisition] proposera divers lots.<br><br><strong>▼// Lots limités </strong><br>■ Lot de flux du Protocole <br>· Disponibilité : pendant toute la durée de la version [Rendez-vous dans le monde des champis] <br>· Contenu du lot : [Permis REC certifié] ×10, [Ticket de l'arsenal] ×2 000, [Marque de persévérance] ×10 <br>· Remarque : 1 seul achat autorisé dans la version actuelle<br><br>■ Lot de REC Nomade des terres sauvages <br>· Disponibilité : après la mise à jour de la version [Rendez-vous dans le monde des champis] — 23 déc. 2026 à 11 h 59 (heure du serveur) <br>· Contenu du lot : [Permis REC Sylvepatte errante] ×10, [Crédits T] ×80 000 <br>· Remarque : 1 seul achat autorisé<br><br>■ Pack de tickets de l'arsenal — éco <br>· Disponibilité : pendant toute la durée de la version [Rendez-vous dans le monde des champis] <br>· Contenu du lot : [Ticket de l'arsenal] ×2 000 <br>· Remarque : 1 seul achat autorisé dans la version actuelle<br><br>※ Fuseau horaire du serveur Asia : UTC+8 <br>※ Fuseau horaire du serveur Americas / Europe : UTC-5 <br>※ Certains lots peuvent inclure des objets à durée limitée. Vous pouvez consulter les détails de ces objets dans [Achat — Contenu de l'article]. Si les objets à durée limitée d'un lot expirent après l'achat, ils ne pourront pas être réémis. Merci de votre compréhension et de votre soutien. <br>※ Pour plus de lots et de détails, visitez la section [Centre d'acquisition — Lots] en jeu.<br></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "3030",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Construction de matrices : refermer de vieilles plaies",
+            "header": "Construction de matrices : refermer de vieilles plaies",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261120/da34dd24ed1db2010975fb48fc8c088b.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Dates de l'événement</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Pendant la version [Rendez-vous dans le monde des champis]</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Heure de début de l'accélération des travaux : 2026/12/31 06:00 (heure du serveur)</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Récompenses de l'événement</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Pendant l'événement, faites progresser la reconstruction et terminez les tâches de construction pour obtenir des récompenses incluant 1 000 [orobéryls], une [caisse de sélection de progression avancée II], un [support cognitif de niveau avancé], une [Marque de persévérance] et un [fluide de renforcement à l'origécorce V1].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Conditions de participation</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Avoir terminé la mission principale [Chapitre II - Processus VII : Le soleil refuse obstinément de se coucher]</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Avoir terminé la mission annexe [Rêve de gaufres au miel]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Détails de l'événement</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Pendant l'événement, progressez dans les missions pour débloquer le mode de jeu [Reconstruction de la zone d'exclusion] et les technologies du GIA correspondantes, puis utilisez l'usine du GIA pour produire les matériaux nécessaires au projet de reconstruction de la zone d'exclusion, faire avancer la reconstruction et terminer les tâches de construction afin d'obtenir des récompenses.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· L'accélération des travaux commencera lors des 7 derniers jours de l'événement. Durant cette période, chaque approvisionnement réussi apporte un supplément de progression de la reconstruction.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Une fois l'événement de construction [Construction de matrices : refermer de vieilles plaies] terminé, il ne sera plus possible de terminer les tâches de construction ni d'en récupérer les récompenses correspondantes. Toutefois, vous pourrez encore jouer à [Reconstruction de la zone d'exclusion] et obtenir des récompenses de progression de la reconstruction. Faites bien attention au calendrier de l'événement afin de récupérer vos récompenses à temps, Endministrator.</span></p><p></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※Fuseau horaire du serveur Asia : UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※Fuseau horaire du serveur Americas / Europe : UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Pour plus de détails sur l'événement, consultez le [Centre d'événement] en jeu.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "2188",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Tirage de nomade désinvolte",
+            "header": "Tirage de nomade désinvolte",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/eda3ceed2bc554b54201ead00354a0a4.png\" data-width=\"1650\" data-height=\"300\"><p>Endministrator,<br>Tant que le [tirage de nomade désinvolte] est disponible, les chances d'obtenir l'arme 6★ [Offre alléchante (arme d'hast)] sont augmentées !<br><br><strong>▼// [Tirage de nomade désinvolte]</strong><br>· Disponibilité : commence après la mise à jour de la version [Rendez-vous dans le monde des champis] ; se termine après 3 bannières de [recrutement certifié] (à partir de [Enclume, sac à dos, plus un pot de miel])<br>· Critères de participation : terminer la mission principale [Chapitre I - Processus I : Rompre le siège]<br>· Le [tirage de nomade désinvolte] propose l'arme 6 ★ [Offre alléchante (arme d'hast)] à taux SUP.<br>· Les armes 6★ susceptibles d'apparaître dans le [tirage de nomade désinvolte] sont : Offre alléchante (arme d'hast) / Ascension rapide (épée) / Vaillance (arme d'hast) / JET (arme d'hast) / Unité de détonation (unité des Arts) / Pivot (canon portatif) / Raffinement ancien (espadon).<br><br><strong>▼// Récompenses de [tirage de l'arsenal]</strong><br>Dans chaque [Tirage de l'arsenal], effectuer un certain nombre de tirages offre alternativement un [coffre d'offrande d'armes] (CO d'armes) ou une [arme 6★ à taux SUP] spécifique à cette bannière. Le nombre total de tirages pour obtenir ces récompenses de tirage de l'arsenal sera réinitialisé à l'issue de la bannière et ne sera pas reporté sur d'autres bannières de [tirage de l'arsenal].<br><br><strong>▼// Détails sur le [tirage de l'arsenal]</strong><br>· Dans le [tirage de l'arsenal], vous pouvez utiliser des [tickets de l'arsenal] pour effectuer un tirage.<br>· Chaque tirage offre 10 armes aléatoires issues de la liste des armes disponibles, incluant au moins une arme 5★ ou plus.<br><br><strong>▼// Détails sur la [boutique de l'arsenal]</strong><br>Dans la [boutique de l'arsenal], vous pouvez également utiliser le [ticket de l'arsenal] pour acheter directement des armes. Certaines armes achetables peuvent être mises à jour de temps à autre. Consultez les informations affichées sur l'écran du [Centre d'acquisition : boutique de l'arsenal] pour connaître les disponibilités actuelles.<br><br>※ Fuseau horaire du serveur Asia : UTC+8<br>※ Fuseau horaire du serveur Americas / Europe : UTC-5<br>※ Pour plus de détails et de règles concernant les récompenses, visitez le [Centre d'acquisition : boutique de l'arsenal] dans le jeu.<br></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6412",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "extraData": {},
+            "title": "Recrutement de réusinage\\nTirage de réusinage",
+            "header": "Recrutement de réusinage et Tirage de réusinage",
+            "jumpButton": null,
+            "data": {
+              "html": "<p><span style=\"color: rgb(31, 35, 41);\">Endministrator,&nbsp;<br>Pendant le recrutement de réusinage [À tous les vœux à la dérive] #1, l'opératrice 6★ [Gilberta] est à taux SUP.&nbsp;<br>Pendant la durée du tirage de réusinage [Tirage de voyageuse aérienne] #1, les chances d'obtenir l'arme 6★ [Livraison garantie (unité des Arts)] sont augmentées !<br><br><strong>▼// Disponibilité :&nbsp;</strong><br>Après la mise à jour de la version [Rendez-vous dans le monde des champis], jusqu'au 16 décembre 2026 à 11 h 59 (heure du serveur)<br><br><strong>▼// Critères de participation&nbsp;</strong><br>Terminer la mission principale : [Chapitre I - Processus I : Rompre le siège]</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼// Détails sur le recrutement de réusinage [À tous les vœux à la dérive] #1&nbsp;</strong></span></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261123/bb5da0b140cfb7bde8fbe67997255d59.png\" alt=\"\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\"><strong>■ Détails sur le recrutement </strong><br>Le recrutement de réusinage [À tous les vœux à la dérive] #1 propose l'opératrice 6★ [Gilberta] à taux SUP. Dans ce recrutement, vous avez la garantie d'obtenir l'opératrice 6★ [Gilberta] à taux SUP lors des 120 premières tentatives de recrutement. Cette garantie ne peut se déclencher qu'une seule fois dans l'ensemble des bannières de recrutement de réusinage [À tous les vœux à la dérive]. Les tentatives relatives à cette garantie se répercuteront sur les futures bannières de recrutement de réusinage [À tous les vœux à la dérive].<br><br><strong>■ Récompenses du recrutement&nbsp;</strong><br>Dans le recrutement de réusinage [À tous les vœux à la dérive], lancez un certain nombre de tentatives de recrutement pour gagner les récompenses correspondantes. Les tentatives de recrutement accumulées se répercuteront sur les futures bannières de recrutement de réusinage [À tous les vœux à la dérive].<br><br><strong>· Recrutement d'urgence&nbsp;</strong><br>Après avoir réalisé 30/60/90 tentatives de recrutement, vous recevrez respectivement 10 tentatives de recrutement d'urgence bonus (c'est-à-dire 1 tentative de recrutement ×10 gratuite à chaque jalon). Ce bonus ne peut se déclencher qu'une seule fois dans l'ensemble des bannières de recrutement de réusinage [À tous les vœux à la dérive]. Toutes les tentatives de recrutement d'urgence non utilisées se répercuteront sur les futures bannières de recrutement de réusinage [À tous les vœux à la dérive].<br><strong><br>· Jeton symbolique&nbsp;</strong><br>Dans l'ensemble des bannières de recrutement de réusinage [À tous les vœux à la dérive], toutes les 240 tentatives de recrutement, vous obtiendrez 1 [jeton de Gilberta] bonus. Les tentatives se répercuteront sur les futures bannières de recrutement de réusinage [À tous les vœux à la dérive].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Détails sur le tirage de réusinage [Tirage de voyageuse aérienne] #1&nbsp;</strong></span></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261123/c49fa13ed458b94b0a35bfb508835b44.png\" alt=\"\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Détails sur le tirage&nbsp;</strong><br>· Le tirage de réusinage [Tirage de voyageuse aérienne] #1 propose l'arme 6★ [Livraison garantie (unité des Arts)] à taux SUP.&nbsp;<br>· Dans ce tirage, si aucune arme 6★ n'est obtenue au bout de 3 tirages consécutifs, une arme 6★ est alors garantie pour le 4e tirage. Cette garantie n'est valable que pour le tirage de réusinage [Tirage de voyageuse aérienne] #1 et ne se répercute pas sur d'autres bannières de tirage (futures bannières de tirage de réusinage [Tirage de voyageuse aérienne] incluses).&nbsp;<br>· Dans ce tirage, si aucune arme 6★ à taux SUP n'est obtenue lors des 7 premiers tirages, une arme 6★ à taux SUP est alors garantie pour le 8e tirage. Cette garantie ne s'active qu'une fois dans l'ensemble des bannières de tirage de réusinage [Tirage de voyageuse aérienne]. Les tentatives relatives à cette garantie se répercuteront sur les futures bannières de tirage de réusinage [Tirage de voyageuse aérienne].<br><br><strong>■ Récompenses du tirage&nbsp;</strong><br>Lancez un nombre donné de tentatives de tirage de réusinage pour obtenir alternativement un [CO d'armes : voyageuse aérienne] ou [Livraison garantie (unité des Arts)]. Les tentatives de tirage de réusinage accumulées se répercuteront sur les futures bannières de tirage de réusinage [Tirage de voyageuse aérienne].<br><br>※ Fuseau horaire du serveur Asia : UTC+8&nbsp;<br>※ Fuseau horaire du serveur Americas / Europe : UTC-5&nbsp;<br>※ Pour plus d'informations, veuillez vous référer au jeu.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "9844",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1795606200,
+            "focus": 0,
+            "title": "[Orobéryls] L'événement à thème de Kay commence",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261124/fa971e62c666e834c54ab7cffd42c7c6.png",
+              "link": "https://discord.gg/JdVxdGxah?event=1574273752504598528",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "5504",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1795604400,
+            "focus": 0,
+            "title": "Discussions sur la nouvelle version",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261125/a9dcfe5b523dd0e8cfe3b9814343d7bf.jpg",
+              "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fdetail%3Fid%3D2125438644821561779&redirectUrl=https%3A%2F%2Fwww.skport.com%2Farticle%3Fid%3D2125438644821561779%26hg_media%3Dgame%26hg_link_campaign%3Dannouncement%26hg_link_name%3DShroomsdiscussion",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "2186",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1795604400,
+            "focus": 0,
+            "title": "Événement de tirage au sort à durée limitée",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261125/c42ca1a854ce81da3cd31ee0d7e36a39.png",
+              "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fact.skport.com%252Fendfield%252Flimited-time-offer%253Fheader%253D0%2526hg_media%253Dgame%2526hg_link_campaign%253Dannouncement%2526hg_link_name%253Dluckydraw",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "5505",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Rêve de gaufres au miel",
+            "header": "[Rêve de gaufres au miel] Événement narratif de Kay",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261124/b77a52188685097c98861b9f3eb5b8d6.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Ces derniers temps, les habitants de Wuling disent souffrir d'hallucinations troublantes et déroutantes. Vous décidez de mener l'enquête. Peut-être ferez-vous une rencontre merveilleuse...</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Durée de l'événement</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Pendant toute la version [Rendez-vous dans le monde des champis]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Prérequis de participation</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Terminez la mission principale [Chapitre Ⅱ Processus Ⅵ : Des âmes sœurs, une même vision]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Détails de l'événement</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Terminez la mission annexe [Rêve de gaufres au miel] pour obtenir des [orobéryls], un [support cognitif de base], un [proto-èdre], un [ensemble INSP d'arme] et d'autres récompenses.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Une fois la page de l'événement retirée, vous pourrez toujours accomplir cette mission annexe depuis l'écran [Mission] et obtenir les récompenses si vous remplissez les prérequis de participation.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ Fuseau horaire du serveur Asia : UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Fuseau horaire du serveur Americas / Europe : UTC-5</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1364",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Chapeaux ! Champis ! CHAMPIGNONS !",
+            "header": "Chapeaux ! Champis ! CHAMPIGNONS !",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261120/2dc39576bfa8dd274f73acff4b58b530.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Dates de l'événement</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">À partir de la mise à jour de la version [Rendez-vous dans le monde des champis], jusqu'au 23 décembre 2026 à 12 h (heure du serveur)</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Récompenses de l'événement</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Terminez les missions pendant l'événement pour obtenir des récompenses incluant : des [orobéryls] et une [Marque de persévérance].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Conditions de participation</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Dans la mission annexe [Des gaufres à la rescousse : la rencontre], terminez l'objectif [Aller au barrage].</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Terminez la mission principale [Chapitre II - Processus VI : Des âmes sœurs, une même vision] pour débloquer la mission annexe indiquée [Des gaufres à la rescousse : la rencontre].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Détails de l'événement</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Au cours de l'événement, visitez la zone [Ancien barrage] dans la région de Wuling et terminez des missions d'événement, comme le déblocage de points TP et l'ouverture de caisses de Protocole, pour obtenir de belles récompenses.</span></p><p></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※Fuseau horaire du serveur Asia : UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※Fuseau horaire du serveur Americas / Europe : UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">※Pour plus de détails sur l'événement, consultez le [Centre d'événement] en jeu.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8939",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Échos guerriers\\nSaison de la dispersion",
+            "header": "Échos guerriers - Saison de la dispersion",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/67128d675f9bfdac00d8f4a40d61dae0.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Disponibilité de la saison&nbsp;<br></strong>À partir de la mise à jour de la version [Rendez-vous dans le monde des champis], jusqu'au 16&nbsp;décembre&nbsp;2026 à 11&nbsp;h&nbsp;59 (heure du serveur)<br><br><strong>▼// Conditions de participation&nbsp;<br></strong>· Niveau d'autorité&nbsp;≥&nbsp;40&nbsp;<br>· Terminer la mission principale [Chapitre&nbsp;I&nbsp;-&nbsp;Processus&nbsp;II&nbsp;:&nbsp;Ouvrir la voie]<br><br><strong>▼// Détails de la mise à jour de la saison&nbsp;<br></strong>La nouvelle saison [Saison de la dispersion] est disponible, avec 3&nbsp;niveaux inédits. Cette saison compte 3&nbsp;cycles, comportant chacun 3&nbsp;niveaux.<br><br>※ Fuseau horaire du serveur Asia&nbsp;: UTC+8&nbsp;<br>※ Fuseau horaire du serveur Americas / Europe&nbsp;: UTC-5&nbsp;<br>※ Pour plus de détails, consultez le [centre d'événement] en jeu.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "3029",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1795449600,
+            "focus": 0,
+            "title": "[Sanctuaire d'encre]\\nJournal de pionnier",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261124/28b661c14f454c34b4200d54ff0819d9.png",
+              "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fevent.skport.com%252Factivity%252Fendfield_data_report%252Fsanctuary%253Fheader%253D0%2526hg_media%253Dgame%2526hg_link_campaign%253Dannouncement%2526hg_link_name%253Dpioneerlog",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "2198",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1795433400,
+            "focus": 0,
+            "title": "Mises à jour du widget de statistiques de jeu Discord",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261120/cac756804d80eed4bda6044a44ccdd70.jpg",
+              "link": "https://endfield.gryphline.com/special/discord-binding",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1353",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 5,
+            "displayType": "picture",
+            "startAt": 1795579200,
+            "focus": 0,
+            "extraData": {},
+            "title": "Site officiel de recharge disponible",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261124/de85d14fc2d34429ddcc27461fd66938.png",
+              "link": "https://topup.gryphline.com/endfield?source_from=bulletin&u8_token={u8_token}&server={server}",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8998",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 5,
+            "displayType": "rich_text",
+            "startAt": 1769011200,
+            "focus": 0,
+            "title": "Règles de fair-play",
+            "header": "Règles de fair-play d'Arknights: Endfield",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260121/0124ec05493701714ff2280c237f4020.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Merci pour votre intérêt et votre soutien permanent à Arknights: Endfield. En vue de maintenir un environnement de jeu sain et équitable, et de protéger les droits et intérêts légitimes de tous les joueurs, nous souhaitons rappeler à tous les joueurs les points suivants :</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">1. L'utilisation de codes de triche, d'outils tiers, de recharges non autorisées ou de toute autre méthode inappropriée perturbant l'intégrité du jeu ou enfreignant les Conditions d'utilisation du jeu est strictement interdite. Selon les rapports de surveillance interne et les signalements des joueurs, dans le cas où de telles violations sont confirmées, nous prendrons les mesures qui s'imposent en fonction de la gravité de l'infraction. Cela inclut, mais sans s'y limiter, le retrait des gains illicites, la suspension temporaire ou le bannissement définitif du compte.</span></p><p><span style=\"color: rgb(0, 0, 0);\">2. Afin de préserver les droits et intérêts légitimes de tous les joueurs, veuillez ne pas transférer, partager ou monnayer votre compte de jeu. Les conséquences résultant de tels actes, notamment le vol de compte ou la perte d'éléments dans le jeu, relèvent de l'entière responsabilité du joueur.</span></p><p><span style=\"color: rgb(0, 0, 0);\">3. Afin de garantir une expérience de jeu complète, les joueurs ne sont pas autorisés à décompresser, modifier ou altérer les fichiers d'installation du jeu, et ils ne doivent pas distribuer d'éléments ainsi extraits.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Enfin, pour créer un environnement de jeu positif et juste, il faut que tous les joueurs produisent un effort collectif. Nous demandons à chacun et chacune de contribuer à entretenir un cadre de jeu juste et pacifique. Si vous vous rendez compte de violations de ces règles, veuillez les signaler via notre centre de service client officiel.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6472",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 7,
+            "displayType": "rich_text",
+            "startAt": 1769011200,
+            "focus": 0,
+            "title": "Politique d'utilisation des fonctionnalités",
+            "header": "Politique d'utilisation du Groupe industriel automatisé et des plans",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260121/f756424cf9fdd4694161abeb41eed35c.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">Afin de garantir un environnement de jeu convivial, veuillez respecter nos Conditions d'Utilisation lorsque vous utilisez les fonctionnalités liées au Groupe industriel automatisé. Veuillez ne pas publier ou diffuser de contenu comportant :</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">1. Toute forme de discrimination fondée sur la région, l'ethnie, l'orientation sexuelle, la religion, les opinions politiques, etc.</span></p><p><span style=\"color: rgb(31, 35, 41);\">2. Toute forme de diffamation, d'insulte ou de violation des droits d'autrui</span></p><p><span style=\"color: rgb(31, 35, 41);\">3. Toute forme d'obscénité, de violence, de jeu d'argent ou de haine</span></p><p><span style=\"color: rgb(31, 35, 41);\">4. Tout élément interdit ou jugé inapproprié par les Conditions d'Utilisation.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Si vous commettez l'une des infractions susmentionnées, des sanctions peuvent être appliquées, notamment la suppression des éléments placés dans le Groupe industriel automatisé, la restriction de certaines fonctionnalités de l'Usine GIA et la suspension de votre compte. Pour signaler une infraction, utilisez le bouton [Signaler] ou contactez le support client.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Si vous utilisez la fonctionnalité [Partager un plan], vous obtiendrez un [Code de plan] qui permettra aux autres Endministrators de voir et d'utiliser votre [Plan]. Avant de commencer, veuillez noter qu'en partageant votre [Code de plan], vous acceptez que tout le monde puisse consulter, copier ou utiliser votre conception. Réfléchissez bien avant de le partager.</span></p><p></p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user.gryphline.com/en-us/protocol/plain/endfield/game/terms_of_service\">Terms of Service</a></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6474",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 12,
+            "displayType": "rich_text",
+            "startAt": 1769036400,
+            "focus": 0,
+            "title": "Récupération d'espace de corrosion",
+            "header": "Récupération d'espace de corrosion",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260117/f0736fcc76128c347acd8152f35bf9c3.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Période de disponibilité</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Dès la sortie officielle du jeu</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Récompenses d'exploration</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Tant que [Récupération d'espace de corrosion] est disponible, atteignez les chiffres de l'opération spécifiés pour obtenir des récompenses, dont : [Orobéryls], [Permis REC de base] et [Matériaux de progression].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Conditions de participation</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Terminer la mission principale [Chapitre I, Processus III : Mystère à tous les étages]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Détails du mode de jeu</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· [Récupération d'espace de corrosion] est une activité permanente au cours de laquelle vous embarquez à bord du Dijiang pour explorer les [Anomalies de la Vallée]. Pendant l'exploration, acceptez et terminez diverses commissions afin de débloquer la technologie de soutien à l'exploration, qui améliore votre capacité à explorer les Anomalies de la Vallée, et de gagner des récompenses, dont des [Orobéryls].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Gagnez des chiffres de l'opération en terminant des commissions spécifiques ou en extrayant des [nodules de précipitation] des Anomalies de la Vallée. Gagnez suffisamment de chiffres de l'opération pour obtenir des récompenses.</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Pour plus de détails, ouvrez l'écran [Récupération d'espace de corrosion] en jeu et cliquez sur [Détails du mode de jeu].</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "3080",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 19,
+            "displayType": "rich_text",
+            "startAt": 1769036400,
+            "focus": 0,
+            "title": "Guide des Outils de jeu",
+            "header": "Arknights: Endfield - Guide des Outils de jeu",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260120/666039916faaa001e536d54d48993651.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>[Connexion quotidienne]</strong></p><p>L'outil de Connexion quotidienne vous permet de vous connecter chaque jour afin d'obtenir des récompenses, comme des orobéryls, des archives de combat de niveau avancé, des ensembles INSP d'armes, des Proto-prismes et des notes de crédits talosiennes. Associez vos personnages, et lorsque vous aurez réalisé vos trois premières connexions quotidiennes, vous recevrez un bonus de 300 orobéryls !</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/endfield/sign-in\">Y aller</a></p><p></p><p><strong>[WIKI]</strong></p><p>Le WIKI est un outil renfermant des contenus créés et entretenus grâce au travail d'un groupe d'Endministrators. C'est une source pratique et détaillée qui couvre divers aspects du jeu.</p><p>Là, vous pouvez en savoir plus sur les objets de base et les opérateurs, les Dossiers des armes, et bien plus encore.</p><p>Le WIKI est en cours de développement, et il s'étoffe encore régulièrement, alors si jamais vous rencontrez des problèmes ou des erreurs, n'hésitez pas à appuyer sur [Commentaires] en bas à droite de la page principale.</p><p>Les informations actuellement détaillées dans le WIKI sont exactes pour la version de Beta Test II, mais le contenu réel en jeu peut être différent.</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wiki.skport.com/endfield\">Y aller</a></p><p></p><p><strong>[Outils de carte]</strong></p><p>Les Outils de carte vous offrent un aperçu complet des ressources et installations dans le jeu, ce qui vous permet de rechercher, filtrer et localiser les zones d'intérêt.</p><p>Cela vous offre bien plus qu'une simple vue des caisses de stockage, des objets à collectionner, des ennemis et des autres contenus clés de ce type : une fois connecté(e), vous verrez aussi vos propres tyroliennes, vos pylônes électriques, et les autres structures que vous avez bâties. Cela facilitera grandement votre exploration de Talos-II.</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/map/endfield\">Y aller</a></p><p></p><p><strong>[Terminal du Protocole]</strong></p><p>Le Terminal du Protocole est une façon pratique de rechercher des données de jeu, comme celles qui concernent les opérateurs et le développement régional. Ainsi, vous aurez à portée de main vos statistiques de lucidité, votre progression dans les tâches quotidiennes, et bien d'autres données en temps réel.</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/endfield/game-data?header=0\">Y aller</a></p><p></p><p><strong>[Sélections d'équipe et Guide de build]</strong></p><p>Ces Outils de jeu offrent aux Endministrators une foule d'informations utiles, qui vont des Sélections d'équipe, aux stratégies de combat, en passant par les suggestions de compétences. Parcourez les sélections partagées par d'autres joueurs passionnés d'Arknights: Endfield, et marquez vos préférées d'un J'aime.</p><p>Nous espérons que cela aidera les Endministrators à former rapidement des équipes de rêve, parées à relever tous les défis qui les attendent !</p><p><strong>Chargez Arknights: Endfield, ouvrez [Synchroniseur de Protocole] et appuyez sur le bouton Outils de jeu.</strong></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7222",
+            "type": 0,
+            "tab": "news",
+            "orderType": 2,
+            "orderWeight": 20,
+            "displayType": "picture",
+            "startAt": 1769040000,
+            "focus": 0,
+            "title": "Comptes officiels sur les réseaux sociaux",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260121/f7c29401425a944542963d8bacc9cb8e.jpg",
+              "link": "https://ef-webview.gryphline.com/act/social-media?u8_token={u8_token}&server={server}",
+              "linkType": 2
+            }
+          }
+        ]
+      },
+      "msg": ""
+    }
   }
 ]

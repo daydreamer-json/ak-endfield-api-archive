@@ -220478,5 +220478,623 @@
       },
       "msg": ""
     }
+  },
+  {
+    "updatedAt": "2026-11-25T22:05:59.865+00:00",
+    "req": {
+      "channel": 6,
+      "server": 3,
+      "type": 0,
+      "lang": "en-us",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "code": 0,
+      "data": {
+        "topicCid": "0093",
+        "type": 0,
+        "platform": "Windows",
+        "server": "3",
+        "channel": "#DEFAULT",
+        "subChannel": "#DEFAULT",
+        "lang": "en-us",
+        "key": "0:Windows:3:#DEFAULT:#DEFAULT:en-us",
+        "version": "a09c304094af9cec3eb16ea0430bde96",
+        "onlineList": [
+          {
+            "cid": "4695",
+            "version": 1795575817,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "0770",
+            "version": 1795521319,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "4697",
+            "version": 1795509994,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "7272",
+            "version": 1795168775,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "8947",
+            "version": 1795057306,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6411",
+            "version": 1795429868,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "7263",
+            "version": 1795509983,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "4696",
+            "version": 1795509918,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "3030",
+            "version": 1795517760,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "2188",
+            "version": 1795500657,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6412",
+            "version": 1795509990,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "9844",
+            "version": 1795512237,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "5504",
+            "version": 1795602505,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "2186",
+            "version": 1795561085,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "5505",
+            "version": 1795502336,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1364",
+            "version": 1795517752,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "8939",
+            "version": 1795431420,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "3029",
+            "version": 1795514383,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "2198",
+            "version": 1795517746,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1353",
+            "version": 1795525145,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "8998",
+            "version": 1769005692,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6472",
+            "version": 1769044240,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6474",
+            "version": 1769005934,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "3080",
+            "version": 1782469292,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "7222",
+            "version": 1782469106,
+            "needRedDot": true,
+            "needPopup": false
+          }
+        ],
+        "popupVersion": 0,
+        "updatedAt": 1795644000,
+        "list": [
+          {
+            "cid": "4695",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795575600,
+            "focus": 0,
+            "extraData": {},
+            "title": "Known Issues Notice",
+            "header": "[Meeting You in the World o'Shrooms] Version Known Issues Notice",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261015/ced77442b4ada7220b51b1b709f16193.png\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrators:<br>To ensure a smoother game experience, we've compiled a list of known issues. If you encounter any of these during gameplay, please refer to the suggested solutions.<br><br>▼// Known Issues</p><p>· We are aware of an error in the item description for [HC Wuling Batteries]. These batteries are obtained using packaging equipment and can be used to generate power and charge devices, but cannot be used as trade goods at outposts. We will correct the item description in a future update to reflect their actual uses.</p><p><span>· We are aware of an issue in [Optical Offset], the fourth Protocol Space in the [Delver of the Cryptic - Fade Beyond the Painting] spatial set. When you use the Bounce Device to reach the opposite platform, your character may die unexpectedly upon landing, preventing you from continuing the challenge. If this happens, make a note of the code for the current puzzle before restarting the challenge. When you return to the code entry point, enter the code you noted down to proceed.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">We have located the issue and will fix it as soon as possible. We sincerely apologize for any inconvenience caused. </span><span style=\"color: rgb(31, 35, 41);\">For any other issues, please report them to us via the in-game customer support. Thank you again for your continued interest and support for Arknights: Endfield!</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "0770",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795568400,
+            "focus": 0,
+            "title": "Version Update Notes",
+            "header": "Meeting You in the World o'Shrooms",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261124/fa37ba562e5a59dd2665843af623d1df.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">\"At last ... after all this time ... we'll finally get to meet after crossing the 'Shroom World'\".</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Dear Endministrator,</span></p><p><span style=\"color: rgb(0, 0, 0);\">Welcome to the new version, [Meeting You in the World o'Shrooms]!</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Maintenance Update &amp; Compensation Details</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Update &amp; Maintenance Time</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Asia Server: Nov. 25, 2026 at 06:00 – Nov. 25, 2026 at 12:00 (UTC+8)</span></p><p><span style=\"color: rgb(0, 0, 0);\">Americas / Europe Server: Nov. 24, 2026 at 17:00 – Nov. 24, 2026 at 23:00 (UTC-5)</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ The server reopening time after maintenance may be earlier or later than scheduled. Please check the official announcement for details.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Maintenance Update &amp; Bug Fix Compensation Details</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Update &amp; Maintenance Compensation: [Oroberyl]×900</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Bug Fix Compensation: [Oroberyl]×900</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Distribution Period: After the update and maintenance – Before the next version update and maintenance</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Eligibility: Create a character before the update</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Note: Update &amp; Maintenance Compensation and Bug Fix Compensation will be sent in two separate in-game mails after the [Mail] feature is unlocked. The mails will expire during the next version update and maintenance, so be sure to claim the compensations in time.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Update Notes</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">This update is mandatory. After the update is complete, you will need to re-download and reinstall the game client. Once the version update and maintenance begin, you can follow the in-game instructions to proceed with the update.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· iOS: Enter the App Store and tap [Update].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Android: Enter the game and follow the pop-up prompts to complete the update.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· PlayStation®5: Go to the home screen, select [Arknights: Endfield], press the controller's [OPTIONS] button, select [Check for Update], and confirm the update.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· PC: After closing the game, restart the GRYPHLINK launcher and click [Update].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>※ After [Meeting You in the World o'Shrooms] version update, some content will unlock gradually over time as your exploration progresses. Please refer to the in-game version for the actual update details.</strong></span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// New Version Content</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ New Stories</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1. Exploration Mission</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">[Giga-Shroom Up Close]</span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2. Side Missions</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">[I Dream of Honey Waffles], [The Day After], [Rebuilding a Home I], [Rebuilding a Home II], [Rebuilding a Home III]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ New Operators</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">6★ operator [Kay], 5★ operator [Mimino]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ New Weapons</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">6★ weapons [Sweet Deal (Polearm)], [Raid Comet (Polearm)], 5★ weapon [Star of Tomorrow (Handcannon)]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ New Enemies</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">[Shroomkrusher Nidwyrm], [Bolete Prince], [Shroomkrusher Sporeknuckles], [Shroomkrusher Sporeguard]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ New Area</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">[Wuling - Old Dam]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ New Headhunting Events and Issues</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1. [Anvil, Backpack, Plus A Pot o'Honey] Chartered Headhunting</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Availability: After [Meeting You in the World o'Shrooms] version update – Dec. 23, 2026 at 11:59 (server time)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Headhunting Details: [Anvil, Backpack, Plus A Pot o'Honey] Chartered Headhunting features the Rate-UP 6★ operator [Kay]. 6★ operators that may appear in [Anvil, Backpack, Plus A Pot o'Honey] Chartered Headhunting include: Kay / Argent Flow / Si / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· During [Anvil, Backpack, Plus A Pot o'Honey] Chartered Headhunting, [Combat Drills] will also become available for trying out the 6★ operator [Kay]. Complete the specified stage with the preset team that includes the trial operator and go to the [Event Center] screen to claim [Oroberyl]×100, [Arsenal Defense Crate], [Mark of Perseverance], and other rewards. The [Arsenal Defense Crate] contains a Fully Artificed Level 60 Gear Set that is a good fit for the current trial operator. You can also exchange for [Roaming Wilderpaw HH Permit] at a discount in [AIC Quota Exchange]. Up to [Roaming Wilderpaw HH Permit]×5 can be exchanged.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2. [Casual Roamer Issue] Arsenal Issue Open</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Availability: Opens after [Meeting You in the World o'Shrooms] version update; ends after 3 [Chartered Headhunting] banners (starting from the [Anvil, Backpack, Plus A Pot o'Honey] banner)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Issue Details: [Casual Roamer Issue] Arsenal Issue features the Rate-UP 6★ weapon [Sweet Deal (Polearm)]. 6★ weapons that may appear in [Casual Roamer Issue] Arsenal Issue include: Sweet Deal (Polearm) / Fuyao (Sword) / Valiant (Polearm) / JET (Polearm) / Detonation Unit (Arts Unit) / Wedge (Handcannon) / Former Finery (Greatsword).</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>3. [To Every Wish Adrift] RE-Factor Headhunting #1</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Availability: After [Meeting You in the World o'Shrooms] version update – Dec. 16, 2026 at 11:59 (server time)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Headhunting Details: [To Every Wish Adrift] RE-Factor #1 Headhunting features the Rate-UP 6★ operator [Gilberta]. 6★ operators that may appear in the [To Every Wish Adrift] RE-Factor Headhunting #1 include: Gilberta / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>4. [Floaty Traveler Issue] RE-Factor Issue #1 Open</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Availability: After [Meeting You in the World o'Shrooms] version update – Dec. 16, 2026 at 11:59 (server time)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Issue Details: [Floaty Traveler Issue] RE-Factor Issue #1 features the Rate-UP 6★ weapon [Delivery Guaranteed (Arts Unit)]. 6★ weapons that may appear in [Floaty Traveler Issue] RE-Factor Issue #1 include: Delivery Guaranteed (Arts Unit) / Chivalric Virtues (Arts Unit) / Oblivion (Arts Unit) / Wedge (Handcannon) / Thermite Cutter (Sword) / White Night Nova (Sword) / Exemplar (Greatsword).</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>5. [Precious Scarlet] RE-Factor Headhunting #1</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Availability: Dec. 16, 2026 at 12:00 (server time) – Before version update and maintenance</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Headhunting Details: [Precious Scarlet] RE-Factor #1 Headhunting features the Rate-UP 6★ operator [Rossi]. 6★ operators that may appear in the [Precious Scarlet] RE-Factor Headhunting #1 include: Rossi / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>6. [Scarlet Claws Issue] RE-Factor Issue #1 Open</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Availability: Dec. 16, 2026 at 12:00 (server time) – Before version update and maintenance</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Issue Details: [Scarlet Claws Issue] RE-Factor Issue #1 features the Rate-UP 6★ weapon [Lupine Scarlet (Sword)]. 6★ weapons that may appear in [Scarlet Claws Issue] RE-Factor Issue #1 include: Lupine Scarlet (Sword) / Fuyao (Sword) / Eminent Repute (Sword) / Wedge (Handcannon) / Former Finery (Greatsword) / Detonation Unit (Arts Unit) / Valiant (Polearm).</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ New Events</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1. [I Dream of Honey Waffles] Narrative Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Time: Throughout the [Meeting You in the World o'Shrooms] version</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Details: Complete the side mission [I Dream of Honey Waffles] to earn [Oroberyl]×600, [Elementary Cognitive Carrier], and other rewards.</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ After the narrative event page is removed, you can still play this side mission from [Mission] and earn the rewards if you meet the participation requirements.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2. [Array Building: Mend the Old Gash] Building Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Time: Throughout the [Meeting You in the World o'Shrooms] version</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Details: During the event, progress through missions to unlock the [Exclusion Zone Rebuilding] game mode and related AIC technologies, then use the AIC to produce supplies needed by the Exclusion Zone Rebuilding project, advance Rebuilding Progress, and complete Construction Tasks to earn event rewards that include: [Oroberyl] x1000, [Advanced Progression Selection Crate Ⅱ], [Mark of Perseverance], [Origo-Artificing Fluid Mk Ⅰ], and [Advanced Cognitive Carrier].</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ After the [Array Building: Mend the Old Gash] Building Event ends, you will no longer be able to complete Construction Tasks or claim the corresponding rewards. However, you can still play [Exclusion Zone Rebuilding] and claim Rebuilding Progress rewards.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>3. [Roaming Wilderpaw] Sign-In Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Time: After [Meeting You in the World o'Shrooms] version update – Dec. 23, 2026 at 11:59 (server time)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Details: Sign in for a total of 7 days to earn rewards such as [Roaming Wilderpaw HH Permit]×5.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>4. [Caps! Shrooms! FUNGI!] Guide Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Time: After [Meeting You in the World o'Shrooms] version update – Dec. 23, 2026 at 12:00 (server time)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Details: Visit the [Old Dam] area in [Wuling] and complete specified missions to claim event rewards such as [Oroberyl]×1200 and [Mark of Perseverance].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>5. [Sanity Supply] Limited-Time Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Time:</span></p><p><span style=\"color: rgb(0, 0, 0);\">Asia Server:</span></p><p><span style=\"color: rgb(0, 0, 0);\">Dec. 9, 2026 at 04:00 – Dec. 16, 2026 at 04:00 (server time)</span></p><p><span style=\"color: rgb(0, 0, 0);\">Dec. 31, 2026 at 04:00 – Jan. 7, 2027 at 04:00 (server time)</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Americas / Europe Server:</span></p><p><span style=\"color: rgb(0, 0, 0);\">Dec. 9, 2026 at 04:00 – Dec. 16, 2026 at 04:00 (server time)</span></p><p><span style=\"color: rgb(0, 0, 0);\">Dec. 31, 2026 at 04:00 – Jan. 6, 2027 at 17:00 (server time)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Details: During the event, complete specified missions every day to claim Sanity Supply rewards: [Sanity Usage Permit] and [Emergency Sanity Booster].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>6. [RISE! MEGA ARENA!] Challenge Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Time: Dec. 16, 2026 at 12:00 (server time) – Before version update and maintenance</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Update Time: Dec. 18, 2026 at 04:00 (server time)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Details: During the event, complete challenge stages to earn rewards, including [Oroberyl]×1200, [Portrait Frame: Crown-Snatcher's Bright Star], [Advanced Progression Selection Crate Ⅱ], [Mark of Perseverance], and [Advanced Cognitive Carrier].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>7. [Lucky Carrot's Games of Wonder] Fun &amp; Games Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Time: Dec. 16, 2026 at 12:00 (server time) – Before version update and maintenance</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Update Time: Dec. 23, 2026 at 04:00 (server time)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Details: During the event, experience the \"Witchcraft Paradise\" games, complete Games Challenges to earn [Carrot Payper], and spend [Carrot Payper] at the [Souvenir Exchange] to exchange for event rewards, including [Oroberyl]×1000, [Advanced Progression Selection Crate Ⅱ], [Mark of Perseverance], and [Advanced Cognitive Carrier].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>8. [Workers' Guards: Roll Call] Giveaway Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Time: Dec. 16, 2026 at 12:00 (server time) – Before version update and maintenance</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Details: During the event, log into the game and participate in various game modes to claim the new max-potential 5★ operator [Mimino] and new max-potential 5★ weapon [Star of Tomorrow (Handcannon)].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>9. [Endmin! Let's Sort the Prezzies!] Fun &amp; Games Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Time: Dec. 23, 2026 at 12:00 (server time) – Before version update and maintenance</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Details: Visit the Web Event page to sort gift boxes on transport belts, experience various stages, and claim event rewards, including [Oroberyl]×300 and [T-Creds].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Event &amp; Gameplay Updates</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1. [Echoes of War] Permanent Challenge Mode Update</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>○[Season of Scattering]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Season Update: After [Meeting You in the World o'Shrooms] version update – Dec. 16, 2026 at 11:59 (server time)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Update Notes: New season [Season of Scattering] is available. This season features 3 cycles, each including 3 stages. [Season of Scattering] adds 3 new stages. Clear all new stages on Normal difficulty to claim rewards including [Oroberyl]×300.</span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>○[Season of Wariness]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Season Update: Dec. 16, 2026 at 12:00 (server time) – Before version update and maintenance</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Update Notes: New season [Season of Wariness] is available. This season features 3 cycles, each including 3 stages. [Season of Wariness] adds 3 new stages. Clear all new stages on Normal difficulty to claim rewards including [Oroberyl]×300.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2. [Umbral Monument] Challenge Gameplay Updated, [Despot Weaponized] Special Series Stages Available</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Availability: Dec. 2, 2026 at 12:00 (server time)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Update Notes: This [Umbral Monument] challenge mode update will introduce a new special series, [Despot Weaponized], where you will fight powerful enemy bosses. 1 stage will be available initially, and the second stage will become available after Dec. 9, 2026 at 04:00 (server time). Each stage has multiple difficulty levels. Complete all difficulty levels of all stages to earn rewards that include: [Mark of Perseverance], [Advanced Progression Selection Crate Ⅱ], and [Advanced Cognitive Carrier].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>[Monumental Revelation: Tyranny] limited-time challenge event will also be available once the gameplay mode is updated.</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Time: Dec. 2, 2026 at 12:00 – Dec. 23, 2026 at 04:00 (server time)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Update Time: Dec. 9, 2026 at 04:00 (server time)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event Details: After the release of the [Despot Weaponized] series, the [Monumental Revelation: Tyranny] limited-time event will begin. During the event, complete various [Umbral Monument] challenges to claim event rewards, including [Oroberyl]×1200 and [Advanced Progression Selection Crate Ⅱ].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>3. [Delver of the Cryptic Special Edition] Spatial Set Update</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Update Time: Dec. 27, 2026 at 12:00 (server time)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Update Notes: This [Delver of the Cryptic Special Edition] puzzle-solving event will introduce the new spatial set [Esoteric Mycology]. 3 new Protocol Spaces will be available. Complete the spatial set challenges to claim rewards, including [Oroberyl]×600 and [Mark of Perseverance].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Acquisition Center Update</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· [Protocol Pass: Shroom World] is available. During the [Meeting You in the World o'Shrooms] version period, you can acquire various support items listed by the Arsenal Engineers in the [Protocol Pass]. Activating each seasonal Protocol Pass unlocks the [Basic Supply] tier by default. Level up the Pass to earn rewards such as [Basic HH Permit], [Oroberyls], [Exchange Crate-o-Surprise], and [Progression Materials].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Added in [Acquisition Center: Bundles]: [Wild Roamer HH Bundle], [Protocol Flow Bundle]. The purchase limit for [Value Arsenal Ticket Pack] is reset.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ AIC Factory</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Added [Wuling Multi-Line Engraving Kit]. Use it to obtain an essence with three custom attributes. After the [Wuling – Yinglung Pass] Stock Redistribution Terminal reaches level 4, you can use [Wuling Stock Bill] to purchase [Wuling Multi-Line Engraving Kit] ×1.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· The Regional Development Level cap for the [Wuling] region is increased. Sub-PAC can now be deployed in [Wuling - Old Dam]. Added new exchangeable goods to [Wuling Stock Redistribution].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Added array-related AIC Mode to Wuling AIC, along with array-related AIC Plans: [Forge Ignition], [Rebuilding Supply], [Expansion: Turbid], [L/T Equilibrium], [L/T Stacking], [Forge Bipolarity], [Forge Expansion V]. Also added the corresponding AIC facilities, simulations, and system blueprints.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Added the [Exclusion Zone Rebuilding] game mode: Unlocked after completing the mission [Rebuilding a Home II]. Use the AIC Factory to produce rebuilding supplies and deliver them to the [Rebuilding Supply Port] to advance the [Exclusion Zone] Rebuilding Phase and increase [Wuling]'s regional development.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ System</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Added the [Waffle Piloting] gameplay: Endministrators can launch and control honey waffles in the [Wuling - Old Dam] area. While flying, a waffle can gather Aurylenes. Dipping honey waffles in different types of spores gives them different effects. For example, dipping a waffle in chilly spores lets it reveal and dispel Delulu Walls. Additionally, a new [Invert Y-Axis Controls] option has been added to [Settings - Controller].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· [Talosite Exchange] exchangeable items updated, with new [Gear Template], [Personal Device], [Ornamental], [Camera Pose], [Vinyl], and more.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Others</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Added content such as [Operator Guide], [Energy Alluvium], [NPC], [Engraved Medal], [Profile Theme], [Portrait], [Portrait Frame], [Filter], [Sticker], [Consumable], [Material], [Sanity Meds], [Database Entry], [Clue Dossier], [Personal Device], [Ornamental], [Vinyl], [Camera Pose], [Regional Aurylene Submission Phase], and more. These will gradually unlock as you progress.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Added new gear pieces to Gear Sets [Rift Trekker], [Frontiers], [Eternal Xiranite] and [AIC Fieldwork].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Added a new rare progression material [Origo-Artificing Fluid Mk Ⅰ].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ Please check in-game for more details.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Optimizations &amp; Adjustments</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Combat</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Improved the visual effects of the enemy [Nefarith] in certain situations.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ AIC Factory</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Improved the placement of [Item Control Ports] and [Pipe Control Ports]. They can now be placed without first being connected to a transport belt or pipe. They can connect directly to the belt or pipe ports of a facility and will automatically snap into place in the correct orientation.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ System</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Improved the upgrade prompts on the [Operators - Ability Matrix] screen. When an upgrade requires many types of materials, materials in insufficient quantities are automatically repositioned and displayed first.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Others</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Improved the visuals, special effects, interaction logic, and text descriptions for certain interfaces.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Improved the models, clothing, special effects, movements, camera work, and other presentation aspects of certain operators in certain situations.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Improved some text related to orders and dishes in Innkeeping mode.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimized the text descriptions for some Operator Guides.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimized some Operator Files text.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimized some control-related UI prompts.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimized some mission names.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimized some story text.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Improved the event type names and text descriptions for some events and activities based on how they work in-game.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Refined the names and descriptions of some items based on how they work in-game.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Optimized some tutorial text.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Bug Fixes</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Missions</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Fixed an issue in the side mission [A Snowy Realm Touched by Nightmares] where the Endministrator's combo skill could fail to deal damage normally when hitting enemies who have [shield stacks].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Combat</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Fixed a circumstantial issue where operators' ultimate could be abnormally interrupted.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Fixed a circumstantial issue where 6★ operator [Si]'s [Inksoul] could behave abnormally after being hit with a finisher.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Fixed an issue where certain inputs could cause the [Final Stroke] of 6★ operator [Si]'s battle skill to deal damage abnormally.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Fixed an issue where 6★ operator [Si]'s combo skill failed to trigger when 5★ operator [Alesh]'s battle skill solidified and defeated the enemy.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Fixed an issue where, when 6★ operator [Typhoeus]'s combo skill was cast repeatedly using certain control inputs, the Barrage Arrays from later castings failed to increase the Nature Burst DMG taken by enemies.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Fixed a circumstantial issue where 6★ operator [Typhoeus]'s Hovering state could become abnormal after she cast her battle skill.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Events &amp; Gameplay</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Fixed a circumstantial issue where, in the [Beast File: Qingbo Stockade] stage of the permanent challenge mode [Echoes of War], 6★ operator [Arcane]'s combo skill could fail to trigger when [Array Arcana: INT] skill type was active.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Fixed a circumstantial issue where, in the [Marked by Dark Shadows - Sudden Roar of Oblivion] stage of the permanent game mode [Umbral Monument], the damage values recorded by 6★ operator [Si]'s [Artful Intent] could be abnormal.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ System</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Fixed a circumstantial issue where, after pressing the [Create and save 1 blueprint] mission in [Operational Manual - Node 03] and being redirected to map, the map could appear abnormal.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Others</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Fixed an issue where certain inputs caused 6★ operator [Si]'s status icon to be displayed abnormally.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "4697",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Version Calendar",
+            "header": "[Meeting You in the World o'Shrooms] Version Calendar",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/c8d932c948bec78a856f4c0725efc9fe.jpg\" data-width=\"1920\" data-height=\"3220\"><p></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7272",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795262400,
+            "focus": 0,
+            "title": "New Version Guide",
+            "header": "New Version Guide Now Live",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261120/df2509bcc6d0c701c18d9753c20f4075.jpg\" data-width=\"1650\" data-height=\"300\"><p>[Meeting You in the World o'Shrooms] New Version Guide Page is now live.&nbsp;<br>Check out the new version content in one stop. Browse to claim [Oroberyl]×1000, [T-Creds]×10000, [Elementary Cognitive Carrier]×8, and [Arms INSP Set]×4.&nbsp;<br>Claiming Period: Nov. 21, 2026 at 20:00 – Nov. 25, 2026 06:00 (UTC+8).&nbsp;<br><br><strong>▼// Page Link&nbsp;<br></strong>You can access the New Version Guide Page through the link below, Endministrator.&nbsp;<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://endfield.gryphline.com/version_briefing/latest?u8_token={u8_token}&amp;server={server}\">&gt;&gt;Click to Go</a><br><br><strong>▼// Page Availability Period&nbsp;</strong><br>· The New Version Guide Page will be permanently available to browse starting from Oct. 6, 2026 at 20:00 (UTC+8) and its content will be updated with each game version.&nbsp;<br>· Each New Version Guide Page will be available from the airing of the Version Preview for the corresponding version until before the Version Preview for the next version ends.&nbsp;<br><br><strong>▼// Reward Requirements&nbsp;</strong><br>· Log in to your game account from the New Version Guide Page and finish character creation in Arknights: Endfield.&nbsp;<br><br><strong>▼// Reward Claiming Instructions&nbsp;</strong><br>· During the reward claiming period, a \"claim rewards\" button will be displayed on the New Version Guide Page. Once the period ends, the button will no longer be displayed, and the rewards for that version can no longer be claimed.&nbsp;<br>· Once rewards are successfully claimed on the New Version Guide Page, they will be delivered to the Mail of the character associated with the currently logged-in account.&nbsp;<br>· Each game account can claim the rewards from a given New Version Guide only once.&nbsp;<br><br>※ Please check the page for more details.</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8947",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795013400,
+            "focus": 0,
+            "extraData": {},
+            "title": "Special Thanks\\nTo Endministrator",
+            "header": "Special Thanks | A Gift of Gratitude for Endministrator",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261118/434f89a79788fc6e6b75d7cb2fa4c3b3.png\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrator,</p><p>We sincerely thank you for your continued companionship and support! Arknights: Endfield has won [Best Game] and [Best Story] at Google Play's Best of 2026, and has also been nominated for [Best Mobile Game] at The Game Awards 2026 and [iPad Game of the Year] at the App Store Awards 2026.</p><p>To express our special thanks for your love and recognition, we have prepared a gift for you.</p><p></p><p><strong>▼// A Gift of Gratitude for Endministrator</strong></p><p>· Gift: [Oroberyl]×3000</p><p>· Distribution Period: Nov. 19, 2026 at 00:00 (UTC+8) – Before version [Meeting You in the World o'Shrooms] ends</p><p>· Eligibility: Create a character and unlock the [Mail] feature before version [Meeting You in the World o'Shrooms] ends.</p><p>· Details: During the distribution period, the project team will send eligible Endministrators an in-game mail containing [Oroberyl]×3000. The mail will be valid for 30 days. Please remember to log in and claim your reward in time, Endministrator.</p><p></p><p>Thank you once again for your continued interest and support for Arknights: Endfield!</p><p></p><p>Arknights: Endfield Team</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6411",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 2,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Protocol Pass\\nShroom World",
+            "header": "[Protocol Pass: Shroom World] Details",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/76db424ee5f8b8a25ef373597a65e2bc.jpg\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrator, <br>During the [Protocol Pass: Shroom World] period, you can access various support projects provided by the Arsenal Engineers through the [Protocol Pass] system. Upon the launch of each Protocol Pass season, the [Basic Supply] tier will be unlocked by default. By increasing your Pass Level, you can obtain rewards such as [Basic HH Permits], [Oroberyls], [Exchange Crates-o-Surprise], and [Progression Materials]. <br>The [Originium Supply] tier can be unlocked with [Origeometry] and grants [Basic HH Permit], [Sticker: Clingy &amp; Sweet], [Filter: Golden Sunset], and additional rewards such as [Weapon Supply: Shroom World], [Origeometry], and [Emergency Sanity Booster]. <br>Purchase the [Protocol Customized] tier to get [Profile: City of Shrooms and Honey], [Portrait Frame: Colors After a Bite], [Portrait: Homely Shrooms], plus bonus rewards such as [Weapon Supply: Shroom World], [Arsenal Ticket], and [Protocolized Weapon Pattern].<br><br><strong>▼// Availability </strong><br>Throughout the [Meeting You in the World o'Shrooms] version<br><br><strong>▼// Participation Criteria </strong><br>Complete main mission [Chapter I Process I: Break the Siege]<br><br><strong>▼// Protocol Pass Details </strong><br>· Activating the [Protocol Pass] unlocks the [Basic Supply] tier by default. You can purchase the [Protocol Customized] tier or spend [Origeometry] to unlock the [Originium Supply] tier for additional rewards and Pass EXP Earning Bonus. <br>· For each pass season, the [Originium Supply] and [Protocol Customized] tiers each contain a [Weapon Supply], which allows you to choose and acquire one of the season's featured 6★ weapons. [Protocolized Weapon Patterns] can raise the potential of any weapon provided by Protocol Pass [Weapon Supplies]. <br>· Complete various Pass Missions (some missions will become available after meeting certain criteria or over time), or take part in [Operational Manual - Daily Tasks] and claim the max daily Activity Points rewards to earn Pass EXP. Level up the Pass to unlock a variety of [Protocol Pass] rewards. <br>· After unlocking [Originium Supply] or [Protocol Customized], you can continue earning Pass EXP even after maxing out the [Protocol Pass] level. Any Pass EXP beyond the cap will accumulate to grant [Cycling Crates-o-Surprise] as rewards. The crate opens automatically upon receipt and grants a random [Oroberyl] reward, a random [Progression Material] reward and a random [Sanity Usage Permit] reward. <br>· Unlocking the [Originium Supply] / [Protocol Customized] tier of the seasonal Protocol Pass grants +3% / +3% EXP bonus respectively. Unlocking both tiers grants a +6% EXP bonus. <br>· For excessive purchases of [Protocol Customized] due to special circumstances, rewards from the [Protocol Customized] tier will not stack. Instead, an amount of [Origeometry] based on the value of the purchase will be returned to you. <br>· When the [Protocol Pass] season ends, any unclaimed pass level rewards shall be sent to your Mail.<br><br>※ Asia Server Time Zone: UTC+8 <br>※ Americas / Europe Server Time Zone: UTC-5 <br>※ For detailed rules, visit [Protocol Pass] in-game and check [Protocol Pass Details].<br></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7263",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 2,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Anvil, Backpack, \\nPlus A Pot o'Honey",
+            "header": "Anvil, Backpack, Plus A Pot o'Honey",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/6f1f2e527d5d6cadb336b72a5bec8620.png\" alt=\"\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Dear Endministrator,&nbsp;<br>During [Anvil, Backpack, Plus A Pot o'Honey] Chartered Headhunting, the 6★ operator [Kay] is on Rate-UP!&nbsp;<br>The [Roaming Wilderpaw] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards such as [Roaming Wilderpaw HH Permit]×5. You can also exchange for [Roaming Wilderpaw HH Permit] at a discount in [AIC Quota Exchange]. The [Combat Drills] operator trial event will also be available during this period.<br><br>▼//<strong>&nbsp;[Anvil, Backpack, Plus A Pot o'Honey] Chartered Headhunting Details&nbsp;</strong><br>· Availability: Opens after [Meeting You in the World o'Shrooms] version update – Dec. 23, 2026 at 11:59 (server time)&nbsp;<br>· Participation Criteria: Complete the main mission [Chapter I Process I: Break the Siege]&nbsp;<br>· [Anvil, Backpack, Plus A Pot o'Honey] Chartered Headhunting features the Rate-UP 6★ operator [Kay].&nbsp;<br>· 6★ operators that may appear in [Anvil, Backpack, Plus A Pot o'Honey] Chartered Headhunting include: Kay / Argent Flow / Si / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.&nbsp;<br>· In [Anvil, Backpack, Plus A Pot o'Honey] Chartered Headhunting, you can use [Roaming Wilderpaw HH Permit], [Chartered HH Permit], or [Oroberyls] to perform headhunting.&nbsp;<br>※ The Rate-UP 6★ operator featured in a [Chartered Headhunting] banner will be, after 3 [Chartered Headhunting] banners, removed from the list of operators that may appear in [Chartered Headhunting]. This Rate-UP 6★ operator will also not be added to [Basic Headhunting].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">▼//<strong>&nbsp;[Chartered Headhunting] Rewards&nbsp;</strong><br>In [Anvil, Backpack, Plus A Pot o'Honey] Chartered Headhunting, perform a certain number of headhunting attempts to earn corresponding rewards.<br>■<strong>&nbsp;Urgent Recruitment&nbsp;</strong><br>· After performing 30 headhunting attempts, you will receive 10 bonus Urgent Recruitment attempts (which count as 1 free 10× headhunting attempt). This is only valid during this [Chartered Headhunting] banner, and does not carry over to other headhunting banners.&nbsp;<br>· The rates for obtaining operators through Urgent Recruitment are the same as the base drop rates of this [Chartered Headhunting] banner, and the free 10× headhunting attempt from Urgent Recruitment guarantees a 5★ or better operator.&nbsp;<br>· This free 10× headhunting attempt given by Urgent Recruitment does not count toward the guarantee for this or other [Chartered Headhunting] banners. It also will not be added to the total headhunting attempts required for [Chartered Headhunting] rewards.&nbsp;<br>■<strong>&nbsp;Headhunting Dossier&nbsp;</strong><br>· After performing 60 headhunting attempts, you will receive a bonus [Headhunting Dossier]×1.&nbsp;<br>· Once the requirements are met, the [Headhunting Dossier] will be automatically sent to your Valuables Stash. Once the next [Chartered Headhunting] banner begins, this [Headhunting Dossier] will be automatically converted to special HH Permit×10 of the specified [Chartered Headhunting] banner. However, the HH Permits will also expire once that banner ends.&nbsp;<br>■<strong>&nbsp;Token Tribute&nbsp;</strong><br>· In each [Chartered Headhunting] banner, every 240 headhunting attempts give a bonus [Token of the Rate-UP 6★ operator featured in the said banner]×1.<br><br>▼//<strong>&nbsp;Arsenal Ticket Details&nbsp;</strong><br>Every headhunting attempt for operators also gives [Arsenal Tickets].&nbsp;<br>· Acquiring a 6★ operator gives [Arsenal Ticket]×2000.&nbsp;<br>· Acquiring a 5★ operator gives [Arsenal Ticket]×200.&nbsp;<br>· Acquiring a 4★ operator gives [Arsenal Ticket]×20.&nbsp;<br>※ [Arsenal Tickets] can be spent at the [Acquisition Center - Arsenal Exchange].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">During [Anvil, Backpack, Plus A Pot o'Honey] Chartered Headhunting, the following content will also be available:&nbsp;<br>▼//<strong>&nbsp;[Roaming Wilderpaw] Limited-Time Sign-In Event&nbsp;</strong><br>Sign in for a total of 7 days to earn rewards such as [Roaming Wilderpaw HH Permit]×5.&nbsp;<br><br>▼//<strong>&nbsp;[Combat Drills] Operator Trial Event&nbsp;</strong><br>[Combat Drills] will become available for trying out the 6★ operator [Kay]. Complete the specified stage with the preset team that includes the trial operator to claim [Oroberyl]×100, [Arsenal Defense Crate], [Mark of Perseverance], and other rewards. The [Arsenal Defense Crate] contains a Fully Artificed Level 60 Gear Set that is a good fit for the current trial operator.&nbsp;<br><br>▼//<strong>&nbsp;[AIC Quota Exchange] Special Note&nbsp;</strong><br>The [Quota Exchange] will offer limited-time special deals. You can spend [AIC Quota] to purchase items such as [Roaming Wilderpaw HH Permit]×5.&nbsp;<br><br>※ Asia Server Time Zone: UTC+8&nbsp;<br>※ Americas / Europe Server Time Zone: UTC-5&nbsp;<br>※ For more headhunting details, check the in-game [Headhunting] screen.&nbsp;<br>※ For more event details, check the in-game [Event Center].&nbsp;<br>※ For details on [AIC Quota Exchange], check the in-game [Acquisition Center].</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "4696",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "[Meeting You in the World o'Shrooms]\\nBundles",
+            "header": "[Meeting You in the World o'Shrooms] Bundle Details",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/da1db911e2b2aaea7435c04463a4213f.jpg\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrator, <br>During the [Meeting You in the World o'Shrooms] version, the [Acquisition Center] will offer a variety of bundles.<br><br><strong>▼// Limited Bundles </strong><br>■ Protocol Flow Bundle <br>· Availability: Throughout the [Meeting You in the World o'Shrooms] version <br>· Bundle Contents: [Chartered HH Permit]×10, [Arsenal Ticket]×2000, [Mark of Perseverance]×10 <br>· Special Note: Only 1 purchase allowed in current version<br><br>■ Wild Roamer HH Bundle <br>· Availability: After [Meeting You in the World o'Shrooms] version update – Dec. 23, 2026 at 11:59 (server time) <br>· Bundle Contents: [Roaming Wilderpaw HH Permit]×10, [T-Creds]×80000 <br>· Special Note: Only 1 purchase allowed<br><br>■ Value Arsenal Ticket Pack <br>· Availability: Throughout the [Meeting You in the World o'Shrooms] version <br>· Bundle Contents: [Arsenal Ticket]×2000 <br>· Special Note: Only 1 purchase allowed in current version<br><br>※ Asia Server Time Zone: UTC+8 <br>※ Americas / Europe Server Time Zone: UTC-5 <br>※ Some bundles may include limited-time items. You can check the details of limited-time items in [Purchase - Item Contents]. If limited-time items in a bundle expire after purchase, they cannot be reissued. Thank you for your understanding and support. <br>※ For more bundles and their details, visit the in-game [Acquisition Center - Bundles].<br></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "3030",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Array Building: Mend the Old Gash",
+            "header": "[Array Building: Mend the Old Gash] Building Event Details",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261120/1f9ebbaefe4d1822f79291613c26c2e7.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Event Time</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· During the [Meeting You in the World o'Shrooms] version</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Construction Speed Up start time: 2026/12/31 06:00 (server time)</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Event Rewards</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">During the event, accumulate Rebuilding Progress and complete Construction Tasks to earn rewards that include: [Oroberyl]×1000, [Advanced Progression Selection Crate Ⅱ], [Advanced Cognitive Carrier], [Mark of Perseverance], and [Origo-Artificing Fluid Mk Ⅰ].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Participation Requirements</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Complete main mission [Chapter II Process VII: Stubbornly Lingers the Setting Sun]</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Complete side mission [I Dream of Honey Waffles]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Event Details</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· During the event, progress through missions to unlock the [Exclusion Zone Rebuilding] game mode and related AIC technologies, then use the AIC Factory to produce the supplies needed by the Exclusion Zone Rebuilding project, accumulate Rebuilding Progress, and complete Construction Tasks to earn rewards.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Construction Speed Up will begin in the last 7 days of the event. During this period, each successful supply provides additional Rebuilding Progress.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· After the [Array Building: Mend the Old Gash] Building Event ends, Construction Tasks can no longer be completed, and the corresponding rewards can no longer be claimed. However, you can still play [Exclusion Zone Rebuilding] and earn Rebuilding Progress rewards. Pay attention to the event schedule and claim your rewards in time, Endministrator.</span></p><p></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※Asia Server Time Zone: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※Americas / Europe Server Time Zone: UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ For more event details, check the in-game [Event Center].</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "2188",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Casual Roamer Issue",
+            "header": "[Casual Roamer Issue] LTO Details",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/1a1a74a266584b68cf51ed291823275d.png\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrator, <br>While [Casual Roamer Issue] is available, the chance of getting the 6★ weapon [Sweet Deal (Polearm)] is increased! <br><br><strong>▼// [Casual Roamer Issue] </strong><br>· Availability: Opens after [Meeting You in the World o'Shrooms] version update; ends after 3 [Chartered Headhunting] banners (starting from [Anvil, Backpack, Plus A Pot o'Honey]) <br>· Participation Criteria: Complete the main mission [Chapter I Process I: Break the Siege] <br>· [Casual Roamer Issue] features the Rate-UP 6★ weapon [Sweet Deal (Polearm)]. <br>· 6★ weapons that may appear in [Casual Roamer Issue] include: Sweet Deal (Polearm) / Rapid Ascent (Sword) / Valiant (Polearm) / JET (Polearm) / Detonation Unit (Arts Unit) / Wedge (Handcannon) / Former Finery (Greatsword). <br><br><strong>▼// [Arsenal Issue] Rewards </strong><br>In every [Arsenal Issue], performing a set number of issues gives the banner's specific [Arms Offering Crate] (Arms OC) or [Rate-UP 6★ Weapon] in alternating order. The total number of issues for these Arsenal Issue rewards will be reset once the banner ends, and will not carry over to other [Arsenal Issue] banners. <br><br><strong>▼// [Arsenal Issue] Details</strong> <br>· In [Arsenal Issue], you can spend [Arsenal Tickets] to apply for an issue. <br>· Each issue gives 10 random weapons from the list of available weapons, including at least one 5★ or better weapon. <br><br><strong>▼// [Arsenal Exchange] Details</strong> <br>In [Arsenal Exchange], the [Arsenal Ticket] can also be used to directly purchase weapons. Some purchasable weapons may be updated every now and then. Check the information displayed on the [Acquisition Center - Arsenal Exchange] screen for what is actually available. <br><br>※ Asia Server Time Zone: UTC+8 <br>※ Americas / Europe Server Time Zone: UTC-5 <br>※ For more details and reward rules, visit the in-game [Acquisition Center - Arsenal Exchange].<br></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6412",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "extraData": {},
+            "title": "RE-Factor Headhunting\\nRE-Factor Issue",
+            "header": "RE-Factor Headhunting and RE-Factor Issue Open",
+            "jumpButton": null,
+            "data": {
+              "html": "<p><span style=\"color: rgb(31, 35, 41);\">Dear Endministrator,&nbsp;<br>During [To Every Wish Adrift] RE-Factor Headhunting #1, 6★ operator [Gilberta] is Rate-UP!&nbsp;<br>While [Floaty Traveler Issue] RE-Factor Issue #1 is available, the chance of getting the 6★ weapon [Delivery Guaranteed (Arts Unit)] is increased!<br><br><strong>▼// Availability&nbsp;</strong><br>After [Meeting You in the World o'Shrooms] version update – Dec. 16, 2026 at 11:59 (server time)<br><strong><br>▼// Participation Criteria&nbsp;</strong><br>Complete the main mission [Chapter I Process I: Break the Siege]<br><br><strong>▼// [To Every Wish Adrift] RE-Factor Headhunting #1 Details&nbsp;</strong></span></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261123/354409f0a289a1e41dc2e0da427b031a.png\" alt=\"\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\"><strong>■ Headhunting Details</strong><br>[To Every Wish Adrift] RE-Factor Headhunting features the Rate-UP 6★ operator [Gilberta]. In this headhunting, you are guaranteed to get the Rate-UP 6★ operator [Gilberta] within the first 120 headhunting attempts. This guarantee can only trigger 1 time across all [To Every Wish Adrift] RE-Factor Headhunting banners. Attempts toward this guarantee will carry over to future [To Every Wish Adrift] RE-Factor Headhunting banners.<br><br><strong>■ Headhunting Rewards&nbsp;</strong><br>In [To Every Wish Adrift] RE-Factor Headhunting, perform a certain number of headhunting attempts to earn corresponding rewards. The accumulated headhunting attempts will carry over to future [To Every Wish Adrift] RE-Factor Headhunting banners.<br><br><strong>· Urgent Recruitment&nbsp;</strong><br>After performing 30/60/90 headhunting attempts, you will respectively receive 10 bonus Urgent Recruitment attempts (i.e., 1 free 10× headhunting attempt at each milestone). This bonus can only trigger 1 time across all [To Every Wish Adrift] RE-Factor Headhunting banners. Any unused Urgent Recruitment attempts will carry over to future [To Every Wish Adrift] RE-Factor Headhunting banners.<br><br><strong>· Token Tribute&nbsp;</strong><br>Across all [To Every Wish Adrift] RE-Factor Headhunting banners, for every 240 headhunting attempts performed, you will receive a bonus [Gilberta's Token]×1. Attempts will carry over to future [To Every Wish Adrift] RE-Factor Headhunting banners.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// [Floaty Traveler Issue] RE-Factor Issue #1 Details&nbsp;</strong></span></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261123/a5c3ef86e31699240936bd61536cadb1.png\" alt=\"\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Issue Details&nbsp;</strong><br>· [Floaty Traveler Issue] RE-Factor Issue features the Rate-UP 6★ weapon [Delivery Guaranteed (Arts Unit)].&nbsp;<br>· In this Issue, if no 6★ weapons are acquired in 3 consecutive issues, then a 6★ weapon is guaranteed on the 4th issue. This guarantee is only valid for [Floaty Traveler Issue] RE-Factor Issue #1 and does not carry over to other Issue banners (including future [Floaty Traveler Issue] RE-Factor Issue banners).&nbsp;<br>· In this Issue, if no Rate-UP 6★ weapons are acquired in the first 7 issues, then a Rate-UP 6★ weapon is guaranteed on the 8th issue. This guarantee can trigger 1 time across all [Floaty Traveler Issue] RE-Factor Issue banners. Attempts toward the guarantee will carry over to future [Floaty Traveler Issue] RE-Factor Issue banners.&nbsp;<br><br><strong>■ Issue Rewards&nbsp;</strong><br>Perform a set number of RE-Factor Issue attempts to get [Arms OC: Floaty Traveler] or [Delivery Guaranteed (Arts Unit)] in alternating order. The accumulated RE-Factor Issue attempts will carry over to future [Floaty Traveler Issue] RE-Factor Issue banners.&nbsp;<br><br>※ Asia Server Time Zone: UTC+8&nbsp;<br>※ Americas / Europe Server Time Zone: UTC-5&nbsp;<br>※ Please check in-game for more details.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "9844",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1795606200,
+            "focus": 0,
+            "title": "[Oroberyls] Kay-Themed Event Now Open",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261124/90836e1076578b7f5dc30ebeb18a1693.png",
+              "link": "https://discord.gg/JdVxdGxah?event=1574273752504598528",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "5504",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1795604400,
+            "focus": 0,
+            "title": "New Version Discussion",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261125/0aa9e62178d7938ea86504c06b9549ea.jpg",
+              "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fdetail%3Fid%3D2125438644821561779&redirectUrl=https%3A%2F%2Fwww.skport.com%2Farticle%3Fid%3D2125438644821561779%26hg_media%3Dgame%26hg_link_campaign%3Dannouncement%26hg_link_name%3DShroomsdiscussion",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "2186",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1795604400,
+            "focus": 0,
+            "title": "Limited-Time Prize Draw Event",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261125/7cea6a9f8c02214fbf4c6be474d45690.png",
+              "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fact.skport.com%252Fendfield%252Flimited-time-offer%253Fheader%253D0%2526hg_media%253Dgame%2526hg_link_campaign%253Dannouncement%2526hg_link_name%253Dluckydraw",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "5505",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "I Dream of Honey Waffles",
+            "header": "[I Dream of Honey Waffles] Kay Narrative Event Details",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261124/4ef0ae56251d04fa9a06c6adbf98f511.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Recently, the citizens of Wuling have reported rather puzzling and confusing hallucinations. You decide to investigate the incident. Perhaps a wondrous encounter awaits...</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Event Time</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Throughout the [Meeting You in the World o'Shrooms] version</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Participation Requirements</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Complete the main mission [Chapter Ⅱ Process Ⅵ: Kindred Souls Who Share a Vision]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Event Details</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Complete the side mission [I Dream of Honey Waffles] to earn [Oroberyls], [Elementary Cognitive Carrier], [Protohedron], [Arms INSP Set], and other rewards.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· After the event page is removed, you can still play this side mission from [Mission] and earn the rewards if you meet the participation requirements.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ Asia Server Time Zone: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Americas / Europe Server Time Zone: UTC-5</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1364",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Caps! Shrooms! FUNGI!",
+            "header": "[Caps! Shrooms! FUNGI!] Guide Event Details",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261120/adb02f1dc40f72f5ff4a9fae06ff2aba.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Event Time</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">After [Meeting You in the World o'Shrooms] version update – Dec. 23, 2026 at 12:00 (server time)</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Event Rewards</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Complete missions during the event to earn rewards including: [Oroberyls] and [Mark of Perseverance].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Participation Requirements</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">In side mission [Waffles to the Rescue: Encounter], complete the objective [Go to the dam]</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Complete main mission [Chapter Ⅱ Process Ⅵ: Kindred Souls Who Share a Vision] to unlock the specified side mission [Waffles to the Rescue: Encounter].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Event Details</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">During the event, visit the area [Old Dam] in the region of Wuling and complete event missions such as unlocking TP Points and opening Protocol Crates to earn rich rewards.</span></p><p></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※Asia Server Time Zone: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※Americas / Europe Server Time Zone: UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">※For more event details, check the in-game [Event Center].</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8939",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Echoes of War\\nSeason of Scattering",
+            "header": "Echoes of War - Season of Scattering",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/4ac2678bd309638aef33c79b9aedbe05.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Season Availability&nbsp;<br></strong>After [Meeting You in the World o'Shrooms] version update – Dec. 16, 2026 at 11:59 (server time)<br><br><strong>▼// Participation Requirements&nbsp;<br></strong>· Authority Level ≥ 40&nbsp;<br>· Complete the main mission [Chapter I Process II: Paving the Way]<br><br><strong>▼// Season Update Details&nbsp;<br></strong>New season [Season of Scattering] is available with 3 newly added stages. This season features 3 cycles, each including 3 stages.<br><br>※ Asia Server Time Zone: UTC+8&nbsp;<br>※ Americas / Europe Server Time Zone: UTC-5&nbsp;<br>※ For more details, check the in-game [Event Center].</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "3029",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1795449600,
+            "focus": 0,
+            "title": "[Sanctuary of Ink]\\nPioneer Log",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261124/19ac07833bb1c3efa2be4fcb32e6b705.png",
+              "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fevent.skport.com%252Factivity%252Fendfield_data_report%252Fsanctuary%253Fheader%253D0%2526hg_media%253Dgame%2526hg_link_campaign%253Dannouncement%2526hg_link_name%253Dpioneerlog",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "2198",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1795433400,
+            "focus": 0,
+            "title": "Discord Game Stats Widget Updates",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261120/1e2403cdf6df4b3d17d6caa9a79100cf.jpg",
+              "link": "https://endfield.gryphline.com/special/discord-binding",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1353",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 5,
+            "displayType": "picture",
+            "startAt": 1795579200,
+            "focus": 0,
+            "extraData": {},
+            "title": "Official Top-Up Website Now Live",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261124/1298dd99e5b2052b57ea0ad7062f3620.png",
+              "link": "https://topup.gryphline.com/endfield?source_from=bulletin&u8_token={u8_token}&server={server}",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8998",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 5,
+            "displayType": "rich_text",
+            "startAt": 1769011200,
+            "focus": 0,
+            "title": "Fair Play Statement",
+            "header": "Arknights: Endfield Fair Play Statement",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260121/5d0e1d77e0f3fc0f4357a5e926e0276f.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Thank you for your continued interest and support for Arknights: Endfield. To maintain a healthy and fair gaming environment and protect the legitimate rights and interests of all players, we would like to remind everyone of the following:</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">1. The use of cheats, third-party tools, unauthorized top-ups, or any other improper methods that disrupt the game's integrity or violate the Game Terms of Service is strictly prohibited. Based on backend monitoring and player reports, if such violations are confirmed, we will take appropriate action depending on the severity of the offense, including but not limited to the removal of illicit gains, temporary suspension, or permanent account bans.</span></p><p><span style=\"color: rgb(0, 0, 0);\">2. To protect the legitimate rights and interests of all players, please do not transfer, share, or trade your game account. Any consequences resulting from such actions, including account theft or loss of in-game assets, shall be borne by the player.</span></p><p><span style=\"color: rgb(0, 0, 0);\">3. To ensure a complete gameplay experience, players are strictly prohibited from unpacking, modifying, or tampering with the game installation files, as well as distributing related extracted materials.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Finally, creating a positive and fair gaming environment requires the collective efforts of all players. We kindly ask everyone to help maintain a fair and orderly gaming environment. If you come across any violations, please feel free to report them through our official customer service center.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6472",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 7,
+            "displayType": "rich_text",
+            "startAt": 1769011200,
+            "focus": 0,
+            "title": "Feature Usage Policy",
+            "header": "Automated Industry Complex & Blueprint Usage Policy",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260121/4f7b6292b5e17ec8c71ddbaa01e07e0f.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">To ensure a friendly gaming environment, please follow our Terms of Service when using features related to the Automated Industry Complex. Please do not post or engage in content that involves:</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">1. Discrimination based on region, race, sexual orientation, religion, politics, etc.</span></p><p><span style=\"color: rgb(31, 35, 41);\">2. Defamation, offense, or infringement of others' rights</span></p><p><span style=\"color: rgb(31, 35, 41);\">3. Obscenity, violence, gambling, or hate</span></p><p><span style=\"color: rgb(31, 35, 41);\">4. Anything prohibited or deemed inappropriate by the Terms of Service</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">If you engage in any of the above violations, penalties may be applied, including removal of items placed in the Automated Industry Complex, restrictions on AIC Factory features, and account suspension. To report violations, use the [Report] button or contact customer support.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">If you use the [Share Blueprint] feature, you will get a [Blueprint Code] that lets other Endministrators view and use your [Blueprint]. Before getting started, please note: by sharing your [Blueprint Code], you're allowing anyone to view, copy, or use your design. Please consider carefully before sharing.</span></p><p></p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user.gryphline.com/en-us/protocol/plain/endfield/game/terms_of_service\">Terms of Service</a></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6474",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 12,
+            "displayType": "rich_text",
+            "startAt": 1769036400,
+            "focus": 0,
+            "title": "Etchspace Salvage",
+            "header": "[Etchspace Salvage] Gameplay Details",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260117/84ee7329a136a7e12892455af10ca639.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Time Available</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Once the official release goes live</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Exploration Rewards</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">While [Etchspace Salvage] is available, reach the specified operation metrics to earn rewards that include: [Oroberyls], [Basic HH Permit], and [progression materials].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Participation Requirements</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Complete the main mission [Chapter I Process III: Mystery in the Building]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Gameplay Details</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· [Etchspace Salvage] is a permanent activity where you go aboard Dijiang to enter and explore the [Valley's Aberrants]. While exploring, accept and complete various commissions to unlock Exploration Support Tech that improves your ability to explore the Valley's Aberrants, and earn rewards including [Oroberyls].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Earn operation metrics by completing specific commissions or bringing out [precipitation nodules] from the Valley's Aberrants. Earn enough operation metrics to acquire rewards.</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ For more details, open the in-game [Etchspace Salvage] screen and click [Gameplay Details].</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "3080",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 19,
+            "displayType": "rich_text",
+            "startAt": 1769036400,
+            "focus": 0,
+            "title": "Game Tools Guide",
+            "header": "Arknights: Endfield Game Tools Guide",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260119/7e720c588a069c93cf714a925c555072.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>[Daily Sign-in]</strong></p><p>The Daily Sign-in Tool allows you to sign in daily to obtain rewards like Oroberyl, Advanced Combat Records, Arms INSP Sets, Protoprisms, and Talosian Credit Notes. Bind your characters and, upon completing your first three daily sign-ins, you'll receive 300 Oroberyl!</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/endfield/sign-in\">Go</a></p><p></p><p><strong>[WIKI]</strong></p><p>The WIKI is a tool with content created and maintained through a group of Endministrators’ effort. It's a convenient and detailed resource for checking in-game info.</p><p>Here, you can view basic Operator and item information, Weapon Files, and much more.</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wiki.skport.com/endfield\">Go</a></p><p></p><p><strong>[Map Tools]</strong></p><p>The map tools provides a comprehensive account of in-game resources and facilities, allowing players to search, filter, and locate areas of interest.</p><p>It offers more than just a view of storage crates, collectibles, enemies and similar key content: once logged in, you can also see your own ziplines, Electric Pylons, and other structures you've built. This all makes your Talos-II exploration that much easier.</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/map/endfield\">Go</a></p><p></p><p><strong>[Protocol Terminal]</strong></p><p>The Protocol Terminal grants players a convenient way to search game data such as that concerning operators and region development. You'll have Sanity stats, Daily Task progress, and much more real-time data at your fingertips.</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/endfield/game-data?header=0\">Go</a></p><p></p><p><strong>[Team Picks and Build Guide]</strong></p><p>Game Tools grant Endministrators a wealth of info to reference, spanning team setups, skill suggestions, and combat strategies. Browse the setups shared by other passionate Arknights: Endfield players, and give your favorites a like.</p><p>We hope this will aid Endministrators in quickly forming their perfect teams, ready for any challenge that awaits!</p><p><strong>Load up Arknights: Endfield, open [Protocol Synchronizer], and press the Game Tools button.</strong></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7222",
+            "type": 0,
+            "tab": "news",
+            "orderType": 2,
+            "orderWeight": 20,
+            "displayType": "picture",
+            "startAt": 1769040000,
+            "focus": 0,
+            "title": "Official Social Media Accounts",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260121/32c709626b7cdf405ce9256e89e9fd6b.jpg",
+              "link": "https://ef-webview.gryphline.com/act/social-media?u8_token={u8_token}&server={server}",
+              "linkType": 2
+            }
+          }
+        ]
+      },
+      "msg": ""
+    }
   }
 ]

@@ -216310,5 +216310,623 @@
       },
       "msg": ""
     }
+  },
+  {
+    "updatedAt": "2026-11-25T22:06:00.637+00:00",
+    "req": {
+      "channel": 6,
+      "server": 3,
+      "type": 0,
+      "lang": "es-mx",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "code": 0,
+      "data": {
+        "topicCid": "0093",
+        "type": 0,
+        "platform": "Windows",
+        "server": "3",
+        "channel": "#DEFAULT",
+        "subChannel": "#DEFAULT",
+        "lang": "es-mx",
+        "key": "0:Windows:3:#DEFAULT:#DEFAULT:es-mx",
+        "version": "a09c304094af9cec3eb16ea0430bde96",
+        "onlineList": [
+          {
+            "cid": "4695",
+            "version": 1795575817,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "0770",
+            "version": 1795521319,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "4697",
+            "version": 1795509994,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "7272",
+            "version": 1795168775,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "8947",
+            "version": 1795057306,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6411",
+            "version": 1795429868,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "7263",
+            "version": 1795509983,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "4696",
+            "version": 1795509918,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "3030",
+            "version": 1795517760,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "2188",
+            "version": 1795500657,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6412",
+            "version": 1795509990,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "9844",
+            "version": 1795512237,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "5504",
+            "version": 1795602505,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "2186",
+            "version": 1795561085,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "5505",
+            "version": 1795502336,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1364",
+            "version": 1795517752,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "8939",
+            "version": 1795431420,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "3029",
+            "version": 1795514383,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "2198",
+            "version": 1795517746,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1353",
+            "version": 1795525145,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "8998",
+            "version": 1769005692,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6472",
+            "version": 1769044240,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6474",
+            "version": 1769005934,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "3080",
+            "version": 1782469292,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "7222",
+            "version": 1782469106,
+            "needRedDot": true,
+            "needPopup": false
+          }
+        ],
+        "popupVersion": 0,
+        "updatedAt": 1795644000,
+        "list": [
+          {
+            "cid": "4695",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795575600,
+            "focus": 0,
+            "extraData": {},
+            "title": "Known Issues Notice",
+            "header": "[Meeting You in the World o'Shrooms] Version Known Issues Notice",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261015/ced77442b4ada7220b51b1b709f16193.png\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrators:<br>To ensure a smoother game experience, we've compiled a list of known issues. If you encounter any of these during gameplay, please refer to the suggested solutions.<br><br>▼// Known Issues</p><p>· We are aware of an error in the item description for [HC Wuling Batteries]. These batteries are obtained using packaging equipment and can be used to generate power and charge devices, but cannot be used as trade goods at outposts. We will correct the item description in a future update to reflect their actual uses.</p><p><span>· We are aware of an issue in [Optical Offset], the fourth Protocol Space in the [Delver of the Cryptic - Fade Beyond the Painting] spatial set. When you use the Bounce Device to reach the opposite platform, your character may die unexpectedly upon landing, preventing you from continuing the challenge. If this happens, make a note of the code for the current puzzle before restarting the challenge. When you return to the code entry point, enter the code you noted down to proceed.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">We have located the issue and will fix it as soon as possible. We sincerely apologize for any inconvenience caused. </span><span style=\"color: rgb(31, 35, 41);\">For any other issues, please report them to us via the in-game customer support. Thank you again for your continued interest and support for Arknights: Endfield!</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "0770",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795568400,
+            "focus": 0,
+            "title": "Notas de actualización de la versión",
+            "header": "Conociéndote en el Mundo de los Hongos",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261124/77c8ef8bdad874dd57f4f48b53b718bb.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">“Al final... después de todo este tiempo... por fin logramos conocernos luego de cruzar el ‘Mundo de los hongos’”.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Hola, Endministrator:</span></p><p><span style=\"color: rgb(0, 0, 0);\">¡Te damos la bienvenida a la nueva versión, [Conociéndote en el Mundo de los Hongos]!</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Detalles sobre la actualización de mantenimiento y la compensación</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Hora de la actualización y del mantenimiento</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Servidor Asia: del 25 de noviembre de 2026 a las 06:00 al 25 de noviembre de 2026 a las 12:00 (UTC+8)</span></p><p><span style=\"color: rgb(0, 0, 0);\">Servidor Americas / Europe: del 24 de noviembre de 2026 a las 17:00 al 24 de noviembre de 2026 a las 23:00 (UTC-5)</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ La hora de reapertura del servidor tras el mantenimiento puede adelantarse o retrasarse con respecto a lo previsto. Para obtener más detalles, consulta el anuncio oficial.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Detalles de la actualización de mantenimiento y de la compensación por la corrección de errores</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Compensación por actualización y mantenimiento: [Oroberilio] ×900</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Compensación por corrección de errores: [Oroberilio] ×900</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Periodo de distribución: Después de la actualización y del mantenimiento, antes de la próxima actualización de la versión y del mantenimiento.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Requisitos: Crear un personaje antes de la actualización.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Nota: Las compensaciones por la actualización y el mantenimiento, y por la corrección de errores se enviarán en dos correos separados dentro del juego una vez desbloqueada la función [Correo]. Estos correos vencerán con la próxima actualización y mantenimiento de la versión, así que asegúrate de reclamar las compensaciones a tiempo.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Notas de la actualización</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Esta actualización es obligatoria. Una vez completada, tendrás que volver a descargar y reinstalar el cliente del juego. Cuando comience la actualización de la versión y la tarea de mantenimiento, podrás seguir las instrucciones del juego para continuar con la actualización.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· iOS: Entra en App Store y toca [Actualizar].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Android: Entra en el juego y sigue las instrucciones que aparecen en pantalla para completar la actualización.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· PlayStation®5: Ve a la pantalla de inicio, selecciona [Arknights: Endfield], presiona el botón de opciones del control, selecciona [Buscar actualización] y confirma la actualización.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· PC: Después de cerrar el juego, reinicia el lanzador GRYPHLINK y haz clic en [Actualizar].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>※ Tras la actualización de la versión [Conociéndote en el Mundo de los Hongos], algunos contenidos se desbloquearán gradualmente a medida que avances en tu exploración. Consulta la versión del juego para conocer los detalles de la actualización.</strong></span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Contenido de la nueva versión</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Nuevas historias</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1. Misión de exploración</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">[El Gigahongo desde cerca]</span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2. Misiones secundarias</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">[Sueño con waffles con miel], [El día después], [Reconstruyendo un hogar I], [Reconstruyendo un hogar II], [Reconstruyendo un hogar III]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Nuevos operadores</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Operadora de 6★ [Kay], operadora de 5★ [Mimino]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Nuevas armas</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Armas de 6★ [Oferta dulce (arma de asta)], [Cometa de incursión (arma de asta)], arma de 5★ [Estrella del mañana (cañón de mano)]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Nuevos enemigos</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">[Nidwyrm Rompehongos], [Príncipe Bolete], [Puñoespora Rompehongos], [Guardiaespora Rompehongos]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Nueva área</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">[Wuling - Presa Antigua]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Nuevas solicitudes y eventos de Caza de reclutas</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1. Caza de reclutas certificada [Un yunque, una mochila y un tarro de miel]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Disponibilidad: Después de la actualización de la versión [Conociéndote en el Mundo de los Hongos] – 23 de diciembre de 2026 a las 11:59 (hora del servidor)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detalles de la Caza de reclutas: La Caza de reclutas certificada [Un yunque, una mochila y un tarro de miel] incluye a la operadora de 6★ [Kay] con aumento de probabilidad. Los operadores de 6★ que pueden aparecer en la Caza de reclutas certificada [Un yunque, una mochila y un tarro de miel] incluyen: Kay / Argent Flow / Si / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Durante la Caza de reclutas certificada [Un yunque, una mochila y un tarro de miel], también estarán disponibles los [simulacros de combate] para probar a la operadora de 6★ [Kay]. Completa la etapa especificada con el equipo preestablecido que incluye al operador de prueba y ve a la pantalla del [Centro de eventos] para reclamar [Oroberilio] ×100, [Caja de defensa de Arsenal], [Marca de perseverancia] y otras recompensas. La [Caja de defensa de Arsenal] contiene un conjunto de equipamiento completamente elaborado de nivel 60 que se adecúa bien al operador de prueba actual. También puedes canjear [Permiso de C.R. de Garra Salvaje Errante] con descuento en [Intercambio de cuotas del CAI]. Se pueden cambiar hasta [Permiso de C.R. de Garra Salvaje Errante] ×5.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2. Solicitud de Arsenal [Solicitud de Viajera casual] abierta</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Disponibilidad: Comienza después de la actualización de la versión [Conociéndote en el Mundo de los Hongos]; termina tras 3 banners de [Caza de reclutas certificada] (empezando a partir de [Un yunque, una mochila y un tarro de miel])</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detalles de la solicitud: La Solicitud de Arsenal [Solicitud de Viajera casual] incluye el arma de 6★ [Oferta dulce (arma de asta)] con aumento de probabilidad. Las armas de 6★ que pueden aparecer en la Solicitud de Arsenal [Solicitud de Viajera casual] incluyen: Oferta dulce (arma de asta) / Fuyao (espada) / Valiente (arma de asta) / JET (arma de asta) / Unidad de detonación (Unidad de las Artes) / Cuña (cañón de mano) / Antigua fineza (gran espada).</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>3. Caza de Reclutas de Re-factor #1 [Para cada deseo flotante]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Disponibilidad: Después de la actualización de la versión [Conociéndote en el Mundo de los Hongos] – 16 de diciembre de 2026 a las 11:59 (hora del servidor)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detalles de la Caza de reclutas: La Caza de reclutas de Re-factor #1 [Para cada deseo flotante] incluye a la operadora de 6★ [Gilberta] con aumento de probabilidad. Los operadores de 6★ que pueden aparecer en la Caza de reclutas de Re-factor #1 [Para cada deseo flotante] incluyen: Gilberta / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>4. Solicitud de Re-factor #1 [Solicitud de Viajera flotante] Abierta</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Disponibilidad: Después de la actualización de la versión [Conociéndote en el Mundo de los Hongos] – 16 de diciembre de 2026 a las 11:59 (hora del servidor)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detalles de la solicitud: La Solicitud de Re-factor #1 [Solicitud de Viajera flotante] incluye el arma de 6★ [Entrega garantizada (Unidad de las Artes)] con aumento de probabilidad. Las armas de 6★ que pueden aparecer en la Solicitud de Re-factor #1 [Solicitud de Viajera flotante] incluyen: Entrega garantizada (Unidad de las Artes) / Virtudes caballerescas (Unidad de las Artes) / Olvido (Unidad de las Artes) / Cuña (Cañón de mano) / Cortador de termita (Espada) / Nova de la noche blanca (Espada) / Ejemplar (Gran espada).</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>5. Caza de Reclutas de Re-factor #1 [Tesoro escarlata]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Disponibilidad: 16 de diciembre de 2026 a las 12:00 (hora del servidor) – Antes de la actualización de la versión y el mantenimiento</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detalles de la Caza de reclutas: La Caza de reclutas de Re-factor #1 [Tesoro escarlata] incluye a la operadora de 6★ [Rossi] con aumento de probabilidad. Los operadores de 6★ que pueden aparecer en la Caza de reclutas de Re-factor #1 [Tesoro escarlata] incluyen: Rossi / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>6. Solicitud de Re-factor #1 [Solicitud de Garras escarlata] Abierta</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Disponibilidad: 16 de diciembre de 2026 a las 12:00 (hora del servidor) – Antes de la actualización de la versión y el mantenimiento</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detalles de la solicitud: La Solicitud de Re-factor #1 [Solicitud de Garras escarlata] incluye el arma de 6★ [Lupina escarlata (espada)] con aumento de probabilidad. Las armas de 6★ que pueden aparecer en la Solicitud de Re-factor #1 [Solicitud de Garras escarlata] incluyen: Lupina escarlata (Espada) / Fuyao (Espada) / Alto prestigio (Espada) / Cuña (Cañón de mano) / Antigua fineza (Gran espada) / Unidad de detonación (Unidad de las Artes) / Valiente (Arma de asta).</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Nuevos eventos</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1. Evento de narrativa [Sueño con waffles con miel]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Duración del evento: Durante toda la versión [Conociéndote en el Mundo de los Hongos]</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detalles del evento: Completa la misión secundaria [Sueño con waffles con miel] para adquirir [Oroberilio] ×600, [Portador cognitivo elemental] y otras recompensas.</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Una vez que la página del evento de narrativa se retire, aún podrás jugar esta misión secundaria desde [Misión] y obtener las recompensas si cumples con los requisitos de participación.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2. Evento de construcción [Construcción de conjuntos: Repara la vieja grieta]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Duración del evento: Durante toda la versión [Conociéndote en el Mundo de los Hongos]</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detalles del evento: Durante el evento, avanza en las misiones para desbloquear el modo de juego [Reconstrucción de la Zona de exclusión] y las tecnologías del CAI relacionadas, luego utiliza el Complejo de Automatización Industrial para producir los suministros que se necesitan para la Reconstrucción de la Zona de exclusión, impulsa el Progreso de reconstrucción y completa las Tareas de construcción para obtener recompensas del evento que incluyen lo siguiente: [Oroberilio] x 1000, [Caja de selección de progresión avanzada Ⅱ], [Marca de perseverancia], [Fluido de Origo-elaboración Mk I], y [Portador cognitivo avanzado].</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Una vez que termine el evento [Construcción de conjuntos: Repara la vieja grieta], ya no podrás completar las Tareas de construcción ni reclamar las recompensas correspondientes. Sin embargo, aún podrás jugar [Reconstrucción de la Zona de exclusión] y obtener recompensas de progreso de reconstrucción.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>3. Evento de inicio de sesión [Garra Salvaje Errante]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Duración del evento: Después de la actualización de la versión [Conociéndote en el Mundo de los Hongos] – 23 de diciembre de 2026 a las 11:59 (hora del servidor)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detalles del evento: Inicia sesión durante un total de 7 días para ganar recompensas como [Permiso de C.R. de Garra Salvaje Errante] ×5.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>4. Evento de guía [¡Sombrerillos! ¡Setas! ¡HONGOS!]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Duración del evento: Después de la actualización de la versión [Conociéndote en el Mundo de los Hongos] – 23 de diciembre de 2026 a las 12:00 (hora del servidor)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detalles del evento: Visita la zona [Presa Antigua] de la región de [Wuling] y completa las misiones especificadas para reclamar recompensas del evento, como [Oroberilio] ×1200 y [Marca de perseverancia].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>5. Evento por Tiempo Limitado [Suministro de Cordura]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Duración del evento:</span></p><p><span style=\"color: rgb(0, 0, 0);\">Servidor de Asia:</span></p><p><span style=\"color: rgb(0, 0, 0);\">Desde el 9 de diciembre de 2026 a las 04:00 hasta el 16 de diciembre de 2026 a las 04:00 (hora del servidor)</span></p><p><span style=\"color: rgb(0, 0, 0);\">Desde el 31 de diciembre de 2026 a las 04:00 hasta el 7 de enero de 2027 a las 04:00 (hora del servidor)</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Servidor de Americas / Europe:</span></p><p><span style=\"color: rgb(0, 0, 0);\">Desde el 9 de diciembre de 2026 a las 04:00 hasta el 16 de diciembre de 2026 a las 04:00 (hora del servidor)</span></p><p><span style=\"color: rgb(0, 0, 0);\">Desde el 31 de diciembre de 2026 a las 04:00 hasta el 6 de enero de 2027 a las 17:00 (hora del servidor)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detalles del evento: Durante el evento, completa las misiones especificadas todos los días para reclamar recompensas de Suministro de Cordura: [Refuerzo de Cordura de emergencia] y [Permiso de uso de Cordura].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>6. Evento de desafío [¡ÁLZATE! ¡MEGA ARENA!]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Duración del evento: 16 de diciembre de 2026 a las 12:00 (hora del servidor) – Antes de la actualización de la versión y el mantenimiento</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Hora de actualización del evento: 18 de diciembre de 2026 a las 04:00 (hora del servidor)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detalles del evento: Durante el evento, completa las etapas del desafío para obtener recompensas, lo que incluye [Oroberilio] ×1200, [Marco de retrato: Estrella Brillante del Robacoronas], [Caja de selección de progresión avanzada Ⅱ], [Marca de perseverancia] y [Portador cognitivo avanzado].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>7. Evento: Diversión y juegos [Los Juegos maravillosos de Zanahoria de la suerte]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Duración del evento: 16 de diciembre de 2026 a las 12:00 (hora del servidor) – Antes de la actualización de la versión y el mantenimiento</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Hora de actualización del evento: 23 de diciembre de 2026 a las 04:00 (hora del servidor)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detalles del evento: Durante el evento, experimenta los juegos de “Paraíso de la hechicería” y completa los Desafíos de juegos para ganar [Billete Zanahoria]. Gasta [Billete Zanahoria] en el [Intercambio de souvenirs] para canjearlo por recompensas de evento, los que incluyen [Oroberilio] ×1000, [Caja de selección de progresión avanzada Ⅱ], [Marca de perseverancia], y [Portador cognitivo avanzado].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>8. Evento de regalos [Guardia de los Trabajadores: Pase de lista]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Duración del evento: 16 de diciembre de 2026 a las 12:00 (hora del servidor) – Antes de la actualización de la versión y el mantenimiento</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detalles del evento: Durante el evento, inicia sesión en el juego y participa en varios modos de juego para reclamar la nueva operadora de 5★ [Mimino] con potencial máximo y la nueva arma de 5★ [Estrella del mañana (cañón de mano)] con potencial máximo.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>9. Evento: Diversión y juegos [Una ¡Endmin! ¡Clasifiquemos los regalitos!]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Duración del evento: 23 de diciembre de 2026 a las 12:00 (hora del servidor) – Antes de la actualización de la versión y el mantenimiento</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detalles del evento: Visita la página del Evento web para clasificar las cajas de regalo en las cintas transportadoras, experimentar distintas fases y reclamar recompensas del evento, lo que incluye [Oroberilio] ×300 y [T-Creds].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Actualizaciones de evento y jugabilidad</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1. Actualización del modo de desafío permanente [Ecos de guerra]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>○[Temporada de dispersión]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Actualización de temporada: Después de la actualización de la versión [Conociéndote en el Mundo de los Hongos] – 16 de diciembre de 2026 a las 11:59 (hora del servidor)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Notas de la actualización: La nueva temporada [Temporada de dispersión] ya está disponible. Esta temporada incluye 3 ciclos de 3 etapas cada uno. [Temporada de dispersión] agrega 3 etapas nuevas. Supera todas las etapas nuevas en dificultad Normal para reclamar recompensas que incluyen [Oroberilio] x300.</span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>○[Temporada de cautela]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Actualización de temporada: 16 de diciembre de 2026 a las 12:00 (hora del servidor) – Antes de la actualización de la versión y el mantenimiento</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Notas de la actualización: La nueva temporada [Temporada de cautela] ya está disponible. Esta temporada incluye 3 ciclos de 3 etapas cada uno. [Temporada de cautela] agrega 3 etapas nuevas. Supera todas las etapas nuevas en dificultad Normal para reclamar recompensas que incluyen [Oroberilio] x300.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2. Actualización de la jugabilidad del desafío [Monumento del Umbral], etapas de la serie especial [Déspota armado] disponibles.</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Disponibilidad: Desde el 2 de diciembre de 2026 a las 12:00 (hora del servidor)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Notas de la actualización: Esta actualización del modo de desafío [Monumento del Umbral] presentará una serie especial nueva, [Déspota armado], en la que te enfrentarás a poderosos jefes enemigos, con 1 etapa disponible inicialmente y una segunda etapa que estará disponible a partir del 9 de diciembre de 2026 a las 04:00 (hora del servidor). Cada etapa tiene varios niveles de dificultad. Completa todos los niveles de dificultad de todas las etapas para ganar recompensas que incluyen: [Marca de perseverancia], [Caja de selección de progresión avanzada Ⅱ] y [Portador cognitivo avanzado].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>El evento de desafío por tiempo limitado [Revelación monumental: Tiranía] también estará disponible tras la actualización del modo de juego.</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Duración del evento: Desde el 2 de diciembre de 2026 a las 12:00 hasta el 23 de diciembre de 2026 a las 04:00 (hora del servidor)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Hora de actualización del evento: 9 de diciembre de 2026 a las 04:00 (hora del servidor)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detalles del evento: Cuando se publique la serie [Déspota armado], comenzará el evento por tiempo limitado [Revelación monumental: Tiranía]. Durante el evento, completa varios desafíos de [Monumento del Umbral] para reclamar recompensas del evento, lo que incluye [Oroberilio] ×1200 y [Caja de selección de progresión avanzada Ⅱ].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>3. Actualización del conjunto espacial [Edición especial Explorador de lo críptico]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Hora de actualización: 27 de diciembre de 2026 a las 12:00 (hora del servidor)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Notas de la actualización: Este evento de resolución de acertijos [Edición especial Explorador de lo críptico] introducirá el nuevo conjunto espacial [Micología esotérica]. 3 nuevos Espacios de protocolo estarán disponibles. Completa los desafíos de conjunto espacial para reclamar recompensas, lo que incluye [Oroberilio] ×600 y [Marca de perseverancia].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Actualización del Centro de adquisición</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· [Pase de Protocolo: Mundo de los Hongos] disponible. Durante el periodo de la versión [Conociéndote en el Mundo de los Hongos], puedes adquirir varios objetos de soporte enumerados por los Ingenieros de Arsenal en el [Pase de protocolo]. Al activar cada pase de protocolo de temporada, se desbloquea el nivel [Suministro básico] de forma predeterminada. Sube de nivel el pase para obtener recompensas como [Permiso de C.R. Básica], [Oroberilios], [Caja sorpresa de intercambio] y [Materiales de progresión].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Añadido en [Centro de adquisición: paquetes]: [Paquete de C.R. de Viajera salvaje], [Paquete de flujo de protocolo]. Se restableció el límite de compra del [Paquete eco de Boletos de Arsenal].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Fábrica del CAI</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se añadió el [Kit de grabado multilínea de Wuling]. Úsalo para obtener una esencia con tres atributos personalizados. Cuando el Terminal de redistribución de existencias de [Wuling - Paso de Yinglung] alcance el nivel 4, podrás usar un [Vale de crédito de Wuling] para comprar [Kit de grabado multilínea de Wuling] ×1.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Aumentó el límite de Nivel de desarrollo regional para la región de [Wuling]. Ahora se puede desplegar el Sub-NAP en [Wuling - Presa Antigua]. Se añadieron nuevos objetos intercambiables a [Redistribución de existencias de Wuling].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se añadió el Modo del CAI relacionado con conjuntos al CAI de Wuling, junto con los Planes del CAI relacionados con conjuntos: [Ignición de la forja], [Suministros de reconstrucción], [Expansión: Turbidez], [Equilibrio L/T], [Apilamiento L/T], [Bipolaridad de la Forja], [Expansión de la forja V]. También se añadieron las instalaciones correspondientes del CAI, simulaciones y planos de sistema.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se añadió el modo de juego [Reconstrucción de la Zona de exclusión]: se desbloquea al completar la misión [Reconstruyendo un hogar II]. Usa la Fábrica del CAI para producir suministros de reconstrucción y entregarlos en el [Puerto de Suministro de Reconstrucción] para avanzar en la Fase de Reconstrucción de la [Zona de exclusión] y aumentar el desarrollo regional de [Wuling].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Sistema</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se añadió la jugabilidad [Pilotaje de waffles]: los Endministrators pueden lanzar y controlar waffles con miel en el área [Wuling - Presa Antigua]. Durante el vuelo, el waffle puede reunir Aurilenos. Sumergir los waffles con miel en diferentes tipos de esporas les otorga efectos distintos. Por ejemplo, sumergir un waffle en esporas heladas permite revelar y disipar Muros ilusorios. Además, se añadió una nueva opción [Invertir controles del eje Y] en [Ajustes - Mando].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se actualizaron los objetos intercambiables en [Intercambio de Talosita], con nuevos como [Molde de equipamiento], [dispositivo personal], [Decorativo], [Pose para la cámara], [vinilo] y más.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Otros</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se añadió contenido como [Guía del operador], [Aluvión energético], [PNJ], [medalla grabada], [tema del perfil], [retrato], [marco de retrato], [filtro], [calcomanía], [Consumible], [Material], [Medicamentos para la Cordura], [Entrada de base de datos], [Expediente de pistas], [dispositivo personal], [Decorativo], [vinilo], [Pose para la cámara], [Fase de presentación regional de Aurileno] y más. Se desbloquearán gradualmente a medida que avances.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se añadieron nuevas piezas a los conjuntos de equipamiento [Trotagrietas], [Fronteras], [Xiranita eterna] y [Trabajo de campo del CAI].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se añadió un nuevo material de progresión raro [Fluido de Origo-elaboración Mk I].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ Consulta el juego para descubrir más detalles.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Optimizaciones y ajustes</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Combate</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se mejoraron los efectos visuales del enemigo [Nefarith] en determinadas situaciones.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Fábrica del CAI</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se mejoró la colocación de los [Puertos de control de objetos] y los [Puertos de control de tuberías]. Ahora pueden colocarse sin conectarlos primero a una cinta transportadora o tubería. Pueden conectarse directamente a los puertos de cinta transportadora o tubería de una instalación y se acoplarán automáticamente en la orientación correcta.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Sistema</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se mejoraron los avisos de mejora en la pantalla [Operadores - Matriz de habilidades]. Cuando una mejora requiere muchos tipos de materiales, aquellos cuya cantidad sea insuficiente se reubican automáticamente y aparecen primero.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Otros</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se mejoraron los elementos visuales, los efectos especiales, la lógica de interacción y las descripciones de texto de ciertas interfaces.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se mejoraron los modelos, la ropa, los efectos especiales, los movimientos, el trabajo de cámara y otros aspectos de presentación de ciertos operadores en determinadas situaciones.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se optimizó la descripción de texto de la habilidad de batalla de operadora de 6★ [Si]. El efecto en sí no sufre modificaciones.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se mejoraron algunos textos relacionados a órdenes y platillos en el modo Administrar la posada.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se optimizaron las descripciones de texto para ciertas guías del operador.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se optimizaron algunos textos de Archivos del operador.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se optimizaron algunas indicaciones de la interfaz de usuario relacionadas con el control.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se optimizaron algunos nombres de misiones.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se optimizó parte del texto de la historia.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se mejoraron los nombres de los tipos de evento y las descripciones de texto de algunos eventos y actividades según cómo funcionan en el juego.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se refinaron los nombres y las descripciones de algunos elementos según cómo funcionan en el juego.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se optimizó parte del texto de algunos tutoriales.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Corrección de errores</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Misiones</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se corrigió un problema en la misión secundaria [Un reino nevado marcado por las pesadillas] que impedía que la habilidad de combo del Endministrator infligiera daño normalmente al golpear enemigos con [acumulaciones de escudo].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Combate</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se corrigió un problema circunstancial que provocaba que la habilidad máxima de los operadores fuera interrumpida de forma anormal.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se corrigió un problema circunstancial que provocaba que [Alma de tinta] de la operadora de 6★ [Si] se comportara de forma anormal tras recibir un remate.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se corrigió un problema que provocaba que ciertos comandos hicieran que [Trazo final] de la habilidad de batalla de la operadora de 6★ [Si] infligiera daño de forma anormal.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se corrigió un problema que provocaba que la habilidad de combo de la operadora de 6★ [Si] no se activara cuando la habilidad de batalla del operador de 5★ [Alesh] solidificaba y derrotaba al enemigo.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se corrigió un problema que provocaba que, al activar repetidamente la habilidad de combo de la operadora de 6★ [Typhoeus] usando ciertas entradas, las Formaciones de disparos de activaciones posteriores no aumentaran el DAÑ de Ráfaga de naturaleza recibido por los enemigos.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se corrigió un problema circunstancial que provocaba que el estado de Flotar de la operadora de 6★ [Typhoeus] se volviera anormal después de activar su habilidad de batalla.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Eventos y jugabilidad</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se corrigió un problema circunstancial que provocaba que, en la etapa [Archivo de bestia: Empalizada de Qingbo] del modo de desafío permanente [Ecos de guerra], la habilidad de combo de la operadora de 6★ [Arcane] no se activara cuando el tipo de habilidad [Arcano de matriz: INT] estaba activo.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se corrigió un problema circunstancial que provocaba que, en la etapa [Marcado por sombras oscuras - Rugido repentino del olvido] del modo de juego permanente [Monumento del Umbral], los valores de daño registrados por [Intención artística] de la operadora de 6★ [Si] fueran anormales.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Sistema</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se solucionó un problema circunstancial que provocaba que, al seleccionar la misión [Crear y guardar 1 plano] en [Manual operativo - Nodo 03] y ser redirigido al mapa, este no se mostrara correctamente.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Otros</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Se corrigió un problema con ciertas entradas que provocaban que el ícono de estado de la operadora [Si] de 6★ se mostrara de manera incorrecta.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "4697",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Calendario de la versión",
+            "header": "Calendario de la versión",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/12c8922459da1245a4b78e54c87ef67e.jpg\" data-width=\"1920\" data-height=\"3220\"><p></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7272",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795262400,
+            "focus": 0,
+            "title": "Guía de la nueva versión",
+            "header": "Ya está disponible la Guía de la nueva versión",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261120/5a9eb9b8f65d0007b06f69505b5a42c5.jpg\" data-width=\"1650\" data-height=\"300\"><p>Ya está disponible la página de la Guía de la nueva versión [Conociéndote en el Mundo de los Hongos].&nbsp;<br>Descubre todo el contenido de la nueva versión en un solo lugar. Visita la página para reclamar [Oroberilio]×1000, [T-Creds]×10000, [Portador Cognitivo Elemental]×8 y [Set de inspector de armas]×4.&nbsp;<br>Periodo para reclamar recompensas: del 21 de noviembre de 2026 a las 20:00 al 25 de noviembre de 2026 a las 06:00 (UTC+8).&nbsp;<br><br><strong>▼// Enlace a la página&nbsp;</strong><br>Endministrator, puedes acceder a la página de la Guía de la nueva versión mediante el siguiente enlace.&nbsp;<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://endfield.gryphline.com/version_briefing/latest?u8_token={u8_token}&amp;server={server}\">&gt;&gt;Haz clic para ir</a><br><br><strong>▼// Periodo de disponibilidad de la página&nbsp;</strong><br>· La página de la Guía de la nueva versión estará disponible de forma permanente a partir del 6 de octubre de 2026 a las 20:00 (UTC+8) y su contenido se actualizará con cada versión del juego.&nbsp;<br>· Cada página de la Guía de la nueva versión estará disponible desde la transmisión de la vista previa de esa versión hasta antes de que termine la transmisión de la vista previa de la siguiente versión.&nbsp;<br><br><strong>▼// Requisitos para obtener recompensas&nbsp;</strong><br>· Inicia sesión en tu cuenta del juego desde la página de la Guía de la nueva versión y completa la creación de tu personaje en Arknights: Endfield.&nbsp;<br><br><strong>▼// Instrucciones para reclamar recompensas&nbsp;</strong><br>· Durante el periodo para reclamar recompensas, aparecerá el botón “Reclamar recompensas” en la página de la Guía de la nueva versión. Una vez que termine el periodo, el botón dejará de aparecer y ya no se podrán reclamar las recompensas de esa versión.&nbsp;<br>· Una vez que reclames las recompensas en la página de la Guía de la nueva versión, las recibirás en el Correo del personaje vinculado a la cuenta con la que iniciaste sesión.&nbsp;<br>· Cada cuenta del juego puede reclamar las recompensas de la Guía de la nueva versión una sola vez.&nbsp;<br><br>※ Consulta la página para obtener más detalles.</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8947",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795013400,
+            "focus": 0,
+            "extraData": {},
+            "title": "Agradecimiento especial\\nPara nuestro Endministrator",
+            "header": "Un obsequio para nuestro Endministrator",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261119/5d376768ce34dfa0fbf42d4b5da919b7.png\" data-width=\"1650\" data-height=\"300\"><p>Endministrator:</p><p>¡Agradecemos sinceramente tu compañía y apoyo constantes! Arknights: Endfield ha ganado los premios [Mejor juego] y [Mejor historia] en Los mejores del 2026 de Google Play. Además, ha recibido nominaciones a [Best Mobile Game] en The Game Awards 2026 y a [iPad Game of the Year] en los App Store Awards 2026.</p><p>Como muestra especial de agradecimiento por tu cariño y reconocimiento, el equipo del proyecto ha preparado un regalo para ti.</p><p></p><p><strong>▼// Un obsequio para nuestro Endministrator</strong></p><p>· Regalo: [oroberilio]×3000</p><p>· Periodo de emisión: 19 de noviembre de 2026 a las 00:00 (UTC+8) – Antes de que finalice la versión [Conociéndote en el Mundo de los Hongos]</p><p>· Requisitos: Crear un personaje y desbloquear la función de [correo] antes de que finalice la versión [Conociéndote en el Mundo de los Hongos].</p><p>· Detalles: Durante el periodo de emisión, el equipo del proyecto enviará a los Endministrators que cumplan los requisitos un correo en el juego con [oroberilio]×3000. El correo será válido durante 30 días. Recuerda iniciar sesión y recoger tu recompensa a tiempo, Endministrator.</p><p></p><p>¡Gracias una vez más por tu interés y apoyo continuos a Arknights: Endfield!</p><p></p><p>El equipo de Arknights: Endfield</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6411",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 2,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Pase de protocolo\\nMundo de los hongos",
+            "header": "Detalles de [Pase de protocolo: Mundo de los hongos]",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/bada2b09370a8db8774d9fe1afec5e55.jpg\" data-width=\"1650\" data-height=\"300\"><p>Apreciable Endministrator: <br>Durante el periodo del [Pase de protocolo: Mundo de los hongos], podrás acceder a varios proyectos de apoyo proporcionados por los Ingenieros de Arsenal mediante el sistema de [Pase de protocolo]. Al inicio de cada temporada del Pase de Protocolo, el nivel [Suministro básico] se desbloqueará de forma predeterminada. Al aumentar de nivel el Pase, podrás obtener recompensas como [Permisos de C.R. Básica], [Oroberilios], [Cajas sorpresa de intercambio] y [Materiales de progresión]. <br>El nivel [Suministro de Originio] puede desbloquearse con [Origeometría] y otorga [Permiso de C.R. Básica], [Calcomanía: Pegajoso y Dulce], [Filtro: Atardecer dorado] y recompensas adicionales como [Suministro de armas: Mundo de los Hongos], [Origeometría] y [Refuerzo de Cordura de emergencia]. <br>Adquiere el nivel [Personalizado por protocolo] para obtener [Perfil: Ciudad de Hongos y Miel], [Marco de retrato: Colores Tras una mordida], [Retrato: Hongos residentes], además de otras recompensas como [Suministro de armas: Mundo de los Hongos], [Boleto de Arsenal] y [Patrón de arma protocolizado].<br><br><strong>▼// Disponibilidad </strong><br>Durante toda la versión [Conociéndote en el Mundo de los Hongos]<br><br><strong>▼// Criterios de participación </strong><br>Completa la misión principal [Capítulo I Proceso I: Rompiendo el asedio]<br><strong><br>▼// Detalles del Pase de protocolo </strong><br>· Al activar el [Pase de protocolo], se desbloquea el nivel [Suministro básico] de manera predeterminada. Puedes comprar el nivel [Personalizado por protocolo] o gastar [Origeometría] para desbloquear el nivel [Suministro de Originio] y obtener recompensas adicionales y una bonificación de obtención de EXP del Pase. <br>· Para cada temporada del Pase, los niveles [Suministro de Originio] y [Personalizado por protocolo] contienen un [Suministro de armas] cada uno, lo que te permite elegir y adquirir una de las armas de 6★ incluidas en la temporada. [Patrones de armas protocolizados] pueden aumentar el potencial de cualquier arma otorgada por [suministros de armas] del Pase de protocolo. <br>· Completa varias misiones del Pase (algunas misiones estarán disponibles tras cumplir ciertos criterios o más adelante), o participa en [Manual operativo – Tareas diarias] y reclama las recompensas por alcanzar el máximo de Puntos de actividad diarios para obtener EXP del Pase. Aumenta de nivel el Pase para desbloquear una variedad de recompensas del [Pase de protocolo]. <br>· Tras desbloquear [Suministro de Originio] o [Personalizado por protocolo], podrás seguir ganando EXP del Pase incluso después de alcanzar el nivel máximo del [Pase de protocolo]. Cualquier EXP del Pase que exceda el límite se acumulará para otorgar [Cajas sorpresa cíclicas] como recompensa. La caja se abre automáticamente al recibirla y otorga una recompensa de [Oroberilio] al azar, un [Material de progresión] al azar y un [Permiso de uso de Cordura] al azar. <br>· Desbloquear los niveles [Suministro de Originio] o [Personalizado por protocolo] del Pase de protocolo de temporada otorga +3 %/+3 % de bonificación de EXP respectivamente. Desbloquear ambos niveles otorga +6 % de bonificación de EXP. <br>· Para compras excesivas de [Personalizado por protocolo] debido a circunstancias especiales, las recompensas del nivel [Personalizado por protocolo] no se acumularán. En su lugar, se te devolverá una cantidad de [Origeometría] en función del valor de la compra. <br>· Al finalizar la temporada del [Pase de protocolo], las recompensas de nivel del Pase sin reclamar se enviarán a tu Correo.<br><br>※ Zona horaria del servidor Asia: UTC+8 <br>※ Zona horaria del servidor Americas / Europe: UTC-5 <br>※ Para ver las reglas detalladas, visita [Pase de protocolo] en el juego y revisa [Detalles del Pase de protocolo].<br></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7263",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 2,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Un yunque, una mochila y un tarro de miel",
+            "header": "Un yunque, una mochila y un tarro de miel",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/f569cde5bb13ed532757be46542c7526.png\" alt=\"\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Hola, Endministrator:&nbsp;<br>¡Durante la Caza de reclutas certificada [Un yunque, una mochila y un tarro de miel], la operadora de 6★ [Kay] tendrá un aumento de probabilidad!&nbsp;<br>El evento de inicio de sesión por tiempo limitado [Garra Salvaje Errante] estará disponible de manera simultánea. Acumula inicios de sesión para obtener recompensas como [Permiso de C.R. de Garra Salvaje Errante] ×5. Además, [Intercambio de cuotas del CAI] ofrecerá un intercambio con descuento para el [Permiso de C.R. de Garra Salvaje Errante]. El evento de prueba de operador [Simulacros de combate] también estará disponible durante este periodo.<br><br>▼//<strong>&nbsp;Caza de reclutas certificada [Un yunque, una mochila y un tarro de miel]&nbsp;</strong><br>· Disponibilidad: Comienza después de la actualización de la versión [Conociéndote en el Mundo de los Hongos] y hasta el 23 de diciembre de 2026 a las 11:59 (hora del servidor)&nbsp;<br>· Criterio de participación: completar la misión principal [Capítulo I Proceso I: Rompiendo el asedio]&nbsp;<br>· La Caza de reclutas certificada [Un yunque, una mochila y un tarro de miel] incluye a la operadora de 6★ [Kay] con aumento de probabilidad.&nbsp;<br>· Los operadores de 6★ que pueden aparecer en la Caza de reclutas certificada [Un yunque, una mochila y un tarro de miel] son los siguientes: Kay / Argent Flow / Si / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.&nbsp;<br>· En la Caza de reclutas certificada [Un yunque, una mochila y un tarro de miel], puedes usar el [Permiso de C.R. de Garra Salvaje Errante], el [Permiso de C.R. certificada] u [Oroberilios] para realizar la caza de reclutas.&nbsp;<br>※ Después de 3 banners de [Caza de reclutas certificada], el operador de 6★ con aumento de probabilidad incluido en un banner de [Caza de reclutas certificada] se eliminará de la lista de operadores que podrían aparecer en [Caza de reclutas certificada]. Tampoco se añadirá a este operador de 6★ con aumento de probabilidad a [Caza de reclutas básica].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">▼//<strong>&nbsp;Recompensas de [Caza de reclutas certificada]&nbsp;</strong><br>En la Caza de reclutas certificada [Un yunque, una mochila y un tarro de miel], haz un determinado número de intentos de caza de reclutas para obtener las recompensas correspondientes.<br>■<strong>&nbsp;Reclutamiento urgente&nbsp;</strong><br>· Después de realizar 30 intentos de caza de reclutas, recibirás 10 intentos de Reclutamiento urgente adicionales (que cuentan como 1 intento de caza de reclutas ×10 gratuito). Esto solo será válido durante este banner de [Caza de reclutas certificada] y no se traspasa a los demás banners de caza de reclutas.&nbsp;<br>· Los índices para obtener operadores mediante Reclutamiento urgente son iguales a los índices de obtención base de [Caza de reclutas certificada], y el intento gratuito de caza de reclutas ×10 garantiza un operador de 5★ o superior.&nbsp;<br>· Este intento gratuito de caza de reclutas ×10, otorgado por el Reclutamiento urgente, no cuenta para la garantía de este u otros banners de [Caza de reclutas certificada]. Tampoco se añadirá a la cantidad total de intentos de caza de reclutas requerida para obtener recompensas de [Caza de reclutas certificada].&nbsp;<br>■<strong>&nbsp;Expediente de caza de reclutas&nbsp;</strong><br>· Tras realizar 60 intentos de caza de reclutas, recibirás un [Expediente de caza de reclutas] adicional.&nbsp;<br>· Una vez que se cumplan los requisitos, el [Expediente de caza de reclutas] se enviará automáticamente a tu Reserva de objetos de valor. Cuando comience el siguiente banner de [Caza de reclutas certificada], el [Expediente de caza de reclutas] se convertirá automáticamente en 10 Permisos de C.R. especial de dicho banner de [Caza de reclutas certificada]. Sin embargo, estos permisos también caducarán cuando termine el banner.&nbsp;<br>■<strong>&nbsp;Tributo de fichas&nbsp;</strong><br>· En cada banner de [Caza de reclutas certificada], por cada 240 intentos de caza de reclutas, recibirás una bonificación de [Ficha del operador de 6★ con aumento de probabilidad incluida en dicho banner] ×1.<br><br>▼//<strong>&nbsp;Detalles de Boletos de Arsenal&nbsp;</strong><br>Cada intento de caza de reclutas de operadores también otorga [Boletos de Arsenal].&nbsp;<br>· Al adquirir un operador de 6★, recibes [Boleto de Arsenal] ×2000.&nbsp;<br>· Al adquirir un operador de 5★, recibes [Boleto de Arsenal] ×200.&nbsp;<br>· Al adquirir un operador de 4★, recibes [Boleto de Arsenal] ×20.&nbsp;<br>※ Puedes gastar los [Boletos de Arsenal] en el [Centro de adquisición: Intercambio de Arsenal].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Durante Caza de reclutas certificada [Un yunque, una mochila y un tarro de miel], el siguiente contenido también estará disponible:&nbsp;<br>▼//<strong>&nbsp;Evento de inicio de sesión por tiempo limitado [Garra Salvaje Errante]&nbsp;</strong><br>Inicia sesión durante 7 días en total para obtener recompensas como [Permiso de C.R. de Garra Salvaje Errante] ×5.<br><br>▼//<strong>&nbsp;Evento de prueba de operador [Simulacros de combate]&nbsp;</strong><br>[Simulacros de combate] estará disponible y podrás probar a la operadora de 6★ [Kay]. Completa la etapa indicada con un equipo preestablecido que incluya a la operadora de la prueba para reclamar [Oroberilio] ×100, [Caja de defensa de Arsenal], [Marca de perseverancia], y otras recompensas. La [Caja de defensa de Arsenal] contiene un conjunto de equipamiento de nivel 60 completamente elaborado, ideal para la operadora de prueba actual.<br><br>▼//<strong>&nbsp;Nota especial del [Intercambio de cuotas del CAI]&nbsp;</strong><br>El [Intercambio de cuotas] ofrecerá descuentos especiales por tiempo limitado. Puedes gastar [cuotas del CAI] para comprar objetos como [Permiso de C.R. de Garra Salvaje Errante] ×5.<br><br>※ Zona horaria del servidor Asia: UTC +8&nbsp;<br>※ Zona horaria del servidor Americas / Europe: UTC -5&nbsp;<br>※ Para obtener más información sobre la caza de reclutas, consulta la pantalla de [Caza de reclutas] del juego.&nbsp;<br>※ Para obtener más detalles del evento, consulta el [Centro de eventos] del juego.&nbsp;<br>※ Para obtener más información del [Intercambio de cuotas del CAI], consulta el [Centro de adquisición] del juego.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "4696",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Paquetes de\\n[Conociéndote en el Mundo de los Hongos]",
+            "header": "Detalles de los paquetes",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/777fce19dd1e437c016f620bf19a5505.jpg\" data-width=\"1650\" data-height=\"300\"><p>Endministrator: <br>Durante la versión [Conociéndote en el Mundo de los Hongos], el [Centro de adquisición] ofrecerá una variedad de paquetes.<br><br><strong>▼// Paquetes limitados </strong><br>■ Paquete de flujo de protocolo <br>· Disponibilidad: durante toda la versión [Conociéndote en el Mundo de los Hongos] <br>· Contenido del paquete: [Permiso de C.R. certificada] ×10, [Boleto de Arsenal] ×2000, [Marca de perseverancia] ×10 <br>· Nota especial: Solo se permite 1 compra en la versión actual<br><br>■ Paquete de C.R. de Viajera salvaje <br>· Disponibilidad: desde la actualización de la versión [Conociéndote en el Mundo de los Hongos] hasta el 23 de diciembre de 2026 a las 11:59 (hora del servidor) <br>· Contenido del paquete: [Permiso de C.R. de Garra Salvaje Errante] ×10, [T-Creds] ×80 000 <br>· Nota especial: Solo se permite 1 compra<br><br>■ Paquete eco de Boletos de Arsenal <br>· Disponibilidad: durante toda la versión [Conociéndote en el Mundo de los Hongos] <br>· Contenido del paquete: [Boleto de Arsenal] ×2000 <br>· Nota especial: Solo se permite 1 compra en la versión actual<br><br>※ Zona horaria del servidor Asia: UTC+8 <br>※ Zona horaria del servidor Americas / Europe: UTC-5 <br>※ Algunos paquetes pueden incluir objetos por tiempo limitado. Puedes consultar los detalles de los objetos por tiempo limitado en la sección [Compra - Contenido de objetos]. Si los objetos por tiempo limitado de un paquete caducan tras la compra, no se volverán a emitir. Gracias por tu comprensión y apoyo. <br>※ Para obtener información sobre otros paquetes, visita la sección [Centro de adquisición - Paquetes] en el juego.<br></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "3030",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Construcción de conjuntos: Repara la vieja grieta",
+            "header": "Construcción de conjuntos: Repara la vieja grieta",
+            "jumpButton": null,
+            "data": {
+              "html": "<p><span style=\"color: rgb(0, 0, 0);\">▼// Periodo del evento</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Durante la versión [Conociéndote en el Mundo de los Hongos]</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Hora de inicio de la Aceleración de construcción: 2026/12/31 06:00 (hora del servidor)</span></p><p></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261120/f0849e3bbb13cdc6812699bf913009d0.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Recompensas del evento</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Durante el evento, acumula Progreso de reconstrucción y completa tareas de construcción para obtener recompensas como: [Oroberilio]×1000, [Caja de selección de progresión avanzada Ⅱ], [Portador cognitivo avanzado], [Marca de perseverancia] y [Fluido de Origo-elaboración Mk I].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Requisitos de participación</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Completa la misión principal [Capítulo II Proceso VII: El sol poniente se resiste a marchar]</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Completa la misión secundaria [Sueño con waffles con miel]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Detalles del evento</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Durante el evento, avanza en las misiones para desbloquear el modo de juego [Reconstrucción de la Zona de exclusión] y las Tecnologías del CAI relacionadas; luego utiliza la Fábrica del CAI para producir los suministros necesarios para el proyecto de Reconstrucción de la Zona de exclusión, acumula Progreso de reconstrucción y completa tareas de construcción para obtener recompensas.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· La Aceleración de construcción comenzará en los últimos 7 días del evento. Durante este periodo, cada suministro exitoso otorga Progreso de reconstrucción adicional.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Al finalizar el Evento de construcción [Construcción de conjuntos: Repara la vieja grieta], ya no podrás completar las tareas de construcción ni reclamar las recompensas correspondientes. Sin embargo, todavía podrás jugar a [Reconstrucción de la Zona de exclusión] y obtener las recompensas de progreso de reconstrucción. Mantente al tanto del calendario del evento y obtén tus recompensas a tiempo, Endministrator.</span></p><p></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※Zona horaria del servidor Asia: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※Zona horaria del servidor Americas / Europe: UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Para más detalles sobre el evento, revisa el [Centro de eventos] dentro del juego.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "2188",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Solicitud de Viajera casual",
+            "header": "Detalles OTL de la [Solicitud de Viajera casual]",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/1f7ae881204a11bd67d89bfad36f21a6.png\" data-width=\"1650\" data-height=\"300\"><p>Hola, Endministrator: <br>Durante el periodo de disponibilidad de [Solicitud de Viajera casual], ¡aumenta la probabilidad de obtener el arma de 6★ [Oferta dulce (arma de asta)]! <br><br><strong>▼// [Solicitud de Viajera casual] </strong><br>· Disponibilidad: Comienza después de la actualización de la versión [Conociéndote en el Mundo de los Hongos]; termina tras 3 banners de [Caza de reclutas certificada] (empezando a partir de [Un yunque, una mochila y un tarro de miel]) <br>· Requisitos de participación: completa la misión principal [Capítulo I Proceso I: Rompiendo el asedio]. <br>· [Solicitud de Viajera casual] incluye el arma de 6 ★ con aumento de probabilidad [Oferta dulce (arma de asta)]. <br>· Las armas de 6★ que pueden aparecer en [Solicitud de Viajera casual] incluyen: Oferta dulce (arma de asta) / Ascenso rápido (espada) / Valiente (arma de asta) / JET (arma de asta) / Unidad de detonación (Unidad de las Artes) / Cuña (cañón de mano) / Antigua fineza (gran espada). <br><br><strong>▼// Recompensas de [Solicitud de Arsenal] </strong><br>En cada [Solicitud de Arsenal], al completar un número determinado de solicitudes, se obtendrá la [Caja de ofrenda de armas] (CO de armas) específica del banner o el [arma de 6★ con aumento de probabilidad] en orden alterno. El número total de solicitudes para estas recompensas de Solicitud de Arsenal se restablecerá una vez que finalice el banner y no se transferirá a otros banners de [Solicitud de Arsenal]. <br><br><strong>▼// Detalles de [Solicitud de Arsenal] </strong><br>· En [Solicitud de Arsenal], puedes gastar [Boletos de Arsenal] para enviar una solicitud. <br>· Cada solicitud otorga 10 armas al azar de la lista de armas disponibles, que incluye al menos un arma de 5★ o más. <br><br><strong>▼// Detalles del [Intercambio de Arsenal] </strong><br>En [Intercambio de Arsenal], el [Boleto de Arsenal] también se puede usar para comprar armas directamente. Algunas armas a la venta pueden actualizarse de vez en cuando. Consulta la información que se muestra en la pantalla [Centro de adquisición: Intercambio de Arsenal] para saber qué hay disponible.<br><br>※ Zona horaria del servidor Asia: UTC+8 <br>※ Zona horaria del servidor Americas / Europe: UTC-5 <br>※ Visita el [Centro de adquisición: Intercambio de Arsenal] para conocer más detalles y reglas de las recompensas.<br></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6412",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "extraData": {},
+            "title": "Caza de reclutas de Re-factor\\nSolicitud de Re-factor",
+            "header": "Caza de reclutas de Re-factor y Solicitud de Re-factor",
+            "jumpButton": null,
+            "data": {
+              "html": "<p><span style=\"color: rgb(31, 35, 41);\">Hola, Endministrator:&nbsp;<br>Durante Caza de reclutas de Re-factor #1 [Para cada deseo flotante], la operadora de 6★ [Gilberta] tiene un aumento de probabilidad.&nbsp;<br>Mientras Solicitud de Re-factor #1 [Solicitud de Viajera flotante] esté disponible, aumenta la probabilidad de obtener el arma de 6★ [Entrega garantizada (Unidad de las Artes)].<br><br><strong>▼// Disponibilidad&nbsp;</strong><br>Después de la actualización de la versión [Conociéndote en el Mundo de los Hongos] hasta el 16 de diciembre de 2026 a las 11:59 (hora del servidor)<br><br><strong>▼// Requisitos de participación&nbsp;</strong><br>Completa la misión principal [Capítulo I Proceso I: Rompiendo el asedio]</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼// Detalles de la Caza de reclutas de Re-factor #1 [Para cada deseo flotante]&nbsp;</strong></span></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261123/a73437f8a9340cd7509fa58cfdc405f1.png\" alt=\"\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\"><strong>■ Detalles de la Caza de reclutas</strong><br>· La Caza de reclutas de Re-factor [Para cada deseo flotante] incluye a la operadora de 6★ [Gilberta] con aumento de probabilidad. En esta Caza de reclutas, tienes garantizado obtener a la operadora de 6★ [Gilberta] con aumento de probabilidad dentro de los primeros 120 intentos de caza de reclutas. Esta garantía solo puede activarse una vez en todos los banners de Caza de reclutas de Re-factor [Para cada deseo flotante]. Los intentos para esta garantía se transferirán a futuros banners de Caza de reclutas de Re-factor [Para cada deseo flotante].&nbsp;<br><strong><br>■ Recompensas de la Caza de reclutas&nbsp;</strong><br>En la Caza de reclutas de Re-factor [Para cada deseo flotante], realiza cierta cantidad de intentos de caza de reclutas para ganar las recompensas correspondientes. Los intentos de caza de reclutas acumulados se transferirán a futuros banners de Caza de reclutas de Re-factor [Para cada deseo flotante].&nbsp;<br><br><strong>· Reclutamiento urgent</strong>e&nbsp;<br>&nbsp;Luego de realizar 30/60/90 intentos de caza de reclutas, recibirás respectivamente 10 intentos de Reclutamiento urgente adicionales (es decir, 1 intento gratis de caza de reclutas ×10 en cada hito). Esta bonificación solo puede activarse una vez en todos los banners de Caza de reclutas de Re-factor [Para cada deseo flotante]. Cualquier intento de Reclutamiento urgente no utilizado se transferirá a futuros banners de Caza de reclutas de Re-factor [Para cada deseo flotante].&nbsp;<br><br><strong>· Tributo de fichas&nbsp;</strong><br>En todos los banners de Caza de reclutas de Re-factor [Para cada deseo flotante], por cada 240 intentos de caza de reclutas realizados, recibirás [Ficha de Gilberta] ×1 adicional. Los intentos se transferirán a futuros banners de Caza de reclutas de Re-factor [Para cada deseo flotante].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Detalles de la Solicitud de Re-factor #1 [Solicitud de Viajera flotante]&nbsp;</strong></span></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261123/cce0d5b64c4f0329c3e46e9badda5bf2.png\" alt=\"\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Detalles de solicitud&nbsp;</strong><br>· La Solicitud de Re-factor [Solicitud de Viajera flotante] incluye el arma de 6★ [Entrega garantizada (Unidad de las Artes)] con aumento de probabilidad.&nbsp;<br>· En esta Solicitud, si no se obtiene ninguna arma de 6★ en 3 solicitudes consecutivas, se garantiza un arma de 6★ en la 4.ª solicitud. Esta garantía solo es válida para Solicitud de Re-factor #1 de [Solicitud de Viajera flotante] y no se transferirá a otros banners de Solicitud (incluidos los futuros banners de Solicitud de Re-factor [Solicitud de Viajera flotante]).&nbsp;<br>· En esta Solicitud, si no se obtiene ninguna arma de 6★ con aumento de probabilidad en las primeras 7 solicitudes, se garantiza un arma de 6★ con aumento de probabilidad en la 8.ª solicitud. Esta garantía solo puede activarse una vez en todos los banners de la Solicitud de Re-factor [Solicitud de Viajera flotante]. Los intentos para esta garantía se transferirán a futuros banners de la Solicitud de Re-factor [Solicitud de Viajera flotante].&nbsp;<br><strong><br>■ Recompensas de la Solicitud&nbsp;</strong><br>Realiza una cantidad determinada de intentos de Solicitud de Re-factor para recibir [CO de armas: Viajera flotante] o [Entrega garantizada (Unidad de las Artes)] de forma alternada. Los intentos de Solicitud de Re-factor acumulados se transferirán a futuros banners de la Solicitud de Re-factor [Solicitud de Viajera flotante].&nbsp;<br><br>※ Zona horaria del servidor Asia: UTC +8&nbsp;<br>※ Zona horaria del servidor Americas / Europe: UTC -5&nbsp;<br>※ Consulta el juego para descubrir más detalles.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "9844",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1795606200,
+            "focus": 0,
+            "title": "[Oroberilios] Evento temático de Kay disponible",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261124/59073e167fd9b8436c956992f7e51510.png",
+              "link": "https://discord.gg/JdVxdGxah?event=1574273752504598528",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "5504",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1795604400,
+            "focus": 0,
+            "title": "Debate de la nueva versión",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261125/c23777f733baec69d31ef69cdc58ff78.jpg",
+              "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fdetail%3Fid%3D2125438644821561779&redirectUrl=https%3A%2F%2Fwww.skport.com%2Farticle%3Fid%3D2125438644821561779%26hg_media%3Dgame%26hg_link_campaign%3Dannouncement%26hg_link_name%3DShroomsdiscussion",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "2186",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1795604400,
+            "focus": 0,
+            "title": "Evento de sorteo de premios por tiempo limitado",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261125/9a73d473e77bfabea07f67365722b358.png",
+              "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fact.skport.com%252Fendfield%252Flimited-time-offer%253Fheader%253D0%2526hg_media%253Dgame%2526hg_link_campaign%253Dannouncement%2526hg_link_name%253Dluckydraw",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "5505",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Sueño con waffles con miel",
+            "header": "Evento de narrativa de Kay [Sueño con waffles con miel]",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261124/9cf5fa459166d8f305d1f4819d7fa791.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Recientemente, los ciudadanos de Wuling han informado alucinaciones bastante desconcertantes y confusas. Decides investigar el incidente. Tal vez te espera un encuentro asombroso...</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Duración del evento</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Durante toda la versión [Conociéndote en el Mundo de los Hongos]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Requisitos de participación</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Completar la misión principal [Capítulo Ⅱ, Proceso Ⅵ: Almas afines que comparten una visión]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Detalles del evento</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Completa la misión secundaria [Sueño con waffles con miel] para obtener [Oroberilios], [Portador cognitivo elemental], [Protoedro], [Set de inspector de armas] y otras recompensas.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Cuando la página del evento ya no esté disponible, aún podrás jugar esta misión secundaria desde [Misión] y obtener las recompensas si cumples con los requisitos de participación.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ Zona horaria del servidor Asia: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Zona horaria del servidor Americas / Europe: UTC-5</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1364",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "¡Sombrerillos! ¡Setas! ¡HONGOS!",
+            "header": "¡Sombrerillos! ¡Setas! ¡HONGOS!",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261120/af56c65b195ac58d9ea2867b3122c915.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Periodo del evento</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Después de la actualización de la versión [Conociéndote en el Mundo de los Hongos] hasta el 23 de diciembre de 2026 a las 12:00 (hora del servidor)</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Recompensas del evento</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Completa las misiones durante el evento para obtener recompensas como [Oroberilios] y [Marca de Perseverancia].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Requisitos de participación</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">En la misión secundaria [Waffles al rescate: El encuentro], completa el objetivo [Ve a la presa].</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Completa la misión principal [Capítulo II Proceso Ⅵ: Almas afines que comparten una visión] para desbloquear la misión secundaria especificada [Waffles al rescate: El encuentro].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Detalles del evento</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Durante el evento, visita el área de la [Presa Antigua] en la región de Wuling y completa misiones del evento, como desbloquear Puntos de TP y abrir Cajas protocolares para obtener abundantes recompensas.</span></p><p></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※Zona horaria del servidor Asia: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※Zona horaria del servidor Americas / Europe: UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">※Para obtener más detalles sobre el evento, consulta el [Centro de eventos] en el juego.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8939",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Ecos de guerra\\nTemporada de dispersión",
+            "header": "Ecos de guerra - Temporada de dispersión",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/aaf4180a8bba560ae4f24f44691a0d45.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Disponibilidad de la temporada<br></strong>Después de la actualización de la versión [Conociéndote en el Mundo de los Hongos] - 16 de diciembre de 2026 a las 11:59 (hora del servidor)<br><br><strong>▼// Requisitos de participación<br></strong>· Nivel de Autoridad ≥ 40&nbsp;<br>· Completa la misión principal [Capítulo I, Proceso II: Pavimentando el camino]<br><br><strong>▼// Detalles de la actualización de temporada<br></strong>La nueva temporada [Temporada de dispersión] ya está disponible con 3 nuevas etapas. Esta temporada cuenta con 3 ciclos, cada uno con 3 etapas.<br><br>※ Zona horaria del servidor Asia: UTC+8<br>※ Zona horaria del servidor Americas / Europe: UTC-5<br>※ Para más detalles, consulta el [Centro de Eventos] del juego.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "3029",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1795449600,
+            "focus": 0,
+            "title": "Registro de pionero\\n[Santuario de tinta]",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261124/d7290111dd652b4daecd346b51aee497.png",
+              "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fevent.skport.com%252Factivity%252Fendfield_data_report%252Fsanctuary%253Fheader%253D0%2526hg_media%253Dgame%2526hg_link_campaign%253Dannouncement%2526hg_link_name%253Dpioneerlog",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "2198",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1795433400,
+            "focus": 0,
+            "title": "Actualizaciones del widget de estadísticas de juego de Discord",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261120/9fc1a52c6b00a9043d222f0838d0d023.jpg",
+              "link": "https://endfield.gryphline.com/special/discord-binding",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1353",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 5,
+            "displayType": "picture",
+            "startAt": 1795579200,
+            "focus": 0,
+            "extraData": {},
+            "title": "Sitio oficial de recarga disponible",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261124/8e34f9dc6d4c179bfcba16fff06c300a.png",
+              "link": "https://topup.gryphline.com/endfield?source_from=bulletin&u8_token={u8_token}&server={server}",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8998",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 5,
+            "displayType": "rich_text",
+            "startAt": 1769011200,
+            "focus": 0,
+            "title": "Declaración de juego limpio",
+            "header": "Juego limpio de Arknights: Endfield",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260121/c2c269323b02bf88b650e34b5a574413.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Gracias por tu interés y apoyo cotinuos a Arknights: Endfield. Para generar y mantener un entorno de juego limpio y saludable, y para proteger los derechos e intereses legítimos de todos los jugadores, queremos recordarles a todos lo siguiente:</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">1. Está estrictamente prohibido el uso de trampas, herramientas de terceros, recargas no autorizadas o cualquier otro método indebido que afecte la integridad del juego o infrinja los Términos del Servicio del Juego. Si se confirman dichas infracciones, con base en monitoreo backend y denuncias de jugadores, realizaremos las acciones adecuadas según la gravedad de la infracción, incluyendo, pero sin limitación, la quita de ganancias ilícitas, la suspensión temporal de cuentas o la expulsión permanente de estas.</span></p><p><span style=\"color: rgb(0, 0, 0);\">2. Para proteger los derechos e intereses legítimos de todos los jugadores, no transfieras, compartas o intercambies tu cuenta de juego. Cualquier consecuencia resultante de dichas acciones, incluyendo el robo de la cuenta o la pérdida de recursos en el juego, correrá a cargo del jugador.</span></p><p><span style=\"color: rgb(0, 0, 0);\">3. Para garantizar una experiencia de juego completa, se prohíbe descomprimir, modificar o manipular los archivos de instalación del juego y distribuir los materiales relacionados que se extraigan.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Para finalizar, la creación de un entorno de juego limpio y positivo requiere del esfuerzo colectivo de todos los jugadores. Solicitamos encarecidamente que todos ayuden a mantener un entorno de juego limpio y ordenado. Si encuentras una infracción de cualquier tipo, denúnciala a través de nuestro centro de atención al cliente oficial.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6472",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 7,
+            "displayType": "rich_text",
+            "startAt": 1769011200,
+            "focus": 0,
+            "title": "Política de uso de funciones",
+            "header": "Política de uso del Complejo Industrial Automatizado y los planos",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260121/64ba945f98886832f800a5752acf9a4b.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">A fin de asegurar un entorno de juego amistoso, cumple con nuestros Términos del Servicio al usar funciones relacionadas con el Complejo Industrial Automatizado. No publiques contenido ni participes en contenido que involucre los siguientes aspectos:</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">1. Discriminación por región, raza, orientación sexual, religión, política, etc.</span></p><p><span style=\"color: rgb(31, 35, 41);\">2. Difamación, ofensas o violación de los derechos de otros.</span></p><p><span style=\"color: rgb(31, 35, 41);\">3. Obscenidad, violencia, apuestas o incitación al odio.</span></p><p><span style=\"color: rgb(31, 35, 41);\">4. Cualquier contenido prohibido o considerado inapropiado según los Términos del Servicio.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Si incurres en alguna de las infracciones mencionadas, se te podrían aplicar sanciones, como la eliminación de objetos colocados en el Complejo Industrial Automatizado, restricciones en las funciones de la Fábrica del CAI y la suspensión de la cuenta. Para denunciar una infracción, usa el botón [Reportar] o contacta a soporte al cliente.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Si usas la función [Compartir plano], obtendrás un [Código de plano] que permitirá a otros Endministrators ver y usar tu [Plano]. Antes de empezar, ten en cuenta que, al compartir tu [Código de plano], permites que cualquiera vea, copie o use tu diseño. Piénsalo bien antes de compartirlo.</span></p><p></p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user.gryphline.com/en-us/protocol/plain/endfield/game/terms_of_service\">Terms of Service</a></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6474",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 12,
+            "displayType": "rich_text",
+            "startAt": 1769036400,
+            "focus": 0,
+            "title": "Rescate de grabaespacio",
+            "header": "Rescate de grabaespacio",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260117/b560766d344eeba482650757033ba8df.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Horario de disponibilidad</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Desde el lanzamiento oficial</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Recompensas de exploración</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Mientras [Rescate de grabaespacio] esté disponible, alcanza las métricas operativas especificadas para ganar recompensas, que incluyen [oroberilio], [Permiso de C.R. básica] y [materiales de progresión].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Requisitos de participación</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Completa la misión principal [Capítulo I, Proceso III: Misterio en el edificio]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Detalles de la experiencia de juego</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· [Rescate de grabaespacio] es una actividad permanente en la que abordas la Dijiang para entrar y explorar los [Aberrantes del Valle]. Mientras exploras, acepta y completa varias comisiones para desbloquear Tecnología de soporte para la exploración, que mejora tu habilidad para explorar los Aberrantes del Valle, y gana recompensas que incluyen [oroberilio].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Gana métricas operativas completando comisiones específicas o extrayendo [nódulos de precipitación] de los Aberrantes del Valle. Gana suficientes métricas operativas para adquirir recompensas.</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Para obtener más detalles, abre la pantalla de [Rescate de grabaespacio] en el juego y haz clic en [Detalles de la experiencia de juego].</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "3080",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 19,
+            "displayType": "rich_text",
+            "startAt": 1769036400,
+            "focus": 0,
+            "title": "Guía de herramientas del juego",
+            "header": "Guía de herramientas del juego de Arknights: Endfield",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260120/8370aa0c63a0cf2633cc624b7cd9360d.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>[Registro diario]</strong></p><p>La Herramienta de registro diario te permite obtener recompensas como oroberilio, registros de combate avanzados, set de inspector de armas, protoprismas y notas de crédito de Talos. Vincula tus personajes y una vez que hayas realizado tus tres registros diarios, ¡recibirás una bonificación de 300 de oroberilio!</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/endfield/sign-in\">Ir</a></p><p></p><p><strong>[WIKI]</strong></p><p>La WIKI es una herramienta con contenido que crea y mantiene un equipo de Endministrators. Es un recurso práctico y detallado para ver información del juego.</p><p>Aquí puedes consultar información básica del operador y de los objetos, archivos de armas y mucho más.</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wiki.skport.com/endfield\">Ir</a></p><p></p><p><strong>[Herramientas de mapa]</strong></p><p>Las herramientas de mapa ofrecen una descripción completa de los recursos y ubicaciones del juego para que los jugadores puedan buscar, filtrar y localizar áreas de interés.</p><p>Ofrecen mucho más que una simple visualización de cajas de almacenamiento, coleccionables, enemigos y contenido clave similar: una vez que inicies la sesión, también podrás ver tus propias tirolesas, atalayas eléctricas y otras estructuras que hayas construido. Todo esto facilita enormemente tu exploración de Talos-II.</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/map/endfield\">Ir</a></p><p></p><p><strong>[Terminal de protocolo]</strong></p><p>La Terminal de protocolo ofrece a los jugadores una forma conveniente de buscar datos del juego, como los relativos a los operadores y al desarrollo de la región. Tendrás a tu disposición estadísticas de Cordura, progreso de Tareas diarias y mucha información adicional en tiempo real.</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/endfield/game-data?header=0\">Ir</a></p><p></p><p><strong>[Selecciones de equipo y Guía de estrategia]</strong></p><p>Estas herramientas de juego ofrecen a los Endministrators una gran cantidad de información de referencia, que incluye configuraciones de equipos, sugerencias de habilidades y estrategias de combate. Explora las configuraciones que han compartido otros jugadores apasionados de Arknights: Endfield y dale un \"Me gusta\" a tus favoritas.</p><p>¡Esperamos que esto ayude a los Endministrators a formar rápidamente sus equipos ideales, listos para cualquier desafío que se les presente!</p><p><strong>Carga Arknights: Endfield, abre [Sincronizador de protocolo] y toca el botón Herramientas de juego.</strong></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7222",
+            "type": 0,
+            "tab": "news",
+            "orderType": 2,
+            "orderWeight": 20,
+            "displayType": "picture",
+            "startAt": 1769040000,
+            "focus": 0,
+            "title": "Cuentas de redes sociales oficiales",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260121/4df196b26166af0f36c8f21f17d01c94.jpg",
+              "link": "https://ef-webview.gryphline.com/act/social-media?u8_token={u8_token}&server={server}",
+              "linkType": 2
+            }
+          }
+        ]
+      },
+      "msg": ""
+    }
   }
 ]
