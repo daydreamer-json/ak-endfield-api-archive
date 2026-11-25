@@ -216676,5 +216676,671 @@
       },
       "msg": ""
     }
+  },
+  {
+    "updatedAt": "2026-11-25T11:03:49.650+00:00",
+    "req": {
+      "channel": 6,
+      "server": 3,
+      "type": 0,
+      "lang": "de-de",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "code": 0,
+      "data": {
+        "topicCid": "0093",
+        "type": 0,
+        "platform": "Windows",
+        "server": "3",
+        "channel": "#DEFAULT",
+        "subChannel": "#DEFAULT",
+        "lang": "de-de",
+        "key": "0:Windows:3:#DEFAULT:#DEFAULT:de-de",
+        "version": "8fc44cff483a5b0f6a607ec5003a7263",
+        "onlineList": [
+          {
+            "cid": "4695",
+            "version": 1795575817,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "0770",
+            "version": 1795521319,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "4697",
+            "version": 1795509994,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "7272",
+            "version": 1795168775,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "8947",
+            "version": 1795057306,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6411",
+            "version": 1795429868,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "7263",
+            "version": 1795509983,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "4696",
+            "version": 1795509918,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "3030",
+            "version": 1795517760,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "2188",
+            "version": 1795500657,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6412",
+            "version": 1795509990,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "5504",
+            "version": 1795602505,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "2186",
+            "version": 1795561085,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "5505",
+            "version": 1795502336,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1364",
+            "version": 1795517752,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "8939",
+            "version": 1795431420,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "3029",
+            "version": 1795514383,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "2198",
+            "version": 1795517746,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1365",
+            "version": 1794538207,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "9850",
+            "version": 1792388814,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "0788",
+            "version": 1790763677,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1353",
+            "version": 1795525145,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "8998",
+            "version": 1769005692,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6472",
+            "version": 1769044240,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6474",
+            "version": 1769005934,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "3080",
+            "version": 1782469292,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "7222",
+            "version": 1782469106,
+            "needRedDot": true,
+            "needPopup": false
+          }
+        ],
+        "popupVersion": 0,
+        "updatedAt": 1795604400,
+        "list": [
+          {
+            "cid": "4695",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795575600,
+            "focus": 0,
+            "extraData": {},
+            "title": "Known Issues Notice",
+            "header": "[Meeting You in the World o'Shrooms] Version Known Issues Notice",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261015/ced77442b4ada7220b51b1b709f16193.png\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrators:<br>To ensure a smoother game experience, we've compiled a list of known issues. If you encounter any of these during gameplay, please refer to the suggested solutions.<br><br>▼// Known Issues</p><p>· We are aware of an error in the item description for [HC Wuling Batteries]. These batteries are obtained using packaging equipment and can be used to generate power and charge devices, but cannot be used as trade goods at outposts. We will correct the item description in a future update to reflect their actual uses.</p><p><span>· We are aware of an issue in [Optical Offset], the fourth Protocol Space in the [Delver of the Cryptic - Fade Beyond the Painting] spatial set. When you use the Bounce Device to reach the opposite platform, your character may die unexpectedly upon landing, preventing you from continuing the challenge. If this happens, make a note of the code for the current puzzle before restarting the challenge. When you return to the code entry point, enter the code you noted down to proceed.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">We have located the issue and will fix it as soon as possible. We sincerely apologize for any inconvenience caused. </span><span style=\"color: rgb(31, 35, 41);\">For any other issues, please report them to us via the in-game customer support. Thank you again for your continued interest and support for Arknights: Endfield!</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "0770",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795568400,
+            "focus": 0,
+            "title": "Versionsupdate-Mitteilung",
+            "header": "Willkommen in der Welt der Pilze",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261124/04398ab65940d4fc066ce899418f70cd.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">„Endlich ... Nach all der Zeit ... begegnen wir uns, nachdem wir die ‚Pilzwelt‘ durchquert haben.“</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Geschätzter Endministrator:</span></p><p><span style=\"color: rgb(0, 0, 0);\">Willkommen zur neuen Version [Willkommen in der Welt der Pilze]!</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Hinweise zur Wartung und Details zur Entschädigung</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Zeitpunkt von Update und Wartung</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Asia-Server: 25. November 2026 um 06:00 Uhr – 25. November 2026 um 12:00 Uhr (UTC+8)</span></p><p><span style=\"color: rgb(0, 0, 0);\">Americas / Europe-Server: 24. November 2026 um 17:00 Uhr – 24. November 2026 um 23:00 Uhr (UTC-5)</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Die Wiedereröffnung des Servers nach der Wartung kann früher oder später als geplant erfolgen. Bitte überprüfe die offizielle Ankündigung für weitere Details.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Details zur Entschädigung für Wartungsupdate und Fehlerbehebung</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Entschädigung für Update und Wartung: [Oro-Beryll] ×900</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Entschädigung für Fehlerbehebung: [Oro-Beryll] ×900</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Zeitraum der Zustellung: Nach dem Update und der Wartung bis vor dem nächsten Versions-Update und der nächsten Wartung</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Voraussetzungen: Erstelle vor dem Update einen Charakter.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Hinweis: Die Entschädigung für Update und Wartung sowie die Entschädigung für Fehlerbehebungen werden in zwei separaten Mails im Spiel verschickt, nachdem die [Mail]-Funktion freigeschaltet wurde. Die Mails laufen während des nächsten Versions-Updates und der nächsten Wartung ab. Bitte fordere die Entschädigungen also rechtzeitig ein.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Hinweise zum Update</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Dieses Update ist obligatorisch. Nach Abschluss des Updates musst du den Spiel-Client erneut herunterladen und installieren. Sobald das Versions-Update und die Wartung beginnen, kannst du den Anweisungen im Spiel folgen, um mit dem Update fortzufahren.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· iOS: Besuche den App Store und tippe auf [Update].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Android: Starte das Spiel und folge den Anweisungen im Pop-up-Fenster, um das Update abzuschließen.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· PlayStation®5: Wechsle zum Home-Bildschirm, wähle [Arknights: Endfield], drücke die [OPTIONS]-Taste des Controllers, wähle [Nach Update suchen] und bestätige das Update.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· PC: Starte nach Beenden des Spiels den GRYPHLINK-Launcher neu und klicke auf [Update].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>※ Nach dem Versionsupdate [Willkommen in der Welt der Pilze] werden einige Inhalte im Laufe der Zeit schrittweise freigeschaltet, während du das Spiel erkundest. Die genauen Details zum Update findest du in der Version im Spiel.</strong></span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Inhalt der neuen Version</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Neue Geschichten</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1. Erkundungsmission</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">[Riesenpilz ganz nah]</span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2. Nebenmissionen</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">[Ich träume von Honigwaffeln], [Der Tag danach], [Wiederaufbau der Heimat I], [Wiederaufbau der Heimat II], [Wiederaufbau der Heimat III]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Neue Operatoren</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">6-Sterne-Operatorin [Kay], 5-Sterne-Operatorin [Mimino]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Neue Waffen</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">6-Sterne-Waffen [Süßer Deal (Stangenwaffe)], [Überfall-Komet (Stangenwaffe)], 5-Sterne-Waffe [Stern von morgen (Handfeuerwaffe)]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Neue Gegner</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">[Pilzbrecher-Nidwurm], [Röhrenpilz-Prinz], [Pilzbrecher-Sporenfaust], [Pilzbrecher-Sporenwächter]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Neue Zone</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">[Wuling – Alter Damm]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Neue Rekrutierungsevents und Ausgaben</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1. Rekrutierung: Priorisiert – [Amboss, Rucksack und ’nen Topf voll Honig]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Verfügbarkeit: Nach dem Versionsupdate [Willkommen in der Welt der Pilze] – 23. Dezember 2026 um 11:59 Uhr (Serverzeit)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Rekrutierungsdetails: „Rekrutierung: Priorisiert – [Amboss, Rucksack und ’nen Topf voll Honig]“ enthält die Rate-UP-6★-Operatorin [Kay]. Zu den 6★-Operatoren, die in „Rekrutierung: Priorisiert – [Amboss, Rucksack und ’nen Topf voll Honig]“ verfügbar sind, gehören unter anderem: Kay / Silberfluss / Si / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Während die „Rekrutierung: Priorisiert – [Amboss, Rucksack und ’nen Topf voll Honig]“ verfügbar ist, kann die 6★-Operatorin [Kay] außerdem im Rahmen von [Kampfübungen] ausprobiert werden. Schließe die Phase mit dem vorgegebenen Team ab, das die Probe-Operatorin enthält, und hole dann auf dem [Eventcenter]-Bildschirm [Oro-Beryll] ×100, [Arsenal-Verteidigungskiste], [Mal der Beharrlichkeit] und andere Belohnungen. Die [Arsenal-Verteidigungskiste] enthält ein vollständig veredeltes Ausrüstungsset mit Level 60, das gut zur aktuellen Probe-Operatorin passt. Außerdem gibt es im [AIK-Quotenaustausch] eine besonders gute Quote für [„Wandernde Wildpfote“-RK-Genehmigung]. Bis zu [„Wandernde Wildpfote“-RK-Genehmigung] ×5 können ausgetauscht werden.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2. Verfügbarkeit der Waffenausgabe [„Entspannte Wanderin“-Ausgabe]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Verfügbarkeit: Öffnet nach dem Versionsupdate zu [Willkommen in der Welt der Pilze] und endet nach 3 „[Rekrutierung: Priorisiert]“-Bannern (gezählt ab dem [Amboss, Rucksack und ’nen Topf voll Honig]-Banner)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ausgabe-Details: Die Waffenausgabe [„Entspannte Wanderin“-Ausgabe] enthält die Rate-UP-6★-Waffe [Süßer Deal (Stangenwaffe)]. Zu den 6★-Waffen, die in der Waffenausgabe [„Entspannte Wanderin“-Ausgabe] verfügbar sind, gehören: Süßer Deal (Stangenwaffe) / Fuyao (schwert) / Tapferkeit (Stangenwaffe) / JET (Stangenwaffe) / Zünder (Tech-Einheit) / Keil (Handfeuerwaffe) / Ehemalige Eleganz (Großschwert).</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>3. RE-Faktor-Rekrutierung Nr. 1 – [An alle treibenden Träume]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Verfügbarkeit: Nach dem Versionsupdate [Willkommen in der Welt der Pilze] – 16. Dezember 2026 um 11:59 Uhr (Serverzeit)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Rekrutierungsdetails: „RE-Faktor-Rekrutierung Nr. 1 – [An alle treibenden Träume]“ enthält die Rate-UP-6★-Operatorin [Gilberta]. Zu den 6★-Operatoren, die in „RE-Faktor-Rekrutierung Nr. 1 – [An alle treibenden Träume]“ verfügbar sind, gehören unter anderem: Gilberta / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>4. Verfügbarkeit der RE-Faktor-Ausgabe Nr. 1 [„Leichtfüßige Reisende“-Ausgabe]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Verfügbarkeit: Nach dem Versionsupdate [Willkommen in der Welt der Pilze] – 16. Dezember 2026 um 11:59 Uhr (Serverzeit)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ausgabe-Details: Die RE-Faktor-Ausgabe Nr. 1 [„Leichtfüßige Reisende“-Ausgabe] enthält die Rate-UP-6★-Waffe [Garantierte Lieferung (Tech-Einheit)]. Zu den 6★-Waffen, die in der RE-Faktor-Ausgabe Nr. 1 [„Leichtfüßige Reisende“-Ausgabe] verfügbar sind, gehören: Garantierte Lieferung (Tech-Einheit) / Ritterliche Tugenden (Tech-Einheit) / Vergessenheit (Tech-Einheit) / Keil (Handfeuerwaffe) / Thermitschneider (Schwert) / Polarnacht-Nova (Schwert) / Mustermodell (Großschwert).</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>5. RE-Faktor-Rekrutierung Nr. 1 – [Scharlachperle]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Verfügbarkeit: 16. Dezember 2026 um 12:00 Uhr (Serverzeit) – Vor dem Versionsupdate und den Wartungsarbeiten</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Rekrutierungsdetails: „RE-Faktor-Rekrutierung Nr. 1 – [Scharlachperle]“ enthält die Rate-UP-6★-Operatorin [Rossi]. Zu den 6★-Operatoren, die in „RE-Faktor-Rekrutierung Nr. 1 – [Scharlachperle]“ verfügbar sind, gehören unter anderem: Rossi / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>6. Verfügbarkeit der RE-Faktor-Ausgabe Nr. 1 [Scharlachklauen-Ausgabe]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Verfügbarkeit: 16. Dezember 2026 um 12:00 Uhr (Serverzeit) – Vor dem Versionsupdate und den Wartungsarbeiten</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ausgabe-Details: Die RE-Faktor-Ausgabe Nr. 1 [Scharlachklauen-Ausgabe] enthält die Rate-UP-6★-Waffe [Scharlachroter Wolf (schwert)]. Zu den 6★-Waffen, die in der RE-Faktor-Ausgabe Nr. 1 [Scharlachklauen-Ausgabe] verfügbar sind, gehören: Scharlachroter Wolf (Schwert) / Fuyao (Schwert) / Untadeliger Ruf (Schwert) / Keil (Handfeuerwaffe) / Ehemalige Eleganz (Großschwert) / Zünder (Tech-Einheit) / Tapferkeit (Stangenwaffe).</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Neue Events</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1. [Ich träume von Honigwaffeln] Erzählung-Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Eventzeitraum: Während die Version [Willkommen in der Welt der Pilze] aktiv ist</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Eventdetails: Schließe die Nebenmission [Ich träume von Honigwaffeln] ab, um [Oro-Beryll] ×600, [Grundlegender kognitiver Datenträger] und andere Prämien zu erhalten.</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Auch nachdem die Seite zum Erzählung-Event entfernt wurde, kannst du diese Nebenmission weiterhin unter [Mission] spielen und die Prämien erhalten, sofern du die Teilnahmevoraussetzungen erfüllst.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2. [Säulenreihenbau: Schließe die restlichen Risse] Bau-Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Eventzeitraum: Während die Version [Willkommen in der Welt der Pilze] aktiv ist</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Eventdetails: Schreite während des Events in den Missionen voran, um den Modus [Sperrzonenwiederaufbau] und die zugehörigen AIK-Technologien freizuschalten. Nutze anschließend den Automatisierten Industriekomplex, um die für den Sperrzonenwiederaufbau benötigten Versorgungsgüter herzustellen, steigere den Wiederaufbau-Fortschritt, schließe die Bauaufgaben ab und verdiene Eventprämien wie: [Oro-Beryll] x1.000, [Erweiterter-Fortschritt-Auswahlkiste II], [Mal der Beharrlichkeit], [Origo-Veredelungsflüssigkeit Mk I] und [Fortschrittlicher kognitiver Datenträger]</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Nach dem Ende des Events [Säulenreihenbau: Schließe die restlichen Risse] können keine Bauaufgaben mehr abgeschlossen und keine entsprechenden Prämien mehr erhalten werden. [Sperrzonenwiederaufbau] kann aber weiterhin gespielt werden, um Wiederaufbau-Fortschritt-Prämien zu erhalten.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>3. [Wandernde Wildpfote] Anmeldung-Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Eventzeitraum: Nach dem Versionsupdate [Willkommen in der Welt der Pilze] – 23. Dezember 2026 um 11:59 Uhr (Serverzeit)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Eventdetails: Melde dich insgesamt an 7 Tagen an, um Belohnungen wie [„Wandernde Wildpfote“-RK-Genehmigung] ×5 zu erhalten.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>4. [Kappen! Schwammerl! PILZE!] Anleitung-Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Eventzeitraum: Nach dem Versionsupdate [Willkommen in der Welt der Pilze] – 23. Dezember 2026 um 12:00 Uhr (Serverzeit)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Eventdetails: Besuche das Gebiet [Alter Damm] in der Region [Wuling] und schließe die festgelegten Missionen ab, um tolle Eventprämien wie [Oro-Beryll] x1.200 und [Mal der Beharrlichkeit] zu verdienen.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>5. [Verstandsversorgung] Zeitlich begrenztes Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Eventzeitraum:</span></p><p><span style=\"color: rgb(0, 0, 0);\">„Asia“-Server:</span></p><p><span style=\"color: rgb(0, 0, 0);\">9. Dezember 2026 um 04:00 Uhr – 16. Dezember 2026 um 04:00 Uhr (Serverzeit)</span></p><p><span style=\"color: rgb(0, 0, 0);\">31. Dezember 2026 um 04:00 Uhr – 7. Januar 2027 um 04:00 Uhr (Serverzeit)</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">„Americas / Europe“-Server:</span></p><p><span style=\"color: rgb(0, 0, 0);\">9. Dezember 2026 um 04:00 Uhr – 16. Dezember 2026 um 04:00 Uhr (Serverzeit)</span></p><p><span style=\"color: rgb(0, 0, 0);\">31. Dezember 2026 um 04:00 Uhr – 6. Januar 2027 um 17:00 Uhr (Serverzeit)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Eventdetails: Schließe während des Events jeden Tag bestimmte Missionen ab und erhalte Verstandsversorgungs-Belohnungen wie [Verstandsverbrauch-Genehmigung] und [Verstandsverstärker für den Notfall].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>6. [ALLES AUF! MEGA-ARENA!] Herausforderungsevent</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Eventzeitraum: 16. Dezember 2026 um 12:00 Uhr (Serverzeit) – Vor dem Versionsupdate und den Wartungsarbeiten</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event-Update-Zeit: 18. Dezember 2026 um 04:00 Uhr (Serverzeit)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Eventdetails: Schließe während des Events Herausforderungsphasen ab, um unter anderem Prämien wie [Oro-Beryll]×1200, [Profilbildrahmen: Heller Stern des Kronenräubers], [Erweiterter-Fortschritt-Auswahlkiste II], [Mal der Beharrlichkeit] und [Fortschrittlicher kognitiver Datenträger] zu erhalten.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>7. [Glückskarottes Wundersame Spiele] Spiel-und-Spaß-Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Eventzeitraum: 16. Dezember 2026 um 12:00 Uhr (Serverzeit) – Vor dem Versionsupdate und den Wartungsarbeiten</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event-Update-Zeit: 23. Dezember 2026 um 04:00 Uhr (Serverzeit)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Eventdetails: Erlebe während des Events die Spiele von „Paradies der Hexerei“ und schließe Spiel-Herausforderungen ab, um [Karottenscheyn] zu verdienen. Gib [Karottenscheyn] im [Souvenir-Eintausch] aus, um sie gegen Eventprämien wie [Oro-Beryll]×1000, [Erweiterter-Fortschritt-Auswahlkiste II], [Mal der Beharrlichkeit] und [Fortschrittlicher kognitiver Datenträger] einzutauschen.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>8. [Arbeitergarde: Appell] Geschenk-Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Eventzeitraum: 16. Dezember 2026 um 12:00 Uhr (Serverzeit) – Vor dem Versionsupdate und den Wartungsarbeiten</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Eventdetails: Logge dich während des Events ein, nimm an verschiedenen Spielmodi teil und erhalte die neue 5★-Operatorin [Mimino] mit maximalem Potenzial und die neue 5★-Waffe [Stern von morgen (Handfeuerwaffe)] mit maximalem Potenzial.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>9. [Endmin! Lass uns die Geschenke sortieren!] Spiel-und-Spaß-Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Eventzeitraum: 23. Dezember 2026 um 12:00 Uhr (Serverzeit) – Vor dem Versionsupdate und den Wartungsarbeiten</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Eventdetails: Besuche die Web-Event-Seite, um Geschenke auf Transportbändern zu sortieren, verschiedene Phasen zu erleben und reichlich Eventprämien wie [Oro-Beryll]×300 und [T-Kreditscheine] abzustauben.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Event- und Gameplay-Updates</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1. Update des permanenten Herausforderungsmodus [Echos des Krieges]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>○[Saison der Zerstreuung]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Neues Saisonupdate: Nach dem Versionsupdate [Willkommen in der Welt der Pilze] – 16. Dezember 2026 um 11:59 Uhr (Serverzeit)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Update-Mitteilung: Die neue Saison [Saison der Zerstreuung] ist verfügbar. Diese Saison enthält 3 Zyklen mit jeweils 3 Phasen. [Saison der Zerstreuung] bringt 3 neue Phasen mit sich. Schließe alle neuen Phasen auf der Schwierigkeit „Normal“, um unter anderem Belohnungen wie [Oro-Beryll] ×300 zu erhalten.</span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>○[Saison der Wachsamkeit]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Neues Saisonupdate: 16. Dezember 2026 um 12:00 Uhr (Serverzeit) – Vor dem Versionsupdate und den Wartungsarbeiten</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Update-Mitteilung: Die neue Saison [Saison der Wachsamkeit] ist verfügbar. Diese Saison enthält 3 Zyklen mit jeweils 3 Phasen. [Saison der Wachsamkeit] bringt 3 neue Phasen mit sich. Schließe alle neuen Phasen auf der Schwierigkeit „Normal“, um unter anderem Belohnungen wie [Oro-Beryll] ×300 zu erhalten.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2. [Schattenmonument]-Herausforderung-Gameplay aktualisiert, [Der zur Waffe gewordene Despot]-Spezialserie-Phasen verfügbar</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Verfügbarkeit: 2. Dezember 2026 um 12:00 Uhr (Serverzeit)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Hinweise zum Update: Mit diesem Update zum [Schattenmonument]-Herausforderungsmodus erscheint die neue Spezialserie [Der zur Waffe gewordene Despot], in der du gegen mächtige Bossgegner antreten kannst und in der zunächst 1 Phase verfügbar ist. Die zweite Phase wird ab dem 9. Dezember 2026 um 04:00 Uhr (Serverzeit) freigeschaltet. Jede Phase verfügt über mehrere Schwierigkeitsgrade. Schließe alle Phasen auf allen Schwierigkeitsgraden ab, um unter anderem die folgenden Belohnungen zu erhalten: [Mal der Beharrlichkeit], [Erweiterter-Fortschritt-Auswahlkiste II] und [Fortschrittlicher kognitiver Datenträger].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>Das zeitlich begrenzte Herausforderungsevent [Monumentale Enthüllung: Tyrannei] wird ebenfalls verfügbar sein, sobald der Spielmodus aktualisiert wurde.</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Eventzeitraum: 2. Dezember 2026 um 12:00 Uhr – 23. Dezember 2026 um 04:00 Uhr (Serverzeit)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Event-Update-Zeit: 9. Dezember 2026 um 04:00 Uhr (Serverzeit)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Eventdetails: Nach der Veröffentlichung der Serie [Der zur Waffe gewordene Despot] beginnt das zeitlich begrenzte Event [Monumentale Enthüllung: Tyrannei]. Schließe während des Events [Schattenmonument]-Herausforderungen ab, um Eventprämien wie [Oro-Beryll] ×1.200 und [Erweiterter-Fortschritt-Auswahlkiste II] zu erhalten.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>3. Dimensionsset-Update [Erforschung kryptischer Nachrichten – Sonderausgabe]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Update-Zeit: 27. Dezember 2026 um 12:00 Uhr (Serverzeit)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Hinweise zum Update: Dieses Rätsellösen-Event [Erforschung kryptischer Nachrichten – Sonderausgabe] wird das neue Dimensionsset [Esoterische Mykologie] einführen. 3 neue Protokoll-Dimensionen werden zur Verfügung stehen. Schließe die Herausforderungen des Dimensionssets ab, um Belohnungen wie [Oro-Beryll]×600 und [Mal der Beharrlichkeit] zu erhalten.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Ankaufszentrum-Update</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· [Protokollpass: Pilzwelt] verfügbar. Während des Versionszeitraums von [Willkommen in der Welt der Pilze] kannst du verschiedene Unterstützungsobjekte erwerben, die von den Waffeningenieuren im [Protokollpass] aufgelistet sind. Durch die Aktivierung des saisonalen Protokollpasses wird standardmäßig die Stufe [Grundversorgung] freigeschaltet. Erhöhe die Stufe des Passes, um Belohnungen wie [RK-Genehmigung: Einfach], [Oro-Berylle], [Kiste des Unerwarteten] und [Fortschrittsmaterialien] zu erhalten.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· In [Ankaufszentrum: Pakete] hinzugefügt: [„Wanderin der Wildnis“-RK-Paket], [Paket: Protokollfluss]. Das Kauflimit von [Preiswertes Waffenticket-Paket] wurde zurückgesetzt.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ AIK-Fabrik</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· [Mehrzeiliges Gravur-Kit von Wuling] hinzugefügt. Nutze es, um eine Essenz mit drei benutzerdefinierten Attributen zu erhalten. Sobald das [Wuling – Yinglung-Pass]-Vorratneuverteilungsterminal Stufe 4 erreicht, kannst du eine [Wuling-Aktiennote] verwenden, um [Mehrzeiliges Gravur-Kit von Wuling] ×1 zu kaufen.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Die Regionsentwicklungslevelbegrenzung für die Region [Wuling] wurde erhöht. Sub-PAK kann jetzt in [Wuling – Alter Damm] eingesetzt werden. Der [Vorratneuverteilung (Wuling)] wurden neue tauschbare Waren hinzugefügt.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Säulenreihen-bezogener AIK-Modus zu Wuling-AIK hinzugefügt, zusammen mit Säulenreihen-bezogenen AIK-Plänen: [Schmiedezündung], [Wiederaufbau-Versorgung], [Erweiterung: Trüb], [L/T-Equilibrium], [L/T-Kumulierung], [Schmiede-Zweipoligkeit], [Schmiedeerweiterung V]. Außerdem wurden die entsprechenden AIK-Anlagen, Simulationen und System-Baupläne hinzugefügt.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Neuer Spielmodus [Sperrzonenwiederaufbau] hinzugefügt: Wird nach Abschluss der Mission [Wiederaufbau der Heimat II] freigeschaltet. Nutze die AIK-Fabrik, um Wiederaufbau-Versorgung herzustellen und sie zur [Wiederaufbau-Versorgungsluke] zu liefern, um die Wiederaufbauphase der [Sperrzone Nord-Wuling] voranzutreiben und die Regionsentwicklung von [Wuling] zu steigern.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ System</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Neues Gameplay [Honigwaffel-Steuerung] hinzugefügt: Endministratoren können Honigwaffeln im Gebiet [Wuling – Alter Damm] starten und kontrollieren. Beim Fliegen kann eine Waffel Aurylen sammeln. Das Eintauchen von Honigwaffeln in verschiedene Sporenarten verleiht ihnen unterschiedliche Effekte. Zum Beispiel kann eine Waffel, die in kalte Sporen getaucht wird, Scheinwände aufdecken und auflösen. Zusätzlich wurde eine neue Option [Invertierte Y-Achsen-Steuerung] zu [Einstellungen – Controller] hinzugefügt.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Eintauschbare Gegenstände in [Talosit-Börse] aktualisiert. Neu dabei: [Ausrüstungsvorlage], [Persönliches Gerät], [Verzierung], [Kamerapose], [Schallplatte] und mehr.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Sonstiges</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Es wurden Inhalte wie [Operator-Leitfaden], [Energie-Alluvium], [NPC], [Gravierte Medaille], [Profil-Design], [Porträt], [Profilbildrahmen], [Filter], [Sticker], [Verbrauchsgegenstand], [Material], [Verstandsmedikamente], [Datenbank-Eintrag], [Hinweisakte], [Persönliches Gerät], [Verzierung], [Schallplatte], [Kamerapose], [Regionale Aurylen-Lieferfrist] und mehr hinzugefügt. Diese werden im Laufe des Spiels nach und nach freigeschaltet.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Es wurden neue Ausrüstungsteile zu den Ausrüstungssets [Rissforscher], [Grenzgebiet-], [Ewiges Xiranit] und [AIK-Einsatz] hinzugefügt.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Es wurde ein neues seltenes Fortschrittsmaterial namens [Origo-Veredelungsflüssigkeit Mk I] hinzugefügt.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ Weitere Einzelheiten findest du im Spiel.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Optimierungen &amp; Anpassungen</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Kampf</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Die visuellen Effekte des Gegners [Nefarith] wurden in bestimmten Situationen verbessert.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ AIK-Fabrik</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Die Platzierung von [Gegenstandssteuerungen] und [Rohrsteuerungsports] wurde verbessert. Sie können nun platziert werden, ohne vorher an ein Transportband oder ein Rohr angeschlossen zu werden. Sie können direkt an die Transportband- oder Rohranschlüsse einer Anlage angeschlossen werden und rasten automatisch in der richtigen Ausrichtung ein.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ System</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Die Verbesserungshinweise im [Operatoren – Fähigkeitsmatrix]-Bildschirm wurden verbessert. Wenn eine Verbesserung viele verschiedene Materialtypen erfordert, werden Materialien, von denen nicht genügend vorhanden sind, automatisch neu positioniert und zuerst angezeigt.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Sonstiges</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Die Darstellung, Spezialeffekte, Interaktionslogik und Textbeschreibungen bestimmter Interfaces wurden verbessert.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Die Modelle, Kleidung, Spezialeffekte, Bewegungen, Kameraführung und weitere Darstellungsaspekte bestimmter Operatoren in bestimmten Situationen wurden verbessert.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Der Potenzialname der 6★-Operatorin [Si] wurde von [Drei tiefe Zeichen im Holz] zu [Drei Kerben im Holz] geändert.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Die Textbeschreibung der Kampffertigkeit von 6★-Operatorin [Si] wurde optimiert. Der eigentliche Effekt bleibt unverändert.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Einige Textbeschreibungen der Waffenfertigkeitseffekte der 6★-Waffe [Jadegefäß] wurden optimiert. Die eigentlichen Effekte bleiben unverändert.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Einige Texte im Zusammenhang mit Bestellungen und Gerichten im Gasthaus-Betrieb wurden verbessert.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Die Textbeschreibungen einiger Operator-Leitfäden wurden optimiert.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Einige Texte der Operator-Akten wurden optimiert.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Einige Benutzeroberflächenhinweise zur Steuerung wurden optimiert.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Einige Missionsnamen wurden optimiert.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Einige Handlungstexte wurden optimiert.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Die Namen und Textbeschreibungen einiger Events und Aktivitäten wurden entsprechend ihrer Funktionsweise im Spiel verbessert.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Die Namen und Beschreibungen einiger Gegenstände wurden entsprechend ihrer Funktionsweise im Spiel überarbeitet.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Einige Tutorial-Texte wurden optimiert.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Fehlerbehebungen</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Missionen</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ein Problem in der Nebenmission [Das Reich von Schnee und Albträumen] wurde behoben, bei dem die Kombofertigkeit des Endministrators bei Gegnern mit [Schild-Kumulierung] unter Umständen nicht wie vorgesehen Schaden verursachen konnte.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Kampf</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ein Problem wurde behoben, durch das die ultimativen Fertigkeiten von Operatoren unter bestimmten Umständen abgebrochen werden konnten.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ein Problem wurde behoben, durch das die [Tintenseele] von 6★-Operatorin [Si] nach einem Treffer mit einem Wuchtschlag abnormales Verhalten zeigte.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ein Problem wurde behoben, durch das bestimmte Eingaben dazu führten, dass die Kampffertigkeit [Letzter Pinselstrich] von 6★-Operatorin [Si] auf ungewöhnliche Weise Schaden verursachte.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ein Problem wurde behoben, durch das die Kombofertigkeit von 6★-Operatorin [Si] nicht ausgelöst wurde, wenn die Kampffertigkeit von 5★-Operator [Alesh] den Gegner erstarren ließ und besiegte.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ein Problem wurde behoben, durch das beim wiederholten Einsatz der Kombofertigkeit von 6★-Operatorin [Typhoeus] mit bestimmten Steuerungseingaben die Sperrfeuerreihen aus späteren Anwendungen den durch Naturexplosion erlittenen SDN der Gegner nicht erhöhten.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ein Problem wurde behoben, durch das der Schwebezustand von 6★-Operatorin [Typhoeus] nach dem Einsatz ihrer Kampffertigkeit abnormales Verhalten zeigte.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Events und Gameplay</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ein Problem wurde behoben, durch das in der [Bestien-Akte: Qingbo-Palisade]-Phase des dauerhaften Herausforderungsmodus [Echos des Krieges] die Kombofertigkeit von 6★-Operatorin [Arkan] nicht ausgelöst wurde, wenn der Fertigkeitstyp [Säulenreihen-Arkana: INT] aktiv war.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ein Problem wurde behoben, durch das in der [Durch Dunkle Schatten markiert – Plötzliches Gebrüll der Vergessenheit]-Phase des dauerhaften Spielmodus [Schattenmonument] die Schadenswerte, die durch [Künstlerische Absicht] von 6★-Operatorin [Si] aufgezeichnet wurden, abnormales Verhalten aufwiesen.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ System</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ein situatives Problem wurde behoben, bei dem nach dem Anwählen der Mission [Erstelle und speichere 1 Bauplan] im [Betriebshandbuch – Knoten 03] und der Weiterleitung zur Karte die Karte fehlerhaft angezeigt werden konnte.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Sonstiges</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ein Problem wurde behoben, bei dem bestimmte Eingaben dazu führten, dass das Statussymbol von 6★-Operatorin [Si] abnormal angezeigt wurde.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "4697",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Versionskalender",
+            "header": "Versionskalender [Willkommen in der Welt der Pilze]",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/748effd62e6ca2ca77908931651b721b.jpg\" data-width=\"1916\" data-height=\"3220\"><p></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7272",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795262400,
+            "focus": 0,
+            "title": "Neuer Versionsleitfaden",
+            "header": "Neuer Versionsleitfaden ist jetzt online",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261120/50f7e71f46d71a53a593805abda81d65.jpg\" data-width=\"1650\" data-height=\"300\"><p>Die neue Versionsleitfaden-Seite für [Willkommen in der Welt der Pilze] ist jetzt online.&nbsp;<br>Hier findest du die Inhalte der neuen Version auf einen Blick. Stöbern und [Oro-Beryll] ×1000, [T-Kreditscheine] ×10.000, [Grundlegender kognitiver Datenträger] ×8 und [Waffen-INSP-Set] ×4 abholen.&nbsp;<br>Abholzeitraum: 21. November 2026 um 20:00 Uhr – 25. November 2026 um 06:00 Uhr (UTC+8).&nbsp;<br><br><strong>▼// Link zur Seite&nbsp;</strong><br>Du erhältst Zugriff auf die neue Seite des Versionsleitfadens über den untenstehenden Link, Endministrator.&nbsp;<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://endfield.gryphline.com/version_briefing/latest?u8_token={u8_token}&amp;server={server}\">&gt;&gt;Zum Aufrufen klicken</a><br><br><strong>▼// Verfügbarkeitszeitraum der Seite&nbsp;</strong><br>· Die neue Versionsleitfaden-Seite wird ab dem 6. Oktober 2026 um 20:00 Uhr (UTC+8) permanent aufrufbar sein und ihr Inhalt wird mit jeder neuen Spielversion aktualisiert.&nbsp;<br>· Jede neue Versionsleitfaden-Seite ist ab der Ausstrahlung der Versionsvorschau für die zugehörige Version bis kurz vor Ende der Versionsvorschau für die nächste Version verfügbar.&nbsp;<br><br><strong>▼// Belohnungsvoraussetzungen&nbsp;</strong><br>· Melde dich über die neue Versionsleitfaden-Seite bei deinem Spiele-Account an und schließe die Charaktererstellung in Arknights: Endfield ab.&nbsp;<br><br><strong>▼// Belohnungsabholanweisungen&nbsp;</strong><br>· Während des Zeitraums zur Belohnungsabholung wird auf der neuen Versionsleitfaden-Seite die Schaltfläche „Belohnungen abholen“ angezeigt. Nach Ablauf dieses Zeitraums wird die Schaltfläche nicht mehr angezeigt, wodurch die Belohnungen für diese Version nicht mehr abgeholt werden können.&nbsp;<br>· Sobald die Belohnungen auf der neuen Versionsleitfaden-Seite erfolgreich abgeholt wurden, werden sie an die Mail des Charakters gesendet, der mit dem aktuell angemeldeten Account verknüpft ist.&nbsp;<br>· Jeder Spiele-Account kann die Belohnungen eines bestimmten neuen Versionsleitfadens nur einmal abholen.&nbsp;<br><br>※ Weitere Details findest du auf der Seite.</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8947",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795013400,
+            "focus": 0,
+            "extraData": {},
+            "title": "Besonderer Dank\\nAn unseren Endministrator",
+            "header": "Ein Dankeschön an unseren Endministrator",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261119/cfacc6d98bea373c6079b4e3e1dca809.png\" data-width=\"1650\" data-height=\"300\"><p>Lieber Endministrator,</p><p>wir danken dir von Herzen für deine anhaltende Begleitung und Unterstützung! Arknights: Endfield wurde bei „Google Play: Das Beste aus 2026“ als [Das beste Spiel] und für die [Beste Story] ausgezeichnet. Darüber hinaus wurde das Spiel für [Best Mobile Game] bei „The Game Awards 2026“ sowie für [iPad Game of the Year] bei den „App Store Awards 2026“ nominiert.</p><p>Als besonderes Zeichen unserer Dankbarkeit für deine Zuneigung und Anerkennung hat das Projektteam ein Geschenk für dich vorbereitet.</p><p></p><p><strong>▼// Ein Dankeschön an unseren Endministrator</strong></p><p>· Geschenk: [Oro-Beryll] ×3.000</p><p>· Ausgabezeitraum: 19. Nov. 2026 um 00:00 Uhr (UTC+8) – Vor dem Ende der Version [Willkommen in der Welt der Pilze]</p><p>· Voraussetzung: Erstelle vor dem Ende der Version [Willkommen in der Welt der Pilze] einen Charakter und schalte die [Mail]-Funktion frei.</p><p>· Details: Während des Ausgabezeitraums sendet das Projektteam allen berechtigten Endministratoren eine spielinterne Nachricht mit [Oro-Beryll] ×3.000. Die Nachricht ist 30 Tage lang gültig. Bitte denke daran, dich rechtzeitig anzumelden und deine Belohnung abzuholen, Endministrator.</p><p></p><p>Vielen Dank noch einmal für dein anhaltendes Interesse und deine Unterstützung für Arknights: Endfield!</p><p></p><p>Arknights: Endfield-Team</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6411",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 2,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Protokollpass\\nPilzwelt",
+            "header": "[Protokollpass: Pilzwelt] Details",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/abda25805308b5ba2576ee3d0b421116.jpg\" data-width=\"1650\" data-height=\"300\"><p>Lieber Endministrator! <br>Während der Laufzeit von [Protokollpass: Pilzwelt] kannst du über das [Protokollpass]-System auf verschiedene Unterstützungen zugreifen, die die Waffeningenieure bereitstellen. Bei der Veröffentlichung jeder Protokollpass-Saison wird die Stufe [Grundversorgung] automatisch freigeschaltet. Erhöhe dein Passlevel, um Belohnungen wie [RK-Genehmigungen: Einfach], [Oro-Berylle], [Kisten des Unerwarteten] und [Fortschrittsmaterialien] zu erhalten. <br>Die Stufe [Originium-Versorgung] kann mit [Origeometrie] freigeschaltet werden und gewährt [RK-Genehmigung: Einfach], [Sticker: Klebrig und süß], [Filter: Goldener Sonnenuntergang] und weitere Belohnungen wie [Waffenvorrat: Pilzwelt], [Origeometrie] und [Verstandsverstärker für den Notfall]. <br>Kaufe die Stufe [Protokoll-Optimierung] und erhalte [Profil: Stadt voll Pilze und Honig], [Profilbildrahmen: Farben nach einem Bissen], [Porträt: Einheimische Pilze] und Bonusbelohnungen wie [Waffenvorrat: Pilzwelt], [Waffenticket] und [Waffenbauplan-Protokoll].<br><br><strong>▼// Verfügbarkeit </strong><br>Während die Version [Willkommen in der Welt der Pilze] aktiv ist<br><br><strong>▼// Teilnahmekriterien </strong><br>Abschluss der Hauptmission [Kapitel I Prozess I: Die Belagerung durchbrechen]<br><br><strong>▼// Details zum Protokollpass </strong><br>· Die Aktivierung des [Protokollpasses] schaltet automatisch die Stufe [Grundversorgung] frei. Du kannst die Stufe [Protokoll-Optimierung] kaufen oder die Stufe [Originium-Versorgung] mit [Origeometrie] freischalten, um dir zusätzliche Belohnungen und einen Pass-EP-Sammelbonus zu sichern. <br>· In jeder Pass-Saison enthalten die Stufen [Originium-Versorgung] und [Protokoll-Optimierung] je einen [Waffenvorrat], mit dem du eine der 6★-Waffen der Saison auswählen und erhalten kannst. [Waffenbauplan-Protokolle] erhöhen das Potenzial von Waffen, die über einen [Waffenvorrat] aus dem Protokollpass erhalten wurden. <br>· Schließe verschiedene Passmissionen ab (manche Missionen sind erst nach der Erfüllung bestimmter Kriterien oder nach einer gewissen Zeit verfügbar) oder erledige [Betriebshandbuch – Tägliche Aufgaben] und hol dir jeden Tag die größtmögliche Anzahl an Aktivitätspunkten, um Pass-EP zu verdienen. Erhöhe dein Passlevel und schalte eine Vielzahl von [Protokollpass]-Belohnungen frei. <br>· Hast du [Originium-Versorgung] oder [Protokoll-Optimierung] freigeschaltet, kannst du auch nach Erreichen des höchsten [Protokollpass]-Levels weiter Pass-EP verdienen. Alle Pass-EP, die du über die Höchstgrenze hinaus verdienst, werden zusammengenommen und für die Freischaltung von [Wiederkehrenden Kisten des Unerwarteten] eingesetzt. Diese Kisten werden bei Erhalt automatisch geöffnet und enthalten eine zufällige [Oro-Beryll]-Belohnung, eine zufällige [Fortschrittsmaterial]-Belohnung und eine zufällige [Verstandsverbrauch-Genehmigung]-Belohnung. <br>· Für das Freischalten der Stufe [Originium-Versorgung] / [Protokoll-Optimierung] des Protokollpasses der Saison erhältst du einen Bonus von je +3 % EP. Die Freischaltung beider Stufen verleiht einen EP-Bonus von +6 %. <br>· Kommt es durch besondere Umstände zu mehreren Käufen von [Protokoll-Optimierung], werden die Belohnungen für diese Stufe nicht kumuliert. Stattdessen erhältst du eine auf dem Kaufwert basierende Menge an [Origeometrie] zurück. <br>· Am Ende der [Protokollpass]-Saison werden sämtliche nicht abgeholten Passlevel-Belohnungen an deinen Posteingang gesendet.<br><br>※ „Asia“-Server-Zeitzone: UTC+8 <br>※ „Americas / Europe“-Server-Zeitzone: UTC-5 <br>※ Die ausführlichen Regeln findest du im Spiel unter [Protokollpass] &gt; [Details zum Protokollpass].<br></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7263",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 2,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Amboss, Rucksack und \\n’nen Topf voll Honig",
+            "header": "Amboss, Rucksack und ’nen Topf voll Honig",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/4d312f4fadd1f5d888784ebb2a96dde8.png\" alt=\"\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Geschätzter Endministrator:&nbsp;<br>Während [Amboss, Rucksack und ’nen Topf voll Honig] Rekrutierung: Priorisiert ist die 6★-Operatorin [Kay] auf Rate-UP!&nbsp;<br>Das zeitlich begrenzte Anmeldung-Event [Wandernde Wildpfote] erscheint zur gleichen Zeit. Melde dich an mehreren Tagen an, um Belohnungen wie [„Wandernde Wildpfote“-RK-Genehmigung]×5 zu erhalten. Zusätzlich bietet der [AIK-Quotenaustausch] einen vergünstigten Tausch für [„Wandernde Wildpfote“-RK-Genehmigung]. Das Operator-Test-Event [Kampfübungen] ist während dieses Zeitraums ebenfalls verfügbar.<br><br>▼//<strong>&nbsp;[Amboss, Rucksack und ’nen Topf voll Honig] Rekrutierung: Priorisiert&nbsp;</strong><br>· Verfügbarkeit: Nach dem [Willkommen in der Welt der Pilze]-Versions-Update – 23. Dezember 2026 um 11:59 Uhr (Serverzeit)&nbsp;<br>· Teilnahmekriterien: Abschluss der Hauptmission [Kapitel I, Prozess I: Die Belagerung durchbrechen]&nbsp;<br>· [Amboss, Rucksack und ’nen Topf voll Honig] Rekrutierung: Priorisiert bietet die Rate-UP-6★-Operatorin [Kay].&nbsp;<br>· Folgende 6★-Operatoren können in [Amboss, Rucksack und ’nen Topf voll Honig] Rekrutierung: Priorisiert erscheinen (unter anderem): Kay / Silberfluss / Si / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.&nbsp;<br>· In [Amboss, Rucksack und ’nen Topf voll Honig] Rekrutierung: Priorisiert kannst du [„Wandernde Wildpfote“-RK-Genehmigung], [RK-Genehmigung: Priorisiert] oder [Oro-Berylle] verwenden, um eine Rekrutierung durchzuführen.&nbsp;<br>※ Der Rate-UP-6★-Operator in einem [Rekrutierung: Priorisiert]-Banner wird nach 3 [Rekrutierung: Priorisiert]-Bannern von der Liste der Operatoren entfernt, die in [Rekrutierung: Priorisiert] auftauchen können. Dieser Rate-UP-6★-Operator wird auch nicht zu [Rekrutierung: Standard] hinzugefügt.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">▼//<strong>&nbsp;Belohnungen für [Rekrutierung: Priorisiert]&nbsp;</strong><br>Führe in [Amboss, Rucksack und ’nen Topf voll Honig] Rekrutierung: Priorisiert eine bestimmte Anzahl an Rekrutierungsversuchen durch, um entsprechende Belohnungen zu erhalten.<br>■<strong>&nbsp;Bonusrekrutierung&nbsp;</strong><br>· Nach dem Durchführen von 30 Rekrutierungsversuchen erhältst du 10 zusätzliche Bonusrekrutierungsversuche (die als 1 kostenloser 10×-Rekrutierungsversuch zählen). Dies gilt nur während des [Rekrutierung: Priorisiert]-Banners und wird nicht auf andere Rekrutierungsbanner übertragen.&nbsp;<br>· Die Wahrscheinlichkeit, Operatoren durch Bonusrekrutierung zu erhalten, ist identisch mit der allgemeinen Droprate dieses [Rekrutierung: Priorisiert]-Banners. Der kostenlose 10×-Rekrutierungsversuch der Bonusrekrutierung garantiert einen 5★-Operator oder besser.&nbsp;<br>· Dieser kostenlose 10×-Rekrutierungsversuch, der durch Bonusrekrutierung erhalten wird, wird nicht für die Garantie für dieses oder andere [Rekrutierung: Priorisiert]-Banner gewertet. Er wird ebenfalls nicht für die Rekrutierungsversuche gewertet, die insgesamt für [Rekrutierung: Priorisiert]-Belohnungen erforderlich sind.&nbsp;<br>■<strong>&nbsp;Rekrutierungs-Dossier&nbsp;</strong><br>· Nachdem du 60 Rekrutierungsversuche durchgeführt hast, erhältst du ein [Rekrutierungs-Dossier]×1.&nbsp;<br>· Sobald die Voraussetzungen erfüllt sind, wird das [Rekrutierungs-Dossier] automatisch deinen Wertgegenständen hinzugefügt. Mit Beginn des nächsten [Rekrutierung: Priorisiert]-Banners wird dieses [Rekrutierungs-Dossier] automatisch in eine Spezial-RK-Genehmigung×10 des angegebenen [Rekrutierung: Priorisiert]-Banners umgewandelt. Allerdings läuft die RK-Genehmigung ebenfalls ab, wenn dieses Banner endet.&nbsp;<br>■<strong>&nbsp;Token-Tribut&nbsp;</strong><br>· Bei jedem [Rekrutierung: Priorisiert]-Banner gewähren je 240 Rekrutierungsversuche ein zusätzliches [Token des Rate-UP-6★-Operators im besagten Banner]×1.<br><br>▼//<strong>&nbsp;Details zu Waffentickets&nbsp;</strong><br>Jeder Rekrutierungsversuch von Operatoren gewährt außerdem [Waffentickets].&nbsp;<br>· Der Erhalt eines 6★-Operators gewährt [Waffenticket]×2.000.&nbsp;<br>· Der Erhalt eines 5★-Operators gewährt [Waffenticket]×200.&nbsp;<br>· Der Erhalt eines 4★-Operators gewährt [Waffenticket]×20.&nbsp;<br>※ [Waffentickets] können in [Ankaufszentrum – Arsenal-Tauschbörse] ausgegeben werden.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Während [Amboss, Rucksack und ’nen Topf voll Honig] Rekrutierung: Priorisiert sind auch die folgenden Inhalte verfügbar:&nbsp;<br>▼//<strong>&nbsp;[Wandernde Wildpfote] Zeitlich begrenztes Anmeldung-Event&nbsp;</strong><br>Melde dich insgesamt an 7 Tagen an, um Belohnungen wie [„Wandernde Wildpfote“-RK-Genehmigung]×5 zu erhalten.&nbsp;<br><br>▼//<strong>&nbsp;[Kampfübungen] Operator-Test-Event&nbsp;</strong><br>[Kampfübungen] ist verfügbar, um 6★-Operatorin [Kay] zu testen. Schließe die angegebene Phase mit dem voreingestellten Team ab, das die Testoperatorin enthält, um [Oro-Beryll]×100, [Arsenal-Verteidigungskiste], [Mal der Beharrlichkeit] und andere Belohnungen zu erhalten. Die [Arsenal-Verteidigungskiste] enthält ein vollständig veredeltes Ausrüstungsset der Stufe 60, das gut zur aktuellen Testoperatorin passt.&nbsp;<br><br>▼//<strong>&nbsp;Besonderer Hinweis zu [AIK-Quotenaustausch]&nbsp;</strong><br>Der [Quotenaustausch] bietet zeitlich begrenzte Sonderangebote. Du kannst [AIK-Quoten] ausgeben, um Gegenstände wie [„Wandernde Wildpfote“-RK-Genehmigung]×5 zu erhalten.&nbsp;<br><br>※ Zeitzone des Asia-Servers: UTC+8&nbsp;<br>※ Zeitzone des Americas / Europe-Servers: UTC -5&nbsp;<br>※ Weitere Details zur Rekrutierung findest du im Spiel auf dem Bildschirm [Rekrutierung].&nbsp;<br>※ Weitere Eventdetails findest du im [Eventcenter] im Spiel.&nbsp;<br>※ Weitere Informationen zum [AIK-Quotenaustausch] findest du im [Ankaufszentrum] im Spiel.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "4696",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "[Willkommen in der Welt der Pilze]\\nPakete",
+            "header": "[Willkommen in der Welt der Pilze] Paketdetails",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/dfd723764764e64b34a79127e3a2fb78.jpg\" data-width=\"1650\" data-height=\"300\"><p>Lieber Endministrator, <br>während der Version [Willkommen in der Welt der Pilze] werden im [Ankaufszentrum] verschiedene Pakete angeboten.<br><br><strong>▼// Limitierte Pakete </strong><br>■ Paket: Protokollfluss <br>· Verfügbarkeit: Während der gesamten Version [Willkommen in der Welt der Pilze] <br>· Paketinhalt: [RK-Genehmigung: Priorisiert] ×10, [Waffenticket] ×2.000, [Mal der Beharrlichkeit] ×10 <br>· Hinweis: Nur 1 Kauf in der aktuellen Version erlaubt<br><br>■ „Wanderin der Wildnis“-RK-Paket <br>· Verfügbarkeit: Nach dem Versionsupdate [Willkommen in der Welt der Pilze] – 23. Dez. 2026 um 11:59 Uhr (Serverzeit) <br>· Paketinhalt: [„Wandernde Wildpfote“-RK-Genehmigung] ×10, [T-Kreditscheine] ×80.000 <br>· Hinweis: Nur 1 Kauf erlaubt<br><br>■ Preiswertes Waffenticket-Paket <br>· Verfügbarkeit: Während der gesamten Version [Willkommen in der Welt der Pilze] <br>· Paketinhalt: [Waffenticket] ×2.000 <br>· Hinweis: Nur 1 Kauf in der aktuellen Version erlaubt<br><br>※ „Asia“-Server-Zeitzone: UTC+8 <br>※ „Americas / Europe“-Server-Zeitzone: UTC-5 <br>※ Manche Pakete enthalten befristete Gegenstände. Details zu zeitlich begrenzten Gegenständen findest du unter [Kauf – Gegenstandsinhalte]. Sollten zeitlich begrenzte Objekte in einem Paket nach dem Kauf verfallen, können diese nicht erneut ausgegeben werden. Vielen Dank für dein Verständnis und deine Unterstützung. <br>※ Weitere Pakete und Details findest du im Spiel unter [Ankaufszentrum – Pakete].<br></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "3030",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Säulenreihenbau: Schließe die restlichen Risse",
+            "header": "[Säulenreihenbau: Schließe die restlichen Risse] Details zum Bau-Event",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261120/1041ec9dddf4872ac8a8a9ef959fd759.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Eventzeitraum</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Während der Version [Willkommen in der Welt der Pilze]</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Startzeit der Bau-Beschleunigung: 2026/12/31 06:00 (Serverzeit)</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Event-Belohnungen</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Während des Events kannst du durch das Anhäufen von Wiederaufbau-Fortschritt und den Abschluss von Bauaufgaben Belohnungen erhalten, darunter: [Oro-Beryll]×1.000, [Erweiterter-Fortschritt-Auswahlkiste II], [Fortschrittlicher kognitiver Datenträger], [Mal der Beharrlichkeit] und [Origo-Veredelungsflüssigkeit Mk I].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Teilnahmevoraussetzungen</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Schließe die Hauptmission [Kapitel II Prozess VII: Hartnäckig verweilt die untergehende Sonne] ab</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Schließe die Nebenmission [Ich träume von Honigwaffeln] ab</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Eventdetails</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Während des Events schaltest du durch Missionsfortschritt den Spielmodus [Sperrzonenwiederaufbau] sowie die zugehörigen AIK-Technologien frei. Nutze dann die AIK-Fabrik, um die für das Sperrzonenwiederaufbau-Projekt benötigten Vorräte herzustellen, sammle Wiederaufbau-Fortschritt und schließe Bauaufgaben ab, um Belohnungen zu erhalten.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Während der letzten 7 Tage des Events beginnt die Bau-Beschleunigung. In diesem Zeitraum bringt jede erfolgreiche Versorgung zusätzlichen Wiederaufbau-Fortschritt.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Nach Ende des Bau-Events [Säulenreihenbau: Schließe die restlichen Risse] können Bauaufgaben nicht mehr abgeschlossen und die entsprechenden Prämien nicht mehr abgeholt werden. Du kannst aber weiterhin den Spielmodus [Sperrzonenwiederaufbau] spielen und Wiederaufbau-Fortschritt-Belohnungen erhalten. Achte auf den Eventzeitraum und hole dir rechtzeitig deine Belohnungen, Endministrator.</span></p><p></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※Zeitzone des Asia-Servers: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※Zeitzone des Americas / Europe-Servers: UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Weitere Eventdetails findest du im Spiel im [Eventcenter].</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "2188",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "„Entspannte Wanderin“-Ausgabe",
+            "header": "[„Entspannte Wanderin“-Ausgabe] KZO-Details",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/7e781e6f3aae77c590bff96794ed677c.png\" data-width=\"1650\" data-height=\"300\"><p>Geschätzter Endministrator, <br>Während die [„Entspannte Wanderin“-Ausgabe] verfügbar ist, ist die Chance auf Erhalt der 6★-Waffe [Süßer Deal (Stangenwaffe)] erhöht! <br><br><strong>▼// [„Entspannte Wanderin“-Ausgabe] </strong><br>· Verfügbarkeit: Öffnet nach dem Versionsupdate [Willkommen in der Welt der Pilze]; endet nach 3 [Rekrutierung: Priorisiert]-Bannern (beginnend mit [Amboss, Rucksack und ’nen Topf voll Honig]) <br>· Teilnahmekriterien: Abschluss der Hauptmission [Kapitel I, Prozess I: Die Belagerung durchbrechen] <br>· In der [„Entspannte Wanderin“-Ausgabe] ist die Rate-UP 6★-Waffe [Süßer Deal (Stangenwaffe)] verfügbar. <br>· Zu den 6★-Waffen, die in der [„Entspannte Wanderin“-Ausgabe] erscheinen können, gehören: Süßer Deal (Stangenwaffe) / Schneller Aufstieg (Schwert) / Tapferkeit (Stangenwaffe) / JET (Stangenwaffe) / Zünder (Tech-Einheit) / Keil (Handfeuerwaffe) / Ehemalige Eleganz (Großschwert). <br><br><strong>▼// [Waffenausgabe]-Belohnungen </strong><br>In jeder [Waffenausgabe] erhältst du für eine bestimmte Anzahl von Ausgaben abwechselnd die spezifische [Waffenangebotskiste] (Waffen-AK) oder [6★-Waffe mit erhöhter Wahrscheinlichkeit] des Banners. Die Gesamtanzahl der Ausgaben für diese Waffenausgabe-Belohnungen wird nach Ende des Banners zurückgesetzt und nicht auf andere [Waffenausgabe]-Banner übertragen. <br><br><strong>▼// [Waffenausgabe]-Details </strong><br>· In [Waffenausgabe] kannst du [Waffentickets] ausgeben, um eine Ausgabe zu beantragen. <br>· Bei jeder Ausgabe erhältst du 10 zufällige Waffen aus der Liste der verfügbaren Waffen, darunter mindestens eine 5★-Waffe oder besser. <br><br><strong>▼// [Arsenal-Tauschbörse]-Details</strong> <br>In der [Arsenal-Tauschbörse] kann das [Waffenticket] auch zum direkten Kauf von Waffen verwendet werden. Einige käufliche Waffen können von Zeit zu Zeit aktualisiert werden. Informiere dich auf dem Bildschirm [Ankaufszentrum – Arsenal-Tauschbörse] über die tatsächlich verfügbaren Waffen. <br><br>※ Zeitzone des Asia-Servers: UTC+8 <br>※ Zeitzone des Americas / Europe-Servers: UTC-5 <br>※ Weiterführende Informationen und Regeln der Belohnungsvergabe sind im Spiel unter [Ankaufszentrum – Arsenal-Tauschbörse] verfügbar.<br></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6412",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "extraData": {},
+            "title": "RE-Faktor-Rekrutierung\\nRE-Faktor-Ausgabe",
+            "header": "RE-Faktor-Rekrutierung und RE-Faktor-Ausgabe",
+            "jumpButton": null,
+            "data": {
+              "html": "<p><span style=\"color: rgb(31, 35, 41);\">Lieber Endministrator!&nbsp;<br>Während „RE-Faktor-Rekrutierung – [An alle treibenden Träume]“ #1 ist die 6★-Operatorin [Gilberta] auf Rate-UP.&nbsp;<br>Während „RE-Faktor-Ausgabe – [„Leichtfüßige Reisende“-Ausgabe]“ #1 verfügbar ist, ist die Chance auf den Erhalt der 6★-Waffe [Garantierte Lieferung (Tech-Einheit)] erhöht!<br><br><strong>▼// Verfügbarkeit</strong><br>Nach dem Versions-Update [Willkommen in der Welt der Pilze] – 16. Dezember 2026 um 11:59 Uhr (Serverzeit)<br><strong><br>▼// Teilnahmekriterien&nbsp;</strong><br>Abschluss der Hauptmission [Kapitel I Prozess I: Die Belagerung durchbrechen]</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼// Details zu „RE-Faktor-Rekrutierung – [An alle treibenden Träume] #1“&nbsp;</strong></span></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261123/a5f350e9862a7eac562fa551a2e6ff7b.png\" alt=\"\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\"><strong>■ Rekrutierungsdetails</strong><br>„RE-Faktor-Rekrutierung – [An alle treibenden Träume]“ enthält die Rate-UP-6★-Operatorin [Gilberta]. In dieser Rekrutierung erhältst du garantiert innerhalb der ersten 120 Rekrutierungsversuche die Rate-UP-6★-Operatorin [Gilberta]. Diese Garantie kann während aller „RE-Faktor-Rekrutierungsbanner – [An alle treibenden Träume]“ nur 1-mal ausgelöst werden. Für diese Garantie zählende Versuche werden auf zukünftige „RE-Faktor-Rekrutierungsbanner – [An alle treibenden Träume]“ übertragen.<br><br><strong>■ Belohnungen der Rekrutierung&nbsp;</strong><br>Unternimm bei „RE-Faktor-Rekrutierung – [An alle treibenden Träume]“ eine bestimmte Anzahl an Rekrutierungsversuchen, um entsprechende Belohnungen zu erhalten. Die Summe der Rekrutierungsversuche wird auf zukünftige „RE-Faktor-Rekrutierungsbanner – [An alle treibenden Träume]“ übertragen.<br><br><strong>· Bonusrekrutierung&nbsp;</strong><br>Nach 30/60/90 durchgeführten Rekrutierungsversuchen erhältst du als Bonus jeweils 10 Bonusrekrutierungsversuche (d. h. 1 kostenloser 10er-Rekrutierungsversuch pro Meilenstein). Dieser Bonus kann während aller „RE-Faktor-Rekrutierungsbanner – [An alle treibenden Träume]“ nur 1-mal ausgelöst werden. Ungenutzte Bonusrekrutierungsversuche werden auf zukünftige „RE-Faktor-Rekrutierungsbanner – [An alle treibenden Träume]“ übertragen.<br><br><strong>· Token-Tribut&nbsp;</strong><br>Wenn du über alle „RE-Faktor-Rekrutierungsbanner – [An alle treibenden Träume]“ hinweg jeweils 240 Rekrutierungsversuche durchführst, erhältst du als Bonus [Gilbertas Token] ×1. Versuche werden auf zukünftige „RE-Faktor-Rekrutierungsbanner – [An alle treibenden Träume]“ übertragen.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Details zu „RE-Faktor-Ausgabe – [„Leichtfüßige Reisende“-Ausgabe]“ #1&nbsp;</strong></span></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261123/8d7a25bb94305909a35b4721b4d8bf00.png\" alt=\"\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Ausgabe-Details&nbsp;</strong><br>· „RE-Faktor-Ausgabe – [„Leichtfüßige Reisende“-Ausgabe]“ #1 enthält die Rate-UP-6★-Waffe [Garantierte Lieferung (Tech-Einheit)].&nbsp;<br>· Wenn du in dieser Ausgabe keine 6★-Waffen in 3 aufeinanderfolgenden Ausgaben erhältst, dann ist eine 6★-Waffe in der 4. Ausgabe garantiert. Diese Garantie gilt nur für „RE-Faktor-Ausgabe – [„Leichtfüßige Reisende“-Ausgabe]“ #1 und gilt nicht für andere Ausgabebanner (inklusive zukünftiger „RE-Faktor-Ausgabebanner – [„Leichtfüßige Reisende“-Ausgabe]“).&nbsp;<br>· Wenn du in dieser Ausgabe keine Rate-UP-6★-Waffen in den ersten 7 Ausgaben erhältst, dann ist eine Rate-UP-6★-Waffe in der 8. Ausgabe garantiert. Diese Garantie kann während aller „RE-Faktor-Ausgabebanner – [„Leichtfüßige Reisende“-Ausgabe]“ 1-mal ausgelöst werden. Für diese Garantie zählende Versuche werden auf zukünftige „RE-Faktor-Ausgabebanner – [„Leichtfüßige Reisende“-Ausgabe]“ übertragen.&nbsp;<br><br><strong>■ Belohnungen der Ausgabe&nbsp;</strong><br>Führe eine bestimmte Anzahl an RE-Faktor-Ausgabeversuchen durch, um abwechselnd [Waffen-AK: Leichtfüßige Reisende] oder [Garantierte Lieferung (Tech-Einheit)] zu erhalten. Die Summe der RE-Faktor-Ausgabeversuche wird auf zukünftige „RE-Faktor-Ausgabebanner – [„Leichtfüßige Reisende“-Ausgabe]“ übertragen.&nbsp;<br><br>※ Zeitzone des Asia-Servers: UTC+8&nbsp;<br>※ Zeitzone des Americas / Europe-Servers: UTC -5&nbsp;<br>※ Weitere Details gibt es im Spiel.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "5504",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1795604400,
+            "focus": 0,
+            "title": "Diskussion zur neuen Version",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261125/dcec9d455f1ccdcca18d91b669e6377f.jpg",
+              "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fdetail%3Fid%3D2125438644821561779&redirectUrl=https%3A%2F%2Fwww.skport.com%2Farticle%3Fid%3D2125438644821561779%26hg_media%3Dgame%26hg_link_campaign%3Dannouncement%26hg_link_name%3DShroomsdiscussion",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "2186",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1795604400,
+            "focus": 0,
+            "title": "Zeitlich begrenztes Preisziehungs-Event",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261125/c8eaa23a7f2a3180b9c065f7b3379eeb.png",
+              "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fact.skport.com%252Fendfield%252Flimited-time-offer%253Fheader%253D0%2526hg_media%253Dgame%2526hg_link_campaign%253Dannouncement%2526hg_link_name%253Dluckydraw",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "5505",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Ich träume von Honigwaffeln",
+            "header": "[Ich träume von Honigwaffeln] Kays Erzählung-Event",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261124/3d4a83e03e1787d0d9b8f563a7c07b78.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">In jüngster Zeit beklagen sich die Bürger von Wuling über rätselhafte und unerklärliche Halluzinationen. Du beschließt, der Sache nachzugehen. Vielleicht erwartet dich eine wundersame Begegnung …</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Eventzeitraum</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Während der gesamten Version [Willkommen in der Welt der Pilze]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Teilnahmevoraussetzungen</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Schließe die Hauptmission [Kapitel II, Prozess VI: Verwandte Seelen, die eine Vision teilen] ab.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Eventdetails</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Schließe die Nebenmission [Ich träume von Honigwaffeln] ab, um [Oro-Berylle], [Grundlegender kognitiver Datenträger], [Protoeder], [Waffen-INSP-Set] und weitere Belohnungen zu erhalten.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Auch nach Entfernung der Eventseite kannst du diese Nebenmission weiterhin über [Mission] spielen und die Belohnungen erhalten, sofern du die Teilnahmevoraussetzungen erfüllst.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ „Asia“-Server-Zeitzone: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ „Americas / Europe“-Server-Zeitzone: UTC-5</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1364",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Kappen! Schwammerl! PILZE!",
+            "header": "[Kappen! Schwammerl! PILZE!] Details zum Anleitung-Event",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261120/95103d6aa466ba67df88df25817fe1d8.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Eventzeitraum</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Nach dem [Willkommen in der Welt der Pilze]-Versions-Update – 23. Dezember 2026 um 12:00 Uhr (Serverzeit)</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Event-Belohnungen</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Schließe während des Events Missionen ab, um Belohnungen zu erhalten, darunter: [Oro-Berylle] und [Mal der Beharrlichkeit].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Teilnahmevoraussetzungen</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Schließe in der Nebenmission [Rettungswaffeln: Begegnung] das Ziel [Gehe zum Damm] ab.</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Schließe die Hauptmission [Kapitel II, Prozess VI: Verwandte Seelen, die eine Vision teilen] ab, um die angegebene Nebenmission [Rettungswaffeln: Begegnung] freizuschalten.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Eventdetails</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Besuche während des Events das Gebiet [Alter Damm] in der Region Wuling und schließe verschiedene Eventmissionen wie beispielsweise die Freischaltung von TP-Punkten oder das Öffnen von Protokollkisten ab, um tolle Belohnungen zu erhalten.</span></p><p></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※Zeitzone des Asia-Servers: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※Zeitzone des Americas / Europe-Servers: UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">※Weitere Eventdetails findest du im [Eventcenter] im Spiel.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8939",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Echos des Krieges\\nSaison der Zerstreuung",
+            "header": "Echos des Krieges – Saison der Zerstreuung",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/29dad2278c836afeaf34acb89369fc24.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Saison-Verfügbarkeit&nbsp;<br></strong>Nach dem [Willkommen in der Welt der Pilze]-Versions-Update&nbsp;– 16. Dezember 2026 um 11:59 Uhr (Serverzeit)<br><br><strong>▼// Teilnahmevoraussetzungen&nbsp;<br></strong>· Autoritätslevel ≥ 40&nbsp;<br>· Abschluss der Hauptmission [Kapitel&nbsp;I, Prozess&nbsp;II: Den Weg freimachen]<br><br><strong>▼// Details zum Saison-Update&nbsp;<br></strong>Die neue Saison [Saison der Zerstreuung] ist jetzt mit 3 neu hinzugefügten Phasen verfügbar. Diese Saison umfasst 3 Zyklen mit je 3 Phasen.<br><br>※ Zeitzone des Asia-Servers: UTC+8&nbsp;<br>※ Zeitzone des Americas- / Europe-Servers: UTC-5&nbsp;<br>※ Weitere Details findest du im [Eventcenter] im Spiel.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "3029",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1795449600,
+            "focus": 0,
+            "title": "[Das Heiligtum aus Tusche]\\nPionier-Logbuch",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261124/f6b80397322205f5ce868060ff32e3bb.png",
+              "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fevent.skport.com%252Factivity%252Fendfield_data_report%252Fsanctuary%253Fheader%253D0%2526hg_media%253Dgame%2526hg_link_campaign%253Dannouncement%2526hg_link_name%253Dpioneerlog",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "2198",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1795433400,
+            "focus": 0,
+            "title": "Updates für das Discord-Spielstatistik-Widget",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261120/3d62112b393b752b1bb5f4f597a8bc60.jpg",
+              "link": "https://endfield.gryphline.com/special/discord-binding",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1365",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1794542400,
+            "focus": 0,
+            "title": "Official Illustration Collection Vol.1",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261112/e7e0d5ae6fc3f1246d7301be960fab00.jpg",
+              "link": "https://store.gryphline.com",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "9850",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1792555200,
+            "focus": 0,
+            "title": "New Official Merch Now Available",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261019/c90828e96ead70b0106ac799a8b03d5c.png",
+              "link": "https://store.gryphline.com",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "0788",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1791455400,
+            "focus": 0,
+            "title": "Updates für das Discord-Spielstatistik-Widget",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260930/4cc876b229d28ed7db5382836ff0eeab.png",
+              "link": "https://endfield.gryphline.com/special/discord-binding",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1353",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 5,
+            "displayType": "picture",
+            "startAt": 1795579200,
+            "focus": 0,
+            "extraData": {},
+            "title": "Offizielle Auflade-Website jetzt online",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261124/6cf72b77a3853026ea46777b90f36cd0.png",
+              "link": "https://topup.gryphline.com/endfield?source_from=bulletin&u8_token={u8_token}&server={server}",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8998",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 5,
+            "displayType": "rich_text",
+            "startAt": 1769011200,
+            "focus": 0,
+            "title": "Erklärung zu Fairness im Spiel",
+            "header": "Arknights: Endfield – Erklärung zu Fairness im Spiel",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260121/4c654b8022af7a3bbad815911960a22d.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Vielen Dank für euer anhaltendes Interesse und die Unterstützung von Arknights: Endfield. Um allen eine ausgewogene und faire Spielumgebung zu bieten und die legitimen Rechte und Interessen aller Spieler zu wahren, möchten wir alle an Folgendes erinnern:</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">1. Die Nutzung von Cheats, Tools von Drittanbietern, nicht autorisierte Käufe über Dittanbieter oder andere unangemessene Methoden, welche die Integrität des Spiels negativ beeinflussen oder gegen die Nutzungsbedingungen des Spiels verstoßen, sind strengstens verboten. Basierend auf Backend-Überwachung und Meldungen von Spielern, werden wir, falls solche Verstöße nachgewiesen werden sollten, entsprechende Konsequenzen basierend auf der Schwere der Verstöße ziehen. Diese Maßnahmen beinhalten unter anderem die Entfernung unrechtmäßig erhaltener Ressourcen, vorübergehende Sperrungen oder auch permanente Sperrungen.</span></p><p><span style=\"color: rgb(0, 0, 0);\">2. Um die legitimen Rechte und Interessen aller Spieler zu wahren, fordern wir euch auf, eure Spielkonten nie zu transferieren, zu teilen oder zu tauschen. Die aus diesen Handlungen resultierende Konsequenzen, einschließlich Kontodiebstahl und Verlust von Eigentum im Spiel, trägt allein der betroffene Spieler.</span></p><p><span style=\"color: rgb(0, 0, 0);\">3. Um ein volles Spielerlebnis zu garantieren, ist es Spielern strengstens untersagt, die Installationsdateien des Spiels zu entpacken, zu modifizieren oder auf sonst irgendeine Weise zu manipulieren oder extrahiertes Material in Umlauf zu bringen.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Eine positive und faire Spielumgebung kann nur dann erhalten werden, wenn alle Spieler daran mitwirken. Wir bitten daher alle darum, fair zu bleiben und sich an die Regeln zu halten. Sollten euch Verstöße auffallen, so meldet sie uns bitte im offiziellen Kundendienst-Center.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6472",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 7,
+            "displayType": "rich_text",
+            "startAt": 1769011200,
+            "focus": 0,
+            "title": "Nutzungsrichtlinie für Funktionen",
+            "header": "Nutzungsrichtlinie für den Automatisierten Industriekomplex und Baupläne",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260121/9818f9b3b3b8c39d53d39a08e1a8772e.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">Um eine angenehme Spielumgebung zu gewährleisten, bitten wir dich, bei der Nutzung von Funktionen in Verbindung mit dem Automatisierten Industriekomplex unsere Nutzungsbedingungen zu befolgen. Bitte veröffentliche keine Beiträge oder beteilige dich an Inhalten, die Folgendes beinhalten:</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">1. Diskriminierung aufgrund von Region, Ethnie, sexueller Orientierung, Religion, politischer Meinung usw.</span></p><p><span style=\"color: rgb(31, 35, 41);\">2. Verleumdung, Beleidigungen oder Verletzung der Rechte anderer</span></p><p><span style=\"color: rgb(31, 35, 41);\">3. Obszönitäten, Gewalt, Glücksspiel oder Hass</span></p><p><span style=\"color: rgb(31, 35, 41);\">4. Alles, was gemäß der Nutzungsbedingungen untersagt oder als unangebracht erachtet wird</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Bei Verstößen gegen die oben genannten Bestimmungen können Strafen verhängt werden, darunter die Entfernung von Artikeln im Automatisierten Industriekomplex, Einschränkungen der Funktionen der AIK-Fabrik und die Sperrung von Accounts. Um Verstöße zu melden, verwende die Schaltfläche [Melden] oder wende dich an den Kundendienst.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Wenn du die Funktion [Bauplan teilen] verwendest, erhältst du einen [Bauplancode], mit dem andere Endministratoren deinen Bauplan ansehen und verwenden können. Beachte bitte Folgendes, bevor du beginnst: Durch das Teilen deines [Bauplancodes] erlaubst du jedem, dein Design anzusehen, zu kopieren oder zu verwenden. Bitte überlege gut, bevor du etwas teilst.</span></p><p></p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user.gryphline.com/en-us/protocol/plain/endfield/game/terms_of_service\">Terms of Service</a></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6474",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 12,
+            "displayType": "rich_text",
+            "startAt": 1769036400,
+            "focus": 0,
+            "title": "Ätzbereich: Bergung",
+            "header": "[Ätzbereich: Bergung] Gameplay-Details",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260117/4c52fdfeb6647627686f6384062c9811.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Verfügbarkeitszeitraum</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Ab der offiziellen Veröffentlichung</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Erkundungsbelohnungen</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Erreiche während der Verfügbarkeit von [Ätzbereich: Bergung] die angegebenen Einsatzkennzahlen, um Belohnungen zu erhalten, darunter: [Oro-Berylle], [RK-Genehmigung: Einfach] und [Fortschrittsmaterialien].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Teilnahmevoraussetzungen</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Schließe die Hauptmission [Kapitel I Prozess III: Gebäude voller Geheimnisse] ab.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Gameplay-Details</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· [Ätzbereich: Bergung] ist eine permanente Aktivität, bei der du an Bord der Dijiang gehst, um die [Tal-Anomalien] zu betreten und zu erkunden. Nimm während der Erkundung verschiedene Beauftragungen an und schließe sie ab, um Unterstützungs-Tech für Erkundungen freizuschalten, die deine Fähigkeit verbessern, die Tal-Anomalien zu erkunden, und um Belohnungen wie [Oro-Berylle] zu verdienen.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Verdiene Einsatzkennzahlen, indem du bestimmte Beauftragungen abschließt oder [Niederschlagsnoduli] aus den Tal-Anomalien holst. Verdiene genug Einsatzkennzahlen, um Belohnungen zu erhalten.</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Weitere Details findest du im [Ätzbereich: Bergung]-Bildschirm im Spiel unter [Gameplay-Details].</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "3080",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 19,
+            "displayType": "rich_text",
+            "startAt": 1769036400,
+            "focus": 0,
+            "title": "Anleitung für Spielwerkzeuge",
+            "header": "Arknights: Endfield – Anleitung für Spielwerkzeuge",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260120/d50ae1defbb2967d860cfa96ac913483.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>[Tägliche Anmeldung]</strong></p><p>Mit dem Werkzeug für tägliche Anmeldung kannst du dich täglich anmelden, um Belohnungen wie Oro-Beryll, Fortgeschrittene Kampfaufzeichnungen, Waffen-INSP-Sets, Protoprismen und Talosianische Kreditscheine zu erhalten. Verknüpfe deine Charaktere und erhalte nach den ersten drei täglichen Anmeldungen einen Bonus von 300 Oro-Beryll!</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/endfield/sign-in\">Los</a></p><p></p><p><strong>[WIKI]</strong></p><p>Das WIKI ist ein Werkzeug, dessen Inhalte von einer Gruppe von Endministratoren erstellt und gepflegt werden. Es ist eine praktische und detaillierte Quelle für Informationen zum Spiel.</p><p>Hier findest du grundlegende Informationen zu Operatoren und Gegenständen, Waffendateien und vieles mehr.</p><p>Das WIKI befindet sich derzeit noch in der Entwicklung und wird ständig erweitert. Solltest du auf Probleme oder Fehler stoßen, tippe bitte unten rechts auf der Hauptseite auf [Feedback].</p><p>Die derzeit im WIKI angezeigten Informationen entsprechen dem Stand des Beta-Tests II, aber die tatsächlichen Inhalte im Spiel können davon abweichen.</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wiki.skport.com/endfield\">Los</a></p><p></p><p><strong>[Kartenwerkzeuge]</strong></p><p>Die Kartenwerkzeuge bieten einen umfassenden Überblick über die Ressourcen und Anlagen im Spiel und ermöglichen es, interessante Bereiche zu suchen, zu filtern und zu lokalisieren.</p><p>Sie bieten mehr als nur eine Übersicht über Vorratskisten, Sammelstücke, Gegner und ähnliche wichtige Inhalte: Sobald du dich angemeldet hast, kannst du auch deine eigenen Seilbahnen, Strommasten und andere von dir errichtete Gebäude sehen. Das alles erleichtert dir die Erkundung von Talos-II.</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/map/endfield\">Los</a></p><p></p><p><strong>[Protokollterminal]</strong></p><p>Das Protokollterminal bietet Spielern eine bequeme Möglichkeit, Spieldaten etwa zu Operatoren und der Regionsentwicklung zu suchen. Du erhältst Zugriff auf Verstandswerte, den Fortschritt bei täglichen Aufgaben und viele weitere Echtzeitdaten.</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/endfield/game-data?header=0\">Los</a></p><p></p><p><strong>[Teamauswahl und Operator-Fortschritt]</strong></p><p>Diese Spielwerkzeuge bieten Endministratoren eine Fülle von Informationen, darunter Teamaufstellungen, Vorschläge zu Fähigkeiten und Kampfstrategien. Stöbere in den Aufstellungen anderer begeisterter Spieler von Arknights: Endfield und gib deinen Favoriten ein „Gefällt mir“.</p><p>Wir hoffen, dass dies Endministratoren dabei hilft, schnell ihre perfekten Teams zusammenzustellen, die für jede Herausforderung bereit sind!</p><p><strong>Starte Arknights: Endfield, öffne [Protokollsynchronisierer] und nutze dann die Schaltfläche „Spielwerkzeuge“.</strong></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7222",
+            "type": 0,
+            "tab": "news",
+            "orderType": 2,
+            "orderWeight": 20,
+            "displayType": "picture",
+            "startAt": 1769040000,
+            "focus": 0,
+            "title": "Offizielle Social-Media-Konten",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260121/5c723787104565cd477b0d3532b6d9b8.jpg",
+              "link": "https://ef-webview.gryphline.com/act/social-media?u8_token={u8_token}&server={server}",
+              "linkType": 2
+            }
+          }
+        ]
+      },
+      "msg": ""
+    }
   }
 ]

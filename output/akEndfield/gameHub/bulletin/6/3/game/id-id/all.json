@@ -214288,5 +214288,671 @@
       },
       "msg": ""
     }
+  },
+  {
+    "updatedAt": "2026-11-25T11:03:51.249+00:00",
+    "req": {
+      "channel": 6,
+      "server": 3,
+      "type": 0,
+      "lang": "id-id",
+      "region": "os",
+      "platform": "Windows"
+    },
+    "rsp": {
+      "code": 0,
+      "data": {
+        "topicCid": "0093",
+        "type": 0,
+        "platform": "Windows",
+        "server": "3",
+        "channel": "#DEFAULT",
+        "subChannel": "#DEFAULT",
+        "lang": "id-id",
+        "key": "0:Windows:3:#DEFAULT:#DEFAULT:id-id",
+        "version": "8fc44cff483a5b0f6a607ec5003a7263",
+        "onlineList": [
+          {
+            "cid": "4695",
+            "version": 1795575817,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "0770",
+            "version": 1795521319,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "4697",
+            "version": 1795509994,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "7272",
+            "version": 1795168775,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "8947",
+            "version": 1795057306,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6411",
+            "version": 1795429868,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "7263",
+            "version": 1795509983,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "4696",
+            "version": 1795509918,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "3030",
+            "version": 1795517760,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "2188",
+            "version": 1795500657,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6412",
+            "version": 1795509990,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "5504",
+            "version": 1795602505,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "2186",
+            "version": 1795561085,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "5505",
+            "version": 1795502336,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1364",
+            "version": 1795517752,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "8939",
+            "version": 1795431420,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "3029",
+            "version": 1795514383,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "2198",
+            "version": 1795517746,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1365",
+            "version": 1794538207,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "9850",
+            "version": 1792388814,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "0788",
+            "version": 1790763677,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "1353",
+            "version": 1795525145,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "8998",
+            "version": 1769005692,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6472",
+            "version": 1769044240,
+            "needRedDot": true,
+            "needPopup": false
+          },
+          {
+            "cid": "6474",
+            "version": 1769005934,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "3080",
+            "version": 1782469292,
+            "needRedDot": false,
+            "needPopup": false
+          },
+          {
+            "cid": "7222",
+            "version": 1782469106,
+            "needRedDot": true,
+            "needPopup": false
+          }
+        ],
+        "popupVersion": 0,
+        "updatedAt": 1795604400,
+        "list": [
+          {
+            "cid": "4695",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795575600,
+            "focus": 0,
+            "extraData": {},
+            "title": "Known Issues Notice",
+            "header": "[Meeting You in the World o'Shrooms] Version Known Issues Notice",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261015/ced77442b4ada7220b51b1b709f16193.png\" data-width=\"1650\" data-height=\"300\"><p>Dear Endministrators:<br>To ensure a smoother game experience, we've compiled a list of known issues. If you encounter any of these during gameplay, please refer to the suggested solutions.<br><br>▼// Known Issues</p><p>· We are aware of an error in the item description for [HC Wuling Batteries]. These batteries are obtained using packaging equipment and can be used to generate power and charge devices, but cannot be used as trade goods at outposts. We will correct the item description in a future update to reflect their actual uses.</p><p><span>· We are aware of an issue in [Optical Offset], the fourth Protocol Space in the [Delver of the Cryptic - Fade Beyond the Painting] spatial set. When you use the Bounce Device to reach the opposite platform, your character may die unexpectedly upon landing, preventing you from continuing the challenge. If this happens, make a note of the code for the current puzzle before restarting the challenge. When you return to the code entry point, enter the code you noted down to proceed.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">We have located the issue and will fix it as soon as possible. We sincerely apologize for any inconvenience caused. </span><span style=\"color: rgb(31, 35, 41);\">For any other issues, please report them to us via the in-game customer support. Thank you again for your continued interest and support for Arknights: Endfield!</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "0770",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795568400,
+            "focus": 0,
+            "title": "Catatan Pembaruan Versi",
+            "header": "[Menjumpaimu di Dunia Jamur] Catatan Pembaruan Versi",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261124/0e024a03b9d3e4a91344afc37f8c8fae.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">“Akhirnya ... setelah sekian lama ... kita akan bertemu setelah melintasi ‘Dunia Jamur’.”</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Halo Endministrator,</span></p><p><span style=\"color: rgb(0, 0, 0);\">Selamat datang di versi baru, [Menjumpaimu di Dunia Jamur]!</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Pembaruan Pemeliharaan &amp; Detail Kompensasi</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Waktu Pembaruan &amp; Pemeliharaan</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Server Asia: 25 Nov. 2026 jam 06:00 – 25 Nov. 2026 jam 12:00 (UTC+8)</span></p><p><span style=\"color: rgb(0, 0, 0);\">Server Americas / Europe: 24 Nov. 2026 jam 17:00 – 24 Nov. 2026 jam 23:00 (UTC-5)</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Waktu pembukaan kembali server setelah pemeliharaan mungkin lebih cepat atau lebih lambat dari jadwal yang ditentukan. Silakan periksa pengumuman resmi untuk detail lebih lanjut.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Pembaruan Pemeliharaan &amp; Detail Kompensasi Perbaikan Bug</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Kompensasi Pembaruan &amp; Pemeliharaan: [Oroberyl] ×900</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Kompensasi Perbaikan Bug: [Oroberyl] ×900</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Periode Distribusi: Setelah pembaruan dan pemeliharaan – Sebelum pembaruan dan pemeliharaan versi berikutnya</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Persyaratan: Buat karakter sebelum pembaruan</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Catatan: Kompensasi Pembaruan &amp; Pemeliharaan serta kompensasi perbaikan bug akan dikirimkan melalui dua pesan terpisah di dalam game setelah fitur [Kotak Pesan] terbuka. Pesan-pesan tersebut akan kedaluwarsa saat pembaruan versi dan pemeliharaan berikutnya, jadi pastikan untuk mengambil kompensasi tersebut tepat waktu.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Catatan Pembaruan</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Pembaruan ini bersifat wajib. Setelah pembaruan selesai, kamu perlu mengunduh ulang dan menginstal ulang game. Setelah pembaruan dan pemeliharaan versi dimulai, kamu bisa mengikuti instruksi dalam game untuk melanjutkan pembaruan.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· iOS: Masuk ke App Store dan ketuk [Perbarui].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Android: Masuk ke game dan ikuti petunjuk pop-up untuk menyelesaikan pembaruan.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· PlayStation®5: Buka layar beranda, pilih [Arknights: Endfield], tekan tombol [OPTION] pada controller, pilih [Periksa Pembaruan], dan konfirmasi pembaruan.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· PC: Setelah menutup game, mulai ulang peluncur GRYPHLINK dan klik [Pembaruan].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>※ Setelah pembaruan versi [Menjumpaimu di Dunia Jamur], beberapa konten akan terbuka bertahap seiring waktu sesuai progres eksplorasi kamu. Silakan mengacu pada versi dalam game untuk mengetahui detail pembaruan sesungguhnya.</strong></span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Konten Versi Baru</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Cerita Baru</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1. Misi Eksplorasi</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">[Jamur Raksasa di Depan Mata]</span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2. Misi Sampingan</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">[Aku Mimpi Wafel Madu], [Esok Hari], [Membangun Kembali Rumah I], [Membangun Kembali Rumah II], [Membangun Kembali Rumah III]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Operator Baru</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Operator 6★ [Kay], operator 5★ [Mimino]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Senjata Baru</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Senjata 6★ [Sweet Deal (Senjata Galah)], [Raid Comet (Senjata Galah)], senjata 5★ [Star of Tomorrow (Meriam Tangan)]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Musuh Baru</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">[Shroomkrusher Nidwyrm], [Pangeran Boletus], [Shroomkrusher Sporeknuckle], [Shroomkrusher Sporeguard]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Area Baru</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">[Wuling - Bendungan Lama]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Event dan Edisi Headhunt Baru</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1. Headhunt Khusus [Paron, Ransel, dan Madu]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ketersediaan: Setelah pembaruan versi [Menjumpaimu di Dunia Jamur] — 23 Des 2026 pukul 11.59 (waktu server)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detail Headhunt: Headhunt Khusus [Paron, Ransel, dan Madu] menghadirkan operator 6★, [Kay], dengan Rate NAIK. Operator 6★ yang mungkin muncul dalam Headhunt Khusus [Paron, Ransel, dan Madu] mencakup: Kay / Argent Flow / Si / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Dalam Headhunt Khusus [Paron, Ransel, dan Madu], [Latihan Pertarungan] juga akan tersedia untuk mencoba operator 6★, [Kay]. Selesaikan stage yang sudah ditentukan dengan tim prasetel yang mencakup operator uji coba ini dan pergi ke layar [Pusat Event] untuk mendapatkan [Oroberyl] ×100, [Kerat Pertahanan Senjata], [Tanda Kegigihan], dan imbalan lainnya. [Kerat Pertahanan Senjata] berisi Set Gear Level 60 Sempurna Penuh yang sangat cocok untuk operator uji coba ini. Kamu juga bisa melakukan penukaran untuk mendapatkan [Surat Izin HH Wilderpaw Pengembara] dengan harga diskon di [Bursa Kuota AIC]. Kamu bisa menukarkan maks [Surat Izin HH Wilderpaw Pengembara] ×5.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2. Edisi Senjata [Edisi Pengembara Santai] Terbuka</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ketersediaan: Dibuka setelah pembaruan versi [Menjumpaimu di Dunia Jamur]; berakhir setelah 3 banner [Headhunt Khusus] (dimulai dari banner [Paron, Ransel, dan Madu])</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detail Edisi: Edisi Senjata [Edisi Pengembara Santai] akan menghadirkan senjata 6★, [Sweet Deal (Senjata Galah)], dengan Rate NAIK. Senjata 6★ yang mungkin muncul dalam Edisi Senjata [Edisi Pengembara Santai] mencakup: Sweet Deal (Senjata Galah) / Fuyao (Pedang) / Valiant (Senjata Galah) / JET (Senjata Galah) / Detonation Unit (Unit Arts) / Wedge (Meriam Tangan) / Former Finery (Pedang Besar).</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>3. Headhunt RE-Faktor #1 [Untuk Tiap Asa yang Hanyut]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ketersediaan: Setelah pembaruan versi [Menjumpaimu di Dunia Jamur] — 16 Des 2026 pukul 11.59 (waktu server)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detail Headhunt: Headhunt RE-Faktor #1 [Untuk Tiap Asa yang Hanyut] menghadirkan operator 6★, [Gilberta], dengan Rate NAIK. Operator 6★ yang mungkin muncul dalam Headhunt RE-Faktor #1 [Untuk Tiap Asa yang Hanyut] mencakup: Gilberta / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>4. Edisi RE-Faktor #1 [Edisi Pengelana Melayang] Terbuka</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ketersediaan: Setelah pembaruan versi [Menjumpaimu di Dunia Jamur] — 16 Des 2026 pukul 11.59 (waktu server)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detail Edisi: Edisi RE-Faktor #1 [Edisi Pengelana Melayang] akan menghadirkan senjata 6★, [Delivery Guaranteed (Unit Arts)], dengan Rate NAIK. Senjata 6★ yang mungkin muncul dalam Edisi RE-Faktor #1 [Edisi Pengelana Melayang] mencakup: Delivery Guaranteed (Unit Arts) / Chivalric Virtues (Unit Arts) / Oblivion (Unit Arts) / Wedge (Meriam Tangan) / Thermite Cutter (Pedang) / White Night Nova (Pedang) / Exemplar (Pedang Besar).</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>5. Headhunt RE-Faktor #1 [Mustika Merah]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ketersediaan: 16 Des 2026 pukul 12.00 (waktu server) — Sebelum pembaruan versi dan pemeliharaan</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detail Headhunt: Headhunt RE-Faktor #1 [Mustika Merah] menghadirkan operator 6★, [Rossi], dengan Rate NAIK. Operator 6★ yang mungkin muncul dalam Headhunt RE-Faktor #1 [Mustika Merah] mencakup: Rossi / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>6. Edisi RE-Faktor #1 [Edisi Cakar Merah] Terbuka</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ketersediaan: 16 Des 2026 pukul 12.00 (waktu server) — Sebelum pembaruan versi dan pemeliharaan</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detail Edisi: Edisi RE-Faktor #1 [Edisi Cakar Merah] akan menghadirkan senjata 6★, [Lupine Scarlet (Pedang)], dengan Rate NAIK. Senjata 6★ yang mungkin muncul dalam Edisi RE-Faktor #1 [Edisi Cakar Merah] mencakup: Lupine Scarlet (Pedang) / Fuyao (Pedang) / Eminent Repute (Pedang) / Wedge (Meriam Tangan) / Former Finery (Pedang Besar) / Detonation Unit (Unit Arts) / Valiant (Senjata Galah).</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Event Baru</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1. Event Narasi [Aku Mimpi Wafel Madu]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Waktu Event: Sepanjang versi [Menjumpaimu di Dunia Jamur]</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detail Event: Selesaikan misi sampingan [Aku Mimpi Wafel Madu] untuk mendapatkan [Oroberyl] ×600, [Unit Kognitif Dasar], dan berbagai imbalan lainnya.</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Setelah halaman event narasi dihapus, kamu masih bisa memainkan misi sampingan ini dari [Misi] dan mendapatkan imbalan jika kamu memenuhi syarat partisipasi.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2. Event Konstruksi [Pembangunan Susunan: Sembuhkan Luka Lama]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Waktu Event: Sepanjang versi [Menjumpaimu di Dunia Jamur]</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detail Event: Selama event berlangsung, lanjutkan misi untuk membuka mode game [Rekonstruksi Zona Eksklusi] dan teknologi AIC terkait, lalu gunakan Area Industri Cerdas untuk memproduksi pasokan yang dibutuhkan untuk Rekonstruksi Zona Eksklusi, tingkatkan Progres Rekonstruksi, dan selesaikan Tugas Konstruksi untuk mendapatkan imbalan event yang meliputi: [Oroberyl] ×1.000, [Kerat Pilihan Progresi Tingkat Lanjut II], [Tanda Kegigihan], [Cairan Penyempurna Origo Mk I], dan [Unit Kognitif Tingkat Lanjut].</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Setelah event [Pembangunan Susunan: Sembuhkan Luka Lama] berakhir, Tugas Konstruksi tidak dapat diselesaikan lagi dan imbalan terkait tidak dapat diklaim. Tapi, [Rekonstruksi Zona Eksklusi] tetap bisa dimainkan untuk mendapatkan imbalan progres rekonstruksi.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>3. Event Sign-In [Wilderpaw Pengembara]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Waktu Event: Setelah pembaruan versi [Menjumpaimu di Dunia Jamur] — 23 Des 2026 pukul 11.59 (waktu server)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detail Event: Sign in selama total 7 hari untuk mendapatkan imbalan seperti [Surat Izin HH Wilderpaw Pengembara] ×5.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>4. Event Panduan [Tudung! Jamur! FUNGI!]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Waktu Event: Setelah pembaruan versi [Menjumpaimu di Dunia Jamur] — 23 Des 2026 pukul 12.00 (waktu server)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detail Event: Kunjungi area [Bendungan Lama] di wilayah [Wuling] dan selesaikan misi yang ditentukan untuk mengklaim imbalan event seperti [Oroberyl] ×1.200 dan [Tanda Kegigihan].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>5. Event Berbatas Waktu [Pasokan Sanity]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Waktu Event:</span></p><p><span style=\"color: rgb(0, 0, 0);\">Server Asia:</span></p><p><span style=\"color: rgb(0, 0, 0);\">9 Des 2026 pukul 04.00 — 16 Des 2026 pukul 04.00 (waktu server)</span></p><p><span style=\"color: rgb(0, 0, 0);\">31 Des 2026 pukul 04.00 — 7 Jan 2027 pukul 04.00 (waktu server)</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Server Americas/Europe:</span></p><p><span style=\"color: rgb(0, 0, 0);\">9 Des 2026 pukul 04.00 — 16 Des 2026 pukul 04.00 (waktu server)</span></p><p><span style=\"color: rgb(0, 0, 0);\">31 Des 2026 pukul 04.00 — 6 Jan 2027 pukul 17.00 (waktu server)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detail Event: Selama event, selesaikan misi yang ditentukan setiap hari untuk mendapatkan imbalan Pasokan Sanity: [Izin Penggunaan Sanity] dan [Booster Sanity Darurat].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>6. Event Tantangan [BANGKIT! MEGAARENA!]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Waktu Event: 16 Des 2026 pukul 12.00 (waktu server) — Sebelum pembaruan versi dan pemeliharaan</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Waktu Pembaruan Event: 18 Des 2026 pukul 04.00 (waktu server)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detail Event: Selama event, selesaikan stage tantangan untuk mendapatkan imbalan, yang meliputi [Oroberyl] ×1.200, [Bingkai Potret: Bintang Terang Perampas Mahkota], [Kerat Pilihan Progresi Tingkat Lanjut II], [Tanda Kegigihan], dan [Unit Kognitif Tingkat Lanjut].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>7. Event Senang-Senang &amp; Permainan [Permainan Penuh Keajaiban Wortel Hoki]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Waktu Event: 16 Des 2026 pukul 12.00 (waktu server) — Sebelum pembaruan versi dan pemeliharaan</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Waktu Pembaruan Event: 23 Des 2026 pukul 04.00 (waktu server)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detail Event: Selama event berlangsung, mainkan permainan “Surga Ilmu Sihir” dan selesaikan Tantangan Game untuk mendapatkan [Kertas Wortel]. Gunakan [Kertas Wortel] di [Bursa Suvenir] untuk menukarkannya dengan imbalan event, yang meliputi [Oroberyl] ×1.000, [Kerat Pilihan Progresi Tingkat Lanjut II], [Tanda Kegigihan], dan [Unit Kognitif Tingkat Lanjut].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>8. Event Pemberian Cuma-Cuma [Penjaga Pekerja: Presensi]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Waktu Event: 16 Des 2026 pukul 12.00 (waktu server) — Sebelum pembaruan versi dan pemeliharaan</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detail Event: Selama event, login ke game dan ikuti berbagai mode game untuk mendapatkan operator 5★ baru [Mimino] dengan potensi maks dan senjata 5★ baru [Star of Tomorrow (Meriam Tangan)] dengan potensi maks.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>9. Event Senang-Senang &amp; Permainan [Endmin! Ayo Sortir Hadiahnya!]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Waktu Event: 23 Des 2026 pukul 12.00 (waktu server) — Sebelum pembaruan versi dan pemeliharaan</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detail Event: Kunjungi halaman Event Web untuk menyortir kotak kado di sabuk angkut, memainkan berbagai stage, dan mendapatkan imbalan event, yang meliputi [Oroberyl] ×300 dan [T-Cred].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Pembaruan Event &amp; Gameplay</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>1. Pembaruan Mode Tantangan Permanen [Gema Perang]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>○[Musim Penyebaran]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Pembaruan Musim: Setelah pembaruan versi [Menjumpaimu di Dunia Jamur] — 16 Des 2026 pukul 11.59 (waktu server)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Catatan Pembaruan: Musim baru [Musim Penyebaran] tersedia. Musim ini akan menghadirkan 3 siklus, yang masing-masing mencakup 3 stage. [Musim Penyebaran] akan menambahkan 3 stage baru. Selesaikan semua stage baru dengan tingkat kesulitan Normal untuk mendapatkan imbalan yang mencakup [Oroberyl] ×300.</span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>○[Musim Kewaspadaan]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Pembaruan Musim: 16 Des 2026 pukul 12.00 (waktu server) — Sebelum pembaruan versi dan pemeliharaan</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Catatan Pembaruan: Musim baru [Musim Kewaspadaan] tersedia. Musim ini akan menghadirkan 3 siklus, yang masing-masing mencakup 3 stage. [Musim Kewaspadaan] akan menambahkan 3 stage baru. Selesaikan semua stage baru dengan tingkat kesulitan Normal untuk mendapatkan imbalan yang mencakup [Oroberyl] ×300.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>2. Gameplay Tantangan [Monumen Umbra] Diperbarui, Stage Seri Spesial [Tiran Dipersenjatai] Tersedia</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ketersediaan: 2 Des 2026 pukul 12.00 (waktu server)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Catatan Pembaruan: Pembaruan mode tantangan [Monumen Umbra] ini akan memperkenalkan seri spesial baru, [Tiran Dipersenjatai], tempat kamu akan menghadapi bos musuh yang tangguh, dengan 1 stage yang tersedia lebih dulu, dan stage kedua akan dibuka setelah 9 Des 2026 pukul 04.00 (waktu server). Setiap stage punya beberapa tingkat kesulitan. Selesaikan semua tantangan stage di semua tingkat kesulitan untuk mendapatkan imbalan yang meliputi: [Tanda Kegigihan], [Kerat Pilihan Progresi Tingkat Lanjut II], dan [Unit Kognitif Tingkat Lanjut].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>Event tantangan berbatas waktu [Pengungkapan Monumental: Tirani] juga akan tersedia mode gameplay diperbarui.</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Waktu Event: 2 Des 2026 pukul 12.00 — 23 Des 2026 pukul 04.00 (waktu server)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Waktu Pembaruan Event: 9 Des 2026 pukul 04.00 (waktu server)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Detail Event: Setelah perilisan seri [Tiran Dipersenjatai], event berbatas waktu [Pengungkapan Monumental: Tirani] akan dimulai. Selama event, selesaikan berbagai tantangan [Monumen Umbra] untuk mendapatkan imbalan event, yang mencakup [Oroberyl] ×1.200 dan [Kerat Pilihan Progresi Tingkat Lanjut II].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>3. Pembaruan Set Spasial [Edisi Spesial Penggali Teka-Teki]</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Waktu Pembaruan: 27 Des 2026 pukul 12.00 (waktu server)</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Catatan Pembaruan: Event pemecahan teka-teki [Edisi Spesial Penggali Teka-Teki] ini akan memperkenalkan set spasial baru [Mikologi Esoterik]. Akan tersedia 3 Dimensi Protokol baru. Selesaikan tantangan set spasial ini untuk mendapatkan imbalan, yang mencakup [Oroberyl] ×600 dan [Tanda Kegigihan].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Pembaruan Pusat Akuisisi</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· [Tiket Akses Protokol: Dunia Jamur] telah tersedia. Selama periode versi [Menjumpaimu di Dunia Jamur], Anda bisa mendapatkan berbagai item support yang disediakan oleh Ahli Mesin Senjata dalam [Tiket Akses Protokol]. Dengan mengaktifkan tiap Tiket Akses Protokol musiman, tingkat [Pasokan Dasar] akan terbuka secara default. Naikkan level Tiket Akses untuk mendapatkan imbalan seperti [Surat Izin HH Biasa], [Oroberyl], [Kerat Kejutan Bursa], dan [Material Progresi].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Ditambahkan ke [Pusat Akuisisi: Bundel]: [Bundel HH Pengembara Liar], [Bundel Aliran Protokol]. Batas pembelian untuk [Paket Tiket Senjata Hemat] direset.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Pabrik AIC</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Menambahkan [Kit Ukiran Multibaris Wuling]. Gunakan untuk memperoleh satu esensi dengan tiga atribut khusus. Setelah Terminal Redistribusi Stok [Wuling – Terusan Yinglung] mencapai level 4, [Surat Saham Wuling] dapat digunakan untuk membeli [Kit Ukiran Multibaris Wuling] ×1.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Batas maks Level Pengembangan Regional untuk wilayah [Wuling] meningkat. Kini, Sub-PAC bisa dikerahkan di [Wuling - Bendungan Lama]. Menambahkan barang baru yang bisa ditukar di [Redistribusi Stok Wuling].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Menambahkan Mode AIC terkait susunan ke AIC Wuling, beserta Bagan AIC terkait susunan: [Penyalaan Tempaan], [Pasokan Rekonstruksi], [Perluasan: Turbid], [Ekuilibrium L/T], [Penumpukan L/T], [Bipolaritas Tempaan], [Perluasan Tempa V], juga menambahkan fasilitas, simulasi, dan cetak biru sistem AIC yang sesuai.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Menambahkan mode game [Rekonstruksi Zona Eksklusi]: Terbuka setelah menyelesaikan misi [Membangun Kembali Rumah II]. Gunakan Pabrik AIC untuk memproduksi pasokan rekonstruksi dan kirimkan ke [Porta Pasokan Rekonstruksi] untuk mempercepat Fase Rekonstruksi [Zona Eksklusi] dan meningkatkan pengembangan regional [Wuling].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Sistem</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Menambahkan gameplay [Wafel Terbang]: Endministrator bisa menerbangkan dan mengendalikan wafel madu di area [Wuling - Bendungan Lama]. Ketika terbang, wafel bisa mengumpulkan Aurylene. Mencelupkan wafel madu ke berbagai jenis spora akan memberikan efek yang berbeda. Misalnya, mencelupkan wafel ke spora dingin akan membuatnya mampu mengungkap dan menghilangkan Dinding Delulu. Selain itu, opsi baru [Balik Kontrol Sumbu-Y] telah ditambahkan di [Pengaturan - Controller].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Item [Bursa Talosite] yang bisa ditukarkan telah diperbarui, dengan [Templat Gear], [Perangkat Pribadi], [Ornamen], [Pose Kamera], [Piringan Hitam], dan lain-lain.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Lainnya</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Menambahkan konten seperti [Panduan Operator], [Aluvium Energi], [NPC], [Medali Ukir], [Tema Profil], [Potret], [Bingkai Potret], [Filter], [Stiker], [Item Konsumsi], [Material], [Obat Sanity], [Entri Basis Data], [Dokumen Petunjuk], [Perangkat Pribadi], [Ornamen], [Piringan Hitam], [Pose Kamera], [Fase Pengiriman Regional Aurylene], dan lain-lain, yang akan terbuka secara bertahap seiring progres Anda.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Menambahkan kepingan gear baru pada Set Gear [Penjelajah Celah], [Frontiers], [Eternal Xiranite], dan [Misi Lapangan AIC].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Menambahkan material progresi langka yang baru yaitu [Cairan Penyempurna Origo Mk I].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ Silakan cek detail lebih lanjut di dalam game.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Optimisasi &amp; Penyesuaian</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Pertarungan</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Meningkatkan efek visual musuh [Nefarith] dalam beberapa situasi tertentu.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Pabrik AIC</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Meningkatkan penempatan [Porta Kontrol Item] dan [Porta Kontrol Pipa]. Kini, keduanya bisa ditempatkan tanpa harus dihubungkan terlebih dahulu ke sabuk angkut atau pipa. Keduanya bisa terhubung langsung ke porta sabuk angkut atau porta pipa pada fasilitas, dan akan terpasang secara otomatis dengan orientasi yang tepat.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Sistem</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Meningkatkan petunjuk upgrade pada layar [Operator - Matriks Kemampuan]. Saat upgrade membutuhkan banyak tipe material, material yang jumlahnya tidak mencukupi akan otomatis diatur ulang posisinya dan ditampilkan di bagian awal.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Lainnya</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Meningkatkan efek visual, efek khusus, logika interaksi, dan deskripsi teks untuk antarmuka tertentu.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Meningkatkan model, pakaian, efek khusus, gerakan, gerakan kamera, dan aspek presentasi lainnya dari operator tertentu dalam beberapa situasi tertentu.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Penyempurnaan deskripsi teks untuk efek [Sirip Langka] dari skill tarung operator 5★ [Alesh]. Efek sebenarnya tetap tidak berubah.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Penyempurnaan beberapa teks terkait pesanan dan hidangan dalam mode Pengelolaan Losmen.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Pengoptimalan deskripsi teks untuk beberapa Panduan Operator.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Pengoptimalan beberapa teks File Operator.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Pengoptimalan beberapa prompt UI terkait kontrol.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Pengoptimalan beberapa nama misi.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Pengoptimalan beberapa teks cerita.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Penyempurnaan nama tipe event dan deskripsi teks untuk beberapa event dan aktivitas berdasarkan cara kerjanya di dalam game.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Penyempurnaan nama dan deskripsi beberapa item berdasarkan cara kerjanya di dalam game.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Pengoptimalan beberapa teks tutorial.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Perbaikan Bug</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Misi</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Memperbaiki masalah dalam misi sampingan [Alam Bersalju yang Diselimuti Mimpi Buruk], ketika skill kombo Endministrator bisa gagal untuk menimbulkan damage secara normal saat serangannya mengenai musuh yang memiliki [tumpukan perisai].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Pertarungan</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Memperbaiki masalah dalam keadaan tertentu ketika ultimate operator bisa diinterupsi secara abnormal.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Memperbaiki masalah dalam keadaan tertentu ketika [Inksoul] dari operator 6★ [Si] bisa berperilaku abnormal setelah terkena serangan penuntas.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Memperbaiki masalah ketika input tertentu bisa menyebabkan skill tarung operator 6★ [Si] yaitu [Final Stroke] menimbulkan damage secara abnormal.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Memperbaiki masalah ketika skill kombo operator 6★ [Si] gagal terpicu ketika skill tarung operator 5★ [Alesh] membuat musuh mengalami Solidify dan mengalahkan musuh.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Memperbaiki masalah ketika skill kombo operator 6★ [Typhoeus] digunakan berulang kali dengan input kontrol tertentu, Rangkaian Rentetan dari penggunaan berikutnya gagal meningkatkan DMG Nature Burst yang diterima musuh.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Memperbaiki masalah dalam keadaan tertentu ketika status Melayang dari operator 6★ [Typhoeus] bisa menjadi abnormal setelah ia menggunakan skill tarungnya.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Event &amp; Gameplay</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Memperbaiki masalah dalam keadaan tertentu pada stage [File Hewan Buas: Kampung Benteng Qingbo] dari mode tantangan permanen [Gema Perang], skill kombo operator 6★ [Arcane] bisa gagal terpicu ketika tipe skill [Array Arcana: INT] aktif.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Memperbaiki masalah dalam keadaan tertentu pada stage [Diincar Bayangan Gelap - Raungan Kebinasaan Tak Terduga] dari mode game permanen [Monumen Umbra], nilai damage yang tercatat oleh [Artful Intent] operator 6★ [Si] bisa menjadi abnormal.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Sistem</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Memperbaiki masalah dalam keadaan tertentu setelah memilih misi [Buat dan simpan 1 cetak biru] dalam [Panduan Operasi - Node 03] dan diarahkan ke peta, tampilan peta bisa menjadi abnormal.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Lainnya</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Memperbaiki masalah ketika beberapa input tertentu menyebabkan ikon status operator 6★ [Si] ditampilkan secara abnormal.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "4697",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Kalender Versi",
+            "header": "Kalender Versi [Menjumpaimu di Dunia Jamur]",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/ee7e43b701b44fa5403761fa6fdfb692.jpg\" data-width=\"1920\" data-height=\"3220\"><p></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7272",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795262400,
+            "focus": 0,
+            "title": "Panduan Versi Baru",
+            "header": "Panduan Versi Baru Kini Tersedia",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261120/567a43ae99b16f772b52d047d59cd8d3.jpg\" data-width=\"1650\" data-height=\"300\"><p>Halaman Panduan Versi Baru [Menjumpaimu di Dunia Jamur] kini tersedia.&nbsp;<br>Lihat semua konten versi baru di satu tempat. Baca selengkapnya untuk mendapatkan [Oroberyl] ×1.000, [T-Cred] ×10.000, [Unit Kognitif Dasar] ×8, dan [Set INSP Senjata] ×4.&nbsp;<br>Periode Pengambilan: 21 Nov 2026 pukul 20.00 — 25 Nov 2026 pukul 06.00 (UTC+8).&nbsp;<br><br><strong>▼// Tautan Halaman&nbsp;</strong><br>Kamu bisa mengakses Halaman Panduan Versi Baru melalui tautan di bawah ini, Endministrator.&nbsp;<br><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://endfield.gryphline.com/version_briefing/latest?u8_token={u8_token}&amp;server={server}\">&gt;&gt;Klik untuk Membuka</a><br><br><strong>▼// Periode Ketersediaan Halaman&nbsp;</strong><br>· Halaman Panduan Versi Baru akan tersedia secara permanen untuk dibaca sejak 6 Okt 2026 pukul 20.00 (UTC+8) dan kontennya akan diperbarui setiap versi baru dirilis.&nbsp;<br>· Setiap Halaman Panduan Versi Baru akan tersedia sejak Pratinjau Versi untuk versi terkait ditayangkan hingga sebelum Pratinjau Versi untuk versi berikutnya berakhir.&nbsp;<br><br><strong>▼// Persyaratan Imbalan&nbsp;</strong><br>· Login ke akun game-mu melalui Halaman Panduan Versi Baru dan selesaikan pembuatan karakter di Arknights: Endfield.&nbsp;<br><br><strong>▼// Instruksi Pengambilan Imbalan&nbsp;</strong><br>· Selama periode pengambilan imbalan, tombol “ambil imbalan” akan ditampilkan di Halaman Panduan Versi Baru. Setelah periode berakhir, tombol tersebut tidak akan ditampilkan lagi, dan imbalan untuk versi tersebut tidak bisa diambil lagi.&nbsp;<br>· Setelah imbalan berhasil diambil di Halaman Panduan Versi Baru, imbalan tersebut akan dikirimkan ke Pesan milik karakter yang tertaut ke akun yang sedang login saat ini.&nbsp;<br>· Setiap akun game hanya bisa mengambil imbalan dari Panduan Versi Baru tersebut satu kali.&nbsp;<br><br>※ Lihat halamannya untuk detail selengkapnya.</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8947",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 1,
+            "displayType": "rich_text",
+            "startAt": 1795013400,
+            "focus": 0,
+            "extraData": {},
+            "title": "Terima Kasih Spesial\\nUntuk Endministrator Kami",
+            "header": "Terima Kasih Spesial | Hadiah untuk Endministrator Kami",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261119/528df5fec5a909a6ed7530fa8f6cd66d.png\" data-width=\"1650\" data-height=\"300\"><p>Halo, Endministrator:</p><p>Kami mengucapkan terima kasih yang sebesar-besarnya atas kebersamaan dan dukunganmu selama ini! Arknights: Endfield berhasil memenangkan penghargaan [Game Terbaik] dan [Cerita Terbaik] dalam ajang Terbaik di Google Play 2026. Selain itu, Arknights: Endfield juga mendapatkan nominasi untuk [Best Mobile Game] di The Game Awards 2026 dan [iPad Game of the Year] di App Store Awards 2026.</p><p>Sebagai ungkapan terima kasih khusus atas cinta dan apresiasimu, tim proyek telah menyiapkan hadiah untukmu.</p><p></p><p><strong>▼// Hadiah untuk Endministrator Kami</strong></p><p>· Hadiah: [Oroberyl]×3000</p><p>· Waktu Pengiriman: 19 Nov 2026 pukul 00.00 (UTC+8) — Sebelum versi [Menjumpaimu di Dunia Jamur] berakhir</p><p>· Syarat: Buat karakter dan buka fitur [Pesan] sebelum versi [Menjumpaimu di Dunia Jamur] berakhir.</p><p>· Detail: Selama periode pengiriman, tim proyek akan mengirimkan satu pesan dalam game yang berisi [Oroberyl]×3000 kepada Endministrator yang memenuhi syarat. Pesan ini berlaku selama 30 hari. Jangan lupa untuk login dan mengeklaim imbalanmu tepat waktu, Endministrator.</p><p></p><p>Sekali lagi, terima kasih atas minat dan dukunganmu yang tiada henti untuk Arknights: Endfield!</p><p></p><p>Tim Arknights: Endfield</p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6411",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 2,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Tiket Akses Protokol\\nDunia Jamur",
+            "header": "Detail [Tiket Akses Protokol: Dunia Jamur]",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/6eab76173e776094deeadd1d940d832f.jpg\" data-width=\"1650\" data-height=\"300\"><p>Halo, Endministrator, <br>Selama periode [Tiket Akses Protokol: Dunia Jamur], kamu bisa mengakses berbagai proyek dukungan dari Ahli Mesin Senjata melalui sistem [Tiket Akses Protokol]. Setelah peluncuran setiap musim Tiket Akses Protokol, tingkatan [Pasokan Dasar] akan terbuka secara default. Dengan meningkatkan Level Tiket Aksesmu, kamu bisa mendapatkan imbalan seperti [Surat Izin HH Biasa], [Oroberyl], [Kerat Kejutan Bursa], dan [Material Progresi]. <br>Tingkatan [Pasokan Originium] bisa dibuka dengan [Origeometri] dan akan memberikan [Surat Izin HH Biasa], [Stiker: Lengket &amp; Manis], [Filter: Senja Keemasan], serta imbalan tambahan lain, misalnya [Suplai Senjata: Dunia Jamur], [Origeometri], dan [Booster Sanity Darurat]. <br>Belilah tingkatan [Protokol Kustom] untuk mendapatkan [Profil: Kota Jamur dan Madu], [Bingkai Potret: Segigit Lalu Warna-Warni], [Potret: Jamur nan Nyaman], dan berbagai imbalan bonus seperti [Suplai Senjata: Dunia Jamur], [Tiket Senjata], dan [Pola Senjata Berprotokol].<br><br><strong>▼// Ketersediaan </strong><br>Sepanjang versi [Menjumpaimu di Dunia Jamur]<br><br><strong>▼// Kriteria Partisipasi </strong><br>Selesaikan misi utama [Bab I Proses I: Tembus Kepungan]<br><br><strong>▼// Detail Tiket Akses Protokol </strong><br>· Pengaktifan [Tiket Akses Protokol] akan membuka tingkatan [Pasokan Dasar] secara default. Kamu bisa membeli tingkatan [Protokol Kustom] atau menggunakan [Origeometri] untuk membuka tingkatan [Pasokan Originium] untuk mendapatkan imbalan tambahan dan Bonus Pendapatan EXP Tiket Akses. <br>· Untuk setiap musim tiket akses, tingkatan [Pasokan Originium] dan [Protokol Kustom] masing-masing berisi satu [Suplai Senjata], yang membuatmu bisa memilih dan mendapatkan salah satu dari senjata 6★ unggulan musim ini. [Pola Senjata Berprotokol] bisa menaikkan potensi senjata apa saja dari [Suplai Senjata] Tiket Akses Protokol. <br>· Selesaikan berbagai Misi Tiket Akses (beberapa misi akan tersedia setelah memenuhi kriteria tertentu atau setelah beberapa waktu), atau ambil bagian dalam [Panduan Operasi - Tugas Harian] dan ambil imbalan Poin Aktivitas harian maks untuk mendapatkan EXP Tiket Akses. Naikkan level Tiket Akses untuk membuka berbagai imbalan [Tiket Akses Protokol]. <br>· Setelah membuka [Pasokan Originium] atau [Protokol Kustom], kamu bisa terus mendapatkan EXP Tiket Akses bahkan setelah memaksimalkan level [Tiket Akses Protokol]. EXP Tiket Akses apa pun yang melebihi batas akan terakumulasi dan memberikan imbalan [Kerat Kejutan Siklus]. Kerat ini akan terbuka secara otomatis setelah diterima dan akan memberikan imbalan [Oroberyl] acak, [Material Progresi] acak, dan [Izin Penggunaan Sanity] acak. <br>· Dengan membuka tingkatan [Pasokan Originium] / [Protokol Kustom] dari Tiket Akses Protokol musiman, kamu akan mendapatkan bonus +3% / +3% EXP secara berturut-turut. Dengan membuka kedua tingkatan tersebut, kamu akan mendapatkan bonus +6% EXP. <br>· Untuk kelebihan pembelian [Protokol Kustom] karena keadaan khusus, imbalan dari tingkatan [Protokol Kustom] tidak akan ditumpuk. Sebaliknya, sejumlah [Origeometri] berdasarkan nilai pembelian akan dikembalikan kepadamu. <br>· Saat musim [Tiket Akses Protokol] berakhir, imbalan level tiket akses yang tidak diambil akan dikirimkan ke Pesanmu.<br><br>※ Zona Waktu Server Asia: UTC+8 <br>※ Zona Waktu Server Americas / Europe: UTC-5 <br>※ Untuk detail aturannya, kunjungi [Tiket Akses Protokol] di dalam game dan lihat [Detail Tiket Akses Protokol].<br></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7263",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 2,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Headhunt Khusus\\nParon, Ransel, dan Madu",
+            "header": "Headhunt Khusus [Paron, Ransel, dan Madu]",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/d9f0bf12e75af0023eb4bc8da64eb536.png\" alt=\"\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Kepada Endministrator,&nbsp;<br>Selama Headhunt Khusus [Paron, Ransel, dan Madu], operator 6★ [Kay] termasuk dalam Rate NAIK!&nbsp;<br>Event sign in berbatas waktu [Wilderpaw Pengembara] akan terbuka pada saat yang sama. Sign in selama beberapa hari untuk mendapatkan imbalan seperti [Surat Izin HH Wilderpaw Pengembara] ×5. Anda juga bisa menukar untuk mendapatkan [Surat Izin HH Wilderpaw Pengembara] dengan diskon di [Bursa Kuota AIC]. Event uji coba operator [Latihan Pertarungan] juga akan tersedia selama periode ini.<br><br>▼//<strong>&nbsp;Detail Headhunt Khusus [Paron, Ransel, dan Madu]&nbsp;</strong><br>· Ketersediaan: Dibuka setelah pembaruan versi [Menjumpaimu di Dunia Jamur] – 23 Desember 2026 pukul 11.59 (waktu server)&nbsp;<br>· Kriteria Partisipasi: Menyelesaikan misi utama [Bab I Proses I: Tembus Kepungan]&nbsp;<br>· Headhunt Khusus [Paron, Ransel, dan Madu] menghadirkan operator 6★ Rate NAIK [Kay].&nbsp;<br>· Operator 6★ yang mungkin muncul dalam Headhunt Khusus [Paron, Ransel, dan Madu] termasuk: Kay / Argent Flow / Si / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.&nbsp;<br>· Dalam Headhunt Khusus [Paron, Ransel, dan Madu], Anda bisa menggunakan [Surat Izin HH Wilderpaw Pengembara], [Surat Izin HH Khusus], atau [Oroberyl] untuk melakukan headhunt.&nbsp;<br>※ Setelah 3 banner [Headhunt Khusus], operator 6★ Rate NAIK yang dihadirkan dalam banner [Headhunt Khusus] akan dihilangkan dari daftar operator yang mungkin muncul dalam [Headhunt Khusus]. Operator 6★ Rate NAIK ini juga tidak akan ditambahkan pada [Headhunt Biasa].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">▼//<strong>&nbsp;Imbalan [Headhunt Khusus]&nbsp;</strong><br>Dalam Headhunt Khusus [Paron, Ransel, dan Madu], lakukan sejumlah upaya headhunt untuk mendapatkan imbalan yang sesuai.<br>■<strong>&nbsp;Rekrutmen Mendesak&nbsp;</strong><br>· Setelah melakukan 30 upaya headhunt, Anda akan menerima bonus 10 upaya Rekrutmen Mendesak (yang dihitung sebagai 1 kali gratis untuk 10× upaya headhunt), yang hanya valid selama banner [Headhunt Khusus] ini, dan tidak berlaku untuk banner headhunt lain.&nbsp;<br>· Rate untuk mendapatkan operator melalui Rekrutmen Mendesak sama dengan drop rate dasar dari banner [Headhunt Khusus] ini, dan 10× upaya headhunt gratis dari Rekrutmen Mendesak memberikan jaminan untuk mendapatkan operator 5★ atau yang lebih tinggi.&nbsp;<br>· Upaya headhunt gratis sebanyak 10× dari Rekrutmen Mendesak tidak termasuk dalam jaminan untuk banner [Headhunt Khusus] ini atau yang lain, juga tidak akan ditambahkan pada total upaya headhunt yang dibutuhkan untuk mendapatkan imbalan [Headhunt Khusus].&nbsp;<br>■<strong>&nbsp;Dokumen Headhunt&nbsp;</strong><br>· Setelah melakukan 60 upaya headhunt, Anda akan menerima bonus [Dokumen Headhunt] ×1.&nbsp;<br>· Begitu persyaratan terpenuhi, [Dokumen Headhunt] akan terkirim otomatis ke Simpanan Barang Berharga Anda. Begitu banner [Headhunt Khusus] berikutnya dimulai, [Dokumen Headhunt] ini akan dikonversi otomatis menjadi Surat Izin HH Spesial ×10 dari banner [Headhunt Khusus] tersebut. Namun, Surat Izin HH ini juga akan kedaluwarsa setelah banner tersebut berakhir.&nbsp;<br>■<strong>&nbsp;Persembahan Token&nbsp;</strong><br>· Dalam tiap banner [Headhunt Khusus], tiap 240 upaya headhunt akan memberikan bonus [Token Rate NAIK operator 6★ yang hadir dalam banner tersebut] ×1.<br><br>▼//<strong>&nbsp;Detail Tiket Senjata&nbsp;</strong><br>Tiap upaya headhunt untuk operator juga memberikan [Tiket Senjata].&nbsp;<br>· Mendapatkan operator 6★ akan memberikan [Tiket Senjata] ×2.000.&nbsp;<br>· Mendapatkan operator 5★ akan memberikan [Tiket Senjata] ×200.&nbsp;<br>· Mendapatkan operator 4★ akan memberikan [Tiket Senjata] ×20.&nbsp;<br>※ [Tiket Senjata] bisa digunakan di [Pusat Akuisisi - Bursa Senjata].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Selama Headhunt Khusus [Paron, Ransel, dan Madu], konten berikut juga akan tersedia:&nbsp;<br>▼//<strong>&nbsp;Event Sign In Berbatas Waktu [Wilderpaw Pengembara]&nbsp;</strong><br>Sign in selama total 7 hari untuk mendapatkan imbalan seperti [Surat Izin HH Wilderpaw Pengembara] ×5.<br><br>▼//<strong>&nbsp;Event Uji Coba Operator [Latihan Pertarungan]&nbsp;</strong><br>[Latihan Pertarungan] akan tersedia untuk mencoba operator 6★ [Kay]. Selesaikan stage yang ditentukan dengan tim prasetel yang mencakup operator uji coba untuk mengklaim [Oroberyl] ×100, [Kerat Pertahanan Senjata], [Tanda Kegigihan], dan imbalan lainnya. [Kerat Pertahanan Senjata] berisi Set Gear Level 60 Sempurna Penuh yang sangat cocok untuk operator uji coba saat ini.<br><br>▼//<strong>&nbsp;Catatan Khusus [Bursa Kuota AIC]&nbsp;</strong><br>[Bursa Kuota] akan memberikan penawaran khusus berbatas waktu. Anda bisa menggunakan [Kuota AIC] untuk membeli item seperti [Surat Izin HH Wilderpaw Pengembara] ×5.<br><br>※ Zona Waktu Server Asia: UTC+8&nbsp;<br>※ Zona Waktu Server Americas / Europe: UTC-5&nbsp;<br>※ Untuk detail headhunt selengkapnya, kunjungi layar [Headhunt] dalam game.&nbsp;<br>※ Untuk detail event selengkapnya, kunjungi [Pusat Event] dalam game.&nbsp;<br>※ Untuk detail mengenai [Bursa Kuota AIC], kunjungi [Pusat Akuisisi] dalam game.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "4696",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Bundel\\n[Menjumpaimu di Dunia Jamur]",
+            "header": "Detail Bundel [Menjumpaimu di Dunia Jamur]",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/e21c03078927f354006ee033f6b8dbee.jpg\" data-width=\"1650\" data-height=\"300\"><p>Halo, Endministrator, <br>Selama versi [Menjumpaimu di Dunia Jamur], [Pusat Akuisisi] akan menghadirkan beragam bundel.<br><br><strong>▼// Bundel Terbatas </strong><br>■ Bundel Aliran Protokol <br>· Waktu Ketersediaan: Selama versi [Menjumpaimu di Dunia Jamur] <br>· Isi Bundel: [Surat Izin HH Khusus]×10, [Tiket Senjata]×2000, [Tanda Kegigihan]×10 <br>· Catatan Khusus: Hanya dapat dibeli 1 kali di versi saat ini<br><br>■ Bundel HH Pengembara Liar <br>· Waktu Ketersediaan: Setelah pembaruan versi [Menjumpaimu di Dunia Jamur] hingga 23 Desember 2026 pukul 11.59 (waktu server) <br>· Isi Bundel: [Surat Izin HH Wilderpaw Pengembara]×10, [T-Cred]×80000 <br>· Catatan Khusus: Hanya dapat dibeli 1 kali<br><br>■ Paket Tiket Senjata Hemat <br>· Waktu Ketersediaan: Selama versi [Menjumpaimu di Dunia Jamur] <br>· Isi Bundel: [Tiket Senjata]×2000 <br>· Catatan Khusus: Hanya dapat dibeli 1 kali di versi saat ini<br><br>※ Zona Waktu Server Asia: UTC+8 <br>※ Zona Waktu Server Americas / Europe: UTC-5 <br>※ Beberapa bundel mungkin berisi item berbatas waktu. Kamu dapat memeriksa detail item berbatas waktu di [Pembelian - Isi Item]. Jika item berbatas waktu dalam bundel kedaluwarsa setelah dibeli, item tersebut tidak dapat diterbitkan ulang. Terima kasih atas pengertian dan dukunganmu. <br>※ Untuk bundel lainnya beserta detailnya, silakan kunjungi [Pusat Akuisisi - Bundel] dalam game.<br></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "3030",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Pembangunan Susunan: Sembuhkan Luka Lama",
+            "header": "Detail Event Konstruksi [Pembangunan Susunan: Sembuhkan Luka Lama]",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261120/533d6e2921900c71860c987b03580928.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Waktu Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Selama versi [Menjumpaimu di Dunia Jamur]</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Waktu mulai Percepatan Konstruksi: 2026/12/31 06:00 (waktu server)</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Imbalan Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Selama event, kumpulkan Progres Rekonstruksi dan selesaikan Tugas Konstruksi untuk mendapatkan imbalan yang termasuk: [Oroberyl] ×1.000, [Kerat Pilihan Progresi Tingkat Lanjut Ⅱ], [Unit Kognitif Tingkat Lanjut], [Tanda Kegigihan], dan [Cairan Penyempurna Origo Mk I].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Persyaratan Partisipasi</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Selesaikan misi utama [Bab II Proses VII: Matahari Masih Saja Terbenam]</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Selesaikan misi sampingan [Aku Mimpi Wafel Madu]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Detail Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Selama event, tingkatkan progres misi untuk membuka mode game [Rekonstruksi Zona Eksklusi] dan berbagai teknologi AIC terkait, lalu gunakan Pabrik AIC untuk memproduksi pasokan yang dibutuhkan dalam proyek Rekonstruksi Zona Eksklusi, kumpulkan Progres Rekonstruksi, dan selesaikan Tugas Konstruksi untuk mendapatkan imbalan.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Percepatan Konstruksi akan dimulai pada 7 hari terakhir event. Selama periode ini, setiap pasokan yang berhasil akan memberikan Progres Rekonstruksi tambahan.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Setelah Event Konstruksi [Pembangunan Susunan: Sembuhkan Luka Lama] berakhir, Tugas Konstruksi tidak bisa lagi diselesaikan atau imbalan terkait tidak bisa diambil. Namun, [Rekonstruksi Zona Eksklusi] masih bisa dimainkan untuk mendapatkan imbalan progres rekonstruksi. Perhatikan jadwal event dan ambil imbalanmu tepat waktu, Endministrator.</span></p><p></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※Zona Waktu Server Asia: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※Zona Waktu Server Americas / Europe: UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Untuk detail event lebih lanjut, kunjungi [Pusat Event] dalam game.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "2188",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Edisi Pengembara Santai",
+            "header": "Detail OBW [Edisi Pengembara Santai]",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/1ca364b538361547dc4ed74c0e8fa075.png\" data-width=\"1650\" data-height=\"300\"><p>Kepada Endministrator, <br>[Edisi Pengembara Santai] masih tersedia, dan peluang untuk mendapatkan senjata 6★ [Sweet Deal (Senjata Galah)] meningkat! <br><br><strong>▼// [Edisi Pengembara Santai] </strong><br>· Ketersediaan: Dibuka setelah pembaruan versi [Menjumpaimu di Dunia Jamur]; berakhir setelah 3 banner [Headhunt Khusus] (mulai dari [Paron, Ransel, dan Madu]) <br>· Kriteria Partisipasi: Menyelesaikan misi utama [Bab I Proses I: Tembus Kepungan] <br>· [Edisi Pengembara Santai] menghadirkan senjata 6★ Rate NAIK [Sweet Deal (Senjata Galah)]. <br>· Senjata 6★ yang mungkin muncul dalam [Edisi Pengembara Santai] termasuk: Sweet Deal (Senjata Galah) / Rapid Ascent (Pedang) / Valiant (Senjata Galah) / JET (Senjata Galah) / Detonation Unit (Unit Arts) / Wedge (Meriam Tangan) / Former Finery (Pedang Besar). <br><br><strong>▼// Imbalan [Edisi Senjata] </strong><br>Dalam tiap [Edisi Senjata], melakukan sejumlah edisi memberikan [Kerat Penawaran Senjata] (KP Senjata) spesifik dari banner atau [Senjata 6★ Rate NAIK] secara bergantian. Jumlah total dari edisi untuk imbalan Edisi Senjata ini akan direset begitu banner berakhir, dan tidak akan diteruskan ke banner [Edisi Senjata] yang lain. <br><br><strong>▼// Detail [Edisi Senjata] </strong><br>· Dalam [Edisi Senjata], kamu bisa menggunakan [Tiket Senjata] untuk mengajukan edisi. <br>· Tiap edisi memberikan 10 senjata acak dari daftar senjata yang tersedia, termasuk minimal satu senjata 5★ atau yang lebih tinggi. <br><br><strong>▼// Detail [Bursa Senjata] </strong><br>Dalam [Bursa Senjata], [Tiket Senjata] juga bisa digunakan untuk membeli senjata secara langsung. Beberapa senjata yang bisa dibeli akan diperbarui dari waktu ke waktu. Periksa informasi yang ditampilkan di layar [Pusat Akuisisi - Bursa Senjata] untuk mengetahui ketersediaan yang akurat. <br><br>※ Zona Waktu Server Asia: UTC+8 <br>※ Zona Waktu Server Americas / Europe: UTC-5 <br>※ Untuk detail lebih lanjut serta aturan imbalan, silakan kunjungi [Pusat Akuisisi - Bursa Senjata] di dalam game.<br></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6412",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 3,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "extraData": {},
+            "title": "Headhunt RE-Faktor\\nEdisi RE-Faktor",
+            "header": "Headhunt RE-Faktor dan Edisi RE-Faktor",
+            "jumpButton": null,
+            "data": {
+              "html": "<p><span style=\"color: rgb(31, 35, 41);\">Kepada Endministrator,&nbsp;<br>Selama Headhunt RE-Faktor #1 [Untuk Tiap Asa yang Hanyut], Rate NAIK untuk operator 6★ [Gilberta]!&nbsp;<br>Selama Edisi RE-Faktor #1 [Edisi Pengelana Melayang] tersedia, peluang untuk mendapatkan senjata 6★ [Delivery Guaranteed (Unit Arts)] meningkat!<br><br><strong>▼// Ketersediaan&nbsp;</strong><br>Setelah pembaruan versi [Menjumpaimu di Dunia Jamur] – 16 Desember 2026 pukul 11.59 (waktu server)<br><br><strong>▼// Kriteria Partisipan&nbsp;</strong><br>Menyelesaikan misi utama [Bab I Proses I: Tembus Kepungan]</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\"><strong>▼// Detail Headhunt RE-Faktor #1 [Untuk Tiap Asa yang Hanyut]&nbsp;</strong></span></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261123/814a6ba3da144fd490f502dd8773e0b9.png\" alt=\"\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\"><strong>■ Detail Headhunt</strong><br>Headhunt RE-Faktor [Untuk Tiap Asa yang Hanyut] menghadirkan operator 6★ Rate NAIK [Gilberta]. Dalam headhunt ini, kamu dijamin akan mendapatkan operator 6★ Rate NAIK [Gilberta] dalam 120 upaya headhunt pertama. Jaminan ini hanya bisa dipicu 1 kali di semua banner Headhunt RE-Faktor [Untuk Tiap Asa yang Hanyut]. Upaya untuk jaminan ini akan diteruskan ke banner Headhunt RE-Faktor [Untuk Tiap Asa yang Hanyut] yang berikutnya.<br><br><strong>■ Imbalan Headhunt&nbsp;</strong><br>Dalam Headhunt RE-Faktor [Untuk Tiap Asa yang Hanyut], lakukan upaya headhunt dalam jumlah tertentu untuk mendapatkan imbalan yang sesuai. Akumulasi upaya headhunt akan diteruskan ke banner Headhunt RE-Faktor [Untuk Tiap Asa yang Hanyut] yang berikutnya.<br><br><strong>· Rekrutmen Mendesak&nbsp;</strong><br>Setelah melakukan 30/60/90 upaya headhunt, masing-masing akan memberimu 10 bonus upaya Rekrutmen Mendesak (berupa 1 upaya headhunt 10× gratis untuk tiap capaian). Bonus ini hanya bisa dipicu 1 kali di semua banner Headhunt RE-Faktor [Untuk Tiap Asa yang Hanyut]. Semua upaya Rekrutmen Mendesak yang belum digunakan akan diteruskan ke banner Headhunt RE-Faktor [Untuk Tiap Asa yang Hanyut] yang berikutnya.<br><br><strong>· Persembahan Token&nbsp;</strong><br>Di semua banner Headhunt RE-Faktor [Untuk Tiap Asa yang Hanyut], tiap kali melakukan 240 upaya headhunt, kamu akan menerima bonus [Token Gilberta] ×1. Jumlah upaya akan diteruskan ke banner Headhunt RE-Faktor [Untuk Tiap Asa yang Hanyut] yang berikutnya.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Detail Edisi RE-Faktor #1 [Edisi Pengelana Melayang]&nbsp;</strong></span></p><img src=\"https://web-static.hg-cdn.com/upload/image/20261123/48a704aad417d3bacb98939c5c051688.png\" alt=\"\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>■ Detail Edisi&nbsp;</strong><br>· Edisi RE-Faktor [Edisi Pengelana Melayang] menghadirkan senjata 6★ Rate NAIK [Delivery Guaranteed (Unit Arts)].&nbsp;<br>· Dalam Edisi ini, jika tidak ada senjata 6★ yang diperoleh dalam 3 edisi berturut-turut, Anda dijamin akan mendapatkan satu senjata 6★ dalam edisi ke-4. Jaminan ini hanya berlaku untuk Edisi RE-Faktor #1 [Edisi Pengelana Melayang] dan tidak diteruskan ke banner Edisi lainnya (termasuk banner Edisi RE-Faktor [Edisi Pengelana Melayang] yang berikutnya).&nbsp;<br>· Dalam Edisi ini, jika tidak ada senjata 6★ Rate NAIK yang diperoleh dalam 7 edisi pertama, Anda dijamin akan mendapatkan satu senjata 6★ Rate NAIK dalam edisi ke-8. Jaminan ini bisa dipicu 1 kali di semua banner Edisi RE-Faktor [Edisi Pengelana Melayang]. Upaya untuk jaminan ini akan diteruskan ke banner Edisi RE-Faktor [Edisi Pengelana Melayang] yang berikutnya.<br><br><strong>■ Imbalan Edisi&nbsp;</strong><br>Lakukan upaya Edisi RE-Faktor dalam jumlah tertentu untuk mendapatkan [KP Senjata: Pengelana Melayang] atau [Delivery Guaranteed (Unit Arts)] secara bergantian. Akumulasi upaya Edisi RE-Faktor akan diteruskan ke banner Edisi RE-Faktor [Edisi Pengelana Melayang] yang berikutnya.<br><br>※ Zona Waktu Server Asia: UTC+8&nbsp;<br>※ Zona Waktu Server Americas / Europe: UTC-5&nbsp;<br>※ Silakan cek detail lebih lanjut di dalam game.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "5504",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1795604400,
+            "focus": 0,
+            "title": "Diskusi Versi Baru",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261125/9b0d47dbaf6ae185e8f2727e0e1fd6ad.jpg",
+              "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fdetail%3Fid%3D2125438644821561779&redirectUrl=https%3A%2F%2Fwww.skport.com%2Farticle%3Fid%3D2125438644821561779%26hg_media%3Dgame%26hg_link_campaign%3Dannouncement%26hg_link_name%3DShroomsdiscussion",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "2186",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1795604400,
+            "focus": 0,
+            "title": "Event Undian Berhadiah Berbatas Waktu",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261125/bc725a1e69b98080162ac8a96d7fe0fd.png",
+              "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fact.skport.com%252Fendfield%252Flimited-time-offer%253Fheader%253D0%2526hg_media%253Dgame%2526hg_link_campaign%253Dannouncement%2526hg_link_name%253Dluckydraw",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "5505",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Aku Mimpi Wafel Madu",
+            "header": "Detail Event Narasi Kay [Aku Mimpi Wafel Madu]",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261124/0fa1200dac071ad50c97c9876eb04e91.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Belakangan ini, warga Wuling sering melaporkan kejadian halusinasi yang cukup aneh dan membingungkan. Kamu pun memutuskan untuk menyelidiki insiden tersebut. Mungkin ada pertemuan penuh keajaiban yang menanti ...</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Waktu Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Selama versi [Menjumpaimu di Dunia Jamur] berlangsung</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Syarat Partisipasi</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Selesaikan misi utama [Bab Ⅱ Proses Ⅵ: Sependapat, Sepemikiran]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Detail Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· Selesaikan misi sampingan [Aku Mimpi Wafel Madu] untuk mendapatkan [Oroberyl], [Unit Kognitif Dasar], [Protohedron], [Set INSP Senjata], dan imbalan lainnya.</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Setelah halaman event dihapus, kamu masih bisa memainkan misi sampingan ini dari menu [Misi] dan mendapatkan imbalannya jika kamu memenuhi syarat partisipasi.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※ Zona Waktu Server Asia: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Zona Waktu Server Americas / Europe: UTC-5</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1364",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Tudung! Jamur! FUNGI!",
+            "header": "Detail Event Panduan [Tudung! Jamur! FUNGI!]",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261120/32c42667eb4871200d8604ee6e2d307b.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Waktu Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Setelah pembaruan versi [Menjumpaimu di Dunia Jamur] – 23 Desember 2026 pukul 12.00 (waktu server)</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Imbalan Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Selesaikan misi selama event untuk mendapatkan imbalan termasuk: [Oroberyl] dan [Tanda Kegigihan].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Persyaratan Partisipasi</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Dalam misi sampingan [Wafel Penyelamat: Pertemuan], selesaikan target [Pergi ke bendungan]</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Selesaikan misi utama [Bab II Proses VI: Sependapat, Sepemikiran] untuk membuka misi sampingan [Wafel Penyelamat: Pertemuan]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Detail Event</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Selama event, kunjungi area [Bendungan Lama] di wilayah Wuling dan selesaikan misi event seperti membuka Titik TP dan membuka Kerat Protokol untuk mendapatkan imbalan berlimpah.</span></p><p></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">※Zona Waktu Server Asia: UTC+8</span></p><p><span style=\"color: rgb(0, 0, 0);\">※Zona Waktu Server Americas / Europe: UTC-5</span></p><p><span style=\"color: rgb(0, 0, 0);\">※Untuk detail event lebih lanjut, kunjungi [Pusat Event] dalam game.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8939",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "rich_text",
+            "startAt": 1795561200,
+            "focus": 0,
+            "title": "Gema Perang\\nMusim Penyebaran",
+            "header": "Gema Perang – Musim Penyebaran",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20261123/fd8039c168bd32714ac9636cfb62db81.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Ketersediaan Musim&nbsp;<br></strong>Setelah pembaruan versi [Menjumpaimu di Dunia Jamur] – 16 Desember 2026 pukul 11.59 (waktu server)<br><br><strong>▼// Persyaratan Partisipasi&nbsp;<br></strong>· Level Otoritas ≥40&nbsp;<br>· Selesaikan misi utama [Bab I Proses II: Membuka Jalan]<br><br><strong>▼// Detail Pembaruan Musim&nbsp;<br></strong>Musim baru [Musim Penyebaran] telah tersedia dengan 3 stage yang baru ditambahkan. Musim ini menampilkan 3 siklus, yang masing-masing mencakup 3 stage.<br><br>※ Zona Waktu Server Asia: UTC+8&nbsp;<br>※ Zona Waktu Server Americas / Europe: UTC-5&nbsp;<br>※ Untuk detail lebih lanjut, kunjungi [Pusat Event] dalam game.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "3029",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1795449600,
+            "focus": 0,
+            "title": "Log Perintis [Suaka Tinta]",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261124/49122d8c63aab0ecb8c78af741ec9a0d.png",
+              "link": "https://static.skport.com/u-link/download.html?schema=skport%3A%2F%2Fweb%3Furl%3Dhttps%253A%252F%252Fevent.skport.com%252Factivity%252Fendfield_data_report%252Fsanctuary%253Fheader%253D0%2526hg_media%253Dgame%2526hg_link_campaign%253Dannouncement%2526hg_link_name%253Dpioneerlog",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "2198",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1795433400,
+            "focus": 0,
+            "title": "Pembaruan Widget Stat Game Discord",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261120/e1eeb1bcd52a2ef4df423194d3c1c447.jpg",
+              "link": "https://endfield.gryphline.com/special/discord-binding",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1365",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1794542400,
+            "focus": 0,
+            "title": "Official Illustration Collection Vol.1",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261112/e7e0d5ae6fc3f1246d7301be960fab00.jpg",
+              "link": "https://store.gryphline.com",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "9850",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1792555200,
+            "focus": 0,
+            "title": "New Official Merch Now Available",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261019/c90828e96ead70b0106ac799a8b03d5c.png",
+              "link": "https://store.gryphline.com",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "0788",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 4,
+            "displayType": "picture",
+            "startAt": 1791455400,
+            "focus": 0,
+            "title": "Pembaruan Widget Stat Game Discord",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260930/735dcaed47b7a7bd2f5ea89b4fe0f651.png",
+              "link": "https://endfield.gryphline.com/special/discord-binding",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "1353",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 5,
+            "displayType": "picture",
+            "startAt": 1795579200,
+            "focus": 0,
+            "extraData": {},
+            "title": "Situs Web Top-Up Resmi Telah Hadir",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20261124/946cf07be3e1485684cc245b10d2ff86.png",
+              "link": "https://topup.gryphline.com/endfield?source_from=bulletin&u8_token={u8_token}&server={server}",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "8998",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 5,
+            "displayType": "rich_text",
+            "startAt": 1769011200,
+            "focus": 0,
+            "title": "Pernyataan Bermain Adil",
+            "header": "Pernyataan Bermain Adil Arknights: Endfield",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260121/fe727ef3340898e31afdf6c700e28c70.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\">Terima kasih atas ketertarikan berkelanjutan Anda dan dukungan untuk Arknights: Endfield. Demi mempertahankan lingkungan bermain yang sehat dan adil serta melindungi hak dan kepentingan sah semua pemain, kami ingin mengingatkan semua orang berikut ini:</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">1. Penggunaan cheat, alat pihak ketiga, top-up yang tidak sah, atau metode tidak sah lainnya yang mengganggu integritas game atau melanggar Ketentuan Layanan Game yang dilarang keras. Berdasarkan pengawasan yang dikirimkan kembali dan laporan pemain, jika terkonfirmasi pelanggaran seperti ini, kami akan melakukan tindakan yang sesuai berdasarkan pada beratnya pelanggaran, termasuk tetapi tidak terbatas sampai penghapusan keuntungan tidak sah, penangguhan sementara, atau penghentian akun secara permanen.</span></p><p><span style=\"color: rgb(0, 0, 0);\">2. Untuk melindungi hak dan kepentingan sah dari semua pemain, harap jangan melakukan perpindahan, pembagian, ataupun memperjualkan akun game Anda. Konsekuensi apa pun akibat dari tindakan seperti ini, termasuk pencurian akun atau kerugian aset dalam permainan, akan ditanggung sendiri oleh pemain.</span></p><p><span style=\"color: rgb(0, 0, 0);\">3. Untuk memastikan pengalaman gameplay yang lengkap, pemain dilarang keras melakukan pembongkaran, memodifikasi, ataupun yang bersifat merusak dengan file instalasi game, dan juga menyebarluaskan material terkait yang sudah diekstrak.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Terakhir, menciptakan lingkungan permainan yang positif dan adil memerlukan usaha bersama dari semua pemain. Kami mohon semua orang untuk membantu mempertahankan lingkungan bermain yang adil dan teratur. Jika Anda menjumpai pelanggaran apa pun, silakan melaporkan mereka melalui pusat layanan pelanggan resmi kami.</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6472",
+            "type": 0,
+            "tab": "updates",
+            "orderType": 1,
+            "orderWeight": 7,
+            "displayType": "rich_text",
+            "startAt": 1769011200,
+            "focus": 0,
+            "title": "Kebijakan Penggunaan Fitur",
+            "header": "Kebijakan Penggunaan Area Industri Cerdas & Cetak Biru",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260121/b3c649dde1972218595a0ffede375f50.png\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(31, 35, 41);\">Guna memastikan lingkungan bermain yang ramah, harap patuhi Ketentuan Layanan kami saat menggunakan fitur-fitur yang berkaitan dengan Area Industri Cerdas. Harap tidak memposting atau menggunakan konten yang mengandung:</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">1. Diskriminasi atas dasar wilayah, ras, orientasi seksual, agama, politik, dsb.</span></p><p><span style=\"color: rgb(31, 35, 41);\">2. Pencemaran nama baik, singgungan, atau pelanggaran terhadap hak orang lain</span></p><p><span style=\"color: rgb(31, 35, 41);\">3. Unsur cabul, kekerasan, perjudian, atau kebencian</span></p><p><span style=\"color: rgb(31, 35, 41);\">4. Segala hal yang dilarang atau dianggap tidak pantas menurut Ketentuan Layanan</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Jika kamu terlibat dalam pelanggaran di atas, kamu mungkin akan dikenai hukuman, termasuk penghapusan item yang ada di Area Industri Cerdas, pembatasan fitur Pabrik AIC, dan penangguhan akun. Untuk melaporkan pelanggaran, gunakan tombol [Laporkan] atau hubungi dukungan pelanggan.</span></p><p></p><p><span style=\"color: rgb(31, 35, 41);\">Jika kamu menggunakan fitur [Bagikan Cetak Biru], kamu akan mendapatkan [Kode Cetak Biru] yang bisa digunakan Endministrator lain untuk melihat dan menggunakan [Cetak Birumu]. Sebelum mulai, harap ingat: dengan membagikan [Kode Cetak Biru], kamu mengizinkan siapa saja untuk melihat, menyalin, atau menggunakan desainmu. Harap pertimbangkan matang-matang sebelum membagikannya.</span></p><p></p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://user.gryphline.com/en-us/protocol/plain/endfield/game/terms_of_service\">Terms of Service</a></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "6474",
+            "type": 0,
+            "tab": "events",
+            "orderType": 1,
+            "orderWeight": 12,
+            "displayType": "rich_text",
+            "startAt": 1769036400,
+            "focus": 0,
+            "title": "Etchspace Salvage",
+            "header": "[Etchspace Salvage] Detail Gameplay",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260117/ad759280f5751ab260b4ed9dd2e001b0.jpg\" data-width=\"1650\" data-height=\"300\"><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Waktu Tersedia</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Setelah rilis resmi dimulai</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Imbalan Eksplorasi</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Selama [Etchspace Salvage] tersedia, raih metrik operasi yang ditentukan untuk mendapatkan imbalan yang mencakup: [Oroberyl], [Surat Izin HH Biasa], dan [material progresi].</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Persyaratan Partisipasi</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">Selesaikan misi utama [Bab I Proses III: Misteri di Bangunan]</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>▼// Detail Gameplay</strong></span></p><p><span style=\"color: rgb(0, 0, 0);\">· [Etchspace Salvage] adalah aktivitas permanen di mana kamu akan menaiki Dijiang untuk masuk dan menjelajahi [Aberan Lembah]. Sambil menjelajah, terima dan selesaikan berbagai komisi untuk membuka Teknologi Dukungan Eksplorasi yang meningkatkan kemampuanmu untuk menjelajahi Aberan Lembah, dan dapatkan imbalan termasuk [Oroberyl].</span></p><p><span style=\"color: rgb(0, 0, 0);\">· Dapatkan metrik operasi dengan menyelesaikan komisi tertentu atau dengan membawa keluar [nodul luruhan] dari Aberan Lembah. Kumpulkan metrik operasi yang cukup untuk memperoleh imbalan.</span></p><p><span style=\"color: rgb(0, 0, 0);\">※ Untuk detail selengkapnya, buka layar [Etchspace Salvage] dalam game dan klik [Detail Gameplay].</span></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "3080",
+            "type": 0,
+            "tab": "news",
+            "orderType": 1,
+            "orderWeight": 19,
+            "displayType": "rich_text",
+            "startAt": 1769036400,
+            "focus": 0,
+            "title": "Panduan Alat Game",
+            "header": "Panduan Alat Game untuk Arknights: Endfield",
+            "jumpButton": null,
+            "data": {
+              "html": "<img src=\"https://web-static.hg-cdn.com/upload/image/20260120/685509dbd597dda1ca8eb4fdd1d89205.jpg\" data-width=\"1650\" data-height=\"300\"><p><strong>[Sign in Harian]</strong></p><p>Alat Sign In Harian mengizinkan Anda untuk sign in harian dan mendapatkan hadiah seperti Oroberyl, Rekaman Pertarungan Tingkat Lanjut, Set INSP Senjata, Protoprisma, dan Nota Kredit Talos. Ikat karakter Anda dan, setelah menyelesaikan tiga sign in harian pertama Anda, Anda akan mendapatkan bonus 300 Oroberyl!</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/endfield/sign-in\">Buka</a></p><p></p><p><strong>[WIKI]</strong></p><p>WIKI merupakan alat dengan isi konten yang dibuat dan dipertahankan melalui usaha sekelompok Endministrator. Ini praktis dan sumber daya yang detail untuk memeriksa info dalam permainan.</p><p>Di sini, Anda bisa melihat Operator dasar dan informasi item, File Senjata, dan lebih banyak lagi.</p><p>WIKI ini masih dikembangkan dan disempurnakan, jadi silakan tap [Masukan] di pojok kanan bawah halaman utama jika Anda menemukan kendala apa pun atau error.</p><p>Info yang ditampilkan di dalam WIKI yang sekarang akurat untuk Beta Test II, tetapi isi konten dalam permainan yang sesungguhnya sangatlah beragam.</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wiki.skport.com/endfield\">Buka</a></p><p></p><p><strong>[Alat Peta]</strong></p><p>Alat peta memberikan penjelasan lengkap sumber daya dan fasilitas, membuat pemain untuk mencari, filter, dan mendapatkan area yang diminati.</p><p>Alat ini tidak hanya menawarkan tampilan kerat penyimpanan, koleksi, musuh dan konten kunci yang sama: sekalinya log in, Anda juga bisa melihat luncur gantung milik Anda sendiri, Tiang Listrik, dan struktur lainnya yang Anda bangun. Semua ini membuat eksplorasi Talos-II Anda menjadi lebih mudah.</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/map/endfield\">Buka</a></p><p></p><p><strong>[Terminal Protokol]</strong></p><p>Terminal Protokol memberikan pemain cara yang praktis untuk mencari data permainan seperti hal yang berkaitan dengan operator dan pengembangan wilayah. Anda akan mendapatkan stat Sanity, progres Tugas Harian, dan data real-time lebih banyak lagi hanya dalam sentuhan jari Anda.</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://game.skport.com/endfield/game-data?header=0\">Buka</a></p><p></p><p><strong>[Panduan Build, Pilihan Tim]</strong></p><p>Alat Game memberikan Endministrator segudang info untuk referensi, menjangkau penetapan formasi tim, saran skill, dan strategi pertarungan. Carilah formasi yang dibagikan oleh pemain setia Arknights: Endfield lainnya, dan berikan suka pada formasi yang Anda sukai.</p><p>Kami berharap ini dapat membantu Endministrator untuk membentuk tim yang sempurna dengan cepat, dan siap menghadapi tantangan apa pun yang akan datang!</p><p><strong>Memuat Arknights: Endfield, buka [Sinkronisator Protokol], kemudian tekan tombol Alat Game.</strong></p>",
+              "linkType": 1
+            }
+          },
+          {
+            "cid": "7222",
+            "type": 0,
+            "tab": "news",
+            "orderType": 2,
+            "orderWeight": 20,
+            "displayType": "picture",
+            "startAt": 1769040000,
+            "focus": 0,
+            "title": "Akun Media Sosial Resmi",
+            "header": "",
+            "jumpButton": null,
+            "data": {
+              "url": "https://web-static.hg-cdn.com/upload/image/20260121/109844dfd71599ac44dc1aacac1a9f4a.jpg",
+              "link": "https://ef-webview.gryphline.com/act/social-media?u8_token={u8_token}&server={server}",
+              "linkType": 2
+            }
+          }
+        ]
+      },
+      "msg": ""
+    }
   }
 ]
