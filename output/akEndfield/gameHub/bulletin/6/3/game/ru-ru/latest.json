@@ -18,7 +18,7 @@
       "subChannel": "#DEFAULT",
       "lang": "ru-ru",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:ru-ru",
-      "version": "11bb9b160dd9ed5653fbc2f97d8b0fd9",
+      "version": "8ea3cf135caebe18b9bdba4e3e2cb38f",
       "onlineList": [
         {
           "cid": "4695",
@@ -135,6 +135,12 @@
           "needPopup": false
         },
         {
+          "cid": "2187",
+          "version": 1795663022,
+          "needRedDot": false,
+          "needPopup": false
+        },
+        {
           "cid": "8998",
           "version": 1769005692,
           "needRedDot": true,
@@ -166,7 +172,7 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1795644000,
+      "updatedAt": 1795663023,
       "list": [
         {
           "cid": "4695",
@@ -496,6 +502,24 @@
           "data": {
             "url": "https://web-static.hg-cdn.com/upload/image/20261120/ccd0cfdb0ec6ecdcdd0d37b4e0e1cb5b.jpg",
             "link": "https://endfield.gryphline.com/special/discord-binding",
+            "linkType": 1
+          }
+        },
+        {
+          "cid": "2187",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 5,
+          "displayType": "picture",
+          "startAt": 1795626000,
+          "focus": 0,
+          "title": "Официальный сайт для пополнения уже доступен",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20261124/7066ecddacecd7e2e73d27165eb302fd.png",
+            "link": "https://topup.gryphline.com/endfield?source_from=bulletin&u8_token={u8_token}&server={server}",
             "linkType": 1
           }
         },
