@@ -18,8 +18,14 @@
       "subChannel": "#DEFAULT",
       "lang": "zh-cn",
       "key": "0:Windows:#DEFAULT:1:#DEFAULT:zh-cn",
-      "version": "11ea0beefd81959d08ef79a4c40f340b",
+      "version": "647755628358053f7938aa400d0acc65",
       "onlineList": [
+        {
+          "cid": "8834",
+          "version": 1795661647,
+          "needRedDot": true,
+          "needPopup": false
+        },
         {
           "cid": "5404",
           "version": 1795013470,
@@ -36,12 +42,6 @@
           "cid": "3925",
           "version": 1795522831,
           "needRedDot": true,
-          "needPopup": false
-        },
-        {
-          "cid": "6340",
-          "version": 1795573857,
-          "needRedDot": false,
           "needPopup": false
         },
         {
@@ -178,8 +178,25 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1795622340,
+      "updatedAt": 1795662017,
       "list": [
+        {
+          "cid": "8834",
+          "type": 0,
+          "tab": "updates",
+          "orderType": 0,
+          "orderWeight": 1,
+          "displayType": "rich_text",
+          "startAt": 1795662000,
+          "focus": 1,
+          "title": "更新修复说明",
+          "header": "「穿越甚大蘑境与你相逢」版本更新修复说明",
+          "jumpButton": null,
+          "data": {
+            "html": "<img src=\"https://web.hycdn.cn/upload/image/20261125/ea189982ef67fc6a1a3e8151a2807f54.png\" data-width=\"1650\" data-height=\"300\"><p>亲爱的管理员：</p><p>为了给大家带来更好的游戏体验，我们将对游戏持续进行优化及问题修复。「穿越甚大蘑境与你相逢」版本期间更新修复说明如下：</p><p></p><p><strong>▼//游戏更新修复说明</strong></p><p><strong>■ 2026/11/26</strong></p><p>· 修正了【高容武陵电池】的道具描述。该电池通过设备封装获得，可用于发电和设备充能，无法作为交易货品进行据点交易。</p><p>· 修复了在挑战「密境行者 - 画外遗光」空间组的第四个协议空间【视线参差】时，使用弹射装置前往对面平台，干员可能在落地后异常死亡，导致挑战无法继续的问题。</p><p>· 修复了移动端在放飞蜜饼的引导过程中，异常显示切换便捷工具提示的问题。</p><p>· 优化了6星干员【小刻】在特定情况下的动作表现。</p><p>· 修复了在「彩蕈蜜境·归来」任务中消灭病变菌核后，过场动画中【小刻】的动作表现异常的问题。</p><p>· 修复了挑战【重度能量淤积点·旧水坝】时，实际出现的敌人等级与【敌方情报】中显示的等级不一致的问题。</p><p></p><p>如遇到其他问题，还请管理员通过游戏内客服等方式提供反馈。</p><p>期间带来的不便我们深表歉意，再次感谢管理员对《明日方舟：终末地》一直以来的关注与支持！</p>",
+            "linkType": 1
+          }
+        },
         {
           "cid": "5404",
           "type": 0,
@@ -230,24 +247,6 @@
           "data": {
             "url": "https://web.hycdn.cn/upload/image/20261124/2161f9558b9a31038c39b7931355790d.png",
             "link": "https://endfield.hypergryph.com/activity/campus-auth/?source_from=game&u8_token={u8_token}&server={server}",
-            "linkType": 1
-          }
-        },
-        {
-          "cid": "6340",
-          "type": 0,
-          "tab": "updates",
-          "orderType": 1,
-          "orderWeight": 1,
-          "displayType": "rich_text",
-          "startAt": 1795573800,
-          "focus": 1,
-          "extraData": {},
-          "title": "已知问题说明",
-          "header": "「穿越甚大蘑境与你相逢」版本已知问题说明",
-          "jumpButton": null,
-          "data": {
-            "html": "<img src=\"https://web.hycdn.cn/upload/image/20261125/6f4ae6db85baee40c80ed1ef09ed8af0.png\" data-width=\"1650\" data-height=\"300\"><p>亲爱的管理员：</p><p>为了帮助各位管理员更顺利地体验游戏内容，现将已知问题进行汇总。在游戏过程中，如管理员遇到相同问题，请您参考对应的解决方式进行处理。</p><p></p><p><strong>▼//游戏已知问题</strong></p><p>· 已知【高容武陵电池】的文本描述有误，该电池通过设备封装获得，可用于发电和设备充能，无法作为交易货品进行据点交易。后续更新将修正道具描述，使其与实际用途一致。</p><p>· <span>已知在「密境行者 - 画外遗光」空间组，挑战第四个协议空间【视线参差】时，使用弹射装置前往对面平台，角色可能在落地后异常死亡，导致挑战无法继续。若遇到该问题，可先记下当前解谜环节的密码，重新挑战并回到密码输入处后，直接输入记下的密码即可继续推进。</span></p>",
             "linkType": 1
           }
         },
