@@ -18,8 +18,14 @@
       "subChannel": "#DEFAULT",
       "lang": "it-it",
       "key": "0:Windows:3:#DEFAULT:#DEFAULT:it-it",
-      "version": "1d7e412b7c3ff00e38411d61a9f81cef",
+      "version": "85c47524a9aac77402c4f6f89bbc394c",
       "onlineList": [
+        {
+          "cid": "1352",
+          "version": 1795691695,
+          "needRedDot": true,
+          "needPopup": false
+        },
         {
           "cid": "3028",
           "version": 1795663193,
@@ -178,8 +184,26 @@
         }
       ],
       "popupVersion": 0,
-      "updatedAt": 1795690800,
+      "updatedAt": 1795752000,
       "list": [
+        {
+          "cid": "1352",
+          "type": 0,
+          "tab": "news",
+          "orderType": 1,
+          "orderWeight": 1,
+          "displayType": "picture",
+          "startAt": 1795752000,
+          "focus": 0,
+          "title": "New Official Merch Now Available",
+          "header": "",
+          "jumpButton": null,
+          "data": {
+            "url": "https://web-static.hg-cdn.com/upload/image/20261126/33b585d778564d3aa71da352687d4aeb.png",
+            "link": "https://store.gryphline.com",
+            "linkType": 1
+          }
+        },
         {
           "cid": "3028",
           "type": 0,
